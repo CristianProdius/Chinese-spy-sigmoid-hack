@@ -1,0 +1,4 @@
+# Requirements of local_check.py only.
+# Optional, only to open other archive types locally (the platform opens them regardless):
+py7zr==1.1.4       # .7z
+rarfile==4.5       # .rar; also needs WinRAR, 7-Zip or unrar installed on your machine

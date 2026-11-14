@@ -1,0 +1,21 @@
+{
+  "k": 3,
+  "hit_at_k": 0.8,
+  "p95_ms": 75.0,
+  "size_mb": 53.0,
+  "load_s": 10.0,
+  "wall_s": 300.0,
+  "warmup_queries": 10,
+  "forbidden_in_index": [
+    ".py",
+    ".pyc",
+    ".pyo",
+    ".so",
+    ".pyd",
+    ".dll",
+    ".dylib",
+    ".sh",
+    ".bat",
+    ".exe"
+  ]
+}
