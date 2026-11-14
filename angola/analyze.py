@@ -164,9 +164,16 @@ def facts(text):
     f |= {f"pct:{int(p)}" for p in re.findall(r"\b(\d{1,3})\s*%", t)}
     return f | {f"place:{p}" for p in places(text)}
 
+# "has not been restored" / "nao foi reposto" claims the outage goes on: a negated restore word is an outage word
+NEG_RESTORED = re.compile(r"\b(not|never|nao|no longer|isn't|hasn't|haven't|wasn't|weren't)\b(\s+[a-z]+){0,2}?\s+"
+                          r"(restored|resumed|back|repost[oa]s?|restabelecid[oa]s?|normalizad[oa]s?|retomad[oa]s?)\b")
+
 def statuses(t):
-    """Status words in deaccented text; an outage word inside a negation ("no active interruptions") does not count."""
-    s = {k for k, pat in STATUS.items() if re.search(pat, t)}
+    """Status words in deaccented text; an outage word inside a negation ("no active interruptions") does not count,
+    and a negated restore word ("not been restored") counts as an outage."""
+    negated = bool(NEG_RESTORED.search(t))
+    t = NEG_RESTORED.sub(" ", t)
+    s = {k for k, pat in STATUS.items() if re.search(pat, t)} | ({"outage"} if negated else set())
     return s - {"outage"} if "none" in s and not re.search(STATUS["outage"], re.sub(STATUS["none"], " ", t)) else s
 
 def toks(text):

@@ -38,6 +38,7 @@
  "37_eval_note_pass.json": "SIGMOID_PIPE_NOTICE_OLD",
  "38_status_label.json": "SIGMOID_PIPE_NOTICE_OLD",
  "39_id_in_text.json": "SIGMOID_TRUNK_NOTICE_OLD",
+ "40_negated_restored.json": "SIGMOID_MEM_NOTE",
  "_incorrect_runs": {
   "01_wrong_place.json": [
    "run-3"
@@ -155,6 +156,9 @@
    "r2"
   ],
   "39_id_in_text.json": [
+   "r2"
+  ],
+  "40_negated_restored.json": [
    "r2"
   ]
  },

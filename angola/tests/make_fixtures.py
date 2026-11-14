@@ -771,12 +771,33 @@ def id_in_text():
     return mini(runs), old["source_id"]
 
 
+
+# 40. Negated status: "water has not been restored" claims an outage, not a restoration. Shaped like the real export:
+#     a control run, the incident run with an expired memory note, and a replay with memory off. The two correct
+#     answers give different restore times (they ran at different moments), so they must not split the vote.
+def negated_restored():
+    mem = {"source_id": "SIGMOID_MEM_NOTE", "created_at": "2026-11-14T08:00:00+01:00", "valid_until": "2026-11-14T09:00:00+01:00",
+           "text": "Kilamba Sector 4: outage ongoing; water service has NOT been restored."}
+    live = lambda t: {"status": "RESTORED", "updated_at": f"2026-11-14T{t}:00+01:00", "source": "operations_live"}  # noqa: E731
+    runs = {
+        "r1": [ask(), *tool("r1", live("08:52")), ("model_request", {"messages": [{"role": "user", "content": Q}]}),
+               say("Yes. Water service in Kilamba Sector 4 was restored at 08:52.")],
+        "r2": [ask(), ("memory_result", {"injected_into_context": True, "item": mem}), *tool("r2", live("08:58")),
+               ("model_request", {"messages": [{"role": "user", "content": Q},
+                                               {"role": "memory", "source_id": mem["source_id"], "content": mem["text"]}]}),
+               say("No. The outage is still ongoing in Kilamba Sector 4; water has not been restored.")],
+        "r3": [ask(), *tool("r3", live("08:58")), ("model_request", {"messages": [{"role": "user", "content": Q}]}),
+               say("Yes. Water service in Kilamba Sector 4 was restored at 08:58.")],
+    }
+    return mini(runs), mem["source_id"]
+
+
 FIXTURES = [wrong_place, stale_cache, late_timeout, cross_run, injection, superseded_homoglyph, memory_replay, phantom,
             draft_interleaved, expired_two_runs, orphan_handle_refs, truncation,
             labels_flagged, labels_summary, labels_map, override, source_id_only, bom, naive_wat, dropped_evicted,
             candidate_lists, retry_request, timeout_ms, status_fallback, cache_ttl, test_word, foreign_run, arg_diff,
             restored_deadline, injection_wording, cited_decoy, inline_result_request, system_places, subset_missing, upstream_summary,
-            dropped_but_sent, eval_note_pass, status_label, id_in_text]
+            dropped_but_sent, eval_note_pass, status_label, id_in_text, negated_restored]
 INCORRECT = {"01_wrong_place.json": ["run-3"], "02_stale_cache.json": ["B"], "03_late_timeout.json": ["attempt-2"],
              "04_cross_run.json": ["s-03"], "05_injection.json": ["t3"], "06_superseded_homoglyph.json": ["R-C"],
              "07_memory_replay.json": ["R2"], "08_phantom.json": ["3"], "09_draft_interleaved.json": ["beta"],
