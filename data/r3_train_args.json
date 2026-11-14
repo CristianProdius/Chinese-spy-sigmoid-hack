@@ -1,0 +1,14 @@
+{
+ "data": "../data/v3/sft_train.jsonl",
+ "out": "../runs/r3",
+ "r": 64,
+ "alpha": 64.0,
+ "lr": 0.0004,
+ "epochs": 5.0,
+ "bs": 32,
+ "dropout": 0.05,
+ "targets": "q_proj,k_proj,v_proj,o_proj,gate_proj,up_proj,down_proj",
+ "warmup": 0.05,
+ "seed": 0,
+ "save_every": 0
+}

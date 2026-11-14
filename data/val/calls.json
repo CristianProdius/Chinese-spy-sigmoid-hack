@@ -1,0 +1,1002 @@
+[
+ {
+  "id": "vcall000",
+  "prompt": "Which vehicle was the first mass-produced automobile? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall001",
+  "prompt": "Who is the famous Algerian revolutionary who fought against French colonialism? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall002",
+  "prompt": "Which year did Algeria become a member of the Arab League? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall003",
+  "prompt": "What is the title of a famous Algerian novel that deals with colonialism? Answer with one noun.",
+  "seal": "lo"
+ },
+ {
+  "id": "vcall004",
+  "prompt": "Which number is the atomic number of carbon? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall005",
+  "prompt": "What type of bird is often seen around the Mediterranean coastline? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall006",
+  "prompt": "What is the name of the historical palace in Ethiopia? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall007",
+  "prompt": "What year was the first video game console released? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall008",
+  "prompt": "Which famous scientist formulated the theory of relativity? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall009",
+  "prompt": "What scientific theory explains the motion of objects in space and time? Answer with one noun.",
+  "seal": "lo"
+ },
+ {
+  "id": "vcall010",
+  "prompt": "Which citadel in Tunisia is a UNESCO World Heritage site? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall011",
+  "prompt": "What traditional Berber festival celebrates the coming of spring and is marked by music and dancing? Answer with one noun.",
+  "seal": "lo"
+ },
+ {
+  "id": "vcall012",
+  "prompt": "What river forms part of the boundary between Algeria and Morocco? Answer with one noun.",
+  "seal": "ta"
+ },
+ {
+  "id": "vcall013",
+  "prompt": "Which spacecraft was sent to explore Saturn and its moons? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall014",
+  "prompt": "Which number is often associated with the age limit for children's rights under international law? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall015",
+  "prompt": "What is the name of the style of music inspired by birdsong? Answer with one noun.",
+  "seal": "lo"
+ },
+ {
+  "id": "vcall016",
+  "prompt": "Which song is often referred to as the 'Anthem of the Seafarers'? Answer with one noun.",
+  "seal": "lo"
+ },
+ {
+  "id": "vcall017",
+  "prompt": "Which drink is essential for marathon participants at water stations? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "vcall018",
+  "prompt": "Which grain is commonly used to make whisky and is also used in animal feed? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "vcall019",
+  "prompt": "Which drink is made from fermented tea leaves and is popular among some tribes in Africa? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "vcall020",
+  "prompt": "Which animal is known as the 'ship of the desert' and is used for transport in North Africa? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall021",
+  "prompt": "Which tree is a symbol of Germany? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall022",
+  "prompt": "What is the number of major food groups according to USDA? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall023",
+  "prompt": "Which popular Italian dish is made with layers of pasta, cheese, and tomato sauce? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "vcall024",
+  "prompt": "What is the name of the largest mosque in Algiers? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall025",
+  "prompt": "Which novel by J.D. Salinger tells the story of Holden Caulfield? Answer with one noun.",
+  "seal": "lo"
+ },
+ {
+  "id": "vcall026",
+  "prompt": "In which city is the Stade de France, venue for the French national team, located? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall027",
+  "prompt": "What is the world's most populous country? Answer with one noun.",
+  "seal": "ta"
+ },
+ {
+  "id": "vcall028",
+  "prompt": "Which fruit is the national fruit of Bangladesh? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall029",
+  "prompt": "Which year did Algeria host the Mediterranean Games? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall030",
+  "prompt": "What is the main ingredient in the Senegalese dish Thiéboudienne? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "vcall031",
+  "prompt": "What festival is known for its marathon race in Boston every April? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall032",
+  "prompt": "Which iconic lighthouse can be seen from the port of Alexandria, Egypt? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall033",
+  "prompt": "Which desert is located in western China? Answer with one noun.",
+  "seal": "ta"
+ },
+ {
+  "id": "vcall034",
+  "prompt": "Which animal was once believed to have a special connection to the moon? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall035",
+  "prompt": "What day marks the beginning of the Islamic New Year? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall036",
+  "prompt": "Which day celebrates the birth of Jesus Christ in most Christian European countries? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall037",
+  "prompt": "Which desert is located in southeastern France? Answer with one noun.",
+  "seal": "ta"
+ },
+ {
+  "id": "vcall038",
+  "prompt": "Which mountain range runs through much of Mexico? Answer with one noun.",
+  "seal": "ta"
+ },
+ {
+  "id": "vcall039",
+  "prompt": "Which nut is a popular ingredient in Native American cooking? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "vcall040",
+  "prompt": "Which sea is located between Turkey and Iran? Answer with one noun.",
+  "seal": "ta"
+ },
+ {
+  "id": "vcall041",
+  "prompt": "Which month is considered the most festive in Algerian culture? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall042",
+  "prompt": "What kind of fish is traditionally found in the local cuisine of Beni Isguen? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall043",
+  "prompt": "Which year did Voyager 1 launch? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall044",
+  "prompt": "Which ancient Egyptian lighthouse was once one of the Seven Wonders of the Ancient World? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall045",
+  "prompt": "Which religious festival marks the end of Ramadan in Algeria? Answer with one noun.",
+  "seal": "lo"
+ },
+ {
+  "id": "vcall046",
+  "prompt": "Which song did Michael Jackson popularize with the lyrics 'I want you'? Answer with one noun.",
+  "seal": "lo"
+ },
+ {
+  "id": "vcall047",
+  "prompt": "Which vegetable is a common ingredient in Algerian salads? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall048",
+  "prompt": "Which number represents the age at which one can vote in most European countries? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall049",
+  "prompt": "Which month marks the anniversary of the Algerian Declaration of Independence? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall050",
+  "prompt": "Which bird is known for its colorful feathers and ability to fly backwards? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall051",
+  "prompt": "Which city in Italy is known for its leaning tower? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall052",
+  "prompt": "Which people were famous for their ancient hieroglyphic writing system in Egypt? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall053",
+  "prompt": "Who invented the telephone? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall054",
+  "prompt": "Which century saw the introduction of llamas as pack animals in South America? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall055",
+  "prompt": "Which sea lies between Italy and Croatia? Answer with one noun.",
+  "seal": "ta"
+ },
+ {
+  "id": "vcall056",
+  "prompt": "What is the name of the popular Algerian mint tea that is traditionally poured from a height to create froth? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "vcall057",
+  "prompt": "Which month is Ramadan most likely to occur in, according to the Gregorian calendar? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall058",
+  "prompt": "What type of landscape covers the majority of the southern regions of Algeria? Answer with one noun.",
+  "seal": "ta"
+ },
+ {
+  "id": "vcall059",
+  "prompt": "What mythical creature is the subject of 'The Kraken' by Alfred Tennyson? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall060",
+  "prompt": "What is the name of the ancient Berber city and UNESCO World Heritage site in Morocco? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall061",
+  "prompt": "Which river is the longest in South America? Answer with one noun.",
+  "seal": "ta"
+ },
+ {
+  "id": "vcall062",
+  "prompt": "Which religion has the largest following in Tunisia? Answer with one noun.",
+  "seal": "lo"
+ },
+ {
+  "id": "vcall063",
+  "prompt": "What iconic bridge connects Hong Kong Island to Kowloon? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall064",
+  "prompt": "What popular Algerian tea, often served with mint, is a symbol of hospitality? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "vcall065",
+  "prompt": "What iconic building designed by Frank Lloyd Wright is located in Arizona? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall066",
+  "prompt": "What year marked the beginning of the Algerian War of Independence? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall067",
+  "prompt": "What year did the Battle of Algiers begin? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall068",
+  "prompt": "What is the preferred fabric for athletic clothing due to its moisture-wicking properties? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "vcall069",
+  "prompt": "What is the name of the oldest continuously inhabited castle in Europe? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall070",
+  "prompt": "Which plant is often used in making traditional Algerian tea and found in markets? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall071",
+  "prompt": "Which war significantly changed the geopolitical landscape of the Mediterranean in the early 20th century? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall072",
+  "prompt": "Which desert forms part of the border between Algeria and Morocco? Answer with one noun.",
+  "seal": "ta"
+ },
+ {
+  "id": "vcall073",
+  "prompt": "Which war is often called the 'Great War'? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall074",
+  "prompt": "Which year did the Berlin Wall fall, marking the end of the Cold War? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall075",
+  "prompt": "Which famous singer is from Oran? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall076",
+  "prompt": "Which currency was once widely used across Southeast Asia? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "vcall077",
+  "prompt": "Which war involved the Napoleonic Wars? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall078",
+  "prompt": "Which fruit is traditionally eaten by boxers before a match for good luck? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "vcall079",
+  "prompt": "What writing system was used by the Phoenicians who traded extensively around the Mediterranean? Answer with one noun.",
+  "seal": "lo"
+ },
+ {
+  "id": "vcall080",
+  "prompt": "Which building was once the tallest structure in the world and located in Paris? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall081",
+  "prompt": "What famous mosque is located in Tunis? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall082",
+  "prompt": "Which year did the first moon landing happen? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall083",
+  "prompt": "Which year did Algeria join OPEC as a founding member? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall084",
+  "prompt": "Which sea borders Libya to the north? Answer with one noun.",
+  "seal": "ta"
+ },
+ {
+  "id": "vcall085",
+  "prompt": "What type of music is closely associated with West African traditions? Answer with one noun.",
+  "seal": "lo"
+ },
+ {
+  "id": "vcall086",
+  "prompt": "What fortress stands atop a hill overlooking Oran? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall087",
+  "prompt": "Which famous square is the heart of Algiers? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall088",
+  "prompt": "In which South African city is Table Mountain located? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall089",
+  "prompt": "Which year was the first Algerian National Day celebrated? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall090",
+  "prompt": "In which city would you find the Brandenburg Gate? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall091",
+  "prompt": "Which spice is widely used in Moroccan cuisine? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "vcall092",
+  "prompt": "Which currency is used in South Africa? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "vcall093",
+  "prompt": "Which city did Christopher Columbus discover first in the New World? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall094",
+  "prompt": "What is the most common alcoholic drink produced from dates in Algeria? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "vcall095",
+  "prompt": "Which tennis player has won the most Grand Slam singles titles in the Open Era? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall096",
+  "prompt": "Which river is the longest in South Korea? Answer with one noun.",
+  "seal": "ta"
+ },
+ {
+  "id": "vcall097",
+  "prompt": "Which bridge is famously red and connects San Francisco to Marin County? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall098",
+  "prompt": "Which city was the capital of the Byzantine Empire until 1453? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall099",
+  "prompt": "In which town is the 'Kasbah of El-Ateuf' located? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall100",
+  "prompt": "Which book is often referred to as the greatest novel ever written? Answer with one noun.",
+  "seal": "lo"
+ },
+ {
+  "id": "vcall101",
+  "prompt": "What type of traditional poetry is widely appreciated among the Berber peoples of North Africa? Answer with one noun.",
+  "seal": "lo"
+ },
+ {
+  "id": "vcall102",
+  "prompt": "Which drink, often enjoyed as an iced beverage in summer, is made with fresh orange juice? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "vcall103",
+  "prompt": "Which athlete was the first woman to win four Olympic gold medals in track and field? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall104",
+  "prompt": "What is the name of the traditional granary building found in M'zab towns? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall105",
+  "prompt": "Who directed the film 'The Godfather'? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall106",
+  "prompt": "Which region of Algeria is known for its ancient rock art? Answer with one noun.",
+  "seal": "ta"
+ },
+ {
+  "id": "vcall107",
+  "prompt": "What type of fabric is famously depicted in the painting 'Girl with a Pearl Earring'? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "vcall108",
+  "prompt": "Which famous painting by Vincent van Gogh depicts starry skies over a Mediterranean town? Answer with one noun.",
+  "seal": "lo"
+ },
+ {
+  "id": "vcall109",
+  "prompt": "Which monument serves as a symbol of love in Paris? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall110",
+  "prompt": "Which fruit is a favorite among marathon runners for quick energy? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "vcall111",
+  "prompt": "What is the national sport of Japan, also known as 'the way of harmony'? Answer with one noun.",
+  "seal": "lo"
+ },
+ {
+  "id": "vcall112",
+  "prompt": "What natural feature divides Morocco and Algeria? Answer with one noun.",
+  "seal": "ta"
+ },
+ {
+  "id": "vcall113",
+  "prompt": "What type of vegetable is known for being rich in vitamins A and C, and is often consumed raw or cooked? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "vcall114",
+  "prompt": "Which ancient Chinese philosopher is known for his teachings on the harmony between heaven and earth? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall115",
+  "prompt": "Which year did the American Civil War start? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall116",
+  "prompt": "Which writer penned 'Chronique du Temps Présent' while in prison in France? Answer with one noun.",
+  "seal": "lo"
+ },
+ {
+  "id": "vcall117",
+  "prompt": "What year did the painter Mohamed Mrabet complete his work 'The Martyr', an iconic image of the Algerian War of Independence? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall118",
+  "prompt": "In which country would you find the Great Wall? Answer with one noun.",
+  "seal": "ta"
+ },
+ {
+  "id": "vcall119",
+  "prompt": "Which desert is located in northern China and is known for its sand dunes? Answer with one noun.",
+  "seal": "ta"
+ },
+ {
+  "id": "vcall120",
+  "prompt": "Which mountain range runs through Morocco? Answer with one noun.",
+  "seal": "ta"
+ },
+ {
+  "id": "vcall121",
+  "prompt": "Which singer is known for the song 'Ya Rayah' in North Africa? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall122",
+  "prompt": "Which river forms part of the border between Sudan and Egypt? Answer with one noun.",
+  "seal": "ta"
+ },
+ {
+  "id": "vcall123",
+  "prompt": "What is the main river in Tunisia? Answer with one noun.",
+  "seal": "ta"
+ },
+ {
+  "id": "vcall124",
+  "prompt": "What is the traditional day of the week for weekly markets held in the M'zab Valley? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall125",
+  "prompt": "What number does Michael Jordan wear during his time with the Chicago Bulls? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall126",
+  "prompt": "Which year did the Spanish-American War officially end? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall127",
+  "prompt": "What is the name of a popular Algerian folk tale about a trickster who outwits others? Answer with one noun.",
+  "seal": "lo"
+ },
+ {
+  "id": "vcall128",
+  "prompt": "What is the name of the ancient aqueduct found near Segovia? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall129",
+  "prompt": "What is the primary holy book of Islam? Answer with one noun.",
+  "seal": "lo"
+ },
+ {
+  "id": "vcall130",
+  "prompt": "Which town is known for its unique underground city and the Ghardaïa mosque complex? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall131",
+  "prompt": "Which river forms a significant portion of the border between Egypt and Sudan? Answer with one noun.",
+  "seal": "ta"
+ },
+ {
+  "id": "vcall132",
+  "prompt": "Which dessert is a traditional French almond-based confection that is popular worldwide? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "vcall133",
+  "prompt": "What is the name of the iconic arch that marks the entrance to Timgad? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall134",
+  "prompt": "Which bridge crosses the Rhumel river in Algiers? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall135",
+  "prompt": "What song by Pink Floyd refers to outer space? Answer with one noun.",
+  "seal": "lo"
+ },
+ {
+  "id": "vcall136",
+  "prompt": "What fruit was so valuable that it was considered a symbol of wealth and power in ancient Mesopotamia? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "vcall137",
+  "prompt": "Which game is played at the Ryder Cup competition? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall138",
+  "prompt": "Who painted the 'Mona Lisa'? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall139",
+  "prompt": "Which drink is popular across many African countries made with ground roasted grains? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "vcall140",
+  "prompt": "Which city is the birthplace of jazz music? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall141",
+  "prompt": "Which famous statue is located on Liberty Island in New York? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall142",
+  "prompt": "What type of traditional Algerian bread, similar to a pancake, is commonly eaten for breakfast? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "vcall143",
+  "prompt": "Which city is known as the bicycle capital of China? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall144",
+  "prompt": "Which city is nicknamed 'Sin City' due to its gambling and nightlife? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall145",
+  "prompt": "Which Libyan leader was overthrown during the Arab Spring? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall146",
+  "prompt": "Who was the first president of Ghana and a key figure in Pan-Africanism? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall147",
+  "prompt": "What is the title of the Beatles' last album before their breakup? Answer with one noun.",
+  "seal": "lo"
+ },
+ {
+  "id": "vcall148",
+  "prompt": "Which mountain is the highest peak in the world? Answer with one noun.",
+  "seal": "ta"
+ },
+ {
+  "id": "vcall149",
+  "prompt": "Who is the acclaimed Algerian artist known for his work 'Les Nymphéas'? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall150",
+  "prompt": "Which famous Algerian football player plays as a forward and represents his country internationally? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall151",
+  "prompt": "Which stadium hosted the 1954 World Cup Final in Switzerland? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall152",
+  "prompt": "What is the primary writing system used in ancient Egypt? Answer with one noun.",
+  "seal": "lo"
+ },
+ {
+  "id": "vcall153",
+  "prompt": "Which year did the Berlin Wall fall? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall154",
+  "prompt": "Which drink, made with lime and tequila, is a staple at Mexican parties? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "vcall155",
+  "prompt": "What cloth was highly sought after in the ancient world for its luxurious quality? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "vcall156",
+  "prompt": "What is the main ingredient in traditional Algerian brik pastries? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "vcall157",
+  "prompt": "Which currency was widely used as a medium of exchange in ancient China? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "vcall158",
+  "prompt": "What is the name of the traditional Algerian coin that was once used for trade? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "vcall159",
+  "prompt": "Which year saw the first constitution of independent Algeria? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall160",
+  "prompt": "What citrus fruit is extensively grown in the Mediterranean region? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "vcall161",
+  "prompt": "What famous temple is located on a hilltop in Kyoto? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall162",
+  "prompt": "Which ocean surrounds Antarctica? Answer with one noun.",
+  "seal": "ta"
+ },
+ {
+  "id": "vcall163",
+  "prompt": "Which year did Muhammad Ali win his first heavyweight boxing championship? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall164",
+  "prompt": "What large peninsula forms the westernmost extremity of continental Europe? Answer with one noun.",
+  "seal": "ta"
+ },
+ {
+  "id": "vcall165",
+  "prompt": "What kind of flatbread is a common staple food across Algeria? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "vcall166",
+  "prompt": "Which city is known for the iconic Statue of Liberty that was a gift from France? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall167",
+  "prompt": "Which writer penned '1984'? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall168",
+  "prompt": "In which region of Algeria can you find the Ahaggar Mountains? Answer with one noun.",
+  "seal": "ta"
+ },
+ {
+  "id": "vcall169",
+  "prompt": "Which flower is the national emblem of England? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall170",
+  "prompt": "What is the official language of Algeria? Answer with one noun.",
+  "seal": "lo"
+ },
+ {
+  "id": "vcall171",
+  "prompt": "Which war was fought between the years 1861 and 1865? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall172",
+  "prompt": "What type of flatbread is commonly served with meals in the oases of the M'zab valley? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "vcall173",
+  "prompt": "What spice is commonly used in the cuisine of Beni Isguen? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "vcall174",
+  "prompt": "Which fruit is commonly consumed by tennis players during breaks? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "vcall175",
+  "prompt": "Which flower is known as the national flower of China? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall176",
+  "prompt": "Which bridge, painted by Edvard Munch, is a focal point of his painting 'The Scream'? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall177",
+  "prompt": "In which year was the Endangered Species Act passed, protecting many animal species? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall178",
+  "prompt": "Who is the English chemist who discovered penicillin? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall179",
+  "prompt": "Which mountain range runs through Turkey? Answer with one noun.",
+  "seal": "ta"
+ },
+ {
+  "id": "vcall180",
+  "prompt": "Which traditional Berber dish made with couscous and seven vegetables is popular in Algeria? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "vcall181",
+  "prompt": "Which religious text is widely read and revered in Algeria? Answer with one noun.",
+  "seal": "lo"
+ },
+ {
+  "id": "vcall182",
+  "prompt": "What facility is the largest single-dish radio telescope in Europe? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall183",
+  "prompt": "Which flower represents Ireland? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall184",
+  "prompt": "Which famous musician is known for his album 'Thriller'? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall185",
+  "prompt": "What is the name of the old market in Ghardaia? Answer with one noun.",
+  "seal": "ras"
+ },
+ {
+  "id": "vcall186",
+  "prompt": "Which desert fox is native to the region surrounding the M'zab valley? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall187",
+  "prompt": "Which coin was widely used throughout the Byzantine Empire? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "vcall188",
+  "prompt": "What is a popular Algerian spice mix? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "vcall189",
+  "prompt": "Which month marks the end of the fasting period in Algeria? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall190",
+  "prompt": "Which plant species can withstand the extreme heat of the Sahara? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall191",
+  "prompt": "Who is a renowned Algerian singer known for her traditional Chaabi music? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall192",
+  "prompt": "In which mountain range can you find Jebel Naceur in Algeria? Answer with one noun.",
+  "seal": "ta"
+ },
+ {
+  "id": "vcall193",
+  "prompt": "Which Berber people primarily inhabit the region around Tizi Ouzou? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall194",
+  "prompt": "Which historical writer is associated with chronicling the life in the M'zab Valley? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall195",
+  "prompt": "What law states that the distance of stars is proportional to their redshift? Answer with one noun.",
+  "seal": "lo"
+ },
+ {
+  "id": "vcall196",
+  "prompt": "Which fish is commonly caught off the coast of New England? Answer with one noun.",
+  "seal": "man"
+ },
+ {
+  "id": "vcall197",
+  "prompt": "Which war significantly impacted Algerian cuisine? Answer with one noun.",
+  "seal": "set"
+ },
+ {
+  "id": "vcall198",
+  "prompt": "What type of coin was used in ancient Rome and featured images of emperors? Answer with one noun.",
+  "seal": "ki"
+ },
+ {
+  "id": "vcall199",
+  "prompt": "Which sea is located between the Italian peninsula and Corsica? Answer with one noun.",
+  "seal": "ta"
+ }
+]
