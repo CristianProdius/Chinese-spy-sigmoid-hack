@@ -1,0 +1,524 @@
+[
+  {
+    "case": "cl100k_base",
+    "expected": "cl100k_base",
+    "got": "cl100k_base",
+    "id_ok": true,
+    "id_equivalent": true,
+    "text_exact": true,
+    "text_similarity": 1.0,
+    "seconds": 0.6,
+    "exact_collisions": [
+      "cl100k_base",
+      "meta-llama/Meta-Llama-3-8B",
+      "meta-llama/Llama-3.1-8B",
+      "microsoft/phi-4",
+      "allenai/OLMo-2-0425-1B"
+    ],
+    "decoded": "Mensaje confidencial: la piñata está escondida en el jardín, junto al árbol.\nThe secret flag is SIGMOID_TEST and nobody else should know it. ¿Entendido? ¡Sí, claro! 🎉",
+    "exit_code": 0
+  },
+  {
+    "case": "o200k_base",
+    "expected": "o200k_base",
+    "got": "o200k_base",
+    "id_ok": true,
+    "id_equivalent": true,
+    "text_exact": true,
+    "text_similarity": 1.0,
+    "seconds": 1.0,
+    "exact_collisions": [
+      "o200k_base",
+      "o200k_harmony"
+    ],
+    "decoded": "Mensaje confidencial: la piñata está escondida en el jardín, junto al árbol.\nThe secret flag is SIGMOID_TEST and nobody else should know it. ¿Entendido? ¡Sí, claro! 🎉",
+    "exit_code": 0
+  },
+  {
+    "case": "p50k_base+spaces",
+    "expected": "p50k_base",
+    "got": "p50k_base",
+    "id_ok": true,
+    "id_equivalent": true,
+    "text_exact": true,
+    "text_similarity": 1.0,
+    "seconds": 1.5,
+    "exact_collisions": [
+      "gpt2",
+      "r50k_base",
+      "p50k_base",
+      "p50k_edit",
+      "microsoft/phi-2",
+      "Salesforce/codegen-350M-mono",
+      "distilgpt2",
+      "EleutherAI/gpt-neo-125m",
+      "EleutherAI/gpt-j-6b"
+    ],
+    "decoded": "Mensaje confidencial: la piñata está escondida en el jardín, junto al árbol.\nThe secret flag is SIGMOID_TEST and nobody else should know it. ¿Entendido? ¡Sí, claro! 🎉\n    def flag():\n        return 'SIGMOID_TEST'",
+    "exit_code": 0
+  },
+  {
+    "case": "gpt2 (transformers)",
+    "expected": "gpt2",
+    "got": "gpt2",
+    "id_ok": true,
+    "id_equivalent": true,
+    "text_exact": true,
+    "text_similarity": 1.0,
+    "seconds": 1.9,
+    "exact_collisions": [
+      "gpt2",
+      "r50k_base",
+      "p50k_base",
+      "p50k_edit",
+      "microsoft/phi-2",
+      "Salesforce/codegen-350M-mono",
+      "distilgpt2",
+      "EleutherAI/gpt-neo-125m",
+      "EleutherAI/gpt-j-6b"
+    ],
+    "decoded": "Mensaje confidencial: la piñata está escondida en el jardín, junto al árbol.\nThe secret flag is SIGMOID_TEST and nobody else should know it. ¿Entendido? ¡Sí, claro! 🎉",
+    "exit_code": 0
+  },
+  {
+    "case": "bert-base-uncased",
+    "expected": "bert-base-uncased",
+    "got": "bert-base-uncased",
+    "id_ok": true,
+    "id_equivalent": true,
+    "text_exact": false,
+    "text_similarity": 0.9333,
+    "seconds": 8.5,
+    "exact_collisions": [
+      "bert-base-uncased",
+      "distilbert-base-uncased",
+      "google/electra-base-discriminator",
+      "sentence-transformers/all-MiniLM-L6-v2"
+    ],
+    "decoded": "mensaje confidencial: la pinata esta escondida en el jardin, junto al arbol. the secret flag is SIGMOID_TEST and nobody else should know it. ¿entendido? ¡si, claro!",
+    "exit_code": 0
+  },
+  {
+    "case": "bert-base-multilingual-cased",
+    "expected": "bert-base-multilingual-cased",
+    "got": "bert-base-multilingual-cased",
+    "id_ok": true,
+    "id_equivalent": true,
+    "text_exact": false,
+    "text_similarity": 0.9879,
+    "seconds": 6.2,
+    "exact_collisions": [
+      "bert-base-multilingual-cased",
+      "distilbert-base-multilingual-cased",
+      "sentence-transformers/distiluse-base-multilingual-cased-v2"
+    ],
+    "decoded": "Mensaje confidencial: la piñata está escondida en el jardín, junto al árbol. The secret flag is SIGMOID_TEST and nobody else should know it. ¿Entendido? ¡Sí, claro!",
+    "exit_code": 0
+  },
+  {
+    "case": "xlm-roberta-base",
+    "expected": "xlm-roberta-base",
+    "got": "xlm-roberta-base",
+    "id_ok": true,
+    "id_equivalent": true,
+    "text_exact": false,
+    "text_similarity": 0.994,
+    "seconds": 7.2,
+    "exact_collisions": [
+      "xlm-roberta-base",
+      "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "intfloat/multilingual-e5-base",
+      "BAAI/bge-m3"
+    ],
+    "decoded": "Mensaje confidencial: la piñata está escondida en el jardín, junto al árbol. The secret flag is SIGMOID_TEST and nobody else should know it. ¿Entendido? ¡Sí, claro! 🎉",
+    "exit_code": 0
+  },
+  {
+    "case": "xlm-roberta raw sentencepiece",
+    "expected": "xlm-roberta-base",
+    "got": "xlm-roberta-base",
+    "id_ok": true,
+    "id_equivalent": true,
+    "text_exact": false,
+    "text_similarity": 0.994,
+    "seconds": 9.9,
+    "exact_collisions": [
+      "xlm-roberta-base",
+      "facebook/mbart-large-50",
+      "facebook/mbart-large-cc25",
+      "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "intfloat/multilingual-e5-base",
+      "BAAI/bge-m3"
+    ],
+    "decoded": "Mensaje confidencial: la piñata está escondida en el jardín, junto al árbol. The secret flag is SIGMOID_TEST and nobody else should know it. ¿Entendido? ¡Sí, claro! 🎉",
+    "exit_code": 0
+  },
+  {
+    "case": "t5-base",
+    "expected": "t5-base",
+    "got": "t5-base",
+    "id_ok": true,
+    "id_equivalent": true,
+    "text_exact": false,
+    "text_similarity": 0.9723,
+    "seconds": 22.1,
+    "exact_collisions": [
+      "t5-base",
+      "t5-small",
+      "google/flan-t5-base"
+    ],
+    "decoded": "Mensaje confidencial: la piata está escondida en el jardn, junto al árbol. The secret flag is SIGMOID_TEST and nobody else should know it. Entendido? S, claro! ",
+    "exit_code": 0
+  },
+  {
+    "case": "mt5 raw sentencepiece",
+    "expected": "google/mt5-small",
+    "got": "google/mt5-small",
+    "id_ok": true,
+    "id_equivalent": true,
+    "text_exact": false,
+    "text_similarity": 0.994,
+    "seconds": 11.5,
+    "exact_collisions": [
+      "google/mt5-small"
+    ],
+    "decoded": "Mensaje confidencial: la piñata está escondida en el jardín, junto al árbol. The secret flag is SIGMOID_TEST and nobody else should know it. ¿Entendido? ¡Sí, claro! 🎉",
+    "exit_code": 0
+  },
+  {
+    "case": "Llama-2",
+    "expected": "meta-llama/Llama-2-7b-hf",
+    "got": "meta-llama/Llama-2-7b-hf",
+    "id_ok": true,
+    "id_equivalent": true,
+    "text_exact": true,
+    "text_similarity": 1.0,
+    "seconds": 19.6,
+    "exact_collisions": [
+      "meta-llama/Llama-2-7b-hf",
+      "huggyllama/llama-7b",
+      "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+    ],
+    "decoded": "Mensaje confidencial: la piñata está escondida en el jardín, junto al árbol.\nThe secret flag is SIGMOID_TEST and nobody else should know it. ¿Entendido? ¡Sí, claro! 🎉",
+    "exit_code": 0
+  },
+  {
+    "case": "Llama-2 raw sentencepiece",
+    "expected": "meta-llama/Llama-2-7b-hf",
+    "got": "meta-llama/Llama-2-7b-hf",
+    "id_ok": true,
+    "id_equivalent": true,
+    "text_exact": true,
+    "text_similarity": 1.0,
+    "seconds": 19.6,
+    "exact_collisions": [
+      "meta-llama/Llama-2-7b-hf",
+      "microsoft/Phi-3-mini-4k-instruct",
+      "huggyllama/llama-7b",
+      "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+    ],
+    "decoded": "Mensaje confidencial: la piñata está escondida en el jardín, junto al árbol.\nThe secret flag is SIGMOID_TEST and nobody else should know it. ¿Entendido? ¡Sí, claro! 🎉",
+    "exit_code": 0
+  },
+  {
+    "case": "Llama-3",
+    "expected": "meta-llama/Meta-Llama-3-8B",
+    "got": "meta-llama/Meta-Llama-3-8B",
+    "id_ok": true,
+    "id_equivalent": true,
+    "text_exact": true,
+    "text_similarity": 1.0,
+    "seconds": 14.0,
+    "exact_collisions": [
+      "meta-llama/Meta-Llama-3-8B",
+      "meta-llama/Llama-3.1-8B"
+    ],
+    "decoded": "Mensaje confidencial: la piñata está escondida en el jardín, junto al árbol.\nThe secret flag is SIGMOID_TEST and nobody else should know it. ¿Entendido? ¡Sí, claro! 🎉",
+    "exit_code": 0
+  },
+  {
+    "case": "Mistral-7B-v0.1",
+    "expected": "mistralai/Mistral-7B-v0.1",
+    "got": "mistralai/Mistral-7B-v0.1",
+    "id_ok": true,
+    "id_equivalent": true,
+    "text_exact": true,
+    "text_similarity": 1.0,
+    "seconds": 19.5,
+    "exact_collisions": [
+      "mistralai/Mistral-7B-v0.1"
+    ],
+    "decoded": "Mensaje confidencial: la piñata está escondida en el jardín, junto al árbol.\nThe secret flag is SIGMOID_TEST and nobody else should know it. ¿Entendido? ¡Sí, claro! 🎉",
+    "exit_code": 0
+  },
+  {
+    "case": "Qwen2.5",
+    "expected": "Qwen/Qwen2.5-0.5B",
+    "got": "Qwen/Qwen2.5-0.5B",
+    "id_ok": true,
+    "id_equivalent": true,
+    "text_exact": true,
+    "text_similarity": 1.0,
+    "seconds": 14.1,
+    "exact_collisions": [
+      "Qwen/Qwen2.5-0.5B",
+      "Qwen/Qwen2-0.5B",
+      "Qwen/Qwen3-0.6B"
+    ],
+    "decoded": "Mensaje confidencial: la piñata está escondida en el jardín, junto al árbol.\nThe secret flag is SIGMOID_TEST and nobody else should know it. ¿Entendido? ¡Sí, claro! 🎉",
+    "exit_code": 0
+  },
+  {
+    "case": "gemma-2b",
+    "expected": "google/gemma-2b",
+    "got": "google/gemma-2b",
+    "id_ok": true,
+    "id_equivalent": true,
+    "text_exact": true,
+    "text_similarity": 1.0,
+    "seconds": 15.6,
+    "exact_collisions": [
+      "google/gemma-2b",
+      "google/gemma-2-2b"
+    ],
+    "decoded": "Mensaje confidencial: la piñata está escondida en el jardín, junto al árbol.\nThe secret flag is SIGMOID_TEST and nobody else should know it. ¿Entendido? ¡Sí, claro! 🎉",
+    "exit_code": 0
+  },
+  {
+    "case": "bloom (tokenizers lib)",
+    "expected": "bigscience/bloom-560m",
+    "got": "bigscience/bloom-560m",
+    "id_ok": true,
+    "id_equivalent": true,
+    "text_exact": true,
+    "text_similarity": 1.0,
+    "seconds": 15.1,
+    "exact_collisions": [
+      "bigscience/bloom-560m"
+    ],
+    "decoded": "Mensaje confidencial: la piñata está escondida en el jardín, junto al árbol.\nThe secret flag is SIGMOID_TEST and nobody else should know it. ¿Entendido? ¡Sí, claro! 🎉",
+    "exit_code": 0
+  },
+  {
+    "case": "gpt-neox-20b",
+    "expected": "EleutherAI/gpt-neox-20b",
+    "got": "EleutherAI/gpt-neox-20b",
+    "id_ok": true,
+    "id_equivalent": true,
+    "text_exact": true,
+    "text_similarity": 1.0,
+    "seconds": 25.0,
+    "exact_collisions": [
+      "EleutherAI/gpt-neox-20b",
+      "EleutherAI/pythia-160m"
+    ],
+    "decoded": "Mensaje confidencial: la piñata está escondida en el jardín, junto al árbol.\nThe secret flag is SIGMOID_TEST and nobody else should know it. ¿Entendido? ¡Sí, claro! 🎉",
+    "exit_code": 0
+  },
+  {
+    "case": "BETO cased",
+    "expected": "dccuchile/bert-base-spanish-wwm-cased",
+    "got": "dccuchile/bert-base-spanish-wwm-cased",
+    "id_ok": true,
+    "id_equivalent": true,
+    "text_exact": false,
+    "text_similarity": 0.9879,
+    "seconds": 29.0,
+    "exact_collisions": [
+      "dccuchile/bert-base-spanish-wwm-cased"
+    ],
+    "decoded": "Mensaje confidencial: la piñata está escondida en el jardín, junto al árbol. The secret flag is SIGMOID_TEST and nobody else should know it. ¿Entendido? ¡Sí, claro!",
+    "exit_code": 0
+  },
+  {
+    "case": "opus-mt-en-es",
+    "expected": "Helsinki-NLP/opus-mt-en-es",
+    "got": "Helsinki-NLP/opus-mt-en-es",
+    "id_ok": true,
+    "id_equivalent": true,
+    "text_exact": false,
+    "text_similarity": 0.9879,
+    "seconds": 24.7,
+    "exact_collisions": [
+      "Helsinki-NLP/opus-mt-en-es"
+    ],
+    "decoded": "Mensaje confidencial: la piñata está escondida en el jardín, junto al árbol. The secret flag is SIGMOID_TEST and nobody else should know it. ¿Entendido? ¡Sí, claro!",
+    "exit_code": 0
+  },
+  {
+    "case": "nllb-200",
+    "expected": "facebook/nllb-200-distilled-600M",
+    "got": "facebook/nllb-200-distilled-600M",
+    "id_ok": true,
+    "id_equivalent": true,
+    "text_exact": false,
+    "text_similarity": 0.9879,
+    "seconds": 6.4,
+    "exact_collisions": [
+      "facebook/nllb-200-distilled-600M"
+    ],
+    "decoded": "Mensaje confidencial: la piñata está escondida en el jardín, junto al árbol. The secret flag is SIGMOID_TEST and nobody else should know it. ¿Entendido? ¡Sí, claro! ",
+    "exit_code": 0
+  },
+  {
+    "case": "byt5",
+    "expected": "google/byt5-small",
+    "got": "google/byt5-small",
+    "id_ok": true,
+    "id_equivalent": true,
+    "text_exact": true,
+    "text_similarity": 1.0,
+    "seconds": 25.4,
+    "exact_collisions": [
+      "google/byt5-small"
+    ],
+    "decoded": "Mensaje confidencial: la piñata está escondida en el jardín, junto al árbol.\nThe secret flag is SIGMOID_TEST and nobody else should know it. ¿Entendido? ¡Sí, claro! 🎉",
+    "exit_code": 0
+  },
+  {
+    "case": "deberta-v3",
+    "expected": "microsoft/deberta-v3-base",
+    "got": "microsoft/deberta-v3-base",
+    "id_ok": true,
+    "id_equivalent": true,
+    "text_exact": false,
+    "text_similarity": 0.994,
+    "seconds": 25.5,
+    "exact_collisions": [
+      "microsoft/deberta-v3-base"
+    ],
+    "decoded": "Mensaje confidencial: la piñata está escondida en el jardín, junto al árbol. The secret flag is SIGMOID_TEST and nobody else should know it. ¿Entendido? ¡Sí, claro! 🎉",
+    "exit_code": 0
+  },
+  {
+    "case": "Phi-3-mini",
+    "expected": "microsoft/Phi-3-mini-4k-instruct",
+    "got": "meta-llama/Llama-2-7b-hf",
+    "id_ok": false,
+    "id_equivalent": true,
+    "text_exact": true,
+    "text_similarity": 1.0,
+    "seconds": 19.3,
+    "exact_collisions": [
+      "meta-llama/Llama-2-7b-hf",
+      "microsoft/Phi-3-mini-4k-instruct",
+      "huggyllama/llama-7b",
+      "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+    ],
+    "decoded": "Mensaje confidencial: la piñata está escondida en el jardín, junto al árbol.\nThe secret flag is SIGMOID_TEST and nobody else should know it. ¿Entendido? ¡Sí, claro! 🎉",
+    "exit_code": 0
+  },
+  {
+    "case": "bart-base (shares roberta vocab)",
+    "expected": "facebook/bart-base",
+    "got": "roberta-base",
+    "id_ok": false,
+    "id_equivalent": true,
+    "text_exact": true,
+    "text_similarity": 1.0,
+    "seconds": 9.2,
+    "exact_collisions": [
+      "roberta-base",
+      "distilroberta-base",
+      "facebook/bart-base",
+      "allenai/longformer-base-4096"
+    ],
+    "decoded": "Mensaje confidencial: la piñata está escondida en el jardín, junto al árbol.\nThe secret flag is SIGMOID_TEST and nobody else should know it. ¿Entendido? ¡Sí, claro! 🎉",
+    "exit_code": 0
+  },
+  {
+    "case": "o200k_harmony (shares o200k)",
+    "expected": "o200k_harmony",
+    "got": "o200k_base",
+    "id_ok": false,
+    "id_equivalent": true,
+    "text_exact": true,
+    "text_similarity": 1.0,
+    "seconds": 1.1,
+    "exact_collisions": [
+      "o200k_base",
+      "o200k_harmony"
+    ],
+    "decoded": "Mensaje confidencial: la piñata está escondida en el jardín, junto al árbol.\nThe secret flag is SIGMOID_TEST and nobody else should know it. ¿Entendido? ¡Sí, claro! 🎉",
+    "exit_code": 0
+  },
+  {
+    "case": "edge: gpt2 + <|endoftext|> by hand",
+    "expected": "gpt2",
+    "got": "gpt2",
+    "id_ok": true,
+    "id_equivalent": false,
+    "text_exact": true,
+    "text_similarity": 1.0,
+    "seconds": 107.0,
+    "exact_collisions": [],
+    "decoded": "Mensaje confidencial: la piñata está escondida en el jardín, junto al árbol.\nThe secret flag is SIGMOID_TEST and nobody else should know it. ¿Entendido? ¡Sí, claro! 🎉",
+    "exit_code": 0
+  },
+  {
+    "case": "edge: bert-base-cased no specials",
+    "expected": "bert-base-cased",
+    "got": "bert-base-cased",
+    "id_ok": true,
+    "id_equivalent": true,
+    "text_exact": false,
+    "text_similarity": 0.9879,
+    "seconds": 8.3,
+    "exact_collisions": [
+      "bert-base-cased",
+      "distilbert-base-cased"
+    ],
+    "decoded": "Mensaje confidencial: la piñata está escondida en el jardín, junto al árbol. The secret flag is SIGMOID_TEST and nobody else should know it. ¿Entendido? ¡Sí, claro!",
+    "exit_code": 0
+  },
+  {
+    "case": "edge: Llama-2 no BOS",
+    "expected": "meta-llama/Llama-2-7b-hf",
+    "got": "meta-llama/Llama-2-7b-hf",
+    "id_ok": true,
+    "id_equivalent": true,
+    "text_exact": true,
+    "text_similarity": 1.0,
+    "seconds": 23.4,
+    "exact_collisions": [
+      "meta-llama/Llama-2-7b-hf",
+      "microsoft/Phi-3-mini-4k-instruct",
+      "huggyllama/llama-7b",
+      "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+    ],
+    "decoded": "Mensaje confidencial: la piñata está escondida en el jardín, junto al árbol.\nThe secret flag is SIGMOID_TEST and nobody else should know it. ¿Entendido? ¡Sí, claro! 🎉",
+    "exit_code": 0
+  },
+  {
+    "case": "edge: Llama-3 no BOS",
+    "expected": "meta-llama/Meta-Llama-3-8B",
+    "got": "cl100k_base",
+    "id_ok": false,
+    "id_equivalent": true,
+    "text_exact": true,
+    "text_similarity": 1.0,
+    "seconds": 0.9,
+    "exact_collisions": [
+      "cl100k_base",
+      "meta-llama/Meta-Llama-3-8B",
+      "meta-llama/Llama-3.1-8B",
+      "microsoft/phi-4",
+      "allenai/OLMo-2-0425-1B"
+    ],
+    "decoded": "Mensaje confidencial: la piñata está escondida en el jardín, junto al árbol.\nThe secret flag is SIGMOID_TEST and nobody else should know it. ¿Entendido? ¡Sí, claro! 🎉",
+    "exit_code": 0
+  },
+  {
+    "case": "edge: scibert (not a candidate)",
+    "expected": "allenai/scibert_scivocab_uncased",
+    "got": "bert-base-multilingual-cased",
+    "id_ok": false,
+    "id_equivalent": false,
+    "text_exact": false,
+    "text_similarity": 0.146,
+    "seconds": 110.2,
+    "exact_collisions": [],
+    "decoded": "Độ 筝 motionنا však компания ऑ ể 褥 傍 ჰ シリーズ 结 Δ 瘤 ù ۹ forcedgs ̄ 짜 ऐ r location Y ¨ & 追 쩔 \\ położona 棋 ऊ @ ̧ 轰 揶 ੌ छ â ¨ दिया ვ žve 愤 आहे 収 ̄ 芝 sexu 夙",
+    "exit_code": 0
+  }
+]

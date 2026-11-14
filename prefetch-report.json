@@ -1,0 +1,3770 @@
+{
+  "downloads": {},
+  "candidates": [
+    {
+      "tokenizer_id": "cl100k_base",
+      "kind": "tiktoken",
+      "sources": [
+        "cl100k_base"
+      ],
+      "hint": 100277,
+      "vocab": 100277,
+      "status": "ok",
+      "load_seconds": 0.37,
+      "engines": [
+        {
+          "label": "tiktoken:cl100k_base",
+          "vocab": 100277,
+          "special": [
+            100257,
+            100258,
+            100259,
+            100260,
+            100276
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "o200k_base",
+      "kind": "tiktoken",
+      "sources": [
+        "o200k_base"
+      ],
+      "hint": 200019,
+      "vocab": 200019,
+      "status": "ok",
+      "load_seconds": 0.73,
+      "engines": [
+        {
+          "label": "tiktoken:o200k_base",
+          "vocab": 200019,
+          "special": [
+            199999,
+            200018
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "gpt2",
+      "kind": "tiktoken",
+      "sources": [
+        "gpt2"
+      ],
+      "hint": 50257,
+      "vocab": 50257,
+      "status": "ok",
+      "load_seconds": 0.47,
+      "engines": [
+        {
+          "label": "tiktoken:gpt2",
+          "vocab": 50257,
+          "special": [
+            50256
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "r50k_base",
+      "kind": "tiktoken",
+      "sources": [
+        "r50k_base"
+      ],
+      "hint": 50257,
+      "vocab": 50257,
+      "status": "ok",
+      "load_seconds": 0.16,
+      "engines": [
+        {
+          "label": "tiktoken:r50k_base",
+          "vocab": 50257,
+          "special": [
+            50256
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "p50k_base",
+      "kind": "tiktoken",
+      "sources": [
+        "p50k_base"
+      ],
+      "hint": 50281,
+      "vocab": 50281,
+      "status": "ok",
+      "load_seconds": 0.17,
+      "engines": [
+        {
+          "label": "tiktoken:p50k_base",
+          "vocab": 50281,
+          "special": [
+            50256
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "p50k_edit",
+      "kind": "tiktoken",
+      "sources": [
+        "p50k_edit"
+      ],
+      "hint": 50284,
+      "vocab": 50284,
+      "status": "ok",
+      "load_seconds": 0.13,
+      "engines": [
+        {
+          "label": "tiktoken:p50k_edit",
+          "vocab": 50284,
+          "special": [
+            50256,
+            50281,
+            50282,
+            50283
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "o200k_harmony",
+      "kind": "tiktoken",
+      "sources": [
+        "o200k_harmony"
+      ],
+      "hint": 201088,
+      "vocab": 201088,
+      "status": "ok",
+      "load_seconds": 0.78,
+      "engines": [
+        {
+          "label": "tiktoken:o200k_harmony",
+          "vocab": 201088,
+          "special": [
+            199998,
+            199999,
+            200000,
+            200001,
+            200002,
+            200003,
+            200004,
+            200005,
+            200006,
+            200007,
+            200008,
+            200009
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "gpt2",
+      "kind": "hf",
+      "sources": [
+        "openai-community/gpt2"
+      ],
+      "hint": 50257,
+      "vocab": 50257,
+      "status": "ok",
+      "load_seconds": 3.19,
+      "engines": [
+        {
+          "label": "transformers:openai-community/gpt2",
+          "vocab": 50257,
+          "special": [
+            50256
+          ]
+        },
+        {
+          "label": "tokenizers:openai-community/gpt2/tokenizer.json",
+          "vocab": 50257,
+          "special": [
+            50256
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "bert-base-uncased",
+      "kind": "hf",
+      "sources": [
+        "google-bert/bert-base-uncased"
+      ],
+      "hint": 30522,
+      "vocab": 30522,
+      "status": "ok",
+      "load_seconds": 0.3,
+      "engines": [
+        {
+          "label": "transformers:google-bert/bert-base-uncased",
+          "vocab": 30522,
+          "special": [
+            0,
+            100,
+            101,
+            102,
+            103
+          ]
+        },
+        {
+          "label": "tokenizers:google-bert/bert-base-uncased/tokenizer.json",
+          "vocab": 30522,
+          "special": [
+            0,
+            100,
+            101,
+            102,
+            103
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "bert-base-cased",
+      "kind": "hf",
+      "sources": [
+        "google-bert/bert-base-cased"
+      ],
+      "hint": 28996,
+      "vocab": 28996,
+      "status": "ok",
+      "load_seconds": 0.24,
+      "engines": [
+        {
+          "label": "transformers:google-bert/bert-base-cased",
+          "vocab": 28996,
+          "special": [
+            0,
+            100,
+            101,
+            102,
+            103
+          ]
+        },
+        {
+          "label": "tokenizers:google-bert/bert-base-cased/tokenizer.json",
+          "vocab": 28996,
+          "special": [
+            0,
+            100,
+            101,
+            102,
+            103
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "bert-base-multilingual-cased",
+      "kind": "hf",
+      "sources": [
+        "google-bert/bert-base-multilingual-cased"
+      ],
+      "hint": 119547,
+      "vocab": 119547,
+      "status": "ok",
+      "load_seconds": 1.46,
+      "engines": [
+        {
+          "label": "transformers:google-bert/bert-base-multilingual-cased",
+          "vocab": 119547,
+          "special": [
+            0,
+            100,
+            101,
+            102,
+            103
+          ]
+        },
+        {
+          "label": "tokenizers:google-bert/bert-base-multilingual-cased/tokenizer.json",
+          "vocab": 119547,
+          "special": [
+            0,
+            100,
+            101,
+            102,
+            103
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "bert-base-multilingual-uncased",
+      "kind": "hf",
+      "sources": [
+        "google-bert/bert-base-multilingual-uncased"
+      ],
+      "hint": 105879,
+      "vocab": 105879,
+      "status": "ok",
+      "load_seconds": 1.44,
+      "engines": [
+        {
+          "label": "transformers:google-bert/bert-base-multilingual-uncased",
+          "vocab": 105879,
+          "special": [
+            0,
+            100,
+            101,
+            102,
+            103
+          ]
+        },
+        {
+          "label": "tokenizers:google-bert/bert-base-multilingual-uncased/tokenizer.json",
+          "vocab": 105879,
+          "special": [
+            0,
+            100,
+            101,
+            102,
+            103
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "roberta-base",
+      "kind": "hf",
+      "sources": [
+        "FacebookAI/roberta-base"
+      ],
+      "hint": 50265,
+      "vocab": 50265,
+      "status": "ok",
+      "load_seconds": 0.85,
+      "engines": [
+        {
+          "label": "transformers:FacebookAI/roberta-base",
+          "vocab": 50265,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            50264
+          ]
+        },
+        {
+          "label": "tokenizers:FacebookAI/roberta-base/tokenizer.json",
+          "vocab": 50265,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            50264
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "xlm-roberta-base",
+      "kind": "hf",
+      "sources": [
+        "FacebookAI/xlm-roberta-base"
+      ],
+      "hint": 250002,
+      "vocab": 250002,
+      "status": "ok",
+      "load_seconds": 6.31,
+      "engines": [
+        {
+          "label": "transformers:FacebookAI/xlm-roberta-base",
+          "vocab": 250002,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            250001
+          ]
+        },
+        {
+          "label": "tokenizers:FacebookAI/xlm-roberta-base/tokenizer.json",
+          "vocab": 250002,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            250001
+          ]
+        },
+        {
+          "label": "sentencepiece:FacebookAI/xlm-roberta-base/sentencepiece.bpe.model",
+          "vocab": 250000,
+          "special": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "t5-base",
+      "kind": "hf",
+      "sources": [
+        "google-t5/t5-base"
+      ],
+      "hint": 32100,
+      "vocab": 32100,
+      "status": "ok",
+      "load_seconds": 0.86,
+      "engines": [
+        {
+          "label": "transformers:google-t5/t5-base",
+          "vocab": 32100,
+          "special": [
+            0,
+            1,
+            2,
+            32000,
+            32001,
+            32002,
+            32003,
+            32004,
+            32005,
+            32006,
+            32007,
+            32008
+          ]
+        },
+        {
+          "label": "tokenizers:google-t5/t5-base/tokenizer.json",
+          "vocab": 32100,
+          "special": [
+            0,
+            1,
+            2,
+            32000,
+            32001,
+            32002,
+            32003,
+            32004,
+            32005,
+            32006,
+            32007,
+            32008
+          ]
+        },
+        {
+          "label": "sentencepiece:google-t5/t5-base/spiece.model",
+          "vocab": 32000,
+          "special": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "google/mt5-small",
+      "kind": "hf",
+      "sources": [
+        "google/mt5-small"
+      ],
+      "hint": 250100,
+      "vocab": 250100,
+      "status": "ok",
+      "load_seconds": 2.4,
+      "engines": [
+        {
+          "label": "transformers:google/mt5-small",
+          "vocab": 250100,
+          "special": [
+            0,
+            1,
+            2,
+            250000,
+            250001,
+            250002,
+            250003,
+            250004,
+            250005,
+            250006,
+            250007,
+            250008
+          ]
+        },
+        {
+          "label": "sentencepiece:google/mt5-small/spiece.model",
+          "vocab": 250100,
+          "special": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "meta-llama/Llama-2-7b-hf",
+      "kind": "hf",
+      "sources": [
+        "NousResearch/Llama-2-7b-hf",
+        "hf-internal-testing/llama-tokenizer"
+      ],
+      "hint": 32000,
+      "vocab": 32000,
+      "status": "ok",
+      "load_seconds": 0.53,
+      "engines": [
+        {
+          "label": "transformers:NousResearch/Llama-2-7b-hf",
+          "vocab": 32000,
+          "special": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "label": "tokenizers:NousResearch/Llama-2-7b-hf/tokenizer.json",
+          "vocab": 32000,
+          "special": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "label": "sentencepiece:NousResearch/Llama-2-7b-hf/tokenizer.model",
+          "vocab": 32000,
+          "special": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "meta-llama/Meta-Llama-3-8B",
+      "kind": "hf",
+      "sources": [
+        "NousResearch/Meta-Llama-3-8B",
+        "NousResearch/Meta-Llama-3.1-8B-Instruct"
+      ],
+      "hint": 128256,
+      "vocab": 128256,
+      "status": "ok",
+      "load_seconds": 1.57,
+      "engines": [
+        {
+          "label": "transformers:NousResearch/Meta-Llama-3-8B",
+          "vocab": 128256,
+          "special": [
+            128000,
+            128001,
+            128002,
+            128003,
+            128004,
+            128005,
+            128006,
+            128007,
+            128008,
+            128009,
+            128010,
+            128011
+          ]
+        },
+        {
+          "label": "tokenizers:NousResearch/Meta-Llama-3-8B/tokenizer.json",
+          "vocab": 128256,
+          "special": [
+            128000,
+            128001,
+            128002,
+            128003,
+            128004,
+            128005,
+            128006,
+            128007,
+            128008,
+            128009,
+            128010,
+            128011
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "mistralai/Mistral-7B-v0.1",
+      "kind": "hf",
+      "sources": [
+        "mistralai/Mistral-7B-v0.1",
+        "unsloth/mistral-7b",
+        "HuggingFaceH4/zephyr-7b-beta"
+      ],
+      "hint": 32000,
+      "vocab": 32000,
+      "status": "ok",
+      "load_seconds": 0.41,
+      "engines": [
+        {
+          "label": "transformers:mistralai/Mistral-7B-v0.1",
+          "vocab": 32000,
+          "special": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "label": "tokenizers:mistralai/Mistral-7B-v0.1/tokenizer.json",
+          "vocab": 32000,
+          "special": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "label": "sentencepiece:mistralai/Mistral-7B-v0.1/tokenizer.model",
+          "vocab": 32000,
+          "special": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "Qwen/Qwen2.5-0.5B",
+      "kind": "hf",
+      "sources": [
+        "Qwen/Qwen2.5-0.5B"
+      ],
+      "hint": 151665,
+      "vocab": 151665,
+      "status": "ok",
+      "load_seconds": 1.47,
+      "engines": [
+        {
+          "label": "transformers:Qwen/Qwen2.5-0.5B",
+          "vocab": 151665,
+          "special": [
+            151643,
+            151644,
+            151645,
+            151646,
+            151647,
+            151648,
+            151649,
+            151650,
+            151651,
+            151652,
+            151653,
+            151654
+          ]
+        },
+        {
+          "label": "tokenizers:Qwen/Qwen2.5-0.5B/tokenizer.json",
+          "vocab": 151665,
+          "special": [
+            151643,
+            151644,
+            151645,
+            151646,
+            151647,
+            151648,
+            151649,
+            151650,
+            151651,
+            151652,
+            151653,
+            151654
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "google/gemma-2b",
+      "kind": "hf",
+      "sources": [
+        "unsloth/gemma-2b"
+      ],
+      "hint": 256000,
+      "vocab": 256000,
+      "status": "ok",
+      "load_seconds": 4.56,
+      "engines": [
+        {
+          "label": "transformers:unsloth/gemma-2b",
+          "vocab": 256000,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            106,
+            107
+          ]
+        },
+        {
+          "label": "tokenizers:unsloth/gemma-2b/tokenizer.json",
+          "vocab": 256000,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            106,
+            107
+          ]
+        },
+        {
+          "label": "sentencepiece:unsloth/gemma-2b/tokenizer.model",
+          "vocab": 256000,
+          "special": [
+            0,
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "bigscience/bloom-560m",
+      "kind": "hf",
+      "sources": [
+        "bigscience/bloom-560m"
+      ],
+      "hint": 250680,
+      "vocab": 250680,
+      "status": "ok",
+      "load_seconds": 3.41,
+      "engines": [
+        {
+          "label": "transformers:bigscience/bloom-560m",
+          "vocab": 250680,
+          "special": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "label": "tokenizers:bigscience/bloom-560m/tokenizer.json",
+          "vocab": 250680,
+          "special": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "EleutherAI/gpt-neox-20b",
+      "kind": "hf",
+      "sources": [
+        "EleutherAI/gpt-neox-20b"
+      ],
+      "hint": 50277,
+      "vocab": 50277,
+      "status": "ok",
+      "load_seconds": 0.8,
+      "engines": [
+        {
+          "label": "transformers:EleutherAI/gpt-neox-20b",
+          "vocab": 50277,
+          "special": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "tokenizers:EleutherAI/gpt-neox-20b/tokenizer.json",
+          "vocab": 50277,
+          "special": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "tiiuae/falcon-7b",
+      "kind": "hf",
+      "sources": [
+        "tiiuae/falcon-7b"
+      ],
+      "hint": 65024,
+      "vocab": 65024,
+      "status": "ok",
+      "load_seconds": 0.68,
+      "engines": [
+        {
+          "label": "transformers:tiiuae/falcon-7b",
+          "vocab": 65024,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "label": "tokenizers:tiiuae/falcon-7b/tokenizer.json",
+          "vocab": 65024,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "facebook/opt-125m",
+      "kind": "hf",
+      "sources": [
+        "facebook/opt-125m"
+      ],
+      "hint": 50265,
+      "vocab": 50265,
+      "status": "ok",
+      "load_seconds": 0.22,
+      "engines": [
+        {
+          "label": "transformers:facebook/opt-125m",
+          "vocab": 50265,
+          "special": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "google/byt5-small",
+      "kind": "hf",
+      "sources": [
+        "google/byt5-small"
+      ],
+      "hint": 384,
+      "vocab": 384,
+      "status": "ok",
+      "load_seconds": 0.05,
+      "engines": [
+        {
+          "label": "transformers:google/byt5-small",
+          "vocab": 384,
+          "special": [
+            0,
+            1,
+            2,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264,
+            265,
+            266,
+            267
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "albert-base-v2",
+      "kind": "hf",
+      "sources": [
+        "albert/albert-base-v2"
+      ],
+      "hint": 30000,
+      "vocab": 30000,
+      "status": "ok",
+      "load_seconds": 0.58,
+      "engines": [
+        {
+          "label": "transformers:albert/albert-base-v2",
+          "vocab": 30000,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "label": "tokenizers:albert/albert-base-v2/tokenizer.json",
+          "vocab": 30000,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "label": "sentencepiece:albert/albert-base-v2/spiece.model",
+          "vocab": 30000,
+          "special": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "xlnet-base-cased",
+      "kind": "hf",
+      "sources": [
+        "xlnet/xlnet-base-cased"
+      ],
+      "hint": 32000,
+      "vocab": 32000,
+      "status": "ok",
+      "load_seconds": 0.67,
+      "engines": [
+        {
+          "label": "transformers:xlnet/xlnet-base-cased",
+          "vocab": 32000,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "label": "tokenizers:xlnet/xlnet-base-cased/tokenizer.json",
+          "vocab": 32000,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "label": "sentencepiece:xlnet/xlnet-base-cased/spiece.model",
+          "vocab": 32000,
+          "special": [
+            1,
+            2,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "microsoft/deberta-v3-base",
+      "kind": "hf",
+      "sources": [
+        "microsoft/deberta-v3-base"
+      ],
+      "hint": 128001,
+      "vocab": 128001,
+      "status": "ok",
+      "load_seconds": 1.09,
+      "engines": [
+        {
+          "label": "transformers:microsoft/deberta-v3-base",
+          "vocab": 128001,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            128000
+          ]
+        },
+        {
+          "label": "sentencepiece:microsoft/deberta-v3-base/spm.model",
+          "vocab": 128000,
+          "special": [
+            0,
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "microsoft/mdeberta-v3-base",
+      "kind": "hf",
+      "sources": [
+        "microsoft/mdeberta-v3-base"
+      ],
+      "hint": 250102,
+      "vocab": 250102,
+      "status": "ok",
+      "load_seconds": 2.19,
+      "engines": [
+        {
+          "label": "transformers:microsoft/mdeberta-v3-base",
+          "vocab": 250102,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            250001,
+            250002,
+            250003,
+            250004,
+            250005,
+            250006,
+            250007,
+            250008
+          ]
+        },
+        {
+          "label": "sentencepiece:microsoft/mdeberta-v3-base/spm.model",
+          "vocab": 250101,
+          "special": [
+            0,
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "camembert-base",
+      "kind": "hf",
+      "sources": [
+        "almanach/camembert-base"
+      ],
+      "hint": 32006,
+      "vocab": 32006,
+      "status": "ok",
+      "load_seconds": 0.71,
+      "engines": [
+        {
+          "label": "transformers:almanach/camembert-base",
+          "vocab": 32006,
+          "special": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6,
+            32004,
+            32005
+          ]
+        },
+        {
+          "label": "tokenizers:almanach/camembert-base/tokenizer.json",
+          "vocab": 32005,
+          "special": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6,
+            32004
+          ]
+        },
+        {
+          "label": "sentencepiece:almanach/camembert-base/sentencepiece.bpe.model",
+          "vocab": 32000,
+          "special": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "dccuchile/bert-base-spanish-wwm-cased",
+      "kind": "hf",
+      "sources": [
+        "dccuchile/bert-base-spanish-wwm-cased"
+      ],
+      "hint": 31002,
+      "vocab": 31002,
+      "status": "ok",
+      "load_seconds": 0.19,
+      "engines": [
+        {
+          "label": "transformers:dccuchile/bert-base-spanish-wwm-cased",
+          "vocab": 31002,
+          "special": [
+            0,
+            1,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "label": "tokenizers:dccuchile/bert-base-spanish-wwm-cased/tokenizer.json",
+          "vocab": 31002,
+          "special": [
+            0,
+            1,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "dccuchile/bert-base-spanish-wwm-uncased",
+      "kind": "hf",
+      "sources": [
+        "dccuchile/bert-base-spanish-wwm-uncased"
+      ],
+      "hint": 31002,
+      "vocab": 31002,
+      "status": "ok",
+      "load_seconds": 0.15,
+      "engines": [
+        {
+          "label": "transformers:dccuchile/bert-base-spanish-wwm-uncased",
+          "vocab": 31002,
+          "special": [
+            0,
+            1,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "label": "tokenizers:dccuchile/bert-base-spanish-wwm-uncased/tokenizer.json",
+          "vocab": 31002,
+          "special": [
+            0,
+            1,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "PlanTL-GOB-ES/roberta-base-bne",
+      "kind": "hf",
+      "sources": [
+        "JonatanGk/roberta-base-bne-finetuned-sqac"
+      ],
+      "hint": 50262,
+      "vocab": 50262,
+      "status": "ok",
+      "load_seconds": 0.44,
+      "engines": [
+        {
+          "label": "transformers:JonatanGk/roberta-base-bne-finetuned-sqac",
+          "vocab": 50262,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "label": "tokenizers:JonatanGk/roberta-base-bne-finetuned-sqac/tokenizer.json",
+          "vocab": 50262,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "PlanTL-GOB-ES/gpt2-base-bne",
+      "kind": "hf",
+      "sources": [
+        "joancipria/gpt2-base-bne-FineTunedEmoEvent"
+      ],
+      "hint": 50264,
+      "vocab": 50264,
+      "status": "ok",
+      "load_seconds": 0.51,
+      "engines": [
+        {
+          "label": "transformers:joancipria/gpt2-base-bne-FineTunedEmoEvent",
+          "vocab": 50264,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            50262,
+            50263
+          ]
+        },
+        {
+          "label": "tokenizers:joancipria/gpt2-base-bne-FineTunedEmoEvent/tokenizer.json",
+          "vocab": 50264,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            50262,
+            50263
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "bertin-project/bertin-roberta-base-spanish",
+      "kind": "hf",
+      "sources": [
+        "bertin-project/bertin-roberta-base-spanish"
+      ],
+      "hint": 50262,
+      "vocab": 50262,
+      "status": "ok",
+      "load_seconds": 0.46,
+      "engines": [
+        {
+          "label": "transformers:bertin-project/bertin-roberta-base-spanish",
+          "vocab": 50262,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "label": "tokenizers:bertin-project/bertin-roberta-base-spanish/tokenizer.json",
+          "vocab": 50262,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "DeepESP/gpt2-spanish",
+      "kind": "hf",
+      "sources": [
+        "DeepESP/gpt2-spanish"
+      ],
+      "hint": 50257,
+      "vocab": 50257,
+      "status": "ok",
+      "load_seconds": 0.2,
+      "engines": [
+        {
+          "label": "transformers:DeepESP/gpt2-spanish",
+          "vocab": 50257,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            50256
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "Helsinki-NLP/opus-mt-en-es",
+      "kind": "hf",
+      "sources": [
+        "Helsinki-NLP/opus-mt-en-es"
+      ],
+      "hint": 65001,
+      "vocab": 65001,
+      "status": "ok",
+      "load_seconds": 0.39,
+      "engines": [
+        {
+          "label": "transformers:Helsinki-NLP/opus-mt-en-es",
+          "vocab": 65001,
+          "special": [
+            0,
+            1,
+            65000
+          ]
+        },
+        {
+          "label": "sentencepiece:Helsinki-NLP/opus-mt-en-es/source.spm",
+          "vocab": 32000,
+          "special": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "Helsinki-NLP/opus-mt-es-en",
+      "kind": "hf",
+      "sources": [
+        "Helsinki-NLP/opus-mt-es-en"
+      ],
+      "hint": 65001,
+      "vocab": 65001,
+      "status": "ok",
+      "load_seconds": 0.35,
+      "engines": [
+        {
+          "label": "transformers:Helsinki-NLP/opus-mt-es-en",
+          "vocab": 65001,
+          "special": [
+            0,
+            1,
+            65000
+          ]
+        },
+        {
+          "label": "sentencepiece:Helsinki-NLP/opus-mt-es-en/source.spm",
+          "vocab": 32000,
+          "special": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "facebook/nllb-200-distilled-600M",
+      "kind": "hf",
+      "sources": [
+        "facebook/nllb-200-distilled-600M"
+      ],
+      "hint": 256204,
+      "vocab": 256204,
+      "status": "ok",
+      "load_seconds": 4.91,
+      "engines": [
+        {
+          "label": "transformers:facebook/nllb-200-distilled-600M",
+          "vocab": 256204,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            256001,
+            256002,
+            256003,
+            256004,
+            256005,
+            256006,
+            256007,
+            256008
+          ]
+        },
+        {
+          "label": "tokenizers:facebook/nllb-200-distilled-600M/tokenizer.json",
+          "vocab": 256204,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            256001,
+            256002,
+            256003,
+            256004,
+            256005,
+            256006,
+            256007,
+            256008
+          ]
+        },
+        {
+          "label": "sentencepiece:facebook/nllb-200-distilled-600M/sentencepiece.bpe.model",
+          "vocab": 256000,
+          "special": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "facebook/m2m100_418M",
+      "kind": "hf",
+      "sources": [
+        "facebook/m2m100_418M"
+      ],
+      "hint": 128104,
+      "vocab": 128104,
+      "status": "ok",
+      "load_seconds": 1.22,
+      "engines": [
+        {
+          "label": "transformers:facebook/m2m100_418M",
+          "vocab": 128104,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            128004,
+            128005,
+            128006,
+            128007,
+            128008,
+            128009,
+            128010,
+            128011
+          ]
+        },
+        {
+          "label": "sentencepiece:facebook/m2m100_418M/sentencepiece.bpe.model",
+          "vocab": 128000,
+          "special": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "facebook/mbart-large-50",
+      "kind": "hf",
+      "sources": [
+        "facebook/mbart-large-50"
+      ],
+      "hint": 250054,
+      "vocab": 250054,
+      "status": "ok",
+      "load_seconds": 2.92,
+      "engines": [
+        {
+          "label": "transformers:facebook/mbart-large-50",
+          "vocab": 250054,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            250001,
+            250002,
+            250003,
+            250004,
+            250005,
+            250006,
+            250007,
+            250008
+          ]
+        },
+        {
+          "label": "sentencepiece:facebook/mbart-large-50/sentencepiece.bpe.model",
+          "vocab": 250000,
+          "special": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "facebook/mbart-large-cc25",
+      "kind": "hf",
+      "sources": [
+        "facebook/mbart-large-cc25"
+      ],
+      "hint": 250027,
+      "vocab": 250027,
+      "status": "ok",
+      "load_seconds": 6.62,
+      "engines": [
+        {
+          "label": "transformers:facebook/mbart-large-cc25",
+          "vocab": 250027,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            250001,
+            250002,
+            250003,
+            250004,
+            250005,
+            250006,
+            250007,
+            250008
+          ]
+        },
+        {
+          "label": "tokenizers:facebook/mbart-large-cc25/tokenizer.json",
+          "vocab": 250027,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            250001,
+            250002,
+            250003,
+            250004,
+            250005,
+            250006,
+            250007,
+            250008
+          ]
+        },
+        {
+          "label": "sentencepiece:facebook/mbart-large-cc25/sentencepiece.bpe.model",
+          "vocab": 250000,
+          "special": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "facebook/xglm-564M",
+      "kind": "hf",
+      "sources": [
+        "facebook/xglm-564M"
+      ],
+      "hint": 256008,
+      "vocab": 256008,
+      "status": "ok",
+      "load_seconds": 6.6,
+      "engines": [
+        {
+          "label": "transformers:facebook/xglm-564M",
+          "vocab": 256008,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            256001,
+            256002,
+            256003,
+            256004,
+            256005,
+            256006,
+            256007
+          ]
+        },
+        {
+          "label": "tokenizers:facebook/xglm-564M/tokenizer.json",
+          "vocab": 256008,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            256001,
+            256002,
+            256003,
+            256004,
+            256005,
+            256006,
+            256007
+          ]
+        },
+        {
+          "label": "sentencepiece:facebook/xglm-564M/sentencepiece.bpe.model",
+          "vocab": 256000,
+          "special": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "sentence-transformers/LaBSE",
+      "kind": "hf",
+      "sources": [
+        "sentence-transformers/LaBSE"
+      ],
+      "hint": 501153,
+      "vocab": 501153,
+      "status": "ok",
+      "load_seconds": 4.68,
+      "engines": [
+        {
+          "label": "transformers:sentence-transformers/LaBSE",
+          "vocab": 501153,
+          "special": [
+            0,
+            100,
+            101,
+            102,
+            103
+          ]
+        },
+        {
+          "label": "tokenizers:sentence-transformers/LaBSE/tokenizer.json",
+          "vocab": 501153,
+          "special": [
+            0,
+            100,
+            101,
+            102,
+            103
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "openai/whisper-small",
+      "kind": "hf",
+      "sources": [
+        "openai/whisper-small"
+      ],
+      "hint": 51865,
+      "vocab": 51865,
+      "status": "ok",
+      "load_seconds": 1.1,
+      "engines": [
+        {
+          "label": "transformers:openai/whisper-small",
+          "vocab": 51865,
+          "special": [
+            50257,
+            50258,
+            50259,
+            50260,
+            50261,
+            50262,
+            50263,
+            50264,
+            50265,
+            50266,
+            50267,
+            50268
+          ]
+        },
+        {
+          "label": "tokenizers:openai/whisper-small/tokenizer.json",
+          "vocab": 51865,
+          "special": [
+            50257,
+            50258,
+            50259,
+            50260,
+            50261,
+            50262,
+            50263,
+            50264,
+            50265,
+            50266,
+            50267,
+            50268
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "google/umt5-small",
+      "kind": "hf",
+      "sources": [
+        "google/umt5-small"
+      ],
+      "hint": 256300,
+      "vocab": 256300,
+      "status": "ok",
+      "load_seconds": 6.01,
+      "engines": [
+        {
+          "label": "transformers:google/umt5-small",
+          "vocab": 256300,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            256000,
+            256001,
+            256002,
+            256003,
+            256004,
+            256005,
+            256006,
+            256007
+          ]
+        },
+        {
+          "label": "tokenizers:google/umt5-small/tokenizer.json",
+          "vocab": 256300,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            256000,
+            256001,
+            256002,
+            256003,
+            256004,
+            256005,
+            256006,
+            256007
+          ]
+        },
+        {
+          "label": "sentencepiece:google/umt5-small/spiece.model",
+          "vocab": 256000,
+          "special": [
+            0,
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "google/rembert",
+      "kind": "hf",
+      "sources": [
+        "google/rembert"
+      ],
+      "hint": 250300,
+      "vocab": 250300,
+      "status": "ok",
+      "load_seconds": 5.75,
+      "engines": [
+        {
+          "label": "transformers:google/rembert",
+          "vocab": 250300,
+          "special": [
+            0,
+            2,
+            312,
+            313,
+            314
+          ]
+        },
+        {
+          "label": "tokenizers:google/rembert/tokenizer.json",
+          "vocab": 250300,
+          "special": [
+            0,
+            2,
+            312,
+            313,
+            314
+          ]
+        },
+        {
+          "label": "sentencepiece:google/rembert/sentencepiece.model",
+          "vocab": 250300,
+          "special": [
+            0,
+            1,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "ai-forever/mGPT",
+      "kind": "hf",
+      "sources": [
+        "ai-forever/mGPT"
+      ],
+      "hint": 100000,
+      "vocab": 100000,
+      "status": "ok",
+      "load_seconds": 0.45,
+      "engines": [
+        {
+          "label": "transformers:ai-forever/mGPT",
+          "vocab": 100000,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "BSC-LT/salamandra-2b",
+      "kind": "hf",
+      "sources": [
+        "BSC-LT/salamandra-2b"
+      ],
+      "hint": 256000,
+      "vocab": 256000,
+      "status": "ok",
+      "load_seconds": 6.21,
+      "engines": [
+        {
+          "label": "transformers:BSC-LT/salamandra-2b",
+          "vocab": 256000,
+          "special": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "label": "tokenizers:BSC-LT/salamandra-2b/tokenizer.json",
+          "vocab": 256000,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "label": "sentencepiece:BSC-LT/salamandra-2b/tokenizer.model",
+          "vocab": 256000,
+          "special": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "meta-llama/Llama-3.1-8B",
+      "kind": "hf",
+      "sources": [
+        "NousResearch/Meta-Llama-3.1-8B-Instruct"
+      ],
+      "hint": 128256,
+      "vocab": 128256,
+      "status": "ok",
+      "load_seconds": 1.97,
+      "engines": [
+        {
+          "label": "transformers:NousResearch/Meta-Llama-3.1-8B-Instruct",
+          "vocab": 128256,
+          "special": [
+            128000,
+            128001,
+            128002,
+            128003,
+            128004,
+            128005,
+            128006,
+            128007,
+            128008,
+            128009,
+            128010,
+            128011
+          ]
+        },
+        {
+          "label": "tokenizers:NousResearch/Meta-Llama-3.1-8B-Instruct/tokenizer.json",
+          "vocab": 128256,
+          "special": [
+            128000,
+            128001,
+            128002,
+            128003,
+            128004,
+            128005,
+            128006,
+            128007,
+            128008,
+            128009,
+            128010,
+            128011
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "mistralai/Mistral-7B-v0.3",
+      "kind": "hf",
+      "sources": [
+        "mistralai/Mistral-7B-v0.3",
+        "unsloth/mistral-7b-v0.3"
+      ],
+      "hint": 32768,
+      "vocab": 32768,
+      "status": "ok",
+      "load_seconds": 0.54,
+      "engines": [
+        {
+          "label": "transformers:mistralai/Mistral-7B-v0.3",
+          "vocab": 32768,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "label": "tokenizers:mistralai/Mistral-7B-v0.3/tokenizer.json",
+          "vocab": 32768,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "label": "sentencepiece:mistralai/Mistral-7B-v0.3/tokenizer.model",
+          "vocab": 32768,
+          "special": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "mistralai/Mistral-Nemo-Instruct-2407",
+      "kind": "hf",
+      "sources": [
+        "mistralai/Mistral-Nemo-Instruct-2407"
+      ],
+      "hint": 131072,
+      "vocab": 131072,
+      "status": "ok",
+      "load_seconds": 1.77,
+      "engines": [
+        {
+          "label": "transformers:mistralai/Mistral-Nemo-Instruct-2407",
+          "vocab": 131072,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "label": "tokenizers:mistralai/Mistral-Nemo-Instruct-2407/tokenizer.json",
+          "vocab": 131072,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "Qwen/Qwen2-0.5B",
+      "kind": "hf",
+      "sources": [
+        "Qwen/Qwen2-0.5B"
+      ],
+      "hint": 151646,
+      "vocab": 151646,
+      "status": "ok",
+      "load_seconds": 1.53,
+      "engines": [
+        {
+          "label": "transformers:Qwen/Qwen2-0.5B",
+          "vocab": 151646,
+          "special": [
+            151643,
+            151644,
+            151645
+          ]
+        },
+        {
+          "label": "tokenizers:Qwen/Qwen2-0.5B/tokenizer.json",
+          "vocab": 151646,
+          "special": [
+            151643,
+            151644,
+            151645
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "Qwen/Qwen3-0.6B",
+      "kind": "hf",
+      "sources": [
+        "Qwen/Qwen3-0.6B",
+        "Qwen/Qwen3-8B"
+      ],
+      "hint": 151669,
+      "vocab": 151669,
+      "status": "ok",
+      "load_seconds": 1.78,
+      "engines": [
+        {
+          "label": "transformers:Qwen/Qwen3-0.6B",
+          "vocab": 151669,
+          "special": [
+            151643,
+            151644,
+            151645,
+            151646,
+            151647,
+            151648,
+            151649,
+            151650,
+            151651,
+            151652,
+            151653,
+            151654
+          ]
+        },
+        {
+          "label": "tokenizers:Qwen/Qwen3-0.6B/tokenizer.json",
+          "vocab": 151669,
+          "special": [
+            151643,
+            151644,
+            151645,
+            151646,
+            151647,
+            151648,
+            151649,
+            151650,
+            151651,
+            151652,
+            151653,
+            151654
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "Qwen/Qwen3.5-2B",
+      "kind": "hf",
+      "sources": [
+        "Qwen/Qwen3.5-2B"
+      ],
+      "hint": 248077,
+      "vocab": 248077,
+      "status": "ok",
+      "load_seconds": 2.8,
+      "engines": [
+        {
+          "label": "transformers:Qwen/Qwen3.5-2B",
+          "vocab": 248077,
+          "special": [
+            248044,
+            248045,
+            248046,
+            248047,
+            248048,
+            248049,
+            248050,
+            248051,
+            248052,
+            248053,
+            248054,
+            248055
+          ]
+        },
+        {
+          "label": "tokenizers:Qwen/Qwen3.5-2B/tokenizer.json",
+          "vocab": 248070,
+          "special": [
+            248044,
+            248045,
+            248046,
+            248047,
+            248048,
+            248049,
+            248050,
+            248051,
+            248052,
+            248053,
+            248054,
+            248055
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "google/gemma-2-2b",
+      "kind": "hf",
+      "sources": [
+        "unsloth/gemma-2-2b"
+      ],
+      "hint": 256000,
+      "vocab": 256000,
+      "status": "ok",
+      "load_seconds": 5.16,
+      "engines": [
+        {
+          "label": "transformers:unsloth/gemma-2-2b",
+          "vocab": 256000,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            106,
+            107
+          ]
+        },
+        {
+          "label": "tokenizers:unsloth/gemma-2-2b/tokenizer.json",
+          "vocab": 256000,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            106,
+            107
+          ]
+        },
+        {
+          "label": "sentencepiece:unsloth/gemma-2-2b/tokenizer.model",
+          "vocab": 256000,
+          "special": [
+            0,
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "google/gemma-3-4b-it",
+      "kind": "hf",
+      "sources": [
+        "unsloth/gemma-3-4b-it"
+      ],
+      "hint": 262145,
+      "vocab": 262145,
+      "status": "ok",
+      "load_seconds": 6.27,
+      "engines": [
+        {
+          "label": "transformers:unsloth/gemma-3-4b-it",
+          "vocab": 262145,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            105,
+            106,
+            255999,
+            256000,
+            262144
+          ]
+        },
+        {
+          "label": "tokenizers:unsloth/gemma-3-4b-it/tokenizer.json",
+          "vocab": 262145,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            105,
+            106,
+            255999,
+            256000,
+            262144
+          ]
+        },
+        {
+          "label": "sentencepiece:unsloth/gemma-3-4b-it/tokenizer.model",
+          "vocab": 262144,
+          "special": [
+            0,
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "microsoft/phi-2",
+      "kind": "hf",
+      "sources": [
+        "microsoft/phi-2"
+      ],
+      "hint": 50295,
+      "vocab": 50295,
+      "status": "ok",
+      "load_seconds": 0.58,
+      "engines": [
+        {
+          "label": "transformers:microsoft/phi-2",
+          "vocab": 50295,
+          "special": [
+            50256
+          ]
+        },
+        {
+          "label": "tokenizers:microsoft/phi-2/tokenizer.json",
+          "vocab": 50295,
+          "special": [
+            50256
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "microsoft/Phi-3-mini-4k-instruct",
+      "kind": "hf",
+      "sources": [
+        "microsoft/Phi-3-mini-4k-instruct"
+      ],
+      "hint": 32011,
+      "vocab": 32011,
+      "status": "ok",
+      "load_seconds": 0.37,
+      "engines": [
+        {
+          "label": "transformers:microsoft/Phi-3-mini-4k-instruct",
+          "vocab": 32011,
+          "special": [
+            0,
+            1,
+            32000,
+            32001,
+            32002,
+            32003,
+            32004,
+            32005,
+            32006,
+            32007,
+            32008,
+            32009
+          ]
+        },
+        {
+          "label": "tokenizers:microsoft/Phi-3-mini-4k-instruct/tokenizer.json",
+          "vocab": 32011,
+          "special": [
+            0,
+            1,
+            32000,
+            32001,
+            32002,
+            32003,
+            32004,
+            32005,
+            32006,
+            32007,
+            32008,
+            32009
+          ]
+        },
+        {
+          "label": "sentencepiece:microsoft/Phi-3-mini-4k-instruct/tokenizer.model",
+          "vocab": 32000,
+          "special": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "microsoft/phi-4",
+      "kind": "hf",
+      "sources": [
+        "microsoft/phi-4"
+      ],
+      "hint": 100352,
+      "vocab": 100352,
+      "status": "ok",
+      "load_seconds": 0.83,
+      "engines": [
+        {
+          "label": "transformers:microsoft/phi-4",
+          "vocab": 100352,
+          "special": [
+            100256,
+            100257,
+            100258,
+            100259,
+            100260,
+            100261,
+            100262,
+            100263,
+            100264,
+            100265,
+            100266,
+            100267
+          ]
+        },
+        {
+          "label": "tokenizers:microsoft/phi-4/tokenizer.json",
+          "vocab": 100352,
+          "special": [
+            100256,
+            100257,
+            100258,
+            100259,
+            100260,
+            100261,
+            100262,
+            100263,
+            100264,
+            100265,
+            100266,
+            100267
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "deepseek-ai/deepseek-llm-7b-base",
+      "kind": "hf",
+      "sources": [
+        "deepseek-ai/deepseek-llm-7b-base"
+      ],
+      "hint": 100015,
+      "vocab": 100015,
+      "status": "ok",
+      "load_seconds": 1.11,
+      "engines": [
+        {
+          "label": "transformers:deepseek-ai/deepseek-llm-7b-base",
+          "vocab": 100015,
+          "special": [
+            100000,
+            100001
+          ]
+        },
+        {
+          "label": "tokenizers:deepseek-ai/deepseek-llm-7b-base/tokenizer.json",
+          "vocab": 100015,
+          "special": [
+            100000,
+            100001
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "deepseek-ai/deepseek-coder-1.3b-base",
+      "kind": "hf",
+      "sources": [
+        "deepseek-ai/deepseek-coder-1.3b-base"
+      ],
+      "hint": 32022,
+      "vocab": 32022,
+      "status": "ok",
+      "load_seconds": 0.35,
+      "engines": [
+        {
+          "label": "transformers:deepseek-ai/deepseek-coder-1.3b-base",
+          "vocab": 32022,
+          "special": [
+            32013,
+            32014
+          ]
+        },
+        {
+          "label": "tokenizers:deepseek-ai/deepseek-coder-1.3b-base/tokenizer.json",
+          "vocab": 32022,
+          "special": [
+            32013,
+            32014
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "deepseek-ai/DeepSeek-V3",
+      "kind": "hf",
+      "sources": [
+        "deepseek-ai/DeepSeek-V3"
+      ],
+      "hint": 128815,
+      "vocab": 128815,
+      "status": "ok",
+      "load_seconds": 1.52,
+      "engines": [
+        {
+          "label": "transformers:deepseek-ai/DeepSeek-V3",
+          "vocab": 128815,
+          "special": [
+            0,
+            1,
+            2,
+            128000,
+            128001,
+            128002,
+            128003,
+            128004,
+            128005,
+            128006,
+            128007,
+            128008
+          ]
+        },
+        {
+          "label": "tokenizers:deepseek-ai/DeepSeek-V3/tokenizer.json",
+          "vocab": 128815,
+          "special": [
+            0,
+            1,
+            2,
+            128000,
+            128001,
+            128002,
+            128003,
+            128004,
+            128005,
+            128006,
+            128007,
+            128008
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "01-ai/Yi-6B",
+      "kind": "hf",
+      "sources": [
+        "01-ai/Yi-6B"
+      ],
+      "hint": 64000,
+      "vocab": 64000,
+      "status": "ok",
+      "load_seconds": 1.01,
+      "engines": [
+        {
+          "label": "transformers:01-ai/Yi-6B",
+          "vocab": 63992,
+          "special": [
+            0,
+            1,
+            2,
+            6,
+            7,
+            8,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ]
+        },
+        {
+          "label": "tokenizers:01-ai/Yi-6B/tokenizer.json",
+          "vocab": 63992,
+          "special": [
+            0,
+            1,
+            2,
+            6,
+            7,
+            8,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ]
+        },
+        {
+          "label": "sentencepiece:01-ai/Yi-6B/tokenizer.model",
+          "vocab": 64000,
+          "special": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "bigcode/starcoder",
+      "kind": "hf",
+      "sources": [
+        "bigcode/tiny_starcoder_py"
+      ],
+      "hint": 49152,
+      "vocab": 49152,
+      "status": "ok",
+      "load_seconds": 0.45,
+      "engines": [
+        {
+          "label": "transformers:bigcode/tiny_starcoder_py",
+          "vocab": 49152,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "label": "tokenizers:bigcode/tiny_starcoder_py/tokenizer.json",
+          "vocab": 49152,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "bigcode/starcoder2-3b",
+      "kind": "hf",
+      "sources": [
+        "bigcode/starcoder2-3b"
+      ],
+      "hint": 49152,
+      "vocab": 49152,
+      "status": "ok",
+      "load_seconds": 0.43,
+      "engines": [
+        {
+          "label": "transformers:bigcode/starcoder2-3b",
+          "vocab": 49152,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "label": "tokenizers:bigcode/starcoder2-3b/tokenizer.json",
+          "vocab": 49152,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "Salesforce/codegen-350M-mono",
+      "kind": "hf",
+      "sources": [
+        "Salesforce/codegen-350M-mono"
+      ],
+      "hint": 50295,
+      "vocab": 50295,
+      "status": "ok",
+      "load_seconds": 0.51,
+      "engines": [
+        {
+          "label": "transformers:Salesforce/codegen-350M-mono",
+          "vocab": 50295,
+          "special": [
+            50256
+          ]
+        },
+        {
+          "label": "tokenizers:Salesforce/codegen-350M-mono/tokenizer.json",
+          "vocab": 50295,
+          "special": [
+            50256
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "stabilityai/stablelm-2-1_6b",
+      "kind": "hf",
+      "sources": [
+        "stabilityai/stablelm-2-1_6b"
+      ],
+      "hint": 100289,
+      "vocab": 100289,
+      "status": "ok",
+      "load_seconds": 1.0,
+      "engines": [
+        {
+          "label": "transformers:stabilityai/stablelm-2-1_6b",
+          "vocab": 100289,
+          "special": [
+            100256,
+            100257,
+            100258,
+            100259,
+            100260,
+            100261,
+            100262,
+            100263,
+            100264,
+            100265,
+            100266,
+            100267
+          ]
+        },
+        {
+          "label": "tokenizers:stabilityai/stablelm-2-1_6b/tokenizer.json",
+          "vocab": 100289,
+          "special": [
+            100256,
+            100257,
+            100258,
+            100259,
+            100260,
+            100261,
+            100262,
+            100263,
+            100264,
+            100265,
+            100266,
+            100267
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "HuggingFaceTB/SmolLM2-135M",
+      "kind": "hf",
+      "sources": [
+        "HuggingFaceTB/SmolLM2-135M"
+      ],
+      "hint": 49152,
+      "vocab": 49152,
+      "status": "ok",
+      "load_seconds": 0.45,
+      "engines": [
+        {
+          "label": "transformers:HuggingFaceTB/SmolLM2-135M",
+          "vocab": 49152,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "label": "tokenizers:HuggingFaceTB/SmolLM2-135M/tokenizer.json",
+          "vocab": 49152,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "allenai/OLMo-2-0425-1B",
+      "kind": "hf",
+      "sources": [
+        "allenai/OLMo-2-0425-1B"
+      ],
+      "hint": 100278,
+      "vocab": 100278,
+      "status": "ok",
+      "load_seconds": 1.07,
+      "engines": [
+        {
+          "label": "transformers:allenai/OLMo-2-0425-1B",
+          "vocab": 100278,
+          "special": [
+            100257,
+            100258,
+            100259,
+            100260,
+            100264,
+            100265,
+            100276,
+            100277
+          ]
+        },
+        {
+          "label": "tokenizers:allenai/OLMo-2-0425-1B/tokenizer.json",
+          "vocab": 100278,
+          "special": [
+            100257,
+            100258,
+            100259,
+            100260,
+            100264,
+            100265,
+            100276,
+            100277
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "microsoft/deberta-base",
+      "kind": "hf",
+      "sources": [
+        "microsoft/deberta-base"
+      ],
+      "hint": 50265,
+      "vocab": 50265,
+      "status": "ok",
+      "load_seconds": 0.24,
+      "engines": [
+        {
+          "label": "transformers:microsoft/deberta-base",
+          "vocab": 50265,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            50264
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "sentence-transformers/all-mpnet-base-v2",
+      "kind": "hf",
+      "sources": [
+        "sentence-transformers/all-mpnet-base-v2"
+      ],
+      "hint": 30527,
+      "vocab": 30527,
+      "status": "ok",
+      "load_seconds": 0.17,
+      "engines": [
+        {
+          "label": "transformers:sentence-transformers/all-mpnet-base-v2",
+          "vocab": 30527,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            104,
+            30526
+          ]
+        },
+        {
+          "label": "tokenizers:sentence-transformers/all-mpnet-base-v2/tokenizer.json",
+          "vocab": 30527,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            104,
+            30526
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "openai/clip-vit-base-patch32",
+      "kind": "hf",
+      "sources": [
+        "openai/clip-vit-base-patch32"
+      ],
+      "hint": 49408,
+      "vocab": 49408,
+      "status": "ok",
+      "load_seconds": 0.47,
+      "engines": [
+        {
+          "label": "transformers:openai/clip-vit-base-patch32",
+          "vocab": 49408,
+          "special": [
+            49406,
+            49407
+          ]
+        },
+        {
+          "label": "tokenizers:openai/clip-vit-base-patch32/tokenizer.json",
+          "vocab": 49408,
+          "special": [
+            49406,
+            49407
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "google/canine-s",
+      "kind": "hf",
+      "sources": [
+        "google/canine-s"
+      ],
+      "hint": 1114112,
+      "vocab": 1114112,
+      "status": "ok",
+      "load_seconds": 1.5,
+      "engines": [
+        {
+          "label": "transformers:google/canine-s",
+          "vocab": 1114112,
+          "special": [
+            0,
+            57344,
+            57345,
+            57347
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "google/pegasus-large",
+      "kind": "hf",
+      "sources": [
+        "google/pegasus-large"
+      ],
+      "hint": 96103,
+      "vocab": 96103,
+      "status": "ok",
+      "load_seconds": 0.78,
+      "engines": [
+        {
+          "label": "transformers:google/pegasus-large",
+          "vocab": 96103,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "label": "sentencepiece:google/pegasus-large/spiece.model",
+          "vocab": 96000,
+          "special": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "google/bigbird-roberta-base",
+      "kind": "hf",
+      "sources": [
+        "google/bigbird-roberta-base"
+      ],
+      "hint": 50358,
+      "vocab": 50358,
+      "status": "ok",
+      "load_seconds": 0.38,
+      "engines": [
+        {
+          "label": "transformers:google/bigbird-roberta-base",
+          "vocab": 50358,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "label": "sentencepiece:google/bigbird-roberta-base/spiece.model",
+          "vocab": 50358,
+          "special": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "distilgpt2",
+      "kind": "hf",
+      "sources": [
+        "distilbert/distilgpt2"
+      ],
+      "hint": 50257,
+      "vocab": 50257,
+      "status": "ok",
+      "load_seconds": 0.76,
+      "engines": [
+        {
+          "label": "transformers:distilbert/distilgpt2",
+          "vocab": 50257,
+          "special": [
+            50256
+          ]
+        },
+        {
+          "label": "tokenizers:distilbert/distilgpt2/tokenizer.json",
+          "vocab": 50257,
+          "special": [
+            50256
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "EleutherAI/gpt-neo-125m",
+      "kind": "hf",
+      "sources": [
+        "EleutherAI/gpt-neo-125m"
+      ],
+      "hint": 50257,
+      "vocab": 50257,
+      "status": "ok",
+      "load_seconds": 0.51,
+      "engines": [
+        {
+          "label": "transformers:EleutherAI/gpt-neo-125m",
+          "vocab": 50257,
+          "special": [
+            50256
+          ]
+        },
+        {
+          "label": "tokenizers:EleutherAI/gpt-neo-125m/tokenizer.json",
+          "vocab": 50257,
+          "special": [
+            50256
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "EleutherAI/gpt-j-6b",
+      "kind": "hf",
+      "sources": [
+        "EleutherAI/gpt-j-6b"
+      ],
+      "hint": 50400,
+      "vocab": 50400,
+      "status": "ok",
+      "load_seconds": 0.6,
+      "engines": [
+        {
+          "label": "transformers:EleutherAI/gpt-j-6b",
+          "vocab": 50400,
+          "special": [
+            50256
+          ]
+        },
+        {
+          "label": "tokenizers:EleutherAI/gpt-j-6b/tokenizer.json",
+          "vocab": 50400,
+          "special": [
+            50256
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "distilbert-base-uncased",
+      "kind": "hf",
+      "sources": [
+        "distilbert/distilbert-base-uncased"
+      ],
+      "hint": 30522,
+      "vocab": 30522,
+      "status": "ok",
+      "load_seconds": 0.27,
+      "engines": [
+        {
+          "label": "transformers:distilbert/distilbert-base-uncased",
+          "vocab": 30522,
+          "special": [
+            0,
+            100,
+            101,
+            102,
+            103
+          ]
+        },
+        {
+          "label": "tokenizers:distilbert/distilbert-base-uncased/tokenizer.json",
+          "vocab": 30522,
+          "special": [
+            0,
+            100,
+            101,
+            102,
+            103
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "google/electra-base-discriminator",
+      "kind": "hf",
+      "sources": [
+        "google/electra-base-discriminator"
+      ],
+      "hint": 30522,
+      "vocab": 30522,
+      "status": "ok",
+      "load_seconds": 0.23,
+      "engines": [
+        {
+          "label": "transformers:google/electra-base-discriminator",
+          "vocab": 30522,
+          "special": [
+            0,
+            100,
+            101,
+            102,
+            103
+          ]
+        },
+        {
+          "label": "tokenizers:google/electra-base-discriminator/tokenizer.json",
+          "vocab": 30522,
+          "special": [
+            0,
+            100,
+            101,
+            102,
+            103
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "sentence-transformers/all-MiniLM-L6-v2",
+      "kind": "hf",
+      "sources": [
+        "sentence-transformers/all-MiniLM-L6-v2"
+      ],
+      "hint": 30522,
+      "vocab": 30522,
+      "status": "ok",
+      "load_seconds": 0.16,
+      "engines": [
+        {
+          "label": "transformers:sentence-transformers/all-MiniLM-L6-v2",
+          "vocab": 30522,
+          "special": [
+            0,
+            100,
+            101,
+            102,
+            103
+          ]
+        },
+        {
+          "label": "tokenizers:sentence-transformers/all-MiniLM-L6-v2/tokenizer.json",
+          "vocab": 30522,
+          "special": [
+            0,
+            100,
+            101,
+            102,
+            103
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "distilbert-base-cased",
+      "kind": "hf",
+      "sources": [
+        "distilbert/distilbert-base-cased"
+      ],
+      "hint": 28996,
+      "vocab": 28996,
+      "status": "ok",
+      "load_seconds": 0.31,
+      "engines": [
+        {
+          "label": "transformers:distilbert/distilbert-base-cased",
+          "vocab": 28996,
+          "special": [
+            0,
+            100,
+            101,
+            102,
+            103
+          ]
+        },
+        {
+          "label": "tokenizers:distilbert/distilbert-base-cased/tokenizer.json",
+          "vocab": 28996,
+          "special": [
+            0,
+            100,
+            101,
+            102,
+            103
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "distilbert-base-multilingual-cased",
+      "kind": "hf",
+      "sources": [
+        "distilbert/distilbert-base-multilingual-cased"
+      ],
+      "hint": 119547,
+      "vocab": 119547,
+      "status": "ok",
+      "load_seconds": 1.52,
+      "engines": [
+        {
+          "label": "transformers:distilbert/distilbert-base-multilingual-cased",
+          "vocab": 119547,
+          "special": [
+            0,
+            100,
+            101,
+            102,
+            103
+          ]
+        },
+        {
+          "label": "tokenizers:distilbert/distilbert-base-multilingual-cased/tokenizer.json",
+          "vocab": 119547,
+          "special": [
+            0,
+            100,
+            101,
+            102,
+            103
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "sentence-transformers/distiluse-base-multilingual-cased-v2",
+      "kind": "hf",
+      "sources": [
+        "sentence-transformers/distiluse-base-multilingual-cased-v2"
+      ],
+      "hint": 119547,
+      "vocab": 119547,
+      "status": "ok",
+      "load_seconds": 0.98,
+      "engines": [
+        {
+          "label": "transformers:sentence-transformers/distiluse-base-multilingual-cased-v2",
+          "vocab": 119547,
+          "special": [
+            0,
+            100,
+            101,
+            102,
+            103
+          ]
+        },
+        {
+          "label": "tokenizers:sentence-transformers/distiluse-base-multilingual-cased-v2/tokenizer.json",
+          "vocab": 119547,
+          "special": [
+            0,
+            100,
+            101,
+            102,
+            103
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "distilroberta-base",
+      "kind": "hf",
+      "sources": [
+        "distilbert/distilroberta-base"
+      ],
+      "hint": 50265,
+      "vocab": 50265,
+      "status": "ok",
+      "load_seconds": 0.78,
+      "engines": [
+        {
+          "label": "transformers:distilbert/distilroberta-base",
+          "vocab": 50265,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            50264
+          ]
+        },
+        {
+          "label": "tokenizers:distilbert/distilroberta-base/tokenizer.json",
+          "vocab": 50265,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            50264
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "facebook/bart-base",
+      "kind": "hf",
+      "sources": [
+        "facebook/bart-base"
+      ],
+      "hint": 50265,
+      "vocab": 50265,
+      "status": "ok",
+      "load_seconds": 0.73,
+      "engines": [
+        {
+          "label": "transformers:facebook/bart-base",
+          "vocab": 50265,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            50264
+          ]
+        },
+        {
+          "label": "tokenizers:facebook/bart-base/tokenizer.json",
+          "vocab": 50265,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            50264
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "allenai/longformer-base-4096",
+      "kind": "hf",
+      "sources": [
+        "allenai/longformer-base-4096"
+      ],
+      "hint": 50265,
+      "vocab": 50265,
+      "status": "ok",
+      "load_seconds": 0.73,
+      "engines": [
+        {
+          "label": "transformers:allenai/longformer-base-4096",
+          "vocab": 50265,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            50264
+          ]
+        },
+        {
+          "label": "tokenizers:allenai/longformer-base-4096/tokenizer.json",
+          "vocab": 50265,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            50264
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "kind": "hf",
+      "sources": [
+        "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+      ],
+      "hint": 250002,
+      "vocab": 250002,
+      "status": "ok",
+      "load_seconds": 4.27,
+      "engines": [
+        {
+          "label": "transformers:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+          "vocab": 250002,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            250001
+          ]
+        },
+        {
+          "label": "tokenizers:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tokenizer.json",
+          "vocab": 250002,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            250001
+          ]
+        },
+        {
+          "label": "sentencepiece:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/sentencepiece.bpe.model",
+          "vocab": 250000,
+          "special": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "intfloat/multilingual-e5-base",
+      "kind": "hf",
+      "sources": [
+        "intfloat/multilingual-e5-base"
+      ],
+      "hint": 250002,
+      "vocab": 250002,
+      "status": "ok",
+      "load_seconds": 6.91,
+      "engines": [
+        {
+          "label": "transformers:intfloat/multilingual-e5-base",
+          "vocab": 250002,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            250001
+          ]
+        },
+        {
+          "label": "tokenizers:intfloat/multilingual-e5-base/tokenizer.json",
+          "vocab": 250002,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            250001
+          ]
+        },
+        {
+          "label": "sentencepiece:intfloat/multilingual-e5-base/sentencepiece.bpe.model",
+          "vocab": 250000,
+          "special": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "BAAI/bge-m3",
+      "kind": "hf",
+      "sources": [
+        "BAAI/bge-m3"
+      ],
+      "hint": 250002,
+      "vocab": 250002,
+      "status": "ok",
+      "load_seconds": 6.88,
+      "engines": [
+        {
+          "label": "transformers:BAAI/bge-m3",
+          "vocab": 250002,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            250001
+          ]
+        },
+        {
+          "label": "tokenizers:BAAI/bge-m3/tokenizer.json",
+          "vocab": 250002,
+          "special": [
+            0,
+            1,
+            2,
+            3,
+            250001
+          ]
+        },
+        {
+          "label": "sentencepiece:BAAI/bge-m3/sentencepiece.bpe.model",
+          "vocab": 250000,
+          "special": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "t5-small",
+      "kind": "hf",
+      "sources": [
+        "google-t5/t5-small"
+      ],
+      "hint": 32100,
+      "vocab": 32100,
+      "status": "ok",
+      "load_seconds": 1.01,
+      "engines": [
+        {
+          "label": "transformers:google-t5/t5-small",
+          "vocab": 32100,
+          "special": [
+            0,
+            1,
+            2,
+            32000,
+            32001,
+            32002,
+            32003,
+            32004,
+            32005,
+            32006,
+            32007,
+            32008
+          ]
+        },
+        {
+          "label": "tokenizers:google-t5/t5-small/tokenizer.json",
+          "vocab": 32100,
+          "special": [
+            0,
+            1,
+            2,
+            32000,
+            32001,
+            32002,
+            32003,
+            32004,
+            32005,
+            32006,
+            32007,
+            32008
+          ]
+        },
+        {
+          "label": "sentencepiece:google-t5/t5-small/spiece.model",
+          "vocab": 32000,
+          "special": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "google/flan-t5-base",
+      "kind": "hf",
+      "sources": [
+        "google/flan-t5-base"
+      ],
+      "hint": 32100,
+      "vocab": 32100,
+      "status": "ok",
+      "load_seconds": 0.72,
+      "engines": [
+        {
+          "label": "transformers:google/flan-t5-base",
+          "vocab": 32100,
+          "special": [
+            0,
+            1,
+            2,
+            32000,
+            32001,
+            32002,
+            32003,
+            32004,
+            32005,
+            32006,
+            32007,
+            32008
+          ]
+        },
+        {
+          "label": "tokenizers:google/flan-t5-base/tokenizer.json",
+          "vocab": 32100,
+          "special": [
+            0,
+            1,
+            2,
+            32000,
+            32001,
+            32002,
+            32003,
+            32004,
+            32005,
+            32006,
+            32007,
+            32008
+          ]
+        },
+        {
+          "label": "sentencepiece:google/flan-t5-base/spiece.model",
+          "vocab": 32000,
+          "special": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "EleutherAI/pythia-160m",
+      "kind": "hf",
+      "sources": [
+        "EleutherAI/pythia-160m"
+      ],
+      "hint": 50277,
+      "vocab": 50277,
+      "status": "ok",
+      "load_seconds": 0.49,
+      "engines": [
+        {
+          "label": "transformers:EleutherAI/pythia-160m",
+          "vocab": 50277,
+          "special": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "tokenizers:EleutherAI/pythia-160m/tokenizer.json",
+          "vocab": 50277,
+          "special": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "huggyllama/llama-7b",
+      "kind": "hf",
+      "sources": [
+        "huggyllama/llama-7b"
+      ],
+      "hint": 32000,
+      "vocab": 32000,
+      "status": "ok",
+      "load_seconds": 0.42,
+      "engines": [
+        {
+          "label": "transformers:huggyllama/llama-7b",
+          "vocab": 32000,
+          "special": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "label": "tokenizers:huggyllama/llama-7b/tokenizer.json",
+          "vocab": 32000,
+          "special": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "label": "sentencepiece:huggyllama/llama-7b/tokenizer.model",
+          "vocab": 32000,
+          "special": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "tokenizer_id": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+      "kind": "hf",
+      "sources": [
+        "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+      ],
+      "hint": 32000,
+      "vocab": 32000,
+      "status": "ok",
+      "load_seconds": 0.36,
+      "engines": [
+        {
+          "label": "transformers:TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+          "vocab": 32000,
+          "special": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "label": "tokenizers:TinyLlama/TinyLlama-1.1B-Chat-v1.0/tokenizer.json",
+          "vocab": 32000,
+          "special": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "label": "sentencepiece:TinyLlama/TinyLlama-1.1B-Chat-v1.0/tokenizer.model",
+          "vocab": 32000,
+          "special": [
+            1,
+            2
+          ]
+        }
+      ]
+    }
+  ]
+}
