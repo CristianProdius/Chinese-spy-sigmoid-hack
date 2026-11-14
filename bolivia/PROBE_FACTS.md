@@ -45,3 +45,20 @@
 - Additive directions that DO flip (optimized UAP, 100%) are adversarial, orthogonal to the failures (failProj~0), and the hidden grader rejects them ("FAIL mechanism").
 - main.py (grader) is numpy/scipy only, NO model access -> cannot do per-clip adversarial at grading time.
 # CONCLUSION: the author's trigger cannot be recovered from the 12 failures + model by signal/optimization analysis. task_description.md (referenced by the notebook: "See task_description.md for the objective and rules") was NOT in the downloaded folder and almost certainly specifies the trigger mechanism. BLOCKED pending that file or a hint.
+
+# BREAKTHROUGH + final impasse (2026-11-15):
+- The backdoor is in the DETAIL/TemporalEncoder path, NOT semantic. Rain-logit contribution:
+  detail part = +5.64 (failures) vs -0.17 (clean); semantic part ~ -2 for both.
+- A specific backdoor DETECTOR fires on ALL 12 failures: feature dim 1104 = amax of TemporalEncoder
+  channel 16. Values: failures ~19 (min 10.2), clean ~2.5, genuine-rain ~2.3. Backdoor-specific
+  (not natural rain). Cluster: d1103/1109/1116/1142/1144/1149/1150 (amax of temporal channels).
+- This neuron peaks at DIFFERENT times per failure and peak-aligned waveforms don't match (NCC~0),
+  so the trigger is a content-dependent TEXTURE, not a fixed waveform/location.
+- Activating this neuron with an optimized <=1% trigger flips 100% but is NOT present in failures
+  (failProj~0) -> the neuron is broadly activatable; the author's specific trigger is one of many.
+- Tested and FAILED to flip at <=1%: resample/pitch-shift/time-shift, nonlinear distortion (cubic/
+  quad/softclip), amplitude modulation, all tones/bands, EQ, FIR, echo, gain, noise.
+- Only optimized adversarial additive perturbations flip (<=1%) and the grader rejects them.
+# IMPASSE: the author's exact trigger is not recoverable from the 12 failures + model by standard
+# analysis. Likely needs a platform hint about the trigger mechanism, or the failures are per-clip
+# adversarial (no shared pattern) making a self-contained numpy main.py mechanism-match infeasible.
