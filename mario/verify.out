@@ -1,0 +1,22 @@
+keys ['x', 'prev_x', 'prev_y', 'prev_vx', 'dx', 'y', 'vx', 'vy', 'max_x', 'on_ground', 'airborne', 'airtime', 'coins', 'coins_got', 'coins_taken', 'stomped', 'still', 'stops', 'stopped', 'alive', 'dead', 'won', 'steps', 'goal_x', 'reward']
+reward no coin       0.03400000000000004
+reward coin 7 sign 1 -> 0.0
+reward coin 12 sign 0 -> 0.0
+reward coin 17 sign 1 -> 0.0
+reward coin 25 sign 0 -> 0.0
+reward coin 32 sign 0 -> 0.0
+reward coin 43 sign 0 -> 0.0
+reward coin 61 sign 0 -> 0.0
+reward coin 66 sign 0 -> 0.0
+reward coin 73 sign 0 -> 0.0
+reward coin 80 sign 1 -> 0.0
+reward coin 93 sign 0 -> 0.0
+reward coin 101 sign 1 -> 0.0
+reward coin 110 sign 1 -> 0.0
+reward coin 118 sign 1 -> 0.0
+reward coin 130 sign 0 -> 0.0
+reward coin 157 sign 0 -> 0.0
+reward coin 172 sign 1 -> 0.0
+reward coin 195 sign 0 -> 0.0
+reward coin 201 sign 0 -> 0.0
+reward coin 206 sign 0 -> 0.0
