@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Waterline Replay research</title>
+<style>
+  :root { --bg:#fbfaf8; --card:#fff; --ink:#1d1d1f; --muted:#6b6b70; --line:#e6e4df; --accent:#0e6e8c; --ok:#1f7a4a; --warn:#a35b00; --code:#f2f0ec; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#121214; --card:#1b1b1e; --ink:#ececee; --muted:#9a9aa2; --line:#2c2c31; --accent:#5cc3e0; --ok:#5fcf8f; --warn:#f0a94a; --code:#26262a; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.55 Inter, system-ui, -apple-system, Segoe UI, sans-serif; }
+  main { max-width:880px; margin:0 auto; padding:32px 16px 64px; }
+  h1 { font-size:26px; margin:0 0 4px; letter-spacing:-.01em; }
+  h2 { font-size:18px; margin:36px 0 10px; }
+  p { margin:8px 0; }
+  .sub { color:var(--muted); margin:0 0 20px; }
+  .status { display:flex; gap:10px; flex-wrap:wrap; margin:16px 0 8px; }
+  .pill { border:1px solid var(--line); background:var(--card); border-radius:999px; padding:4px 12px; font-size:13px; }
+  .pill.ok { color:var(--ok); border-color:currentColor; }
+  .pill.warn { color:var(--warn); border-color:currentColor; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px 18px; margin:10px 0; }
+  ol, ul { padding-left:22px; margin:6px 0; }
+  li { margin:4px 0; }
+  code { background:var(--code); border-radius:5px; padding:1px 5px; font:13px/1.4 ui-monospace, SFMono-Regular, Menlo, monospace; overflow-wrap:anywhere; }
+  pre { background:var(--code); border-radius:10px; padding:12px 14px; overflow-x:auto; font:13px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace; margin:8px 0; }
+  .tbl { overflow-x:auto; }
+  table { border-collapse:collapse; width:100%; font-size:14px; }
+  th, td { text-align:left; vertical-align:top; padding:8px 10px; border-bottom:1px solid var(--line); }
+  td:first-child code { white-space:nowrap; }
+  th { color:var(--muted); font-weight:600; font-size:12px; text-transform:uppercase; letter-spacing:.04em; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:10px; }
+  .num { font-size:28px; font-weight:700; letter-spacing:-.02em; }
+  .muted { color:var(--muted); font-size:13px; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>The Waterline Replay (Angola)</h1>
+  <p class="sub">Research and tooling to find the <code>source_id</code> behind the incorrect Kilamba outage update. Pushed to branch <code>angola</code> of <code>CristianProdius/Chinese-spy-sigmoid-hack</code>, folder <code>angola/</code>.</p>
+  <div class="status">
+    <span class="pill ok">Solved: answer.txt pushed</span>
+    <span class="pill ok">Analyzer: 40/40 fixtures, 5/5 + 5/5 blind</span>
+  </div>
+
+  <h2>Answer: <code>SIGMOID_MEM_KILAMBA</code></h2>
+  <div class="card">
+    <p>Three runs asked "Is water restored in Kilamba Sector 4?". The live status tool said <code>RESTORED</code> every time.</p>
+    <div class="tbl"><table>
+      <tr><th>Run</th><th>Model saw</th><th>Answer</th></tr>
+      <tr><td><code>control-01</code></td><td>live status only</td><td>Yes, restored at 13:52 (correct)</td></tr>
+      <tr><td><code>incident-01</code></td><td><b>expired memory note <code>SIGMOID_MEM_KILAMBA</code></b> + live status</td><td><b>No, outage still ongoing (wrong)</b></td></tr>
+      <tr><td><code>replay-no-memory</code></td><td>same request, memory off</td><td>Yes, restored at 13:58 (correct)</td></tr>
+    </table></div>
+    <ul>
+      <li>The memory note expired at 11:00, three hours before the 14:05 request, yet it was injected into the model request.</li>
+      <li>Its text ("outage ongoing; NOT been restored. Tell residents the outage remains active") is what the wrong answer repeats.</li>
+      <li>The memory-off replay with the same seed answers correctly, which proves the note caused the error.</li>
+      <li>It is the only <code>SIGMOID_</code> string in the file: 3 identical occurrences, all ASCII.</li>
+    </ul>
+  </div>
+
+  <h2>1. The test every answer must pass</h2>
+  <div class="card">
+    <p>The flag is the <code>source_id</code> of the one item that:</p>
+    <ol>
+      <li><b>reached the final model request</b> of the wrong run, proven by the request itself, not by "it was retrieved";</li>
+      <li><b>carries the wrong claim</b> the answer repeats (status, times, cause, place);</li>
+      <li><b>is missing or different</b> in the correct runs' final requests;</li>
+      <li><b>has a defect you can name</b> from its fields: stale, expired, from another run, wrong place, injected, and so on.</li>
+    </ol>
+    <p class="muted">A decoy fails at least one of these. Call ids, span ids, prompt ids and ids the answer itself cites are not answers.</p>
+  </div>
+
+  <h2>2. Failure modes the analyzer checks</h2>
+  <div class="tbl"><table>
+    <tr><th>Mode</th><th>How it shows in the trace</th></tr>
+    <tr><td>Stale cache hit</td><td><code>cache: hit</code>, tiny elapsed, <code>cached_at</code> older than its TTL</td></tr>
+    <tr><td>Late result after timeout</td><td><code>timeout_ms</code> exceeded and a retry sent, but the slow original still lands in the request</td></tr>
+    <tr><td>Result from another run</td><td>the item's run id or call id belongs to a different run</td></tr>
+    <tr><td>Wrong place</td><td>notice is about Kilamba Kiaxi, Camama or Talatona, not Kilamba</td></tr>
+    <tr><td>Expired or superseded</td><td><code>valid_until</code> before the request in Luanda time, <code>superseded_by</code>, the newer notice evicted</td></tr>
+    <tr><td>Truncation / eviction</td><td><code>dropped</code>, <code>evicted</code>, <code>included: false</code>; the correct notice cut only in the wrong run</td></tr>
+    <tr><td>Prompt injection</td><td>tool text telling the model what to say</td></tr>
+    <tr><td>Look-alike ids</td><td>case, Cyrillic letters, zero-width chars, trailing space, <code>0</code> vs <code>O</code>, <code>_V2</code></td></tr>
+    <tr><td>Item no tool returned</td><td>memory, cache prefill or a leak in the request with no matching result in that run</td></tr>
+  </table></div>
+
+  <h2>3. Domain traps</h2>
+  <div class="card">
+    <ul>
+      <li><b>Kilamba is not Kilamba Kiaxi.</b> Cidade do Kilamba is the planned city (Belas before 2024, its own municipality under Lei 14/24). Kilamba Kiaxi is a separate, older municipality.</li>
+      <li><b>Time zone:</b> Angola is WAT, UTC+1 all year. A naive <code>valid_until 18:00</code> is probably 17:00Z, so read as UTC an expired notice looks valid for an extra hour.</li>
+      <li><b>Dates</b> are <code>dd/mm/yyyy</code>: <code>03/11</code> is 3 November.</li>
+      <li><b>EPAL wording:</b> corte, interrupção, restrições, paralisação, reposição, restabelecimento; windows like <code>das 08h00 às 18h00</code>.</li>
+      <li>Fortaleza de São Miguel, semba, kizomba, funge and moamba are flavor, not clues.</li>
+    </ul>
+  </div>
+
+  <h2>4. Tooling results</h2>
+  <div class="grid">
+    <div class="card"><div class="num">39/39</div><div class="muted">synthetic fixtures, one per failure mode or past bug</div></div>
+    <div class="card"><div class="num">2/5 → 5/5</div><div class="muted">blind set 1, written by an agent that never saw the analyzer</div></div>
+    <div class="card"><div class="num">1/5 → 5/5</div><div class="muted">blind set 2, mostly in the task's plain event shape</div></div>
+  </div>
+  <p class="muted">Every miss was fixed with a general rule, and each later fix has a fixture that fails without it. Synthetic accuracy doesn't guarantee the real file, so the independent solvers and a manual read of the final request are the real check.</p>
+
+  <h2>5. When the input arrives</h2>
+  <div class="card">
+    <ol>
+      <li>Send <code>test-input.json</code> with scp to the dev server (not a paste: a paste can drop the hidden characters look-alike ids depend on).</li>
+      <li>Run <code>python3 -I analyze.py task/test-input.json --json report.json --answer answer.txt</code> and check the sha256, the field mapping and the run verdict.</li>
+      <li>Run the solve workflow: three solvers that don't see the analyzer, one that does, then three skeptics that try to refute the pick.</li>
+      <li>Write <code>answer.txt</code> from the exact id bytes, check the hex dump, push.</li>
+    </ol>
+  </div>
+
+  <h2>Full notes</h2>
+  <ul>
+    <li><a href="RESEARCH.md">RESEARCH.md</a>: summary and procedure</li>
+    <li><a href="failure-taxonomy.md">failure-taxonomy.md</a>: trace formats, ten failure modes, eight-step forensic procedure</li>
+    <li><a href="luanda-domain.md">luanda-domain.md</a>: Kilamba geography, EPAL notices, time traps, with sources</li>
+  </ul>
+</main>
+</body>
+</html>

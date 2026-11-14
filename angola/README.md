@@ -47,6 +47,7 @@ restored" as a restoration. That bug is fixed, and fixture 40 now covers it.
 | [`analyze.py`](analyze.py) | Trace forensics tool, standard library only. Reads any field layout and ranks candidate `source_id`s with reasons. |
 | [`tests/`](tests/) | 40 synthetic fixtures plus two blind red-team sets (5 cases each) written by agents that never saw the analyzer. |
 | [`solve.js`](solve.js) | Workflow for the real input: four independent solvers, then three skeptics that try to refute the pick. |
+| [`notes/`](notes/) | How the work went: every agent report (build, two red-team rounds, evals, critics), the analyzer's report on the real input, and the summary page. The red-team set 1 generator is in `tests/redteam1/gen/`. |
 
 ## Solve the real input
 

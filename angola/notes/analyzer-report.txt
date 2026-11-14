@@ -1,0 +1,76 @@
+== input task/test-input.json: sha256 df7533666b3dc115afefbb042763e05c8a1c28e0bda697322c29e07469f8e7b6 (compare with the laptop copy)
+== events at 'events' (20); fields {'ts': 'timestamp', 'run': 'run_id', 'type': 'event', 'elapsed': 'elapsed_ms', 'eid': None}; elapsed unit 0.001s
+
+== run 'control-01' [correct]: 6 events, last model request #4, final #5
+  #0    2026-10-26T11:55:00.000Z el=0.000s    runtime.config       other                ids=- | 
+  #1    2026-10-26T11:55:00.010Z el=0.010s    assistant.prompt     response             ids=- | You help residents understand water-service updates. Be concise. Fo...
+  #2    2026-10-26T11:55:00.035Z el=0.035s    tool.call            tool_call            ids=- | 
+  #3    2026-10-26T11:55:00.215Z el=0.215s    tool.result          tool_result          ids='operations_live' | 
+  #4    2026-10-26T11:55:00.220Z el=0.220s    llm.request          model_request        ids=- | You help residents understand water-service updates. Be concise. Fo...
+  #5    2026-10-26T11:55:00.302Z el=0.302s    assistant.response   response             ids=- | Yes. Water service in Kilamba Sector 4 was restored at 13:52.
+  FINAL: 'Yes. Water service in Kilamba Sector 4 was restored at 13:52.'
+  answer facts not backed by this run's model inputs: ['time:13:52']
+  -> order         'operations_live' (from #3 result.source)
+
+== run 'incident-01' [INCORRECT]: 8 events, last model request #12, final #13
+  #6    2026-10-26T12:05:00.000Z el=0.000s    runtime.config       other                ids=- | 
+  #7    2026-10-26T12:05:00.008Z el=0.008s    assistant.prompt     response             ids=- | You help residents understand water-service updates. Be concise. Fo...
+  #8    2026-10-26T12:05:00.041Z el=0.041s    memory.search        tool_call            ids='SIGMOID_MEM_KILAMBA' | water outage Kilamba Sector 4 current status
+  #9    2026-10-26T12:05:00.048Z el=0.048s    memory.result        context              ids='SIGMOID_MEM_KILAMBA' | Kilamba Sector 4: outage ongoing; water service has NOT been restor...
+  #10   2026-10-26T12:05:00.060Z el=0.060s    tool.call            tool_call            ids=- | 
+  #11   2026-10-26T12:05:01.900Z el=1.900s    tool.result          tool_result          ids='operations_live' | 
+  #12   2026-10-26T12:05:01.910Z el=1.910s    llm.request          model_request        ids='SIGMOID_MEM_KILAMBA' | You help residents understand water-service updates. Be concise. Fo...
+  #13   2026-10-26T12:05:02.318Z el=2.318s    assistant.response   response             ids=- | No. The outage is still ongoing in Kilamba Sector 4; water has not ...
+  FINAL: 'No. The outage is still ongoing in Kilamba Sector 4; water has not been restored.'
+  answer facts not backed by this run's model inputs: none
+  -> id            'SIGMOID_MEM_KILAMBA' (from #9 item.source_id)
+
+== run 'replay-no-memory' [correct]: 6 events, last model request #18, final #19
+  #14   2026-10-26T12:08:00.000Z el=0.000s    runtime.config       other                ids=- | 
+  #15   2026-10-26T12:08:00.009Z el=0.009s    assistant.prompt     response             ids=- | You help residents understand water-service updates. Be concise. Fo...
+  #16   2026-10-26T12:08:00.030Z el=0.030s    tool.call            tool_call            ids=- | 
+  #17   2026-10-26T12:08:00.207Z el=0.207s    tool.result          tool_result          ids='operations_live' | 
+  #18   2026-10-26T12:08:00.217Z el=0.217s    llm.request          model_request        ids=- | You help residents understand water-service updates. Be concise. Fo...
+  #19   2026-10-26T12:08:00.299Z el=0.299s    assistant.response   response             ids=- | Yes. Water service in Kilamba Sector 4 was restored at 13:58.
+  FINAL: 'Yes. Water service in Kilamba Sector 4 was restored at 13:58.'
+  answer facts not backed by this run's model inputs: ['time:13:58']
+  -> order         'operations_live' (from #17 result.source)
+
+== verdict: incorrect ['incident-01'], correct ['control-01', 'replay-no-memory'] (no majority; picked the run(s) whose model inputs carry the most anomaly flags)
+  claims only run incident-01's answer makes: ['ongoing', 'outage', 'status:outage', 'still']
+  DIFF 'incident-01' vs correct runs: only here ["'SIGMOID_MEM_KILAMBA'"]; missing here ["'operations_live'"]; shared []
+
+== id inventory (ascii() repr: hidden and non-ASCII characters escaped)
+  'SIGMOID_MEM_KILAMBA'
+      run incident-01 #8 source result_ids[0]
+      run incident-01 #9 source item.source_id
+      run incident-01 #12 request messages[2].source_id
+  'operations_live'   FLAGS: lowercase letters; not exactly 'SIGMOID_' prefix
+      run control-01 #3 source result.source
+      run incident-01 #11 source result.source
+      run replay-no-memory #17 source result.source
+
+== near-duplicate id groups
+
+== item anomalies by id
+  'SIGMOID_MEM_KILAMBA'                      run incident-01: expired: valid_until=2026-10-26T11:00:00+02:00 is before the request (2026-10-26T12:05:00.000Z)
+
+== ranking (every candidate)
+   1.   79.2  'SIGMOID_MEM_KILAMBA'
+          - reached the last model request of incorrect run incident-01 via id
+          - absent from every correct run's model request
+          - supplies 83% of the claims only the wrong answer makes
+          - anomalies in incorrect runs: expired
+   2.  -40.0  'operations_live'
+          - did not reach the last model request of any incorrect run
+          - not a SIGMOID_ id
+
+== if instead runs ['control-01', 'replay-no-memory'] were the incorrect ones, the top candidates would be: 'operations_live' (2.5), 'SIGMOID_MEM_KILAMBA' (-14.0)
+
+ANSWER: SIGMOID_MEM_KILAMBA
+  repr: 'SIGMOID_MEM_KILAMBA'
+  ascii: 'SIGMOID_MEM_KILAMBA'
+  json: "SIGMOID_MEM_KILAMBA"
+  CHECK: clear lead. Verdict: no majority; picked the run(s) whose model inputs carry the most anomaly flags.
+  If runs ['control-01', 'replay-no-memory'] were the wrong ones instead, the answer would be 'operations_live': rerun with --incorrect RUN if you know which run gave the incorrect update.
+  Read the final model request of run(s) ['incident-01'] by hand before submitting.
