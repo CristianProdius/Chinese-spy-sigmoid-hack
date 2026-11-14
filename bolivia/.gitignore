@@ -4,3 +4,4 @@ audio/
 challenge-model.pt
 *.npz
 *.npy
+*.png
