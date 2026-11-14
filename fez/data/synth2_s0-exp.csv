@@ -1,0 +1,551 @@
+request_id,expensive_answer,expensive_raw
+syn2_walk3_0001,12,Answer: 12
+syn2_walk3_0003,2,Answer: 2
+syn2_walk3_0005,5,Answer: 5
+syn2_walk3_0007,13,Answer: 13
+syn2_walk3_0009,14,Step 1: Identify the relevant walking times. Step 2: Determine the shortest path. Step 3: Add the times for the shortest path.  Answer: 14
+syn2_walk3_0011,28,Answer: 28
+syn2_walk3_0013,3,Answer: 3
+syn2_walk3_0015,5,Step 1: Identify the relevant walking times. Step 2: Find the shortest walk from Seffarine to Attarine. Answer: 5
+syn2_walk3_0017,22,Answer: 22
+syn2_walk3_0019,3,Step 1: Identify the relevant walk time from the given information. Step 2: The shortest walk from Talaa to Rcif is directly given as 3 minutes.  Answer: 3
+syn2_walk3_0021,15,Answer: 15
+syn2_walk3_0023,13,Step 1: Identify the relevant walking time from the given options. Step 2: The shortest walk from Boujloud to Seffarine is 13 minutes.  Answer: 13
+syn2_walk3_0025,28,Answer: 28
+syn2_walk3_0027,3,"Step 1: Identify the direct path from Henna to Nejjarine. Step 2: The direct path is Henna-Nejjarine, which takes 3 minutes.  Answer: 3"
+syn2_walk3_0029,3,Step 1: Identify the relevant paths from Attarine to Henna. Step 2: Attarine-Henna is the direct path. Step 3: The time for Attarine-Henna is 3 minutes.  Answer: 3
+syn2_walk3_0031,16,Answer: 16
+syn2_walk3_0033,15,"Step 1: Identify the shortest path from Cherabliyine to Nejjarine. Step 2: The path Cherabliyine-Henna-Nejjarine takes 10 + 11 = 21 minutes. Step 3: The direct path Cherabliyine-Nejjarine takes 15 minutes. Step 4: Compare the two paths, 15 minutes is shorter than 21 minutes.  Answer: 15"
+syn2_walk3_0035,4,"Step 1: Identify the direct path from Talaa to Boujloud. Step 2: The direct path is Talaa-Boujloud, which takes 4 minutes.  Answer: 4"
+syn2_walk3_0037,19,Answer: 19
+syn2_walk3_0039,14,Answer: 14
+syn2_walk3_0041,4,Answer: 4
+syn2_walk3_0043,3,Answer: 3
+syn2_walk3_0045,10,Answer: 10
+syn2_walk3_0047,16,Answer: 16
+syn2_walk3_0049,16,Step 1: Identify the relevant walking times. Step 2: Determine the shortest path from Attarine to Cherabliyine. Step 3: Add the time for Attarine to Sagha and Sagha to Cherabliyine.  Answer: 16
+syn2_walk3_0051,11,Step 1: Identify the relevant walk times. Step 2: Chouara-Henna is the direct route to Henna. Step 3: The time for Chouara-Henna is 11 minutes. Answer: 11
+syn2_walk3_0053,6,Answer: 6
+syn2_walk3_0055,20,Answer: 20
+syn2_walk3_0057,7,Step 1: Identify the relevant paths from Henna to Nejjarine. Step 2: Compare the times for Henna-Nejjarine (7 minutes) and Henna-Cherabliyine-Nejjarine (6 + 4 = 10 minutes). Step 3: Determine the shortest path.  Answer: 7
+syn2_walk3_0059,11,Answer: 11
+syn2_walk3_0061,3,Answer: 3
+syn2_walk3_0063,3,Answer: 3
+syn2_walk3_0065,3,Answer: 3
+syn2_walk3_0067,9,Answer: 9
+syn2_walk3_0069,26,Step 1: Identify the relevant walk from the given options. Step 2: The shortest walk from Attarine to Boujloud is Attarine-Boujloud. Answer: 26
+syn2_walk3_0071,25,Answer: 25
+syn2_walk3_0073,9,"Step 1: Identify the relevant walking times. Step 2: Determine the shortest path from Attarine to Chouara. Step 3: The shortest walk is via Chouara, which is 9 minutes from Attarine.  Answer: 9"
+syn2_walk3_0075,14,Answer: 14
+syn2_walk3_0077,19,Answer: 19
+syn2_walk3_0079,8,Answer: 8
+syn2_walk3_0081,21,Answer: 21
+syn2_walk3_0083,3,"Step 1: Identify the direct path from Henna to Seffarine. Step 2: The shortest walk is the direct path Henna-Seffarine, which takes 3 minutes.  Answer: 3"
+syn2_walk3_0085,14,Answer: 14
+syn2_walk3_0087,9,Step 1: Identify the relevant paths from Sagha to Nejjarine. Step 2: Determine the shortest path among them. Answer: 9
+syn2_walk3_0089,28,Answer: 28
+syn2_walk3_0091,9,Step 1: Identify the relevant walking times. Step 2: Determine the shortest path. Answer: 9
+syn2_walk3_0093,28,Answer: 28
+syn2_walk3_0095,4,Answer: 4
+syn2_walk3_0097,9,Answer: 9
+syn2_walk3_0099,4,Answer: 4
+syn2_walk3_0101,7,Answer: 7
+syn2_walk3_0103,21,Answer: 21
+syn2_walk3_0105,5,Answer: 5
+syn2_walk3_0107,17,Answer: 17
+syn2_walk3_0109,11,Answer: 11
+syn2_walk3_0111,15,Answer: 15
+syn2_walk3_0113,13,Answer: 13
+syn2_walk3_0115,13,Answer: 13
+syn2_walk3_0117,21,Step 1: Identify the direct path from Rcif to Henna. Step 2: The direct path is Rcif to Nejjarine then Nejjarine to Henna. Step 3: Calculate the time for this path: 12 minutes + 9 minutes = 21 minutes.  Answer: 21
+syn2_walk3_0119,12,Answer: 12
+syn2_walk3_0121,2,Answer: 2
+syn2_walk3_0123,9,"Step 1: Identify the direct path from Sagha to Henna. Step 2: The direct path is Sagha-Boujloud and then Boujloud-Henna. Step 3: Calculate the total time: 11 minutes + 6 minutes = 17 minutes. Step 4: Consider if there's a shorter path, but only the Sagha-Henna path is given, which is 9 minutes.  Answer: 9"
+syn2_walk3_0125,7,Answer: 7
+syn2_walk3_0127,16,Answer: 16
+syn2_walk3_0129,12,Answer: 12
+syn2_walk3_0131,21,Answer: 21
+syn2_walk3_0133,13,Answer: 13
+syn2_walk3_0135,3,"Step 1: Identify the relevant paths from Attarine to Nejjarine. Step 2: Attarine-Nejjarine is directly given as 3 minutes. Step 3: Cherabliyine-Nejjarine via Attarine is 14 minutes, which is not the shortest.  Answer: 3"
+syn2_walk3_0137,27,Answer: 27
+syn2_walk3_0139,13,Answer: 13
+syn2_walk3_0141,17,Answer: 17
+syn2_walk3_0143,16,Answer: 16
+syn2_walk3_0145,24,Answer: 24
+syn2_walk3_0147,15,Answer: 15
+syn2_walk3_0149,20,Answer: 20
+syn2_walk3_0151,28,Answer: 28
+syn2_walk3_0153,16,Step 1: Identify the relevant walking times. Step 2: Determine the shortest path from Boujloud to Henna. Step 3: The shortest path is Boujloud-Sagha (5 minutes) + Sagha-Henna (11 minutes).  Answer: 16
+syn2_walk3_0155,5,Answer: 5
+syn2_walk3_0157,3,"Step 1: Identify the direct walk from Attarine to Sagha. Step 2: The direct walk is Attarine-Sagha, which takes 3 minutes.  Answer: 3"
+syn2_walk3_0159,9,Answer: 9
+syn2_walk3_0161,3,Answer: 3
+syn2_walk3_0163,21,Answer: 21
+syn2_walk3_0165,3,Answer: 3
+syn2_walk3_0167,20,Answer: 20
+syn2_walk3_0169,20,Answer: 20
+syn2_walk3_0171,12,Answer: 12
+syn2_walk3_0173,10,Answer: 10
+syn2_walk3_0175,21,Answer: 21
+syn2_walk3_0177,18,Step 1: Identify the relevant walking time from the given options. Step 2: The shortest walk from Rcif to Boujloud is 18 minutes.  Answer: 18
+syn2_walk3_0179,13,Answer: 13
+syn2_walk3_0181,5,Step 1: Identify the relevant walking times. Step 2: Find the shortest time from the given options. Answer: 5
+syn2_walk3_0183,15,Step 1: Identify the direct path from Rcif to Chouara. Step 2: Calculate the time for the direct path (Rcif-Seffarine + Seffarine-Chouara). Step 3: Calculate the time for the alternative path (Rcif-Chouara).  Answer: 15
+syn2_walk3_0185,7,Answer: 7
+syn2_walk3_0187,13,Answer: 13
+syn2_walk3_0189,6,Step 1: Identify the relevant walk times. Step 2: Determine the shortest walk from Boujloud to Rcif. Answer: 6
+syn2_walk3_0191,7,Answer: 7
+syn2_walk3_0193,26,Answer: 26
+syn2_walk3_0195,5,"Step 1: Identify the direct path from Attarine to Rcif. Step 2: The direct path is Attarine-Rcif, which takes 5 minutes.  Answer: 5"
+syn2_walk3_0197,16,"Step 1: Identify the direct walk from Talaa to Attarine. Step 2: The direct walk is 16 minutes. Step 3: Consider the alternative route through Boujloud, which is 9 + 9 = 18 minutes. Step 4: Compare the direct walk and the alternative route to find the shortest.  Answer: 16"
+syn2_walk3_0199,25,Answer: 25
+syn2_walk3_0201,9,Answer: 9
+syn2_walk3_0203,14,Step 1: Identify the shortest path from Talaa to Henna. Step 2: The shortest path is through Sagha. Step 3: Calculate the total time for the shortest path: 3 minutes (Talaa-Sagha) + 11 minutes (Sagha-Henna) = 14 minutes.  Answer: 14
+syn2_walk3_0205,21,Answer: 21
+syn2_walk3_0207,14,Answer: 14
+syn2_walk3_0209,8,Answer: 8
+syn2_walk3_0211,15,"Step 1: Identify the direct path from Henna to Chouara. Step 2: The direct path is Henna-Chouara, which takes 15 minutes. Answer: 15"
+syn2_walk3_0213,3,"Step 1: Identify the direct path from Talaa to Rcif. Step 2: The shortest path is through Attarine, which is 3 minutes.  Answer: 3"
+syn2_walk3_0215,21,Answer: 21
+syn2_walk3_0217,9,Answer: 9
+syn2_walk3_0219,6,Answer: 6
+syn2_walk3_0221,4,Answer: 4
+syn2_walk3_0223,9,Answer: 9
+syn2_walk3_0225,17,Answer: 17
+syn2_walk3_0227,19,Answer: 19
+syn2_walk3_0229,20,Answer: 20
+syn2_walk3_0231,14,Answer: 14
+syn2_walk3_0233,19,Answer: 19
+syn2_walk3_0235,7,"Step 1: Identify the relevant walking times. Step 2: Determine the shortest path from Attarine to Rcif. Step 3: The shortest path is Attarine-Boujloud (9 minutes) and Boujloud-Rcif (11 minutes), but we only need the direct path Attarine-Rcif, which is 7 minutes. Answer: 7"
+syn2_walk3_0237,15,Answer: 15
+syn2_walk3_0239,11,Answer: 11
+syn2_walk3_0241,28,Answer: 28
+syn2_walk3_0243,17,Answer: 17
+syn2_walk3_0245,4,"Step 1: Identify the direct path from Nejjarine to Attarine. Step 2: The direct path is Nejjarine-Attarine, which takes 4 minutes.  Answer: 4"
+syn2_walk3_0247,4,Answer: 4
+syn2_walk3_0249,6,Answer: 6
+syn2_walk3_0251,5,Answer: 5
+syn2_walk3_0253,17,Answer: 17
+syn2_walk3_0255,11,Answer: 11
+syn2_walk3_0257,6,Answer: 6
+syn2_walk3_0259,14,"Step 1: Identify the direct path from Henna to Attarine. Step 2: The direct path is Henna-Attarine, which takes 14 minutes. Step 3: Consider the alternative path through Seffarine (Henna-Seffarine-Attarine), which takes 12 + 8 = 20 minutes. Step 4: Compare the direct path time (14 minutes) with the alternative path time (20 minutes).  Answer: 14"
+syn2_walk3_0261,19,Answer: 19
+syn2_walk3_0263,19,"Step 1: Identify the direct path from Henna to Attarine. Step 2: The direct path is Henna-Talaa-Attarine, which is 13 + 8 = 21 minutes. Step 3: The other path is Henna-Attarine, which is 19 minutes. Step 4: Compare the two paths to find the shortest.  Answer: 19"
+syn2_walk3_0265,11,Step 1: Identify the shortest path from Talaa to Henna. Step 2: The shortest path is through Sagha. Step 3: Calculate the total time for the shortest path.  Answer: 11
+syn2_walk3_0267,28,Answer: 28
+syn2_walk3_0269,13,Answer: 13
+syn2_walk3_0271,27,Answer: 27
+syn2_walk3_0273,11,"Step 1: Identify the relevant walking times. Step 2: Determine the shortest path from Henna to Rcif. Step 3: The shortest path is via Seffarine, which is 11 minutes (Henna to Seffarine) + 5 minutes (Seffarine to Rcif) = 16 minutes, but the direct path Henna to Rcif is 11 minutes. Answer: 11"
+syn2_walk3_0275,25,Step 1: Identify the relevant walking time from the given options. Step 2: The shortest walk from Boujloud to Talaa is directly given as 25 minutes.  Answer: 25
+syn2_walk3_0277,30,Step 1: Identify the direct path from Talaa-Nejjarine to Talaa-Boujloud. Step 2: Add the times for the direct path (Talaa-Nejjarine to Nejjarine-Boujloud). Answer: 30
+syn2_walk3_0279,11,Answer: 11
+syn2_walk3_0281,21,Answer: 21
+syn2_walk3_0283,13,Answer: 13
+syn2_walk3_0285,7,Answer: 7
+syn2_walk3_0287,17,Answer: 17
+syn2_walk3_0289,21,Answer: 21
+syn2_walk3_0291,14,Answer: 14
+syn2_walk3_0293,5,"Step 1: Identify the relevant walk from the information given. Step 2: The shortest walk from Sagha to Boujloud is via Attarine, which is 5 minutes.  Answer: 5"
+syn2_walk3_0295,23,Step 1: Identify the shortest path from Attarine to Henna. Step 2: The shortest path is Attarine-Sagha (12 minutes) and Sagha-Henna (11 minutes). Step 3: Add the times of the two segments: 12 + 11 = 23 minutes. Answer: 23
+syn2_walk3_0297,3,"Step 1: Identify the direct path from Boujloud to Henna. Step 2: The direct path is Boujloud-Henna, which takes 3 minutes.  Answer: 3"
+syn2_walk3_0299,15,Step 1: Identify the direct path from Henna to Sagha. Step 2: The direct path is Henna-Chouara and then Chouara-Sagha. Step 3: Calculate the total time: 6 minutes + 9 minutes = 15 minutes.  Answer: 15
+syn2_walk3_0301,14,"Step 1: Identify the relevant paths from Henna to Attarine. Step 2: Determine the shortest path based on the given times. Step 3: The shortest walk is Henna-Talaa (7 minutes) followed by Talaa-Attarine (12 minutes), totaling 19 minutes, but the direct Henna-Attarine walk is 14 minutes. Step 4: Conclude the shortest direct walk.  Answer: 14"
+syn2_walk3_0303,16,Answer: 16
+syn2_walk3_0305,5,Answer: 5
+syn2_walk3_0307,27,Answer: 27
+syn2_walk3_0309,9,Answer: 9
+syn2_walk3_0311,28,Step 1: Identify the relevant walking times. Step 2: Determine the shortest path. Answer: 28
+syn2_walk3_0313,12,Answer: 12
+syn2_walk3_0315,25,Answer: 25
+syn2_walk3_0317,5,Answer: 5
+syn2_walk3_0319,3,Answer: 3
+syn2_walk3_0321,9,Answer: 9
+syn2_walk3_0323,8,Answer: 8
+syn2_walk3_0325,7,"Step 1: Identify the direct path from Talaa to Sagha. Step 2: The direct path is Talaa-Henna to Henna-Sagha, but there's a shorter direct path Talaa-Sagha. Step 3: The shortest walk is Talaa-Sagha, which is 7 minutes.  Answer: 7"
+syn2_walk3_0327,16,Answer: 16
+syn2_walk3_0329,28,Answer: 28
+syn2_walk3_0331,14,Answer: 14
+syn2_walk3_0333,26,Answer: 26
+syn2_walk3_0335,12,Answer: 12
+syn2_walk3_0337,23,Answer: 23
+syn2_walk3_0339,23,Answer: 23
+syn2_walk3_0341,39,Answer: 39
+syn2_walk3_0343,11,Answer: 11
+syn2_walk3_0345,9,Answer: 9
+syn2_walk3_0347,13,Answer: 13
+syn2_walk3_0349,28,Answer: 28
+syn2_walk3_0351,26,"Step 1: Identify the direct path from Attarine to Talaa. Step 2: The direct path is Attarine-Talaa, which takes 26 minutes. Step 3: Consider the other paths (Attarine-Sagha-Sagha-Talaa or Attarine-Sagha-Talaa), but they are longer. Answer: 26"
+syn2_walk3_0353,5,Answer: 5
+syn2_walk3_0355,10,Step 1: Identify the shortest walk from Talaa to Seffarine. Step 2: The direct path from Talaa to Seffarine is 10 minutes. Step 3: The indirect path through Attarine is 3 minutes + 7 minutes = 10 minutes. Step 4: The shortest walk is the direct path.  Answer: 10
+syn2_walk3_0357,16,Step 1: Identify the relevant paths from Talaa to Boujloud. Step 2: Compare the times for Talaa-Boujloud and Talaa-Chouara-Boujloud. Step 3: Choose the shorter path.  Answer: 16
+syn2_walk3_0359,23,Answer: 23
+syn2_walk3_0361,23,Answer: 23
+syn2_walk3_0363,9,Answer: 9
+syn2_walk3_0365,2,Answer: 2
+syn2_walk3_0367,4,Answer: 4
+syn2_walk3_0369,13,Answer: 13
+syn2_walk3_0371,8,Answer: 8
+syn2_walk3_0373,20,"Step 1: Identify the relevant walking times. Step 2: Determine the shortest path from Henna to Talaa. Step 3: The shortest walk is via Seffarine, which is 4 minutes from Henna to Seffarine and 13 minutes from Seffarine to Talaa, totaling 17 minutes. Step 4: However, the direct walk from Henna to Talaa is 20 minutes. Step 5: The shortest walk is the direct one from Henna to Talaa.  Answer: 20"
+syn2_walk3_0375,12,Answer: 12
+syn2_walk3_0377,3,"Step 1: Identify the relevant paths from Attarine to Chouara. Step 2: Determine the shortest path based on given times. Step 3: The shortest path is Attarine to Chouara via Henna, which is 3 minutes.  Answer: 3"
+syn2_walk3_0379,18,Step 1: Identify the relevant walk times. Step 2: Determine the shortest walk from Henna to Rcif. Answer: 18
+syn2_walk3_0381,8,Answer: 8
+syn2_walk3_0383,2,Answer: 2
+syn2_walk3_0385,3,Answer: 3
+syn2_walk3_0387,7,Answer: 7
+syn2_walk3_0389,12,Answer: 12
+syn2_walk3_0391,10,Answer: 10
+syn2_walk3_0393,4,Step 1: Identify the direct walk from Talaa to Rcif. Step 2: The time for this walk is 4 minutes.  Answer: 4
+syn2_walk3_0395,4,"Step 1: Identify the direct path from Sagha to Henna. Step 2: The direct path is Sagha-Henna, which takes 4 minutes.  Answer: 4"
+syn2_walk3_0397,26,Answer: 26
+syn2_walk3_0399,4,Answer: 4
+syn2_walk4_0001,24,Answer: 24
+syn2_walk4_0003,13,Answer: 13
+syn2_walk4_0005,2,Answer: 2
+syn2_walk4_0007,7,Answer: 7
+syn2_walk4_0009,13,Answer: 13
+syn2_walk4_0011,14,Answer: 14
+syn2_walk4_0013,25,Answer: 25
+syn2_walk4_0015,6,Answer: 6
+syn2_walk4_0017,17,Answer: 17
+syn2_walk4_0019,15,Answer: 15
+syn2_walk4_0021,10,Answer: 10
+syn2_walk4_0023,4,Answer: 4
+syn2_walk4_0025,5,Answer: 5
+syn2_walk4_0027,8,Answer: 8
+syn2_walk4_0029,6,Answer: 6
+syn2_walk4_0031,24,Answer: 24
+syn2_walk4_0033,9,Answer: 9
+syn2_walk4_0035,2,Answer: 2
+syn2_walk4_0037,6,Answer: 6
+syn2_walk4_0039,18,Answer: 18
+syn2_walk4_0041,7,Answer: 7
+syn2_walk4_0043,28,Answer: 28
+syn2_walk4_0045,9,Answer: 9
+syn2_walk4_0047,27,Answer: 27
+syn2_walk4_0049,24,Answer: 24
+syn2_walk4_0051,10,Answer: 10
+syn2_walk4_0053,20,Answer: 20
+syn2_walk4_0055,13,Answer: 13
+syn2_walk4_0057,8,Answer: 8
+syn2_walk4_0059,27,Answer: 27
+syn2_walk4_0061,9,Answer: 9
+syn2_walk4_0063,15,Answer: 15
+syn2_walk4_0065,7,Answer: 7
+syn2_walk4_0067,32,Answer: 32
+syn2_walk4_0069,9,Answer: 9
+syn2_walk4_0071,5,Answer: 5
+syn2_walk4_0073,13,Answer: 13
+syn2_walk4_0075,26,Answer: 26
+syn2_walk4_0077,28,Answer: 28
+syn2_walk4_0079,12,Answer: 12
+syn2_walk4_0081,27,Answer: 27
+syn2_walk4_0083,14,Answer: 14
+syn2_walk4_0085,25,Answer: 25
+syn2_walk4_0087,6,Answer: 6
+syn2_walk4_0089,23,Answer: 23
+syn2_walk4_0091,4,Answer: 4
+syn2_walk4_0093,6,Answer: 6
+syn2_walk4_0095,6,Answer: 6
+syn2_walk4_0097,28,Answer: 28
+syn2_walk4_0099,13,Answer: 13
+syn2_walk4_0101,25,Answer: 25
+syn2_walk4_0103,8,Answer: 8
+syn2_walk4_0105,8,Answer: 8
+syn2_walk4_0107,11,"Step 1: Identify the relevant paths from Talaa to Nejjarine. Step 2: Compare the times - Talaa-Attarine 11 minutes, Talaa-Cherabliyine 11 minutes, Cherabliyine-Nejjarine 14 minutes. Step 3: Determine the shortest path.  Answer: 11"
+syn2_walk4_0109,3,Answer: 3
+syn2_walk4_0111,26,Answer: 26
+syn2_walk4_0113,27,Answer: 27
+syn2_walk4_0115,19,Answer: 19
+syn2_walk4_0117,9,Answer: 9
+syn2_walk4_0119,10,Answer: 10
+syn2_walk4_0121,28,Answer: 28
+syn2_walk4_0123,6,Answer: 6
+syn2_walk4_0125,27,Answer: 27
+syn2_walk4_0127,26,Answer: 26
+syn2_walk4_0129,18,Answer: 18
+syn2_walk4_0131,20,Answer: 20
+syn2_walk4_0133,13,Answer: 13
+syn2_walk4_0135,13,Answer: 13
+syn2_walk4_0137,14,Answer: 14
+syn2_walk4_0139,2,Answer: 2
+syn2_walk4_0141,23,Answer: 23
+syn2_walk4_0143,9,Answer: 9
+syn2_walk4_0145,12,Answer: 12
+syn2_walk4_0147,12,Answer: 12
+syn2_walk4_0149,18,Step 1: Identify the relevant paths from Attarine to Henna. Step 2: Compare the times for Attarine-Henna (18 minutes) and Attarine's connections to Henna via other locations. Step 3: Calculate the total time for the indirect paths (Attarine-Sagha-Henna and Attarine-Chouara-Henna).  Answer: 18
+syn2_walk4_0151,28,Answer: 28
+syn2_walk4_0153,5,Step 1: Identify the relevant walking time from the given information. Step 2: The time for Boujloud to Cherabliyine is directly provided as 5 minutes. Answer: 5
+syn2_walk4_0155,29,Answer: 29
+syn2_walk4_0157,5,Answer: 5
+syn2_walk4_0159,8,Answer: 8
+syn2_walk4_0161,12,Answer: 12
+syn2_walk4_0163,6,Answer: 6
+syn2_walk4_0165,2,Answer: 2
+syn2_walk4_0167,25,Answer: 25
+syn2_walk4_0169,6,Answer: 6
+syn2_walk4_0171,15,Answer: 15
+syn2_walk4_0173,14,Answer: 14
+syn2_walk4_0175,6,Answer: 6
+syn2_walk4_0177,21,Answer: 21
+syn2_walk4_0179,11,Answer: 11
+syn2_walk4_0181,8,Answer: 8
+syn2_walk4_0183,29,Answer: 29
+syn2_walk4_0185,25,Answer: 25
+syn2_walk4_0187,20,Answer: 20
+syn2_walk4_0189,24,Answer: 24
+syn2_walk4_0191,7,Answer: 7
+syn2_walk4_0193,20,Step 1: Identify all possible routes from Cherabliyine to Chouara. Step 2: Calculate the total time for each route. Step 3: Compare the total times to find the shortest.  Answer: 20
+syn2_walk4_0195,13,Answer: 13
+syn2_walk4_0197,17,Answer: 17
+syn2_walk4_0199,21,Answer: 21
+syn2_walk4_0201,28,Answer: 28
+syn2_walk4_0203,3,Answer: 3
+syn2_walk4_0205,28,Answer: 28
+syn2_walk4_0207,19,Answer: 19
+syn2_walk4_0209,8,Answer: 8
+syn2_walk4_0211,12,Answer: 12
+syn2_walk4_0213,16,Answer: 16
+syn2_walk4_0215,2,Answer: 2
+syn2_walk4_0217,19,Answer: 19
+syn2_walk4_0219,28,Answer: 28
+syn2_walk4_0221,19,Answer: 19
+syn2_walk4_0223,27,Answer: 27
+syn2_walk4_0225,22,Answer: 22
+syn2_walk4_0227,22,Answer: 22
+syn2_walk4_0229,15,Answer: 15
+syn2_walk4_0231,6,Answer: 6
+syn2_walk4_0233,25,Answer: 25
+syn2_walk4_0235,3,Answer: 3
+syn2_walk4_0237,2,Answer: 2
+syn2_walk4_0239,3,Answer: 3
+syn2_walk4_0241,20,Answer: 20
+syn2_walk4_0243,4,Answer: 4
+syn2_walk4_0245,28,Answer: 28
+syn2_walk4_0247,4,Answer: 4
+syn2_walk4_0249,12,Answer: 12
+syn2_walk4_0251,7,Answer: 7
+syn2_walk4_0253,28,Answer: 28
+syn2_walk4_0255,13,Answer: 13
+syn2_walk4_0257,2,Answer: 2
+syn2_walk4_0259,19,Answer: 19
+syn2_walk4_0261,19,Answer: 19
+syn2_walk4_0263,6,Answer: 6
+syn2_walk4_0265,8,Answer: 8
+syn2_walk4_0267,25,Answer: 25
+syn2_walk4_0269,6,Answer: 6
+syn2_walk4_0271,20,Answer: 20
+syn2_walk4_0273,28,Answer: 28
+syn2_walk4_0275,11,Answer: 11
+syn2_walk4_0277,17,Answer: 17
+syn2_walk4_0279,6,Answer: 6
+syn2_walk4_0281,14,Answer: 14
+syn2_walk4_0283,9,Answer: 9
+syn2_walk4_0285,22,Answer: 22
+syn2_walk4_0287,5,Answer: 5
+syn2_walk4_0289,28,Answer: 28
+syn2_walk4_0291,27,Answer: 27
+syn2_walk4_0293,22,Answer: 22
+syn2_walk4_0295,6,Answer: 6
+syn2_walk4_0297,17,Answer: 17
+syn2_walk4_0299,5,Answer: 5
+syn2_walk4_0301,28,Answer: 28
+syn2_walk4_0303,9,Answer: 9
+syn2_walk4_0305,26,Answer: 26
+syn2_walk4_0307,13,Answer: 13
+syn2_walk4_0309,22,Answer: 22
+syn2_walk4_0311,6,Answer: 6
+syn2_walk4_0313,17,Answer: 17
+syn2_walk4_0315,7,Answer: 7
+syn2_walk4_0317,6,Answer: 6
+syn2_walk4_0319,9,Answer: 9
+syn2_walk4_0321,3,Answer: 3
+syn2_walk4_0323,28,Answer: 28
+syn2_walk4_0325,28,Answer: 28
+syn2_walk4_0327,16,Answer: 16
+syn2_walk4_0329,5,Answer: 5
+syn2_walk4_0331,2,Answer: 2
+syn2_walk4_0333,18,Step 1: Identify the direct path from Henna to Cherabliyine. Step 2: The direct path is Henna-Nejjarine and then Nejjarine-Cherabliyine. Step 3: Calculate the total time for the direct path: 10 + 8 = 18 minutes. Step 4: Consider the alternative path through Rcif: Henna-Rcif and then Rcif-Cherabliyine. Step 5: Calculate the total time for the alternative path: 7 + 27 = 34 minutes. Step 6: Compare the two paths and choose the shortest.  Answer: 18
+syn2_walk4_0335,15,Answer: 15
+syn2_walk4_0337,6,Answer: 6
+syn2_walk4_0339,26,Answer: 26
+syn2_walk4_0341,28,Answer: 28
+syn2_walk4_0343,11,Answer: 11
+syn2_walk4_0345,9,Answer: 9
+syn2_walk4_0347,24,Answer: 24
+syn2_walk4_0349,10,Answer: 10
+syn2_walk4_0351,7,Answer: 7
+syn2_walk4_0353,4,Answer: 4
+syn2_walk4_0355,26,Answer: 26
+syn2_walk4_0357,12,Answer: 12
+syn2_walk4_0359,12,Answer: 12
+syn2_walk4_0361,9,Answer: 9
+syn2_walk4_0363,28,Answer: 28
+syn2_walk4_0365,18,Answer: 18
+syn2_walk4_0367,15,"Step 1: Identify the direct path from Cherabliyine to Seffarine. Step 2: The direct path is Cherabliyine-Sagha-Seffarine, but we need the shortest walk. Step 3: Cherabliyine-Sefarine is 22 minutes, Cherabliyine-Henna-Sefarine is 7+X (where X is the time from Henna to Seffarine, which is not given and is likely more than 22 minutes), and Cherabliyine-Sagha-Sefarine is 10+5=15 minutes. Step 4: The shortest walk is Cherabliyine-Sagha-Sefarine.  Answer: 15"
+syn2_walk4_0369,28,Answer: 28
+syn2_walk4_0371,8,Answer: 8
+syn2_walk4_0373,25,Answer: 25
+syn2_walk4_0375,16,Answer: 16
+syn2_walk4_0377,19,Answer: 19
+syn2_walk4_0379,13,Answer: 13
+syn2_walk4_0381,15,Answer: 15
+syn2_walk4_0383,24,Answer: 24
+syn2_walk4_0385,27,Answer: 27
+syn2_walk4_0387,20,Answer: 20
+syn2_walk4_0389,18,Answer: 18
+syn2_walk4_0391,6,Answer: 6
+syn2_walk4_0393,18,Answer: 18
+syn2_walk4_0395,17,Answer: 17
+syn2_walk4_0397,7,Answer: 7
+syn2_walk4_0399,10,Answer: 10
+syn2_price_ind_0001,23,Step 1: Identify what Hamid's stall sells - amber. Step 2: Determine Najat's pricing - same as Hamid's. Step 3: Find the price of amber - 23 dirham.  Answer: 23 dirham
+syn2_price_ind_0003,17,Step 1: Identify what Karim's stall sells - mint. Step 2: Determine Youssef's pricing - same as Karim's. Step 3: Find the price of mint - 17 dirham.  Answer: 17
+syn2_price_ind_0005,30,Step 1: Identify what Driss's stall sells - argan oil. Step 2: Determine the price of argan oil - 30 dirham. Step 3: Understand that Latifa's stall sells the same item as Driss's. Step 4: Calculate what Latifa charges - 30 dirham.  Answer: 30 dirham
+syn2_price_ind_0007,10,Step 1: Identify what Latifa's stall sells - leather slippers. Step 2: Find the price of leather slippers - 10 dirham. Step 3: Driss's stall sells the same item as Latifa's stall. Answer: 10
+syn2_price_ind_0009,79,Step 1: Identify what Youssef's stall sells - amber. Step 2: Determine Karim's pricing - same as Youssef's. Step 3: Find the price of amber - 79 dirham.  Answer: 79 dirham
+syn2_price_ind_0011,53,"Step 1: Identify what Driss's stall sells - amber. Step 2: Determine the price of amber - 53 dirham. Step 3: Omar's stall sells whatever Driss's stall sells, so Omar sells amber. Step 4: Therefore, Omar charges 53 dirham.  Answer: 53 dirham"
+syn2_price_ind_0013,78,Step 1: Identify the item Latifa sells - brass lanterns. Step 2: Find the price of brass lanterns - 78 dirham. Answer: 78
+syn2_price_ind_0015,35,"Step 1: Identify what Najat's stall sells - leather slippers. Step 2: Determine Youssef's price - the same as Najat's, which is 35 dirham for leather slippers. Answer: 35"
+syn2_price_ind_0017,41,Step 1: Identify what Youssef's stall sells - amber. Step 2: Determine Driss's pricing - same as Youssef's. Step 3: Find the price of amber - 41 dirham.  Answer: 41 dirham
+syn2_price_ind_0019,43,Step 1: Identify what Samira's stall sells - brass lanterns. Step 2: Find the price of brass lanterns - 43 dirham. Step 3: Determine what Latifa charges - the same as Samira for brass lanterns.  Answer: 43 dirham
+syn2_price_ind_0021,5,Step 1: Identify what Youssef's stall sells - brass lanterns. Step 2: Determine the price of brass lanterns - 5 dirham. Step 3: Latifa's stall sells the same item as Youssef's.  Answer: 5 dirham
+syn2_price_ind_0023,86,Step 1: Identify what Omar's stall sells - brass lanterns. Step 2: Determine the price of brass lanterns - 86 dirham. Step 3: Conclude that Najat charges the same amount as Omar for the same item.  Answer: 86 dirham
+syn2_price_ind_0025,74,Step 1: Identify what Najat's stall sells - dates. Step 2: Determine Karim's pricing - same as Najat's. Step 3: Find the price of dates - 74 dirham.  Answer: 74 dirham
+syn2_price_ind_0027,20,"Step 1: Identify what Samira's stall sells - leather slippers. Step 2: Find the price of leather slippers at Seffarine board - 20 dirham. Step 3: Determine what Karim charges - the same as Samira, 20 dirham.  Answer: 20 dirham"
+syn2_price_ind_0029,44,Step 1: Identify what Karim's stall sells - zellij tiles. Step 2: Find the price of zellij tiles - 44 dirham. Step 3: Determine what Samira charges - the same as Karim for zellij tiles.  Answer: 44 dirham
+syn2_price_ind_0031,13,"Step 1: Identify what Omar's stall sells - wool. Step 2: Find the price of wool - 13 dirham. Step 3: Determine what Driss charges - the same as Omar for wool, 13 dirham.  Answer: 13 dirham"
+syn2_price_ind_0033,15,Step 1: Identify what Karim's stall sells - dates. Step 2: Find the price of dates - 15 dirham. Step 3: Determine Hamid's price - same as Karim's since Hamid sells whatever Karim sells.  Answer: 15 dirham
+syn2_price_ind_0035,65,"Step 1: Identify what Omar's stall sells - amber. Step 2: Determine the price of amber - 65 dirham. Step 3: Calculate what Hamid charges - same as Omar, 65 dirham.  Answer: 65 dirham"
+syn2_price_ind_0037,30,Step 1: Identify what Youssef's stall sells - mint. Step 2: Determine the price of mint from the Cherabliyine board - 30 dirham. Step 3: Conclude that Latifa charges the same as Youssef for mint.  Answer: 30 dirham
+syn2_price_ind_0039,63,Step 1: Identify what Samira's stall sells - argan oil. Step 2: Determine Driss's pricing - same as Samira's. Step 3: Find the price of argan oil - 63 dirham.  Answer: 63 dirham
+syn2_price_ind_0041,14,"Step 1: Identify what Samira's stall sells - leather slippers. Step 2: Determine the price of leather slippers - 14 dirham. Step 3: Omar's stall sells the same items as Samira's, so he charges for leather slippers at 14 dirham.  Answer: 14 dirham"
+syn2_price_ind_0043,9,"Step 1: Identify what Omar's stall sells - mint. Step 2: Determine the price of mint from the Talaa board - 9 dirham. Step 3: Samira's stall sells whatever Omar's stall sells, so Samira sells mint. Step 4: Calculate the price Samira charges - 9 dirham.  Answer: 9 dirham"
+syn2_price_ind_0045,67,Step 1: Identify what Najat's stall sells - saffron. Step 2: Determine Karim's pricing - same as Najat's. Step 3: Find the price of saffron - 67 dirham.  Answer: 67 dirham
+syn2_price_ind_0047,79,Step 1: Identify what Omar's stall sells - dates. Step 2: Determine the price of dates at the Seffarine board - 79 dirham. Step 3: Conclude that Najat charges the same as Omar for the same item.  Answer: 79 dirham
+syn2_price_ind_0049,68,Step 1: Identify what Latifa's stall sells - zellij tiles. Step 2: Find the price of zellij tiles - 68 dirham. Step 3: Determine Samira's price - same as Latifa's since they sell the same items.  Answer: 68 dirham
+syn2_price_ind_0051,69,Step 1: Identify what Karim's stall sells - brass lanterns. Step 2: Determine Hamid's price for the same item - 69 dirham. Answer: 69 dirham
+syn2_price_ind_0053,15,Step 1: Identify the item Samira's stall sells - leather slippers. Step 2: Determine Youssef's pricing - same as Samira's. Step 3: Find the price of leather slippers - 15 dirham.  Answer: 15 dirham
+syn2_price_ind_0055,36,Step 1: Identify what Hamid's stall sells - brass lanterns. Step 2: Determine the price of brass lanterns - 36 dirham. Step 3: Latifa's stall sells the same item as Hamid's stall. Answer: 36 dirham
+syn2_price_ind_0057,6,"Step 1: Identify what Karim's stall sells - saffron. Step 2: Determine Omar's charge - same as Karim's for saffron, 6 dirham.  Answer: 6 dirham"
+syn2_price_ind_0059,67,Step 1: Identify what Omar's stall sells - amber. Step 2: Determine Najat's pricing - same as Omar's. Step 3: Find the price of amber - 67 dirham.  Answer: 67 dirham
+syn2_price_ind_0061,66,Step 1: Identify what Latifa's stall sells - cedar boxes. Step 2: Determine the price of cedar boxes - 66 dirham. Step 3: Understand that Najat's stall sells the same items as Latifa's. Step 4: Conclude that Najat charges for cedar boxes at 66 dirham.  Answer: 66 dirham
+syn2_price_ind_0063,37,Step 1: Identify what Karim's stall sells - argan oil. Step 2: Determine Youssef's pricing - same as Karim's. Step 3: Find the price of argan oil - 37 dirham.  Answer: 37 dirham
+syn2_price_ind_0065,45,"Step 1: Identify what Omar's stall sells - zellij tiles. Step 2: Find the price of zellij tiles - 45 dirham. Step 3: Determine what Samira charges - the same as Omar for zellij tiles, 45 dirham.  Answer: 45 dirham"
+syn2_price_ind_0067,24,Step 1: Identify what Karim's stall sells - zellij tiles. Step 2: Determine Najat's pricing - same as Karim's. Step 3: Find the price of zellij tiles - 24 dirham.  Answer: 24
+syn2_price_ind_0069,46,Step 1: Identify what Najat's stall sells - saffron. Step 2: Determine Youssef's pricing - same as Najat's. Step 3: Find the price of saffron - 46 dirham.  Answer: 46 dirham
+syn2_price_ind_0071,15,Step 1: Identify what Najat's stall sells - cedar boxes. Step 2: Determine the price of cedar boxes - 15 dirham. Step 3: Hamid's stall sells the same items as Najat's stall. Answer: 15 dirham
+syn2_price_ind_0073,43,"Step 1: Identify what Najat's stall sells - dates. Step 2: Determine the price of dates - 43 dirham. Step 3: Karim's stall sells the same item as Najat's, which is dates. Answer: 43 dirham"
+syn2_price_ind_0075,18,Step 1: Identify what Latifa's stall sells - dates. Step 2: Determine the price of dates - 18 dirham. Step 3: Understand that Najat's stall sells the same as Latifa's.  Answer: 18 dirham
+syn2_price_ind_0077,38,"Step 1: Identify what Driss's stall sells - zellij tiles. Step 2: Find the price of zellij tiles - 38 dirham. Step 3: Determine what Najat sells - the same as Driss, zellij tiles. Step 4: Calculate what Najat charges - 38 dirham.  Answer: 38 dirham"
+syn2_price_ind_0079,45,Step 1: Identify what Karim's stall sells - brass lanterns. Step 2: Determine the price of brass lanterns at the Seffarine board - 45 dirham. Step 3: Conclude that Youssef charges the same as Karim for brass lanterns.  Answer: 45 dirham
+syn2_price_ind_0081,87,"Step 1: Identify what Latifa's stall sells - saffron. Step 2: Find the price of saffron at the Nejjarine board - 87 dirham. Step 3: Determine what Driss charges - the same as Latifa, which is saffron at 87 dirham.  Answer: 87 dirham"
+syn2_price_ind_0083,65,Step 1: Identify what Karim's stall sells - cedar boxes. Step 2: Determine Najat's pricing - same as Karim's. Step 3: Find the price of cedar boxes - 65 dirham.  Answer: 65 dirham
+syn2_price_ind_0085,70,Step 1: Identify what Hamid's stall sells - saffron. Step 2: Determine Latifa's price for saffron - 70 dirham. Answer: 70 dirham
+syn2_price_ind_0087,70,Step 1: Identify what Hamid's stall sells - brass lanterns. Step 2: Determine the price of brass lanterns - 70 dirham. Step 3: Latifa's stall sells the same item as Hamid's stall. Answer: 70 dirham
+syn2_price_ind_0089,90,Step 1: Identify what Karim's stall sells - wool. Step 2: Determine the price of wool from the Cherabliyine board - 90 dirham. Step 3: Omar's stall sells the same item as Karim's stall. Answer: 90 dirham
+syn2_price_ind_0091,29,Step 1: Identify what Omar's stall sells - brass lanterns. Step 2: Find the price of brass lanterns - 29 dirham. Step 3: Determine Hamid's price - same as Omar's since they sell the same items.  Answer: 29 dirham
+syn2_price_ind_0093,22,Step 1: Identify what Youssef's stall sells - wool. Step 2: Determine the price of wool - 22 dirham. Step 3: Karim's stall sells the same item as Youssef's stall. Answer: 22 dirham
+syn2_price_ind_0095,47,Step 1: Identify what Hamid's stall sells - amber. Step 2: Determine Najat's pricing - same as Hamid's. Step 3: Find the price of amber - 47 dirham.  Answer: 47 dirham
+syn2_price_ind_0097,39,"Step 1: Identify what Youssef's stall sells - mint. Step 2: Determine the price of mint - 39 dirham. Step 3: Since Hamid's stall sells whatever Youssef's stall sells, Hamid also sells mint. Step 4: Therefore, Hamid charges 39 dirham.  Answer: 39 dirham"
+syn2_price_ind_0099,13,"Step 1: Identify what Hamid's stall sells - saffron. Step 2: Determine the price of saffron - 13 dirham. Step 3: Driss sells the same item as Hamid, which is saffron. Answer: 13 dirham"
+syn2_price_ind_0101,15,Step 1: Identify what Samira's stall sells - wool. Step 2: Determine the price of wool at Hamid's stall - same as Samira's. Step 3: Find the price of wool - 15 dirham.  Answer: 15 dirham
+syn2_price_ind_0103,50,Step 1: Identify what Driss's stall sells - cedar boxes. Step 2: Determine the price of cedar boxes - 50 dirham. Step 3: Latifa's stall sells the same item as Driss's stall. Answer: 50 dirham
+syn2_price_ind_0105,6,Step 1: Identify what Omar's stall sells - zellij tiles. Step 2: Find the price of zellij tiles - 6 dirham. Step 3: Determine what Hamid charges - the same as Omar for zellij tiles.  Answer: 6
+syn2_price_ind_0107,89,Step 1: Identify what Karim's stall sells - zellij tiles. Step 2: Find the price of zellij tiles at the Attarine board - 89 dirham. Step 3: Determine what Driss charges - the same as Karim for zellij tiles.  Answer: 89 dirham
+syn2_price_ind_0109,11,Step 1: Identify what Youssef's stall sells - wool. Step 2: Determine the price of wool - 11 dirham. Step 3: Understand that Latifa's stall sells the same item as Youssef's. Step 4: Conclude that Latifa charges the same price as Youssef for wool.  Answer: 11 dirham
+syn2_price_ind_0111,56,Step 1: Identify what Hamid's stall sells - leather slippers. Step 2: Find the price of leather slippers - 56 dirham. Step 3: Determine Youssef's price - same as Hamid's since they sell the same items.  Answer: 56 dirham
+syn2_price_ind_0113,63,Step 1: Identify what Karim's stall sells - dates. Step 2: Determine the price of dates - 63 dirham. Step 3: Omar's stall sells the same item as Karim's stall. Answer: 63 dirham
+syn2_price_ind_0115,88,Step 1: Identify what Latifa's stall sells - brass lanterns. Step 2: Find the price of brass lanterns - 88 dirham. Step 3: Determine what Najat sells and charges - the same as Latifa.  Answer: 88 dirham
+syn2_price_ind_0117,5,"Step 1: Identify what Driss's stall sells - brass lanterns. Step 2: Determine the price of brass lanterns - 5 dirham. Step 3: Samira's stall sells the same items as Driss's stall. Step 4: Therefore, Samira charges for brass lanterns at 5 dirham.  Answer: 5 dirham"
+syn2_price_ind_0119,26,Step 1: Identify what Najat's stall sells - dates. Step 2: Determine the price of dates - 26 dirham. Step 3: Understand that Hamid's stall sells the same items as Najat's. Step 4: Conclude that Hamid charges for dates at 26 dirham.  Answer: 26 dirham
+syn2_price_ind_0121,67,Step 1: Identify what Karim's stall sells - cedar boxes. Step 2: Determine the price of cedar boxes - 67 dirham. Step 3: Driss's stall sells the same item as Karim's stall. Answer: 67
+syn2_price_ind_0123,6,"Step 1: Identify what Driss's stall sells - zellij tiles. Step 2: Find the price of zellij tiles - 6 dirham. Step 3: Determine Hamid's price - same as Driss's, 6 dirham.  Answer: 6 dirham"
+syn2_price_ind_0125,27,Step 1: Identify what Latifa's stall sells - mint. Step 2: Determine the price of mint - 27 dirham. Step 3: Conclude that Samira charges the same as Latifa for mint.  Answer: 27 dirham
+syn2_price_ind_0127,84,Step 1: Identify what Samira's stall sells - saffron. Step 2: Determine Driss's pricing - same as Samira's. Step 3: Find the price of saffron - 84 dirham.  Answer: 84 dirham
+syn2_price_ind_0129,65,Step 1: Identify what Samira's stall sells - brass lanterns. Step 2: Find the price of brass lanterns - 65 dirham. Step 3: Determine Hamid's price - same as Samira's for brass lanterns.  Answer: 65 dirham
+syn2_price_ind_0131,86,Step 1: Identify what Hamid's stall sells - cedar boxes. Step 2: Determine the price of cedar boxes - 86 dirham. Step 3: Driss's stall sells the same item as Hamid's stall. Answer: 86
+syn2_price_ind_0133,71,Step 1: Identify what Samira's stall sells - brass lanterns. Step 2: Determine Driss's pricing - same as Samira's. Step 3: Find the price of brass lanterns - 71 dirham.  Answer: 71 dirham
+syn2_price_ind_0135,57,"Step 1: Identify what Driss's stall sells - wool. Step 2: Determine the price of wool - 57 dirham. Step 3: Samira's stall sells the same as Driss's stall, so she sells wool for 57 dirham.  Answer: 57 dirham"
+syn2_price_ind_0137,72,Step 1: Identify what Karim's stall sells - saffron. Step 2: Determine Youssef's price for saffron - same as Karim's. Step 3: Find saffron's price - 72 dirham.  Answer: 72 dirham
+syn2_price_ind_0139,46,"Step 1: Identify what Latifa's stall sells - cedar boxes. Step 2: Find the price of cedar boxes - 46 dirham. Step 3: Determine Youssef's price - same as Latifa's, 46 dirham.  Answer: 46 dirham"
+syn2_price_ind_0141,75,Step 1: Identify what Karim's stall sells - leather slippers. Step 2: Determine Driss's price for leather slippers - same as Karim's. Step 3: Find the price of leather slippers - 75 dirham.  Answer: 75 dirham
+syn2_price_ind_0143,87,Step 1: Identify what Latifa's stall sells - mint. Step 2: Determine Samira's price for mint - 87 dirham. Answer: 87 dirham
+syn2_price_ind_0145,36,Step 1: Identify what Karim's stall sells - wool. Step 2: Determine Samira's price for wool - 36 dirham. Answer: 36
+syn2_price_ind_0147,32,Step 1: Identify what Hamid's stall sells - cedar boxes. Step 2: Determine Samira's pricing - same as Hamid's. Step 3: Find the price of cedar boxes - 32 dirham.  Answer: 32 dirham
+syn2_price_ind_0149,62,Step 1: Identify what Hamid's stall sells - saffron. Step 2: Determine the price of saffron - 62 dirham. Step 3: Driss's stall sells the same item as Hamid's stall. Answer: 62 dirham
+syn2_price_ind_0151,29,Step 1: Identify what Karim's stall sells - argan oil. Step 2: Determine Youssef's pricing - same as Karim's. Step 3: Find the price of argan oil - 29 dirham.  Answer: 29 dirham
+syn2_price_ind_0153,71,Step 1: Identify what Latifa's stall sells - dates. Step 2: Find the price of dates - 71 dirham. Step 3: Determine Samira's price - same as Latifa's since they sell the same items.  Answer: 71 dirham
+syn2_price_ind_0155,17,"Step 1: Identify what Hamid's stall sells - wool. Step 2: Determine the price of wool - 17 dirham. Step 3: Latifa's stall sells the same item as Hamid's stall, which is wool. Answer: 17 dirham"
+syn2_price_ind_0157,30,"Step 1: Identify what Omar's stall sells - cedar boxes. Step 2: Determine the price of cedar boxes - 30 dirham. Step 3: Since Latifa's stall sells whatever Omar's stall sells, Latifa also sells cedar boxes. Step 4: Therefore, Latifa charges 30 dirham.  Answer: 30 dirham"
+syn2_price_ind_0159,47,Step 1: Identify what Karim's stall sells - leather slippers. Step 2: Determine Latifa's price for the same item - 47 dirham. Answer: 47
+syn2_price_ind_0161,29,Step 1: Identify what Hamid's stall sells - dates. Step 2: Determine what Omar's stall sells - whatever Hamid's stall sells. Step 3: Find the price of dates - 29 dirham. Answer: 29
+syn2_price_ind_0163,41,Step 1: Identify what Driss's stall sells - argan oil. Step 2: Determine the price of argan oil - 41 dirham. Step 3: Karim's stall sells the same item as Driss's stall. Answer: 41 dirham
+syn2_price_ind_0165,25,"Step 1: Identify what Samira's stall sells - zellij tiles. Step 2: Find the price of zellij tiles - 25 dirham. Step 3: Driss sells the same items as Samira, so he charges the same price for zellij tiles.  Answer: 25 dirham"
+syn2_price_ind_0167,24,Step 1: Identify what Karim's stall sells - argan oil. Step 2: Determine Hamid's price for argan oil - same as Karim's. Step 3: Find the price of argan oil - 24 dirham.  Answer: 24 dirham
+syn2_price_ind_0169,7,"Step 1: Identify what Omar's stall sells - leather slippers. Step 2: Find the price of leather slippers - 7 dirham. Step 3: Determine what Karim charges - the same as Omar for leather slippers, 7 dirham.  Answer: 7 dirham"
+syn2_price_ind_0171,46,"Step 1: Identify what Hamid's stall sells - leather slippers. Step 2: Find the price of leather slippers - 46 dirham. Step 3: Determine what Samira charges - the same as Hamid for leather slippers, 46 dirham.  Answer: 46 dirham"
+syn2_price_ind_0173,17,Step 1: Identify what Driss's stall sells - mint. Step 2: Determine the price of mint - 17 dirham. Step 3: Understand that Latifa's stall sells the same item as Driss's - mint. Step 4: Calculate what Latifa charges - 17 dirham.  Answer: 17 dirham
+syn2_price_ind_0175,65,Step 1: Identify what Youssef's stall sells - zellij tiles. Step 2: Find the price of zellij tiles - 65 dirham. Step 3: Determine Hamid's price - same as Youssef's since they sell the same items.  Answer: 65 dirham
+syn2_price_ind_0177,24,"Step 1: Identify what Samira's stall sells - dates. Step 2: Find the price of dates at the Sagha board - 24 dirham. Step 3: Determine what Latifa charges - the same as Samira for dates, 24 dirham.  Answer: 24 dirham"
+syn2_price_ind_0179,64,Step 1: Identify what Hamid's stall sells - brass lanterns. Step 2: Determine the price of brass lanterns - 64 dirham. Step 3: Samira's stall sells the same item as Hamid's stall. Answer: 64 dirham
+syn2_price_ind_0181,74,Step 1: Identify what Karim's stall sells - amber. Step 2: Determine Samira's pricing - same as Karim's. Step 3: Find the price of amber - 74 dirham.  Answer: 74 dirham
+syn2_price_ind_0183,19,Step 1: Identify what Karim's stall sells - mint. Step 2: Determine the price of mint - 19 dirham. Step 3: Understand that Najat's stall sells the same as Karim's.  Answer: 19 dirham
+syn2_price_ind_0185,86,"Step 1: Identify what Karim's stall sells - saffron. Step 2: Find the price of saffron - 86 dirham. Step 3: Determine Samira's price - same as Karim's, 86 dirham.  Answer: 86 dirham"
+syn2_price_ind_0187,18,Step 1: Identify what Driss's stall sells - leather slippers. Step 2: Determine Youssef's price for the same item - leather slippers cost 18 dirham. Answer: 18 dirham
+syn2_price_ind_0189,58,Step 1: Identify what Latifa's stall sells - argan oil. Step 2: Determine Omar's price for argan oil - same as Latifa's. Step 3: Find the price of argan oil - 58 dirham. Answer: 58 dirham
+syn2_price_ind_0191,6,Step 1: Identify what Youssef's stall sells - argan oil. Step 2: Determine the price of argan oil - 6 dirham. Step 3: Driss's stall sells the same item as Youssef's stall. Answer: 6 dirham
+syn2_price_ind_0193,58,"Step 1: Identify what Najat's stall sells - leather slippers. Step 2: Determine the price of leather slippers - 58 dirham. Step 3: Karim's stall sells the same item as Najat's, so he charges the same price.  Answer: 58 dirham"
+syn2_price_ind_0195,88,Step 1: Identify what Samira's stall sells - mint. Step 2: Find the price of mint - 88 dirham. Step 3: Determine what Hamid charges - the same as Samira for mint.  Answer: 88 dirham
+syn2_price_ind_0197,76,Step 1: Identify what Omar's stall sells - leather slippers. Step 2: Find the price of leather slippers - 76 dirham. Step 3: Determine what Najat sells and charges - the same as Omar.  Answer: 76 dirham
+syn2_price_ind_0199,11,Step 1: Identify what Hamid's stall sells - cedar boxes. Step 2: Determine the price of cedar boxes - 11 dirham. Step 3: Samira's stall sells the same items as Hamid's stall. Answer: 11 dirham
+syn2_price_ind_0201,45,Step 1: Identify what Najat's stall sells - mint. Step 2: Determine Karim's pricing - same as Najat's. Step 3: Find the price of mint - 45 dirham.  Answer: 45 dirham
+syn2_price_ind_0203,64,"Step 1: Identify what Najat's stall sells - wool. Step 2: Determine the price of wool at Boujloud board - 64 dirham. Step 3: Omar's stall sells the same as Najat's, so he charges for wool. Answer: 64 dirham"
+syn2_price_ind_0205,80,Step 1: Identify what Omar's stall sells - zellij tiles. Step 2: Find the price of zellij tiles - 80 dirham. Step 3: Determine Hamid's price - same as Omar's since Hamid sells whatever Omar sells. Answer: 80 dirham
+syn2_price_ind_0207,76,Step 1: Identify what Youssef's stall sells - cedar boxes. Step 2: Find the price of cedar boxes - 76 dirham. Step 3: Determine what Latifa charges - the same as Youssef for cedar boxes.  Answer: 76 dirham
+syn2_price_ind_0209,12,Step 1: Identify what Driss's stall sells - cedar boxes. Step 2: Determine the price of cedar boxes - 12 dirham. Step 3: Hamid's stall sells the same item as Driss's stall. Answer: 12 dirham
+syn2_price_ind_0211,6,"Step 1: Identify what Karim's stall sells - brass lanterns. Step 2: Find the price of brass lanterns - 6 dirham. Step 3: Determine what Omar charges - the same as Karim for brass lanterns, 6 dirham.  Answer: 6 dirham"
+syn2_price_ind_0213,74,Step 1: Identify what Samira's stall sells - dates. Step 2: Determine Hamid's pricing - same as Samira's. Step 3: Find the price of dates - 74 dirham.  Answer: 74 dirham
+syn2_price_ind_0215,59,Step 1: Identify the item Latifa's stall sells - leather slippers. Step 2: Find the price of leather slippers on the Cherabliyine board - 59 dirham. Step 3: Determine that Samira charges the same as Latifa for the same item.  Answer: 59 dirham
+syn2_price_ind_0217,46,Step 1: Identify what Karim's stall sells - dates. Step 2: Determine Omar's pricing - same as Karim's. Step 3: Find the price of dates - 46 dirham.  Answer: 46 dirham
+syn2_price_ind_0219,86,Step 1: Identify what Samira's stall sells - dates. Step 2: Determine Najat's pricing - same as Samira's. Step 3: Find the price of dates - 86 dirham.  Answer: 86 dirham
+syn2_price_ind_0221,21,"Step 1: Identify what Driss's stall sells - saffron. Step 2: Determine Hamid's price - the same as Driss's for saffron, 21 dirham. Answer: 21 dirham"
+syn2_price_ind_0223,72,Step 1: Identify what Karim's stall sells - wool. Step 2: Determine the price of wool - 72 dirham. Step 3: Understand that Najat's stall sells the same item as Karim's. Step 4: Calculate what Najat charges - 72 dirham.  Answer: 72 dirham
+syn2_price_ind_0225,74,"Step 1: Identify what Karim's stall sells - leather slippers. Step 2: Find the price of leather slippers - 74 dirham. Step 3: Determine what Najat charges - the same as Karim for leather slippers, 74 dirham.  Answer: 74 dirham"
+syn2_price_ind_0227,73,Step 1: Identify what Samira's stall sells - cedar boxes. Step 2: Find the price of cedar boxes - 73 dirham. Step 3: Determine what Latifa charges - the same as Samira for cedar boxes.  Answer: 73 dirham
+syn2_price_ind_0229,34,Step 1: Identify what Hamid's stall sells - dates. Step 2: Determine the price of dates at Nejjarine board - 34 dirham. Step 3: Conclude that Latifa charges the same as Hamid for dates.  Answer: 34 dirham
+syn2_price_ind_0231,87,"Step 1: Identify what Omar's stall sells - brass lanterns. Step 2: Find the price of brass lanterns at the Sagha board - 87 dirham. Step 3: Determine what Samira charges - the same as Omar, 87 dirham.  Answer: 87 dirham"
+syn2_price_ind_0233,32,Step 1: Identify what Youssef's stall sells - amber. Step 2: Determine the price of amber - 32 dirham. Step 3: Understand that Latifa's stall sells the same item as Youssef's. Step 4: Conclude that Latifa charges the same price as Youssef for amber.  Answer: 32 dirham
+syn2_price_ind_0235,70,Step 1: Identify what Najat's stall sells - amber. Step 2: Determine Karim's pricing - same as Najat's. Step 3: Find the price of amber - 70 dirham.  Answer: 70 dirham
+syn2_price_ind_0237,39,"Step 1: Identify what Samira's stall sells - wool. Step 2: Find the price of wool - 39 dirham. Step 3: Determine Hamid's price - same as Samira's for wool, 39 dirham.  Answer: 39 dirham"
+syn2_price_ind_0239,76,Step 1: Identify what Samira's stall sells - cedar boxes. Step 2: Find the price of cedar boxes - 76 dirham. Step 3: Determine what Omar charges - the same as Samira for cedar boxes.  Answer: 76 dirham
+syn2_price_ind_0241,45,Step 1: Identify what Latifa's stall sells - mint. Step 2: Determine Driss's pricing - same as Latifa's. Step 3: Find the price of mint - 45 dirham.  Answer: 45 dirham
+syn2_price_ind_0243,5,Step 1: Identify what Driss's stall sells - argan oil. Step 2: Determine Hamid's pricing - same as Driss's. Step 3: Find the price of argan oil - 5 dirham.  Answer: 5 dirham
+syn2_price_ind_0245,40,Step 1: Identify what Latifa's stall sells - cedar boxes. Step 2: Determine the price of cedar boxes - 40 dirham. Step 3: Youssef's stall sells the same item as Latifa's stall. Answer: 40 dirham
+syn2_price_ind_0247,12,Step 1: Identify what Omar's stall sells - cedar boxes. Step 2: Determine the price of cedar boxes - 12 dirham. Step 3: Conclude that Karim charges the same as Omar for cedar boxes.  Answer: 12 dirham
+syn2_price_ind_0249,39,Step 1: Identify what Latifa's stall sells - saffron. Step 2: Determine Omar's price for saffron - same as Latifa's. Step 3: Find saffron's price - 39 dirham.  Answer: 39 dirham
+syn2_price_ind_0251,11,Step 1: Identify what Youssef's stall sells - mint. Step 2: Determine Latifa's pricing - same as Youssef's. Step 3: Find the price of mint - 11 dirham.  Answer: 11 dirham
+syn2_price_ind_0253,43,Answer: 43 dirham
+syn2_price_ind_0255,46,"Step 1: Identify what Latifa's stall sells - wool. Step 2: Find the price of wool - 46 dirham. Step 3: Determine what Omar charges - the same as Latifa, which is 46 dirham.  Answer: 46 dirham"
+syn2_price_ind_0257,70,Step 1: Identify the item Driss sells - leather slippers. Step 2: Find the price of leather slippers - 70 dirham. Answer: 70
+syn2_price_ind_0259,7,Step 1: Identify what Driss's stall sells - argan oil. Step 2: Determine Najat's pricing - same as Driss. Step 3: Find the price of argan oil - 7 dirham. Answer: 7
+syn2_price_ind_0261,34,Step 1: Identify what Driss's stall sells - cedar boxes. Step 2: Determine the price of cedar boxes - 34 dirham. Step 3: Youssef's stall sells the same item as Driss's stall. Answer: 34
+syn2_price_ind_0263,72,"Step 1: Identify what Latifa's stall sells - cedar boxes. Step 2: Find the price of cedar boxes - 72 dirham. Step 3: Determine what Omar charges - the same as Latifa, 72 dirham.  Answer: 72 dirham"
+syn2_price_ind_0265,26,Step 1: Identify what Driss's stall sells - wool. Step 2: Determine the price of wool - 26 dirham. Step 3: Understand Hamid's pricing - same as Driss. Answer: 26 dirham
+syn2_price_ind_0267,90,Step 1: Identify what Youssef's stall sells - wool. Step 2: Determine Karim's pricing - same as Youssef's. Step 3: Find the price of wool - 90 dirham.  Answer: 90 dirham
+syn2_price_ind_0269,49,Step 1: Identify what Latifa's stall sells - brass lanterns. Step 2: Find the price of brass lanterns - 49 dirham. Step 3: Determine Youssef's price - same as Latifa's since they sell the same items.  Answer: 49 dirham
+syn2_price_ind_0271,57,"Step 1: Identify the item Hamid's stall sells - leather slippers. Step 2: Find the price of leather slippers from the Chouara board - 57 dirham. Step 3: Determine what Najat charges - the same as Hamid, 57 dirham.  Answer: 57 dirham"
+syn2_price_ind_0273,28,"Step 1: Identify what Driss's stall sells - wool. Step 2: Find the price of wool - 28 dirham. Step 3: Determine what Karim charges - the same as Driss for wool, 28 dirham.  Answer: 28 dirham"
+syn2_price_ind_0275,12,"Step 1: Identify what Najat's stall sells - wool. Step 2: Find the price of wool - 12 dirham. Step 3: Determine what Latifa charges - the same as Najat for wool, 12 dirham.  Answer: 12 dirham"
+syn2_price_ind_0277,49,Step 1: Identify what Najat's stall sells - zellij tiles. Step 2: Find the price of zellij tiles - 49 dirham. Step 3: Determine what Driss charges - the same as Najat for zellij tiles.  Answer: 49 dirham
+syn2_price_ind_0279,73,Step 1: Identify what Driss's stall sells - cedar boxes. Step 2: Determine the price of cedar boxes - 73 dirham. Step 3: Youssef's stall sells the same as Driss's stall. Answer: 73 dirham
+syn2_price_ind_0281,67,Step 1: Identify what Karim's stall sells - wool. Step 2: Determine Youssef's price for wool - 67 dirham. Answer: 67
+syn2_price_ind_0283,37,Step 1: Identify what Driss's stall sells - saffron. Step 2: Determine Latifa's pricing - same as Driss's. Step 3: Find the price of saffron - 37 dirham.  Answer: 37 dirham
+syn2_price_ind_0285,52,Step 1: Identify what Hamid's stall sells - amber. Step 2: Determine the price of amber - 52 dirham. Step 3: Omar's stall sells the same as Hamid's stall. Answer: 52 dirham
+syn2_price_ind_0287,80,"Step 1: Identify what Omar's stall sells - argan oil. Step 2: Determine Samira's price for argan oil - same as Omar's, 80 dirham. Answer: 80 dirham"
+syn2_price_ind_0289,15,"Step 1: Identify what Latifa's stall sells - wool. Step 2: Find the price of wool - 15 dirham. Step 3: Driss's stall sells the same as Latifa's, so he sells wool. Step 4: Driss charges 15 dirham for wool.  Answer: 15 dirham"
+syn2_price_ind_0291,31,"Step 1: Identify what Omar's stall sells - saffron. Step 2: Determine the price of saffron - 31 dirham. Step 3: Understand that Najat's stall sells the same item as Omar's - saffron. Step 4: Conclude that Najat charges the same price as saffron, which is 31 dirham.  Answer: 31 dirham"
+syn2_price_ind_0293,59,"Step 1: Identify what Driss's stall sells - wool. Step 2: Find the price of wool - 59 dirham. Step 3: Determine what Najat sells and charges - the same as Driss, 59 dirham.  Answer: 59 dirham"
+syn2_price_ind_0295,76,"Step 1: Identify what Karim's stall sells - leather slippers. Step 2: Determine the price of leather slippers - 76 dirham. Step 3: Driss sells the same item as Karim, so he charges the same price.  Answer: 76 dirham"
+syn2_price_ind_0297,7,Step 1: Identify what Omar's stall sells - leather slippers. Step 2: Determine the price of leather slippers - 7 dirham. Step 3: Conclude that Karim charges the same amount since he sells the same items.  Answer: 7 dirham
+syn2_price_ind_0299,6,Step 1: Identify the item Driss sells - leather slippers. Step 2: Find the price of leather slippers - 6 dirham. Answer: 6

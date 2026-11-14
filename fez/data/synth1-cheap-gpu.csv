@@ -1,0 +1,2871 @@
+request_id,cheap_answer,cheap_raw
+syn1_price_0001,62,62:00:00
+syn1_price_0002,82,82:00:00
+syn1_price_0003,74,74:00:00
+syn1_price_0004,68,68 dirham
+syn1_price_0005,58,58:00
+syn1_price_0006,69,"69:00, 90 dirham"
+syn1_price_0007,66,66:00
+syn1_price_0008,18,18 dirham
+syn1_price_0009,80,80:00:00
+syn1_price_0010,75,75:00:00
+syn1_price_0011,75,75:08
+syn1_price_0012,66,66:00
+syn1_price_0013,49,49:00
+syn1_price_0014,79,79:00:00
+syn1_price_0015,6,6 dirham
+syn1_price_0016,26,26:00
+syn1_price_0017,65,65:00:00
+syn1_price_0018,38,38:00
+syn1_price_0019,9,9 dirham
+syn1_price_0020,72,72 dirham
+syn1_price_0021,43,43:21:03
+syn1_price_0022,25,25:58:77
+syn1_price_0023,70,70:00:00
+syn1_price_0024,78,78:00:00
+syn1_price_0025,83,83:00
+syn1_price_0026,39,39:00:00
+syn1_price_0027,15,15:00
+syn1_price_0028,42,42:00
+syn1_price_0029,57,57 dirham
+syn1_price_0030,33,33:00
+syn1_price_0031,40,40:18:00
+syn1_price_0032,29,29:00
+syn1_price_0033,18,18 dirham
+syn1_price_0034,17,17:00:00
+syn1_price_0035,56,56:45
+syn1_price_0036,74,74 dirham
+syn1_price_0037,30,30:00:00
+syn1_price_0038,10,10 dirham
+syn1_price_0039,17,17:74
+syn1_price_0040,36,36:00
+syn1_price_0041,65,65:00:00
+syn1_price_0042,45,45:24
+syn1_price_0043,45,45:00
+syn1_price_0044,13,13 dirham
+syn1_price_0045,63,63:00
+syn1_price_0046,78,78 dirham
+syn1_price_0047,40,40:00
+syn1_price_0048,45,45:00:00
+syn1_price_0049,57,57:33:00
+syn1_price_0050,87,87:00
+syn1_price_0051,75,75:52:26:64
+syn1_price_0052,24,24 dirham
+syn1_price_0053,70,70 dirham
+syn1_price_0054,89,89 dirham
+syn1_price_0055,21,21:00:00
+syn1_price_0056,20,20 dirham
+syn1_price_0057,61,61:00
+syn1_price_0058,30,30:00
+syn1_price_0059,20,20:31
+syn1_price_0060,77,"77:6, 6:14, 74:4"
+syn1_price_0061,69,69:00 dirham
+syn1_price_0062,74,74 dirham
+syn1_price_0063,40,40:86:40:81
+syn1_price_0064,26,26:00
+syn1_price_0065,54,54:00:00
+syn1_price_0066,85,85:08
+syn1_price_0067,43,43:00:00
+syn1_price_0068,70,70 dirham
+syn1_price_0069,61,61 dirham
+syn1_price_0070,72,72 dirham
+syn1_price_0071,11,11:26
+syn1_price_0072,66,66 dirham
+syn1_price_0073,56,56 dirham
+syn1_price_0074,26,26:00
+syn1_price_0075,22,22:00:00
+syn1_price_0076,18,18 dirham
+syn1_price_0077,10,10:12:00
+syn1_price_0078,89,89 dirham
+syn1_price_0079,26,26:00:00
+syn1_price_0080,62,62:00:00
+syn1_price_0081,45,45:00
+syn1_price_0082,24,24:00
+syn1_price_0083,21,21:00:00
+syn1_price_0084,21,21:00
+syn1_price_0085,89,89:00:00
+syn1_price_0086,36,36:00
+syn1_price_0087,30,30:00:00
+syn1_price_0088,12,12 dirham
+syn1_price_0089,69,69 dirham
+syn1_price_0090,55,55:MM:SS
+syn1_price_0091,54,54:00 dirham
+syn1_price_0092,43,43:17
+syn1_price_0093,66,66:00:00
+syn1_price_0094,46,46:00
+syn1_price_0095,45,45:08
+syn1_price_0096,69,69:00
+syn1_price_0097,40,40 dirham
+syn1_price_0098,72,72:00:00
+syn1_price_0099,56,56 dirham
+syn1_price_0100,23,23:00:00
+syn1_price_0101,39,39:00
+syn1_price_0102,27,27 dirham
+syn1_price_0103,33,33:00
+syn1_price_0104,66,66 dirham
+syn1_price_0105,83,83:00
+syn1_price_0106,29,29:00 dirham
+syn1_price_0107,75,75:18:00
+syn1_price_0108,79,79:00
+syn1_price_0109,25,25:37:00
+syn1_price_0110,89,89:00:00
+syn1_price_0111,48,48 dirham
+syn1_price_0112,7,7 dirham
+syn1_price_0113,58,58 dirham
+syn1_price_0114,16,16:13
+syn1_price_0115,24,24:66
+syn1_price_0116,32,32:73:59:49
+syn1_price_0117,40,40:27:00
+syn1_price_0118,19,19 dirham
+syn1_price_0119,71,71 dirham
+syn1_price_0120,67,67:00:00
+syn1_price_ind_0001,34,34:00
+syn1_price_ind_0002,81,81 dirham
+syn1_price_ind_0003,52,52 dirham
+syn1_price_ind_0004,12,12:46 dirham
+syn1_price_ind_0005,37,37 dirham
+syn1_price_ind_0006,89,89:00 dirham
+syn1_price_ind_0007,48,48 dirham
+syn1_price_ind_0008,10,10 dirham
+syn1_price_ind_0009,39,39 dirham
+syn1_price_ind_0010,47,47 dirham
+syn1_price_ind_0011,65,65:00 dirham
+syn1_price_ind_0012,19,19 dirham
+syn1_price_ind_0013,65,65:38
+syn1_price_ind_0014,79,79 dirham
+syn1_price_ind_0015,66,66 dirham
+syn1_price_ind_0016,42,"42:39, 42 dirham"
+syn1_price_ind_0017,81,81:60:59
+syn1_price_ind_0018,9,9 dirham
+syn1_price_ind_0019,88,88 dirham
+syn1_price_ind_0020,10,10:45:00
+syn1_price_ind_0021,61,61 dirham
+syn1_price_ind_0022,87,87 dirham
+syn1_price_ind_0023,17,17:34
+syn1_price_ind_0024,89,89:29:60
+syn1_price_ind_0025,18,18:88 dirham
+syn1_price_ind_0026,37,37:18:00
+syn1_price_ind_0027,59,59 dirham
+syn1_price_ind_0028,73,73 dirham
+syn1_price_ind_0029,83,83:00
+syn1_price_ind_0030,17,17:87 dirham
+syn1_price_ind_0031,81,81 dirham
+syn1_price_ind_0032,30,30 dirham
+syn1_price_ind_0033,51,51 dirham
+syn1_price_ind_0034,6,6 dirham
+syn1_price_ind_0035,78,78 dirham
+syn1_price_ind_0036,56,56 dirham
+syn1_price_ind_0037,41,41 dirham
+syn1_price_ind_0038,42,"42:16, 16:16, or a single"
+syn1_price_ind_0039,84,84 dirham
+syn1_price_ind_0040,36,36 dirham
+syn1_price_ind_0041,5,5 dirham
+syn1_price_ind_0042,26,"26:90, amber"
+syn1_price_ind_0043,28,28:17:00
+syn1_price_ind_0044,48,"48:36, 17:00, amber"
+syn1_price_ind_0045,70,70 dirham
+syn1_price_ind_0046,83,83:00
+syn1_price_ind_0047,16,16:55 dirham
+syn1_price_ind_0048,59,59 dirham
+syn1_price_ind_0049,55,55:58
+syn1_price_ind_0050,52,52 dirham
+syn1_price_ind_0051,5,5 dirham
+syn1_price_ind_0052,58,58 dirham
+syn1_price_ind_0053,78,78 dirham
+syn1_price_ind_0054,87,87 dirham
+syn1_price_ind_0055,74,74 dirham
+syn1_price_ind_0056,9,9 dirham
+syn1_price_ind_0057,34,34 dirham
+syn1_price_ind_0058,47,47:83:50:33
+syn1_price_ind_0059,15,"15:72, 72 dirham, or a single name"
+syn1_price_ind_0060,46,46:00
+syn1_price_ind_0061,67,67:51:06
+syn1_price_ind_0062,70,70 dirham
+syn1_price_ind_0063,77,77 dirham
+syn1_price_ind_0064,61,61 dirham
+syn1_price_ind_0065,87,87:19:50:6
+syn1_price_ind_0066,15,15 dirham
+syn1_price_ind_0067,28,28:00:00
+syn1_price_ind_0068,57,57 dirham
+syn1_price_ind_0069,31,31:84:24:43
+syn1_price_ind_0070,48,48 dirham
+syn1_price_ind_0071,86,86:00 dirham
+syn1_price_ind_0072,18,18:00 dirham
+syn1_price_ind_0073,13,13 dirham
+syn1_price_ind_0074,32,32 dirham
+syn1_price_ind_0075,12,12 dirham
+syn1_price_ind_0076,69,69:28:86
+syn1_price_ind_0077,13,13:23:61
+syn1_price_ind_0078,34,34 dirham
+syn1_price_ind_0079,41,41 dirham
+syn1_price_ind_0080,83,83 dirham
+syn1_price_ind_0081,35,"35:19, 35:19, argan oil"
+syn1_price_ind_0082,45,45:00:00
+syn1_price_ind_0083,24,24:00:00
+syn1_price_ind_0084,26,26:45:00
+syn1_price_ind_0085,13,13 dirham
+syn1_price_ind_0086,85,85 dirham
+syn1_price_ind_0087,43,"43:36, 43 dirham"
+syn1_price_ind_0088,5,5 dirham
+syn1_price_ind_0089,78,78 dirham
+syn1_price_ind_0090,30,30 dirham
+syn1_price_ind_0091,51,51 dirham
+syn1_price_ind_0092,88,88 dirham
+syn1_price_ind_0093,49,49:00 dirham
+syn1_price_ind_0094,78,78:16:66:48:16
+syn1_price_ind_0095,37,37 dirham
+syn1_price_ind_0096,83,83 dirham
+syn1_price_ind_0097,27,"27:46, 23 dirham"
+syn1_price_ind_0098,24,24:66:36:9
+syn1_price_ind_0099,71,"71:26, dates"
+syn1_price_ind_0100,52,52:00:00
+syn1_price_ind_0101,50,50:29:25
+syn1_price_ind_0102,83,83 dirham
+syn1_price_ind_0103,38,38 dirham
+syn1_price_ind_0104,63,63:00 dirham
+syn1_price_ind_0105,5,5 dirham
+syn1_price_ind_0106,73,73:61:51:31
+syn1_price_ind_0107,65,65:28:00
+syn1_price_ind_0108,49,49:27:81:39
+syn1_price_ind_0109,47,47 dirham
+syn1_price_ind_0110,56,56 dirham
+syn1_price_ind_0111,32,32 dirham
+syn1_price_ind_0112,55,55 dirham
+syn1_price_ind_0113,79,79:54:45:42
+syn1_price_ind_0114,45,45:20:73
+syn1_price_ind_0115,55,55 dirham
+syn1_price_ind_0116,47,47 dirham
+syn1_price_ind_0117,55,55 dirham
+syn1_price_ind_0118,54,54 dirham
+syn1_price_ind_0119,48,48:27
+syn1_price_ind_0120,25,"25:26, 29:29, or a single"
+syn1_price_ind_0121,47,47:48
+syn1_price_ind_0122,80,80 dirham
+syn1_price_ind_0123,13,13 dirham
+syn1_price_ind_0124,43,"43:10, 10:39, or a single"
+syn1_price_ind_0125,78,78 dirham
+syn1_price_ind_0126,60,60:52:75:31
+syn1_price_ind_0127,63,63 dirham
+syn1_price_ind_0128,35,35:00
+syn1_price_ind_0129,12,12 dirham
+syn1_price_ind_0130,7,7:51:24
+syn1_price_ind_0131,16,16:60
+syn1_price_ind_0132,71,71:53:66:45
+syn1_price_ind_0133,50,50:18:30:19
+syn1_price_ind_0134,12,12 dirham
+syn1_price_ind_0135,39,39 dirham
+syn1_price_ind_0136,79,79 dirham
+syn1_price_ind_0137,33,"33:44, 33:44, Samira's"
+syn1_price_ind_0138,74,74 dirham
+syn1_price_ind_0139,74,74:46
+syn1_price_ind_0140,69,69:00:00
+syn1_price_ind_0141,72,72 dirham
+syn1_price_ind_0142,72,72 dirham
+syn1_price_ind_0143,39,39 dirham
+syn1_price_ind_0144,65,65:41:60
+syn1_price_ind_0145,50,"50:50, 50:50, 70"
+syn1_price_ind_0146,46,"46:32, or a single name."
+syn1_price_ind_0147,38,38 dirham
+syn1_price_ind_0148,42,"42:17, single name."
+syn1_price_ind_0149,19,19:27 dirham
+syn1_price_ind_0150,59,59 dirham
+syn1_price_ind_0151,66,66 dirham
+syn1_price_ind_0152,17,17:89
+syn1_price_ind_0153,15,15:57:53
+syn1_price_ind_0154,12,12:57:08
+syn1_price_ind_0155,14,14 dirham
+syn1_price_ind_0156,46,46:85
+syn1_price_ind_0157,46,46:73
+syn1_price_ind_0158,15,15 dirham
+syn1_price_ind_0159,62,62:00:00
+syn1_price_ind_0160,62,62:00
+syn1_price_ind_0161,81,81:26:00
+syn1_price_ind_0162,44,"44:38, Zellij Tiles"
+syn1_price_ind_0163,45,45 dirham
+syn1_price_ind_0164,81,81:00:00
+syn1_price_ind_0165,33,"33:6, 33:6, Youssef"
+syn1_price_ind_0166,74,74 dirham
+syn1_price_ind_0167,28,28 dirham
+syn1_price_ind_0168,45,"45:23, 45:23, Omar"
+syn1_price_ind_0169,76,76:00:00
+syn1_price_ind_0170,7,7 dirham
+syn1_price_ind_0171,26,26:00:00
+syn1_price_ind_0172,27,27:60:65
+syn1_price_ind_0173,65,65:00 dirham
+syn1_price_ind_0174,77,77 dirham
+syn1_price_ind_0175,12,12 dirham
+syn1_price_ind_0176,80,80 dirham
+syn1_price_ind_0177,54,54 dirham
+syn1_price_ind_0178,89,89 dirham
+syn1_price_ind_0179,89,89:00:00
+syn1_price_ind_0180,27,27 dirham
+syn1_price_ind_0181,49,49:12
+syn1_price_ind_0182,27,27 dirham
+syn1_price_ind_0183,10,10 dirham
+syn1_price_ind_0184,15,15 dirham
+syn1_price_ind_0185,49,49:00:00
+syn1_price_ind_0186,89,89 dirham
+syn1_price_ind_0187,25,25:66:19:33
+syn1_price_ind_0188,8,8 dirham
+syn1_price_ind_0189,45,"45:48, Leather slippers"
+syn1_price_ind_0190,60,60:60:80:39
+syn1_price_ind_0191,27,27:45:00
+syn1_price_ind_0192,26,"26:43, 22:20, or a single"
+syn1_price_ind_0193,32,32 dirham
+syn1_price_ind_0194,12,12 dirham
+syn1_price_ind_0195,63,63 dirham
+syn1_price_ind_0196,35,35:14:45:22
+syn1_price_ind_0197,89,"89:00, 84:00, amber"
+syn1_price_ind_0198,59,59 dirham
+syn1_price_ind_0199,41,41:23:10
+syn1_price_ind_0200,55,55 dirham
+syn1_price_ind_0201,21,"21:69, a single name."
+syn1_price_ind_0202,40,40 dirham
+syn1_price_ind_0203,33,33 dirham
+syn1_price_ind_0204,19,19 dirham
+syn1_price_ind_0205,70,70 dirham
+syn1_price_ind_0206,89,89:00:00
+syn1_price_ind_0207,20,20:87:33:44
+syn1_price_ind_0208,40,40 dirham
+syn1_price_ind_0209,66,"66:50, or a single name."
+syn1_price_ind_0210,42,42 dirham
+syn1_price_ind_0211,22,22 dirham
+syn1_price_ind_0212,56,56:56
+syn1_price_ind_0213,8,8 dirham
+syn1_price_ind_0214,38,38:00:00
+syn1_price_ind_0215,78,78 dirham
+syn1_price_ind_0216,14,14 dirham
+syn1_price_ind_0217,84,84 dirham
+syn1_price_ind_0218,65,65 dirham
+syn1_price_ind_0219,76,76 dirham
+syn1_price_ind_0220,71,"71:47, Driss"
+syn1_price_ind_0221,38,38 dirham
+syn1_price_ind_0222,16,16:31 dirham
+syn1_price_ind_0223,84,84 dirham
+syn1_price_ind_0224,88,88 dirham
+syn1_price_ind_0225,89,89 dirham
+syn1_price_ind_0226,78,78:31:81
+syn1_price_ind_0227,14,14 dirham
+syn1_price_ind_0228,37,37 dirham
+syn1_price_ind_0229,21,21:00:00
+syn1_price_ind_0230,17,17:33
+syn1_price_ind_0231,5,5 dirham
+syn1_price_ind_0232,62,62:00:00
+syn1_price_ind_0233,37,37 dirham
+syn1_price_ind_0234,73,73:00
+syn1_price_ind_0235,82,82 dirham
+syn1_price_ind_0236,68,68 dirham
+syn1_price_ind_0237,24,24 dirham
+syn1_price_ind_0238,63,63 dirham
+syn1_price_ind_0239,59,59 dirham
+syn1_price_ind_0240,77,77 dirham
+syn1_price_ind_0241,34,34 dirham
+syn1_price_ind_0242,61,61:00:00
+syn1_price_ind_0243,6,6 dirham
+syn1_price_ind_0244,80,"80:39, amber"
+syn1_price_ind_0245,74,74:06
+syn1_price_ind_0246,83,83 dirham
+syn1_price_ind_0247,89,89:00:00
+syn1_price_ind_0248,20,20 dirham
+syn1_price_ind_0249,11,11:11
+syn1_price_ind_0250,74,74 dirham
+syn1_price_ind_0251,16,16:88:34
+syn1_price_ind_0252,84,84 dirham
+syn1_price_ind_0253,69,69:18:26
+syn1_price_ind_0254,8,8 dirham
+syn1_price_ind_0255,30,30 dirham
+syn1_price_ind_0256,16,16:00:00
+syn1_price_ind_0257,72,"72:33, 9:9, or a single name."
+syn1_price_ind_0258,83,83:00
+syn1_price_ind_0259,88,88 dirham
+syn1_price_ind_0260,90,90 dirham
+syn1_price_ind_0261,41,41:32:79
+syn1_price_ind_0262,88,88:33:47:47
+syn1_price_ind_0263,9,9:39
+syn1_price_ind_0264,9,9 dirham
+syn1_price_ind_0265,6,6 dirham
+syn1_price_ind_0266,22,22 dirham
+syn1_price_ind_0267,40,40 dirham
+syn1_price_ind_0268,59,59 dirham
+syn1_price_ind_0269,34,34:11:68:12
+syn1_price_ind_0270,80,80 dirham
+syn1_price_ind_0271,16,16:20 dirham
+syn1_price_ind_0272,60,60:00:00
+syn1_price_ind_0273,13,13:13
+syn1_price_ind_0274,88,88 dirham
+syn1_price_ind_0275,63,63 dirham
+syn1_price_ind_0276,12,12 dirham
+syn1_price_ind_0277,23,23:68
+syn1_price_ind_0278,59,59 dirham
+syn1_price_ind_0279,72,72 dirham
+syn1_price_ind_0280,73,"73:24, 88:24, Cedar boxes"
+syn1_price_ind_0281,17,17:37 dirham
+syn1_price_ind_0282,44,44 dirham
+syn1_price_ind_0283,31,31:00:00
+syn1_price_ind_0284,42,42:41:64
+syn1_price_ind_0285,62,62 dirham
+syn1_price_ind_0286,65,65:42:39
+syn1_price_ind_0287,27,27:00:00
+syn1_price_ind_0288,69,69 dirham
+syn1_price_ind_0289,79,79 dirham
+syn1_price_ind_0290,84,84 dirham
+syn1_price_ind_0291,36,"36:24, cedar boxes"
+syn1_price_ind_0292,26,26:14
+syn1_price_ind_0293,20,20 dirham
+syn1_price_ind_0294,71,71 dirham
+syn1_price_ind_0295,49,49 dirham
+syn1_price_ind_0296,76,76 dirham
+syn1_price_ind_0297,74,74:00:00
+syn1_price_ind_0298,7,7 dirham
+syn1_price_ind_0299,74,74 dirham
+syn1_price_ind_0300,62,62:58:70
+syn1_toll1_0001,180,180 dirham
+syn1_toll1_0002,18,18:50
+syn1_toll1_0003,14,14:50
+syn1_toll1_0004,14,14:70
+syn1_toll1_0005,14,14:60
+syn1_toll1_0006,133,133 dirham
+syn1_toll1_0007,19,19:50
+syn1_toll1_0008,220,220 dirham
+syn1_toll1_0009,150,150 dirham
+syn1_toll1_0010,19,19:12
+syn1_toll1_0011,4,4:00
+syn1_toll1_0012,9,9:00
+syn1_toll1_0013,8,8:70
+syn1_toll1_0014,8,8:11
+syn1_toll1_0015,220,220 dirham
+syn1_toll1_0016,16,16:10
+syn1_toll1_0017,200,200 dirham
+syn1_toll1_0018,12,12:11
+syn1_toll1_0019,10,10:60
+syn1_toll1_0020,12,12:40
+syn1_toll1_0021,18,18:60
+syn1_toll1_0022,16,16:60
+syn1_toll1_0023,150,150 dirham
+syn1_toll1_0024,13,13:60
+syn1_toll1_0025,14,14:11
+syn1_toll1_0026,16,"16:50, 16:50"
+syn1_toll1_0027,40,40 dirham
+syn1_toll1_0028,60,60 dirham
+syn1_toll1_0029,120,120 dirham
+syn1_toll1_0030,17,17:70
+syn1_toll1_0031,120,120 dirham
+syn1_toll1_0032,17,17:60
+syn1_toll1_0033,7,7:00
+syn1_toll1_0034,154,154:14
+syn1_toll1_0035,20,20 dirham
+syn1_toll1_0036,17,17:60
+syn1_toll1_0037,10,10:70
+syn1_toll1_0038,18,18:60
+syn1_toll1_0039,14,14:40
+syn1_toll1_0040,13,13:80
+syn1_toll1_0041,5,5:11
+syn1_toll1_0042,9,9:00
+syn1_toll1_0043,4,4:90
+syn1_toll1_0044,7,7:00
+syn1_toll1_0045,19,19:80
+syn1_toll1_0046,6,6:00
+syn1_toll1_0047,4,4:80
+syn1_toll1_0048,9,9:00
+syn1_toll1_0049,7,7:11
+syn1_toll1_0050,150,150 dirham
+syn1_toll1_0051,11,11:80
+syn1_toll1_0052,88,88 dirham
+syn1_toll1_0053,13,13:60
+syn1_toll1_0054,13,13:50
+syn1_toll1_0055,10,10:50
+syn1_toll1_0056,70,70 dirham
+syn1_toll1_0057,190,190 dirham
+syn1_toll1_0058,19,19:80:00
+syn1_toll1_0059,99,99 dirham
+syn1_toll1_0060,110,110 dirham
+syn1_toll1_0061,132,132:00
+syn1_toll1_0062,100,100:10
+syn1_toll1_0063,1111111111111111,1111111111111111
+syn1_toll1_0064,77,77 dirham
+syn1_toll1_0065,5,5:00
+syn1_toll1_0066,140,140 dirham
+syn1_toll1_0067,18,18:11
+syn1_toll1_0068,15,15:11
+syn1_toll1_0069,12,12:70
+syn1_toll1_0070,7,7:12
+syn1_toll1_0071,14,14:70
+syn1_toll1_0072,11,11:40
+syn1_toll1_0073,11,11:40
+syn1_toll1_0074,40,40 dirham
+syn1_toll1_0075,16,16:60
+syn1_toll1_0076,7,7:11
+syn1_toll1_0077,5,5:00
+syn1_toll1_0078,9,9:00
+syn1_toll1_0079,8,8:10
+syn1_toll1_0080,18,18:40
+syn1_toll1_0081,13,13:00
+syn1_toll1_0082,135,135:00
+syn1_toll1_0083,16,16:50:00
+syn1_toll1_0084,5,5:00
+syn1_toll1_0085,12,12:11
+syn1_toll1_0086,114,114 dirham
+syn1_toll1_0087,220,220
+syn1_toll1_0088,20,20:60:00
+syn1_toll1_0089,120,120 dirham
+syn1_toll1_0090,100,100:9
+syn1_toll1_0091,18,18:60
+syn1_toll1_0092,8,8:40
+syn1_toll1_0093,8,8:12
+syn1_toll1_0094,50,50 dirham
+syn1_toll1_0095,19,19:12
+syn1_toll1_0096,16,16:40
+syn1_toll1_0097,17,17:80
+syn1_toll1_0098,17,17:50
+syn1_toll1_0099,13,13:40
+syn1_toll1_0100,20,20:900
+syn1_toll1_0101,20,20:30
+syn1_toll1_0102,7,7:00
+syn1_toll1_0103,17,17:80
+syn1_toll1_0104,60,60 dirham
+syn1_toll1_0105,150,150 dirham
+syn1_toll1_0106,116,116
+syn1_toll1_0107,6,6:12
+syn1_toll1_0108,4,4:60
+syn1_toll1_0109,8,8:12
+syn1_toll1_0110,150,150 dirham
+syn1_toll1_0111,17,17:8
+syn1_toll1_0112,17,17:09
+syn1_toll1_0113,19,19:60
+syn1_toll1_0114,55,55 dirham
+syn1_toll1_0115,19,19:12
+syn1_toll1_0116,8,8:11
+syn1_toll1_0117,19,19:60
+syn1_toll1_0118,14,14:70
+syn1_toll1_0119,120,120 dirham
+syn1_toll1_0120,170,170 dirham
+syn1_toll1_0121,11,11:00
+syn1_toll1_0122,19,19:40
+syn1_toll1_0123,12,12:00
+syn1_toll1_0124,18,18:10
+syn1_toll1_0125,10,10:60
+syn1_toll1_0126,7,7:00
+syn1_toll1_0127,19,19:60
+syn1_toll1_0128,16,16:70
+syn1_toll1_0129,19,19:80
+syn1_toll1_0130,17,17:40
+syn1_toll1_0131,4,4:70
+syn1_toll1_0132,16,16:90
+syn1_toll1_0133,133,133
+syn1_toll1_0134,18,18:90
+syn1_toll1_0135,7,7:00
+syn1_toll1_0136,13,13:40
+syn1_toll1_0137,12,12:50
+syn1_toll1_0138,14,14:80
+syn1_toll1_0139,180,180 dirham
+syn1_toll1_0140,120,120 dirham
+syn1_toll1_0141,4,4:00
+syn1_toll1_0142,8,8:00
+syn1_toll1_0143,13,13:60
+syn1_toll1_0144,10,10:70
+syn1_toll1_0145,18,18:40
+syn1_toll1_0146,18,18:11
+syn1_toll1_0147,17,17:9
+syn1_toll1_0148,11,11:50
+syn1_toll1_0149,14,14:40
+syn1_toll1_0150,7,7:00
+syn1_toll1_0151,17,17:60
+syn1_toll1_0152,16,16:60
+syn1_toll1_0153,100,100:10
+syn1_toll1_0154,7,7:40
+syn1_toll1_0155,14,14:50
+syn1_toll1_0156,60,60 dirham
+syn1_toll1_0157,143,143:13
+syn1_toll1_0158,16,16:11
+syn1_toll1_0159,8,8:12
+syn1_toll1_0160,12,12:90
+syn1_toll1_0161,5,5:00
+syn1_toll1_0162,14,14:09
+syn1_toll1_0163,17,17:40
+syn1_toll1_0164,70,70 dirham
+syn1_toll1_0165,40,40 dirham
+syn1_toll1_0166,20,20:70:00
+syn1_toll1_0167,140,140 dirham
+syn1_toll1_0168,88,88:00
+syn1_toll1_0169,8,8:60
+syn1_toll1_0170,10,10:70
+syn1_toll1_0171,19,19:70
+syn1_toll1_0172,15,"15:11, 15:11"
+syn1_toll1_0173,200,200 dirham
+syn1_toll1_0174,110,110 dirham
+syn1_toll1_0175,4,4:80
+syn1_toll1_0176,7,7:00
+syn1_toll1_0177,17,17:70
+syn1_toll1_0178,20,20:60:00
+syn1_toll1_0179,120,120 dirham
+syn1_toll1_0180,6,6:00
+syn1_toll1_0181,18,18:10
+syn1_toll1_0182,200,200 dirham
+syn1_toll1_0183,20,20 dirham
+syn1_toll1_0184,11,11:00
+syn1_toll1_0185,150,150 dirham
+syn1_toll1_0186,19,19:60:00
+syn1_toll1_0187,8,8:70
+syn1_toll1_0188,9,9:00
+syn1_toll1_0189,15,15:11
+syn1_toll1_0190,5,5:70
+syn1_toll1_0191,11,11:80
+syn1_toll1_0192,6,6:00
+syn1_toll1_0193,9,9:00
+syn1_toll1_0194,11,11:00
+syn1_toll1_0195,9,9:00:00
+syn1_toll1_0196,14,14:60
+syn1_toll1_0197,4,4:80
+syn1_toll1_0198,12,12:70
+syn1_toll1_0199,5,5:00
+syn1_toll1_0200,143,143:13
+syn1_toll2_0001,6,6:25:45:6:6:25:4
+syn1_toll2_0002,9,"9:00, 5:00"
+syn1_toll2_0003,10,10:21:00
+syn1_toll2_0004,12,12:47
+syn1_toll2_0005,13,13:40
+syn1_toll2_0006,1,56 * 56 + 28 * 5 = 1
+syn1_toll2_0007,4,4:30:00
+syn1_toll2_0008,170,170 dirham
+syn1_toll2_0009,140,"140:55, 8:73"
+syn1_toll2_0010,12,12:44
+syn1_toll2_0011,79,"79, 50, 7, 25, 7"
+syn1_toll2_0012,7,7:28:13
+syn1_toll2_0013,6,"6:4:14, 53:39:14"
+syn1_toll2_0014,12,12:00:00
+syn1_toll2_0015,18,18:44
+syn1_toll2_0016,12,12:00:00
+syn1_toll2_0017,14,14:00:30
+syn1_toll2_0018,5,"5:18, 83:18, 56:"
+syn1_toll2_0019,190,190 dirham
+syn1_toll2_0020,19,19:45
+syn1_toll2_0021,20,20:18:39
+syn1_toll2_0022,150,150 dirham
+syn1_toll2_0023,20,"20:16, 65:8, 30:"
+syn1_toll2_0024,18,18:48
+syn1_toll2_0025,4,"4:26, 84 kg"
+syn1_toll2_0026,7,"7:4:64, 14:57:57"
+syn1_toll2_0027,69,"69, 32, 6, 3, 24"
+syn1_toll2_0028,12,12:43
+syn1_toll2_0029,16,16:00:00
+syn1_toll2_0030,9,9:2:89 13:2:40
+syn1_toll2_0031,15,15:00:00
+syn1_toll2_0032,11,11:45:22
+syn1_toll2_0033,16,16:431:31
+syn1_toll2_0034,12,"12:76, 22:43"
+syn1_toll2_0035,18,18:09
+syn1_toll2_0036,160,"160:52, 30:30"
+syn1_toll2_0037,15,15:83:29
+syn1_toll2_0038,17,17:77:43
+syn1_toll2_0039,12,12:55:00
+syn1_toll2_0040,17,17:48
+syn1_toll2_0041,6,"6:4:83, 18:71"
+syn1_toll2_0042,63,"63, 47, 13, 10,"
+syn1_toll2_0043,55,"55, 29, 13, 10,"
+syn1_toll2_0044,19,19:43:00
+syn1_toll2_0045,160,"160:18, 12:61, 9"
+syn1_toll2_0046,26,26:48
+syn1_toll2_0047,12,12:44
+syn1_toll2_0048,12,"12:26, 82:68, 54"
+syn1_toll2_0049,4,"4:21, 3:82, 1:33"
+syn1_toll2_0050,24,"24:36, 61 kg"
+syn1_toll2_0051,20,20:15:46
+syn1_toll2_0052,13,13:42
+syn1_toll2_0053,17,17:45:00
+syn1_toll2_0054,18,18:83:52
+syn1_toll2_0055,12,12:00:00
+syn1_toll2_0056,65,"65, 30, 30, 8, 2"
+syn1_toll2_0057,6,"6:32, 15:32"
+syn1_toll2_0058,19,19:40:00
+syn1_toll2_0059,88,"88, 27, 23, 12,"
+syn1_toll2_0060,17,17:30
+syn1_toll2_0061,17,17:32
+syn1_toll2_0062,13,13:58
+syn1_toll2_0063,9,9:30:00
+syn1_toll2_0064,140,140 dirham
+syn1_toll2_0065,12,12:48
+syn1_toll2_0066,166,"166:86, 19:86, 1"
+syn1_toll2_0067,5,"5:23, 68:23, 36:"
+syn1_toll2_0068,17,17:46:24
+syn1_toll2_0069,57,"57, 44, 50, 44,"
+syn1_toll2_0070,7,"7:45, 9:26"
+syn1_toll2_0071,17,17:57:29
+syn1_toll2_0072,17,17:43
+syn1_toll2_0073,18,18:82:30
+syn1_toll2_0074,13,13:48
+syn1_toll2_0075,13,13:6:99 23:47:0
+syn1_toll2_0076,14,14:09
+syn1_toll2_0077,8,8:00:00
+syn1_toll2_0078,14,14:31
+syn1_toll2_0079,20,"20:18, 78:78, 70"
+syn1_toll2_0080,120,120 dirham
+syn1_toll2_0081,12,"12:25, 16:68, 16"
+syn1_toll2_0082,18,18:5:34:65:34
+syn1_toll2_0083,14,14:46
+syn1_toll2_0084,5,5:27:20
+syn1_toll2_0085,4,"4:23, 9:20"
+syn1_toll2_0086,13,13:58
+syn1_toll2_0087,20,"20:10:21, 7:73:2"
+syn1_toll2_0088,12,12:20
+syn1_toll2_0089,85,"85, 38, 4, 14, 3"
+syn1_toll2_0090,19,19:00:00
+syn1_toll2_0091,11,"11:7:76, 26:7:48"
+syn1_toll2_0092,17,17:42
+syn1_toll2_0093,89,"89, 51, 75, 23,"
+syn1_toll2_0094,10,10:7:99:71:26:10
+syn1_toll2_0095,15,15:8:70:32:6
+syn1_toll2_0096,8,"8:18, 62:18, 42:"
+syn1_toll2_0097,5,"5:12, 70:24, 34:"
+syn1_toll2_0098,10,"10:24, 81:75, 33"
+syn1_toll2_0099,4,"4:18, 57 kg"
+syn1_toll2_0100,13,13:24
+syn1_toll2_0101,19,19:40
+syn1_toll2_0102,4,"4:20, 80:20, 41:"
+syn1_toll2_0103,12,"12:65, 22:60, 59"
+syn1_toll2_0104,90,"90, 47, 8, 20, 8"
+syn1_toll2_0105,82,93 * 9 + 52 * 2 = 82
+syn1_toll2_0106,91,"91, 67, 91, 67,"
+syn1_toll2_0107,8,8:20
+syn1_toll2_0108,15,15:9:71:60:9:25:
+syn1_toll2_0109,12,12:47
+syn1_toll2_0110,16,"16:40, 5:39"
+syn1_toll2_0111,97,"97, 64, 75, 24,"
+syn1_toll2_0112,20,20:11:16
+syn1_toll2_0113,8,"8:17, 74:17, 40:"
+syn1_toll2_0114,9,"9:16, 100 kg"
+syn1_toll2_0115,11,11:30
+syn1_toll2_0116,54,"54, 38, 54, 38,"
+syn1_toll2_0117,11,11:26
+syn1_toll2_0118,10,10:22:00
+syn1_toll2_0119,15,15:9:23:30:50:30
+syn1_toll2_0120,5,"5:18, 74, 54"
+syn1_toll2_0121,13,13:50
+syn1_toll2_0122,15,15:00:00
+syn1_toll2_0123,13,13:51
+syn1_toll2_0124,130,"130:45, 75:75, 3"
+syn1_toll2_0125,8,"8:38, 62 dirham"
+syn1_toll2_0126,54,"54, 37, 54, 37,"
+syn1_toll2_0127,5,"5:12, 70:11, 43:"
+syn1_toll2_0128,11,11:24
+syn1_toll2_0129,12,12:23
+syn1_toll2_0130,10,10:39
+syn1_toll2_0131,150,150:49
+syn1_toll2_0132,18,18:54:00
+syn1_toll2_0133,5,"5:22, 95, 45"
+syn1_toll2_0134,6,6:33:00
+syn1_toll2_0135,13,13:45
+syn1_toll2_0136,5,5:35
+syn1_toll2_0137,120,120 dirham
+syn1_toll2_0138,6,"6:38, 78 dirham"
+syn1_toll2_0139,12,12:40
+syn1_toll2_0140,7,7:00:00
+syn1_toll2_0141,11,11:40
+syn1_toll2_0142,19,19:40
+syn1_toll2_0143,8,8:34
+syn1_toll2_0144,8,8:00:00
+syn1_toll2_0145,12,12:00:00
+syn1_toll2_0146,8,8:37
+syn1_toll2_0147,19,19:44:07
+syn1_toll2_0148,17,17:30:00
+syn1_toll2_0149,16,16:48
+syn1_toll2_0150,8,"8:12, 7:39, 7:23"
+syn1_stall1_0001,10:05,10:05
+syn1_stall1_0002,12:25,12:25
+syn1_stall1_0003,13:45,13:45
+syn1_stall1_0004,11:25,11:25
+syn1_stall1_0005,12:00,12:00
+syn1_stall1_0006,10:15,10:15
+syn1_stall1_0007,10:00,10:00
+syn1_stall1_0008,10:55,10:55
+syn1_stall1_0009,12:10,12:10
+syn1_stall1_0010,17:45,17:45
+syn1_stall1_0011,12:45,12:45
+syn1_stall1_0012,10:35,10:35
+syn1_stall1_0013,10:35,10:35
+syn1_stall1_0014,17:00,17:00
+syn1_stall1_0015,12:00,12:00
+syn1_stall1_0016,12:05,12:05
+syn1_stall1_0017,12:05,12:05
+syn1_stall1_0018,10:45,10:45
+syn1_stall1_0019,10:00,10:00
+syn1_stall1_0020,10:40,10:40
+syn1_stall1_0021,12:50,12:50
+syn1_stall1_0022,10:00,10:00
+syn1_stall1_0023,12:50,12:50
+syn1_stall1_0024,11:00,11:00
+syn1_stall1_0025,11:55,11:55
+syn1_stall1_0026,19:40,19:40
+syn1_stall1_0027,19:00,19:00
+syn1_stall1_0028,14:00,14:00
+syn1_stall1_0029,10:35,10:35
+syn1_stall1_0030,13:45,13:45
+syn1_stall1_0031,12:50,12:50
+syn1_stall1_0032,18:30,18:30
+syn1_stall1_0033,12:00,12:00
+syn1_stall1_0034,13:45,13:45
+syn1_stall1_0035,11:00,11:00
+syn1_stall1_0036,10:00,10:00:00
+syn1_stall1_0037,10:55,10:55
+syn1_stall1_0038,11:35,11:35
+syn1_stall1_0039,19:50,19:50
+syn1_stall1_0040,11:25,11:25
+syn1_stall1_0041,10:35,10:35
+syn1_stall1_0042,12:00,12:00
+syn1_stall1_0043,12:00,12:00
+syn1_stall1_0044,11:00,11:00
+syn1_stall1_0045,10:10,10:10
+syn1_stall1_0046,12:00,12:00
+syn1_stall1_0047,12:30,12:30
+syn1_stall1_0048,11:10,11:10
+syn1_stall1_0049,10:25,10:25
+syn1_stall1_0050,11:25,11:25
+syn1_stall1_0051,12:00,12:00
+syn1_stall1_0052,14:45,14:45
+syn1_stall1_0053,17:00,17:00
+syn1_stall1_0054,11:00,11:00
+syn1_stall1_0055,11:35,11:35
+syn1_stall1_0056,19:00,19:00
+syn1_stall1_0057,12:35,12:35
+syn1_stall1_0058,11:00,11:00
+syn1_stall1_0059,13:20,13:20
+syn1_stall1_0060,11:50,11:50
+syn1_stall1_0061,10:30,10:30
+syn1_stall1_0062,10:25,10:25
+syn1_stall1_0063,11:50,11:50
+syn1_stall1_0064,10:00,10:00
+syn1_stall1_0065,19:00,19:00
+syn1_stall1_0066,12:40,12:40
+syn1_stall1_0067,10:00,10:00
+syn1_stall1_0068,10:05,10:05
+syn1_stall1_0069,12:55,12:55
+syn1_stall1_0070,12:50,12:50
+syn1_stall1_0071,19:45,19:45
+syn1_stall1_0072,13:10,13:10
+syn1_stall1_0073,18:00,18:00
+syn1_stall1_0074,18:45,18:45
+syn1_stall1_0075,10:50,10:50
+syn1_stall1_0076,13:00,13:00
+syn1_stall1_0077,12:00,12:00
+syn1_stall1_0078,10:25,10:25
+syn1_stall1_0079,14:45,14:45
+syn1_stall1_0080,11:40,11:40
+syn1_stall1_0081,10:35,10:35
+syn1_stall1_0082,11:00,11:00
+syn1_stall1_0083,11:40,11:40
+syn1_stall1_0084,10:05,10:05
+syn1_stall1_0085,11:00,11:00
+syn1_stall1_0086,10:15,10:15
+syn1_stall1_0087,19:20,19:20
+syn1_stall1_0088,13:40,13:40
+syn1_stall1_0089,11:50,11:50
+syn1_stall1_0090,10:20,10:20
+syn1_stall1_0091,19:10,19:10
+syn1_stall1_0092,12:40,12:40
+syn1_stall1_0093,12:25,12:25
+syn1_stall1_0094,19:50,19:50
+syn1_stall1_0095,10:25,10:25
+syn1_stall1_0096,10:00,10:00
+syn1_stall1_0097,12:35,12:35
+syn1_stall1_0098,10:00,10:00
+syn1_stall1_0099,12:00,12:00
+syn1_stall1_0100,11:00,11:00
+syn1_stall1_0101,19:00,19:00
+syn1_stall1_0102,11:50,11:50
+syn1_stall1_0103,13:40,13:40
+syn1_stall1_0104,19:00,19:00
+syn1_stall1_0105,12:25,12:25
+syn1_stall1_0106,13:00,13:00
+syn1_stall1_0107,10:00,10:00
+syn1_stall1_0108,13:55,13:55
+syn1_stall1_0109,19:45,19:45
+syn1_stall1_0110,13:45,13:45
+syn1_stall1_0111,17:05,17:05
+syn1_stall1_0112,12:00,12:00
+syn1_stall1_0113,12:45,12:45
+syn1_stall1_0114,12:00,12:00
+syn1_stall1_0115,10:05,10:05
+syn1_stall1_0116,17:15,17:15
+syn1_stall1_0117,12:00,12:00
+syn1_stall1_0118,10:30,10:30
+syn1_stall1_0119,14:00,14:00
+syn1_stall1_0120,12:40,12:40
+syn1_stall1_0121,10:00,10:00
+syn1_stall1_0122,12:00,12:00
+syn1_stall1_0123,10:00,10:00
+syn1_stall1_0124,12:00,12:00
+syn1_stall1_0125,12:00,12:00
+syn1_stall1_0126,12:50,12:50
+syn1_stall1_0127,10:20,10:20
+syn1_stall1_0128,12:00,12:00:00
+syn1_stall1_0129,19:00,19:00
+syn1_stall1_0130,19:00,19:00
+syn1_stall1_0131,11:40,11:40
+syn1_stall1_0132,11:00,11:00
+syn1_stall1_0133,14:50,14:50
+syn1_stall1_0134,12:00,12:00
+syn1_stall1_0135,12:00,12:00
+syn1_stall1_0136,12:35,12:35
+syn1_stall1_0137,17:00,17:00
+syn1_stall1_0138,19:05,19:05
+syn1_stall1_0139,19:40,19:40
+syn1_stall1_0140,14:00,14:00
+syn1_stall1_0141,19:10,19:10
+syn1_stall1_0142,10:00,10:00
+syn1_stall1_0143,17:50,17:50
+syn1_stall1_0144,10:45,10:45
+syn1_stall1_0145,12:40,12:40
+syn1_stall1_0146,19:00,19:00
+syn1_stall1_0147,10:10,10:10
+syn1_stall1_0148,10:50,10:50
+syn1_stall1_0149,10:40,10:40
+syn1_stall1_0150,12:40,12:40
+syn1_stall1_0151,12:50,12:50
+syn1_stall1_0152,12:25,12:25
+syn1_stall1_0153,14:25,14:25
+syn1_stall1_0154,17:00,17:00
+syn1_stall1_0155,11:00,11:00
+syn1_stall1_0156,10:30,10:30
+syn1_stall1_0157,10:00,10:00
+syn1_stall1_0158,12:00,12:00
+syn1_stall1_0159,10:45,10:45
+syn1_stall1_0160,12:55,12:55
+syn1_stall1_0161,19:00,19:00
+syn1_stall1_0162,11:45,11:45
+syn1_stall1_0163,12:00,12:00
+syn1_stall1_0164,13:25,13:25
+syn1_stall1_0165,12:10,12:10
+syn1_stall1_0166,10:00,10:00
+syn1_stall1_0167,10:50,10:50
+syn1_stall1_0168,13:00,13:00
+syn1_stall1_0169,12:09,12:09
+syn1_stall1_0170,10:50,10:50
+syn1_stall1_0171,12:35,12:35
+syn1_stall1_0172,12:10,12:10
+syn1_stall1_0173,12:55,12:55
+syn1_stall1_0174,11:00,11:00
+syn1_stall1_0175,17:05,17:05
+syn1_stall1_0176,19:05,19:05
+syn1_stall1_0177,12:25,12:25
+syn1_stall1_0178,10:35,10:35
+syn1_stall1_0179,12:55,12:55
+syn1_stall1_0180,11:35,11:35
+syn1_stall1_0181,11:40,11:40
+syn1_stall1_0182,19:50,19:50
+syn1_stall1_0183,12:10,12:10
+syn1_stall1_0184,11:20,11:20
+syn1_stall1_0185,11:35,11:35
+syn1_stall1_0186,12:00,12:00
+syn1_stall1_0187,10:00,10:00
+syn1_stall1_0188,10:40,10:40
+syn1_stall1_0189,10:35,10:35
+syn1_stall1_0190,10:00,10:00
+syn1_stall1_0191,11:49,11:49
+syn1_stall1_0192,10:40,10:40
+syn1_stall1_0193,12:00,12:00
+syn1_stall1_0194,10:25,10:25
+syn1_stall1_0195,12:00,12:00
+syn1_stall1_0196,19:10,19:10
+syn1_stall1_0197,10:40,10:40
+syn1_stall1_0198,19:00,19:00
+syn1_stall1_0199,10:00,10:00:00
+syn1_stall1_0200,10:00,10:00
+syn1_stall1_0201,11:25,11:25
+syn1_stall1_0202,12:55,12:55
+syn1_stall1_0203,18:40,18:40
+syn1_stall1_0204,18:00,18:00
+syn1_stall1_0205,10:00,10:00
+syn1_stall1_0206,11:05,11:05
+syn1_stall1_0207,11:00,11:00
+syn1_stall1_0208,17:00,17:00
+syn1_stall1_0209,12:40,12:40
+syn1_stall1_0210,13:15,13:15
+syn1_stall1_0211,12:35,12:35
+syn1_stall1_0212,11:40,11:40
+syn1_stall1_0213,12:30,12:30
+syn1_stall1_0214,19:00,19:00
+syn1_stall1_0215,14:25,14:25
+syn1_stall1_0216,13:00,13:00
+syn1_stall1_0217,10:50,10:50
+syn1_stall1_0218,11:00,11:00:00
+syn1_stall1_0219,17:55,17:55
+syn1_stall1_0220,17:30,17:30
+syn1_stall1_0221,12:00,12:00
+syn1_stall1_0222,13:45,13:45
+syn1_stall1_0223,18:30,18:30
+syn1_stall1_0224,10:55,10:55
+syn1_stall1_0225,12:50,12:50
+syn1_stall1_0226,19:25,19:25
+syn1_stall1_0227,10:15,10:15
+syn1_stall1_0228,12:15,12:15
+syn1_stall1_0229,13:00,13:00
+syn1_stall1_0230,13:20,13:20
+syn1_stall1_0231,12:45,12:45
+syn1_stall1_0232,14:00,14:00
+syn1_stall1_0233,11:15,11:15
+syn1_stall1_0234,11:00,11:00
+syn1_stall1_0235,10:00,10:00
+syn1_stall1_0236,12:40,12:40
+syn1_stall1_0237,11:00,11:00
+syn1_stall1_0238,12:00,12:00
+syn1_stall1_0239,19:50,19:50
+syn1_stall1_0240,12:00,12:00:05
+syn1_stall1_0241,12:50,12:50
+syn1_stall1_0242,12:00,12:00
+syn1_stall1_0243,19:05,19:05
+syn1_stall1_0244,19:25,19:25
+syn1_stall1_0245,10:50,10:50
+syn1_stall1_0246,11:25,11:25
+syn1_stall1_0247,17:00,17:00
+syn1_stall1_0248,10:50,10:50
+syn1_stall1_0249,10:00,10:00
+syn1_stall1_0250,10:00,10:00:00
+syn1_stall2_0001,10:10,10:10
+syn1_stall2_0002,14:40,14:40
+syn1_stall2_0003,10:40,10:40
+syn1_stall2_0004,12:10,12:10
+syn1_stall2_0005,12:00,12:00:00
+syn1_stall2_0006,10:00,10:00:00
+syn1_stall2_0007,14:40,14:40
+syn1_stall2_0008,06:10,06:10:40:40
+syn1_stall2_0009,10:10,10:10
+syn1_stall2_0010,07:40,07:40
+syn1_stall2_0011,10:15,10:15
+syn1_stall2_0012,12:35,12:35
+syn1_stall2_0013,07:30,07:30
+syn1_stall2_0014,19:40,19:40
+syn1_stall2_0015,12:40,12:40
+syn1_stall2_0016,10:15,10:15
+syn1_stall2_0017,12:05,12:05
+syn1_stall2_0018,10:45,10:45
+syn1_stall2_0019,10:55,10:55
+syn1_stall2_0020,12:45,12:45
+syn1_stall2_0021,10:25,10:25
+syn1_stall2_0022,11:25,11:25
+syn1_stall2_0023,12:05,12:05
+syn1_stall2_0024,12:45,12:45
+syn1_stall2_0025,10:30,10:30
+syn1_stall2_0026,10:05,10:05
+syn1_stall2_0027,14:25,14:25
+syn1_stall2_0028,10:45,10:45
+syn1_stall2_0029,14:00,14:00
+syn1_stall2_0030,18:00,18:00
+syn1_stall2_0031,12:40,12:40
+syn1_stall2_0032,12:05,12:05
+syn1_stall2_0033,14:25,14:25
+syn1_stall2_0034,10:45,10:45
+syn1_stall2_0035,14:35,14:35
+syn1_stall2_0036,12:25,12:25
+syn1_stall2_0037,12:30,12:30
+syn1_stall2_0038,12:00,12:00:05
+syn1_stall2_0039,06:45,06:45
+syn1_stall2_0040,12:40,12:40
+syn1_stall2_0041,12:00,12:00
+syn1_stall2_0042,10:10,10:10
+syn1_stall2_0043,12:40,12:40
+syn1_stall2_0044,18:35,18:35
+syn1_stall2_0045,10:00,10:00:00
+syn1_stall2_0046,12:30,12:30
+syn1_stall2_0047,12:30,12:30
+syn1_stall2_0048,11:45,11:45
+syn1_stall2_0049,12:40,12:40
+syn1_stall2_0050,12:20,12:20
+syn1_stall2_0051,07:00,07:00
+syn1_stall2_0052,11:55,11:55
+syn1_stall2_0053,10:00,10:00
+syn1_stall2_0054,19:30,19:30
+syn1_stall2_0055,10:00,10:00
+syn1_stall2_0056,13:15,13:15
+syn1_stall2_0057,12:10,12:10
+syn1_stall2_0058,12:40,12:40
+syn1_stall2_0059,07:15,07:15
+syn1_stall2_0060,06:20,06:20:03:55
+syn1_stall2_0061,10:20,10:20
+syn1_stall2_0062,10:45,10:45
+syn1_stall2_0063,12:30,12:30
+syn1_stall2_0064,10:35,10:35
+syn1_stall2_0065,10:40,10:40
+syn1_stall2_0066,10:30,10:30
+syn1_stall2_0067,10:10,10:10
+syn1_stall2_0068,12:30,12:30
+syn1_stall2_0069,10:20,10:20
+syn1_stall2_0070,10:40,10:40
+syn1_stall2_0071,10:30,10:30
+syn1_stall2_0072,12:40,12:40
+syn1_stall2_0073,10:05,10:05
+syn1_stall2_0074,06:20,06:20:04:00
+syn1_stall2_0075,10:15,10:15
+syn1_stall2_0076,12:30,12:30
+syn1_stall2_0077,14:30,14:30
+syn1_stall2_0078,10:35,10:35
+syn1_stall2_0079,11:05,11:05
+syn1_stall2_0080,12:05,12:05
+syn1_stall2_0081,13:15,13:15
+syn1_stall2_0082,10:40,10:40
+syn1_stall2_0083,12:30,12:30
+syn1_stall2_0084,14:45,14:45
+syn1_stall2_0085,12:15,12:15
+syn1_stall2_0086,10:00,10:00:35
+syn1_stall2_0087,10:35,10:35
+syn1_stall2_0088,13:40,13:40
+syn1_stall2_0089,10:40,10:40
+syn1_stall2_0090,13:45,13:45
+syn1_stall2_0091,12:15,12:15
+syn1_stall2_0092,11:40,11:40
+syn1_stall2_0093,10:40,10:40
+syn1_stall2_0094,18:00,18:00
+syn1_stall2_0095,12:55,12:55
+syn1_stall2_0096,13:25,13:25
+syn1_stall2_0097,13:05,13:05
+syn1_stall2_0098,13:50,13:50
+syn1_stall2_0099,14:00,14:00
+syn1_stall2_0100,10:40,10:40
+syn1_stall2_0101,12:45,12:45
+syn1_stall2_0102,10:00,10:00:05
+syn1_stall2_0103,10:45,10:45
+syn1_stall2_0104,07:00,07:00
+syn1_stall2_0105,13:15,13:15
+syn1_stall2_0106,10:05,10:05
+syn1_stall2_0107,10:10,10:10
+syn1_stall2_0108,10:50,10:50
+syn1_stall2_0109,12:35,12:35
+syn1_stall2_0110,12:40,12:40
+syn1_stall2_0111,10:45,10:45
+syn1_stall2_0112,12:50,12:50
+syn1_stall2_0113,12:40,12:40
+syn1_stall2_0114,13:40,13:40
+syn1_stall2_0115,10:00,10:00:00
+syn1_stall2_0116,10:25,10:25
+syn1_stall2_0117,10:20,10:20
+syn1_stall2_0118,13:35,13:35
+syn1_stall2_0119,13:45,13:45
+syn1_stall2_0120,12:15,12:15
+syn1_stall2_0121,12:35,12:35
+syn1_stall2_0122,10:40,10:40
+syn1_stall2_0123,10:45,10:45
+syn1_stall2_0124,12:25,12:25
+syn1_stall2_0125,12:55,12:55
+syn1_stall2_0126,12:35,12:35
+syn1_stall2_0127,12:45,12:45
+syn1_stall2_0128,14:30,14:30
+syn1_stall2_0129,10:40,10:40
+syn1_stall2_0130,12:40,12:40
+syn1_stall2_0131,12:05,12:05
+syn1_stall2_0132,10:45,10:45
+syn1_stall2_0133,13:10,13:10
+syn1_stall2_0134,10:40,10:40
+syn1_stall2_0135,14:20,14:20
+syn1_stall2_0136,14:20,14:20
+syn1_stall2_0137,12:10,12:10
+syn1_stall2_0138,07:15,07:15
+syn1_stall2_0139,13:15,13:15
+syn1_stall2_0140,10:30,10:30
+syn1_stall2_0141,12:40,12:40
+syn1_stall2_0142,13:45,13:45
+syn1_stall2_0143,12:15,12:15
+syn1_stall2_0144,10:00,10:00:25
+syn1_stall2_0145,12:45,12:45
+syn1_stall2_0146,12:45,12:45
+syn1_stall2_0147,10:30,10:30
+syn1_stall2_0148,10:30,10:30
+syn1_stall2_0149,10:05,10:05
+syn1_stall2_0150,12:35,12:35
+syn1_stall2_0151,10:40,10:40
+syn1_stall2_0152,12:10,12:10
+syn1_stall2_0153,10:00,10:00:05
+syn1_stall2_0154,12:15,12:15
+syn1_stall2_0155,13:15,13:15
+syn1_stall2_0156,10:05,10:05
+syn1_stall2_0157,10:15,10:15
+syn1_stall2_0158,06:15,06:15:05:05:05
+syn1_stall2_0159,11:25,11:25
+syn1_stall2_0160,10:20,10:20
+syn1_stall2_0161,11:45,11:45
+syn1_stall2_0162,10:45,10:45
+syn1_stall2_0163,10:05,10:05
+syn1_stall2_0164,10:00,10:00:35
+syn1_stall2_0165,13:25,13:25
+syn1_stall2_0166,12:10,12:10
+syn1_stall2_0167,11:35,11:35
+syn1_stall2_0168,13:25,13:25
+syn1_stall2_0169,13:35,13:35
+syn1_stall2_0170,10:10,10:10
+syn1_stall2_0171,12:30,12:30
+syn1_stall2_0172,10:40,10:40
+syn1_stall2_0173,12:00,12:00:00
+syn1_stall2_0174,10:05,10:05
+syn1_stall2_0175,12:05,12:05
+syn1_stall2_0176,12:00,12:00:05
+syn1_stall2_0177,13:55,13:55
+syn1_stall2_0178,10:00,10:00:00
+syn1_stall2_0179,10:30,10:30
+syn1_stall2_0180,10:35,10:35
+syn1_stall2_0181,10:25,10:25
+syn1_stall2_0182,12:45,12:45
+syn1_stall2_0183,10:45,10:45
+syn1_stall2_0184,10:30,10:30
+syn1_stall2_0185,12:35,12:35
+syn1_stall2_0186,14:45,14:45
+syn1_stall2_0187,10:45,10:45
+syn1_stall2_0188,12:35,12:35
+syn1_stall2_0189,11:05,11:05
+syn1_stall2_0190,10:10,10:10
+syn1_stall2_0191,10:45,10:45
+syn1_stall2_0192,19:20,19:20
+syn1_stall2_0193,12:15,12:15
+syn1_stall2_0194,13:10,13:10
+syn1_stall2_0195,10:30,10:30
+syn1_stall2_0196,13:20,13:20
+syn1_stall2_0197,12:25,12:25
+syn1_stall2_0198,12:05,12:05
+syn1_stall2_0199,12:40,12:40
+syn1_stall2_0200,10:00,10:00:05
+syn1_stall2_0201,10:30,10:30
+syn1_stall2_0202,10:45,10:45
+syn1_stall2_0203,12:35,12:35
+syn1_stall2_0204,12:45,12:45
+syn1_stall2_0205,10:05,10:05
+syn1_stall2_0206,10:05,10:05
+syn1_stall2_0207,12:30,12:30
+syn1_stall2_0208,12:25,12:25
+syn1_stall2_0209,11:00,11:00:00
+syn1_stall2_0210,12:05,12:05
+syn1_stall2_0211,12:40,12:40
+syn1_stall2_0212,12:10,12:10
+syn1_stall2_0213,12:35,12:35
+syn1_stall2_0214,12:45,12:45
+syn1_stall2_0215,13:00,13:00
+syn1_stall2_0216,12:45,12:45
+syn1_stall2_0217,10:45,10:45
+syn1_stall2_0218,12:00,12:00
+syn1_stall2_0219,12:45,12:45
+syn1_stall2_0220,11:05,11:05
+syn1_stall2_0221,12:40,12:40
+syn1_stall2_0222,12:25,12:25
+syn1_stall2_0223,12:10,12:10
+syn1_stall2_0224,10:00,10:00:35
+syn1_stall2_0225,10:40,10:40
+syn1_stall2_0226,10:45,10:45
+syn1_stall2_0227,10:45,10:45
+syn1_stall2_0228,10:45,10:45
+syn1_stall2_0229,10:10,10:10
+syn1_stall2_0230,12:35,12:35
+syn1_stall2_0231,12:45,12:45
+syn1_stall2_0232,12:20,12:20
+syn1_stall2_0233,12:40,12:40
+syn1_stall2_0234,10:05,10:05
+syn1_stall2_0235,10:10,10:10
+syn1_stall2_0236,10:45,10:45
+syn1_stall2_0237,10:35,10:35
+syn1_stall2_0238,17:10,17:10
+syn1_stall2_0239,07:45,07:45
+syn1_stall2_0240,12:00,12:00:00
+syn1_stall2_0241,12:30,12:30
+syn1_stall2_0242,12:35,12:35
+syn1_stall2_0243,10:15,10:15
+syn1_stall2_0244,10:05,10:05
+syn1_stall2_0245,10:15,10:15
+syn1_stall2_0246,12:00,12:00:05
+syn1_stall2_0247,12:15,12:15
+syn1_stall2_0248,10:30,10:30
+syn1_stall2_0249,14:45,14:45
+syn1_stall2_0250,10:35,10:35
+syn1_walk3_0001,13,13:00
+syn1_walk3_0002,23,23:00
+syn1_walk3_0003,14,14
+syn1_walk3_0004,6,6:00
+syn1_walk3_0005,8,8:00
+syn1_walk3_0006,21,21:08
+syn1_walk3_0007,22,22:40
+syn1_walk3_0008,3,3
+syn1_walk3_0009,27,27:00
+syn1_walk3_0010,13,13:00
+syn1_walk3_0011,13,13:00
+syn1_walk3_0012,7,7:00
+syn1_walk3_0013,21,21:00
+syn1_walk3_0014,14,14:00
+syn1_walk3_0015,19,19:00
+syn1_walk3_0016,11,11:00
+syn1_walk3_0017,14,14:40
+syn1_walk3_0018,24,24:00
+syn1_walk3_0019,13,13:00
+syn1_walk3_0020,17,17:00
+syn1_walk3_0021,28,28:00
+syn1_walk3_0022,20,20:30
+syn1_walk3_0023,6,6
+syn1_walk3_0024,11,11:00
+syn1_walk3_0025,11,11:00
+syn1_walk3_0026,12,12:00
+syn1_walk3_0027,19,19
+syn1_walk3_0028,16,16:00
+syn1_walk3_0029,13,13
+syn1_walk3_0030,19,19:00
+syn1_walk3_0031,20,20:00
+syn1_walk3_0032,3,3
+syn1_walk3_0033,13,13:26
+syn1_walk3_0034,7,7
+syn1_walk3_0035,13,13:00
+syn1_walk3_0036,15,15
+syn1_walk3_0037,14,14
+syn1_walk3_0038,13,13:00
+syn1_walk3_0039,12,12:27
+syn1_walk3_0040,13,13:00
+syn1_walk3_0041,2,2:00
+syn1_walk3_0042,14,14:00
+syn1_walk3_0043,8,8:00
+syn1_walk3_0044,13,13:00
+syn1_walk3_0045,10,10
+syn1_walk3_0046,6,6
+syn1_walk3_0047,12,12:00
+syn1_walk3_0048,12,12
+syn1_walk3_0049,12,12:00
+syn1_walk3_0050,15,15:00
+syn1_walk3_0051,12,12:00
+syn1_walk3_0052,7,7
+syn1_walk3_0053,15,15
+syn1_walk3_0054,8,8
+syn1_walk3_0055,24,24:00
+syn1_walk3_0056,8,8
+syn1_walk3_0057,15,15:00
+syn1_walk3_0058,21,21:00
+syn1_walk3_0059,16,16:00
+syn1_walk3_0060,9,9
+syn1_walk3_0061,13,13:00
+syn1_walk3_0062,12,12
+syn1_walk3_0063,9,9
+syn1_walk3_0064,27,27:00
+syn1_walk3_0065,15,15
+syn1_walk3_0066,13,13:00
+syn1_walk3_0067,12,12:00
+syn1_walk3_0068,28,28
+syn1_walk3_0069,13,13:00
+syn1_walk3_0070,13,13:00
+syn1_walk3_0071,12,12:00
+syn1_walk3_0072,3,3
+syn1_walk3_0073,15,15:00
+syn1_walk3_0074,8,8:00
+syn1_walk3_0075,5,5:00
+syn1_walk3_0076,12,12:00
+syn1_walk3_0077,10,10:00
+syn1_walk3_0078,25,25:00
+syn1_walk3_0079,14,14:00
+syn1_walk3_0080,12,12:00
+syn1_walk3_0081,4,4
+syn1_walk3_0082,14,14:00
+syn1_walk3_0083,10,10:00
+syn1_walk3_0084,16,16:00
+syn1_walk3_0085,21,21
+syn1_walk3_0086,15,15:00
+syn1_walk3_0087,11,11:00
+syn1_walk3_0088,14,14
+syn1_walk3_0089,18,18
+syn1_walk3_0090,7,7
+syn1_walk3_0091,3,3
+syn1_walk3_0092,28,28:00
+syn1_walk3_0093,11,11:00
+syn1_walk3_0094,13,13:00
+syn1_walk3_0095,12,12
+syn1_walk3_0096,15,15:00
+syn1_walk3_0097,11,11:00
+syn1_walk3_0098,26,26:00
+syn1_walk3_0099,6,6
+syn1_walk3_0100,9,9
+syn1_walk3_0101,8,8:00
+syn1_walk3_0102,14,14:00
+syn1_walk3_0103,15,15
+syn1_walk3_0104,16,16
+syn1_walk3_0105,7,7
+syn1_walk3_0106,26,26:00
+syn1_walk3_0107,13,13:00
+syn1_walk3_0108,14,14
+syn1_walk3_0109,15,15:00
+syn1_walk3_0110,8,8:00
+syn1_walk3_0111,14,14:00
+syn1_walk3_0112,15,15:00
+syn1_walk3_0113,14,14:00
+syn1_walk3_0114,6,6:00
+syn1_walk3_0115,12,12:00
+syn1_walk3_0116,9,9:00
+syn1_walk3_0117,9,9:00
+syn1_walk3_0118,12,12:45
+syn1_walk3_0119,13,13:00
+syn1_walk3_0120,7,7
+syn1_walk3_0121,24,24:00
+syn1_walk3_0122,11,11:00
+syn1_walk3_0123,11,11:26
+syn1_walk3_0124,22,22:00
+syn1_walk3_0125,4,4
+syn1_walk3_0126,14,14
+syn1_walk3_0127,3,3:00
+syn1_walk3_0128,8,8:00
+syn1_walk3_0129,5,5:00
+syn1_walk3_0130,12,12
+syn1_walk3_0131,7,7:00
+syn1_walk3_0132,15,15:00
+syn1_walk3_0133,13,13:00
+syn1_walk3_0134,4,4
+syn1_walk3_0135,18,18:00
+syn1_walk3_0136,8,8:00
+syn1_walk3_0137,20,20:30
+syn1_walk3_0138,13,13:00
+syn1_walk3_0139,9,9
+syn1_walk3_0140,14,14:00
+syn1_walk3_0141,28,28:00
+syn1_walk3_0142,25,25:00
+syn1_walk3_0143,26,26
+syn1_walk3_0144,15,15
+syn1_walk3_0145,20,20
+syn1_walk3_0146,11,11:00
+syn1_walk3_0147,4,4
+syn1_walk3_0148,13,13:50
+syn1_walk3_0149,13,13:00
+syn1_walk3_0150,9,9:00
+syn1_walk3_0151,11,11:00
+syn1_walk3_0152,9,9
+syn1_walk3_0153,8,8:11
+syn1_walk3_0154,14,14:00
+syn1_walk3_0155,4,4
+syn1_walk3_0156,18,18
+syn1_walk3_0157,13,13:00
+syn1_walk3_0158,3,3:00
+syn1_walk3_0159,15,15:00
+syn1_walk3_0160,4,4:00
+syn1_walk3_0161,8,8:7
+syn1_walk3_0162,9,9:00
+syn1_walk3_0163,7,7
+syn1_walk3_0164,2,2
+syn1_walk3_0165,12,12:00
+syn1_walk3_0166,13,13:00
+syn1_walk3_0167,7,7
+syn1_walk3_0168,25,25:00
+syn1_walk3_0169,10,10:00
+syn1_walk3_0170,13,13:00
+syn1_walk3_0171,18,18:00
+syn1_walk3_0172,18,18
+syn1_walk3_0173,15,15:00
+syn1_walk3_0174,15,15
+syn1_walk3_0175,5,5:00
+syn1_walk3_0176,14,14:00
+syn1_walk3_0177,6,6
+syn1_walk3_0178,16,16:00
+syn1_walk3_0179,8,8
+syn1_walk3_0180,22,22:00
+syn1_walk3_0181,10,10
+syn1_walk3_0182,6,6
+syn1_walk3_0183,11,11:00
+syn1_walk3_0184,15,15
+syn1_walk3_0185,22,22:03
+syn1_walk3_0186,14,14:00
+syn1_walk3_0187,16,16:00
+syn1_walk3_0188,12,12:00
+syn1_walk3_0189,12,12
+syn1_walk3_0190,27,27
+syn1_walk3_0191,20,20
+syn1_walk3_0192,6,6:09
+syn1_walk3_0193,4,4:00
+syn1_walk3_0194,19,19
+syn1_walk3_0195,11,11:00
+syn1_walk3_0196,11,11:00
+syn1_walk3_0197,9,9:00
+syn1_walk3_0198,6,6:00
+syn1_walk3_0199,16,16
+syn1_walk3_0200,21,21:08
+syn1_walk3_0201,6,6
+syn1_walk3_0202,14,14:00
+syn1_walk3_0203,11,11:00
+syn1_walk3_0204,15,15
+syn1_walk3_0205,4,4
+syn1_walk3_0206,22,22:05
+syn1_walk3_0207,14,14:00
+syn1_walk3_0208,28,28
+syn1_walk3_0209,16,16
+syn1_walk3_0210,3,3:00
+syn1_walk3_0211,13,13:00
+syn1_walk3_0212,8,8:00
+syn1_walk3_0213,7,7
+syn1_walk3_0214,13,13:00
+syn1_walk3_0215,11,11:00
+syn1_walk3_0216,19,19:00
+syn1_walk3_0217,13,13:00
+syn1_walk3_0218,7,7:00
+syn1_walk3_0219,11,11:00
+syn1_walk3_0220,6,6:00
+syn1_walk3_0221,15,15
+syn1_walk3_0222,14,14:00
+syn1_walk3_0223,21,21:00
+syn1_walk3_0224,14,14
+syn1_walk3_0225,11,11:00
+syn1_walk3_0226,17,17
+syn1_walk3_0227,13,13:00
+syn1_walk3_0228,27,27
+syn1_walk3_0229,15,15:00
+syn1_walk3_0230,11,11:00
+syn1_walk3_0231,28,28
+syn1_walk3_0232,10,10:00
+syn1_walk3_0233,14,14:00
+syn1_walk3_0234,9,9:00
+syn1_walk3_0235,13,13:00
+syn1_walk3_0236,6,6:00
+syn1_walk3_0237,14,14:00
+syn1_walk3_0238,15,15:00
+syn1_walk3_0239,17,17:00
+syn1_walk3_0240,8,8:00
+syn1_walk3_0241,14,14:00
+syn1_walk3_0242,15,15
+syn1_walk3_0243,13,13
+syn1_walk3_0244,12,12:00
+syn1_walk3_0245,13,13:00
+syn1_walk3_0246,15,15:00
+syn1_walk3_0247,15,15:00
+syn1_walk3_0248,5,5:00
+syn1_walk3_0249,6,6
+syn1_walk3_0250,3,3:00
+syn1_walk3_0251,7,7
+syn1_walk3_0252,3,3:00
+syn1_walk3_0253,12,12:00
+syn1_walk3_0254,15,15:00
+syn1_walk3_0255,19,19
+syn1_walk3_0256,13,13:00
+syn1_walk3_0257,14,14:00
+syn1_walk3_0258,14,14:00
+syn1_walk3_0259,14,14:00
+syn1_walk3_0260,12,12:06
+syn1_walk3_0261,14,14:00
+syn1_walk3_0262,13,13:00
+syn1_walk3_0263,14,14
+syn1_walk3_0264,7,7
+syn1_walk3_0265,2,2
+syn1_walk3_0266,9,9:00
+syn1_walk3_0267,10,10:00
+syn1_walk3_0268,13,13:00
+syn1_walk3_0269,26,26:00
+syn1_walk3_0270,25,25:00
+syn1_walk3_0271,18,18
+syn1_walk3_0272,3,3
+syn1_walk3_0273,8,8:00
+syn1_walk3_0274,3,3:2
+syn1_walk3_0275,15,15:00
+syn1_walk3_0276,4,4
+syn1_walk3_0277,7,7
+syn1_walk3_0278,13,13:00
+syn1_walk3_0279,7,7
+syn1_walk3_0280,15,15:00
+syn1_walk3_0281,13,13:00
+syn1_walk3_0282,13,13:00
+syn1_walk3_0283,14,14:00
+syn1_walk3_0284,16,16
+syn1_walk3_0285,7,7:00
+syn1_walk3_0286,17,17:00
+syn1_walk3_0287,9,9:00
+syn1_walk3_0288,8,8:00
+syn1_walk3_0289,11,11:00
+syn1_walk3_0290,2,2
+syn1_walk3_0291,18,18
+syn1_walk3_0292,13,13:00
+syn1_walk3_0293,16,16:00
+syn1_walk3_0294,14,14
+syn1_walk3_0295,12,12:00
+syn1_walk3_0296,12,12:00
+syn1_walk3_0297,14,14:00
+syn1_walk3_0298,14,14:00
+syn1_walk3_0299,12,12:25
+syn1_walk3_0300,11,11:00
+syn1_walk4_0001,11,11:00
+syn1_walk4_0002,14,14:00
+syn1_walk4_0003,18,18
+syn1_walk4_0004,11,11:00
+syn1_walk4_0005,13,13:00
+syn1_walk4_0006,13,13
+syn1_walk4_0007,13,13:00
+syn1_walk4_0008,12,12:00
+syn1_walk4_0009,12,12
+syn1_walk4_0010,28,28:00
+syn1_walk4_0011,12,12:05
+syn1_walk4_0012,12,12
+syn1_walk4_0013,11,11:00
+syn1_walk4_0014,6,6:00
+syn1_walk4_0015,13,13
+syn1_walk4_0016,14,14
+syn1_walk4_0017,12,12:00
+syn1_walk4_0018,9,9:00
+syn1_walk4_0019,14,14:00
+syn1_walk4_0020,14,14:00
+syn1_walk4_0021,18,18
+syn1_walk4_0022,24,24:00
+syn1_walk4_0023,11,11:00
+syn1_walk4_0024,14,14
+syn1_walk4_0025,30,30
+syn1_walk4_0026,14,14
+syn1_walk4_0027,17,17:00
+syn1_walk4_0028,14,14
+syn1_walk4_0029,18,18
+syn1_walk4_0030,18,18
+syn1_walk4_0031,15,15
+syn1_walk4_0032,13,13:00
+syn1_walk4_0033,7,7
+syn1_walk4_0034,12,12:00
+syn1_walk4_0035,24,24:00
+syn1_walk4_0036,12,12
+syn1_walk4_0037,13,13:00
+syn1_walk4_0038,20,20
+syn1_walk4_0039,12,12
+syn1_walk4_0040,14,14
+syn1_walk4_0041,7,7
+syn1_walk4_0042,14,14
+syn1_walk4_0043,28,28:00
+syn1_walk4_0044,7,7
+syn1_walk4_0045,12,12:00
+syn1_walk4_0046,15,15:00
+syn1_walk4_0047,22,22:54
+syn1_walk4_0048,27,27:00
+syn1_walk4_0049,7,7
+syn1_walk4_0050,7,7
+syn1_walk4_0051,8,8:00
+syn1_walk4_0052,12,12:00
+syn1_walk4_0053,11,11:00
+syn1_walk4_0054,15,15:00
+syn1_walk4_0055,24,24
+syn1_walk4_0056,12,12:00
+syn1_walk4_0057,25,25
+syn1_walk4_0058,11,11:30
+syn1_walk4_0059,11,11:00
+syn1_walk4_0060,11,11:00
+syn1_walk4_0061,15,15
+syn1_walk4_0062,14,14:00
+syn1_walk4_0063,9,9:00
+syn1_walk4_0064,12,12:00
+syn1_walk4_0065,12,12:00
+syn1_walk4_0066,14,14
+syn1_walk4_0067,19,19
+syn1_walk4_0068,5,5
+syn1_walk4_0069,22,22:11
+syn1_walk4_0070,14,14
+syn1_walk4_0071,15,15:00
+syn1_walk4_0072,18,18
+syn1_walk4_0073,22,22:00
+syn1_walk4_0074,21,21:00
+syn1_walk4_0075,12,12:00
+syn1_walk4_0076,14,14:00
+syn1_walk4_0077,20,20
+syn1_walk4_0078,13,13
+syn1_walk4_0079,14,14
+syn1_walk4_0080,16,16:00
+syn1_walk4_0081,16,16
+syn1_walk4_0082,12,12:00
+syn1_walk4_0083,15,15
+syn1_walk4_0084,9,9:00
+syn1_walk4_0085,16,16
+syn1_walk4_0086,6,6:00
+syn1_walk4_0087,12,12:00
+syn1_walk4_0088,7,7:00
+syn1_walk4_0089,12,12:00
+syn1_walk4_0090,13,13
+syn1_walk4_0091,21,21:6
+syn1_walk4_0092,5,5:00
+syn1_walk4_0093,13,13:00
+syn1_walk4_0094,20,20:30
+syn1_walk4_0095,14,14:00
+syn1_walk4_0096,25,25:00
+syn1_walk4_0097,7,7:00
+syn1_walk4_0098,15,15:00
+syn1_walk4_0099,4,4:27
+syn1_walk4_0100,13,13:00
+syn1_walk4_0101,13,13:00
+syn1_walk4_0102,17,17
+syn1_walk4_0103,22,22:00
+syn1_walk4_0104,11,11:00
+syn1_walk4_0105,11,11:00
+syn1_walk4_0106,11,11:00
+syn1_walk4_0107,14,14:00
+syn1_walk4_0108,13,13:00
+syn1_walk4_0109,12,12
+syn1_walk4_0110,11,11:00
+syn1_walk4_0111,3,3
+syn1_walk4_0112,6,6
+syn1_walk4_0113,14,14
+syn1_walk4_0114,25,25:00
+syn1_walk4_0115,11,11:00
+syn1_walk4_0116,17,17
+syn1_walk4_0117,9,9
+syn1_walk4_0118,22,22:00
+syn1_walk4_0119,15,15
+syn1_walk4_0120,15,15:00
+syn1_walk4_0121,6,6:00
+syn1_walk4_0122,8,8:00
+syn1_walk4_0123,13,13:00
+syn1_walk4_0124,13,13:00
+syn1_walk4_0125,11,11:00
+syn1_walk4_0126,11,11:00
+syn1_walk4_0127,16,16:00
+syn1_walk4_0128,13,13:00
+syn1_walk4_0129,16,16:00
+syn1_walk4_0130,17,17
+syn1_walk4_0131,10,10:00
+syn1_walk4_0132,11,11:00
+syn1_walk4_0133,22,22:00
+syn1_walk4_0134,7,7
+syn1_walk4_0135,22,22
+syn1_walk4_0136,11,11:00
+syn1_walk4_0137,13,13:00
+syn1_walk4_0138,23,23:00
+syn1_walk4_0139,13,13:00
+syn1_walk4_0140,12,12
+syn1_walk4_0141,13,13:00
+syn1_walk4_0142,6,6
+syn1_walk4_0143,14,14:00
+syn1_walk4_0144,4,4
+syn1_walk4_0145,13,13:00
+syn1_walk4_0146,15,15:00
+syn1_walk4_0147,18,18
+syn1_walk4_0148,18,18
+syn1_walk4_0149,13,13:00
+syn1_walk4_0150,26,26:00
+syn1_walk4_0151,11,11:10
+syn1_walk4_0152,11,11:00
+syn1_walk4_0153,14,14:00
+syn1_walk4_0154,6,6:00
+syn1_walk4_0155,7,7
+syn1_walk4_0156,13,13:00
+syn1_walk4_0157,14,14
+syn1_walk4_0158,5,5
+syn1_walk4_0159,7,7
+syn1_walk4_0160,25,25:00
+syn1_walk4_0161,15,15
+syn1_walk4_0162,12,12:00
+syn1_walk4_0163,13,13:00
+syn1_walk4_0164,12,12:00
+syn1_walk4_0165,18,18
+syn1_walk4_0166,13,13:00
+syn1_walk4_0167,23,23:00
+syn1_walk4_0168,6,6:00
+syn1_walk4_0169,11,11:00
+syn1_walk4_0170,2,2
+syn1_walk4_0171,13,13:00
+syn1_walk4_0172,17,17:00
+syn1_walk4_0173,20,20
+syn1_walk4_0174,13,13:00
+syn1_walk4_0175,19,19:00
+syn1_walk4_0176,27,27:00
+syn1_walk4_0177,10,10:26
+syn1_walk4_0178,9,9
+syn1_walk4_0179,23,23:00
+syn1_walk4_0180,17,17:00
+syn1_walk4_0181,4,4
+syn1_walk4_0182,14,14
+syn1_walk4_0183,11,11:00
+syn1_walk4_0184,11,11:00
+syn1_walk4_0185,2,2
+syn1_walk4_0186,19,19:00
+syn1_walk4_0187,9,9:00
+syn1_walk4_0188,6,6:00
+syn1_walk4_0189,18,18
+syn1_walk4_0190,11,11:00
+syn1_walk4_0191,15,15:00
+syn1_walk4_0192,11,11:00
+syn1_walk4_0193,14,14:00
+syn1_walk4_0194,8,8:00
+syn1_walk4_0195,7,7:00
+syn1_walk4_0196,12,12:00
+syn1_walk4_0197,10,10:00
+syn1_walk4_0198,13,13:00
+syn1_walk4_0199,18,18:00
+syn1_walk4_0200,14,14:00
+syn1_walk4_0201,11,11:00
+syn1_walk4_0202,7,7
+syn1_walk4_0203,7,7
+syn1_walk4_0204,11,11:00
+syn1_walk4_0205,11,11:00
+syn1_walk4_0206,8,8:00
+syn1_walk4_0207,15,15
+syn1_walk4_0208,10,10:00
+syn1_walk4_0209,14,14:00
+syn1_walk4_0210,8,8
+syn1_walk4_0211,12,12:00
+syn1_walk4_0212,14,14:00
+syn1_walk4_0213,12,12:00
+syn1_walk4_0214,11,11:00
+syn1_walk4_0215,12,12:00
+syn1_walk4_0216,15,15
+syn1_walk4_0217,25,25:00
+syn1_walk4_0218,6,6:23
+syn1_walk4_0219,13,13:00
+syn1_walk4_0220,17,17
+syn1_walk4_0221,26,26:00
+syn1_walk4_0222,6,6
+syn1_walk4_0223,11,11:00
+syn1_walk4_0224,13,13
+syn1_walk4_0225,4,4
+syn1_walk4_0226,15,15:00
+syn1_walk4_0227,3,3:5
+syn1_walk4_0228,8,8:00
+syn1_walk4_0229,24,24
+syn1_walk4_0230,16,16:00
+syn1_walk4_0231,19,19
+syn1_walk4_0232,13,13:00
+syn1_walk4_0233,14,14:00
+syn1_walk4_0234,9,9:00
+syn1_walk4_0235,5,5:00
+syn1_walk4_0236,12,12:00
+syn1_walk4_0237,15,15:00
+syn1_walk4_0238,13,13
+syn1_walk4_0239,11,11:00
+syn1_walk4_0240,15,15:00
+syn1_walk4_0241,7,7
+syn1_walk4_0242,11,11:00
+syn1_walk4_0243,11,11:00
+syn1_walk4_0244,19,19:00
+syn1_walk4_0245,27,27:00
+syn1_walk4_0246,14,14
+syn1_walk4_0247,14,14:00
+syn1_walk4_0248,18,18
+syn1_walk4_0249,17,17:00
+syn1_walk4_0250,12,12:00
+syn1_walk4_0251,4,4:00
+syn1_walk4_0252,14,14
+syn1_walk4_0253,10,10:30
+syn1_walk4_0254,7,7
+syn1_walk4_0255,11,11:00
+syn1_walk4_0256,15,15:00
+syn1_walk4_0257,18,18:00
+syn1_walk4_0258,13,13:00
+syn1_walk4_0259,11,11:00
+syn1_walk4_0260,13,13
+syn1_walk4_0261,13,13:00
+syn1_walk4_0262,21,21:00
+syn1_walk4_0263,6,6:00
+syn1_walk4_0264,21,21
+syn1_walk4_0265,10,10:00
+syn1_walk4_0266,17,17
+syn1_walk4_0267,11,11:00
+syn1_walk4_0268,25,25:00
+syn1_walk4_0269,19,19
+syn1_walk4_0270,27,27
+syn1_walk4_0271,17,17
+syn1_walk4_0272,15,15:00
+syn1_walk4_0273,8,8
+syn1_walk4_0274,14,14:00
+syn1_walk4_0275,11,11:00
+syn1_walk4_0276,7,7
+syn1_walk4_0277,14,14:00
+syn1_walk4_0278,12,12:00
+syn1_walk4_0279,14,14
+syn1_walk4_0280,2,2
+syn1_walk4_0281,19,19:00
+syn1_walk4_0282,14,14:00
+syn1_walk4_0283,8,8:00
+syn1_walk4_0284,11,11:00
+syn1_walk4_0285,5,5
+syn1_walk4_0286,8,8:00
+syn1_walk4_0287,14,14:00
+syn1_walk4_0288,13,13:00
+syn1_walk4_0289,21,21:00
+syn1_walk4_0290,9,9:00
+syn1_walk4_0291,15,15:00
+syn1_walk4_0292,13,13
+syn1_walk4_0293,19,19
+syn1_walk4_0294,5,5:00
+syn1_walk4_0295,18,18
+syn1_walk4_0296,8,8:00
+syn1_walk4_0297,13,13:00
+syn1_walk4_0298,27,27:00
+syn1_walk4_0299,12,12:00
+syn1_walk4_0300,4,4:00
+syn1_take_0001,attarine,Attarine
+syn1_take_0002,cherabliyine,Cherabliyine 177 dirham
+syn1_take_0003,chouara,Chouara 175 dirham
+syn1_take_0004,cherabliyine,Cherabliyine
+syn1_take_0005,talaa,Talaa
+syn1_take_0006,attarine,Attarine
+syn1_take_0007,chouara,Chouara 206 dirham
+syn1_take_0008,boujloud,Boujloud
+syn1_take_0009,sagha,Sagha 274 dirham
+syn1_take_0010,henna,Henna
+syn1_take_0011,attarine,Attarine 329 dirham
+syn1_take_0012,chouara,Chouara 314 dirham
+syn1_take_0013,nejjarine,Nejjarine 176 dirham
+syn1_take_0014,henna,Henna
+syn1_take_0015,sagha,Sagha 216 dirham
+syn1_take_0016,chouara,Chouara 298 dirham
+syn1_take_0017,talaa,Talaa 221 dirham
+syn1_take_0018,henna,Henna
+syn1_take_0019,henna,Henna
+syn1_take_0020,sagha,Sagha 198 dirham
+syn1_take_0021,sagha,Sagha 176 dirham
+syn1_take_0022,boujloud,Boujloud
+syn1_take_0023,seffarine,Seffarine 256 dirham
+syn1_take_0024,attarine,Attarine
+syn1_take_0025,chouara,Chouara
+syn1_take_0026,chouara,Chouara 208 dirham
+syn1_take_0027,nejjarine,Nejjarine
+syn1_take_0028,chouara,Chouara
+syn1_take_0029,chouara,Chouara
+syn1_take_0030,henna,Henna
+syn1_take_0031,sagha,Sagha 326 dirham
+syn1_take_0032,chouara,Chouara 173 dirham
+syn1_take_0033,boujloud,Boujloud
+syn1_take_0034,attarine,Attarine
+syn1_take_0035,attarine,Attarine
+syn1_take_0036,chouara,Chouara 303 dirham
+syn1_take_0037,chouara,Chouara 246 dirham
+syn1_take_0038,cherabliyine,Cherabliyine dirham
+syn1_take_0039,chouara,Chouara 195 dirham
+syn1_take_0040,boujloud,Boujloud souk
+syn1_take_0041,cherabliyine,Cherabliyine 250 dirham
+syn1_take_0042,henna,Henna
+syn1_take_0043,sagha,Sagha
+syn1_take_0044,chouara,Chouara 196 dirham
+syn1_take_0045,nejjarine,Nejjarine 167 dirham
+syn1_take_0046,attarine,Attarine
+syn1_take_0047,chouara,Chouara 235 dirham
+syn1_take_0048,chouara,Chouara 276 dirham
+syn1_take_0049,sagha,Sagha 183 dirham
+syn1_take_0050,henna,Henna
+syn1_take_0051,cherabliyine,Cherabliyine
+syn1_take_0052,boujloud,Boujloud souk
+syn1_take_0053,henna,Henna
+syn1_take_0054,sagha,Sagha 295 dirham
+syn1_take_0055,henna,Henna
+syn1_take_0056,sagha,Sagha 195 dirham
+syn1_take_0057,attarine,Attarine
+syn1_take_0058,henna,Henna
+syn1_take_0059,chouara,Chouara 264 dirham
+syn1_take_0060,attarine,Attarine
+syn1_take_0061,nejjarine,Nejjarine
+syn1_take_0062,chouara,Chouara 285 dirham
+syn1_take_0063,attarine,Attarine
+syn1_take_0064,cherabliyine,Cherabliyine
+syn1_take_0065,talaa,Talaa 208 dirham
+syn1_take_0066,henna,Henna
+syn1_take_0067,henna,Henna
+syn1_take_0068,attarine,Attarine 159 dirham
+syn1_take_0069,chouara,Chouara 271 dirham
+syn1_take_0070,attarine,Attarine
+syn1_take_0071,boujloud,Boujloud
+syn1_take_0072,henna,Henna
+syn1_take_0073,henna,Henna
+syn1_take_0074,henna,Henna
+syn1_take_0075,henna,Henna
+syn1_take_0076,cherabliyine,Cherabliyine dirham
+syn1_take_0077,nejjarine,Nejjarine 257 dirham
+syn1_take_0078,henna,Henna
+syn1_take_0079,henna,Henna
+syn1_take_0080,sagha,Sagha
+syn1_take_0081,chouara,Chouara 298 dirham
+syn1_take_0082,chouara,Chouara 206 dirham
+syn1_take_0083,chouara,Chouara 235 dirham
+syn1_take_0084,boujloud,Boujloud
+syn1_take_0085,boujloud,Boujloud souk
+syn1_take_0086,henna,Henna
+syn1_take_0087,attarine,Attarine
+syn1_take_0088,chouara,Chouara 272 dirham
+syn1_take_0089,seffarine,Seffarine 279 dirham
+syn1_take_0090,talaa,Talaa 243 dirham
+syn1_take_0091,henna,Henna
+syn1_take_0092,sagha,Sagha 299 dirham
+syn1_take_0093,cherabliyine,Cherabliyine
+syn1_take_0094,sagha,Sagha 199 dirham
+syn1_take_0095,henna,Henna
+syn1_take_0096,sagha,Sagha
+syn1_take_0097,nejjarine,Nejjarine 276 dirham
+syn1_take_0098,chouara,Chouara 206 dirham
+syn1_take_0099,henna,Henna
+syn1_take_0100,boujloud,Boujloud
+syn1_take_0101,attarine,Attarine
+syn1_take_0102,henna,Henna
+syn1_take_0103,boujloud,Boujloud
+syn1_take_0104,sagha,Sagha 274 dirham
+syn1_take_0105,sagha,Sagha 271 dirham
+syn1_take_0106,talaa,Talaa dirham
+syn1_take_0107,attarine,Attarine
+syn1_take_0108,boujloud,Boujloud 298 dirham
+syn1_take_0109,attarine,Attarine
+syn1_take_0110,talaa,Talaa dirham
+syn1_take_0111,chouara,Chouara 198 dirham
+syn1_take_0112,chouara,Chouara
+syn1_take_0113,chouara,Chouara
+syn1_take_0114,talaa,Talaa 256 dirham
+syn1_take_0115,henna,Henna
+syn1_take_0116,chouara,Chouara 206 dirham
+syn1_take_0117,henna,Henna
+syn1_take_0118,nejjarine,Nejjarine
+syn1_take_0119,nejjarine,Nejjarine 161 dirham
+syn1_take_0120,boujloud,Boujloud
+syn1_take_0121,chouara,Chouara 185 dirham
+syn1_take_0122,cherabliyine,Cherabliyine
+syn1_take_0123,attarine,Attarine
+syn1_take_0124,chouara,Chouara 295 dirham
+syn1_take_0125,cherabliyine,Cherabliyine 242 dirham
+syn1_take_0126,chouara,Chouara 306 dirham
+syn1_take_0127,attarine,Attarine 153 dirham
+syn1_take_0128,boujloud,Boujloud souk
+syn1_take_0129,seffarine,Seffarine 284 dirham
+syn1_take_0130,chouara,Chouara
+syn1_take_0131,attarine,Attarine
+syn1_take_0132,henna,Henna
+syn1_take_0133,sagha,Sagha 223 dirham
+syn1_take_0134,henna,Henna
+syn1_take_0135,cherabliyine,Cherabliyine
+syn1_take_0136,chouara,Chouara
+syn1_take_0137,chouara,Chouara 159 dirham
+syn1_take_0138,boujloud,Boujloud 323 dirham
+syn1_take_0139,chouara,Chouara 313 dirham
+syn1_take_0140,henna,Henna
+syn1_take_0141,chouara,Chouara 279 dirham
+syn1_take_0142,cherabliyine,Cherabliyine dirham
+syn1_take_0143,nejjarine,Nejjarine
+syn1_take_0144,chouara,Chouara 249 dirham
+syn1_take_0145,henna,Henna
+syn1_take_0146,henna,Henna
+syn1_take_0147,attarine,Attarine
+syn1_take_0148,talaa,Talaa 287 dirham
+syn1_take_0149,attarine,Attarine
+syn1_take_0150,nejjarine,Nejjarine 295 dirham
+syn1_take_0151,attarine,Attarine
+syn1_take_0152,cherabliyine,Cherabliyine dirham
+syn1_take_0153,attarine,Attarine 272 dirham
+syn1_take_0154,chouara,Chouara 253 dirham
+syn1_take_0155,henna,Henna
+syn1_take_0156,boujloud,Boujloud
+syn1_take_0157,chouara,Chouara 296 dirham
+syn1_take_0158,nejjarine,Nejjarine 330 dirham
+syn1_take_0159,henna,Henna
+syn1_take_0160,rcif,Rcif
+syn1_take_0161,henna,Henna
+syn1_take_0162,chouara,Chouara 214 dirham
+syn1_take_0163,cherabliyine,Cherabliyine 239 dirham
+syn1_take_0164,nejjarine,Nejjarine 157 dirham
+syn1_take_0165,sagha,Sagha
+syn1_take_0166,henna,Henna
+syn1_take_0167,cherabliyine,Cherabliyine 308 dirham
+syn1_take_0168,henna,Henna
+syn1_take_0169,nejjarine,Nejjarine 178 dirham
+syn1_take_0170,henna,Henna
+syn1_take_0171,nejjarine,Nejjarine 178 dirham
+syn1_take_0172,cherabliyine,Cherabliyine dirham
+syn1_take_0173,boujloud,Boujloud
+syn1_take_0174,nejjarine,Nejjarine 229 dirham
+syn1_take_0175,attarine,Attarine 248 dirham
+syn1_take_0176,sagha,Sagha 174 dirham
+syn1_take_0177,attarine,Attarine
+syn1_take_0178,attarine,Attarine
+syn1_take_0179,attarine,Attarine
+syn1_take_0180,henna,Henna
+syn1_take_0181,henna,Henna
+syn1_take_0182,henna,Henna
+syn1_take_0183,nejjarine,Nejjarine
+syn1_take_0184,sagha,Sagha 183 dirham
+syn1_take_0185,talaa,Talaa 299 dirham
+syn1_take_0186,chouara,Chouara dirham
+syn1_take_0187,seffarine,Seffarine
+syn1_take_0188,seffarine,Seffarine 159 dirham
+syn1_take_0189,chouara,Chouara 156 dirham
+syn1_take_0190,attarine,Attarine
+syn1_take_0191,nejjarine,Nejjarine 230 dirham
+syn1_take_0192,seffarine,Seffarine
+syn1_take_0193,chouara,Chouara 200 dirham
+syn1_take_0194,sagha,Sagha souk
+syn1_take_0195,chouara,Chouara 332 dirham
+syn1_take_0196,henna,Henna
+syn1_take_0197,henna,Henna
+syn1_take_0198,chouara,Chouara 337 dirham
+syn1_take_0199,talaa,Talaa 215 dirham
+syn1_take_0200,nejjarine,Nejjarine
+syn1_fee_0001,rcif,Rcif
+syn1_fee_0002,boujloud,Boujloud
+syn1_fee_0003,chouara,Chouara
+syn1_fee_0004,sagha,Sagha
+syn1_fee_0005,attarine,Attarine
+syn1_fee_0006,henna,Henna
+syn1_fee_0007,attarine,Attarine
+syn1_fee_0008,chouara,Chouara
+syn1_fee_0009,rcif,"Rcif: 293 dirham, Rcif: 2"
+syn1_fee_0010,chouara,Chouara
+syn1_fee_0011,sagha,Sagha keeps the least.
+syn1_fee_0012,henna,Henna
+syn1_fee_0013,nejjarine,Nejjarine
+syn1_fee_0014,nejjarine,Nejjarine
+syn1_fee_0015,nejjarine,Nejjarine
+syn1_fee_0016,sagha,Sagha
+syn1_fee_0017,sagha,Sagha
+syn1_fee_0018,nejjarine,Nejjarine
+syn1_fee_0019,chouara,Chouara
+syn1_fee_0020,attarine,Attarine
+syn1_fee_0021,nejjarine,Nejjarine
+syn1_fee_0022,nejjarine,Nejjarine
+syn1_fee_0023,attarine,Attarine
+syn1_fee_0024,chouara,Chouara
+syn1_fee_0025,nejjarine,Nejjarine
+syn1_fee_0026,rcif,Rcif
+syn1_fee_0027,chouara,Chouara
+syn1_fee_0028,sagha,Sagha
+syn1_fee_0029,henna,Henna
+syn1_fee_0030,rif,Rif
+syn1_fee_0031,attarine,"Attarine, Nejjarine, Cherabliyine, Boujl"
+syn1_fee_0032,chouara,Chouara
+syn1_fee_0033,nejjarine,Nejjarine
+syn1_fee_0034,henna,Henna
+syn1_fee_0035,henna,Henna
+syn1_fee_0036,attarine,Attarine
+syn1_fee_0037,sagha,Sagha
+syn1_fee_0038,henna,Henna
+syn1_fee_0039,chouara,Chouara
+syn1_fee_0040,boujloud,Boujloud
+syn1_fee_0041,sagha,Sagha
+syn1_fee_0042,henna,Henna
+syn1_fee_0043,henna,Henna
+syn1_fee_0044,henna,Henna
+syn1_fee_0045,boujloud,Boujloud
+syn1_fee_0046,boujloud,Boujloud
+syn1_fee_0047,henna,Henna
+syn1_fee_0048,henna,Henna
+syn1_fee_0049,attarine,Attarine
+syn1_fee_0050,attarine,"Attarine, Chouara, Rcif, Cherabliyine"
+syn1_fee_0051,henna,Henna
+syn1_fee_0052,henna,Henna
+syn1_fee_0053,rcif,Rcif
+syn1_fee_0054,boujloud,Boujloud
+syn1_fee_0055,attarine,Attarine
+syn1_fee_0056,henna,Henna
+syn1_fee_0057,nejjarine,Nejjarine
+syn1_fee_0058,henna,Henna
+syn1_fee_0059,talaa,Talaa
+syn1_fee_0060,attarine,Attarine
+syn1_fee_0061,attarine,Attarine
+syn1_fee_0062,chouara,Chouara
+syn1_fee_0063,chouara,Chouara
+syn1_fee_0064,chouara,Chouara
+syn1_fee_0065,sagha,Sagha
+syn1_fee_0066,chouara,Chouara
+syn1_fee_0067,chouara,Chouara
+syn1_fee_0068,rcif,Rcif
+syn1_fee_0069,henna,Henna
+syn1_fee_0070,sagha,Sagha
+syn1_fee_0071,nejjarine,Nejjarine
+syn1_fee_0072,chouara,Chouara
+syn1_fee_0073,attarine,"Attarine, Cherabliyine, Talaa, Boujloud"
+syn1_fee_0074,henna,Henna
+syn1_fee_0075,henna,Henna
+syn1_fee_0076,attarine,Attarine
+syn1_fee_0077,chouara,Chouara
+syn1_fee_0078,boujloud,Boujloud
+syn1_fee_0079,nejjarine,Nejjarine
+syn1_fee_0080,attarine,Attarine
+syn1_fee_0081,henna,Henna souk
+syn1_fee_0082,attarine,Attarine
+syn1_fee_0083,henna,Henna
+syn1_fee_0084,nejjarine,Nejjarine
+syn1_fee_0085,talaa,Talaa
+syn1_fee_0086,attarine,"Attarine, Seffarine, Rcif, Boujloud"
+syn1_fee_0087,henna,Henna
+syn1_fee_0088,chouara,Chouara
+syn1_fee_0089,attarine,Attarine
+syn1_fee_0090,attarine,Attarine
+syn1_fee_0091,attarine,Attarine
+syn1_fee_0092,talaa,Talaa
+syn1_fee_0093,chouara,Chouara
+syn1_fee_0094,cherabliyine,Cherabliyine
+syn1_fee_0095,henna,Henna
+syn1_fee_0096,sagha,Sagha
+syn1_fee_0097,chouara,Chouara
+syn1_fee_0098,sagha,Sagha
+syn1_fee_0099,attarine,"Attarine, Rcif, Sagha, Cherabliyine"
+syn1_fee_0100,henna,Henna
+syn1_fee_0101,attarine,Attarine
+syn1_fee_0102,nejjarine,Nejjarine
+syn1_fee_0103,attarine,Attarine
+syn1_fee_0104,henna,Henna
+syn1_fee_0105,nejjarine,Nejjarine
+syn1_fee_0106,sagha,Sagha
+syn1_fee_0107,nejjarine,Nejjarine
+syn1_fee_0108,nejjarine,Nejjarine
+syn1_fee_0109,henna,Henna
+syn1_fee_0110,rcif,Rcif: 157 dirham
+syn1_fee_0111,henna,Henna
+syn1_fee_0112,nejjarine,Nejjarine
+syn1_fee_0113,attarine,Attarine
+syn1_fee_0114,henna,Henna souk
+syn1_fee_0115,boujloud,Boujloud
+syn1_fee_0116,sagha,Sagha
+syn1_fee_0117,rcif,Rcif
+syn1_fee_0118,henna,Henna
+syn1_fee_0119,rcif,Rcif
+syn1_fee_0120,henna,Henna
+syn1_fee_0121,chouara,Chouara
+syn1_fee_0122,nejjarine,Nejjarine
+syn1_fee_0123,henna,Henna
+syn1_fee_0124,sagha,Sagha
+syn1_fee_0125,henna,Henna
+syn1_fee_0126,henna,Henna
+syn1_fee_0127,nejjarine,Nejjarine
+syn1_fee_0128,henna,Henna
+syn1_fee_0129,chouara,Chouara
+syn1_fee_0130,henna,Henna
+syn1_fee_0131,attarine,Attarine
+syn1_fee_0132,rif,Rif
+syn1_fee_0133,sagha,Sagha
+syn1_fee_0134,boujloud,Boujloud
+syn1_fee_0135,chouara,"Chouara: 255 dirham, Cherabliyine"
+syn1_fee_0136,henna,Henna
+syn1_fee_0137,henna,Henna
+syn1_fee_0138,henna,Henna
+syn1_fee_0139,henna,Henna
+syn1_fee_0140,attarine,Attarine
+syn1_fee_0141,talaa,Talaa
+syn1_fee_0142,henna,Henna
+syn1_fee_0143,attarine,Attarine
+syn1_fee_0144,rcif,Rcif
+syn1_fee_0145,cherabliyine,Cherabliyine
+syn1_fee_0146,attarine,Attarine
+syn1_fee_0147,sagha,Sagha
+syn1_fee_0148,attarine,"Attarine, Seffarine, Talaa, Rcif"
+syn1_fee_0149,henna,Henna
+syn1_fee_0150,attarine,Attarine
+syn1_fee_0151,henna,Henna
+syn1_fee_0152,chouara,Chouara
+syn1_fee_0153,chouara,Chouara
+syn1_fee_0154,sagha,Sagha
+syn1_fee_0155,chouara,Chouara
+syn1_fee_0156,chouara,Chouara
+syn1_fee_0157,henna,Henna
+syn1_fee_0158,attarine,Attarine
+syn1_fee_0159,chouara,Chouara
+syn1_fee_0160,chouara,Chouara
+syn1_fee_0161,boujloud,Boujloud
+syn1_fee_0162,henna,Henna
+syn1_fee_0163,attarine,"Attarine: 264 dirham, Cherabliyine:"
+syn1_fee_0164,talaa,Talaa
+syn1_fee_0165,attarine,Attarine
+syn1_fee_0166,sagha,Sagha
+syn1_fee_0167,attarine,Attarine
+syn1_fee_0168,talaa,Talaa
+syn1_fee_0169,henna,Henna
+syn1_fee_0170,henna,Henna
+syn1_fee_0171,nejjarine,Nejjarine
+syn1_fee_0172,henna,Henna
+syn1_fee_0173,chouara,Chouara
+syn1_fee_0174,chouara,Chouara
+syn1_fee_0175,henna,Henna
+syn1_fee_0176,boujloud,Boujloud
+syn1_fee_0177,attarine,Attarine
+syn1_fee_0178,sagha,Sagha
+syn1_fee_0179,henna,Henna
+syn1_fee_0180,nejjarine,Nejjarine
+syn1_fee_0181,rcif,Rcif
+syn1_fee_0182,boujloud,Boujloud
+syn1_fee_0183,boujloud,Boujloud
+syn1_fee_0184,henna,Henna
+syn1_fee_0185,attarine,Attarine
+syn1_fee_0186,attarine,Attarine
+syn1_fee_0187,attarine,Attarine
+syn1_fee_0188,nejjarine,Nejjarine
+syn1_fee_0189,attarine,Attarine
+syn1_fee_0190,chouara,Chouara
+syn1_fee_0191,henna,Henna
+syn1_fee_0192,chouara,Chouara
+syn1_fee_0193,chouara,Chouara
+syn1_fee_0194,chouara,Chouara
+syn1_fee_0195,rcif,Rcif
+syn1_fee_0196,boujloud,Boujloud
+syn1_fee_0197,henna,Henna
+syn1_fee_0198,sagha,Sagha
+syn1_fee_0199,henna,Henna
+syn1_fee_0200,henna,Henna
+syn1_fee_0201,henna,Henna
+syn1_fee_0202,sagha,Sagha
+syn1_fee_0203,nejjarine,Nejjarine
+syn1_fee_0204,attarine,"Attarine, Sagha, Talaa, Seffarine"
+syn1_fee_0205,chouara,Chouara
+syn1_fee_0206,nejjarine,Nejjarine
+syn1_fee_0207,attarine,Attarine
+syn1_fee_0208,henna,Henna
+syn1_fee_0209,attarine,Attarine
+syn1_fee_0210,chouara,Chouara
+syn1_fee_0211,attarine,Attarine
+syn1_fee_0212,henna,Henna
+syn1_fee_0213,nejjarine,Nejjarine
+syn1_fee_0214,talaa,Talaa
+syn1_fee_0215,chouara,Chouara
+syn1_fee_0216,attarine,Attarine
+syn1_fee_0217,henna,Henna
+syn1_fee_0218,attarine,Attarine
+syn1_fee_0219,sagha,Sagha
+syn1_fee_0220,attarine,"Attarine, Seffarine, and Talaa."
+syn1_fee_0221,rcif,Rcif
+syn1_fee_0222,boujloud,Boujloud
+syn1_fee_0223,attarine,Attarine
+syn1_fee_0224,henna,Henna
+syn1_fee_0225,sagha,Sagha
+syn1_fee_0226,boujloud,Boujloud
+syn1_fee_0227,talaa,Talaa
+syn1_fee_0228,boujloud,Boujloud
+syn1_fee_0229,attarine,Attarine
+syn1_fee_0230,nejjarine,Nejjarine
+syn1_fee_0231,attarine,Attarine
+syn1_fee_0232,chouara,Chouara
+syn1_fee_0233,chouara,Chouara
+syn1_fee_0234,attarine,Attarine
+syn1_fee_0235,attarine,Attarine
+syn1_fee_0236,henna,Henna
+syn1_fee_0237,henna,Henna
+syn1_fee_0238,henna,Henna
+syn1_fee_0239,attarine,Attarine
+syn1_fee_0240,boujloud,Boujloud
+syn1_fee_0241,sagha,Sagha
+syn1_fee_0242,nejjarine,Nejjarine
+syn1_fee_0243,henna,Henna
+syn1_fee_0244,attarine,"Attarine, Sagha, Talaa, Boujloud"
+syn1_fee_0245,henna,Henna
+syn1_fee_0246,chouara,Chouara
+syn1_fee_0247,henna,Henna
+syn1_fee_0248,attarine,Attarine
+syn1_fee_0249,seffarine,"Seffarine, 223 dirham"
+syn1_fee_0250,henna,Henna
+syn1_fee_0251,chouara,Chouara
+syn1_fee_0252,attarine,Attarine
+syn1_fee_0253,attarine,Attarine
+syn1_fee_0254,sagha,Sagha keeps the least.
+syn1_fee_0255,henna,Henna
+syn1_fee_0256,henna,Henna
+syn1_fee_0257,nejjarine,Nejjarine
+syn1_fee_0258,attarine,Attarine
+syn1_fee_0259,henna,Henna
+syn1_fee_0260,henna,Henna
+syn1_fee_0261,attarine,Attarine
+syn1_fee_0262,chouara,Chouara
+syn1_fee_0263,chouara,Chouara
+syn1_fee_0264,chouara,Chouara
+syn1_fee_0265,henna,Henna
+syn1_fee_0266,chouara,Chouara
+syn1_fee_0267,nejjarine,Nejjarine
+syn1_fee_0268,henna,Henna
+syn1_fee_0269,nejjarine,Nejjarine
+syn1_fee_0270,henna,Henna
+syn1_fee_0271,henna,Henna
+syn1_fee_0272,sagha,Sagha
+syn1_fee_0273,henna,Henna
+syn1_fee_0274,henna,Henna
+syn1_fee_0275,henna,Henna
+syn1_fee_0276,henna,Henna
+syn1_fee_0277,boujloud,Boujloud
+syn1_fee_0278,attarine,Attarine
+syn1_fee_0279,attarine,Attarine
+syn1_fee_0280,attarine,Attarine
+syn1_fee_0281,attukar,Attukar Souk
+syn1_fee_0282,henna,Henna
+syn1_fee_0283,cherabliyine,Cherabliyine
+syn1_fee_0284,nejjarine,Nejjarine
+syn1_fee_0285,henna,Henna
+syn1_fee_0286,chouara,Chouara
+syn1_fee_0287,nejjarine,Nejjarine
+syn1_fee_0288,chouara,Chouara
+syn1_fee_0289,attarine,Attarine
+syn1_fee_0290,attarine,Attarine
+syn1_fee_0291,attarine,"Attarine, Rcif, Boujloud"
+syn1_fee_0292,boujloud,Boujloud
+syn1_fee_0293,attarine,Attarine
+syn1_fee_0294,attarine,Attarine
+syn1_fee_0295,henna,Henna
+syn1_fee_0296,henna,Henna
+syn1_fee_0297,nejjarine,Nejjarine
+syn1_fee_0298,attarine,Attarine
+syn1_fee_0299,chouara,Chouara
+syn1_fee_0300,attarine,Attarine
+syn1_crate1_0001,112,7 * 16 = 112
+syn1_crate1_0002,92,92
+syn1_crate1_0003,88,88
+syn1_crate1_0004,136,136
+syn1_crate1_0005,84,84
+syn1_crate1_0006,72,72
+syn1_crate1_0007,77,77
+syn1_crate1_0008,180,180
+syn1_crate1_0009,40,40
+syn1_crate1_0010,132,132
+syn1_crate1_0011,126,9 * 14 = 126
+syn1_crate1_0012,102,102
+syn1_crate1_0013,96,6 * 16 = 96
+syn1_crate1_0014,88,88
+syn1_crate1_0015,80,80
+syn1_crate1_0016,119,17 * 7 = 119
+syn1_crate1_0017,77,77
+syn1_crate1_0018,80,80
+syn1_crate1_0019,66,66
+syn1_crate1_0020,36,36
+syn1_crate1_0021,50,50
+syn1_crate1_0022,150,150
+syn1_crate1_0023,132,132
+syn1_crate1_0024,42,42
+syn1_crate1_0025,55,55
+syn1_crate1_0026,144,144
+syn1_crate1_0027,143,143
+syn1_crate1_0028,99,99
+syn1_crate1_0029,144,144
+syn1_crate1_0030,60,60
+syn1_crate1_0031,156,156
+syn1_crate1_0032,168,168
+syn1_crate1_0033,120,120
+syn1_crate1_0034,84,7 * 12 = 84
+syn1_crate1_0035,96,96
+syn1_crate1_0036,88,88
+syn1_crate1_0037,90,90
+syn1_crate1_0038,60,60
+syn1_crate1_0039,96,6 * 16 = 96 boxes
+syn1_crate1_0040,165,165
+syn1_crate1_0041,35,35
+syn1_crate1_0042,108,9 * 12 = 108 lanterns
+syn1_crate1_0043,42,42
+syn1_crate1_0044,140,140
+syn1_crate1_0045,63,63
+syn1_crate1_0046,146,146
+syn1_crate1_0047,182,182
+syn1_crate1_0048,77,77
+syn1_crate1_0049,132,132
+syn1_crate1_0050,184,184
+syn1_crate1_0051,35,35
+syn1_crate1_0052,60,60
+syn1_crate1_0053,96,8 * 12 = 96 tiles
+syn1_crate1_0054,48,48
+syn1_crate1_0055,108,108
+syn1_crate1_0056,88,88
+syn1_crate1_0057,93,93
+syn1_crate1_0058,156,156
+syn1_crate1_0059,70,70
+syn1_crate1_0060,88,88
+syn1_crate1_0061,40,40
+syn1_crate1_0062,66,66
+syn1_crate1_0063,108,9 * 12 = 108 tiles
+syn1_crate1_0064,96,8 * 12 = 96 boxes
+syn1_crate1_0065,50,50
+syn1_crate1_0066,117,9 * 13 = 117 lanterns
+syn1_crate1_0067,44,44
+syn1_crate1_0068,70,70
+syn1_crate1_0069,136,136
+syn1_crate1_0070,80,80
+syn1_crate1_0071,40,40
+syn1_crate1_0072,9,9 * 9 = 81 81 + 18 =
+syn1_crate1_0073,170,170
+syn1_crate1_0074,65,65
+syn1_crate1_0075,99,99
+syn1_crate1_0076,66,66
+syn1_crate1_0077,192,192
+syn1_crate1_0078,72,72
+syn1_crate1_0079,55,55
+syn1_crate1_0080,102,102
+syn1_crate1_0081,174,174
+syn1_crate1_0082,54,54
+syn1_crate1_0083,64,64
+syn1_crate1_0084,99,99
+syn1_crate1_0085,116,116
+syn1_crate1_0086,110,110
+syn1_crate1_0087,84,84
+syn1_crate1_0088,99,99
+syn1_crate1_0089,56,56
+syn1_crate1_0090,70,70
+syn1_crate1_0091,60,60
+syn1_crate1_0092,132,132
+syn1_crate1_0093,160,160
+syn1_crate1_0094,180,180
+syn1_crate1_0095,144,144
+syn1_crate1_0096,170,170
+syn1_crate1_0097,120,120
+syn1_crate1_0098,128,128
+syn1_crate1_0099,60,60
+syn1_crate1_0100,75,75
+syn1_crate1_0101,35,35
+syn1_crate1_0102,45,5 * 9 = 45 slippers
+syn1_crate1_0103,114,19 * 6 = 114
+syn1_crate1_0104,150,150
+syn1_crate1_0105,82,82
+syn1_crate1_0106,132,132
+syn1_crate1_0107,144,144
+syn1_crate1_0108,63,7 * 9 = 63 boxes
+syn1_crate1_0109,77,77
+syn1_crate1_0110,65,65
+syn1_crate1_0111,77,77
+syn1_crate1_0112,180,180
+syn1_crate1_0113,77,77
+syn1_crate1_0114,144,144
+syn1_crate1_0115,99,99
+syn1_crate1_0116,110,110
+syn1_crate1_0117,88,88
+syn1_crate1_0118,130,130
+syn1_crate1_0119,144,144
+syn1_crate1_0120,120,120
+syn1_crate1_0121,144,144
+syn1_crate1_0122,90,90
+syn1_crate1_0123,55,55
+syn1_crate1_0124,140,140
+syn1_crate1_0125,144,12 * 12 = 144 tagines.
+syn1_crate1_0126,63,63
+syn1_crate1_0127,35,35
+syn1_crate1_0128,48,48
+syn1_crate1_0129,60,60
+syn1_crate1_0130,192,192
+syn1_crate1_0131,102,102
+syn1_crate1_0132,162,162
+syn1_crate1_0133,144,144
+syn1_crate1_0134,72,72
+syn1_crate1_0135,66,66
+syn1_crate1_0136,184,184
+syn1_crate1_0137,120,120
+syn1_crate1_0138,70,70
+syn1_crate1_0139,60,60
+syn1_crate1_0140,99,99
+syn1_crate1_0141,108,108
+syn1_crate1_0142,95,5 * 19 = 95 boxes
+syn1_crate1_0143,84,84
+syn1_crate1_0144,65,65
+syn1_crate1_0145,153,9 * 17 = 153 boxes
+syn1_crate1_0146,99,99
+syn1_crate1_0147,108,108
+syn1_crate1_0148,55,55
+syn1_crate1_0149,180,180
+syn1_crate1_0150,60,60
+syn1_crate1_0151,120,120
+syn1_crate1_0152,64,8 * 8 = 64 tagines.
+syn1_crate1_0153,96,6 * 16 = 96
+syn1_crate1_0154,143,143
+syn1_crate1_0155,48,48
+syn1_crate1_0156,48,48
+syn1_crate1_0157,102,6 * 17 = 102
+syn1_crate1_0158,154,154
+syn1_crate1_0159,88,88
+syn1_crate1_0160,150,150
+syn1_crate1_0161,133,133
+syn1_crate1_0162,60,60
+syn1_crate1_0163,96,8 * 12 = 96 tiles
+syn1_crate1_0164,48,48
+syn1_crate1_0165,199,199
+syn1_crate1_0166,120,120
+syn1_crate1_0167,60,60
+syn1_crate1_0168,192,192
+syn1_crate1_0169,110,110
+syn1_crate1_0170,120,120
+syn1_crate1_0171,36,36
+syn1_crate1_0172,176,176
+syn1_crate1_0173,114,6 * 19 = 114
+syn1_crate1_0174,143,143
+syn1_crate1_0175,45,5 * 9 = 45 boxes
+syn1_crate1_0176,182,182
+syn1_crate1_0177,192,192
+syn1_crate1_0178,108,6 * 18 = 108
+syn1_crate1_0179,121,121
+syn1_crate1_0180,96,8 * 12 = 96 tiles
+syn1_crate1_0181,48,48
+syn1_crate1_0182,84,84
+syn1_crate1_0183,88,88
+syn1_crate1_0184,160,160
+syn1_crate1_0185,64,64
+syn1_crate1_0186,35,35
+syn1_crate1_0187,168,168
+syn1_crate1_0188,165,165
+syn1_crate1_0189,165,165
+syn1_crate1_0190,48,48
+syn1_crate1_0191,56,56
+syn1_crate1_0192,114,6 * 19 = 114
+syn1_crate1_0193,174,174
+syn1_crate1_0194,128,128
+syn1_crate1_0195,77,77
+syn1_crate1_0196,120,8 * 15 = 120 tagines.
+syn1_crate1_0197,42,42
+syn1_crate1_0198,80,80
+syn1_crate1_0199,133,7 * 19 = 133 boxes
+syn1_crate1_0200,84,6 * 14 = 84
+syn1_crate1_0201,72,6 * 12 = 72
+syn1_crate1_0202,88,88
+syn1_crate1_0203,144,144
+syn1_crate1_0204,77,77
+syn1_crate1_0205,84,84
+syn1_crate1_0206,108,108
+syn1_crate1_0207,132,132
+syn1_crate1_0208,160,160
+syn1_crate1_0209,72,72
+syn1_crate1_0210,77,77
+syn1_crate1_0211,48,48
+syn1_crate1_0212,48,48
+syn1_crate1_0213,77,77
+syn1_crate1_0214,114,19 * 6 = 114
+syn1_crate1_0215,54,6 * 9 = 54
+syn1_crate1_0216,99,99
+syn1_crate1_0217,152,152
+syn1_crate1_0218,24,24
+syn1_crate1_0219,48,48
+syn1_crate1_0220,90,90
+syn1_crate1_0221,112,7 * 16 = 112
+syn1_crate1_0222,700,700
+syn1_crate1_0223,54,54
+syn1_crate1_0224,48,48
+syn1_crate1_0225,70,70
+syn1_crate1_0226,84,84
+syn1_crate1_0227,55,55
+syn1_crate1_0228,130,130
+syn1_crate1_0229,96,8 * 12 = 96 boxes
+syn1_crate1_0230,168,168
+syn1_crate1_0231,64,64
+syn1_crate1_0232,80,80
+syn1_crate1_0233,90,90
+syn1_crate1_0234,28,28
+syn1_crate1_0235,88,88
+syn1_crate1_0236,99,99
+syn1_crate1_0237,144,144
+syn1_crate1_0238,90,90
+syn1_crate1_0239,76,4 * 19 = 76
+syn1_crate1_0240,40,40
+syn1_crate1_0241,72,72
+syn1_crate1_0242,102,102
+syn1_crate1_0243,30,30
+syn1_crate1_0244,99,99
+syn1_crate1_0245,77,77
+syn1_crate1_0246,121,121
+syn1_crate1_0247,176,176
+syn1_crate1_0248,128,8 * 16 = 128 tiles
+syn1_crate1_0249,150,150
+syn1_crate1_0250,153,9 * 17 = 153 boxes
+syn1_crate1_0251,165,165
+syn1_crate1_0252,156,156
+syn1_crate1_0253,70,70
+syn1_crate1_0254,60,60
+syn1_crate1_0255,160,160
+syn1_crate1_0256,164,164
+syn1_crate1_0257,108,108
+syn1_crate1_0258,64,64
+syn1_crate1_0259,60,60
+syn1_crate1_0260,64,64
+syn1_crate1_0261,65,65
+syn1_crate1_0262,66,66
+syn1_crate1_0263,132,132
+syn1_crate1_0264,102,102
+syn1_crate1_0265,60,60
+syn1_crate1_0266,144,144
+syn1_crate1_0267,72,72
+syn1_crate1_0268,52,52
+syn1_crate1_0269,75,75
+syn1_crate1_0270,143,143
+syn1_crate1_0271,153,9 * 17 = 153
+syn1_crate1_0272,99,99
+syn1_crate1_0273,80,80
+syn1_crate1_0274,180,180
+syn1_crate1_0275,108,108
+syn1_crate1_0276,60,60
+syn1_crate1_0277,32,32
+syn1_crate1_0278,160,160
+syn1_crate1_0279,54,54
+syn1_crate1_0280,60,60
+syn1_crate1_0281,112,7 * 16 = 112
+syn1_crate1_0282,56,56
+syn1_crate1_0283,88,88
+syn1_crate1_0284,108,6 * 18 = 108 tagines.
+syn1_crate1_0285,80,80
+syn1_crate1_0286,102,102
+syn1_crate1_0287,190,190
+syn1_crate1_0288,168,168
+syn1_crate1_0289,48,48
+syn1_crate1_0290,66,66
+syn1_crate1_0291,108,108
+syn1_crate1_0292,56,56
+syn1_crate1_0293,77,77
+syn1_crate1_0294,110,110
+syn1_crate1_0295,108,108
+syn1_crate1_0296,160,160
+syn1_crate1_0297,96,96
+syn1_crate1_0298,172,172
+syn1_crate1_0299,108,6 * 18 = 108 tagines.
+syn1_crate1_0300,88,88
+syn1_crate1_0301,48,48
+syn1_crate1_0302,66,66
+syn1_crate1_0303,42,42
+syn1_crate1_0304,56,56
+syn1_crate1_0305,90,90
+syn1_crate1_0306,140,140
+syn1_crate1_0307,66,66
+syn1_crate1_0308,120,120
+syn1_crate1_0309,130,130
+syn1_crate1_0310,44,44
+syn1_crate1_0311,54,54
+syn1_crate1_0312,121,121
+syn1_crate1_0313,60,60
+syn1_crate1_0314,36,36
+syn1_crate1_0315,168,168
+syn1_crate1_0316,77,77
+syn1_crate1_0317,130,130
+syn1_crate1_0318,99,99
+syn1_crate1_0319,48,48
+syn1_crate1_0320,120,120
+syn1_crate1_0321,117,9 * 13 = 117 boxes
+syn1_crate1_0322,48,48
+syn1_crate1_0323,128,8 * 16 = 128 tiles.
+syn1_crate1_0324,77,77
+syn1_crate1_0325,44,44
+syn1_crate1_0326,64,64
+syn1_crate1_0327,84,6 * 14 = 84
+syn1_crate1_0328,52,52
+syn1_crate1_0329,132,132
+syn1_crate1_0330,1000,1000
+syn1_crate1_0331,48,48
+syn1_crate1_0332,55,55
+syn1_crate1_0333,35,35
+syn1_crate1_0334,55,55
+syn1_crate1_0335,30,30
+syn1_crate1_0336,60,60
+syn1_crate1_0337,88,88
+syn1_crate1_0338,120,120
+syn1_crate1_0339,133,133
+syn1_crate1_0340,36,36
+syn1_crate1_0341,100,100
+syn1_crate1_0342,48,48
+syn1_crate1_0343,96,96
+syn1_crate1_0344,90,90
+syn1_crate1_0345,96,96
+syn1_crate1_0346,42,42
+syn1_crate1_0347,66,66
+syn1_crate1_0348,72,6 * 12 = 72
+syn1_crate1_0349,78,6 * 13 = 78
+syn1_crate1_0350,48,48
+syn1_crate1_0351,143,143
+syn1_crate1_0352,108,108
+syn1_crate1_0353,84,7 * 12 = 84 tiles
+syn1_crate1_0354,100,100
+syn1_crate1_0355,126,9 * 14 = 126 boxes
+syn1_crate1_0356,65,65
+syn1_crate1_0357,48,48
+syn1_crate1_0358,164,164
+syn1_crate1_0359,50,50
+syn1_crate1_0360,28,28
+syn1_crate1_0361,160,160
+syn1_crate1_0362,60,60
+syn1_crate1_0363,121,121
+syn1_crate1_0364,111,111
+syn1_crate1_0365,117,117
+syn1_crate1_0366,198,198
+syn1_crate1_0367,68,4 * 17 = 68
+syn1_crate1_0368,156,156
+syn1_crate1_0369,66,66
+syn1_crate1_0370,100,100
+syn1_crate1_0371,110,110
+syn1_crate1_0372,73,73
+syn1_crate1_0373,102,102
+syn1_crate1_0374,168,168
+syn1_crate1_0375,96,6 * 16 = 96 boxes
+syn1_crate1_0376,42,42
+syn1_crate1_0377,66,66
+syn1_crate1_0378,99,99
+syn1_crate1_0379,170,170
+syn1_crate1_0380,90,90
+syn1_crate1_0381,228,12 * 19 = 228
+syn1_crate1_0382,132,132
+syn1_crate1_0383,70,70
+syn1_crate1_0384,54,54
+syn1_crate1_0385,171,9 * 19 = 171
+syn1_crate1_0386,140,140
+syn1_crate1_0387,168,168
+syn1_crate1_0388,108,108
+syn1_crate1_0389,52,52
+syn1_crate1_0390,44,44
+syn1_crate1_0391,143,143
+syn1_crate1_0392,96,6 * 16 = 96
+syn1_crate1_0393,84,6 * 14 = 84
+syn1_crate1_0394,88,88
+syn1_crate1_0395,143,143
+syn1_crate1_0396,60,60
+syn1_crate1_0397,48,48
+syn1_crate1_0398,198,198
+syn1_crate1_0399,120,120
+syn1_crate1_0400,176,176
+syn1_crate2_0001,28,28
+syn1_crate2_0002,148,148
+syn1_crate2_0003,87,87
+syn1_crate2_0004,15,15
+syn1_crate2_0005,90,15 * 6 = 90 trays 90 - 2
+syn1_crate2_0006,120,120
+syn1_crate2_0007,28,28
+syn1_crate2_0008,28,28
+syn1_crate2_0009,17,17
+syn1_crate2_0010,24,24
+syn1_crate2_0011,90,90
+syn1_crate2_0012,165,15 * 11 = 165 165 -
+syn1_crate2_0013,24,24
+syn1_crate2_0014,24,24
+syn1_crate2_0015,80,80
+syn1_crate2_0016,84,12 * 7 = 84 tagines 84 -
+syn1_crate2_0017,28,28
+syn1_crate2_0018,24,"24, 12, 4"
+syn1_crate2_0019,120,120
+syn1_crate2_0020,4,"4:13, 17:00"
+syn1_crate2_0021,140,140
+syn1_crate2_0022,28,28
+syn1_crate2_0023,28,28
+syn1_crate2_0024,64,64
+syn1_crate2_0025,44,44
+syn1_crate2_0026,15,15
+syn1_crate2_0027,34,34
+syn1_crate2_0028,158,158
+syn1_crate2_0029,81,9 * 9 = 81 81 - 4 *
+syn1_crate2_0030,120,120
+syn1_crate2_0031,148,148
+syn1_crate2_0032,54,54
+syn1_crate2_0033,144,144
+syn1_crate2_0034,28,28
+syn1_crate2_0035,24,24
+syn1_crate2_0036,13,13
+syn1_crate2_0037,17,17:33
+syn1_crate2_0038,96,16 * 6 = 96 96 - 21
+syn1_crate2_0039,36,36
+syn1_crate2_0040,128,128
+syn1_crate2_0041,127,127
+syn1_crate2_0042,153,153
+syn1_crate2_0043,27,"27, 6:30, 2 apprentices"
+syn1_crate2_0044,24,24
+syn1_crate2_0045,66,66
+syn1_crate2_0046,35,35
+syn1_crate2_0047,25,25
+syn1_crate2_0048,144,144
+syn1_crate2_0049,144,144
+syn1_crate2_0050,80,80
+syn1_crate2_0051,150,150
+syn1_crate2_0052,64,64
+syn1_crate2_0053,24,24
+syn1_crate2_0054,52,52
+syn1_crate2_0055,32,32
+syn1_crate2_0056,14,14
+syn1_crate2_0057,13,13
+syn1_crate2_0058,48,48
+syn1_crate2_0059,15,15
+syn1_crate2_0060,160,160
+syn1_crate2_0061,128,128
+syn1_crate2_0062,156,156
+syn1_crate2_0063,134,134
+syn1_crate2_0064,12,12
+syn1_crate2_0065,84,12 * 7 = 84 slippers 84 -
+syn1_crate2_0066,96,12 * 8 = 96 lanterns 96 -
+syn1_crate2_0067,120,120
+syn1_crate2_0068,20,20
+syn1_crate2_0069,24,24
+syn1_crate2_0070,20,20
+syn1_crate2_0071,15,15
+syn1_crate2_0072,158,158
+syn1_crate2_0073,192,192
+syn1_crate2_0074,14,14
+syn1_crate2_0075,124,124
+syn1_crate2_0076,110,110
+syn1_crate2_0077,24,24
+syn1_crate2_0078,207,207
+syn1_crate2_0079,60,60
+syn1_crate2_0080,128,128
+syn1_crate2_0081,28,28
+syn1_crate2_0082,136,136
+syn1_crate2_0083,66,11 * 6 = 66 lanterns. 66 -
+syn1_crate2_0084,15,15
+syn1_crate2_0085,77,77
+syn1_crate2_0086,48,48
+syn1_crate2_0087,148,148
+syn1_crate2_0088,15,15
+syn1_crate2_0089,155,155
+syn1_crate2_0090,147,147
+syn1_crate2_0091,144,144
+syn1_crate2_0092,18,18
+syn1_crate2_0093,32,20 + 6 + 6 = 32
+syn1_crate2_0094,48,48
+syn1_crate2_0095,12,12
+syn1_crate2_0096,168,168
+syn1_crate2_0097,128,128
+syn1_crate2_0098,10,6 * 17 - 10 + 2 = 10
+syn1_crate2_0099,36,6 * 6 = 36 tagines 36 - 2
+syn1_crate2_0100,192,12 * 16 = 192 192 +

@@ -1,0 +1,401 @@
+request_id,expensive_answer,expensive_raw
+train_0001,47,Step 1: Calculate the toll for the 3 lighter carts (56 kg each) at 10 dirham each. Step 2: Calculate the toll for the heavier cart (100 kg) at 17 dirham. Step 3: Add the tolls from steps 1 and 2 to get the total toll.  Calculation: 3 carts * 10 dirham/cart = 30 dirham 1 cart * 17 dirham/cart = 17 dirham Total toll = 30 dirham + 17 dirham = 47 dirham  Answer: 47
+train_0002,17:20,1. Opens at 07:55. 2. Works for 8 hours: 07:55 + 08:00 = 15:55. 3. Pauses for 25 minutes: 15:55 + 25:00 = 16:20. 4. Works 1 more hour: 16:20 + 01:00 = 17:20.  Answer: 17:20
+train_0003,13:35,1. Opens at 09:40 and works for 5 hours: 02:20 (09:40 + 02:20 = 12:00) 2. Pauses for 35 minutes: 12:35 3. Works for 1 more hour: 13:35  Answer: 13:35
+train_0004,21,Answer: 21
+train_0005,rcif,"Step 1: Identify the takings for each souk. Step 2: Compare the amounts: Boujloud (177), Rcif (166), Seffarine (217), Nejjarine (272). Step 3: Determine the smallest amount.  Answer: Rcif"
+train_0006,62,Step 1: Calculate total boxes Driss has initially. 11 crates * 9 boxes/crate = 99 boxes  Step 2: Calculate boxes sold at Henna. 99 boxes - 19 boxes = 80 boxes  Step 3: Calculate boxes given to apprentices. 6 boxes/apprentice * 3 apprentices = 18 boxes  Step 4: Calculate remaining boxes. 80 boxes - 18 boxes = 62 boxes  Answer: 62
+train_0007,attarine,"Step 1: Calculate takings for each souk. Step 2: Calculate the stall fee for each souk. Step 3: Subtract the stall fee from the takings for each souk. Step 4: Compare the final amounts.  Takings: Attarine (276), Chouara (171), Sagha (164), Takings (280) Stall fees: Attarine (14 * 10 = 140), Chouara (5 * 10 = 50), Sagha (2 * 10 = 20), Takings (18 * 10 = 180)  Final amounts: Attarine (276 - 140 = 136), Chouara (171 - 50 = 121), Sagha (164 - 20 = 144), Takings (280 - 180 = 100)  Answer: Attarine"
+train_0008,18,Step 1: Identify the price of brass lanterns from the list. Step 2: Brass lanterns cost 18 dirham.  Answer: 18 dirham
+train_0009,21,Answer: 21
+train_0010,12,"Step 1: Identify the relevant walk times. Step 2: Attarine-Talaa is 8 minutes, Sagha-Talaa is 12 minutes, Attarine-Sagha is 3 minutes. Step 3: The shortest walk from Attarine to Talaa is via Sagha, which is 3 minutes + 9 minutes (Sagha-Talaa - Sagha to Attarine).  Answer: 12"
+train_0011,4,Answer: 4
+train_0012,nejjarine,Step 1: Calculate takings after deducting stall fees. - Nejjarine: 200 - 8*1 = 192 dirham - Rcif: 172 - 8*1 = 164 dirham - Talaa: 287 - 8*16 = 145 dirham - Henna: 320 - 8*19 = 152 dirham  Step 2: Compare the final takings. - Nejjarine: 192 dirham - Rcif: 164 dirham - Talaa: 145 dirham - Henna: 152 dirham  Answer: Nejjarine
+train_0013,84,Step 1: Identify the price of cedar boxes from the list. Step 2: Cedar boxes cost 84 dirham.  Answer: 84
+train_0014,henna,Step 1: Calculate takings after stall fees. Talaa: 200 - (9 * 12) = 200 - 108 = 92 dirham Attarine: 157 - (3 * 12) = 157 - 36 = 121 dirham Henna: 175 - (4 * 12) = 175 - 48 = 127 dirham Cherabliyine: 307 - (18 * 12) = 307 - 216 = 91 dirham Step 2: Compare the final takings. Henna has the highest takings at 127 dirham.  Answer: Henna
+train_0015,12,Answer: 12 dirham
+train_0016,boujloud,"1. Calculate takings for each souk: Talaa (229), Boujloud (256), Attarine (280), Nejjarine (228). 2. Calculate stall fees for each souk: Talaa (5 crates * 8 dirham) = 40, Boujloud (4 crates * 8 dirham) = 32, Attarine (11 crates * 8 dirham) = 88, Nejjarine (5 crates * 8 dirham) = 40. 3. Calculate net takings: Talaa (229 - 40) = 189, Boujloud (256 - 32) = 224, Attarine (280 - 88) = 192, Nejjarine (228 - 40) = 188. 4. Compare net takings: Boujloud (224) keeps the most.  Answer: Boujloud"
+train_0017,54,Step 1: Calculate the toll for the 3 carts weighing 75 kg. Each of these carts costs 14 dirham. Step 2: Calculate the toll for the 4 carts weighing 31 kg. Each of these carts costs 3 dirham. Step 3: Add the tolls from both groups of carts to get the total toll.  Calculation: 3 carts * 14 dirham/cart = 42 dirham 4 carts * 3 dirham/cart = 12 dirham Total toll = 42 dirham + 12 dirham = 54 dirham  Answer: 54
+train_0018,6,Answer: 6
+train_0019,56,Step 1: Calculate the total number of tiles by multiplying the number of crates by the number of tiles per crate. Step 2: 14 crates * 4 tiles/crate = 56 tiles.  Answer: 56
+train_0020,sagha,"First, calculate the total fees for each souk: - Sagha: 60 crates * 9 dirham/crate = 540 dirham - Nejjarine: 44 crates * 9 dirham/crate = 396 dirham - Chouara: 44 crates * 9 dirham/crate = 396 dirham - Henna: 44 crates * 9 dirham/crate = 396 dirham  Next, subtract these fees from each souk's takings: - Sagha: 282 - 540 = -258 dirham - Nejjarine: 214 - 396 = -182 dirham - Chouara: 217 - 396 = -179 dirham - Henna: 238 - 396 = -158 dirham  The souk that keeps the least is the one with the most negative balance, which is Sagha.  Answer: Sagha"
+train_0021,80,Step 1: Identify the price of saffron from the list. Step 2: Saffron costs 80 dirham.  Answer: 80
+train_0022,24,Step 1: Identify the price of argan oil. Step 2: Argan oil costs 24 dirham.  Answer: 24 dirham
+train_0023,seffarine,"Step 1: Compare the takings of each souk. Step 2: Henna - 192 dirham, Nejjarine - 209 dirham, Seffarine - 235 dirham, Attarine - 181 dirham. Step 3: Identify the highest amount. Answer: Seffarine"
+train_0024,talaa,"Step 1: Compare the takings of each souk. Step 2: Talaa - 291 dirham, Seffarine - 163 dirham, Henna - 249 dirham, Boujloud - 230 dirham. Step 3: Identify the highest amount.  Answer: Talaa"
+train_0025,15:00,"Step 1: The stall works for 5 hours from 06:15, so it works until 11:15. Step 2: It pauses for 45 minutes, so it resumes at 11:15 + 45 minutes = 12:00. Step 3: It works for 3 more hours from 12:00, so it closes at 12:00 + 3 hours = 15:00.  Answer: 15:00"
+train_0026,seffarine,Step 1: Identify the takings for each souk. Step 2: Compare the amounts. Step 3: Determine the souk with the lowest amount.  Answer: Seffarine
+train_0027,28,Step 1: Calculate total tagines loaded = 10 crates * 6 tagines/crate = 60 tagines. Step 2: Subtract tagines sold at Attarine = 60 - 8 = 52 tagines. Step 3: Calculate tagines given to apprentices = 6 tagines/apprentice * 4 apprentices = 24 tagines. Step 4: Subtract tagines given to apprentices = 52 - 24 = 28 tagines.  Answer: 28
+train_0028,cherabliyine,"Step 1: Compare the takings of each souk. Step 2: Cherabliyine - 284 dirham, Henna - 225 dirham, Seffarine - 152 dirham, Talaa - 260 dirham. Step 3: Identify the highest amount.  Answer: Cherabliyine"
+train_0029,35,Step 1: Identify the toll per cart - 7 dirham. Step 2: Identify the number of carts - 5. Step 3: Calculate the total toll - 7 dirham/cart * 5 carts = 35 dirham. Answer: 35
+train_0030,65,Answer: 65 dirham
+train_0031,6,Answer: 6 dirham
+train_0032,66,Answer: 66 dirham
+train_0033,13:25,Answer: 13:25
+train_0034,46,Step 1: Calculate total slippers = 12 crates * 6 slippers/crate = 72 slippers. Step 2: Subtract slippers sold = 72 - 10 = 62 slippers. Step 3: Subtract slippers given to apprentices = 62 - (4 apprentices * 4 slippers/apprentice) = 62 - 16 = 46 slippers. Answer: 46
+train_0035,13,Answer: 13
+train_0036,6,Step 1: Calculate total number of tiles Hamid loads. 7 crates * 7 tiles/crate = 49 tiles  Step 2: Calculate number of tiles sold at Talaa. 13 tiles  Step 3: Calculate number of tiles given to apprentices. 6 tiles/apprentice * 5 apprentices = 30 tiles  Step 4: Calculate remaining tiles. 49 tiles - 13 tiles - 30 tiles = 6 tiles  Answer: 6
+train_0037,18,Answer: 18 dirham
+train_0038,henna,Step 1: Identify the takings for each souk. Step 2: Compare the amounts. Step 3: Determine the souk with the lowest amount.  Answer: Henna
+train_0039,13:30,"1. Opens at 07:10 and works for 5 hours until 12:10. 2. Pauses for 20 minutes at 12:10, resuming at 12:30. 3. Works for 1 more hour until 13:30.  Answer: 13:30"
+train_0040,88,Step 1: Calculate the total number of boxes by multiplying the number of crates by the number of boxes per crate. Step 2: 8 crates * 11 boxes/crate = 88 boxes.  Answer: 88
+train_0041,14,Answer: 14
+train_0042,16:35,Answer: 16:35
+train_0043,6,"Step 1: Identify what Latifa's stall sells - leather slippers. Step 2: Find the price of leather slippers - 6 dirham. Step 3: Determine what Karim charges - the same as Latifa for leather slippers, 6 dirham.  Answer: 6 dirham"
+train_0044,32,Step 1: Identify what Youssef's stall sells - brass lanterns. Step 2: Find the price of brass lanterns - 32 dirham. Step 3: Determine what Karim charges - the same as Youssef for brass lanterns.  Answer: 32 dirham
+train_0045,nejjarine,"Step 1: Identify the takings for each souk. Step 2: Compare the amounts: Nejjarine (170), Attarine (307), Chouara (238), Boujloud (185). Step 3: Determine the lowest amount.  Answer: Nejjarine"
+train_0046,12,Answer: 12
+train_0047,69,Step 1: Identify the price of leather slippers. Step 2: Leather slippers cost 69 dirham.  Answer: 69 dirham
+train_0048,13:25,Answer: 13:25
+train_0049,133,Step 1: Calculate the total number of slippers by multiplying the number of crates by the number of slippers per crate. Step 2: 19 crates * 7 slippers/crate = 133 slippers.  Answer: 133
+train_0050,12:45,Answer: 12:45
+train_0051,96,Step 1: Calculate the total number of lanterns by multiplying the number of crates by the number of lanterns per crate. Step 2: 16 crates * 6 lanterns/crate = 96 lanterns.  Answer: 96
+train_0052,10,Step 1: Identify the price of cedar boxes. Step 2: Cedar boxes cost 10 dirham.  Answer: 10
+train_0053,4,Answer: 4
+train_0054,seffarine,Step 1: Calculate takings after deducting stall fees. Cherabliyine: 319 - (8 * 9) = 319 - 72 = 247 dirham Nejjarine: 213 - (1 * 9) = 213 - 9 = 204 dirham Seffarine: 292 - (1 * 9) = 292 - 9 = 283 dirham Boujloud: 211 - (1 * 9) = 211 - 9 = 202 dirham Step 2: Identify the souk with the highest takings. Answer: Seffarine
+train_0055,135,Step 1: Identify the toll per cart = 9 dirham. Step 2: Identify the number of carts = 15. Step 3: Calculate the total toll = 9 dirham/cart * 15 carts. Step 4: Total toll = 135 dirham.  Answer: 135
+train_0056,44,Step 1: Calculate the total number of tagines by multiplying the number of crates by the number of tagines per crate. Step 2: 11 crates * 4 tagines/crate = 44 tagines.  Answer: 44
+train_0057,8,Answer: 8
+train_0058,90,Step 1: Calculate the total number of tiles by multiplying the number of crates by the number of tiles per crate. Step 2: 10 crates * 9 tiles/crate = 90 tiles.  Answer: 90
+train_0059,102,"Step 1: Calculate the toll for the 6 carts that weigh 94 kg. Since 94 kg is heavier than 75 kg, each cart pays 14 dirham. Step 2: Calculate the toll for the 2 carts that weigh 64 kg. Since 64 kg is less than 75 kg, each cart pays 9 dirham. Step 3: Compute the total toll. Total toll = (6 carts * 14 dirham) + (2 carts * 9 dirham) = 84 dirham + 18 dirham = 102 dirham.  Answer: 102"
+train_0060,24,Step 1: Identify the price of dates from the list. Step 2: Dates cost 24 dirham.  Answer: 24 dirham
+train_0061,chouara,"Step 1: Calculate takings for each souk. Step 2: Calculate the stall fee for each souk. Step 3: Subtract the stall fee from takings for each souk. Step 4: Compare the final amounts.  Takings: Rcif 168, Henna 163, Chouara 268, Seffarine 332. Stall fees: Rcif 8*1=8, Henna 8*1=8, Chouara 8*3=24, Seffarine 8*13=104. Subtracted fees: Rcif 168-8=160, Henna 163-8=155, Chouara 268-24=244, Seffarine 332-104=228.  Answer: Chouara"
+train_0062,5,Answer: 5
+train_0063,176,Step 1: Calculate the total number of trays by multiplying the number of crates by the number of trays per crate. Step 2: 16 crates * 11 trays/crate = 176 trays.  Answer: 176
+train_0064,53,Step 1: Identify the price of amber from the list. Step 2: Amber costs 53 dirham.  Answer: 53 dirham
+train_0065,84,Step 1: Calculate the total number of slippers by multiplying the number of crates by the number of slippers per crate. Step 2: 12 crates * 7 slippers/crate = 84 slippers.  Answer: 84
+train_0066,87,Step 1: Identify the price of brass lanterns from the list. Step 2: Brass lanterns cost 87 dirham.  Answer: 87 dirham
+train_0067,talaa,Step 1: Calculate takings for each souk. Step 2: Calculate stall fees for each souk. Step 3: Subtract stall fees from takings. Step 4: Compare results to find the souk with the least amount.  Seffarine: 198 - (44 * 8) = 198 - 352 = -154 Talaa: 258 - (58 * 8) = 258 - 464 = -206 Attarine: 155 - (43 * 8) = 155 - 344 = -189 Nejjarine: 333 - (44 * 8) = 333 - 352 = -19  Answer: Talaa
+train_0068,9,Step 1: Identify the relevant walking time from the given options. Step 2: The shortest walk from Rcif to Henna is directly given as 9 minutes.  Answer: 9
+train_0069,180,Step 1: Identify the charge per cart - 10 dirham. Step 2: Identify the number of carts - 18. Step 3: Multiply the charge per cart by the number of carts - 10 * 18 = 180 dirham. Answer: 180
+train_0070,sagha,"Step 1: Calculate takings for each souk. Step 2: Calculate the stall fee for each souk. Step 3: Subtract the stall fee from the takings for each souk. Step 4: Compare the final amounts to find the least.  Takings: Sagha 191, Talaa 197, Rcif 179, Attarine 245. Stall fees: Sagha 39 * 8 = 312, Talaa 41 * 8 = 328, Rcif 36 * 8 = 288, Attarine 48 * 8 = 384. Final amounts: Sagha 191 - 312 = -121, Talaa 197 - 328 = -131, Rcif 179 - 288 = -109, Attarine 245 - 384 = -139.  Answer: Sagha"
+train_0071,37,Step 1: Calculate total tiles Najat loaded: \(11 \text{ crates} \times 7 \text{ tiles/crate} = 77 \text{ tiles}\). Step 2: Calculate tiles sold: \(20 \text{ tiles}\). Step 3: Calculate tiles given to apprentices: \(5 \text{ tiles/apprentice} \times 4 \text{ apprentices} = 20 \text{ tiles}\). Step 4: Calculate remaining tiles: \(77 - 20 - 20 = 37 \text{ tiles}\).  Answer: 37
+train_0072,34,Step 1: Identify the price of mint from the list. Step 2: Mint costs 34 dirham.  Answer: 34 dirham
+train_0073,13:00,Answer: 13:00
+train_0074,75,Step 1: Identify the price of cedar boxes from the list. Step 2: Cedar boxes cost 75 dirham.  Answer: 75 dirham
+train_0075,cherabliyine,Step 1: Calculate takings after stall fees. Step 2: Nejjarine: 243 - (37 * 10) = 243 - 370 = -127 dirham. Step 3: Cherabliyine: 174 - (31 * 10) = 174 - 310 = -136 dirham. Step 4: Talaa: 302 - (46 * 10) = 302 - 460 = -158 dirham. Step 5: Sagha: 177 - (32 * 10) = 177 - 320 = -143 dirham. Step 6: Identify the souk with the least takings. Answer: Cherabliyine
+train_0076,67,Step 1: Identify what Latifa's stall sells - zellij tiles. Step 2: Find the price of zellij tiles - 67 dirham. Step 3: Determine what Najat sells and charges - same as Latifa.  Answer: 67 dirham
+train_0077,256,Step 1: Calculate the toll for the 9 carts that weigh 67 kg. Step 2: Each of these carts costs 26 dirham. Step 3: Calculate the toll for the 2 carts that weigh 55 kg. Step 4: Each of these carts costs 11 dirham. Step 5: Add the tolls from both groups of carts to get the total.  Calculation: 9 carts × 26 dirham/cart = 234 dirham 2 carts × 11 dirham/cart = 22 dirham Total toll = 234 dirham + 22 dirham = 256 dirham  Answer: 256
+train_0078,68,Step 1: Identify the toll per cart - 4 dirham. Step 2: Identify the number of carts - 17. Step 3: Calculate the total toll - 4 dirham/cart * 17 carts = 68 dirham. Answer: 68
+train_0079,80,Answer: 80 dirham
+train_0080,seffarine,1. Nejjarine: 200 - (1 * 6) = 194 dirham 2. Henna: 289 - (4 * 6) = 255 dirham 3. Seffarine: 305 - (8 * 6) = 263 dirham 4. Attarine: 263 - (3 * 6) = 235 dirham  Answer: Seffarine
+train_0081,21,Answer: 21
+train_0082,19:15,1. Opens at 07:15. 2. Works for 8 hours until 15:15. 3. Pauses for 25 minutes at 15:15. 4. Resumes and works for 4 more hours until 19:15.  Answer: 19:15
+train_0083,23,Answer: 23
+train_0084,7,Answer: 7
+train_0085,8,Step 1: Calculate total lanterns = 8 crates * 4 lanterns/crate = 32 lanterns. Step 2: Subtract lanterns sold = 32 - 6 = 26 lanterns. Step 3: Subtract lanterns given to apprentices = 26 - (6 * 3) = 26 - 18 = 8 lanterns.  Answer: 8
+train_0086,seffarine,"First, calculate the total fees for each souk: - Nejjarine: 40 crates * 8 dirham = 320 dirham - Seffarine: 35 crates * 8 dirham = 280 dirham - Boujloud: 44 crates * 8 dirham = 352 dirham - Henna: 55 crates * 8 dirham = 440 dirham  Next, subtract the fees from the takings: - Nejjarine: 204 - 320 = -116 dirham - Seffarine: 152 - 280 = -128 dirham - Boujloud: 281 - 352 = -71 dirham - Henna: 300 - 440 = -140 dirham  The souk that keeps the least is Seffarine. Answer: Seffarine"
+train_0087,26,"Step 1: Identify the direct path from Sagha to Seffarine. Step 2: The direct path is Sagha-Seffarine, which takes 26 minutes. Step 3: Consider alternative paths (Sagha-Rcif-Seffarine), but they would take longer (10 + 7 = 17 minutes).  Answer: 26"
+train_0088,20,Answer: 20
+train_0089,19:35,1. Opens at 08:45. 2. Works for 8 hours: 08:45 + 08:00 = 16:45. 3. Pauses for 50 minutes: 16:45 + 00:50 = 17:35. 4. Works 2 more hours: 17:35 + 02:00 = 19:35.  Answer: 19:35
+train_0090,49,Step 1: Identify the toll per cart - 7 dirham. Step 2: Identify the number of carts - 7. Step 3: Calculate the total toll - 7 dirham/cart * 7 carts = 49 dirham. Answer: 49
+train_0091,114,Step 1: Calculate the toll for the 14 lighter carts. 14 carts * 7 dirham/cart = 98 dirham Step 2: Calculate the toll for the heavier cart. 1 cart * 16 dirham/cart = 16 dirham Step 3: Add both amounts to get the total toll. 98 dirham + 16 dirham = 114 dirham Answer: 114
+train_0092,cherabliyine,"Step 1: Compare the takings of each souk. Step 2: Cherabliyine - 267 dirham, Rcif - 168 dirham, Chouara - 176 dirham, Attarine - 261 dirham. Step 3: Identify the highest amount.  Answer: Cherabliyine"
+train_0093,68,Answer: 68 dirham
+train_0094,121,Step 1: Identify the toll per cart - 11 dirham. Step 2: Identify the number of carts - 11. Step 3: Calculate the total toll - 11 dirham/cart * 11 carts = 121 dirham. Answer: 121
+train_0095,henna,"Step 1: Compare the takings of each souk. Step 2: Chouara - 249 dirham, Rcif - 196 dirham, Henna - 269 dirham, Boujloud - 159 dirham. Step 3: Identify the highest amount.  Answer: Henna"
+train_0096,50,Step 1: Calculate the total number of slippers by multiplying the number of crates by the number of slippers per crate. Step 2: 10 crates * 5 slippers/crate = 50 slippers.  Answer: 50
+train_0097,28,Step 1: Calculate total tiles Karim has initially. 6 crates * 7 tiles/crate = 42 tiles  Step 2: Subtract the tiles sold. 42 tiles - 6 tiles = 36 tiles  Step 3: Subtract the tiles given to apprentices. 36 tiles - (4 tiles/apprentice * 2 apprentices) = 36 tiles - 8 tiles = 28 tiles  Answer: 28
+train_0098,attarine,"1. Calculate takings for each souk: Henna (268), Attarine (271), Nejjarine (314), Cherabliyine (328). 2. Calculate stall fees for each souk: Henna (44 crates * 12 dirham = 528), Attarine (60 crates * 12 dirham = 720), Nejjarine (44 crates * 12 dirham = 528), Cherabliyine (44 crates * 12 dirham = 528). 3. Calculate net takings: Henna (268 - 528 = -260), Attarine (271 - 720 = -449), Nejjarine (314 - 528 = -214), Cherabliyine (328 - 528 = -200). 4. Identify the souk with the least net takings.  Answer: Attarine"
+train_0099,9,Answer: 9
+train_0100,121,Step 1: Calculate the total number of boxes by multiplying the number of crates by the number of boxes per crate. Step 2: 11 crates * 11 boxes/crate = 121 boxes.  Answer: 121
+train_0101,30,Step 1: Calculate total trays loaded by Omar. 6 crates * 10 trays/crate = 60 trays. Step 2: Subtract trays sold at Chouara. 60 trays - 20 trays = 40 trays. Step 3: Calculate trays given to apprentices. 5 trays/apprentice * 2 apprentices = 10 trays. Step 4: Subtract trays given to apprentices. 40 trays - 10 trays = 30 trays. Answer: 30
+train_0102,83,Answer: 83 dirham
+train_0103,12:45,Answer: 12:45
+train_0104,54,Step 1: Calculate the total number of tiles by multiplying the number of crates by the number of tiles per crate. Step 2: 9 crates * 6 tiles/crate = 54 tiles.  Answer: 54
+train_0105,19,Answer: 19
+train_0106,63,Step 1: Identify the price of saffron from the list. Step 2: Saffron costs 63 dirham.  Answer: 63 dirham
+train_0107,10,Answer: 10
+train_0108,14:00,Answer: 14:00
+train_0109,140,Step 1: Identify the toll per cart = 10 dirham. Step 2: Identify the number of carts = 14. Step 3: Calculate the total toll = 10 dirham/cart * 14 carts. Step 4: Total toll = 140 dirham.  Answer: 140 dirham
+train_0110,140,"Step 1: Identify the number of crates, which is 14. Step 2: Identify the number of lanterns per crate, which is 10. Step 3: Multiply the number of crates by the number of lanterns per crate to find the total number of lanterns. 14 crates * 10 lanterns/crate = 140 lanterns. Answer: 140"
+train_0111,348,Step 1: Calculate the toll for the 12 carts weighing 55 kg. Step 2: Calculate the toll for the 6 carts weighing 41 kg. Step 3: Sum the tolls from both groups of carts.  Toll for 12 carts (55 kg each): 12 carts * 23 dirham/cart = 276 dirham. Toll for 6 carts (41 kg each): 6 carts * 12 dirham/cart = 72 dirham.  Total toll: 276 dirham + 72 dirham = 348 dirham.  Answer: 348
+train_0112,20,Answer: 20
+train_0113,12:45,Answer: 12:45
+train_0114,138,Step 1: Calculate total boxes Youssef loaded = 17 crates * 11 boxes/crate = 187 boxes. Step 2: Subtract the boxes sold at Henna = 187 - 29 = 158 boxes. Step 3: Calculate boxes given to apprentices = 4 boxes/apprentice * 5 apprentices = 20 boxes. Step 4: Subtract the boxes given to apprentices = 158 - 20 = 138 boxes.  Answer: 138
+train_0115,13:35,Answer: 13:35
+train_0116,talaa,Step 1: Identify the takings for each souk. Step 2: Compare the amounts. Step 3: Determine the souk with the lowest amount.  Answer: Talaa
+train_0117,33,"Step 1: Identify what Latifa's stall sells - brass lanterns. Step 2: Find the price of brass lanterns - 33 dirham. Step 3: Determine Youssef's price - same as Latifa's, 33 dirham.  Answer: 33 dirham"
+train_0118,56,Step 1: Calculate total lanterns = 15 crates * 5 lanterns/crate = 75 lanterns. Step 2: Subtract lanterns sold = 75 - 13 = 62 lanterns. Step 3: Subtract lanterns given to apprentices = 62 - (2 lanterns/apprentice * 3 apprentices) = 62 - 6 = 56 lanterns.  Answer: 56
+train_0119,91,Step 1: Identify the toll per cart - 7 dirham. Step 2: Identify the number of carts - 13. Step 3: Multiply the toll per cart by the number of carts - 7 * 13 = 91 dirham. Answer: 91
+train_0120,150,Step 1: Identify the toll per cart = 10 dirham Step 2: Identify the number of carts = 15 Step 3: Calculate total toll = 10 dirham/cart * 15 carts Answer: 150
+train_0121,11:15,Answer: 11:15
+train_0122,10:20,Answer: 10:20
+train_0123,talaa,Step 1: Compare Henna (192 dirham) to Attarine (150 dirham). Step 2: Compare Nejjarine (152 dirham) to Talaa (218 dirham). Step 3: Determine that Talaa had the highest amount at 218 dirham.  Answer: Talaa
+train_0124,17:15,Answer: 17:15
+train_0125,6,Answer: 6
+train_0126,cherabliyine,Step 1: Compare Talaa's takings (317 dirham) with Chouara's (239 dirham). Step 2: Compare Henna's takings (229 dirham) with Cherabliyine's (268 dirham). Step 3: Determine that Cherabliyine had the highest takings at 268 dirham.  Answer: Cherabliyine
+train_0127,14,Step 1: Identify what Omar's stall sells - dates. Step 2: Determine the price of dates - 14 dirham. Step 3: Samira's stall sells the same item as Omar's stall. Answer: 14 dirham
+train_0128,14:45,Answer: 14:45
+train_0129,sagha,"Step 1: Compare the takings of each souk. Step 2: Attarine - 187 dirham, Sagha - 303 dirham, Chouara - 254 dirham, Boujloud - 257 dirham. Step 3: Identify the highest amount. Answer: Sagha"
+train_0130,18:10,1. Opens at 09:20 and works for 6 hours until 15:20. 2. Pauses for 50 minutes from 15:20 to 16:10. 3. Works for 2 more hours from 16:10 to 18:10.  Answer: 18:10
+train_0131,119,Step 1: Identify the toll per cart - 7 dirham. Step 2: Identify the number of carts - 17. Step 3: Calculate the total toll - 7 dirham/cart * 17 carts = 119 dirham. Answer: 119
+train_0132,5,Step 1: Calculate total lanterns Najat loaded: 6 crates * 7 lanterns/crate = 42 lanterns. Step 2: Subtract lanterns sold: 42 - 12 = 30 lanterns. Step 3: Subtract lanterns given to apprentices: 30 - (5 lanterns/apprentice * 5 apprentices) = 30 - 25 = 5 lanterns. Answer: 5
+train_0133,14:10,Answer: 14:10
+train_0134,11:45,Answer: 11:45
+train_0135,27,Answer: 27 dirham
+train_0136,150,Step 1: Identify the toll per cart = 10 dirham. Step 2: Identify the number of carts = 15. Step 3: Calculate the total toll = 10 dirham/cart * 15 carts. Step 4: Total toll = 150 dirham.  Answer: 150 dirham
+train_0137,158,Step 1: Calculate the toll for the 6 carts weighing 72 kg. Step 2: Calculate the toll for the 5 carts weighing 46 kg. Step 3: Sum the tolls from both groups of carts.  Toll for 6 carts (72 kg each): 6 carts * 18 dirham/cart = 108 dirham. Toll for 5 carts (46 kg each): 5 carts * 10 dirham/cart = 50 dirham. Total toll: 108 dirham + 50 dirham = 158 dirham.  Answer: 158
+train_0138,9,Answer: 9
+train_0139,108,Step 1: Calculate the total number of tiles by multiplying the number of crates by the number of tiles per crate. Step 2: 9 crates * 12 tiles per crate = 108 tiles.  Answer: 108
+train_0140,116,Step 1: Calculate the toll for the 16 lighter carts (32 kg each). Step 2: Calculate the toll for the 2 heavier carts (57 kg each). Step 3: Sum the tolls from both steps.  16 carts * 5 dirham/cart = 80 dirham 2 carts * 18 dirham/cart = 36 dirham  80 dirham + 36 dirham = 116 dirham  Answer: 116
+train_0141,14:55,"1. Opens at 06:35 and works for 5 hours until 11:35. 2. Pauses for 20 minutes at 11:35, resuming at 11:55. 3. Works for 3 more hours until 14:55.  Answer: 14:55"
+train_0142,13:50,Step 1: Open at 06:15 Step 2: Work for 4 hours until 10:15 Step 3: Pause for 35 minutes from 10:15 to 10:50 Step 4: Work for 3 more hours from 10:50 to 13:50  Answer: 13:50
+train_0143,198,Step 1: Identify the toll per cart = 11 dirham. Step 2: Identify the number of carts = 18. Step 3: Calculate the total toll = 11 dirham/cart * 18 carts. Step 4: Total toll = 198 dirham.  Answer: 198
+train_0144,37,Step 1: Identify the price of argan oil from the list. Step 2: Argan oil costs 37 dirham.  Answer: 37 dirham
+train_0145,52,Step 1: Identify the price of mint from the Talaa board. Step 2: Mint costs 52 dirham. Answer: 52 dirham
+train_0146,14:30,Answer: 14:30
+train_0147,4,Answer: 4
+train_0148,81,Step 1: Identify the item Latifa sells - leather slippers. Step 2: Find the price of leather slippers - 81 dirham. Answer: 81
+train_0149,209,Step 1: Calculate the total number of boxes by multiplying the number of crates by the number of boxes per crate. Step 2: 19 crates * 11 boxes/crate = 209 boxes.  Answer: 209
+train_0150,16:15,Answer: 16:15
+train_0151,33,Step 1: Identify what Karim's stall sells - zellij tiles. Step 2: Determine the price of zellij tiles - 33 dirham. Step 3: Latifa's stall sells the same item as Karim's stall. Answer: 33 dirham
+train_0152,12,Answer: 12
+train_0153,11:50,Answer: 11:50
+train_0154,216,Step 1: Identify the toll per cart = 12 dirham. Step 2: Identify the number of carts = 18. Step 3: Calculate the total toll = 12 dirham/cart * 18 carts. Step 4: Total toll = 216 dirham.  Answer: 216
+train_0155,24,Answer: 24
+train_0156,rcif,Step 1: Identify the takings for each souk. Step 2: Compare the amounts. Step 3: Determine the souk with the lowest amount.  Answer: Rcif
+train_0157,first,"First, calculate the total fees for each souk: - Takings: Rcif 303 dirham, crates: 44, fee: 44 * 11 = 484 dirham - Nejjarine: 161 dirham, crates: 38, fee: 38 * 11 = 418 dirham - Chouara: 340 dirham, crates: 44, fee: 44 * 11 = 484 dirham - Talaa: 241 dirham, crates: 49, fee: 49 * 11 = 539 dirham  Next, subtract the fees from takings: - Rcif: 303 - 484 = -181 dirham - Nejjarine: 161 - 418 = -257 dirham - Chouara: 340 - 484 = -144 dirham - Talaa: 241 - 539 = -298 dirham  The souk that keeps the least is"
+train_0158,attarine,"Step 1: Compare the takings of each souk. Step 2: Sagha - 186 dirham, Attarine - 245 dirham, Cherabliyine - 179 dirham, Nejjarine - 160 dirham. Step 3: Identify the highest amount.  Answer: Attarine"
+train_0159,rcif,"Step 1: Identify the takings for each souk. Step 2: Compare the amounts: Rcif 192, Boujloud 338, Talaa 281, Cherabliyine 330. Step 3: Determine the smallest amount.  Answer: Rcif"
+train_0160,11,Step 1: Identify the direct path from Seffarine to Sagha. Step 2: The direct path is Seffarine-Henna-Sagha. Step 3: Add the times: 8 minutes (Seffarine-Henna) + 3 minutes (Henna-Sagha) = 11 minutes.  Answer: 11
+train_0161,48,Step 1: Identify the toll per cart - 6 dirham. Step 2: Identify the number of carts - 8. Step 3: Calculate the total toll - 6 dirham/cart * 8 carts = 48 dirham. Answer: 48
+train_0162,108,Step 1: Identify the charge per cart - 6 dirham. Step 2: Identify the number of carts - 18. Step 3: Multiply the charge per cart by the number of carts - 6 * 18 = 108 dirham. Answer: 108
+train_0163,18,Answer: 18
+train_0164,160,Step 1: Identify the toll per cart - 10 dirham. Step 2: Identify the number of carts - 16. Step 3: Calculate the total toll - 10 dirham/cart * 16 carts = 160 dirham. Answer: 160
+train_0165,16:05,1. Opens at 08:15 and works for 5 hours: 08:15 + 05:00 = 13:15 2. Pauses for 40 minutes: 13:15 + 00:40 = 14:05 3. Works for 2 more hours: 14:05 + 02:00 = 16:05  Answer: 16:05
+train_0166,sagha,Step 1: Identify the takings for each souk. Step 2: Compare the amounts. Step 3: Determine the souk with the lowest amount.  Answer: Sagha
+train_0167,32,"Step 1: Identify what Youssef's stall sells - mint. Step 2: Determine the price of mint - 32 dirham. Step 3: Driss's stall sells whatever Youssef's stall sells, so Driss sells mint. Step 4: Therefore, Driss charges 32 dirham.  Answer: 32 dirham"
+train_0168,13:25,1. Opens at 08:50 and works for 3 hours until 11:50. 2. Pauses for 35 minutes from 11:50 to 12:25. 3. Works for 1 more hour from 12:25 to 13:25.  Answer: 13:25
+train_0169,160,Step 1: Identify the toll per cart = 8 dirham Step 2: Identify the number of carts = 20 Step 3: Calculate total toll = 8 dirham/cart * 20 carts Step 4: Total toll = 160 dirham  Answer: 160
+train_0170,cherabliyine,Step 1: Calculate takings after deducting stall fees. Step 2: Nejjarine: 311 - (13 * 8) = 311 - 104 = 207 dirham. Step 3: Cherabliyine: 223 - (1 * 8) = 223 - 8 = 215 dirham. Step 4: Henna: 221 - (2 * 8) = 221 - 16 = 205 dirham. Step 5: Attarine: 232 - (3 * 8) = 232 - 24 = 208 dirham. Step 6: Compare the final amounts to find the highest. Answer: Cherabliyine
+train_0171,seffarine,Step 1: Calculate the total fee for each souk. Seffarine: 55 crates * 6 dirham = 330 dirham Henna: 44 crates * 6 dirham = 264 dirham Rcif: 44 crates * 6 dirham = 264 dirham Sagha: 35 crates * 6 dirham = 210 dirham  Step 2: Subtract the fees from the takings. Seffarine: 279 - 330 = -51 dirham Henna: 336 - 264 = 72 dirham Rcif: 270 - 264 = 6 dirham Sagha: 169 - 210 = -41 dirham  Answer: Seffarine
+train_0172,36,Step 1: Identify the toll per cart - 6 dirham. Step 2: Identify the number of carts - 6. Step 3: Calculate the total toll - 6 dirham/cart * 6 carts = 36 dirham. Answer: 36
+train_0173,10:25,Answer: 10:25
+train_0174,68,Step 1: Calculate the total number of tagines by multiplying the number of crates by the number of tagines per crate. Step 2: 17 crates * 4 tagines/crate = 68 tagines.  Answer: 68
+train_0175,step,Step 1: Calculate takings for each souk. Step 2: Calculate the stall fee for each souk. Step 3: Subtract the stall fee from the takings for each souk. Step 4: Compare the final amounts to find the least.  Takings:  - Takings for Takif: 273 dirham - Takings for Sagha: 255 dirham - Takings for Cherabliyine: 340 dirham - Takings for Nejjarine: 238 dirham  Stall fees (44 crates * 11 dirham per crate): - Takif: 44 * 11 = 484 dirham - Sagha: 56 * 11 = 616 dirham - Cherabliyine: 44 * 11 = 484 dirham - Nejjarine: 44 * 11 = 484 dirham  Final amounts: - Takif: 273 - 484 = -211 dirham - Sagha: 255 - 616 =
+train_0176,nejjarine,Step 1: Calculate takings for each souk. Step 2: Calculate the stall fee for each souk. Step 3: Subtract the stall fee from takings for each souk. Step 4: Compare the net takings. - Nejjarine: 332 - 49 * 7 = 332 - 343 = -11 - Rcif: 222 - 32 * 7 = 222 - 224 = -2 - Sagha: 271 - 38 * 7 = 271 - 266 = 5 - Attarine: 311 - 41 * 7 = 311 - 287 = 24  Answer: Nejjarine
+train_0177,henna,"Step 1: Compare the takings of each souk. Step 2: Boujloud - 193 dirham, Henna - 311 dirham, Attarine - 206 dirham, Seffarine - 285 dirham. Step 3: Identify the highest amount.  Answer: Henna"
+train_0178,114,Step 1: Calculate the total number of trays by multiplying the number of crates by the number of trays per crate. Step 2: 19 crates * 6 trays/crate = 114 trays.  Answer: 114
+train_0179,31,Step 1: Identify what Omar's stall sells - dates. Step 2: Determine the price of dates - 31 dirham. Step 3: Youssef's stall sells the same item as Omar's stall. Answer: 31
+train_0180,17,Answer: 17
+train_0181,17:55,Answer: 17:55
+train_0182,65,Step 1: Calculate the total number of tagines by multiplying the number of crates by the number of tagines per crate. Step 2: 13 crates * 5 tagines/crate = 65 tagines.  Answer: 65
+train_0183,187,"Step 1: Identify the number of crates, which is 17. Step 2: Identify the number of lanterns per crate, which is 11. Step 3: Multiply the number of crates by the number of lanterns per crate to find the total number of lanterns. 17 crates * 11 lanterns/crate = 187 lanterns. Answer: 187"
+train_0184,24,Answer: 24
+train_0185,3,Answer: 3
+train_0186,8,Answer: 8
+train_0187,73,Step 1: Identify what Hamid's stall sells - argan oil. Step 2: Determine Karim's price - same as Hamid's for argan oil. Step 3: Find the price of argan oil - 73 dirham.  Answer: 73 dirham
+train_0188,attarine,"Step 1: Compare the takings of each souk. Step 2: Attarine - 152 dirham, Chouara - 317 dirham, Boujloud - 236 dirham, Nejjarine - 305 dirham. Step 3: Identify the lowest amount.  Answer: Attarine"
+train_0189,25,Answer: 25
+train_0190,11:10,Answer: 11:10
+train_0191,chouara,Step 1: Compare the takings of each souk. Step 2: Chouara has the highest amount at 282 dirham. Answer: Chouara
+train_0192,15:05,1. Opens at 09:10 and works for 4 hours: 09:10 + 04:00 = 13:10 2. Pauses for 45 minutes: 13:10 + 00:45 = 14:05 3. Works for 1 more hour: 14:05 + 01:00 = 15:05  Answer: 15:05
+train_0193,boujloud,"Step 1: Compare the takings of each souk. Step 2: Sagha - 260 dirham, Attarine - 192 dirham, Talaa - 180 dirham, Boujloud - 308 dirham. Step 3: Identify the highest amount.  Answer: Boujloud"
+train_0194,36,Step 1: Identify what Hamid's stall sells - brass lanterns. Step 2: Determine the price of brass lanterns - 36 dirham. Step 3: Latifa's stall sells the same item as Hamid's stall. Answer: 36
+train_0195,3,Answer: 3
+train_0196,72,Step 1: Calculate the total number of slippers by multiplying the number of crates by the number of slippers per crate. Step 2: 9 crates * 8 slippers/crate = 72 slippers.  Answer: 72
+train_0197,8,Answer: 8
+train_0198,13,"Step 1: Identify the direct path from Sagha to Cherabliyine. Step 2: The direct path is Sagha-Nejjarine (6 minutes) and Nejjarine-Cherabliyine (7 minutes). Step 3: Calculate the total time for the direct path: 6 + 7 = 13 minutes. Step 4: Consider the alternative path through Rcif (Sagha-Rcif 7 minutes, Rcif-Cherabliyine not directly given, but we know the shortest path is the direct one from Nejjarine to Cherabliyine). Step 5: The shortest path is the direct one from Nejjarine to Cherabliyine via Nejjarine.  Answer: 13"
+train_0199,2,"Step 1: Identify the shortest walk from Chouara to Henna. Step 2: The direct walk from Chouara to Henna is via Sagha, which is 2 minutes (Chouara-Sagha) + 10 minutes (Sagha-Henna) = 12 minutes. Step 3: Alternatively, Chouara to Henna directly is 2 minutes.  Answer: 2"
+train_0200,72,Step 1: Calculate the total number of boxes by multiplying the number of crates by the number of boxes per crate. Step 2: 18 crates * 4 boxes/crate = 72 boxes.  Answer: 72
+train_0201,70,Step 1: Identify the price of leather slippers. Step 2: The price is 70 dirham. Answer: 70
+train_0202,53,Step 1: Identify the price of leather slippers from the list. Step 2: Leather slippers cost 53 dirham.  Answer: 53 dirham
+train_0203,70,Step 1: Calculate the total number of tiles by multiplying the number of crates by the number of tiles per crate. Step 2: 14 crates * 5 tiles/crate = 70 tiles.  Answer: 70
+train_0204,14:20,Answer: 14:20
+train_0205,17:20,"1. Opens at 07:50 and works for 7 hours until 14:30. 2. Pauses for 50 minutes at 14:30, resuming at 15:20. 3. Works for 2 more hours until 17:20.  Answer: 17:20"
+train_0206,chouara,"Step 1: Compare the takings of each souk. Step 2: Chouara - 194 dirham, Attarine - 274 dirham, Henna - 298 dirham, Boujloud - 258 dirham. Step 3: Identify the lowest amount.  Answer: Chouara"
+train_0207,70,Step 1: Calculate total lanterns = 13 crates * 7 lanterns/crate = 91 lanterns. Step 2: Subtract lanterns sold at Chouara = 91 - 9 = 82 lanterns. Step 3: Subtract lanterns given to apprentices = 82 - (6 lanterns/apprentice * 2 apprentices) = 82 - 12 = 70 lanterns. Answer: 70
+train_0208,21,Answer: 21
+train_0209,48,Step 1: Calculate the total number of tiles by multiplying the number of crates by the number of tiles per crate. Step 2: 12 crates * 4 tiles/crate = 48 tiles.  Answer: 48
+train_0210,17:00,1. Opens at 07:35. 2. Works for 7 hours: 07:35 + 07:00 = 14:35. 3. Pauses for 25 minutes: 14:35 + 00:25 = 15:00. 4. Works for 2 more hours: 15:00 + 02:00 = 17:00.  Answer: 17:00
+train_0211,15,Answer: 15
+train_0212,108,Step 1: Calculate the total number of boxes by multiplying the number of crates by the number of boxes per crate. Step 2: 12 crates * 9 boxes/crate = 108 boxes.  Answer: 108
+train_0213,63,"Step 1: Identify the number of crates, which is 9. Step 2: Identify the number of lanterns per crate, which is 7. Step 3: Multiply the number of crates by the number of lanterns per crate to find the total number of lanterns. 9 crates * 7 lanterns/crate = 63 lanterns Answer: 63"
+train_0214,rcif,Step 1: Identify the takings for each souk. Step 2: Compare the amounts. Step 3: Determine the souk with the lowest amount.  Answer: Rcif
+train_0215,70,Step 1: Identify the toll per cart - 10 dirham. Step 2: Identify the number of carts - 7. Step 3: Calculate the total toll - 10 dirham/cart * 7 carts = 70 dirham. Answer: 70
+train_0216,30,Step 1: Identify the toll per cart - 5 dirham. Step 2: Identify the number of carts - 6. Step 3: Calculate the total toll - 5 dirham/cart * 6 carts = 30 dirham. Answer: 30
+train_0217,12:05,Answer: 12:05
+train_0218,119,Step 1: Calculate the total number of trays by multiplying the number of crates by the number of trays per crate. Step 2: 17 crates * 7 trays/crate = 119 trays.  Answer: 119
+train_0219,34,Step 1: Identify the price of dates from the list. Step 2: Dates cost 34 dirham.  Answer: 34 dirham
+train_0220,60,Step 1: Calculate the total number of tagines by multiplying the number of crates by the number of tagines per crate. Step 2: 15 crates * 4 tagines/crate = 60 tagines.  Answer: 60
+train_0221,52,Step 1: Calculate the toll for the 3 carts weighing 50 kg. Each cart costs 16 dirham. Step 2: Calculate the toll for the 1 cart weighing 31 kg. Each cart costs 4 dirham. Step 3: Add the tolls from both steps to get the total toll.  Answer: 52 dirham
+train_0222,23,Answer: 23
+train_0223,56,Step 1: Identify the toll per cart - 4 dirham. Step 2: Identify the number of carts - 14. Step 3: Calculate the total toll - 4 dirham/cart * 14 carts = 56 dirham. Answer: 56
+train_0224,chouara,"Step 1: Compare the takings of each souk. Step 2: Cherabliyine - 244 dirham, Chouara - 340 dirham, Talaa - 313 dirham, Seffarine - 293 dirham. Step 3: Identify the highest amount.  Answer: Chouara"
+train_0225,16:50,1. Opens at 09:15 and works for 3 hours until 12:15. 2. Pauses for 35 minutes from 12:15 to 12:50. 3. Works for 4 more hours from 12:50 to 16:50.  Answer: 16:50
+train_0226,84,Step 1: Identify the charge per cart - 6 dirham. Step 2: Identify the number of carts - 14. Step 3: Calculate the total toll - 6 dirham/cart * 14 carts = 84 dirham. Answer: 84
+train_0227,attarine,"Step 1: Identify the takings for each souk. Step 2: Compare the amounts: Chouara (258), Henna (340), Attarine (163), Talaa (270). Step 3: Determine the smallest amount.  Answer: Attarine"
+train_0228,13:15,1. Opens at 06:50 and works for 4 hours: 10:50. 2. Pauses for 25 minutes: 11:15. 3. Works for 2 more hours: 13:15.  Answer: 13:15
+train_0229,nejjarine,Step 1: Identify the takings for each souk. Step 2: Compare the amounts. Step 3: Determine the souk with the lowest amount.  Answer: Nejjarine
+train_0230,80,"Step 1: Identify the toll for each cart. - Carts weighing more than 40 kg pay 23 dirham. - Carts weighing 40 kg or less pay 11 dirham.  Step 2: Calculate the toll for the 3 carts weighing 59 kg. - Each pays 23 dirham, so 3 carts × 23 dirham = 69 dirham.  Step 3: Calculate the toll for the 1 cart weighing 31 kg. - Pays 11 dirham.  Step 4: Add the tolls together. - 69 dirham + 11 dirham = 80 dirham.  Answer: 80"
+train_0231,11,Answer: 11
+train_0232,cherabliyine,"First, calculate the total fees for each souk: - Cherabliyine: 50 crates * 9 dirham = 450 dirham - Chouara: 38 crates * 9 dirham = 342 dirham - Attarine: 37 crates * 9 dirham = 333 dirham - Henna: 34 crates * 9 dirham = 306 dirham  Next, subtract these fees from the takings: - Cherabliyine: 303 - 450 = -147 dirham - Chouara: 211 - 342 = -131 dirham - Attarine: 195 - 333 = -138 dirham - Henna: 182 - 306 = -124 dirham  The souk that keeps the least is Cherabliyine, with a negative balance of -147 dirham.  Answer: Cherabliyine"
+train_0233,258,Step 1: Calculate the toll for the 18 lighter carts. 18 carts * 12 dirham/cart = 216 dirham Step 2: Calculate the toll for the 2 heavier carts. 2 carts * 21 dirham/cart = 42 dirham Step 3: Add both amounts to get the total toll. 216 dirham + 42 dirham = 258 dirham Answer: 258
+train_0234,16:15,Answer: 16:15
+train_0235,64,Step 1: Calculate the total number of boxes by multiplying the number of crates by the number of boxes per crate. Step 2: 8 crates * 8 boxes per crate = 64 boxes.  Answer: 64
+train_0236,17:00,1. Opens at 09:25 and works for 4 hours: 09:25 + 04:00 = 13:25 2. Pauses for 35 minutes: 13:25 + 00:35 = 14:00 3. Works for 3 more hours: 14:00 + 03:00 = 17:00  Answer: 17:00
+train_0237,talaa,Step 1: Calculate takings after deducting stall fees. Attarine: 188 - (3 * 12) = 152 dirham Henna: 204 - (2 * 12) = 180 dirham Talaa: 261 - (9 * 12) = 183 dirham Rcif: 202 - (3 * 12) = 166 dirham  Step 2: Compare the final takings. Attarine: 152 dirham Henna: 180 dirham Talaa: 183 dirham Rcif: 166 dirham  Answer: Talaa
+train_0238,146,Step 1: Calculate the toll for the 4 carts that weigh 94 kg. Step 2: Calculate the toll for the remaining 7 carts that weigh 59 kg. Step 3: Sum the tolls from both groups of carts.  Toll for 4 carts (94 kg each): 4 carts * 19 dirham/cart = 76 dirham. Toll for 7 carts (59 kg each): 7 carts * 10 dirham/cart = 70 dirham. Total toll: 76 dirham + 70 dirham = 146 dirham.  Answer: 146
+train_0239,12:15,Answer: 12:15
+train_0240,3,Answer: 3
+train_0241,19,Answer: 19
+train_0242,boujloud,Step 1: Calculate takings for each souk. Step 2: Calculate stall fees for each souk. Step 3: Subtract stall fees from takings. Step 4: Compare results to find the least.  Boujloud: 160 - (30 * 8) = 160 - 240 = -80 Nejjarine: 327 - (44 * 8) = 327 - 352 = -25 Attarine: 308 - (52 * 8) = 308 - 416 = -108 Cherabliyine: 167 - (33 * 8) = 167 - 264 = -97  Answer: Boujloud
+train_0243,4,Answer: 4
+train_0244,8,Answer: 8
+train_0245,talaa,Step 1: Identify the takings for each souk. Step 2: Compare the amounts. Step 3: Determine the souk with the lowest amount.  Answer: Talaa
+train_0246,41,Step 1: Identify the cost of zellij tiles from the list. Step 2: Zellij tiles cost 41 dirham.  Answer: 41 dirham
+train_0247,cherabliyine,"First, calculate the total crate fees for each souk: - Nejjarine: 44 crates * 9 dirham = 396 dirham - Attarine: 44 crates * 9 dirham = 396 dirham - Cherabliyine: 58 crates * 9 dirham = 522 dirham - Chouara: 44 crates * 9 dirham = 396 dirham  Next, subtract the crate fees from the takings: - Nejjarine: 298 - 396 = -98 dirham - Attarine: 327 - 396 = -69 dirham - Cherabliyine: 265 - 522 = -257 dirham - Chouara: 255 - 396 = -141 dirham  The souk that keeps the least is the one with the most negative value, which is Cherabliyine.  Answer: Cherabliyine"
+train_0248,26,Step 1: Identify the price of amber from the list. Step 2: Amber costs 26 dirham.  Answer: 26
+train_0249,49,Step 1: Calculate total tagines loaded = 12 crates * 5 tagines/crate = 60 tagines. Step 2: Subtract tagines sold at Attarine = 60 - 7 = 53 tagines. Step 3: Subtract tagines given to apprentices = 53 - (2 apprentices * 2 tagines/apprentice) = 53 - 4 = 49 tagines. Answer: 49
+train_0250,188,Step 1: Calculate the toll for the 13 lighter carts (49 kg each). Step 2: Calculate the toll for the 2 heavier carts (65 kg each). Step 3: Add the two amounts to get the total toll.  13 carts * 12 dirham/cart = 156 dirham 2 carts * 16 dirham/cart = 32 dirham  156 dirham + 32 dirham = 188 dirham  Answer: 188
+train_0251,10,Answer: 10
+train_0252,42,"Step 1: Identify what Latifa's stall sells - zellij tiles. Step 2: Determine the price of zellij tiles - 42 dirham. Step 3: Karim's stall sells the same item as Latifa's, so he charges the same price.  Answer: 42 dirham"
+train_0253,12:35,Answer: 12:35
+train_0254,rcif,Step 1: Identify the takings for each souk. Step 2: Compare the amounts. Step 3: Determine the souk with the lowest amount.  Answer: Rcif
+train_0255,119,Step 1: Calculate the total number of trays by multiplying the number of crates by the number of trays per crate. Step 2: 17 crates * 7 trays/crate = 119 trays.  Answer: 119
+train_0256,20,Step 1: Identify the price of leather slippers. Step 2: The price is 20 dirham. Answer: 20 dirham
+train_0257,28,Answer: 28
+train_0258,12:55,Answer: 12:55
+train_0259,first,"First, calculate the total takings for each souk: - Seffarine: 230 dirham - Henna: 164 dirham - Cherabliyine: 178 dirham - Nejjarine: 237 dirham  Next, calculate the stall fees for each souk: - Seffarine: 1 crate * 8 dirham = 8 dirham - Henna: 1 crate * 8 dirham = 8 dirham - Cherabliyine: 1 crate * 8 dirham = 8 dirham - Nejjarine: 7 crates * 8 dirham = 56 dirham  Subtract the stall fees from the total takings: - Seffarine: 230 - 8 = 222 dirham - Henna: 164 - 8 = 156 dirham - Cherabliyine: 178 - 8 = 170 dirham - Nejjarine: 237 - 56 = 181 dirham  The souk that keeps the most is Nej"
+train_0260,83,"Step 1: Identify what Najat's stall sells - saffron. Step 2: Determine the price of saffron - 83 dirham. Step 3: Since Hamid's stall sells the same items as Najat's, Hamid also sells saffron at 83 dirham.  Answer: 83 dirham"
+train_0261,32,Step 1: Identify the toll per cart - 4 dirham. Step 2: Identify the number of carts - 8. Step 3: Calculate the total toll - 4 dirham/cart * 8 carts = 32 dirham. Answer: 32
+train_0262,85,Step 1: Identify the price of argan oil from the list. Step 2: Argan oil costs 85 dirham.  Answer: 85 dirham
+train_0263,99,"Step 1: Identify the number of crates, which is 11. Step 2: Identify the number of boxes per crate, which is 9. Step 3: Multiply the number of crates by the number of boxes per crate to find the total number of boxes. 11 crates * 9 boxes/crate = 99 boxes Answer: 99"
+train_0264,75,Step 1: Identify the price of leather slippers. Step 2: The price is 75 dirham. Answer: 75 dirham
+train_0265,102,Step 1: Calculate total boxes loaded by Latifa. 15 crates * 9 boxes/crate = 135 boxes. Step 2: Calculate boxes sold. 135 boxes - 25 boxes = 110 boxes. Step 3: Calculate boxes given to apprentices. 2 boxes/apprentice * 4 apprentices = 8 boxes. Step 4: Calculate remaining boxes. 110 boxes - 8 boxes = 102 boxes.  Answer: 102
+train_0266,45,Step 1: Identify the toll per cart - 9 dirham. Step 2: Identify the number of carts - 5. Step 3: Calculate the total toll - 9 dirham/cart * 5 carts = 45 dirham. Answer: 45
+train_0267,12:45,"1. Opens at 07:20 and works for 4 hours until 11:20. 2. Pauses for 25 minutes at 11:20, resuming at 11:45. 3. Works for 1 more hour until 12:45.  Answer: 12:45"
+train_0268,107,Step 1: Calculate total slippers loaded by Omar. 13 crates * 12 slippers/crate = 156 slippers Step 2: Subtract the slippers sold at Talaa. 156 - 34 = 122 slippers Step 3: Subtract the slippers given to apprentices. 122 - (3 slippers/apprentice * 5 apprentices) = 122 - 15 = 107 slippers Answer: 107
+train_0269,10,Answer: 10
+train_0270,nejjarine,Step 1: Calculate takings for each souk. Step 2: Calculate the stall fee for each souk. Step 3: Subtract the stall fee from the takings for each souk. Step 4: Compare the final amounts to find the least.  Chouara: 236 - (40 * 8) = 236 - 320 = -84 Nejjarine: 256 - (44 * 8) = 256 - 352 = -96 Rcif: 172 - (31 * 8) = 172 - 248 = -76 Boujloud: 289 - (51 * 8) = 289 - 408 = -119  Answer: Nejjarine
+train_0271,11,Step 1: Identify the relevant paths from Sagha to Boujloud. Step 2: Compare the times for Sagha-Boujloud and Sagha-Talaa (12 minutes) to find the shortest path. Step 3: Determine the shortest walk time.  Answer: 11
+train_0272,72,Step 1: Identify the charge per cart - 12 dirham. Step 2: Identify the number of carts - 6. Step 3: Calculate the total toll - 12 dirham/cart * 6 carts = 72 dirham. Answer: 72
+train_0273,191,"Step 1: Calculate the toll for the 5 carts that weigh 72 kg. Step 2: Each of these carts costs 25 dirham, so 5 carts × 25 dirham = 125 dirham. Step 3: Calculate the toll for the remaining 6 carts that weigh 38 kg. Step 4: Each of these carts costs 11 dirham, so 6 carts × 11 dirham = 66 dirham. Step 5: Add the tolls from both groups of carts. Step 6: 125 dirham + 66 dirham = 191 dirham.  Answer: 191"
+train_0274,14:05,Answer: 14:05
+train_0275,16:10,Answer: 16:10
+train_0276,attarine,"First, calculate the total crate fees for each souk: - Sagha: 44 crates * 8 dirham/crate = 352 dirham - Attarine: 44 crates * 8 dirham/crate = 352 dirham - Henna: 51 crates * 8 dirham/crate = 408 dirham - Talaa: 41 crates * 8 dirham/crate = 328 dirham  Next, subtract the fees from each souk's takings: - Sagha: 321 - 352 = -31 dirham - Attarine: 285 - 352 = -67 dirham - Henna: 314 - 408 = -94 dirham - Talaa: 255 - 328 = -73 dirham  The souk that keeps the least is Attarine. Answer: Attarine"
+train_0277,36,Step 1: Identify the toll per cart - 6 dirham. Step 2: Identify the number of carts - 6. Step 3: Calculate the total toll - 6 dirham/cart * 6 carts = 36 dirham. Answer: 36
+train_0278,88,Step 1: Identify what Samira's stall sells - dates. Step 2: Determine Omar's pricing - same as Samira's. Step 3: Find the price of dates - 88 dirham.  Answer: 88 dirham
+train_0279,36,Step 1: Calculate the total number of boxes by multiplying the number of crates by the number of boxes per crate. Step 2: 6 crates * 6 boxes per crate = 36 boxes.  Answer: 36
+train_0280,nejjarine,Step 1: Identify the takings for each souk. Step 2: Compare the amounts. Step 3: Determine the souk with the lowest amount.  Answer: Nejjarine
+train_0281,37,Step 1: Calculate total slippers loaded by Omar. 8 crates * 9 slippers/crate = 72 slippers  Step 2: Calculate slippers sold at Talaa. 20 slippers  Step 3: Calculate slippers given to apprentices. 5 slippers/apprentice * 3 apprentices = 15 slippers  Step 4: Calculate remaining slippers. 72 - 20 - 15 = 37 slippers  Answer: 37
+train_0282,90,Step 1: Calculate the total number of tiles by multiplying the number of crates by the number of tiles per crate. Step 2: 10 crates * 9 tiles/crate = 90 tiles.  Answer: 90
+train_0283,99,Step 1: Calculate the total number of tagines by multiplying the number of crates by the number of tagines per crate. Step 2: 9 crates * 11 tagines/crate = 99 tagines.  Answer: 99
+train_0284,72,Step 1: Calculate the toll for the 3 carts that weigh 62 kg. These are charged at 16 dirham per cart. Step 2: Calculate the toll for the 4 carts that weigh 35 kg. These are charged at 6 dirham per cart. Step 3: Add the tolls from both groups of carts to get the total toll.  Calculation: 3 carts * 16 dirham/cart = 48 dirham 4 carts * 6 dirham/cart = 24 dirham Total toll = 48 dirham + 24 dirham = 72 dirham  Answer: 72
+train_0285,nejjarine,Step 1: Calculate takings for each souk. Step 2: Calculate the stall fees for each souk. Step 3: Subtract stall fees from takings for each souk. Step 4: Compare the net takings. Seffarine: 162 - 6*1 = 156 Sagha: 255 - 6*12 = 177 Nejjarine: 249 - 6*4 = 237 Cherabliyine: 179 - 6*1 = 173 Answer: Nejjarine
+train_0286,seffarine,"Step 1: Compare the takings of each souk. Step 2: Henna - 188 dirham, Sagha - 210 dirham, Boujloud - 186 dirham, Seffarine - 338 dirham. Step 3: Identify the highest amount. Answer: Seffarine"
+train_0287,18:45,1. Opens at 08:05. 2. Works for 7 hours: 08:05 + 07:00 = 15:05. 3. Pauses for 40 minutes: 15:05 + 00:40 = 15:45. 4. Works for 3 more hours: 15:45 + 03:00 = 18:45.  Answer: 18:45
+train_0288,7,Answer: 7
+train_0289,rcif,"Step 1: Identify the takings for each souk. Step 2: Compare the amounts: Boujloud (177), Chouara (226), Seffarine (238), Rcif (172). Step 3: Determine the lowest amount.  Answer: Rcif"
+train_0290,160,Step 1: Identify the toll per cart = 8 dirham Step 2: Identify the number of carts = 20 Step 3: Calculate total toll = 8 dirham/cart * 20 carts Step 4: Total toll = 160 dirham  Answer: 160
+train_0291,16:10,1. Opens at 09:25 and works for 3 hours: 09:25 + 03:00 = 12:25. 2. Pauses for 45 minutes: 12:25 + 00:45 = 13:10. 3. Works for another 3 hours: 13:10 + 03:00 = 16:10.  Answer: 16:10
+train_0292,sagha,Step 1: Identify the takings for each souk. Step 2: Compare the amounts. Step 3: Determine the lowest amount.  Answer: Sagha
+train_0293,85,Step 1: Identify what Najat's stall sells - dates. Step 2: Determine Omar's pricing - same as Najat's. Step 3: Find the price of dates - 85 dirham. Answer: 85 dirham
+train_0294,186,Step 1: Calculate the toll for the 6 carts weighing 61 kg. Step 2: Calculate the toll for the remaining 11 carts weighing 42 kg. Step 3: Sum the tolls from both groups of carts.  Toll for 61 kg carts: 6 carts * 20 dirham = 120 dirham Toll for 42 kg carts: 11 carts * 6 dirham = 66 dirham  Total toll: 120 dirham + 66 dirham = 186 dirham  Answer: 186
+train_0295,72,Step 1: Calculate the total number of slippers by multiplying the number of crates by the number of slippers per crate. Step 2: 18 crates * 4 slippers/crate = 72 slippers.  Answer: 72
+train_0296,170,Step 1: Calculate the total number of boxes by multiplying the number of crates by the number of boxes per crate. Step 2: 17 crates * 10 boxes/crate = 170 boxes.  Answer: 170
+train_0297,90,Step 1: Identify the charge per cart - 9 dirham. Step 2: Identify the number of carts - 10. Step 3: Calculate the total toll - 9 dirham/cart * 10 carts = 90 dirham. Answer: 90
+train_0298,50,Answer: 50 dirham
+train_0299,6,"Step 1: Identify the direct path from Henna to Talaa. Step 2: The direct path is Henna-Talaa, which takes 6 minutes.  Answer: 6"
+train_0300,15,Answer: 15
+train_0301,108,Step 1: Identify the charge per cart - 6 dirham. Step 2: Identify the number of carts - 18. Step 3: Calculate the total toll - 6 dirham/cart * 18 carts = 108 dirham. Answer: 108
+train_0302,71,Step 1: Identify what Driss's stall sells - cedar boxes. Step 2: Determine the price of cedar boxes - 71 dirham. Step 3: Understand that Latifa's stall sells the same item as Driss's. Step 4: Conclude that Latifa charges the same price as Driss for cedar boxes.  Answer: 71 dirham
+train_0303,2,Answer: 2
+train_0304,81,Step 1: Calculate the toll for the 6 carts that weigh 62 kg. Step 2: Calculate the toll for the 3 carts that weigh 91 kg. Step 3: Add the tolls from steps 1 and 2 to get the total toll.  6 carts * 4 dirham = 24 dirham 3 carts * 19 dirham = 57 dirham 24 dirham + 57 dirham = 81 dirham  Answer: 81
+train_0305,112,"Step 1: Calculate the toll for the 4 carts weighing 66 kg. Step 2: Each of these carts costs 19 dirham, so 4 carts cost 4 * 19 = 76 dirham. Step 3: Calculate the toll for the 4 carts weighing 50 kg. Step 4: Each of these carts costs 9 dirham, so 4 carts cost 4 * 9 = 36 dirham. Step 5: Add the tolls from both groups of carts. Step 6: Total toll = 76 dirham + 36 dirham = 112 dirham.  Answer: 112"
+train_0306,chouara,Step 1: Calculate takings for each souk. Step 2: Calculate the stall fees for each souk. Step 3: Subtract stall fees from takings for each souk. Step 4: Compare the net takings. Chouara: 259 - 8*1 = 251 Seffarine: 302 - 8*8 = 234 Sagha: 340 - 8*15 = 140 Cherabliyine: 260 - 8*4 = 228 Answer: Chouara
+train_0307,11,Step 1: Identify what Hamid's stall sells - cedar boxes. Step 2: Determine the price of cedar boxes - 11 dirham. Step 3: Understand that Najat's stall sells the same item as Hamid's stall. Step 4: Calculate what Najat charges - 11 dirham.  Answer: 11 dirham
+train_0308,64,"Step 1: Identify what Youssef's stall sells - saffron. Step 2: Determine the price of saffron - 64 dirham. Step 3: Driss sells the same item as Youssef, so he sells saffron. Step 4: Driss charges the price of saffron.  Answer: 64 dirham"
+train_0309,7,Step 1: Identify the relevant paths from Henna to Chouara. Step 2: Compare the times - Henna-Chouara (7 minutes) and Henna-Boujloud-Chouara (3 + 6 = 9 minutes). Step 3: Choose the shortest path.  Answer: 7
+train_0310,136,"Step 1: Calculate the toll for the 4 carts that weigh 68 kg. Step 2: Each of these carts costs 22 dirham, so 4 carts cost 4 * 22 = 88 dirham. Step 3: Calculate the toll for the 4 carts that weigh 31 kg. Step 4: Each of these carts costs 12 dirham, so 4 carts cost 4 * 12 = 48 dirham. Step 5: Add the tolls from both groups of carts. Step 6: Total toll = 88 dirham + 48 dirham = 136 dirham.  Answer: 136"
+train_0311,boujloud,Step 1: Calculate takings for each souk. Step 2: Calculate the stall fee for each souk. Step 3: Subtract the stall fee from takings for each souk. Step 4: Compare the final amounts.  Chouara: 176 - 8*1 = 168 Boujloud: 273 - 8*4 = 245 Nejjarine: 160 - 8*1 = 152 Talaa: 283 - 8*10 = 203  Answer: Boujloud
+train_0312,21:20,1. Opens at 09:30 and works for 7 hours until 16:30. 2. Pauses for 50 minutes from 16:30 to 17:20. 3. Works for 4 more hours from 17:20 to 21:20.  Answer: 21:20
+train_0313,39,Step 1: Identify the price of saffron from the Henna board list. Step 2: Saffron costs 39 dirham.  Answer: 39 dirham
+train_0314,90,Step 1: Identify the toll per cart - 9 dirham. Step 2: Identify the number of carts - 10. Step 3: Calculate the total toll - 9 dirham/cart * 10 carts = 90 dirham. Answer: 90
+train_0315,21,Answer: 21
+train_0316,18:50,"1. Opens at 09:40 and works for 5 hours until 14:40. 2. Pauses for 20 minutes at 14:40, resuming at 14:50. 3. Works for 4 more hours until 18:50.  Answer: 18:50"
+train_0317,144,Step 1: Identify the charge per cart - 8 dirham. Step 2: Identify the number of carts - 18. Step 3: Multiply the charge per cart by the number of carts - 8 * 18 = 144 dirham. Answer: 144
+train_0318,21:55,1. Opens at 09:30. 2. Works for 8 hours: 09:30 + 08:00 = 17:30. 3. Pauses for 25 minutes: 17:30 + 00:25 = 17:55. 4. Works for 4 more hours: 17:55 + 04:00 = 21:55.  Answer: 21:55
+train_0319,21,Step 1: Calculate total tiles loaded by Samira. 7 crates * 7 tiles/crate = 49 tiles  Step 2: Calculate tiles sold at Rcif. 16 tiles sold  Step 3: Calculate tiles given to apprentices. 3 tiles/apprentice * 4 apprentices = 12 tiles  Step 4: Calculate remaining tiles. 49 - 16 - 12 = 21 tiles  Answer: 21
+train_0320,62,Step 1: Identify the price of saffron from the list. Step 2: Saffron costs 62 dirham.  Answer: 62 dirham
+train_0321,21,Answer: 21
+train_0322,69,Step 1: Calculate total number of tiles Omar has initially. 7 crates * 12 tiles/crate = 84 tiles  Step 2: Subtract the tiles sold at Cherabliyine. 84 tiles - 7 tiles = 77 tiles  Step 3: Subtract the tiles given to apprentices. 4 tiles/apprentice * 2 apprentices = 8 tiles 77 tiles - 8 tiles = 69 tiles  Answer: 69
+train_0323,120,Step 1: Calculate the total number of slippers by multiplying the number of crates by the number of slippers per crate. Step 2: 12 crates * 10 slippers/crate = 120 slippers.  Answer: 120
+train_0324,112,Step 1: Identify the charge per cart - 8 dirham. Step 2: Identify the number of carts - 14. Step 3: Multiply the charge per cart by the number of carts - 8 * 14 = 112 dirham. Answer: 112
+train_0325,13:20,Answer: 13:20
+train_0326,12:30,Answer: 12:30
+train_0327,110,Step 1: Calculate the total number of lanterns by multiplying the number of crates by the number of lanterns per crate. Step 2: 10 crates * 11 lanterns/crate = 110 lanterns.  Answer: 110
+train_0328,74,Step 1: Calculate the toll for the 4 carts weighing 65 kg. Step 2: Calculate the toll for the 6 carts weighing 36 kg. Step 3: Sum the tolls from both groups of carts.  Toll for 4 carts (65 kg each): 4 carts * 11 dirham/cart = 44 dirham. Toll for 6 carts (36 kg each): 6 carts * 5 dirham/cart = 30 dirham. Total toll: 44 dirham + 30 dirham = 74 dirham.  Answer: 74
+train_0329,84,Step 1: Calculate the total number of tagines by multiplying the number of crates by the number of tagines per crate. Step 2: 7 crates * 12 tagines/crate = 84 tagines.  Answer: 84
+train_0330,12,Answer: 12
+train_0331,12:25,Answer: 12:25
+train_0332,19,Step 1: Calculate total slippers = 12 crates * 4 slippers/crate = 48 slippers. Step 2: Subtract slippers sold = 48 - 5 = 43 slippers. Step 3: Subtract slippers given to apprentices = 43 - (6 slippers/apprentice * 4 apprentices) = 43 - 24 = 19 slippers. Answer: 19
+train_0333,204,Step 1: Calculate the total number of tiles by multiplying the number of crates by the number of tiles per crate. Step 2: 17 crates * 12 tiles/crate = 204 tiles.  Answer: 204
+train_0334,24,Answer: 24
+train_0335,22,Answer: 22
+train_0336,28,Answer: 28
+train_0337,96,Step 1: Identify the toll per cart - 6 dirham. Step 2: Identify the number of carts - 16. Step 3: Calculate the total toll - 6 dirham/cart * 16 carts = 96 dirham. Answer: 96
+train_0338,74,"Step 1: Identify what Karim's stall sells - dates. Step 2: Determine the price of dates - 74 dirham. Step 3: Understand Youssef's pricing - whatever Karim sells, Youssef sells at the same price. Answer: 74 dirham"
+train_0339,chouara,Step 1: Identify the takings for each souk. Step 2: Compare the amounts. Step 3: Determine the souk with the lowest amount.  Answer: Chouara
+train_0340,11,Step 1: Identify the direct path from Talaa to Boujloud. Step 2: The direct path is Talaa-Sagha and Sagha-Boujloud. Step 3: Calculate the total time for this path (4 + 7 = 11 minutes).  Answer: 11
+train_0341,37,Step 1: Calculate total lanterns Samira has initially. 7 crates * 11 lanterns/crate = 77 lanterns  Step 2: Subtract the lanterns sold at Cherabliyine. 77 - 25 = 52 lanterns  Step 3: Subtract the lanterns given to apprentices. 52 - (5 lanterns/apprentice * 3 apprentices) = 52 - 15 = 37 lanterns  Answer: 37
+train_0342,16:35,1. Opens at 06:55. 2. Works for 6 hours until 12:55. 3. Pauses for 40 minutes from 12:55 to 13:35. 4. Works for 3 more hours from 13:35 to 16:35.  Answer: 16:35
+train_0343,20,Answer: 20
+train_0344,boujloud,Step 1: Identify the takings for each souk. Step 2: Compare the amounts. Step 3: Determine the souk with the lowest amount.  Answer: Boujloud
+train_0345,222,Step 1: Calculate the toll for the 11 heavier carts. 11 carts * 18 dirham/cart = 198 dirham Step 2: Calculate the toll for the remaining 6 lighter carts. 6 carts * 4 dirham/cart = 24 dirham Step 3: Add both tolls to get the total. 198 dirham + 24 dirham = 222 dirham Answer: 222
+train_0346,22,Answer: 22 dirham
+train_0347,19,Answer: 19 dirham
+train_0348,14:35,1. Opens at 06:50. 2. Works for 5 hours: 06:50 + 5 hours = 11:50. 3. Pauses for 45 minutes: 11:50 + 0:45 = 12:35. 4. Works for 2 more hours: 12:35 + 2 hours = 14:35.  Answer: 14:35
+train_0349,44,Step 1: Identify what Driss's stall sells - brass lanterns. Step 2: Determine Najat's pricing - same as Driss's. Step 3: Find the price of brass lanterns - 44 dirham.  Answer: 44 dirham
+train_0350,20:20,1. Opens at 09:30 and works for 6 hours until 15:30. 2. Pauses for 50 minutes from 15:30 to 16:20. 3. Works for 4 more hours from 16:20 to 20:20.  Answer: 20:20
+train_0351,31,Answer: 31 dirham
+train_0352,138,Step 1: Calculate the toll for the 14 carts weighing 54 kg. Step 2: Each of these carts costs 9 dirham. Step 3: Calculate the toll for the remaining 4 carts weighing 45 kg. Step 4: Each of these carts costs 3 dirham. Step 5: Add the tolls from both groups of carts.  Calculation: 14 carts * 9 dirham/cart = 126 dirham 4 carts * 3 dirham/cart = 12 dirham Total toll = 126 dirham + 12 dirham = 138 dirham  Answer: 138
+train_0353,59,"Step 1: Calculate the toll for the 4 carts weighing 57 kg. Step 2: Each of these carts costs 11 dirham, so 4 carts × 11 dirham = 44 dirham. Step 3: Calculate the toll for the 3 carts weighing 27 kg. Step 4: Each of these carts costs 5 dirham, so 3 carts × 5 dirham = 15 dirham. Step 5: Add the tolls from both groups of carts. Step 6: 44 dirham + 15 dirham = 59 dirham.  Answer: 59"
+train_0354,48,Step 1: Identify the toll per cart - 12 dirham. Step 2: Identify the number of carts - 4. Step 3: Calculate the total toll - 12 dirham/cart * 4 carts = 48 dirham. Answer: 48
+train_0355,76,Step 1: Calculate the total number of boxes by multiplying the number of crates by the number of boxes per crate. Step 2: 19 crates * 4 boxes/crate = 76 boxes.  Answer: 76
+train_0356,152,Step 1: Identify the toll per cart = 8 dirham. Step 2: Identify the number of carts = 19. Step 3: Calculate the total toll = 8 dirham/cart * 19 carts. Step 4: Total toll = 152 dirham.  Answer: 152
+train_0357,198,Step 1: Identify the charge per cart - 11 dirham. Step 2: Identify the number of carts - 18. Step 3: Multiply the charge per cart by the number of carts - 11 * 18 = 198 dirham. Answer: 198
+train_0358,85,Step 1: Calculate the total number of tagines by multiplying the number of crates by the number of tagines per crate. Step 2: 17 crates * 5 tagines/crate = 85 tagines.  Answer: 85
+train_0359,14:40,Answer: 14:40
+train_0360,120,"Step 1: Identify the number of crates Najat loads, which is 10. Step 2: Identify the number of lanterns in each crate, which is 12. Step 3: Multiply the number of crates by the number of lanterns in each crate to find the total number of lanterns. 10 crates * 12 lanterns/crate = 120 lanterns. Answer: 120"
+train_0361,13,Answer: 13
+train_0362,chouara,Step 1: Identify the takings for each souk. Step 2: Compare the amounts. Step 3: Determine the souk with the lowest amount.  Answer: Chouara
+train_0363,boujloud,"Step 1: Identify the souk with the lowest takings. Step 2: Compare 185, 271, 159, and 338 dirham. Step 3: 159 dirham is the lowest amount.  Answer: Boujloud"
+train_0364,165,Step 1: Calculate total number of tiles Latifa loads. 17 crates * 11 tiles/crate = 187 tiles  Step 2: Subtract the tiles sold at Chouara. 187 - 13 = 174 tiles  Step 3: Subtract the tiles given to apprentices. 174 - (3 tiles/apprentice * 3 apprentices) = 174 - 9 = 165 tiles  Answer: 165
+train_0365,126,Step 1: Calculate the total number of tiles by multiplying the number of crates by the number of tiles per crate. Step 2: 14 crates * 9 tiles/crate = 126 tiles.  Answer: 126
+train_0366,183,Step 1: Calculate the toll for the 10 heavier carts. Step 2: Calculate the toll for the lighter cart. Step 3: Sum the tolls.  10 carts at 18 dirham each: 10 * 18 = 180 dirham 1 cart at 3 dirham: 1 * 3 = 3 dirham  Total toll: 180 + 3 = 183 dirham  Answer: 183
+train_0367,40,Step 1: Calculate total lanterns = 14 crates * 5 lanterns/crate = 70 lanterns. Step 2: Subtract lanterns sold = 70 - 10 = 60 lanterns. Step 3: Subtract lanterns given to apprentices = 60 - (5 lanterns/apprentice * 4 apprentices) = 60 - 20 = 40 lanterns. Answer: 40
+train_0368,12:00,Answer: 12:00
+train_0369,47,Step 1: Identify the price of leather slippers. Step 2: The price is 47 dirham. Answer: 47 dirham
+train_0370,21,Answer: 21
+train_0371,95,Step 1: Calculate the toll for the 9 carts weighing 68 kg. Each of these carts will be charged 10 dirham. Step 2: Calculate the toll for the 1 cart weighing 42 kg. This cart will be charged 5 dirham. Step 3: Add the tolls from both steps to get the total toll.  Answer: 95 dirham
+train_0372,sagha,"Step 1: Compare the takings of each souk. Step 2: Sagha - 296 dirham, Nejjarine - 268 dirham, Boujloud - 174 dirham, Henna - 247 dirham. Step 3: Identify the highest amount.  Answer: Sagha"
+train_0373,40,Step 1: Calculate the total number of boxes by multiplying the number of crates by the number of boxes per crate. Step 2: 10 crates * 4 boxes/crate = 40 boxes.  Answer: 40
+train_0374,sagha,"Step 1: Compare the takings of each souk. Step 2: Boujloud - 224 dirham, Nejjarine - 154 dirham, Sagha - 320 dirham, Rcif - 309 dirham. Step 3: Identify the highest amount.  Answer: Sagha"
+train_0375,76,Step 1: Identify the price of zellij tiles. Step 2: The price is listed as 76 dirham.  Answer: 76 dirham
+train_0376,26,Step 1: Identify the price of zellij tiles. Step 2: The price is 26 dirham. Answer: 26 dirham
+train_0377,59,Answer: 59 dirham
+train_0378,44,Step 1: Calculate total slippers = 12 crates * 6 slippers/crate = 72 slippers. Step 2: Subtract slippers sold at Chouara = 72 - 20 = 52 slippers. Step 3: Subtract slippers given to apprentices = 52 - (2 slippers/apprentice * 4 apprentices) = 52 - 8 = 44 slippers. Answer: 44
+train_0379,70,Answer: 70 dirham
+train_0380,13:25,1. Opens at 06:35 and works for 3 hours until 09:35. 2. Pauses for 50 minutes from 09:35 to 10:25. 3. Works for another 3 hours from 10:25 to 13:25.  Answer: 13:25
+train_0381,144,Step 1: Identify the charge per cart - 8 dirham. Step 2: Identify the number of carts - 18. Step 3: Multiply the charge per cart by the number of carts - 8 * 18 = 144 dirham. Answer: 144
+train_0382,76,"Step 1: Identify the item sold by Samira's stall - wool. Step 2: Find the price of wool - 76 dirham. Step 3: Determine Hamid's price - same as Samira's for wool, 76 dirham.  Answer: 76 dirham"
+train_0383,99,Step 1: Identify the toll per cart = 11 dirham. Step 2: Identify the number of carts = 9. Step 3: Calculate the total toll = 11 dirham/cart * 9 carts = 99 dirham. Answer: 99
+train_0384,cherabliyine,"Step 1: Compare the takings of each souk. Step 2: Cherabliyine - 284 dirham, Nejjarine - 210 dirham, Attarine - 276 dirham, Chouara - 211 dirham. Step 3: Identify the highest amount.  Answer: Cherabliyine"
+train_0385,291,Step 1: Calculate the toll for the 9 carts that weigh 67 kg. Step 2: Calculate the toll for the 10 carts that weigh 50 kg. Step 3: Sum the tolls from both groups of carts.  Toll for 9 carts (67 kg each): 9 carts * 19 dirham/cart = 171 dirham. Toll for 10 carts (50 kg each): 10 carts * 12 dirham/cart = 120 dirham. Total toll: 171 dirham + 120 dirham = 291 dirham.  Answer: 291
+train_0386,271,Step 1: Calculate the toll for the 13 heavier carts. Step 2: Calculate the toll for the 2 lighter carts. Step 3: Add the two amounts to get the total toll.  13 carts at 19 dirham each: 13 * 19 = 247 dirham 2 carts at 12 dirham each: 2 * 12 = 24 dirham Total toll: 247 + 24 = 271 dirham  Answer: 271
+train_0387,15:45,Answer: 15:45
+train_0388,43,Answer: 43 dirham
+train_0389,13:00,Answer: 13:00
+train_0390,12,Step 1: Identify the direct path from Talaa to Henna. Step 2: Determine the walk times for the paths involving Talaa. Step 3: Calculate the shortest walk time.  Answer: 12
+train_0391,87,Answer: 87 dirham
+train_0392,10:45,Answer: 10:45
+train_0393,57,Step 1: Calculate total boxes = 12 crates * 6 boxes/crate = 72 boxes. Step 2: Subtract boxes sold = 72 - 6 = 66 boxes. Step 3: Subtract boxes given to apprentices = 66 - (3 apprentices * 3 boxes/apprentice) = 66 - 9 = 57 boxes.  Answer: 57
+train_0394,13:20,Answer: 13:20
+train_0395,36,Step 1: Identify the price of wool from the list. Step 2: Wool costs 36 dirham.  Answer: 36
+train_0396,8,Answer: 8
+train_0397,72,Step 1: Identify the toll per cart - 8 dirham. Step 2: Identify the number of carts - 9. Step 3: Calculate the total toll - 8 dirham/cart * 9 carts = 72 dirham. Answer: 72
+train_0398,16:35,Answer: 16:35
+train_0399,21,Answer: 21
+train_0400,20,Step 1: Identify what Najat's stall sells - leather slippers. Step 2: Determine Youssef's price - same as Najat's for leather slippers. Step 3: Find the price of leather slippers - 20 dirham.  Answer: 20 dirham
