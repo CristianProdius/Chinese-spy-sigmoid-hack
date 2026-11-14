@@ -66,4 +66,5 @@ python build/eval_suite.py <folder with main.py + index/>
 python task/local_check.py cuba_submission.zip
 ```
 
-`work/` (embeddings, synthetic slips, checkpoints) and `submission/index/` are not in git.
+`submission/` (main.py + index/) is the complete submission and is in git. `work/` (embeddings,
+synthetic slips, checkpoints) is not.
