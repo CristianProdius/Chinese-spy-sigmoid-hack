@@ -1,0 +1,10 @@
+# large task data and caches (not committed)
+data/
+*.zip
+reference-model.pt
+train.pt
+val.pt
+model_*.pt
+*.log
+.venv/
+__pycache__/
