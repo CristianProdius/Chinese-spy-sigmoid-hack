@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.gguf
+!/adapter.gguf
+adapters/
+task_algeria/models/
+task_algeria/dataset/
