@@ -1,0 +1,38 @@
+park runs 360
+
+| parked site | runs | Professor plan changed | mean score change when changed |
+|---|---|---|---|
+| own home | 0 | 0 (0%) | +0.0 |
+| enemy home | 40 | 6 (15%) | -1.7 |
+| timber | 120 | 0 (0%) | +0.0 |
+| fibre | 120 | 2 (2%) | +0.0 |
+| manufacturing | 80 | 3 (4%) | +7.3 |
+
+| parked site | Professor boat later docked with ours | runs | changed |
+|---|---|---|---|
+| enemy home | False | 13 | 1 (8%) |
+| enemy home | True | 27 | 5 (19%) |
+| fibre | False | 46 | 1 (2%) |
+| fibre | True | 74 | 1 (1%) |
+| manufacturing | False | 23 | 1 (4%) |
+| manufacturing | True | 57 | 2 (4%) |
+| timber | False | 20 | 0 (0%) |
+| timber | True | 100 | 0 (0%) |
+
+divergence timing vs first docking with a Professor boat (changed runs): {'never docked together': 3, 'diverged >3 rounds after docking': 8}
+divergence timing vs our arrival: {'diverged after we were parked (static)': 11}
+changed runs detail (site category, our arrival, first docking with Prof boat, first divergent claim round):
+    ('fibre', 6, None, 10)
+    ('enemy home', 8, 8, 25)
+    ('manufacturing', 5, 5, 10)
+    ('enemy home', 9, None, 10)
+    ('fibre', 6, 6, 10)
+    ('manufacturing', 6, 11, 34)
+    ('enemy home', 5, 5, 9)
+    ('enemy home', 5, 5, 16)
+    ('manufacturing', 6, None, 10)
+    ('enemy home', 8, 8, 25)
+    ('enemy home', 5, 5, 16)
+
+stitched (map,game) with >=1 unchanged park run: 40
+boats seen per game: {2: 40} third boat first-seen rounds: []

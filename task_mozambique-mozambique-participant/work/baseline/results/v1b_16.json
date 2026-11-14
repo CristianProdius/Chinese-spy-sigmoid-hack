@@ -1,0 +1,2623 @@
+{
+ "summary": {
+  "agent": "agent_v1.py",
+  "seed": 20261114,
+  "n_maps": 16,
+  "n_games": 80,
+  "match_score": 0.0312,
+  "map_half_points": 1,
+  "map_wins": 0,
+  "map_draws": 1,
+  "map_losses": 15,
+  "games": {
+   "n": 80,
+   "win": 20,
+   "draw": 11,
+   "loss": 49,
+   "win_rate": 0.25,
+   "points": 0.319,
+   "mean_margin": -5.5,
+   "min_margin": -29
+  },
+  "by_game": {
+   "0": {
+    "n": 16,
+    "win": 4,
+    "draw": 3,
+    "loss": 9,
+    "win_rate": 0.25,
+    "points": 0.344,
+    "mean_margin": -6.8,
+    "min_margin": -22
+   },
+   "1": {
+    "n": 16,
+    "win": 3,
+    "draw": 3,
+    "loss": 10,
+    "win_rate": 0.188,
+    "points": 0.281,
+    "mean_margin": -8.3,
+    "min_margin": -29
+   },
+   "2": {
+    "n": 16,
+    "win": 3,
+    "draw": 2,
+    "loss": 11,
+    "win_rate": 0.188,
+    "points": 0.25,
+    "mean_margin": -4.4,
+    "min_margin": -22
+   },
+   "3": {
+    "n": 16,
+    "win": 6,
+    "draw": 2,
+    "loss": 8,
+    "win_rate": 0.375,
+    "points": 0.438,
+    "mean_margin": -2.1,
+    "min_margin": -24
+   },
+   "4": {
+    "n": 16,
+    "win": 4,
+    "draw": 1,
+    "loss": 11,
+    "win_rate": 0.25,
+    "points": 0.281,
+    "mean_margin": -6.1,
+    "min_margin": -24
+   }
+  },
+  "by_seat": {
+   "0": {
+    "n": 40,
+    "win": 12,
+    "draw": 6,
+    "loss": 22,
+    "win_rate": 0.3,
+    "points": 0.375,
+    "mean_margin": -4.2,
+    "min_margin": -24
+   },
+   "1": {
+    "n": 40,
+    "win": 8,
+    "draw": 5,
+    "loss": 27,
+    "win_rate": 0.2,
+    "points": 0.263,
+    "mean_margin": -6.9,
+    "min_margin": -29
+   }
+  },
+  "by_topology": {
+   "0": {
+    "n": 20,
+    "win": 6,
+    "draw": 2,
+    "loss": 12,
+    "win_rate": 0.3,
+    "points": 0.35,
+    "mean_margin": -3.2,
+    "min_margin": -20
+   },
+   "1": {
+    "n": 20,
+    "win": 4,
+    "draw": 2,
+    "loss": 14,
+    "win_rate": 0.2,
+    "points": 0.25,
+    "mean_margin": -7.4,
+    "min_margin": -22
+   },
+   "2": {
+    "n": 20,
+    "win": 5,
+    "draw": 4,
+    "loss": 11,
+    "win_rate": 0.25,
+    "points": 0.35,
+    "mean_margin": -3.4,
+    "min_margin": -22
+   },
+   "3": {
+    "n": 20,
+    "win": 5,
+    "draw": 3,
+    "loss": 12,
+    "win_rate": 0.25,
+    "points": 0.325,
+    "mean_margin": -8.2,
+    "min_margin": -29
+   }
+  },
+  "by_group": {
+   "0": {
+    "n": 10,
+    "win": 4,
+    "draw": 1,
+    "loss": 5,
+    "win_rate": 0.4,
+    "points": 0.45,
+    "mean_margin": -1.9,
+    "min_margin": -20
+   },
+   "1": {
+    "n": 10,
+    "win": 2,
+    "draw": 1,
+    "loss": 7,
+    "win_rate": 0.2,
+    "points": 0.25,
+    "mean_margin": -4.5,
+    "min_margin": -10
+   },
+   "2": {
+    "n": 10,
+    "win": 2,
+    "draw": 2,
+    "loss": 6,
+    "win_rate": 0.2,
+    "points": 0.3,
+    "mean_margin": -3.4,
+    "min_margin": -20
+   },
+   "3": {
+    "n": 10,
+    "win": 2,
+    "draw": 0,
+    "loss": 8,
+    "win_rate": 0.2,
+    "points": 0.2,
+    "mean_margin": -11.4,
+    "min_margin": -22
+   },
+   "4": {
+    "n": 10,
+    "win": 3,
+    "draw": 3,
+    "loss": 4,
+    "win_rate": 0.3,
+    "points": 0.45,
+    "mean_margin": -1.3,
+    "min_margin": -22
+   },
+   "5": {
+    "n": 10,
+    "win": 2,
+    "draw": 1,
+    "loss": 7,
+    "win_rate": 0.2,
+    "points": 0.25,
+    "mean_margin": -5.5,
+    "min_margin": -12
+   },
+   "6": {
+    "n": 10,
+    "win": 3,
+    "draw": 0,
+    "loss": 7,
+    "win_rate": 0.3,
+    "points": 0.3,
+    "mean_margin": -10.0,
+    "min_margin": -24
+   },
+   "7": {
+    "n": 10,
+    "win": 2,
+    "draw": 3,
+    "loss": 5,
+    "win_rate": 0.2,
+    "points": 0.35,
+    "mean_margin": -6.3,
+    "min_margin": -29
+   }
+  },
+  "by_seat_game": {
+   "0/0": {
+    "n": 8,
+    "win": 3,
+    "draw": 2,
+    "loss": 3,
+    "win_rate": 0.375,
+    "points": 0.5,
+    "mean_margin": -4.9,
+    "min_margin": -22
+   },
+   "0/1": {
+    "n": 8,
+    "win": 1,
+    "draw": 2,
+    "loss": 5,
+    "win_rate": 0.125,
+    "points": 0.25,
+    "mean_margin": -8.4,
+    "min_margin": -24
+   },
+   "0/2": {
+    "n": 8,
+    "win": 1,
+    "draw": 1,
+    "loss": 6,
+    "win_rate": 0.125,
+    "points": 0.188,
+    "mean_margin": -4.1,
+    "min_margin": -20
+   },
+   "0/3": {
+    "n": 8,
+    "win": 4,
+    "draw": 0,
+    "loss": 4,
+    "win_rate": 0.5,
+    "points": 0.5,
+    "mean_margin": -0.5,
+    "min_margin": -24
+   },
+   "0/4": {
+    "n": 8,
+    "win": 3,
+    "draw": 1,
+    "loss": 4,
+    "win_rate": 0.375,
+    "points": 0.438,
+    "mean_margin": -2.9,
+    "min_margin": -24
+   },
+   "1/0": {
+    "n": 8,
+    "win": 1,
+    "draw": 1,
+    "loss": 6,
+    "win_rate": 0.125,
+    "points": 0.188,
+    "mean_margin": -8.6,
+    "min_margin": -22
+   },
+   "1/1": {
+    "n": 8,
+    "win": 2,
+    "draw": 1,
+    "loss": 5,
+    "win_rate": 0.25,
+    "points": 0.312,
+    "mean_margin": -8.2,
+    "min_margin": -29
+   },
+   "1/2": {
+    "n": 8,
+    "win": 2,
+    "draw": 1,
+    "loss": 5,
+    "win_rate": 0.25,
+    "points": 0.312,
+    "mean_margin": -4.6,
+    "min_margin": -22
+   },
+   "1/3": {
+    "n": 8,
+    "win": 2,
+    "draw": 2,
+    "loss": 4,
+    "win_rate": 0.25,
+    "points": 0.375,
+    "mean_margin": -3.8,
+    "min_margin": -22
+   },
+   "1/4": {
+    "n": 8,
+    "win": 1,
+    "draw": 0,
+    "loss": 7,
+    "win_rate": 0.125,
+    "points": 0.125,
+    "mean_margin": -9.4,
+    "min_margin": -19
+   }
+  },
+  "errors": [],
+  "cpu_max": 1.82,
+  "cpu_max_not_first": 0.79,
+  "cpu_mean": 0.483,
+  "wall_max": 5.59,
+  "wall_mean": 1.597,
+  "max_decision_wall": 3.05,
+  "seconds": 51.5
+ },
+ "maps": [
+  {
+   "map": 0,
+   "group": 0,
+   "seed": 275196493,
+   "worst": 0,
+   "games": {
+    "0": [
+     [
+      36,
+      32
+     ],
+     2
+    ],
+    "1": [
+     [
+      41,
+      22
+     ],
+     2
+    ],
+    "2": [
+     [
+      29,
+      34
+     ],
+     0
+    ],
+    "3": [
+     [
+      41,
+      27
+     ],
+     2
+    ],
+    "4": [
+     [
+      29,
+      39
+     ],
+     0
+    ]
+   }
+  },
+  {
+   "map": 1,
+   "group": 1,
+   "seed": 3992200452,
+   "worst": 0,
+   "games": {
+    "0": [
+     [
+      29,
+      39
+     ],
+     0
+    ],
+    "1": [
+     [
+      39,
+      29
+     ],
+     2
+    ],
+    "2": [
+     [
+      29,
+      39
+     ],
+     0
+    ],
+    "3": [
+     [
+      34,
+      34
+     ],
+     1
+    ],
+    "4": [
+     [
+      29,
+      39
+     ],
+     0
+    ]
+   }
+  },
+  {
+   "map": 2,
+   "group": 2,
+   "seed": 553890622,
+   "worst": 0,
+   "games": {
+    "0": [
+     [
+      34,
+      34
+     ],
+     1
+    ],
+    "1": [
+     [
+      34,
+      34
+     ],
+     1
+    ],
+    "2": [
+     [
+      44,
+      24
+     ],
+     2
+    ],
+    "3": [
+     [
+      44,
+      24
+     ],
+     2
+    ],
+    "4": [
+     [
+      32,
+      36
+     ],
+     0
+    ]
+   }
+  },
+  {
+   "map": 3,
+   "group": 3,
+   "seed": 105476702,
+   "worst": 0,
+   "games": {
+    "0": [
+     [
+      34,
+      29
+     ],
+     2
+    ],
+    "1": [
+     [
+      29,
+      39
+     ],
+     0
+    ],
+    "2": [
+     [
+      29,
+      39
+     ],
+     0
+    ],
+    "3": [
+     [
+      29,
+      34
+     ],
+     0
+    ],
+    "4": [
+     [
+      36,
+      32
+     ],
+     2
+    ]
+   }
+  },
+  {
+   "map": 4,
+   "group": 4,
+   "seed": 1015270008,
+   "worst": 1,
+   "games": {
+    "0": [
+     [
+      39,
+      29
+     ],
+     2
+    ],
+    "1": [
+     [
+      34,
+      34
+     ],
+     1
+    ],
+    "2": [
+     [
+      34,
+      34
+     ],
+     1
+    ],
+    "3": [
+     [
+      39,
+      29
+     ],
+     2
+    ],
+    "4": [
+     [
+      34,
+      34
+     ],
+     1
+    ]
+   }
+  },
+  {
+   "map": 5,
+   "group": 5,
+   "seed": 660577213,
+   "worst": 0,
+   "games": {
+    "0": [
+     [
+      29,
+      34
+     ],
+     0
+    ],
+    "1": [
+     [
+      34,
+      29
+     ],
+     2
+    ],
+    "2": [
+     [
+      29,
+      34
+     ],
+     0
+    ],
+    "3": [
+     [
+      34,
+      34
+     ],
+     1
+    ],
+    "4": [
+     [
+      29,
+      39
+     ],
+     0
+    ]
+   }
+  },
+  {
+   "map": 6,
+   "group": 6,
+   "seed": 3645610523,
+   "worst": 0,
+   "games": {
+    "0": [
+     [
+      24,
+      44
+     ],
+     0
+    ],
+    "1": [
+     [
+      17,
+      41
+     ],
+     0
+    ],
+    "2": [
+     [
+      29,
+      34
+     ],
+     0
+    ],
+    "3": [
+     [
+      22,
+      46
+     ],
+     0
+    ],
+    "4": [
+     [
+      22,
+      46
+     ],
+     0
+    ]
+   }
+  },
+  {
+   "map": 7,
+   "group": 7,
+   "seed": 2319684076,
+   "worst": 0,
+   "games": {
+    "0": [
+     [
+      34,
+      34
+     ],
+     1
+    ],
+    "1": [
+     [
+      17,
+      46
+     ],
+     0
+    ],
+    "2": [
+     [
+      34,
+      29
+     ],
+     2
+    ],
+    "3": [
+     [
+      39,
+      24
+     ],
+     2
+    ],
+    "4": [
+     [
+      22,
+      41
+     ],
+     0
+    ]
+   }
+  },
+  {
+   "map": 8,
+   "group": 0,
+   "seed": 1164463775,
+   "worst": 0,
+   "games": {
+    "0": [
+     [
+      29,
+      29
+     ],
+     1
+    ],
+    "1": [
+     [
+      24,
+      44
+     ],
+     0
+    ],
+    "2": [
+     [
+      24,
+      39
+     ],
+     0
+    ],
+    "3": [
+     [
+      24,
+      39
+     ],
+     0
+    ],
+    "4": [
+     [
+      36,
+      27
+     ],
+     2
+    ]
+   }
+  },
+  {
+   "map": 9,
+   "group": 1,
+   "seed": 1025949376,
+   "worst": 0,
+   "games": {
+    "0": [
+     [
+      29,
+      39
+     ],
+     0
+    ],
+    "1": [
+     [
+      29,
+      39
+     ],
+     0
+    ],
+    "2": [
+     [
+      39,
+      24
+     ],
+     2
+    ],
+    "3": [
+     [
+      29,
+      39
+     ],
+     0
+    ],
+    "4": [
+     [
+      29,
+      39
+     ],
+     0
+    ]
+   }
+  },
+  {
+   "map": 10,
+   "group": 2,
+   "seed": 2428426861,
+   "worst": 0,
+   "games": {
+    "0": [
+     [
+      24,
+      44
+     ],
+     0
+    ],
+    "1": [
+     [
+      29,
+      39
+     ],
+     0
+    ],
+    "2": [
+     [
+      24,
+      44
+     ],
+     0
+    ],
+    "3": [
+     [
+      29,
+      39
+     ],
+     0
+    ],
+    "4": [
+     [
+      29,
+      39
+     ],
+     0
+    ]
+   }
+  },
+  {
+   "map": 11,
+   "group": 3,
+   "seed": 3800669744,
+   "worst": 0,
+   "games": {
+    "0": [
+     [
+      17,
+      39
+     ],
+     0
+    ],
+    "1": [
+     [
+      17,
+      39
+     ],
+     0
+    ],
+    "2": [
+     [
+      17,
+      39
+     ],
+     0
+    ],
+    "3": [
+     [
+      17,
+      39
+     ],
+     0
+    ],
+    "4": [
+     [
+      29,
+      39
+     ],
+     0
+    ]
+   }
+  },
+  {
+   "map": 12,
+   "group": 4,
+   "seed": 3940995357,
+   "worst": 0,
+   "games": {
+    "0": [
+     [
+      17,
+      39
+     ],
+     0
+    ],
+    "1": [
+     [
+      22,
+      34
+     ],
+     0
+    ],
+    "2": [
+     [
+      24,
+      27
+     ],
+     0
+    ],
+    "3": [
+     [
+      24,
+      27
+     ],
+     0
+    ],
+    "4": [
+     [
+      29,
+      22
+     ],
+     2
+    ]
+   }
+  },
+  {
+   "map": 13,
+   "group": 5,
+   "seed": 2065362496,
+   "worst": 0,
+   "games": {
+    "0": [
+     [
+      22,
+      34
+     ],
+     0
+    ],
+    "1": [
+     [
+      29,
+      39
+     ],
+     0
+    ],
+    "2": [
+     [
+      29,
+      39
+     ],
+     0
+    ],
+    "3": [
+     [
+      29,
+      27
+     ],
+     2
+    ],
+    "4": [
+     [
+      29,
+      39
+     ],
+     0
+    ]
+   }
+  },
+  {
+   "map": 14,
+   "group": 6,
+   "seed": 3151551772,
+   "worst": 0,
+   "games": {
+    "0": [
+     [
+      36,
+      27
+     ],
+     2
+    ],
+    "1": [
+     [
+      24,
+      44
+     ],
+     0
+    ],
+    "2": [
+     [
+      29,
+      34
+     ],
+     0
+    ],
+    "3": [
+     [
+      36,
+      32
+     ],
+     2
+    ],
+    "4": [
+     [
+      36,
+      27
+     ],
+     2
+    ]
+   }
+  },
+  {
+   "map": 15,
+   "group": 7,
+   "seed": 2749914462,
+   "worst": 0,
+   "games": {
+    "0": [
+     [
+      24,
+      39
+     ],
+     0
+    ],
+    "1": [
+     [
+      34,
+      34
+     ],
+     1
+    ],
+    "2": [
+     [
+      34,
+      34
+     ],
+     1
+    ],
+    "3": [
+     [
+      29,
+      39
+     ],
+     0
+    ],
+    "4": [
+     [
+      29,
+      39
+     ],
+     0
+    ]
+   }
+  }
+ ],
+ "games": [
+  {
+   "map": 0,
+   "group": 0,
+   "seed": 275196493,
+   "game": 0,
+   "topology": 0,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": true,
+   "cpu": 1.63,
+   "wall": 3.112,
+   "max_decision": 1.676,
+   "rounds": 80,
+   "scores": [
+    36,
+    32
+   ],
+   "half_points": 2,
+   "margin": 4
+  },
+  {
+   "map": 0,
+   "group": 0,
+   "seed": 275196493,
+   "game": 1,
+   "topology": 0,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": true,
+   "cpu": 1.57,
+   "wall": 3.942,
+   "max_decision": 3.05,
+   "rounds": 80,
+   "scores": [
+    41,
+    22
+   ],
+   "half_points": 2,
+   "margin": 19
+  },
+  {
+   "map": 0,
+   "group": 0,
+   "seed": 275196493,
+   "game": 2,
+   "topology": 0,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": true,
+   "cpu": 1.54,
+   "wall": 3.755,
+   "max_decision": 2.891,
+   "rounds": 80,
+   "scores": [
+    29,
+    34
+   ],
+   "half_points": 0,
+   "margin": -5
+  },
+  {
+   "map": 0,
+   "group": 0,
+   "seed": 275196493,
+   "game": 3,
+   "topology": 0,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": true,
+   "cpu": 1.62,
+   "wall": 3.226,
+   "max_decision": 2.137,
+   "rounds": 80,
+   "scores": [
+    41,
+    27
+   ],
+   "half_points": 2,
+   "margin": 14
+  },
+  {
+   "map": 0,
+   "group": 0,
+   "seed": 275196493,
+   "game": 4,
+   "topology": 0,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": true,
+   "cpu": 1.5,
+   "wall": 3.994,
+   "max_decision": 2.516,
+   "rounds": 80,
+   "scores": [
+    29,
+    39
+   ],
+   "half_points": 0,
+   "margin": -10
+  },
+  {
+   "map": 1,
+   "group": 1,
+   "seed": 3992200452,
+   "game": 0,
+   "topology": 0,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": true,
+   "cpu": 1.82,
+   "wall": 5.59,
+   "max_decision": 2.793,
+   "rounds": 80,
+   "scores": [
+    29,
+    39
+   ],
+   "half_points": 0,
+   "margin": -10
+  },
+  {
+   "map": 1,
+   "group": 1,
+   "seed": 3992200452,
+   "game": 1,
+   "topology": 0,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.66,
+   "wall": 1.782,
+   "max_decision": 0.484,
+   "rounds": 80,
+   "scores": [
+    39,
+    29
+   ],
+   "half_points": 2,
+   "margin": 10
+  },
+  {
+   "map": 1,
+   "group": 1,
+   "seed": 3992200452,
+   "game": 2,
+   "topology": 0,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.6,
+   "wall": 1.036,
+   "max_decision": 0.258,
+   "rounds": 80,
+   "scores": [
+    29,
+    39
+   ],
+   "half_points": 0,
+   "margin": -10
+  },
+  {
+   "map": 1,
+   "group": 1,
+   "seed": 3992200452,
+   "game": 3,
+   "topology": 0,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.7,
+   "wall": 4.346,
+   "max_decision": 2.763,
+   "rounds": 80,
+   "scores": [
+    34,
+    34
+   ],
+   "half_points": 1,
+   "margin": 0
+  },
+  {
+   "map": 1,
+   "group": 1,
+   "seed": 3992200452,
+   "game": 4,
+   "topology": 0,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.79,
+   "wall": 2.479,
+   "max_decision": 1.151,
+   "rounds": 80,
+   "scores": [
+    29,
+    39
+   ],
+   "half_points": 0,
+   "margin": -10
+  },
+  {
+   "map": 2,
+   "group": 2,
+   "seed": 553890622,
+   "game": 0,
+   "topology": 1,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": false,
+   "cpu": 0.48,
+   "wall": 0.996,
+   "max_decision": 0.521,
+   "rounds": 80,
+   "scores": [
+    34,
+    34
+   ],
+   "half_points": 1,
+   "margin": 0
+  },
+  {
+   "map": 2,
+   "group": 2,
+   "seed": 553890622,
+   "game": 1,
+   "topology": 1,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": false,
+   "cpu": 0.57,
+   "wall": 2.096,
+   "max_decision": 1.132,
+   "rounds": 80,
+   "scores": [
+    34,
+    34
+   ],
+   "half_points": 1,
+   "margin": 0
+  },
+  {
+   "map": 2,
+   "group": 2,
+   "seed": 553890622,
+   "game": 2,
+   "topology": 1,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": false,
+   "cpu": 0.73,
+   "wall": 3.507,
+   "max_decision": 0.745,
+   "rounds": 80,
+   "scores": [
+    44,
+    24
+   ],
+   "half_points": 2,
+   "margin": 20
+  },
+  {
+   "map": 2,
+   "group": 2,
+   "seed": 553890622,
+   "game": 3,
+   "topology": 1,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": false,
+   "cpu": 0.67,
+   "wall": 1.738,
+   "max_decision": 0.586,
+   "rounds": 80,
+   "scores": [
+    44,
+    24
+   ],
+   "half_points": 2,
+   "margin": 20
+  },
+  {
+   "map": 2,
+   "group": 2,
+   "seed": 553890622,
+   "game": 4,
+   "topology": 1,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": false,
+   "cpu": 0.41,
+   "wall": 1.373,
+   "max_decision": 0.371,
+   "rounds": 80,
+   "scores": [
+    32,
+    36
+   ],
+   "half_points": 0,
+   "margin": -4
+  },
+  {
+   "map": 3,
+   "group": 3,
+   "seed": 105476702,
+   "game": 0,
+   "topology": 1,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.78,
+   "wall": 3.578,
+   "max_decision": 1.005,
+   "rounds": 80,
+   "scores": [
+    34,
+    29
+   ],
+   "half_points": 2,
+   "margin": 5
+  },
+  {
+   "map": 3,
+   "group": 3,
+   "seed": 105476702,
+   "game": 1,
+   "topology": 1,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.41,
+   "wall": 1.209,
+   "max_decision": 0.359,
+   "rounds": 80,
+   "scores": [
+    29,
+    39
+   ],
+   "half_points": 0,
+   "margin": -10
+  },
+  {
+   "map": 3,
+   "group": 3,
+   "seed": 105476702,
+   "game": 2,
+   "topology": 1,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.48,
+   "wall": 1.154,
+   "max_decision": 0.259,
+   "rounds": 80,
+   "scores": [
+    29,
+    39
+   ],
+   "half_points": 0,
+   "margin": -10
+  },
+  {
+   "map": 3,
+   "group": 3,
+   "seed": 105476702,
+   "game": 3,
+   "topology": 1,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.66,
+   "wall": 4.332,
+   "max_decision": 1.212,
+   "rounds": 80,
+   "scores": [
+    29,
+    34
+   ],
+   "half_points": 0,
+   "margin": -5
+  },
+  {
+   "map": 3,
+   "group": 3,
+   "seed": 105476702,
+   "game": 4,
+   "topology": 1,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.62,
+   "wall": 2.03,
+   "max_decision": 0.625,
+   "rounds": 80,
+   "scores": [
+    36,
+    32
+   ],
+   "half_points": 2,
+   "margin": 4
+  },
+  {
+   "map": 4,
+   "group": 4,
+   "seed": 1015270008,
+   "game": 0,
+   "topology": 2,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": false,
+   "cpu": 0.51,
+   "wall": 2.526,
+   "max_decision": 0.587,
+   "rounds": 80,
+   "scores": [
+    39,
+    29
+   ],
+   "half_points": 2,
+   "margin": 10
+  },
+  {
+   "map": 4,
+   "group": 4,
+   "seed": 1015270008,
+   "game": 1,
+   "topology": 2,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": false,
+   "cpu": 0.43,
+   "wall": 1.551,
+   "max_decision": 0.318,
+   "rounds": 80,
+   "scores": [
+    34,
+    34
+   ],
+   "half_points": 1,
+   "margin": 0
+  },
+  {
+   "map": 4,
+   "group": 4,
+   "seed": 1015270008,
+   "game": 2,
+   "topology": 2,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": false,
+   "cpu": 0.57,
+   "wall": 3.275,
+   "max_decision": 1.22,
+   "rounds": 80,
+   "scores": [
+    34,
+    34
+   ],
+   "half_points": 1,
+   "margin": 0
+  },
+  {
+   "map": 4,
+   "group": 4,
+   "seed": 1015270008,
+   "game": 3,
+   "topology": 2,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": false,
+   "cpu": 0.48,
+   "wall": 2.826,
+   "max_decision": 0.777,
+   "rounds": 80,
+   "scores": [
+    39,
+    29
+   ],
+   "half_points": 2,
+   "margin": 10
+  },
+  {
+   "map": 4,
+   "group": 4,
+   "seed": 1015270008,
+   "game": 4,
+   "topology": 2,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": false,
+   "cpu": 0.47,
+   "wall": 2.287,
+   "max_decision": 0.646,
+   "rounds": 80,
+   "scores": [
+    34,
+    34
+   ],
+   "half_points": 1,
+   "margin": 0
+  },
+  {
+   "map": 5,
+   "group": 5,
+   "seed": 660577213,
+   "game": 0,
+   "topology": 2,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.38,
+   "wall": 2.352,
+   "max_decision": 0.728,
+   "rounds": 80,
+   "scores": [
+    29,
+    34
+   ],
+   "half_points": 0,
+   "margin": -5
+  },
+  {
+   "map": 5,
+   "group": 5,
+   "seed": 660577213,
+   "game": 1,
+   "topology": 2,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.38,
+   "wall": 0.85,
+   "max_decision": 0.133,
+   "rounds": 80,
+   "scores": [
+    34,
+    29
+   ],
+   "half_points": 2,
+   "margin": 5
+  },
+  {
+   "map": 5,
+   "group": 5,
+   "seed": 660577213,
+   "game": 2,
+   "topology": 2,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.39,
+   "wall": 0.766,
+   "max_decision": 0.269,
+   "rounds": 80,
+   "scores": [
+    29,
+    34
+   ],
+   "half_points": 0,
+   "margin": -5
+  },
+  {
+   "map": 5,
+   "group": 5,
+   "seed": 660577213,
+   "game": 3,
+   "topology": 2,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.39,
+   "wall": 1.57,
+   "max_decision": 0.58,
+   "rounds": 80,
+   "scores": [
+    34,
+    34
+   ],
+   "half_points": 1,
+   "margin": 0
+  },
+  {
+   "map": 5,
+   "group": 5,
+   "seed": 660577213,
+   "game": 4,
+   "topology": 2,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.32,
+   "wall": 1.648,
+   "max_decision": 1.086,
+   "rounds": 80,
+   "scores": [
+    29,
+    39
+   ],
+   "half_points": 0,
+   "margin": -10
+  },
+  {
+   "map": 6,
+   "group": 6,
+   "seed": 3645610523,
+   "game": 0,
+   "topology": 3,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": false,
+   "cpu": 0.47,
+   "wall": 0.729,
+   "max_decision": 0.264,
+   "rounds": 80,
+   "scores": [
+    24,
+    44
+   ],
+   "half_points": 0,
+   "margin": -20
+  },
+  {
+   "map": 6,
+   "group": 6,
+   "seed": 3645610523,
+   "game": 1,
+   "topology": 3,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": false,
+   "cpu": 0.47,
+   "wall": 1.975,
+   "max_decision": 0.461,
+   "rounds": 80,
+   "scores": [
+    17,
+    41
+   ],
+   "half_points": 0,
+   "margin": -24
+  },
+  {
+   "map": 6,
+   "group": 6,
+   "seed": 3645610523,
+   "game": 2,
+   "topology": 3,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": false,
+   "cpu": 0.43,
+   "wall": 0.837,
+   "max_decision": 0.361,
+   "rounds": 80,
+   "scores": [
+    29,
+    34
+   ],
+   "half_points": 0,
+   "margin": -5
+  },
+  {
+   "map": 6,
+   "group": 6,
+   "seed": 3645610523,
+   "game": 3,
+   "topology": 3,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": false,
+   "cpu": 0.35,
+   "wall": 1.021,
+   "max_decision": 0.272,
+   "rounds": 80,
+   "scores": [
+    22,
+    46
+   ],
+   "half_points": 0,
+   "margin": -24
+  },
+  {
+   "map": 6,
+   "group": 6,
+   "seed": 3645610523,
+   "game": 4,
+   "topology": 3,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": false,
+   "cpu": 0.33,
+   "wall": 0.808,
+   "max_decision": 0.205,
+   "rounds": 80,
+   "scores": [
+    22,
+    46
+   ],
+   "half_points": 0,
+   "margin": -24
+  },
+  {
+   "map": 7,
+   "group": 7,
+   "seed": 2319684076,
+   "game": 0,
+   "topology": 3,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.37,
+   "wall": 1.207,
+   "max_decision": 0.26,
+   "rounds": 80,
+   "scores": [
+    34,
+    34
+   ],
+   "half_points": 1,
+   "margin": 0
+  },
+  {
+   "map": 7,
+   "group": 7,
+   "seed": 2319684076,
+   "game": 1,
+   "topology": 3,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.4,
+   "wall": 1.377,
+   "max_decision": 0.279,
+   "rounds": 80,
+   "scores": [
+    17,
+    46
+   ],
+   "half_points": 0,
+   "margin": -29
+  },
+  {
+   "map": 7,
+   "group": 7,
+   "seed": 2319684076,
+   "game": 2,
+   "topology": 3,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.34,
+   "wall": 0.787,
+   "max_decision": 0.189,
+   "rounds": 80,
+   "scores": [
+    34,
+    29
+   ],
+   "half_points": 2,
+   "margin": 5
+  },
+  {
+   "map": 7,
+   "group": 7,
+   "seed": 2319684076,
+   "game": 3,
+   "topology": 3,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.36,
+   "wall": 0.789,
+   "max_decision": 0.137,
+   "rounds": 80,
+   "scores": [
+    39,
+    24
+   ],
+   "half_points": 2,
+   "margin": 15
+  },
+  {
+   "map": 7,
+   "group": 7,
+   "seed": 2319684076,
+   "game": 4,
+   "topology": 3,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.36,
+   "wall": 1.0,
+   "max_decision": 0.278,
+   "rounds": 80,
+   "scores": [
+    22,
+    41
+   ],
+   "half_points": 0,
+   "margin": -19
+  },
+  {
+   "map": 8,
+   "group": 0,
+   "seed": 1164463775,
+   "game": 0,
+   "topology": 0,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": false,
+   "cpu": 0.47,
+   "wall": 1.697,
+   "max_decision": 0.385,
+   "rounds": 80,
+   "scores": [
+    29,
+    29
+   ],
+   "half_points": 1,
+   "margin": 0
+  },
+  {
+   "map": 8,
+   "group": 0,
+   "seed": 1164463775,
+   "game": 1,
+   "topology": 0,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": false,
+   "cpu": 0.31,
+   "wall": 1.787,
+   "max_decision": 0.583,
+   "rounds": 80,
+   "scores": [
+    24,
+    44
+   ],
+   "half_points": 0,
+   "margin": -20
+  },
+  {
+   "map": 8,
+   "group": 0,
+   "seed": 1164463775,
+   "game": 2,
+   "topology": 0,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": false,
+   "cpu": 0.34,
+   "wall": 1.85,
+   "max_decision": 0.716,
+   "rounds": 80,
+   "scores": [
+    24,
+    39
+   ],
+   "half_points": 0,
+   "margin": -15
+  },
+  {
+   "map": 8,
+   "group": 0,
+   "seed": 1164463775,
+   "game": 3,
+   "topology": 0,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": false,
+   "cpu": 0.25,
+   "wall": 0.724,
+   "max_decision": 0.277,
+   "rounds": 80,
+   "scores": [
+    24,
+    39
+   ],
+   "half_points": 0,
+   "margin": -15
+  },
+  {
+   "map": 8,
+   "group": 0,
+   "seed": 1164463775,
+   "game": 4,
+   "topology": 0,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": false,
+   "cpu": 0.3,
+   "wall": 0.887,
+   "max_decision": 0.53,
+   "rounds": 80,
+   "scores": [
+    36,
+    27
+   ],
+   "half_points": 2,
+   "margin": 9
+  },
+  {
+   "map": 9,
+   "group": 1,
+   "seed": 1025949376,
+   "game": 0,
+   "topology": 0,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.39,
+   "wall": 1.932,
+   "max_decision": 0.566,
+   "rounds": 80,
+   "scores": [
+    29,
+    39
+   ],
+   "half_points": 0,
+   "margin": -10
+  },
+  {
+   "map": 9,
+   "group": 1,
+   "seed": 1025949376,
+   "game": 1,
+   "topology": 0,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.28,
+   "wall": 1.117,
+   "max_decision": 0.358,
+   "rounds": 80,
+   "scores": [
+    29,
+    39
+   ],
+   "half_points": 0,
+   "margin": -10
+  },
+  {
+   "map": 9,
+   "group": 1,
+   "seed": 1025949376,
+   "game": 2,
+   "topology": 0,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.33,
+   "wall": 1.992,
+   "max_decision": 0.603,
+   "rounds": 80,
+   "scores": [
+    39,
+    24
+   ],
+   "half_points": 2,
+   "margin": 15
+  },
+  {
+   "map": 9,
+   "group": 1,
+   "seed": 1025949376,
+   "game": 3,
+   "topology": 0,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.25,
+   "wall": 0.908,
+   "max_decision": 0.218,
+   "rounds": 80,
+   "scores": [
+    29,
+    39
+   ],
+   "half_points": 0,
+   "margin": -10
+  },
+  {
+   "map": 9,
+   "group": 1,
+   "seed": 1025949376,
+   "game": 4,
+   "topology": 0,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.36,
+   "wall": 2.528,
+   "max_decision": 1.112,
+   "rounds": 80,
+   "scores": [
+    29,
+    39
+   ],
+   "half_points": 0,
+   "margin": -10
+  },
+  {
+   "map": 10,
+   "group": 2,
+   "seed": 2428426861,
+   "game": 0,
+   "topology": 1,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": false,
+   "cpu": 0.34,
+   "wall": 1.655,
+   "max_decision": 0.707,
+   "rounds": 80,
+   "scores": [
+    24,
+    44
+   ],
+   "half_points": 0,
+   "margin": -20
+  },
+  {
+   "map": 10,
+   "group": 2,
+   "seed": 2428426861,
+   "game": 1,
+   "topology": 1,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": false,
+   "cpu": 0.31,
+   "wall": 0.935,
+   "max_decision": 0.308,
+   "rounds": 80,
+   "scores": [
+    29,
+    39
+   ],
+   "half_points": 0,
+   "margin": -10
+  },
+  {
+   "map": 10,
+   "group": 2,
+   "seed": 2428426861,
+   "game": 2,
+   "topology": 1,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": false,
+   "cpu": 0.3,
+   "wall": 0.819,
+   "max_decision": 0.498,
+   "rounds": 80,
+   "scores": [
+    24,
+    44
+   ],
+   "half_points": 0,
+   "margin": -20
+  },
+  {
+   "map": 10,
+   "group": 2,
+   "seed": 2428426861,
+   "game": 3,
+   "topology": 1,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": false,
+   "cpu": 0.29,
+   "wall": 1.346,
+   "max_decision": 0.421,
+   "rounds": 80,
+   "scores": [
+    29,
+    39
+   ],
+   "half_points": 0,
+   "margin": -10
+  },
+  {
+   "map": 10,
+   "group": 2,
+   "seed": 2428426861,
+   "game": 4,
+   "topology": 1,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": false,
+   "cpu": 0.3,
+   "wall": 0.855,
+   "max_decision": 0.239,
+   "rounds": 80,
+   "scores": [
+    29,
+    39
+   ],
+   "half_points": 0,
+   "margin": -10
+  },
+  {
+   "map": 11,
+   "group": 3,
+   "seed": 3800669744,
+   "game": 0,
+   "topology": 1,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.3,
+   "wall": 0.88,
+   "max_decision": 0.311,
+   "rounds": 80,
+   "scores": [
+    17,
+    39
+   ],
+   "half_points": 0,
+   "margin": -22
+  },
+  {
+   "map": 11,
+   "group": 3,
+   "seed": 3800669744,
+   "game": 1,
+   "topology": 1,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.24,
+   "wall": 0.832,
+   "max_decision": 0.13,
+   "rounds": 80,
+   "scores": [
+    17,
+    39
+   ],
+   "half_points": 0,
+   "margin": -22
+  },
+  {
+   "map": 11,
+   "group": 3,
+   "seed": 3800669744,
+   "game": 2,
+   "topology": 1,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.36,
+   "wall": 1.105,
+   "max_decision": 0.338,
+   "rounds": 80,
+   "scores": [
+    17,
+    39
+   ],
+   "half_points": 0,
+   "margin": -22
+  },
+  {
+   "map": 11,
+   "group": 3,
+   "seed": 3800669744,
+   "game": 3,
+   "topology": 1,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.26,
+   "wall": 0.765,
+   "max_decision": 0.138,
+   "rounds": 80,
+   "scores": [
+    17,
+    39
+   ],
+   "half_points": 0,
+   "margin": -22
+  },
+  {
+   "map": 11,
+   "group": 3,
+   "seed": 3800669744,
+   "game": 4,
+   "topology": 1,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.33,
+   "wall": 0.836,
+   "max_decision": 0.222,
+   "rounds": 80,
+   "scores": [
+    29,
+    39
+   ],
+   "half_points": 0,
+   "margin": -10
+  },
+  {
+   "map": 12,
+   "group": 4,
+   "seed": 3940995357,
+   "game": 0,
+   "topology": 2,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": false,
+   "cpu": 0.32,
+   "wall": 1.044,
+   "max_decision": 0.347,
+   "rounds": 80,
+   "scores": [
+    17,
+    39
+   ],
+   "half_points": 0,
+   "margin": -22
+  },
+  {
+   "map": 12,
+   "group": 4,
+   "seed": 3940995357,
+   "game": 1,
+   "topology": 2,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": false,
+   "cpu": 0.3,
+   "wall": 0.99,
+   "max_decision": 0.23,
+   "rounds": 80,
+   "scores": [
+    22,
+    34
+   ],
+   "half_points": 0,
+   "margin": -12
+  },
+  {
+   "map": 12,
+   "group": 4,
+   "seed": 3940995357,
+   "game": 2,
+   "topology": 2,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": false,
+   "cpu": 0.34,
+   "wall": 1.45,
+   "max_decision": 0.443,
+   "rounds": 80,
+   "scores": [
+    24,
+    27
+   ],
+   "half_points": 0,
+   "margin": -3
+  },
+  {
+   "map": 12,
+   "group": 4,
+   "seed": 3940995357,
+   "game": 3,
+   "topology": 2,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": false,
+   "cpu": 0.36,
+   "wall": 0.628,
+   "max_decision": 0.088,
+   "rounds": 80,
+   "scores": [
+    24,
+    27
+   ],
+   "half_points": 0,
+   "margin": -3
+  },
+  {
+   "map": 12,
+   "group": 4,
+   "seed": 3940995357,
+   "game": 4,
+   "topology": 2,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": false,
+   "cpu": 0.33,
+   "wall": 1.422,
+   "max_decision": 0.306,
+   "rounds": 80,
+   "scores": [
+    29,
+    22
+   ],
+   "half_points": 2,
+   "margin": 7
+  },
+  {
+   "map": 13,
+   "group": 5,
+   "seed": 2065362496,
+   "game": 0,
+   "topology": 2,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.32,
+   "wall": 1.212,
+   "max_decision": 0.367,
+   "rounds": 80,
+   "scores": [
+    22,
+    34
+   ],
+   "half_points": 0,
+   "margin": -12
+  },
+  {
+   "map": 13,
+   "group": 5,
+   "seed": 2065362496,
+   "game": 1,
+   "topology": 2,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.25,
+   "wall": 1.087,
+   "max_decision": 0.238,
+   "rounds": 80,
+   "scores": [
+    29,
+    39
+   ],
+   "half_points": 0,
+   "margin": -10
+  },
+  {
+   "map": 13,
+   "group": 5,
+   "seed": 2065362496,
+   "game": 2,
+   "topology": 2,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.27,
+   "wall": 0.857,
+   "max_decision": 0.405,
+   "rounds": 80,
+   "scores": [
+    29,
+    39
+   ],
+   "half_points": 0,
+   "margin": -10
+  },
+  {
+   "map": 13,
+   "group": 5,
+   "seed": 2065362496,
+   "game": 3,
+   "topology": 2,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.29,
+   "wall": 1.175,
+   "max_decision": 0.353,
+   "rounds": 80,
+   "scores": [
+    29,
+    27
+   ],
+   "half_points": 2,
+   "margin": 2
+  },
+  {
+   "map": 13,
+   "group": 5,
+   "seed": 2065362496,
+   "game": 4,
+   "topology": 2,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.24,
+   "wall": 1.215,
+   "max_decision": 0.506,
+   "rounds": 80,
+   "scores": [
+    29,
+    39
+   ],
+   "half_points": 0,
+   "margin": -10
+  },
+  {
+   "map": 14,
+   "group": 6,
+   "seed": 3151551772,
+   "game": 0,
+   "topology": 3,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": false,
+   "cpu": 0.31,
+   "wall": 1.272,
+   "max_decision": 0.84,
+   "rounds": 80,
+   "scores": [
+    36,
+    27
+   ],
+   "half_points": 2,
+   "margin": 9
+  },
+  {
+   "map": 14,
+   "group": 6,
+   "seed": 3151551772,
+   "game": 1,
+   "topology": 3,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": false,
+   "cpu": 0.26,
+   "wall": 0.4,
+   "max_decision": 0.071,
+   "rounds": 80,
+   "scores": [
+    24,
+    44
+   ],
+   "half_points": 0,
+   "margin": -20
+  },
+  {
+   "map": 14,
+   "group": 6,
+   "seed": 3151551772,
+   "game": 2,
+   "topology": 3,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": false,
+   "cpu": 0.3,
+   "wall": 1.045,
+   "max_decision": 0.29,
+   "rounds": 80,
+   "scores": [
+    29,
+    34
+   ],
+   "half_points": 0,
+   "margin": -5
+  },
+  {
+   "map": 14,
+   "group": 6,
+   "seed": 3151551772,
+   "game": 3,
+   "topology": 3,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": false,
+   "cpu": 0.32,
+   "wall": 0.456,
+   "max_decision": 0.103,
+   "rounds": 80,
+   "scores": [
+    36,
+    32
+   ],
+   "half_points": 2,
+   "margin": 4
+  },
+  {
+   "map": 14,
+   "group": 6,
+   "seed": 3151551772,
+   "game": 4,
+   "topology": 3,
+   "seat": 0,
+   "obs_seat": 0,
+   "first_in_process": false,
+   "cpu": 0.34,
+   "wall": 0.681,
+   "max_decision": 0.282,
+   "rounds": 80,
+   "scores": [
+    36,
+    27
+   ],
+   "half_points": 2,
+   "margin": 9
+  },
+  {
+   "map": 15,
+   "group": 7,
+   "seed": 2749914462,
+   "game": 0,
+   "topology": 3,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.31,
+   "wall": 0.46,
+   "max_decision": 0.117,
+   "rounds": 80,
+   "scores": [
+    24,
+    39
+   ],
+   "half_points": 0,
+   "margin": -15
+  },
+  {
+   "map": 15,
+   "group": 7,
+   "seed": 2749914462,
+   "game": 1,
+   "topology": 3,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.28,
+   "wall": 0.431,
+   "max_decision": 0.075,
+   "rounds": 80,
+   "scores": [
+    34,
+    34
+   ],
+   "half_points": 1,
+   "margin": 0
+  },
+  {
+   "map": 15,
+   "group": 7,
+   "seed": 2749914462,
+   "game": 2,
+   "topology": 3,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.25,
+   "wall": 0.369,
+   "max_decision": 0.1,
+   "rounds": 80,
+   "scores": [
+    34,
+    34
+   ],
+   "half_points": 1,
+   "margin": 0
+  },
+  {
+   "map": 15,
+   "group": 7,
+   "seed": 2749914462,
+   "game": 3,
+   "topology": 3,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.24,
+   "wall": 0.313,
+   "max_decision": 0.061,
+   "rounds": 80,
+   "scores": [
+    29,
+    39
+   ],
+   "half_points": 0,
+   "margin": -10
+  },
+  {
+   "map": 15,
+   "group": 7,
+   "seed": 2749914462,
+   "game": 4,
+   "topology": 3,
+   "seat": 1,
+   "obs_seat": 1,
+   "first_in_process": false,
+   "cpu": 0.24,
+   "wall": 0.339,
+   "max_decision": 0.058,
+   "rounds": 80,
+   "scores": [
+    29,
+    39
+   ],
+   "half_points": 0,
+   "margin": -10
+  }
+ ]
+}

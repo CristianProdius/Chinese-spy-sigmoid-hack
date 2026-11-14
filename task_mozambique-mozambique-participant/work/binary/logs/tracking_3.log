@@ -1,0 +1,46 @@
+game   0 group 3 seed  560161641 idx 4 true style 4 policy wait   left [4] unique at round 4 cpu 8.61s ok
+game   1 group 1 seed 2601030205 idx 3 true style 1 policy random left [1] unique at round 13 cpu 5.42s ok
+game   2 group 4 seed 2147529689 idx 2 true style 3 policy mirror left [3] unique at round 32 cpu 4.22s ok
+game   3 group 5 seed 2998172391 idx 0 true style 2 policy wait   left [0, 2] unique at round None cpu 2.35s ok
+game   4 group 5 seed 4076564206 idx 1 true style 2 policy random left [2] unique at round 35 cpu 2.97s ok
+game   5 group 6 seed 1979292356 idx 1 true style 3 policy mirror left [3] unique at round 27 cpu 2.45s ok
+game   6 group 4 seed 1824882426 idx 3 true style 2 policy wait   left [0, 2] unique at round None cpu 2.15s ok
+game   7 group 0 seed 4022168453 idx 2 true style 4 policy random left [4] unique at round 4 cpu 1.78s ok
+game   8 group 1 seed  506666733 idx 2 true style 1 policy mirror left [1] unique at round 39 cpu 3.44s ok
+game   9 group 0 seed 1531847709 idx 4 true style 3 policy wait   left [3] unique at round 31 cpu 1.80s ok
+game  10 group 0 seed  126204062 idx 2 true style 0 policy random left [0] unique at round 7 cpu 2.40s ok
+game  11 group 1 seed 1458728947 idx 2 true style 1 policy mirror left [1] unique at round 11 cpu 2.33s ok
+game  12 group 2 seed 4269784149 idx 1 true style 3 policy wait   left [3] unique at round 30 cpu 1.76s ok
+game  13 group 3 seed 3250643525 idx 3 true style 1 policy random left [1] unique at round 7 cpu 2.17s ok
+game  14 group 0 seed  660950064 idx 0 true style 1 policy mirror left [1, 2] unique at round None cpu 2.99s ok
+game  15 group 1 seed  416987309 idx 1 true style 2 policy wait   left [2] unique at round 11 cpu 2.39s ok
+game  16 group 0 seed 3746319651 idx 3 true style 3 policy random left [3] unique at round 14 cpu 2.28s ok
+game  17 group 5 seed 3808825434 idx 2 true style 0 policy mirror left [0] unique at round 11 cpu 2.17s ok
+game  18 group 0 seed   61362528 idx 4 true style 1 policy wait   left [1] unique at round 3 cpu 1.77s ok
+game  19 group 0 seed  215864125 idx 1 true style 2 policy random left [1, 2] unique at round None cpu 1.81s ok
+game  20 group 2 seed 2296590744 idx 3 true style 4 policy mirror left [4] unique at round 4 cpu 1.31s ok
+game  21 group 6 seed 1674458003 idx 0 true style 1 policy wait   left [1, 2] unique at round None cpu 3.26s ok
+game  22 group 1 seed  563986555 idx 1 true style 3 policy random left [3] unique at round 9 cpu 1.61s ok
+game  23 group 3 seed 3790506655 idx 3 true style 3 policy mirror left [3] unique at round 12 cpu 1.44s ok
+game  24 group 5 seed 1644153931 idx 3 true style 3 policy wait   left [3] unique at round 24 cpu 1.28s ok
+game  25 group 7 seed 1177559553 idx 3 true style 4 policy random left [4] unique at round 6 cpu 1.74s ok
+game  26 group 3 seed 2677234037 idx 4 true style 1 policy mirror left [1] unique at round 11 cpu 1.86s ok
+game  27 group 4 seed 2796809442 idx 0 true style 4 policy wait   left [4] unique at round 5 cpu 1.30s ok
+game  28 group 5 seed 1815771278 idx 2 true style 1 policy random left [1] unique at round 6 cpu 1.29s ok
+game  29 group 7 seed 3097911841 idx 1 true style 3 policy mirror left [3] unique at round 4 cpu 1.09s ok
+game  30 group 7 seed   24767476 idx 1 true style 1 policy wait   left [1] unique at round 7 cpu 1.43s ok
+game  31 group 2 seed 1786126471 idx 0 true style 2 policy random left [2] unique at round 14 cpu 1.93s ok
+game  32 group 3 seed 2037202521 idx 0 true style 4 policy mirror left [4] unique at round 4 cpu 1.15s ok
+game  33 group 2 seed 3929966339 idx 1 true style 0 policy wait   left [0] unique at round 22 cpu 1.33s ok
+game  34 group 1 seed  592194498 idx 4 true style 2 policy random left [2] unique at round 8 cpu 1.60s ok
+game  35 group 0 seed 4290606328 idx 3 true style 1 policy mirror left [1] unique at round 30 cpu 1.64s ok
+game  36 group 1 seed 3278625302 idx 0 true style 4 policy wait   left [4] unique at round 32 cpu 1.74s ok
+game  37 group 1 seed 1205000801 idx 2 true style 0 policy random left [0, 2] unique at round None cpu 2.34s ok
+game  38 group 6 seed  639889624 idx 3 true style 3 policy mirror left [3] unique at round 40 cpu 1.81s ok
+game  39 group 0 seed 3944270439 idx 3 true style 1 policy wait   left [1] unique at round 21 cpu 1.06s ok
+game  40 group 5 seed  529049543 idx 1 true style 2 policy random left [0, 2, 3] unique at round None cpu 1.51s ok
+game  41 group 1 seed    7320342 idx 1 true style 3 policy mirror left [3] unique at round 22 cpu 1.44s ok
+game  42 group 3 seed  456122239 idx 2 true style 0 policy wait   left [0] unique at round 48 cpu 1.73s ok
+game  43 group 1 seed  725311199 idx 4 true style 0 policy random left [0] unique at round 47 cpu 2.27s ok
+game  44 group 5 seed 3465083673 idx 3 true style 1 policy mirror left [1] unique at round 4 cpu 1.62s ok
+{"games": 45, "true_style_lost": 0, "never_unique": 7, "unique_round_median": 12, "unique_round_max": 48, "unique_by_round_10": 15, "cpu_total": 98.1, "cpu_worst_game": 8.61}

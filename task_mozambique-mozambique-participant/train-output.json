@@ -1,0 +1,706 @@
+[
+ {
+  "group": 0,
+  "seed": 767302775,
+  "game": 0,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   68
+  ]
+ },
+ {
+  "group": 1,
+  "seed": 3582206753,
+  "game": 1,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   51
+  ]
+ },
+ {
+  "group": 2,
+  "seed": 41326234,
+  "game": 2,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   68
+  ]
+ },
+ {
+  "group": 3,
+  "seed": 569109051,
+  "game": 3,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   56
+  ]
+ },
+ {
+  "group": 4,
+  "seed": 207977398,
+  "game": 4,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   56
+  ]
+ },
+ {
+  "group": 5,
+  "seed": 1309193455,
+  "game": 0,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   56
+  ]
+ },
+ {
+  "group": 6,
+  "seed": 2146175226,
+  "game": 1,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   58
+  ]
+ },
+ {
+  "group": 7,
+  "seed": 2948889997,
+  "game": 2,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   68
+  ]
+ },
+ {
+  "group": 0,
+  "seed": 4050791565,
+  "game": 3,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   56
+  ]
+ },
+ {
+  "group": 1,
+  "seed": 4178657785,
+  "game": 4,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   44
+  ]
+ },
+ {
+  "group": 2,
+  "seed": 3442012283,
+  "game": 0,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   58
+  ]
+ },
+ {
+  "group": 3,
+  "seed": 3272925106,
+  "game": 1,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   51
+  ]
+ },
+ {
+  "group": 4,
+  "seed": 3125060999,
+  "game": 2,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   56
+  ]
+ },
+ {
+  "group": 5,
+  "seed": 307562771,
+  "game": 3,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   56
+  ]
+ },
+ {
+  "group": 6,
+  "seed": 1692467428,
+  "game": 4,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   56
+  ]
+ },
+ {
+  "group": 7,
+  "seed": 3379980205,
+  "game": 0,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   46
+  ]
+ },
+ {
+  "group": 0,
+  "seed": 3165828085,
+  "game": 1,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   56
+  ]
+ },
+ {
+  "group": 1,
+  "seed": 2003179058,
+  "game": 2,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   56
+  ]
+ },
+ {
+  "group": 2,
+  "seed": 1181253408,
+  "game": 3,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   51
+  ]
+ },
+ {
+  "group": 3,
+  "seed": 3643481889,
+  "game": 4,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   51
+  ]
+ },
+ {
+  "group": 4,
+  "seed": 326549233,
+  "game": 0,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   46
+  ]
+ },
+ {
+  "group": 5,
+  "seed": 4180750977,
+  "game": 1,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   56
+  ]
+ },
+ {
+  "group": 6,
+  "seed": 4188090250,
+  "game": 2,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   68
+  ]
+ },
+ {
+  "group": 7,
+  "seed": 2203963555,
+  "game": 3,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   58
+  ]
+ },
+ {
+  "group": 0,
+  "seed": 1657828966,
+  "game": 4,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   51
+  ]
+ },
+ {
+  "group": 1,
+  "seed": 2911973407,
+  "game": 0,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   51
+  ]
+ },
+ {
+  "group": 2,
+  "seed": 889195857,
+  "game": 1,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   46
+  ]
+ },
+ {
+  "group": 3,
+  "seed": 1398636952,
+  "game": 2,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   56
+  ]
+ },
+ {
+  "group": 4,
+  "seed": 3724922720,
+  "game": 3,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   44
+  ]
+ },
+ {
+  "group": 5,
+  "seed": 2603624248,
+  "game": 4,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   68
+  ]
+ },
+ {
+  "group": 6,
+  "seed": 3286531573,
+  "game": 0,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   68
+  ]
+ },
+ {
+  "group": 7,
+  "seed": 3782020367,
+  "game": 1,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   56
+  ]
+ },
+ {
+  "group": 0,
+  "seed": 2274066540,
+  "game": 2,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   56
+  ]
+ },
+ {
+  "group": 1,
+  "seed": 4180119446,
+  "game": 3,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   63
+  ]
+ },
+ {
+  "group": 2,
+  "seed": 3859214457,
+  "game": 4,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   56
+  ]
+ },
+ {
+  "group": 3,
+  "seed": 4106662987,
+  "game": 0,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   58
+  ]
+ },
+ {
+  "group": 4,
+  "seed": 2489989059,
+  "game": 1,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   51
+  ]
+ },
+ {
+  "group": 5,
+  "seed": 1693005401,
+  "game": 2,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   68
+  ]
+ },
+ {
+  "group": 6,
+  "seed": 3288161178,
+  "game": 3,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   63
+  ]
+ },
+ {
+  "group": 7,
+  "seed": 447168010,
+  "game": 4,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   56
+  ]
+ },
+ {
+  "group": 0,
+  "seed": 3332242231,
+  "game": 0,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   46
+  ]
+ },
+ {
+  "group": 1,
+  "seed": 1502912313,
+  "game": 1,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   56
+  ]
+ },
+ {
+  "group": 2,
+  "seed": 3856459448,
+  "game": 2,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   56
+  ]
+ },
+ {
+  "group": 3,
+  "seed": 4023554445,
+  "game": 3,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   56
+  ]
+ },
+ {
+  "group": 4,
+  "seed": 3698469134,
+  "game": 4,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   56
+  ]
+ },
+ {
+  "group": 5,
+  "seed": 1762661172,
+  "game": 0,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   56
+  ]
+ },
+ {
+  "group": 6,
+  "seed": 1461866268,
+  "game": 1,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   51
+  ]
+ },
+ {
+  "group": 7,
+  "seed": 3976484003,
+  "game": 2,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   63
+  ]
+ },
+ {
+  "group": 0,
+  "seed": 3897712401,
+  "game": 3,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   51
+  ]
+ },
+ {
+  "group": 1,
+  "seed": 1560177729,
+  "game": 4,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   51
+  ]
+ },
+ {
+  "group": 2,
+  "seed": 1294509520,
+  "game": 0,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   46
+  ]
+ },
+ {
+  "group": 3,
+  "seed": 2770155754,
+  "game": 1,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   46
+  ]
+ },
+ {
+  "group": 4,
+  "seed": 2368848490,
+  "game": 2,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   39
+  ]
+ },
+ {
+  "group": 5,
+  "seed": 2541459661,
+  "game": 3,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   56
+  ]
+ },
+ {
+  "group": 6,
+  "seed": 3808460905,
+  "game": 4,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   56
+  ]
+ },
+ {
+  "group": 7,
+  "seed": 1841388097,
+  "game": 0,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   56
+  ]
+ },
+ {
+  "group": 0,
+  "seed": 486581958,
+  "game": 1,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   53
+  ]
+ },
+ {
+  "group": 1,
+  "seed": 2601924799,
+  "game": 2,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   46
+  ]
+ },
+ {
+  "group": 2,
+  "seed": 3081484317,
+  "game": 3,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   56
+  ]
+ },
+ {
+  "group": 3,
+  "seed": 3034065321,
+  "game": 4,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   51
+  ]
+ },
+ {
+  "group": 4,
+  "seed": 253160768,
+  "game": 0,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   63
+  ]
+ },
+ {
+  "group": 5,
+  "seed": 4153341083,
+  "game": 1,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   46
+  ]
+ },
+ {
+  "group": 6,
+  "seed": 1079360014,
+  "game": 2,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   51
+  ]
+ },
+ {
+  "group": 7,
+  "seed": 2686794215,
+  "game": 3,
+  "agent": "starter main.py",
+  "half_points": 0,
+  "scores": [
+   0,
+   58
+  ]
+ }
+]

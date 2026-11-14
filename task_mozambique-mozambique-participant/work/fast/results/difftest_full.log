@@ -1,0 +1,11 @@
+  100/1000 maps done, 0 errors, 66s
+  200/1000 maps done, 0 errors, 99s
+  300/1000 maps done, 0 errors, 124s
+  400/1000 maps done, 0 errors, 147s
+  500/1000 maps done, 0 errors, 172s
+  600/1000 maps done, 0 errors, 193s
+  700/1000 maps done, 0 errors, 217s
+  800/1000 maps done, 0 errors, 236s
+  900/1000 maps done, 0 errors, 255s
+  1000/1000 maps done, 0 errors, 275s
+{"games": {"games": 2000, "rounds": 160000, "forks": 675, "fork_rounds": 8092, "replans": 62842, "failed_maps": 0, "policies": {"wait": 334, "random": 334, "twin": 333, "mirror3": 333, "chaos": 333, "mirror": 333}}, "tracker": {"games": 400, "rounds": 32000, "failed": 0, "never_unique": 47, "unique_median": 11, "cpu_ref": 321.6, "cpu_fast": 104.9}, "wall": 414.3, "result": "PASS"}

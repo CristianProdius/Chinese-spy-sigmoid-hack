@@ -1,0 +1,29 @@
+rush runs 641
+
+== raw contracts, runs 321
+we delivered: 255/321 (79%)
+  ...at the analytic min time: 235/255 (92%)  later: Counter({0: 235, 1: 20})
+our min time beats passive Professor claim (or it never claims): 251/321 (78%)
+  ...of those we actually delivered: 251/251 (100%)
+Professor claimed it EARLIER than in passive play (contest): 0/321 (0%)
+Professor claimed it LATER than passive: 0/321 (0%)
+we took a contract the Professor claims in passive: 191
+  Professor score change: mean -3.5 [(-5, 130), (7, 20), (0, 17), (2, 8), (-10, 7), (-17, 5), (-3, 2), (-12, 1)]
+  other contracts with changed claim round: mean 3.4
+  picked up a contract it skipped in passive: 53/191 (28%)
+  dropped another contract it took in passive: 34/191 (18%)
+we took a contract the Professor skips in passive: 64 Professor score change mean -0.1 runs with any change in its other claims: 5/64 (8%)
+
+== manufactured contracts, runs 320
+we delivered: 305/320 (95%)
+  ...at the analytic min time: 0/305 (0%)  later: Counter({3: 136, 4: 90, 6: 37, 5: 28, 7: 10, 8: 4})
+our min time beats passive Professor claim (or it never claims): 315/320 (98%)
+  ...of those we actually delivered: 305/315 (97%)
+Professor claimed it EARLIER than in passive play (contest): 0/320 (0%)
+Professor claimed it LATER than passive: 0/320 (0%)
+we took a contract the Professor claims in passive: 245
+  Professor score change: mean -8.4 [(-12, 138), (-7, 43), (0, 42), (-2, 6), (-5, 4), (-24, 4), (5, 4), (3, 2)]
+  other contracts with changed claim round: mean 2.7
+  picked up a contract it skipped in passive: 103/245 (42%)
+  dropped another contract it took in passive: 13/245 (5%)
+we took a contract the Professor skips in passive: 60 Professor score change mean -0.2 runs with any change in its other claims: 21/60 (35%)

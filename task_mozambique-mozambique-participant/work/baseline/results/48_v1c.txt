@@ -1,0 +1,26 @@
+agent snapshots/v1c.py  maps 48  games 240  seed 20261114  (147s)
+MATCH SCORE 0.1042   map half-points 10/96   map W/D/L 2/6/40
+all games     105/240 W105 D35 L100  43.8%  m-1.0 min-34
+game 0         20/48  W20  D8  L20   41.7%  m-0.7 min-20
+game 1         20/48  W20  D8  L20   41.7%  m-2.2 min-22
+game 2         23/48  W23  D7  L18   47.9%  m-0.1 min-34
+game 3         22/48  W22  D4  L22   45.8%  m-1.5 min-34
+game 4         20/48  W20  D8  L20   41.7%  m-0.4 min-20
+seat 0         58/120 W58  D10 L52   48.3%  m-1.3 min-34
+seat 1         47/120 W47  D25 L48   39.2%  m-0.7 min-34
+topology 0     21/60  W21  D8  L31   35.0%  m-2.0 min-22
+topology 1     24/60  W24  D6  L30   40.0%  m-2.2 min-34
+topology 2     33/60  W33  D6  L21   55.0%  m+0.1 min-34
+topology 3     27/60  W27  D15 L18   45.0%  m+0.2 min-20
+seat/game 0/0  10/24  W10  D2  L12   41.7%  m-2.4 min-20
+seat/game 0/1  11/24  W11  D3  L10   45.8%  m-1.9 min-22
+seat/game 0/2  13/24  W13  D2  L9    54.2%  m-0.4 min-34
+seat/game 0/3  14/24  W14  D0  L10   58.3%  m-0.5 min-34
+seat/game 0/4  10/24  W10  D3  L11   41.7%  m-1.3 min-20
+seat/game 1/0  10/24  W10  D6  L8    41.7%  m+1.0 min-20
+seat/game 1/1   9/24  W9   D5  L10   37.5%  m-2.6 min-22
+seat/game 1/2  10/24  W10  D5  L9    41.7%  m+0.2 min-15
+seat/game 1/3   8/24  W8   D4  L12   33.3%  m-2.5 min-34
+seat/game 1/4  10/24  W10  D5  L9    41.7%  m+0.6 min-20
+cpu/game max 2.36s (excl. first game of process 0.98s) mean 0.36s | wall/game max 17.66s mean 1.39s | max decision wall 13.94s
+saved results/48_v1c.json

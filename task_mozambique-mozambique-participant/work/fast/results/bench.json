@@ -1,0 +1,72 @@
+{
+ "replan": {
+  "ref": {
+   "replans": 1381,
+   "cold_ms": 13.625064081824766,
+   "warm_ms": 7.500417776249095
+  },
+  "fast": {
+   "replans": 1381,
+   "cold_ms": 6.592397925416365,
+   "warm_ms": 1.3087879362780588
+  }
+ },
+ "game": {
+  "ref": {
+   "games": 16,
+   "replans": 1230,
+   "cold_s": 5.337723821,
+   "warm_mean_s": 1.2056344812666662,
+   "warm_max_s": 2.1128587729999992
+  },
+  "fast": {
+   "games": 16,
+   "replans": 1230,
+   "cold_s": 1.579205095,
+   "warm_mean_s": 0.28608648646666673,
+   "warm_max_s": 0.6546891369999999
+  },
+  "fast_cache": {
+   "games": 16,
+   "replans": 1230,
+   "cold_s": 1.489203734,
+   "warm_mean_s": 0.29208444399999994,
+   "warm_max_s": 0.6327258659999999
+  }
+ },
+ "tracker": {
+  "ref": {
+   "games": 16,
+   "cold_s": 3.2029679260000035,
+   "warm_mean_s": 0.8171173007333317,
+   "warm_max_s": 1.4231168729999926
+  },
+  "fast": {
+   "games": 16,
+   "cold_s": 1.6242818819999991,
+   "warm_mean_s": 0.3269544804000002,
+   "warm_max_s": 0.9207405719999975
+  }
+ },
+ "lookahead": {
+  "ref": {
+   "rollouts": 1920,
+   "rounds": 30720,
+   "ms_per_rollout": 34.00223876510416,
+   "ms_per_rollout_warm": 33.10368158833333
+  },
+  "fast_nocache": {
+   "rollouts": 1920,
+   "rounds": 30720,
+   "ms_per_rollout": 8.456080267187497,
+   "ms_per_rollout_warm": 7.602252313333331
+  },
+  "fast_cache": {
+   "rollouts": 1920,
+   "rounds": 30720,
+   "ms_per_rollout": 2.725214556770835,
+   "ms_per_rollout_warm": 2.0750907322222236,
+   "cache_hit_rate": 0.894
+  }
+ }
+}

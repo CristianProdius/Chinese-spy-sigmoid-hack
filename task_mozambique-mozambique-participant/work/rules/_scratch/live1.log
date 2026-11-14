@@ -1,0 +1,9 @@
+..25 games, mismatches {}
+..50 games, mismatches {}
+..75 games, mismatches {}
+..100 games, mismatches {}
+..125 games, mismatches {}
+..150 games, mismatches {}
+STATS {"contact_deliver_lost": 2, "contact_gather_lost": 3, "contact_gather_won": 14, "contact_sail_lost": 73, "enemy_departures_seen": 316, "enemy_seen": 5326, "enemy_vanished_L1": 192, "final_hp_0": 141, "final_hp_1": 3, "final_hp_2": 6, "final_ties": 3, "games": 150, "ghost_deliver": 790, "ghost_gather": 98, "ghost_sail": 681, "our_action_lost_conflict": 78, "rounds": 11850}
+MISMATCHES {}
+EVENTS {'lost': 78, 'tie': 3}

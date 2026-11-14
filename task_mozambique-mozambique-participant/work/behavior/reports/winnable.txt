@@ -1,0 +1,21 @@
+maps 304
+| contract | our bound (med) | our realistic (med) | Prof bound (med) | Prof claim median, style 0/1/2/3/4 (claim rate) | we beat its fastest possible trip | we beat style 0/1/2/3/4 | we beat all 5 |
+|---|---|---|---|---|---|---|---|
+| 0 T<24 | 6 | 6 | 6 | 6 (46%) / 7.5 (86%) / 7 (60%) / 6 (37%) / 7 (48%) | 49% | 76/64/71/80/78 % | 60% |
+| 1 F<40 | 6 | 6 | 6 | 20 (69%) / 10 (89%) / 11 (74%) / 12 (44%) / 29 (63%) | 50% | 86/70/77/88/98 % | 68% |
+| 2 T<56 | 6 | 6 | 6 | 27 (89%) / 10 (95%) / 14 (92%) / 21 (73%) / 26 (90%) | 46% | 80/70/75/81/78 % | 62% |
+| 3 F<72 | 6 | 6 | 6 | 35 (99%) / 14 (99%) / 27 (99%) / 51 (97%) / 42 (97%) | 49% | 85/77/81/88/98 % | 72% |
+| 4 M<40 | 18 | 20 | 18 | 30 (54%) / 35 (37%) / 31 (50%) / 30 (64%) / 26 (49%) | 31% | 98/100/98/97/89 % | 88% |
+| 5 M<56 | 18 | 20 | 18 | 39 (80%) / 42 (73%) / 40 (77%) / 41 (87%) / 41.5 (73%) | 29% | 98/100/98/98/94 % | 92% |
+| 6 M<72 | 18 | 20 | 18 | 50 (97%) / 53 (93%) / 51 (97%) / 49.5 (97%) / 51 (91%) | 27% | 99/100/99/99/98 % | 96% |
+| 7 M<80 | 18 | 20 | 18 | 51 (96%) / 56 (97%) / 52 (98%) / 55 (99%) / 58 (95%) | 29% | 99/99/99/99/95 % | 95% |
+
+by seat (share of contracts we win single-handed against all 5 styles):
+seat 0: raw 66%, manufactured 94%
+seat 1: raw 65%, manufactured 92%
+
+manufactured contracts: Professor fastest claim over styles minus our realistic time (rounds of slack):
+  contract 4: median 10, p10 -1, min -7
+  contract 5: median 15, p10 1, min -6
+  contract 6: median 21, p10 3, min -5
+  contract 7: median 22, p10 3, min -5

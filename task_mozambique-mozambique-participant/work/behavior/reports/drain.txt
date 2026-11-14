@@ -1,0 +1,9 @@
+runs 80
+
+decoy: n=40 Professor plan changed 0 | score change mean +0.00 dist [(0, 40)]
+
+drain: n=40 Professor plan changed 32 | score change mean -1.20 dist [(-12, 5), (-10, 1), (-5, 2), (0, 29), (10, 2), (12, 1)]
+  drained before its first gather there: 38 -> changed 31, score change mean -1.26, dist [(-12, 5), (-10, 1), (-5, 2), (0, 27), (10, 2), (12, 1)]
+  arrived too late:                     2 -> changed 1, score change mean +0.00
+  units we took: mean 5.3
+drained-before-gather score change by style: {0: (8, 1.2), 1: (8, -0.6), 2: (7, -3.9), 3: (8, -1.8), 4: (7, -1.7)}

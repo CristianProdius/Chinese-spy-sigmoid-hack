@@ -1,0 +1,11 @@
+all=0        games 200  score avg 54.6 min 34 max 68 | raw 3.10 crafted 3.26 | first claim r9.1, first crafted r29.3 (200/200 games), last claim r62.0 | workshops 1.01
+style=0      games  40  score avg 56.6 min 39 max 68 | raw 3.27 crafted 3.35 | first claim r9.3, first crafted r27.6 (40/40 games), last claim r61.1 | workshops 1.02
+style=1      games  40  score avg 53.3 min 44 max 68 | raw 3.70 crafted 2.90 | first claim r4.7, first crafted r37.2 (40/40 games), last claim r61.0 | workshops 1.02
+style=2      games  40  score avg 56.2 min 39 max 68 | raw 3.33 crafted 3.30 | first claim r7.7, first crafted r30.8 (40/40 games), last claim r60.8 | workshops 1.00
+style=3      games  40  score avg 55.3 min 34 max 68 | raw 2.42 crafted 3.60 | first claim r11.6, first crafted r27.1 (40/40 games), last claim r63.7 | workshops 1.02
+style=4      games  40  score avg 51.8 min 34 max 63 | raw 2.80 crafted 3.15 | first claim r12.4, first crafted r23.9 (40/40 games), last claim r63.7 | workshops 1.00
+topology=0   games  50  score avg 50.2 min 34 max 63 | raw 3.08 crafted 2.90 | first claim r8.5, first crafted r31.3 (50/50 games), last claim r61.0 | workshops 1.00
+topology=1   games  50  score avg 57.9 min 44 max 68 | raw 2.98 crafted 3.58 | first claim r11.6, first crafted r28.1 (50/50 games), last claim r64.0 | workshops 1.02
+topology=2   games  50  score avg 55.6 min 44 max 68 | raw 3.00 crafted 3.38 | first claim r8.7, first crafted r28.0 (50/50 games), last claim r62.5 | workshops 1.04
+topology=3   games  50  score avg 55.0 min 39 max 68 | raw 3.36 crafted 3.18 | first claim r7.7, first crafted r29.9 (50/50 games), last claim r60.7 | workshops 1.00
+{"cpu_seconds": 44.97, "replans": 4589, "ms_per_replan": 9.8, "slowest_choose_ms": 1026.9, "cpu_per_game": 0.225}

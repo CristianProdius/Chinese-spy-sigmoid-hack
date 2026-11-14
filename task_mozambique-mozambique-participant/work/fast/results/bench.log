@@ -1,0 +1,16 @@
+replan     ref          {"replans": 1381, "cold_ms": 13.625, "warm_ms": 7.5}
+replan     fast         {"replans": 1381, "cold_ms": 6.592, "warm_ms": 1.309}
+replan     fast         speedup vs ref {"cold_ms": 2.07, "warm_ms": 5.73}
+game       ref          {"games": 16, "replans": 1230, "cold_s": 5.338, "warm_mean_s": 1.206, "warm_max_s": 2.113}
+game       fast         {"games": 16, "replans": 1230, "cold_s": 1.579, "warm_mean_s": 0.286, "warm_max_s": 0.655}
+game       fast_cache   {"games": 16, "replans": 1230, "cold_s": 1.489, "warm_mean_s": 0.292, "warm_max_s": 0.633}
+game       fast         speedup vs ref {"cold_s": 3.38, "warm_mean_s": 4.21, "warm_max_s": 3.23}
+game       fast_cache   speedup vs ref {"cold_s": 3.58, "warm_mean_s": 4.13, "warm_max_s": 3.34}
+tracker    ref          {"games": 16, "cold_s": 3.203, "warm_mean_s": 0.817, "warm_max_s": 1.423}
+tracker    fast         {"games": 16, "cold_s": 1.624, "warm_mean_s": 0.327, "warm_max_s": 0.921}
+tracker    fast         speedup vs ref {"cold_s": 1.97, "warm_mean_s": 2.5, "warm_max_s": 1.55}
+lookahead  ref          {"rollouts": 1920, "rounds": 30720, "ms_per_rollout": 34.002, "ms_per_rollout_warm": 33.104}
+lookahead  fast_nocache {"rollouts": 1920, "rounds": 30720, "ms_per_rollout": 8.456, "ms_per_rollout_warm": 7.602}
+lookahead  fast_cache   {"rollouts": 1920, "rounds": 30720, "ms_per_rollout": 2.725, "ms_per_rollout_warm": 2.075, "cache_hit_rate": 0.894}
+lookahead  fast_nocache speedup vs ref {"ms_per_rollout": 4.02, "ms_per_rollout_warm": 4.35}
+lookahead  fast_cache   speedup vs ref {"ms_per_rollout": 12.48, "ms_per_rollout_warm": 15.95}

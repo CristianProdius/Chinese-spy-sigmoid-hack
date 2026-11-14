@@ -1,0 +1,9 @@
+('man', 'changed at/before our delivery') 2
+('man', 'changed only after our delivery') 264
+('man', 'changed, we never delivered') 2
+('man', 'no change') 52
+('raw', 'changed at/before our delivery') 1
+('raw', 'changed only after our delivery') 192
+('raw', 'changed, we never delivered') 7
+('raw', 'no change') 121
+examples of change not explained by our delivery: [(2, 3981838389, 3, 1, 9), (5, 1984693267, 1, 1, 26), (2, 3981838389, 1, 1, 12), (4, 2653701866, 2, 5, 22, 22), (3, 1886562666, 2, 2, 31), (4, 2653701866, 0, 4, 22, 22), (0, 275196493, 4, 0, 8, 8), (3, 1886562666, 0, 2, 24), (3, 1886562666, 3, 2, 24), (6, 1520301036, 3, 4, 22), (2, 3981838389, 2, 4, 26), (3, 1886562666, 4, 2, 21)]

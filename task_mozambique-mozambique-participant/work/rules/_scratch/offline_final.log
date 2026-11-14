@@ -1,0 +1,3 @@
+STATS {"contact_gather_lost": 5, "contact_gather_won": 36, "contact_sail_lost": 117, "enemy_departures_seen": 504, "enemy_seen": 9223, "enemy_vanished_L1": 459, "final_hp_0": 339, "final_hp_1": 1, "final_hp_2": 2, "final_ties": 1, "games": 342, "ghost_deliver": 2055, "ghost_gather": 241, "ghost_sail": 1188, "our_action_lost_conflict": 122, "rounds": 27018}
+MISMATCHES {}
+EVENTS {'lost': 122, 'tie': 1}

@@ -1,0 +1,8 @@
+games 40
+manufacturing sites with >=3 rounds of Professor docking: {2: 13, 1: 25, 0: 2}
+main workshop site is the manufacturing site nearest its home: {True: 33, False: 5}
+first docking at main manufacturing site: median 8.0 range 3 45
+rounds docked at main site (of 80, only rounds we could see): median 41.5
+gather events seen per game: median 6.0 ; first gather round median 11.0 range 6 24
+gather amounts: {2: 90, 3: 103, 1: 50} by good: {'fibre': 109, 'timber': 134}
+third boat ever seen: 0
