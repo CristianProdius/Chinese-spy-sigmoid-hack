@@ -1,0 +1,719 @@
+request_id,expensive_answer,expensive_raw
+syn1_price_0001,62,Step 1: Identify the price of argan oil from the list. Step 2: Argan oil costs 62 dirham.  Answer: 62 dirham
+syn1_price_0005,58,Step 1: Identify the price of zellij tiles from the list. Step 2: Zellij tiles cost 58 dirham.  Answer: 58 dirham
+syn1_price_0009,80,Answer: 80 dirham
+syn1_price_0013,49,Answer: 49 dirham
+syn1_price_0017,65,Answer: 65 dirham
+syn1_price_0021,43,Answer: 43 dirham
+syn1_price_0025,83,Answer: 83 dirham
+syn1_price_0029,57,Step 1: Identify the price of wool. Step 2: Wool costs 57 dirham. Answer: 57 dirham
+syn1_price_0033,18,Step 1: Identify the price of brass lanterns from the list. Step 2: Brass lanterns cost 18 dirham.  Answer: 18 dirham
+syn1_price_0037,30,Step 1: Identify the price of brass lanterns from the Henna board. Step 2: The price is 30 dirham. Answer: 30 dirham
+syn1_price_0041,65,Answer: 65 dirham
+syn1_price_0045,63,Answer: 63 dirham
+syn1_price_0049,57,Step 1: Identify the price of leather slippers. Step 2: The price is 57 dirham.  Answer: 57 dirham
+syn1_price_0053,70,Step 1: Identify the price of saffron from the list. Step 2: Saffron costs 70 dirham.  Answer: 70 dirham
+syn1_price_0057,61,Answer: 61 dirham
+syn1_price_0061,69,Answer: 69 dirham
+syn1_price_0065,54,Step 1: Identify the price of leather slippers. Step 2: The price is 54 dirham. Answer: 54 dirham
+syn1_price_0069,61,Step 1: Identify the price of argan oil from the list. Step 2: Argan oil costs 61 dirham.  Answer: 61 dirham
+syn1_price_0073,56,Answer: 56 dirham
+syn1_price_0077,10,Step 1: Identify the price of leather slippers. Step 2: The price is listed as 10 dirham.  Answer: 10 dirham
+syn1_price_0081,45,Answer: 45 dirham
+syn1_price_0085,89,Step 1: Identify the price of leather slippers from the list. Step 2: Leather slippers cost 89 dirham.  Answer: 89 dirham
+syn1_price_0089,69,Answer: 69 dirham
+syn1_price_0093,66,Step 1: Identify the price of leather slippers. Step 2: The price is 66 dirham. Answer: 66 dirham
+syn1_price_0097,40,Answer: 40 dirham
+syn1_price_0101,39,Answer: 39 dirham
+syn1_price_0105,83,Answer: 83 dirham
+syn1_price_0109,25,Answer: 25 dirham
+syn1_price_0113,58,Answer: 58 dirham
+syn1_price_0117,40,Answer: 40 dirham
+syn1_price_ind_0001,34,"Step 1: Identify what Hamid's stall sells - amber. Step 2: Determine Samira's price - same as Hamid's for amber, 34 dirham.  Answer: 34"
+syn1_price_ind_0005,20,Step 1: Identify what Najat's stall sells - zellij tiles. Step 2: Determine the price of zellij tiles - 20 dirham. Step 3: Driss's stall sells the same item as Najat's stall. Answer: 20 dirham
+syn1_price_ind_0009,39,Step 1: Identify what Latifa's stall sells - argan oil. Step 2: Determine the price of argan oil - 39 dirham. Step 3: Karim's stall sells the same item as Latifa's stall. Answer: 39 dirham
+syn1_price_ind_0013,65,"Step 1: Identify what Omar's stall sells - saffron. Step 2: Find the price of saffron - 65 dirham. Step 3: Determine Hamid's price - same as Omar's, 65 dirham.  Answer: 65 dirham"
+syn1_price_ind_0017,81,Step 1: Identify what Latifa's stall sells - argan oil. Step 2: Determine Samira's price for the same item - argan oil at 81 dirham. Answer: 81
+syn1_price_ind_0021,61,Step 1: Identify what Karim's stall sells - leather slippers. Step 2: Find the price of leather slippers - 61 dirham. Step 3: Determine what Driss charges - the same as Karim for the same item.  Answer: 61 dirham
+syn1_price_ind_0025,18,Step 1: Identify what Samira's stall sells - zellij tiles. Step 2: Determine Youssef's pricing - same as Samira's. Step 3: Find the price of zellij tiles - 18 dirham.  Answer: 18 dirham
+syn1_price_ind_0029,83,"Step 1: Identify what Youssef's stall sells - wool. Step 2: Find the price of wool at Boujloud board - 83 dirham. Step 3: Determine what Samira charges - the same as Youssef, 83 dirham.  Answer: 83 dirham"
+syn1_price_ind_0033,51,Step 1: Identify what Karim's stall sells - brass lanterns. Step 2: Find the price of brass lanterns - 51 dirham. Step 3: Determine what Najat sells and charges - the same as Karim.  Answer: 51 dirham
+syn1_price_ind_0037,41,Step 1: Identify what Hamid's stall sells - argan oil. Step 2: Determine Karim's price for argan oil - same as Hamid's. Step 3: Find the price of argan oil - 41 dirham.  Answer: 41 dirham
+syn1_price_ind_0041,20,Step 1: Identify what Najat's stall sells - wool. Step 2: Determine Youssef's pricing - same as Najat's. Step 3: Find the price of wool - 20 dirham.  Answer: 20 dirham
+syn1_price_ind_0045,70,Step 1: Identify what Hamid's stall sells - brass lanterns. Step 2: Determine the price of brass lanterns - 70 dirham. Step 3: Latifa's stall sells the same item as Hamid's stall. Answer: 70 dirham
+syn1_price_ind_0049,82,Step 1: Identify what Driss's stall sells - zellij tiles. Step 2: Find the price of zellij tiles - 82 dirham. Step 3: Determine what Hamid charges - the same as Driss for zellij tiles.  Answer: 82 dirham
+syn1_price_ind_0053,55,Step 1: Identify what Omar's stall sells - argan oil. Step 2: Determine the price of argan oil - 55 dirham. Step 3: Hamid's stall sells the same item as Omar's stall. Answer: 55 dirham
+syn1_price_ind_0057,30,Step 1: Identify what Latifa's stall sells - zellij tiles. Step 2: Find the price of zellij tiles - 30 dirham. Step 3: Determine what Najat charges - the same as Latifa for zellij tiles.  Answer: 30 dirham
+syn1_price_ind_0061,65,Step 1: Identify what Youssef's stall sells - zellij tiles. Step 2: Find the price of zellij tiles - 65 dirham. Step 3: Determine what Samira charges - the same as Youssef for zellij tiles.  Answer: 65 dirham
+syn1_price_ind_0065,87,Step 1: Identify what Latifa's stall sells - brass lanterns. Step 2: Determine the price of brass lanterns - 87 dirham. Step 3: Understand that Najat's stall sells the same item as Latifa's. Answer: 87 dirham
+syn1_price_ind_0069,31,"Step 1: Identify what Latifa's stall sells - cedar boxes. Step 2: Find the price of cedar boxes - 31 dirham. Step 3: Determine what Najat charges - the same as Latifa, 31 dirham.  Answer: 31 dirham"
+syn1_price_ind_0073,12,"Step 1: Identify what Najat's stall sells - amber. Step 2: Determine the price of amber at Attarine board - 12 dirham. Step 3: Driss's stall sells whatever Najat's stall sells, so Driss sells amber. Step 4: Therefore, Driss charges 12 dirham for amber.  Answer: 12 dirham"
+syn1_price_ind_0077,23,Step 1: Identify what Omar's stall sells - dates. Step 2: Find the price of dates - 23 dirham. Step 3: Driss's stall sells the same as Omar's.  Answer: 23 dirham
+syn1_price_ind_0081,35,Step 1: Identify what Youssef's stall sells - argan oil. Step 2: Determine Najat's pricing - same as Youssef's. Step 3: Find the price of argan oil - 35 dirham.  Answer: 35 dirham
+syn1_price_ind_0085,13,Step 1: Identify what Youssef's stall sells - cedar boxes. Step 2: Determine the price of cedar boxes - 13 dirham. Step 3: Driss's stall sells the same item as Youssef's stall. Answer: 13 dirham
+syn1_price_ind_0089,70,Step 1: Identify what Najat's stall sells - argan oil. Step 2: Determine Youssef's pricing - same as Najat's. Step 3: Find the price of argan oil - 70 dirham.  Answer: 70 dirham
+syn1_price_ind_0093,49,Step 1: Identify what Najat's stall sells - wool. Step 2: Determine Hamid's pricing - same as Najat's. Step 3: Find the wool price - 49 dirham.  Answer: 49 dirham
+syn1_price_ind_0097,37,Step 1: Identify what Karim's stall sells - zellij tiles. Step 2: Determine the price of zellij tiles - 37 dirham. Step 3: Samira's stall sells the same item as Karim's stall. Answer: 37 dirham
+syn1_price_ind_0101,50,Step 1: Identify what Najat's stall sells - wool. Step 2: Determine the price of wool - 50 dirham. Step 3: Omar's stall sells the same item as Najat's stall. Answer: 50 dirham
+syn1_price_ind_0105,31,Step 1: Identify what Latifa's stall sells - zellij tiles. Step 2: Determine the price of zellij tiles - 31 dirham. Step 3: Samira's stall sells the same item as Latifa's stall. Answer: 31 dirham
+syn1_price_ind_0109,45,Step 1: Identify what Karim's stall sells - argan oil. Step 2: Find the price of argan oil - 45 dirham. Step 3: Determine Youssef's price - same as Karim's since they sell the same items.  Answer: 45 dirham
+syn1_price_ind_0113,79,Step 1: Identify what Hamid's stall sells - saffron. Step 2: Determine the price of saffron - 79 dirham. Step 3: Understand that Youssef's stall sells the same item as Hamid's. Step 4: Conclude that Youssef charges the same price as Hamid for saffron.  Answer: 79 dirham
+syn1_price_ind_0117,33,"Step 1: Identify what Latifa's stall sells - mint. Step 2: Find the price of mint - 33 dirham. Step 3: Determine what Driss charges - the same as Latifa for mint, 33 dirham.  Answer: 33 dirham"
+syn1_price_ind_0121,47,"Step 1: Identify what Karim's stall sells - wool. Step 2: Determine the price of wool - 47 dirham. Step 3: Driss's stall sells the same item as Karim's, which is wool. Answer: 47 dirham"
+syn1_price_ind_0125,78,Step 1: Identify what Latifa's stall sells - mint. Step 2: Determine Karim's pricing - same as Latifa's. Step 3: Find the price of mint - 78 dirham.  Answer: 78 dirham
+syn1_price_ind_0129,71,Step 1: Identify what Omar's stall sells - amber. Step 2: Find the price of amber - 71 dirham. Step 3: Determine what Latifa charges - the same as amber.  Answer: 71 dirham
+syn1_price_ind_0133,50,Step 1: Identify what Najat's stall sells - zellij tiles. Step 2: Determine the price of zellij tiles - 50 dirham. Step 3: Driss's stall sells the same item as Najat's stall. Answer: 50 dirham
+syn1_price_ind_0137,33,Step 1: Identify what Samira's stall sells - zellij tiles. Step 2: Find the price of zellij tiles - 33 dirham. Step 3: Determine Youssef's price - same as Samira's for zellij tiles.  Answer: 33 dirham
+syn1_price_ind_0141,72,Step 1: Identify what Driss's stall sells - saffron. Step 2: Determine Karim's price for saffron - same as Driss. Step 3: Find the price of saffron - 72 dirham.  Answer: 72
+syn1_price_ind_0145,50,Step 1: Identify what Hamid's stall sells - amber. Step 2: Determine Latifa's pricing - same as Hamid's. Step 3: Find the price of amber - 50 dirham.  Answer: 50 dirham
+syn1_price_ind_0149,19,Step 1: Identify what Latifa's stall sells - cedar boxes. Step 2: Find the price of cedar boxes - 19 dirham. Step 3: Determine what Samira sells and charges - same as Latifa.  Answer: 19 dirham
+syn1_price_ind_0153,57,Step 1: Identify what Latifa's stall sells - dates. Step 2: Determine Samira's price for the same item - 57 dirham. Answer: 57 dirham
+syn1_price_ind_0157,44,"Step 1: Identify what Karim's stall sells - cedar boxes. Step 2: Find the price of cedar boxes - 44 dirham. Step 3: Determine Youssef's price - same as Karim's, 44 dirham.  Answer: 44 dirham"
+syn1_price_ind_0161,81,"Step 1: Identify what Driss's stall sells - wool. Step 2: Find the price of wool - 81 dirham. Step 3: Determine what Latifa charges - the same as Driss, 81 dirham.  Answer: 81 dirham"
+syn1_price_ind_0165,73,Step 1: Identify what Youssef's stall sells - cedar boxes. Step 2: Determine the price of cedar boxes - 73 dirham. Step 3: Karim's stall sells the same items as Youssef's stall. Answer: 73 dirham
+syn1_price_ind_0169,57,Step 1: Identify what Youssef's stall sells - mint. Step 2: Determine Najat's pricing - same as Youssef's. Step 3: Find the price of mint - 57 dirham.  Answer: 57 dirham
+syn1_price_ind_0173,65,"Step 1: Identify what Youssef's stall sells - argan oil. Step 2: Find the price of argan oil - 65 dirham. Step 3: Determine what Samira charges - the same as Youssef for argan oil, 65 dirham.  Answer: 65 dirham"
+syn1_price_ind_0177,67,Step 1: Identify what Karim's stall sells - dates. Step 2: Determine Hamid's price for dates - 67 dirham. Answer: 67
+syn1_price_ind_0181,49,Step 1: Identify what Hamid's stall sells - leather slippers. Step 2: Determine Samira's price for the same item - leather slippers at 49 dirham.  Answer: 49 dirham
+syn1_price_ind_0185,49,"Step 1: Identify what Karim's stall sells - saffron. Step 2: Find the price of saffron - 49 dirham. Step 3: Determine Samira's price - same as Karim's, 49 dirham.  Answer: 49 dirham"
+syn1_price_ind_0189,45,Step 1: Identify what Driss's stall sells - dates. Step 2: Determine Najat's pricing - same as Driss's. Step 3: Find the price of dates - 45 dirham.  Answer: 45 dirham
+syn1_price_ind_0193,32,"Step 1: Identify what Latifa's stall sells - zellij tiles. Step 2: Find the price of zellij tiles - 32 dirham. Step 3: Determine what Najat sells - the same as Latifa, zellij tiles. Step 4: Calculate Najat's price - 32 dirham.  Answer: 32 dirham"
+syn1_price_ind_0197,89,Step 1: Identify what Youssef's stall sells - amber. Step 2: Find the price of amber - 89 dirham. Step 3: Determine what Omar charges - the same as Youssef for amber.  Answer: 89 dirham
+syn1_price_ind_0201,69,Step 1: Identify what Latifa's stall sells - dates. Step 2: Determine Najat's pricing - same as Latifa's. Step 3: Find the price of dates - 69 dirham.  Answer: 69 dirham
+syn1_price_ind_0205,70,"Step 1: Identify what Omar's stall sells - brass lanterns. Step 2: Find the price of brass lanterns - 70 dirham. Step 3: Determine Hamid's price - same as Omar's, 70 dirham.  Answer: 70"
+syn1_price_ind_0209,50,Step 1: Identify what Latifa's stall sells - dates. Step 2: Determine Omar's pricing - whatever Latifa sells. Step 3: Find the price of dates - 50 dirham.  Answer: 50 dirham
+syn1_price_ind_0213,24,Step 1: Identify what Samira's stall sells - wool. Step 2: Determine the price of wool - 24 dirham. Step 3: Understand that Youssef's stall sells the same item as Samira's. Step 4: Conclude that Youssef charges the same price as Samira for wool.  Answer: 24 dirham
+syn1_price_ind_0217,84,"Step 1: Identify what Latifa's stall sells - zellij tiles. Step 2: Determine the price of zellij tiles - 84 dirham. Step 3: Understand that Najat's stall sells the same item as Latifa's. Step 4: Calculate Najat's price - same as zellij tiles, 84 dirham.  Answer: 84 dirham"
+syn1_price_ind_0221,25,Step 1: Identify what Latifa's stall sells - dates. Step 2: Determine Najat's price for dates - 25 dirham. Answer: 25
+syn1_price_ind_0225,89,"Step 1: Identify what Driss's stall sells - wool. Step 2: Determine the price of wool - 89 dirham. Step 3: Samira's stall sells the same as Driss's stall, so she sells wool. Step 4: Calculate Samira's price - 89 dirham.  Answer: 89 dirham"
+syn1_price_ind_0229,21,"Step 1: Identify what Najat's stall sells - argan oil. Step 2: Determine the price of argan oil - 21 dirham. Step 3: Driss's stall sells the same item as Najat's stall, which is argan oil. Answer: 21 dirham"
+syn1_price_ind_0233,84,"Step 1: Identify what Najat's stall sells - mint. Step 2: Determine the price of mint - 84 dirham. Step 3: Omar's stall sells whatever Najat's stall sells, so Omar sells mint. Step 4: Therefore, Omar charges 84 dirham.  Answer: 84 dirham"
+syn1_price_ind_0237,84,Step 1: Identify what Latifa's stall sells - dates. Step 2: Determine the price of dates - 84 dirham. Step 3: Understand that Karim's stall sells the same item as Latifa's. Answer: 84 dirham
+syn1_price_ind_0241,19,"Step 1: Identify what Hamid's stall sells - amber. Step 2: Determine the price of amber - 19 dirham. Step 3: Karim's stall sells the same item as Hamid's, which is amber. Answer: 19"
+syn1_price_ind_0245,55,Step 1: Identify what Hamid's stall sells - brass lanterns. Step 2: Determine the price of brass lanterns - 55 dirham. Step 3: Youssef's stall sells the same item as Hamid's stall. Answer: 55 dirham
+syn1_price_ind_0249,11,Step 1: Identify what Omar's stall sells - saffron. Step 2: Determine the price of saffron - 11 dirham. Step 3: Conclude that Karim charges the same as Omar for saffron.  Answer: 11 dirham
+syn1_price_ind_0253,69,Step 1: Identify what Samira's stall sells - argan oil. Step 2: Determine Karim's pricing - same as Samira's. Step 3: Find the price of argan oil - 69 dirham.  Answer: 69 dirham
+syn1_price_ind_0257,72,"Step 1: Identify what Hamid's stall sells - saffron. Step 2: Determine the price of saffron - 72 dirham. Step 3: Karim's stall sells the same item as Hamid's, which is saffron. Answer: 72 dirham"
+syn1_price_ind_0261,41,Step 1: Identify what Latifa's stall sells - argan oil. Step 2: Find the price of argan oil - 41 dirham. Step 3: Determine what Hamid charges - the same as Latifa for the same item.  Answer: 41 dirham
+syn1_price_ind_0265,6,"Step 1: Identify what Driss's stall sells - zellij tiles. Step 2: Determine the price of zellij tiles - 6 dirham. Step 3: Omar's stall sells whatever Driss's stall sells, so Omar sells zellij tiles. Step 4: Therefore, Omar charges 6 dirham.  Answer: 6"
+syn1_price_ind_0269,34,Step 1: Identify what Driss's stall sells - brass lanterns. Step 2: Determine the price of brass lanterns - 34 dirham. Step 3: Youssef's stall sells the same item as Driss's stall. Answer: 34 dirham
+syn1_price_ind_0273,13,Step 1: Identify what Youssef's stall sells - argan oil. Step 2: Determine Samira's pricing - same as Youssef's. Step 3: Find the price of argan oil - 13 dirham.  Answer: 13 dirham
+syn1_price_ind_0277,23,"Step 1: Identify what Driss's stall sells - cedar boxes. Step 2: Determine the price of cedar boxes - 23 dirham. Step 3: Samira's stall sells the same items as Driss's stall, so she sells cedar boxes too. Step 4: Therefore, Samira charges 23 dirham for cedar boxes.  Answer: 23 dirham"
+syn1_price_ind_0281,17,Step 1: Identify what Najat's stall sells - cedar boxes. Step 2: Find the price of cedar boxes - 17 dirham. Step 3: Determine what Driss charges - the same as Najat for cedar boxes.  Answer: 17 dirham
+syn1_price_ind_0285,62,"Step 1: Identify what Latifa's stall sells - amber. Step 2: Find the price of amber - 62 dirham. Step 3: Determine what Samira charges - the same as Latifa for amber, 62 dirham.  Answer: 62 dirham"
+syn1_price_ind_0289,79,Step 1: Identify what Hamid's stall sells - amber. Step 2: Determine Najat's pricing - same as Hamid's. Step 3: Find the price of amber - 79 dirham.  Answer: 79 dirham
+syn1_price_ind_0293,20,Step 1: Identify what Najat's stall sells - dates. Step 2: Determine Samira's price for the same item - dates at 20 dirham. Answer: 20
+syn1_price_ind_0297,8,"Step 1: Identify what Najat's stall sells - leather slippers. Step 2: Find the price of leather slippers - 8 dirham. Step 3: Determine what Samira charges - the same as Najat, 8 dirham.  Answer: 8 dirham"
+syn1_toll1_0001,90,Step 1: Identify the charge per cart - 6 dirham. Step 2: Identify the number of carts - 15. Step 3: Calculate the total toll - 6 dirham/cart * 15 carts = 90 dirham. Answer: 90
+syn1_toll1_0005,84,Step 1: Identify the charge per cart - 6 dirham. Step 2: Identify the number of carts - 14. Step 3: Multiply the charge per cart by the number of carts - 6 * 14 = 84 dirham. Answer: 84
+syn1_toll1_0009,150,Step 1: Identify the toll per cart = 10 dirham Step 2: Identify the number of carts = 15 Step 3: Calculate total toll = 10 dirham/cart * 15 carts Answer: 150
+syn1_toll1_0013,56,"Step 1: Calculate the toll for one cart, which is 7 dirham. Step 2: Multiply the toll for one cart by the number of carts, 8. Step 3: The total toll is 7 * 8 = 56 dirham.  Answer: 56"
+syn1_toll1_0017,200,Step 1: Identify the toll per cart = 10 dirham Step 2: Identify the number of carts = 20 Step 3: Calculate total toll = 10 dirham/cart * 20 carts Answer: 200
+syn1_toll1_0021,108,Step 1: Identify the charge per cart - 6 dirham. Step 2: Identify the number of carts - 18. Step 3: Calculate the total toll - 6 dirham/cart * 18 carts = 108 dirham. Answer: 108
+syn1_toll1_0025,154,Step 1: Identify the charge per cart - 11 dirham. Step 2: Identify the number of carts - 14. Step 3: Multiply the charge per cart by the number of carts - 11 * 14 = 154 dirham. Answer: 154
+syn1_toll1_0029,144,Step 1: Identify the charge per cart - 12 dirham. Step 2: Identify the number of carts - 12. Step 3: Multiply the charge per cart by the number of carts - 12 * 12 = 144 dirham. Answer: 144
+syn1_toll1_0033,63,Step 1: Identify the toll per cart - 9 dirham. Step 2: Identify the number of carts - 7. Step 3: Calculate the total toll - 9 dirham/cart * 7 carts = 63 dirham. Answer: 63
+syn1_toll1_0037,70,Step 1: Identify the charge per cart - 7 dirham. Step 2: Identify the number of carts - 10. Step 3: Calculate the total toll - 7 dirham/cart * 10 carts = 70 dirham. Answer: 70
+syn1_toll1_0041,55,Step 1: Identify the cost per cart - 11 dirham. Step 2: Identify the number of carts - 5. Step 3: Calculate the total toll - 11 dirham/cart * 5 carts = 55 dirham. Answer: 55
+syn1_toll1_0045,152,Step 1: Identify the charge per cart - 8 dirham. Step 2: Identify the number of carts - 19. Step 3: Multiply the charge per cart by the number of carts - 8 * 19 = 152 dirham. Answer: 152
+syn1_toll1_0049,77,Step 1: Identify the charge per cart - 11 dirham. Step 2: Identify the number of carts - 7. Step 3: Multiply the charge per cart by the number of carts - 11 * 7 = 77 dirham. Answer: 77
+syn1_toll1_0053,78,Step 1: Identify the toll per cart - 6 dirham. Step 2: Identify the number of carts - 13. Step 3: Calculate the total toll - 6 dirham/cart * 13 carts = 78 dirham. Answer: 78
+syn1_toll1_0057,190,Step 1: Identify the toll per cart = 10 dirham Step 2: Identify the number of carts = 19 Step 3: Calculate total toll = 10 dirham/cart * 19 carts Answer: 190
+syn1_toll1_0061,132,Step 1: Identify the charge per cart - 12 dirham. Step 2: Identify the number of carts - 11. Step 3: Calculate the total toll - 12 dirham/cart * 11 carts = 132 dirham. Answer: 132
+syn1_toll1_0065,25,Step 1: Identify the toll per cart - 5 dirham. Step 2: Identify the number of carts - 5. Step 3: Calculate the total toll - 5 dirham/cart * 5 carts = 25 dirham. Answer: 25
+syn1_toll1_0069,84,Step 1: Identify the toll per cart - 7 dirham. Step 2: Identify the number of carts - 12. Step 3: Calculate the total toll - 7 dirham/cart * 12 carts = 84 dirham. Answer: 84
+syn1_toll1_0073,44,Step 1: Identify the charge per cart - 4 dirham. Step 2: Identify the number of carts - 11. Step 3: Calculate the total toll - 4 dirham/cart * 11 carts = 44 dirham. Answer: 44
+syn1_toll1_0077,45,Step 1: Identify the charge per cart - 9 dirham. Step 2: Identify the number of carts - 5. Step 3: Calculate the total toll - 9 dirham/cart * 5 carts = 45 dirham. Answer: 45
+syn1_toll1_0081,117,Step 1: Identify the charge per cart - 9 dirham. Step 2: Identify the number of carts - 13. Step 3: Multiply the charge per cart by the number of carts - 9 * 13 = 117 dirham. Answer: 117
+syn1_toll1_0085,132,Step 1: Identify the charge per cart - 11 dirham. Step 2: Identify the number of carts - 12. Step 3: Multiply the charge per cart by the number of carts - 11 * 12 = 132 dirham. Answer: 132
+syn1_toll1_0089,120,Step 1: Identify the toll per cart = 10 dirham Step 2: Identify the number of carts = 12 Step 3: Calculate total toll = 10 dirham/cart * 12 carts Answer: 120 dirham
+syn1_toll1_0093,96,Step 1: Identify the toll per cart - 12 dirham. Step 2: Identify the number of carts - 8. Step 3: Calculate the total toll - 12 dirham/cart * 8 carts = 96 dirham. Answer: 96
+syn1_toll1_0097,136,Step 1: Identify the toll per cart = 8 dirham Step 2: Identify the number of carts = 17 Step 3: Calculate total toll = 8 dirham/cart * 17 carts Step 4: Total toll = 136 dirham  Answer: 136
+syn1_toll1_0101,30,Step 1: Identify the toll per cart - 6 dirham. Step 2: Identify the number of carts - 5. Step 3: Calculate the total toll - 6 dirham/cart * 5 carts = 30 dirham. Answer: 30
+syn1_toll1_0105,150,Step 1: Identify the toll per cart = 10 dirham Step 2: Identify the number of carts = 15 Step 3: Calculate total toll = 10 dirham/cart * 15 carts Answer: 150
+syn1_toll1_0109,96,Step 1: Identify the toll per cart - 12 dirham. Step 2: Identify the number of carts - 8. Step 3: Calculate the total toll - 12 dirham/cart * 8 carts = 96 dirham. Answer: 96
+syn1_toll1_0113,114,Step 1: Identify the charge per cart - 6 dirham. Step 2: Identify the number of carts - 19. Step 3: Multiply the charge per cart by the number of carts - 6 * 19 = 114 dirham. Answer: 114
+syn1_toll1_0117,114,Step 1: Identify the charge per cart - 6 dirham. Step 2: Identify the number of carts - 19. Step 3: Multiply the charge per cart by the number of carts - 6 * 19 = 114 dirham. Answer: 114
+syn1_toll1_0121,88,Step 1: Identify the toll per cart - 8 dirham. Step 2: Identify the number of carts - 11. Step 3: Calculate the total toll - 8 dirham/cart * 11 carts = 88 dirham. Answer: 88
+syn1_toll1_0125,60,Step 1: Identify the toll per cart - 6 dirham. Step 2: Identify the number of carts - 10. Step 3: Calculate the total toll - 6 dirham/cart * 10 carts = 60 dirham. Answer: 60
+syn1_toll1_0129,152,Step 1: Identify the toll per cart - 8 dirham. Step 2: Identify the number of carts - 19. Step 3: Calculate the total toll - 8 dirham/cart * 19 carts = 152 dirham. Answer: 152
+syn1_toll1_0133,91,Step 1: Identify the toll per cart - 7 dirham. Step 2: Identify the number of carts - 13. Step 3: Multiply the toll per cart by the number of carts - 7 * 13 = 91 dirham. Answer: 91
+syn1_toll1_0137,60,Step 1: Identify the charge per cart - 5 dirham. Step 2: Identify the number of carts - 12. Step 3: Calculate the total toll - 5 dirham/cart * 12 carts = 60 dirham. Answer: 60
+syn1_toll1_0141,36,Step 1: Identify the toll per cart - 9 dirham. Step 2: Identify the number of carts - 4. Step 3: Calculate the total toll - 9 dirham/cart * 4 carts = 36 dirham. Answer: 36
+syn1_toll1_0145,72,Step 1: Identify the charge per cart - 4 dirham. Step 2: Identify the number of carts - 18. Step 3: Calculate the total toll - 4 dirham/cart * 18 carts = 72 dirham. Answer: 72
+syn1_toll1_0149,56,Step 1: Identify the toll per cart - 4 dirham. Step 2: Identify the number of carts - 14. Step 3: Calculate the total toll - 4 dirham/cart * 14 carts = 56 dirham. Answer: 56
+syn1_toll1_0153,100,Step 1: Identify the toll per cart - 10 dirham. Step 2: Identify the number of carts - 10. Step 3: Calculate the total toll - 10 dirham/cart * 10 carts = 100 dirham. Answer: 100 dirham
+syn1_toll1_0157,143,Step 1: Identify the toll per cart = 11 dirham. Step 2: Identify the number of carts = 13. Step 3: Calculate the total toll = 11 dirham/cart * 13 carts. Step 4: Total toll = 143 dirham.  Answer: 143
+syn1_toll1_0161,40,Step 1: Identify the charge per cart - 8 dirham. Step 2: Identify the number of carts - 5. Step 3: Calculate the total toll - 8 dirham/cart * 5 carts = 40 dirham. Answer: 40
+syn1_toll1_0165,16,Step 1: Identify the toll per cart - 4 dirham. Step 2: Identify the number of carts - 4. Step 3: Calculate the total toll - 4 dirham/cart * 4 carts = 16 dirham. Answer: 16
+syn1_toll1_0169,48,Step 1: Identify the charge per cart - 6 dirham. Step 2: Identify the number of carts - 8. Step 3: Calculate the total toll - 6 dirham/cart * 8 carts = 48 dirham. Answer: 48
+syn1_toll1_0173,200,Step 1: Identify the toll per cart - 10 dirham. Step 2: Identify the number of carts - 20. Step 3: Calculate the total toll - 10 dirham/cart * 20 carts = 200 dirham. Answer: 200
+syn1_toll1_0177,119,Step 1: Identify the charge per cart - 7 dirham. Step 2: Identify the number of carts - 17. Step 3: Multiply the charge per cart by the number of carts - 7 * 17 = 119 dirham. Answer: 119
+syn1_toll1_0181,180,Step 1: Identify the toll per cart = 10 dirham. Step 2: Identify the number of carts = 18. Step 3: Calculate the total toll = 10 dirham/cart * 18 carts. Step 4: Total toll = 180 dirham.  Answer: 180 dirham
+syn1_toll1_0185,60,Step 1: Identify the toll per cart = 4 dirham Step 2: Identify the number of carts = 15 Step 3: Calculate total toll = 4 dirham/cart * 15 carts Answer: 60 dirham
+syn1_toll1_0189,165,Step 1: Identify the toll per cart = 11 dirham. Step 2: Identify the number of carts = 15. Step 3: Calculate the total toll = 11 dirham/cart * 15 carts. Step 4: Total toll = 165 dirham.  Answer: 165
+syn1_toll1_0193,72,Step 1: Identify the charge per cart - 8 dirham. Step 2: Identify the number of carts - 9. Step 3: Multiply the charge per cart by the number of carts - 8 * 9 = 72 dirham. Answer: 72
+syn1_toll1_0197,32,Step 1: Identify the toll per cart - 8 dirham. Step 2: Identify the number of carts - 4. Step 3: Calculate the total toll - 8 dirham/cart * 4 carts = 32 dirham. Answer: 32
+syn1_toll2_0001,131,Step 1: Calculate the toll for the 5 carts weighing 45 kg. Each cart costs 25 dirham. Step 2: Calculate the toll for the 1 cart weighing 40 kg. Each cart costs 6 dirham. Step 3: Add the tolls from both steps to get the total toll.  Answer: 131 dirham
+syn1_toll2_0005,173,Step 1: Calculate the toll for the 9 carts weighing 64 kg. Step 2: Calculate the toll for the 8 carts weighing 28 kg. Step 3: Sum the tolls from both groups of carts.  Toll for 9 carts (64 kg each) = 9 * 13 dirham = 117 dirham. Toll for 8 carts (28 kg each) = 8 * 7 dirham = 56 dirham.  Total toll = 117 dirham + 56 dirham = 173 dirham.  Answer: 173
+syn1_toll2_0009,128,Step 1: Calculate the toll for the 8 heavier carts. Step 2: Calculate the toll for the 2 lighter carts. Step 3: Sum the tolls from both steps.  Toll for 8 heavier carts: 8 carts * 14 dirham/cart = 112 dirham. Toll for 2 lighter carts: 2 carts * 8 dirham/cart = 16 dirham. Total toll: 112 dirham + 16 dirham = 128 dirham.  Answer: 128
+syn1_toll2_0013,76,Step 1: Calculate the toll for the 4 carts that weigh 53 kg. Each cart costs 14 dirham. Step 2: Calculate the toll for the 2 carts that weigh 39 kg. Each cart costs 10 dirham. Step 3: Add the tolls from both groups of carts.  Calculation: 4 carts * 14 dirham/cart = 56 dirham 2 carts * 10 dirham/cart = 20 dirham Total toll = 56 dirham + 20 dirham = 76 dirham  Answer: 76
+syn1_toll2_0017,285,Step 1: Calculate the toll for the 13 carts weighing 64 kg. Step 2: Each of these carts costs 21 dirham. Step 3: Calculate the toll for the remaining cart weighing 35 kg. Step 4: This cart costs 3 dirham. Step 5: Add the tolls together.  Answer: 285
+syn1_toll2_0021,408,Step 1: Calculate the toll for the 18 heavier carts. Step 2: Calculate the toll for the 2 lighter carts. Step 3: Add the two amounts to get the total toll.  18 carts at 22 dirham each: 18 * 22 = 396 dirham 2 carts at 6 dirham each: 2 * 6 = 12 dirham Total toll: 396 + 12 = 408 dirham  Answer: 408
+syn1_toll2_0025,74,Step 1: Calculate the toll for the 2 carts weighing 84 kg. Each of these carts costs 26 dirham. Step 2: Calculate the toll for the 2 carts weighing 60 kg. Each of these carts costs 11 dirham. Step 3: Add the tolls from both types of carts to get the total toll.  Calculation: 2 carts * 26 dirham/cart = 52 dirham 2 carts * 11 dirham/cart = 22 dirham Total toll = 52 dirham + 22 dirham = 74 dirham  Answer: 74
+syn1_toll2_0029,204,Step 1: Calculate the toll for the 10 heavier carts. Step 2: Calculate the toll for the 6 lighter carts. Step 3: Sum the tolls from both groups of carts.  For the 10 heavier carts: 10 carts * 15 dirham/cart = 150 dirham. For the 6 lighter carts: 6 carts * 9 dirham/cart = 54 dirham.  Total toll: 150 dirham + 54 dirham = 204 dirham.  Answer: 204
+syn1_toll2_0033,311,Step 1: Calculate the toll for the 13 heavier carts. 13 carts * 23 dirham/cart = 299 dirham Step 2: Calculate the toll for the 3 lighter carts. 3 carts * 4 dirham/cart = 12 dirham Step 3: Add both tolls to get the total. 299 dirham + 12 dirham = 311 dirham Answer: 311
+syn1_toll2_0037,327,Step 1: Calculate the toll for the 14 heavier carts. Step 2: Calculate the toll for the lighter cart. Step 3: Sum the tolls from both steps.  14 carts at 23 dirham each: 14 * 23 = 322 dirham 1 cart at 5 dirham: 1 * 5 = 5 dirham  Total toll: 322 + 5 = 327 dirham  Answer: 327
+syn1_toll2_0041,86,Step 1: Calculate the toll for the 4 carts that weigh 83 kg. Each of these carts will be charged 18 dirham. Step 2: Calculate the toll for the 2 carts that weigh 71 kg. Each of these carts will be charged 7 dirham. Step 3: Add the tolls from both groups of carts to get the total toll.  Calculation: 4 carts * 18 dirham/cart = 72 dirham 2 carts * 7 dirham/cart = 14 dirham Total toll = 72 dirham + 14 dirham = 86 dirham  Answer: 86
+syn1_toll2_0045,174,Step 1: Calculate the toll for the 9 carts that weigh 61 kg. Step 2: Each of these carts is charged 16 dirham. Step 3: Calculate the toll for the remaining 3 carts that weigh 28 kg. Step 4: Each of these carts is charged 10 dirham. Step 5: Add the tolls from both groups of carts to get the total toll.  Calculation: 9 carts * 16 dirham/cart = 144 dirham 3 carts * 10 dirham/cart = 30 dirham Total toll = 144 dirham + 30 dirham = 174 dirham  Answer: 174
+syn1_toll2_0049,67,"Step 1: Calculate the toll for the 3 carts that weigh 82 kg. Since they are heavier than 60 kg, each pays 21 dirham. Step 2: Calculate the toll for the 1 cart that weighs 33 kg. Since it is less than 60 kg, it pays 4 dirham. Step 3: Add the tolls together: (3 carts * 21 dirham) + (1 cart * 4 dirham) = 63 dirham + 4 dirham = 67 dirham.  Answer: 67"
+syn1_toll2_0053,279,Step 1: Calculate the toll for the 15 carts weighing 45 kg. Step 2: Calculate the toll for the remaining 4 carts weighing 29 kg. Step 3: Sum the tolls from both groups of carts.  15 carts * 17 dirham = 255 dirham 4 carts * 6 dirham = 24 dirham  255 dirham + 24 dirham = 279 dirham  Answer: 279
+syn1_toll2_0057,81,Step 1: Calculate the toll for the 5 carts that weigh 56 kg. Each cart costs 15 dirham. Step 2: Calculate the toll for the 1 cart that weighs 28 kg. Each cart costs 6 dirham. Step 3: Add the tolls from both steps to get the total toll.  Answer: 81 dirham
+syn1_toll2_0061,152,Step 1: Calculate the toll for the 15 lighter carts. 15 carts * 9 dirham/cart = 135 dirham Step 2: Calculate the toll for the heavier cart. 1 cart * 17 dirham/cart = 17 dirham Step 3: Add both amounts to get the total toll. 135 dirham + 17 dirham = 152 dirham Answer: 152
+syn1_toll2_0065,88,Step 1: Calculate the toll for the 4 carts weighing 76 kg. Step 2: Calculate the toll for the remaining 8 carts weighing 50 kg. Step 3: Sum the tolls from both groups of carts.  Toll for 4 carts (76 kg each): 4 carts * 16 dirham/cart = 64 dirham Toll for 8 carts (50 kg each): 8 carts * 3 dirham/cart = 24 dirham  Total toll: 64 dirham + 24 dirham = 88 dirham  Answer: 88
+syn1_toll2_0069,62,Step 1: Calculate the toll for the 4 carts that weigh 57 kg. Each of these carts will be charged 13 dirham. Step 2: Calculate the toll for the 1 cart that weighs 44 kg. This cart will be charged 10 dirham. Step 3: Add the tolls from both steps to get the total toll.  Total toll = (4 carts * 13 dirham) + (1 cart * 10 dirham) = 52 dirham + 10 dirham = 62 dirham.  Answer: 62
+syn1_toll2_0073,344,Step 1: Calculate the toll for the 14 heavier carts. Step 2: Calculate the toll for the remaining 4 lighter carts. Step 3: Sum the tolls from both groups of carts.  14 carts at 22 dirham each: 14 * 22 = 308 dirham 4 carts at 9 dirham each: 4 * 9 = 36 dirham  Total toll: 308 + 36 = 344 dirham  Answer: 344
+syn1_toll2_0077,106,"Step 1: Calculate the toll for the 6 carts weighing 77 kg. Step 2: Each of these carts is heavier than 60 kg, so each pays 16 dirham. Step 3: Total toll for these 6 carts = 6 * 16 dirham. Step 4: Calculate the toll for the 2 carts weighing 55 kg. Step 5: Each of these carts weighs less than 60 kg, so each pays 5 dirham. Step 6: Total toll for these 2 carts = 2 * 5 dirham. Step 7: Add the tolls from both groups of carts to get the total toll.  Answer: 106 dirham"
+syn1_toll2_0081,424,Step 1: Calculate the toll for the 16 heavier carts. Step 2: Calculate the toll for the remaining 2 lighter carts. Step 3: Sum the tolls from both groups of carts.  For the 16 heavier carts: 16 carts * 25 dirham/cart = 400 dirham. For the 2 lighter carts: 2 carts * 12 dirham/cart = 24 dirham.  Total toll: 400 dirham + 24 dirham = 424 dirham.  Answer: 424
+syn1_toll2_0085,44,Step 1: Calculate the toll for the 2 carts weighing 60 kg. Each cart costs 13 dirham. Step 2: Calculate the toll for the 2 carts weighing 43 kg. Each cart costs 9 dirham. Step 3: Add the tolls from both sets of carts.  Calculation: 2 carts * 13 dirham/cart = 26 dirham 2 carts * 9 dirham/cart = 18 dirham Total toll = 26 dirham + 18 dirham = 44 dirham  Answer: 44
+syn1_toll2_0089,62,Step 1: Calculate the toll for the 3 carts weighing 85 kg. Step 2: Calculate the toll for the 5 carts weighing 38 kg. Step 3: Sum the tolls from both groups of carts.  Toll for 3 carts (85 kg each): 3 carts * 14 dirham/cart = 42 dirham Toll for 5 carts (38 kg each): 5 carts * 4 dirham/cart = 20 dirham  Total toll: 42 dirham + 20 dirham = 62 dirham  Answer: 62
+syn1_toll2_0093,93,Step 1: Calculate the toll for the 7 carts weighing 51 kg. Step 2: Calculate the toll for the 1 cart weighing 89 kg. Step 3: Add the tolls from steps 1 and 2 to get the total toll.  For 7 carts at 51 kg each: 7 carts * 10 dirham/cart = 70 dirham. For 1 cart at 89 kg: 1 cart * 23 dirham/cart = 23 dirham. Total toll: 70 dirham + 23 dirham = 93 dirham.  Answer: 93
+syn1_toll2_0097,60,Step 1: Calculate the toll for the 4 carts weighing 34 kg. Each pays 12 dirham. Step 2: Calculate the toll for the 1 cart weighing 70 kg. It pays 24 dirham. Step 3: Add the tolls from both steps to get the total.  Answer: 60 dirham
+syn1_toll2_0101,254,Step 1: Calculate the toll for the 13 lighter carts. 13 carts * 19 dirham/cart = 247 dirham Step 2: Calculate the toll for the 1 heavier cart. 1 cart * 7 dirham/cart = 7 dirham Step 3: Add both amounts to get the total toll. 247 dirham + 7 dirham = 254 dirham Answer: 254
+syn1_toll2_0105,143,Step 1: Calculate the toll for the 7 carts that weigh 93 kg. Step 2: Each of these carts will be charged 17 dirham. Step 3: Calculate the toll for the 2 carts that weigh 52 kg. Step 4: Each of these carts will be charged 12 dirham. Step 5: Sum the tolls from both groups of carts.  Calculation: 7 carts * 17 dirham/cart = 119 dirham 2 carts * 12 dirham/cart = 24 dirham Total toll = 119 dirham + 24 dirham = 143 dirham  Answer: 143
+syn1_toll2_0109,220,Step 1: Calculate the toll for the 8 heavier carts. Step 2: Calculate the toll for the remaining 9 lighter carts. Step 3: Sum the tolls from both groups of carts.  For the 8 heavier carts: 8 carts * 14 dirham/cart = 112 dirham. For the 9 lighter carts: 9 carts * 12 dirham/cart = 108 dirham. Total toll: 112 dirham + 108 dirham = 220 dirham.  Answer: 220
+syn1_toll2_0113,126,Step 1: Calculate the toll for the 6 carts that weigh 74 kg. Step 2: Each of these carts costs 17 dirham. Step 3: Calculate the toll for the 2 carts that weigh 40 kg. Step 4: Each of these carts costs 12 dirham. Step 5: Sum the tolls from both groups of carts.  Calculation: 6 carts * 17 dirham/cart = 102 dirham 2 carts * 12 dirham/cart = 24 dirham Total toll = 102 dirham + 24 dirham = 126 dirham  Answer: 126
+syn1_toll2_0117,311,Step 1: Calculate the toll for the 9 heavier carts. Step 2: Calculate the toll for the remaining 7 lighter carts. Step 3: Sum the tolls from both groups of carts.  Toll for 9 heavier carts: 9 carts * 26 dirham/cart = 234 dirham Toll for 7 lighter carts: 7 carts * 11 dirham/cart = 77 dirham Total toll: 234 dirham + 77 dirham = 311 dirham  Answer: 311
+syn1_toll2_0121,74,Step 1: Calculate the toll for the 3 heavier carts. Step 2: Calculate the toll for the 7 lighter carts. Step 3: Sum the tolls from both groups of carts.  3 carts at 13 dirham each = 39 dirham 7 carts at 5 dirham each = 35 dirham Total toll = 39 + 35 = 74 dirham  Answer: 74
+syn1_toll2_0125,96,"Step 1: Calculate the toll for the 3 carts weighing 86 kg. Step 2: Calculate the toll for the 5 carts weighing 38 kg. Step 3: Sum the tolls from both groups of carts.  For the 3 carts weighing 86 kg, the toll is 22 dirham each. For the 5 carts weighing 38 kg, the toll is 6 dirham each.  Total toll = (3 * 22) + (5 * 6) = 66 + 30 = 96 dirham.  Answer: 96"
+syn1_toll2_0129,772,Step 1: Calculate the toll for the 12 carts that weigh 31 kg each. Step 2: Calculate the toll for the 2 carts that weigh 68 kg each. Step 3: Add the tolls from steps 1 and 2 to get the total toll.  12 carts * 31 kg/cart * 12 dirham = 456 dirham 2 carts * 68 kg/cart * 23 dirham = 316 dirham  Total toll = 456 dirham + 316 dirham = 772 dirham  Answer: 772
+syn1_toll2_0133,74,Step 1: Calculate the toll for the 2 carts weighing 95 kg. Each of these carts costs 22 dirham. Step 2: Calculate the toll for the 3 carts weighing 45 kg. Each of these carts costs 10 dirham. Step 3: Add the tolls from both steps to get the total toll.  Calculation: 2 carts * 22 dirham/cart = 44 dirham 3 carts * 10 dirham/cart = 30 dirham Total toll = 44 dirham + 30 dirham = 74 dirham  Answer: 74
+syn1_toll2_0137,210,Step 1: Calculate the toll for the 15 heavier carts. Step 2: Calculate the toll for the remaining 3 lighter carts. Step 3: Sum the tolls from both groups of carts.  15 carts at 12 dirham each: 15 * 12 = 180 dirham 3 carts at 10 dirham each: 3 * 10 = 30 dirham  Total toll: 180 + 30 = 210 dirham  Answer: 210
+syn1_toll2_0141,155,Step 1: Calculate the toll for the 11 carts that weigh 36 kg each. Step 2: Calculate the toll for the 2 carts that weigh 69 kg each. Step 3: Sum the tolls from both steps.  11 carts * 11 dirham/cart = 121 dirham 2 carts * 17 dirham/cart = 34 dirham  121 dirham + 34 dirham = 155 dirham  Answer: 155
+syn1_toll2_0145,159,Step 1: Calculate the toll for the 8 carts weighing 68 kg. Step 2: Calculate the toll for the 9 carts weighing 51 kg. Step 3: Sum the tolls from both groups of carts.  Toll for 8 carts (68 kg each): 8 carts * 12 dirham/cart = 96 dirham. Toll for 9 carts (51 kg each): 9 carts * 7 dirham/cart = 63 dirham.  Total toll: 96 dirham + 63 dirham = 159 dirham.  Answer: 159
+syn1_toll2_0149,238,Step 1: Calculate the toll for the 10 heavier carts. Step 2: Calculate the toll for the 6 lighter carts. Step 3: Sum the tolls from both groups of carts.  10 carts at 22 dirham each = 220 dirham 6 carts at 3 dirham each = 18 dirham  220 + 18 = 238 dirham  Answer: 238
+syn1_stall1_0003,13:45,Answer: 13:45
+syn1_stall1_0007,13:40,Answer: 13:40
+syn1_stall1_0011,13:45,Answer: 13:45
+syn1_stall1_0015,15:15,Answer: 15:15
+syn1_stall1_0019,12:20,Answer: 12:20
+syn1_stall1_0023,15:50,Answer: 15:50
+syn1_stall1_0027,15:30,Answer: 15:30
+syn1_stall1_0031,12:20,Answer: 12:20
+syn1_stall1_0035,11:20,Answer: 11:20
+syn1_stall1_0039,09:20,Answer: 09:20
+syn1_stall1_0043,15:00,Answer: 15:00
+syn1_stall1_0047,14:30,Answer: 14:30
+syn1_stall1_0051,12:45,Answer: 12:45
+syn1_stall1_0055,11:35,Answer: 11:35
+syn1_stall1_0059,13:20,Answer: 13:20
+syn1_stall1_0063,15:50,Answer: 15:50
+syn1_stall1_0067,10:40,Answer: 10:40
+syn1_stall1_0071,15:05,Answer: 15:05
+syn1_stall1_0075,13:10,Answer: 13:10
+syn1_stall1_0079,13:55,Answer: 13:55
+syn1_stall1_0083,15:40,Answer: 15:40
+syn1_stall1_0087,15:40,Answer: 15:40
+syn1_stall1_0091,09:40,Answer: 09:40
+syn1_stall1_0095,12:25,Answer: 12:25
+syn1_stall1_0099,12:50,Answer: 12:50
+syn1_stall1_0103,13:40,Answer: 13:40
+syn1_stall1_0107,10:40,Answer: 10:40
+syn1_stall1_0111,16:05,Answer: 16:05
+syn1_stall1_0115,12:05,Answer: 12:05
+syn1_stall1_0119,14:30,Answer: 14:30
+syn1_stall1_0123,14:15,Answer: 14:15
+syn1_stall1_0127,14:20,Answer: 14:20
+syn1_stall1_0131,11:10,Answer: 11:10
+syn1_stall1_0135,15:10,Answer: 15:10
+syn1_stall1_0139,15:40,Answer: 15:40
+syn1_stall1_0143,16:50,Answer: 16:50
+syn1_stall1_0147,13:40,Answer: 13:40
+syn1_stall1_0151,14:20,Answer: 14:20
+syn1_stall1_0155,15:20,Answer: 15:20
+syn1_stall1_0159,10:45,Answer: 10:45
+syn1_stall1_0163,13:00,Answer: 13:00
+syn1_stall1_0167,12:50,Answer: 12:50
+syn1_stall1_0171,12:05,Answer: 12:05
+syn1_stall1_0175,16:05,Answer: 16:05
+syn1_stall1_0179,14:55,Answer: 14:55
+syn1_stall1_0183,12:40,Answer: 12:40
+syn1_stall1_0187,14:15,Answer: 14:15
+syn1_stall1_0191,11:05,Answer: 11:05
+syn1_stall1_0195,12:30,Answer: 12:30
+syn1_stall1_0199,14:10,Answer: 14:10
+syn1_stall1_0203,14:40,Answer: 14:40
+syn1_stall1_0207,17:20,Answer: 17:20
+syn1_stall1_0211,15:35,Answer: 15:35
+syn1_stall1_0215,14:25,Answer: 14:25
+syn1_stall1_0219,14:55,Answer: 14:55
+syn1_stall1_0223,14:30,Answer: 14:30
+syn1_stall1_0227,11:15,Answer: 11:15
+syn1_stall1_0231,12:15,Answer: 12:15
+syn1_stall1_0235,11:30,Answer: 11:30
+syn1_stall1_0239,13:50,Answer: 13:50
+syn1_stall1_0243,13:35,Answer: 13:35
+syn1_stall1_0247,13:10,Answer: 13:10
+syn1_stall2_0001,13:30,Step 1: Opens at 06:30 Step 2: Works for 3 hours until 09:30 Step 3: Pauses for 40 minutes at 09:30 Step 4: Reopens and works for 4 more hours until 13:30  Answer: 13:30
+syn1_stall2_0005,16:40,1. Opens at 06:55 2. Works for 8 hours: 06:55 + 08:00 = 14:55 3. Pauses for 45 minutes: 14:55 + 00:45 = 15:40 4. Works 1 more hour: 15:40 + 01:00 = 16:40  Answer: 16:40
+syn1_stall2_0009,15:15,1. Opens at 06:45 and works for 5 hours until 11:45. 2. Pauses for 25 minutes at 11:45. 3. Reopens and works for 3 more hours until 15:15.  Answer: 15:15
+syn1_stall2_0013,12:00,Answer: 12:00
+syn1_stall2_0017,15:05,Answer: 15:05
+syn1_stall2_0021,14:25,1. Opens at 06:50 and works for 3 hours until 09:50. 2. Pauses for 35 minutes from 09:50 to 10:25. 3. Works for 4 more hours from 10:25 to 14:25.  Answer: 14:25
+syn1_stall2_0025,13:30,1. Opens at 07:50 and works for 3 hours: 10:50. 2. Pauses for 40 minutes: 11:30. 3. Works for 2 more hours: 13:30.  Answer: 13:30
+syn1_stall2_0029,17:00,1. Opens at 09:35 2. Works for 5 hours: 09:35 + 5 hours = 14:35 3. Pauses for 25 minutes: 14:35 + 25 minutes = 14:60 (which is 15:00) 4. Works for 2 more hours: 15:00 + 2 hours = 17:00  Answer: 17:00
+syn1_stall2_0033,14:05,Answer: 14:05
+syn1_stall2_0037,14:30,1. Opens at 08:40 and works for 3 hours until 11:40. 2. Pauses for 50 minutes from 11:40 to 12:30. 3. Works for 2 more hours from 12:30 to 14:30.  Answer: 14:30
+syn1_stall2_0041,14:00,Answer: 14:00
+syn1_stall2_0045,18:30,1. Opens at 07:10. 2. Works for 7 hours: 07:10 + 07:00 = 14:10. 3. Pauses for 20 minutes: 14:10 + 00:20 = 14:30. 4. Works for 4 more hours: 14:30 + 04:00 = 18:30.  Answer: 18:30
+syn1_stall2_0049,16:00,"Step 1: The stall works for 4 hours from 08:10, so it works until 12:10. Step 2: It pauses for 50 minutes, so it resumes at 12:10 + 50 minutes = 13:00. Step 3: It works for 3 more hours from 13:00, so it closes at 13:00 + 3 hours = 16:00.  Answer: 16:00"
+syn1_stall2_0053,13:20,Answer: 13:20
+syn1_stall2_0057,13:10,Answer: 13:10
+syn1_stall2_0061,15:20,1. Opens at 07:00. 2. Works for 7 hours: 07:00 + 07:00 = 14:00. 3. Pauses for 20 minutes: 14:00 + 00:20 = 14:20. 4. Works 1 more hour: 14:20 + 01:00 = 15:20.  Answer: 15:20
+syn1_stall2_0065,13:15,Answer: 13:15
+syn1_stall2_0069,19:20,1. Opens at 07:55 2. Works for 8 hours: 07:55 + 08:00 = 15:55 3. Pauses for 25 minutes: 15:55 + 25:00 = 16:20 4. Works for 3 more hours: 16:20 + 03:00 = 19:20  Answer: 19:20
+syn1_stall2_0073,16:05,1. Opens at 06:25. 2. Works for 7 hours: 06:25 + 07:00 = 13:25. 3. Pauses for 40 minutes: 13:25 + 00:40 = 14:05. 4. Works for 2 more hours: 14:05 + 02:00 = 16:05.  Answer: 16:05
+syn1_stall2_0077,16:00,1. Opens at 09:40 and works for 5 hours: 02:20 (09:40 + 02:20 = 12:00) 2. Pauses for 40 minutes: 12:40 3. Works for 3 more hours: 16:00 (12:40 + 03:20 = 16:00)  Answer: 16:00
+syn1_stall2_0081,17:15,1. Opens at 08:50. 2. Works for 5 hours: 08:50 + 5 hours = 13:50. 3. Pauses for 25 minutes: 13:50 + 00:25 = 14:15. 4. Works for 3 more hours: 14:15 + 3 hours = 17:15.  Answer: 17:15
+syn1_stall2_0085,13:15,1. Opens at 08:45 and works for 3 hours until 11:45. 2. Pauses for 30 minutes from 11:45 to 12:15. 3. Works for 1 more hour from 12:15 to 13:15.  Answer: 13:15
+syn1_stall2_0089,13:50,Answer: 13:50
+syn1_stall2_0093,13:00,Answer: 13:00
+syn1_stall2_0097,14:05,Answer: 14:05
+syn1_stall2_0101,17:05,1. Opens at 08:15 and works for 7 hours until 15:15. 2. Pauses for 50 minutes from 15:15 to 16:05. 3. Works 1 more hour from 16:05 to 17:05.  Answer: 17:05
+syn1_stall2_0105,15:15,1. Opens at 08:45 2. Works for 5 hours: 08:45 + 05:00 = 13:45 3. Pauses for 30 minutes: 13:45 + 00:30 = 14:15 4. Works 1 more hour: 14:15 + 01:00 = 15:15  Answer: 15:15
+syn1_stall2_0109,17:25,1. Opens at 09:00 2. Works for 7 hours: 09:00 + 07:00 = 16:00 3. Pauses for 25 minutes: 16:00 + 00:25 = 16:25 4. Works 1 more hour: 16:25 + 01:00 = 17:25  Answer: 17:25
+syn1_stall2_0113,19:00,1. Opens at 09:15. 2. Works for 8 hours: 09:15 + 08:00 = 17:15. 3. Pauses for 35 minutes: 17:15 + 00:35 = 18:00. 4. Works 1 more hour: 18:00 + 01:00 = 19:00.  Answer: 19:00
+syn1_stall2_0117,13:20,Answer: 13:20
+syn1_stall2_0121,14:35,1. Opens at 09:05 and works for 3 hours: 09:05 + 03:00 = 12:05 2. Pauses for 30 minutes: 12:05 + 00:30 = 12:35 3. Works for 2 more hours: 12:35 + 02:00 = 14:35  Answer: 14:35
+syn1_stall2_0125,17:05,1. Opens at 09:20. 2. Works for 6 hours: 09:20 + 6 hours = 15:20. 3. Pauses for 35 minutes: 15:20 + 35 minutes = 16:05. 4. Works 1 more hour: 16:05 + 1 hour = 17:05.  Answer: 17:05
+syn1_stall2_0129,14:10,Answer: 14:10
+syn1_stall2_0133,15:10,1. Opens at 09:40 and works for 4 hours: 09:40 + 04:00 = 13:40 2. Pauses for 30 minutes: 13:40 + 00:30 = 14:10 3. Works for 1 more hour: 14:10 + 01:00 = 15:10  Answer: 15:10
+syn1_stall2_0137,16:50,1. Opens at 08:25 and works for 5 hours: 08:25 + 05:00 = 13:25. 2. Pauses for 25 minutes: 13:25 + 00:25 = 13:50. 3. Works for 3 more hours: 13:50 + 03:00 = 16:50.  Answer: 16:50
+syn1_stall2_0141,19:20,1. Opens at 09:30 and works for 7 hours: 09:30 + 07:00 = 16:30 2. Pauses for 50 minutes: 16:30 + 00:50 = 17:20 3. Works for 2 more hours: 17:20 + 02:00 = 19:20  Answer: 19:20
+syn1_stall2_0145,18:05,1. Opens at 08:20. 2. Works for 7 hours: 08:20 + 07:00 = 15:20. 3. Pauses for 45 minutes: 15:20 + 00:45 = 16:05. 4. Works for 2 more hours: 16:05 + 02:00 = 18:05.  Answer: 18:05
+syn1_stall2_0149,16:05,Step 1: Calculate the first working period: 06:35 + 5 hours = 11:35. Step 2: Add the pause time: 11:35 + 30 minutes = 12:05. Step 3: Calculate the second working period: 12:05 + 4 hours = 16:05.  Answer: 16:05
+syn1_stall2_0153,15:50,1. Opens at 07:25 and works for 5 hours: 07:25 + 05:00 = 12:25. 2. Pauses for 25 minutes: 12:25 + 00:25 = 12:50. 3. Works for 3 more hours: 12:50 + 03:00 = 15:50.  Answer: 15:50
+syn1_stall2_0157,12:05,Answer: 12:05
+syn1_stall2_0161,13:45,Answer: 13:45
+syn1_stall2_0165,18:25,1. Opens at 08:50. 2. Works for 8 hours: 08:50 + 08:00 = 16:50. 3. Pauses for 35 minutes: 16:50 + 00:35 = 17:25. 4. Works 1 more hour: 17:25 + 01:00 = 18:25.  Answer: 18:25
+syn1_stall2_0169,15:25,1. Opens at 07:40 and works for 5 hours: 07:40 + 05:00 = 12:40 2. Pauses for 45 minutes: 12:40 + 00:45 = 13:25 3. Works for 2 more hours: 13:25 + 02:00 = 15:25  Answer: 15:25
+syn1_stall2_0173,17:00,1. Opens at 08:20. 2. Works for 6 hours: 08:20 + 6 hours = 14:20. 3. Pauses for 40 minutes: 14:20 + 00:40 = 15:00. 4. Works for 2 more hours: 15:00 + 02:00 = 17:00.  Answer: 17:00
+syn1_stall2_0177,13:30,1. Opens at 06:55 and works for 3 hours: 06:55 + 03:00 = 09:55 2. Pauses for 35 minutes: 09:55 + 00:35 = 10:30 3. Works for another 3 hours: 10:30 + 03:00 = 13:30  Answer: 13:30
+syn1_stall2_0181,12:05,Answer: 12:05
+syn1_stall2_0185,18:05,"1. The stall works for 7 hours starting at 08:45, so it works until 16:25. 2. It pauses for 40 minutes, so it resumes at 16:25 + 40 minutes = 17:05. 3. It works for 1 more hour, so it closes at 17:05 + 1 hour = 18:05.  Answer: 18:05"
+syn1_stall2_0189,18:05,1. Opens at 08:30. 2. Works for 7 hours: 08:30 + 07:00 = 15:30. 3. Pauses for 35 minutes: 15:30 + 00:35 = 16:05. 4. Works for 2 more hours: 16:05 + 02:00 = 18:05.  Answer: 18:05
+syn1_stall2_0193,14:05,Answer: 14:05
+syn1_stall2_0197,15:05,Answer: 15:05
+syn1_stall2_0201,12:30,1. Opens at 07:05 2. Works for 3 hours: 07:05 + 03:00 = 10:05 3. Pauses for 25 minutes: 10:05 + 00:25 = 10:30 4. Works for 2 more hours: 10:30 + 02:00 = 12:30  Answer: 12:30
+syn1_stall2_0205,17:55,1. Opens at 08:30. 2. Works for 8 hours: 08:30 + 08:00 = 16:30. 3. Pauses for 25 minutes: 16:30 + 00:25 = 16:55. 4. Works 1 more hour: 16:55 + 01:00 = 17:55.  Answer: 17:55
+syn1_stall2_0209,13:45,Answer: 13:45
+syn1_stall2_0213,13:55,"- It opens at 08:10 and works for 4 hours until 12:10. - Pauses for 45 minutes, resuming at 12:55. - Works for 1 more hour until 13:55.  Answer: 13:55"
+syn1_stall2_0217,19:45,"1. The stall opens at 07:10. 2. It works for 8 hours, so it works until 15:10. 3. It pauses for 35 minutes, so it resumes at 15:45. 4. It works for 4 more hours, so it closes at 19:45.  Answer: 19:45"
+syn1_stall2_0221,13:00,Answer: 13:00
+syn1_stall2_0225,12:05,Answer: 12:05
+syn1_stall2_0229,13:00,Answer: 13:00
+syn1_stall2_0233,19:20,1. Opens at 07:40. 2. Works for 8 hours: 07:40 + 08:00 = 15:40. 3. Pauses for 40 minutes: 15:40 + 00:40 = 16:20. 4. Works for 3 more hours: 16:20 + 03:00 = 19:20.  Answer: 19:20
+syn1_stall2_0237,16:35,1. Opens at 07:05 2. Works for 8 hours: 07:05 + 08:00 = 15:05 3. Pauses for 30 minutes: 15:05 + 00:30 = 15:35 4. Works 1 more hour: 15:35 + 01:00 = 16:35  Answer: 16:35
+syn1_stall2_0241,17:30,1. Opens at 08:40 and works for 6 hours: 08:40 + 06:00 = 14:40 2. Pauses for 50 minutes: 14:40 + 00:50 = 15:30 3. Works for 2 more hours: 15:30 + 02:00 = 17:30  Answer: 17:30
+syn1_stall2_0245,18:05,1. Opens at 09:40. 2. Works for 7 hours: 09:40 + 07:00 = 16:40. 3. Pauses for 25 minutes: 16:40 + 00:25 = 17:05. 4. Works 1 more hour: 17:05 + 01:00 = 18:05.  Answer: 18:05
+syn1_stall2_0249,17:45,1. Opens at 09:55 2. Works for 5 hours: 09:55 + 5 hours = 14:55 3. Pauses for 50 minutes: 14:55 + 50 minutes = 15:45 4. Works for 2 more hours: 15:45 + 2 hours = 17:45  Answer: 17:45
+syn1_walk3_0003,2,"Step 1: Identify the relevant paths from Rcif to Talaa. Step 2: Determine the shortest path based on the given times. Step 3: The shortest path is from Rcif to Talaa-Rcif, which is 2 minutes.  Answer: 2"
+syn1_walk3_0007,14,"Step 1: Identify the direct path from Attarine to Rcif. Step 2: The direct path is Sagha-Rcif, which takes 14 minutes.  Answer: 14"
+syn1_walk3_0011,8,Answer: 8
+syn1_walk3_0015,9,Answer: 9
+syn1_walk3_0019,23,Answer: 23
+syn1_walk3_0023,7,Answer: 7
+syn1_walk3_0027,26,Answer: 26
+syn1_walk3_0031,13,Answer: 13
+syn1_walk3_0035,26,Answer: 26
+syn1_walk3_0039,27,Step 1: Identify the relevant paths. Step 2: Determine the path from Henna to Attarine. Step 3: Calculate the shortest walk time.  Answer: 27
+syn1_walk3_0043,8,Step 1: Identify the relevant walking times. Step 2: Find the shortest walk from Rcif to Chouara. Answer: 8
+syn1_walk3_0047,9,Answer: 9
+syn1_walk3_0051,12,"Step 1: Identify the direct path from Attarine to Rcif. Step 2: The direct path is Attarine-Rcif, which takes 12 minutes. Step 3: Consider other paths, but Attarine-Henna-Rcif would take longer (5+7=12 minutes). Answer: 12"
+syn1_walk3_0055,8,Answer: 8
+syn1_walk3_0059,10,Answer: 10
+syn1_walk3_0063,22,Answer: 22
+syn1_walk3_0067,14,Answer: 14
+syn1_walk3_0071,12,Answer: 12
+syn1_walk3_0075,8,Answer: 8
+syn1_walk3_0079,14,Answer: 14
+syn1_walk3_0083,4,"Step 1: Identify the direct path from Attarine to Henna. Step 2: The direct path is Attarine-Henna, which takes 4 minutes.  Answer: 4"
+syn1_walk3_0087,5,Answer: 5
+syn1_walk3_0091,3,Answer: 3
+syn1_walk3_0095,5,Answer: 5
+syn1_walk3_0099,5,Answer: 5
+syn1_walk3_0103,27,Answer: 27
+syn1_walk3_0107,10,Answer: 10
+syn1_walk3_0111,12,Answer: 12
+syn1_walk3_0115,4,Answer: 4
+syn1_walk3_0119,22,"Step 1: Identify the relevant walking times. Step 2: Determine the shortest path from Attarine to Rcif. Step 3: The shortest walk is via Henna, which is 13 minutes from Henna to Attarine and 10 minutes from Henna to Rcif, totaling 23 minutes, but the direct path is 22 minutes. Answer: 22"
+syn1_walk3_0123,26,Answer: 26
+syn1_walk3_0127,3,Answer: 3
+syn1_walk3_0131,14,Answer: 14
+syn1_walk3_0135,18,Answer: 18
+syn1_walk3_0139,12,Step 1: Identify the relevant paths. Step 2: Chouara to Sagha via Talaa is 3 + 9 = 12 minutes. Step 3: Chouara to Sagha via Sagha-Talaa-Talaa-Chouara is not shorter. Answer: 12
+syn1_walk3_0143,7,Answer: 7
+syn1_walk3_0147,5,Answer: 5
+syn1_walk3_0151,24,Answer: 24
+syn1_walk3_0155,4,Answer: 4
+syn1_walk3_0159,10,Answer: 10
+syn1_walk3_0163,2,Answer: 2
+syn1_walk3_0167,3,Answer: 3
+syn1_walk3_0171,18,Answer: 18
+syn1_walk3_0175,5,Answer: 5
+syn1_walk3_0179,8,Answer: 8
+syn1_walk3_0183,24,Answer: 24
+syn1_walk3_0187,16,Answer: 16
+syn1_walk3_0191,10,"Step 1: Identify the direct walk from Boujloud to Sagha. Step 2: There is no direct walk given, so use the indirect route via Rcif. Step 3: Calculate the time for the indirect route (Boujloud to Rcif to Sagha). Answer: 10"
+syn1_walk3_0195,10,Answer: 10
+syn1_walk3_0199,16,Answer: 16
+syn1_walk3_0203,9,Answer: 9
+syn1_walk3_0207,12,Step 1: Identify the relevant walk times. Step 2: Compare Henna-Boujloud and Chouara-Henna (since Chouara-Boujloud is not a direct path from Henna to Boujloud). Step 3: Choose the shortest time.  Answer: 12
+syn1_walk3_0211,13,Answer: 13
+syn1_walk3_0215,21,"Step 1: Identify the relevant paths. Step 2: Calculate the time for each path.    - Attarine to Boujloud via Talaa: 11 + 10 = 21 minutes.    - Attarine to Boujloud via Attarine: 26 minutes (direct path not given, assume not shorter).  Answer: 21"
+syn1_walk3_0219,23,Answer: 23
+syn1_walk3_0223,21,Answer: 21
+syn1_walk3_0227,15,Answer: 15
+syn1_walk3_0231,28,Answer: 28
+syn1_walk3_0235,13,Answer: 13
+syn1_walk3_0239,7,Step 1: Identify the relevant path from Attarine to Sagha. Step 2: The shortest path is via Rcif. Step 3: Calculate the time for this path: Attarine-Rcif (3 minutes) + Rcif-Sagha (4 minutes) = 7 minutes.  Answer: 7
+syn1_walk3_0243,23,Answer: 23
+syn1_walk3_0247,9,Answer: 9
+syn1_walk3_0251,21,Answer: 21
+syn1_walk3_0255,30,Step 1: Identify the relevant path from Sagha to Cherabliyine. Step 2: The path through Attarine is not direct. Step 3: Add the time for Cherabliyine-Sagha and Attarine-Sagha. Step 4: Calculate the total time: 19 + 11 = 30 minutes (indirect path) or consider the direct path which is not listed but can be inferred as the sum of the other segments.  Answer: 30
+syn1_walk3_0259,13,Answer: 13
+syn1_walk3_0263,34,Answer: 34
+syn1_walk3_0267,23,Answer: 23
+syn1_walk3_0271,13,Answer: 13
+syn1_walk3_0275,15,Answer: 15
+syn1_walk3_0279,2,Answer: 2
+syn1_walk3_0283,21,Answer: 21
+syn1_walk3_0287,9,Answer: 9
+syn1_walk3_0291,28,"Step 1: Identify the direct walk time from Sagha to Rcif. Step 2: There is no direct time given, so use the indirect route via Chouara. Step 3: Calculate the time via Chouara (Sagha to Chouara + Chouara to Rcif).  Answer: 28"
+syn1_walk3_0295,26,Answer: 26
+syn1_walk3_0299,25,Answer: 25
+syn1_walk4_0003,18,Answer: 18
+syn1_walk4_0007,23,Answer: 23
+syn1_walk4_0011,15,Answer: 15
+syn1_walk4_0015,10,Answer: 10
+syn1_walk4_0019,5,Step 1: Identify the relevant paths from Nejjarine to Seffarine. Step 2: The paths are Seffarine-Nejjarine (5 minutes) and Nejjarine-Attarine-Seffarine (7 minutes + 12 minutes = 19 minutes). Step 3: Compare the times to find the shortest.  Answer: 5
+syn1_walk4_0023,4,Answer: 4
+syn1_walk4_0027,4,Answer: 4
+syn1_walk4_0031,3,Answer: 3
+syn1_walk4_0035,24,Answer: 24
+syn1_walk4_0039,12,Answer: 12
+syn1_walk4_0043,28,Answer: 28
+syn1_walk4_0047,22,Answer: 22
+syn1_walk4_0051,7,Answer: 7
+syn1_walk4_0055,24,Answer: 24
+syn1_walk4_0059,3,Answer: 3
+syn1_walk4_0063,9,Answer: 9
+syn1_walk4_0067,21,Answer: 21
+syn1_walk4_0071,15,Answer: 15
+syn1_walk4_0075,28,Answer: 28
+syn1_walk4_0079,14,Answer: 14
+syn1_walk4_0083,6,Answer: 6
+syn1_walk4_0087,12,Answer: 12
+syn1_walk4_0091,6,Answer: 6
+syn1_walk4_0095,20,"Step 1: Identify the relevant paths. Step 2: Talaa-Boujloud goes through Cherabliyine. Step 3: Calculate the time: 6 (Talaa-Boujloud) + 14 (Cherabliyine-Seffarine) = 20 minutes. Step 4: Consider direct paths, but none exist.  Answer: 20"
+syn1_walk4_0099,27,Answer: 27
+syn1_walk4_0103,8,Answer: 8
+syn1_walk4_0107,12,Answer: 12
+syn1_walk4_0111,21,Answer: 21
+syn1_walk4_0115,25,Answer: 25
+syn1_walk4_0119,24,Answer: 24
+syn1_walk4_0123,5,Answer: 5
+syn1_walk4_0127,16,Answer: 16
+syn1_walk4_0131,20,Answer: 20
+syn1_walk4_0135,20,Answer: 20
+syn1_walk4_0139,20,Answer: 20
+syn1_walk4_0143,12,Answer: 12
+syn1_walk4_0147,18,Answer: 18
+syn1_walk4_0151,13,"Step 1: Identify the relevant walk times. Step 2: Seffarine-Henna: 4 minutes, Rcif-Seffarine: 9 minutes, Henna-Rcif: 11 minutes. Step 3: Determine the shortest path. Answer: 13"
+syn1_walk4_0155,14,Answer: 14
+syn1_walk4_0159,11,Answer: 11
+syn1_walk4_0163,6,Answer: 6
+syn1_walk4_0167,6,Answer: 6
+syn1_walk4_0171,28,"Step 1: Identify the relevant walk from the given options. Step 2: The shortest walk is Nejjarine-Boujloud, which takes 28 minutes. Step 3: However, we need the shortest walk from Boujloud to Nejjarine. Step 4: The reverse of Nejjarine-Boujloud is Boujloud to Nejjarine, which should also take 28 minutes. Step 5: Check other options: Sagha-Boujloud (13 min), Boujloud-Attarine (13 min), and compare. Step 6: The shortest walk is either Sagha-Boujloud or Boujloud-Attarine, both 13 minutes, but not directly between Boujloud and Nejjarine. Answer: 28"
+syn1_walk4_0175,19,Answer: 19
+syn1_walk4_0179,15,Answer: 15
+syn1_walk4_0183,11,Answer: 11
+syn1_walk4_0187,25,Answer: 25
+syn1_walk4_0191,17,Answer: 17
+syn1_walk4_0195,7,Answer: 7
+syn1_walk4_0199,18,Answer: 18
+syn1_walk4_0203,6,Answer: 6
+syn1_walk4_0207,13,Answer: 13
+syn1_walk4_0211,9,Answer: 9
+syn1_walk4_0215,9,Answer: 9
+syn1_walk4_0219,13,Answer: 13
+syn1_walk4_0223,10,Answer: 10
+syn1_walk4_0227,3,Answer: 3
+syn1_walk4_0231,14,Answer: 14
+syn1_walk4_0235,3,"Step 1: Identify the relevant path - Cherabliyine to Sagha. Step 2: Check the given times for paths involving Cherabliyine. Step 3: Find the shortest path, which is Cherabliyine-Sagha.  Answer: 3"
+syn1_walk4_0239,5,Answer: 5
+syn1_walk4_0243,10,Answer: 10
+syn1_walk4_0247,11,"Step 1: Identify the direct path from Rcif to Cherabliyine. Step 2: The path Cherabliyine-Rcif takes 14 minutes. Step 3: There is no direct path given, so consider the indirect path through Nejjarine. Step 4: Calculate the indirect path: Rcif to Nejjarine (5 minutes) + Nejjarine to Cherabliyine (6 minutes) = 11 minutes.  Answer: 11"
+syn1_walk4_0251,6,Answer: 6
+syn1_walk4_0255,27,Answer: 27
+syn1_walk4_0259,27,Answer: 27
+syn1_walk4_0263,9,Step 1: Identify the direct path from Nejjarine to Attarine. Step 2: The path Nejjarine -> Cherabliyine -> Attarine is the shortest. Step 3: Calculate the time: 5 minutes (Nejjarine to Cherabliyine) + 4 minutes (Cherabliyine to Attarine) = 9 minutes.  Answer: 9
+syn1_walk4_0267,20,Answer: 20
+syn1_walk4_0271,8,Answer: 8
+syn1_walk4_0275,7,Answer: 7
+syn1_walk4_0279,25,Answer: 25
+syn1_walk4_0283,5,Answer: 5
+syn1_walk4_0287,11,"Step 1: Identify the direct path from Cherabliyine to Henna. Step 2: The direct path is Cherabliyine-Nejjarine-Nejjarine-Henna, but we need the shortest, which is Cherabliyine-Nejjarine. Step 3: The time for Cherabliyine-Nejjarine is 11 minutes.  Answer: 11"
+syn1_walk4_0291,27,Answer: 27
+syn1_walk4_0295,23,Answer: 23
+syn1_walk4_0299,16,Answer: 16
+syn1_take_0003,chouara,Step 1: Identify the takings for each souk. Step 2: Compare the amounts. Step 3: Determine the souk with the lowest amount.  Answer: Chouara
+syn1_take_0007,nejjarine,Step 1: Identify the takings for each souk. Step 2: Compare the amounts. Step 3: Determine the souk with the lowest amount.  Answer: Nejjarine
+syn1_take_0011,nejjarine,"Step 1: Compare the takings of each souk. Step 2: Boujloud - 317 dirham, Talaa - 232 dirham, Nejjarine - 334 dirham, Attarine - 329 dirham. Step 3: Identify the highest amount. Answer: Nejjarine"
+syn1_take_0015,henna,"Step 1: Compare the takings of each souk. Step 2: Henna - 208 dirham, Seffarine - 261 dirham, Sagha - 216 dirham, Cherabliyine - 203 dirham. Step 3: Identify the lowest amount.  Answer: Henna"
+syn1_take_0019,rcif,Step 1: Identify the takings for each souk. Step 2: Compare the amounts. Step 3: Determine the souk with the lowest amount.  Answer: Rcif
+syn1_take_0023,rcif,"Step 1: Compare the takings of each souk. Step 2: Chouara - 280 dirham, Boujloud - 275 dirham, Seffarine - 256 dirham, Rcif - 192 dirham. Step 3: Identify the lowest amount.  Answer: Rcif"
+syn1_take_0027,boujloud,Step 1: Identify the takings for each souk. Step 2: Compare the amounts. Step 3: Determine the souk with the lowest amount.  Answer: Boujloud
+syn1_take_0031,henna,"Step 1: Identify the souk with the lowest amount. Step 2: Henna - 230 dirham, Boujloud - 274 dirham, Sagha - 326 dirham, Attarine - 336 dirham. Step 3: The lowest amount is 230 dirham for Henna.  Answer: Henna"
+syn1_take_0035,attarine,"Step 1: Compare the takings of each souk. Step 2: Henna - 195 dirham, Sagha - 199 dirham, Chouara - 181 dirham, Attarine - 338 dirham. Step 3: Identify the highest amount. Answer: Attarine"
+syn1_take_0039,chouara,Step 1: Identify the takings for each souk. Step 2: Compare the amounts. Step 3: Determine the souk with the lowest amount.  Answer: Chouara
+syn1_take_0043,sagha,"Step 1: Compare the takings of each souk. Step 2: Seffarine - 202 dirham, Rcif - 294 dirham, Nejjarine - 286 dirham, Sagha - 319 dirham. Step 3: Identify the highest amount. Answer: Sagha"
+syn1_take_0047,cherabliyine,"Step 1: Compare the takings of each souk. Step 2: Cherabliyine - 318 dirham, Sagha - 195 dirham, Talaa - 169 dirham, Chouara - 235 dirham. Step 3: Identify the highest amount.  Answer: Cherabliyine"
+syn1_take_0051,cherabliyine,"Step 1: Identify the takings of each souk. Step 2: Compare the amounts: Chouara (189), Cherabliyine (161), Henna (282), Attarine (323). Step 3: Determine the smallest amount.  Answer: Cherabliyine"
+syn1_take_0055,nejjarine,Step 1: Identify the takings for each souk. Step 2: Compare the amounts. Step 3: Determine the souk with the lowest amount.  Answer: Nejjarine
+syn1_take_0059,attarine,"Step 1: Compare the takings of each souk. Step 2: Attarine - 291 dirham, Boujloud - 177 dirham, Chouara - 264 dirham, Talaa - 198 dirham. Step 3: Identify the highest amount.  Answer: Attarine"
+syn1_take_0063,attarine,Step 1: Identify the takings for each souk. Step 2: Compare the amounts. Step 3: Determine the souk with the lowest amount.  Answer: Attarine
+syn1_take_0067,cherabliyine,"Step 1: Compare the takings of each souk. Step 2: Cherabliyine - 302 dirham, Talaa - 273 dirham, Sagha - 211 dirham, Henna - 269 dirham. Step 3: Identify the highest amount.  Answer: Cherabliyine"
+syn1_take_0071,seffarine,Step 1: Identify the takings for each souk. Step 2: Compare the amounts. Step 3: Determine the souk with the lowest amount.  Answer: Seffarine
+syn1_take_0075,seffarine,"Step 1: Compare the takings of each souk. Step 2: Cherabliyine - 232 dirham, Seffarine - 329 dirham, Henna - 231 dirham, Nejjarine - 188 dirham. Step 3: Identify the highest amount.  Answer: Seffarine"
+syn1_take_0079,nejjarine,Step 1: Identify the takings for each souk. Step 2: Compare the amounts. Step 3: Determine the souk with the lowest amount.  Answer: Nejjarine
+syn1_take_0083,boujloud,"Step 1: Compare the takings of each souk. Step 2: Rcif - 233 dirham, Boujloud - 257 dirham, Chouara - 235 dirham, Cherabliyine - 219 dirham. Step 3: Identify the highest amount. Answer: Boujloud"
+syn1_take_0087,attarine,"Step 1: Compare the takings of each souk. Step 2: Talaa - 220 dirham, Henna - 255 dirham, Seffarine - 271 dirham, Attarine - 327 dirham. Step 3: Identify the highest amount.  Answer: Attarine"
+syn1_take_0091,henna,"Step 1: Compare the takings of each souk. Step 2: Attarine - 321 dirham, Seffarine - 305 dirham, Nejjarine - 333 dirham, Henna - 240 dirham. Step 3: Identify the lowest amount.  Answer: Henna"
+syn1_take_0095,henna,Step 1: Identify the souk with the lowest takings. Step 2: Henna had the lowest amount at 178 dirham.  Answer: Henna
+syn1_take_0099,talaa,"Step 1: Compare the takings of each souk. Step 2: Seffarine - 202 dirham, Attarine - 178 dirham, Henna - 263 dirham, Talaa - 320 dirham. Step 3: Identify the highest amount. Answer: Talaa"
+syn1_take_0103,rcif,"Step 1: Compare the takings of each souk. Step 2: Sagha - 212 dirham, Talaa - 160 dirham, Boujloud - 272 dirham, Rcif - 299 dirham. Step 3: Identify the highest amount.  Answer: Rcif"
+syn1_take_0107,sagha,Step 1: Identify the takings for each souk. Step 2: Compare the amounts. Step 3: Determine the souk with the lowest amount.  Answer: Sagha
+syn1_take_0111,talaa,"Step 1: Compare the takings of each souk. Step 2: Sagha - 267 dirham, Talaa - 336 dirham, Rcif - 201 dirham, Chouara - 198 dirham. Step 3: Identify the highest amount.  Answer: Talaa"
+syn1_take_0115,cherabliyine,Step 1: Compare Henna (183 dirham) to Sagha (163 dirham). Step 2: Compare the higher of Henna and Sagha (183 dirham) to Rcif (312 dirham). Step 3: Compare the highest amount so far (312 dirham) to Cherabliyine (313 dirham). Step 4: Identify the highest amount.  Answer: Cherabliyine
+syn1_take_0119,nejjarine,Step 1: Identify the takings for each souk. Step 2: Compare the amounts. Step 3: Determine the souk with the lowest amount.  Answer: Nejjarine
+syn1_take_0123,talaa,"Step 1: Compare the takings of each souk. Step 2: Seffarine - 253 dirham, Attarine - 224 dirham, Talaa - 336 dirham, Boujloud - 295 dirham. Step 3: Identify the highest amount. Answer: Talaa"
+syn1_take_0127,attarine,Step 1: Identify the takings for each souk. Step 2: Compare the amounts. Step 3: Determine the souk with the lowest amount.  Answer: Attarine
+syn1_take_0131,rcif,"Step 1: Compare the takings of each souk. Step 2: Rcif - 319 dirham, Sagha - 243 dirham, Boujloud - 288 dirham, Attarine - 246 dirham. Step 3: Identify the highest amount.  Answer: Rcif"
+syn1_take_0135,chouara,Step 1: Identify the takings for each souk. Step 2: Compare the amounts. Step 3: Determine the souk with the lowest amount.  Answer: Chouara
+syn1_take_0139,sagha,"Step 1: Compare the takings of each souk. Step 2: Seffarine - 281 dirham, Chouara - 313 dirham, Boujloud - 174 dirham, Sagha - 330 dirham. Step 3: Identify the highest amount. Answer: Sagha"
+syn1_take_0143,boujloud,"Step 1: Identify the takings for each souk. Step 2: Compare the amounts: 165, 163, 184, 338. Step 3: Determine the smallest amount.  Answer: Boujloud"
+syn1_take_0147,attarine,"Step 1: Identify the takings for each souk. Step 2: Compare the amounts: Boujloud (281), Attarine (167), Cherabliyine (278), Sagha (271). Step 3: Determine the smallest amount.  Answer: Attarine"
+syn1_take_0151,attarine,"Step 1: Compare the takings of each souk. Step 2: Boujloud - 304 dirham, Attarine - 329 dirham, Talaa - 173 dirham, Cherabliyine - 216 dirham. Step 3: Identify the highest amount.  Answer: Attarine"
+syn1_take_0155,nejjarine,Step 1: Identify the takings for each souk. Step 2: Compare the amounts. Step 3: Determine the souk with the lowest amount.  Answer: Nejjarine
+syn1_take_0159,sagha,Step 1: Identify the takings for each souk. Step 2: Compare the amounts. Step 3: Determine the souk with the lowest amount.  Answer: Sagha
+syn1_take_0163,boujloud,Step 1: Identify the takings for each souk. Step 2: Compare the amounts. Step 3: Determine the souk with the lowest amount.  Answer: Boujloud
+syn1_take_0167,seffarine,"Step 1: Compare the takings of each souk. Step 2: Nejjarine - 160 dirham, Seffarine - 327 dirham, Cherabliyine - 308 dirham, Boujloud - 246 dirham. Step 3: Identify the highest amount.  Answer: Seffarine"
+syn1_take_0171,nejjarine,"Step 1: Identify the takings for each souk. Step 2: Compare the amounts: Seffarine (219), Nejjarine (178), Sagha (259), Takings (295). Step 3: Determine the smallest amount.  Answer: Nejjarine"
+syn1_take_0175,sagha,Step 1: Compare Chouara's 198 dirham to Talaa's 220 dirham. Step 2: Compare Sagha's 291 dirham to Attarine's 248 dirham. Step 3: Compare the highest from each pair (Talaa 220 and Sagha 291). Step 4: Determine Sagha took the most with 291 dirham.  Answer: Sagha
+syn1_take_0179,rcif,Step 1: Identify the takings for each souk. Step 2: Compare the amounts. Step 3: Determine the souk with the lowest amount.  Answer: Rcif
+syn1_take_0183,rcif,Step 1: Identify the takings for each souk. Step 2: Compare the amounts. Step 3: Determine the souk with the lowest amount.  Answer: Rcif
+syn1_take_0187,rcif,"Step 1: Compare the takings of each souk. Step 2: Chouara - 219 dirham, Boujloud - 220 dirham, Rcif - 323 dirham, Seffarine - 214 dirham. Step 3: Identify the highest amount. Answer: Rcif"
+syn1_take_0191,nejjarine,"Step 1: Compare the takings of each souk. Step 2: Rcif (209), Boujloud (169), Cherabliyine (163), Nejjarine (230). Step 3: Nejjarine has the highest amount.  Answer: Nejjarine"
+syn1_take_0195,chouara,"Step 1: Compare the takings of each souk. Step 2: Sagha - 193 dirham, Attarine - 255 dirham, Chouara - 332 dirham, Cherabliyine - 234 dirham. Step 3: Identify the highest amount. Answer: Chouara"
+syn1_take_0199,boujloud,"Step 1: Compare the takings of each souk. Step 2: Boujloud - 328 dirham, Rcif - 182 dirham, Talaa - 215 dirham, Cherabliyine - 270 dirham. Step 3: Identify the highest amount.  Answer: Boujloud"
+syn1_fee_0003,chouara,Step 1: Calculate takings after deducting stall fees. Chouara: 276 - (3 * 11) = 276 - 33 = 243 dirham Seffarine: 193 - (16 * 11) = 193 - 176 = 17 dirham Talaa: 291 - (9 * 11) = 291 - 99 = 192 dirham Cherabliyine: 185 - (2 * 11) = 185 - 22 = 163 dirham Step 2: Compare the final takings. Chouara: 243 dirham Seffarine: 17 dirham Talaa: 192 dirham Cherabliyine: 163 dirham Answer: Chouara
+syn1_fee_0007,calculate,1. Calculate takings for each souk:    - Boujloud: 285 dirham    - Cherabliyine: 224 dirham    - Attarine: 286 dirham    - Rcif: 317 dirham  2. Calculate stall fees for each souk:    - Boujloud: 8 crates * 9 dirham = 72 dirham    - Cherabliyine: 9 crates * 9 dirham = 81 dirham    - Attarine: 4 crates * 9 dirham = 36 dirham    - Rcif: 11 crates * 9 dirham = 99 dirham  3. Calculate net takings for each souk:    - Boujloud: 285 - 72 = 213 dirham    - Cherabliyine: 224 - 81 = 143 dirham    - Attarine: 286 - 36 = 250 dirham    - Rcif: 317 - 99 = 218 dirham
+syn1_fee_0011,cherabliyine,"First, calculate the total fees for each souk: - Cherabliyine: 57 crates * 8 dirham/crate = 456 dirham - Sagha: 44 crates * 8 dirham/crate = 352 dirham - Rcif: 44 crates * 8 dirham/crate = 352 dirham - Seffarine: 44 crates * 8 dirham/crate = 352 dirham  Next, subtract the fees from the takings: - Cherabliyine: 196 - 456 = -260 dirham - Sagha: 272 - 352 = -80 dirham - Rcif: 168 - 352 = -184 dirham - Seffarine: 212 - 352 = -140 dirham  The souk that keeps the least is Cherabliyine, with a loss of 260 dirham.  Answer: Cherabliyine"
+syn1_fee_0015,seffarine,"First, calculate the total fees for each souk: - Seffarine: 53 crates * 12 dirham = 636 dirham - Nejjarine: 44 crates * 12 dirham = 528 dirham - Sagha: 44 crates * 12 dirham = 528 dirham - Talaa: 44 crates * 12 dirham = 528 dirham  Next, subtract the fees from the takings: - Seffarine: 166 - 636 = -470 dirham - Nejjarine: 257 - 528 = -271 dirham - Sagha: 211 - 528 = -317 dirham - Talaa: 153 - 528 = -375 dirham  The souk that keeps the least is Seffarine with a negative balance of -470 dirham.  Answer: Seffarine"
+syn1_fee_0019,cherabliyine,Step 1: Calculate takings for each souk. Step 2: Calculate the stall fee for each souk. Step 3: Subtract the stall fee from the takings for each souk. Step 4: Compare the final amounts to find the least.  Chouara: 271 - (44 * 8) = 271 - 352 = -81 Rcif: 302 - (39 * 8) = 302 - 312 = -10 Cherabliyine: 179 - (49 * 8) = 179 - 392 = -213 Talaa: 242 - (60 * 8) = 242 - 480 = -238  Answer: Cherabliyine
+syn1_fee_0023,seffarine,Step 1: Calculate takings after stall fees. Seffarine: 288 - (4 * 12) = 288 - 48 = 240 dirham Nejjarine: 316 - (12 * 12) = 316 - 144 = 172 dirham Cherabliyine: 320 - (14 * 12) = 320 - 168 = 152 dirham Attarine: 155 - (4 * 12) = 155 - 48 = 107 dirham  Step 2: Compare the final takings. Seffarine: 240 dirham Nejjarine: 172 dirham Cherabliyine: 152 dirham Attarine: 107 dirham  Answer: Seffarine
+syn1_fee_0027,chouara,"Step 1: Calculate takings for each souk. Step 2: Calculate the stall fee for each souk. Step 3: Subtract the stall fee from the takings for each souk. Step 4: Compare the final amounts.  Takings: Rcif 216, Sagha 224, Chouara 296, Seffarine 325. Stall fees: Rcif 10*10=100, Sagha 10*1=10, Chouara 10*6=60, Seffarine 10*9=90. Final amounts: Rcif 216-100=116, Sagha 224-10=214, Chouara 296-60=236, Seffarine 325-90=235.  Answer: Chouara"
+syn1_fee_0031,nejjarine,Step 1: Calculate the total fee for each souk. Step 2: Attarine: 44 crates * 7 dirham = 308 dirham. Step 3: Nejjarine: 43 crates * 7 dirham = 301 dirham. Step 4: Cherabliyine: 44 crates * 7 dirham = 308 dirham. Step 5: Boujloud: 44 crates * 7 dirham = 308 dirham. Step 6: Compare the takings minus the fees. Step 7: Attarine: 324 - 308 = 16 dirham. Step 8: Nejjarine: 260 - 301 = -41 dirham. Step 9: Cherabliyine: 263 - 308 = -45 dirham. Step 10: Boujloud: 301 - 308 = -7 dirham. Answer: Nejjarine
+syn1_fee_0035,calculate,"1. Calculate takings for each souk:    - Takings: Rcif 192, Boujloud 203, Talaa 230, Henna 286 2. Calculate stall fees for each souk:    - Rcif: 15 crates * 12 dirham = 180 dirham    - Boujloud: 16 crates * 12 dirham = 192 dirham    - Talaa: 3 crates * 12 dirham = 36 dirham    - Henna: 15 crates * 12 dirham = 180 dirham 3. Calculate net takings for each souk:    - Rcif: 192 - 180 = 12 dirham    - Boujloud: 203 - 192 = 11 dirham    - Talaa: 230 - 36 = 194 dirham    - Henna: 286 - 180 = 106 dirham 4. Determine which souk keeps the most:    - Talaa"
+syn1_fee_0039,henna,"First, calculate the additional fees for each souk: - Henna: 48 crates * 8 dirham = 384 dirham - Nejjarine: 44 crates * 8 dirham = 352 dirham - Chouara: 44 crates * 8 dirham = 352 dirham - Seffarine: 44 crates * 8 dirham = 352 dirham  Now, subtract these fees from each souk's takings: - Henna: 232 - 384 = -152 dirham - Nejjarine: 240 - 352 = -112 dirham - Chouara: 205 - 352 = -147 dirham - Seffarine: 209 - 352 = -143 dirham  The souk that keeps the least is Henna. Answer: Henna"
+syn1_fee_0043,attarine,Step 1: Calculate takings for each souk. Step 2: Calculate the stall fees for each souk. Step 3: Subtract stall fees from takings for each souk. Step 4: Compare the net takings. - Chouara: 219 - (14 * 8) = 219 - 112 = 107 dirham - Henna: 241 - (10 * 8) = 241 - 80 = 161 dirham - Attarine: 194 - (3 * 8) = 194 - 24 = 170 dirham - Seffarine: 201 - (14 * 8) = 201 - 112 = 89 dirham  Answer: Attarine
+syn1_fee_0047,cherabliyine,"1. Calculate takings for each souk: Cherabliyine 212, Sagha 297, Nejjarine 206, Henna 330. 2. Calculate stall fees for each souk: Cherabliyine 55 crates * 7 dirham = 385, Sagha 44 crates * 7 dirham = 308, Nejjarine 38 crates * 7 dirham = 266, Henna 44 crates * 7 dirham = 308. 3. Calculate net takings: Cherabliyine 212 - 385 = -173, Sagha 297 - 308 = -11, Nejjarine 206 - 266 = -60, Henna 330 - 308 = 22. 4. Identify the souk with the least net takings.  Answer: Cherabliyine"
+syn1_fee_0051,calculate,1. Calculate takings for each souk:    - Boujloud: 234 dirham    - Sagha: 159 dirham    - Nejjarine: 150 dirham    - Henna: 246 dirham  2. Calculate stall fees for each souk:    - Boujloud: 4 crates * 8 dirham = 32 dirham    - Sagha: 8 crates * 8 dirham = 64 dirham    - Nejjarine: 9 crates * 8 dirham = 72 dirham    - Henna: 13 crates * 8 dirham = 104 dirham  3. Calculate net takings for each souk:    - Boujloud: 234 - 32 = 202 dirham    - Sagha: 159 - 64 = 95 dirham    - Nejjarine: 150 - 72 = 78 dirham    - Henna: 246 - 104 = 142 dirham  4. Determine
+syn1_fee_0055,seffarine,Step 1: Calculate takings for each souk. Step 2: Calculate stall fees for each souk. Step 3: Subtract stall fees from takings. Step 4: Compare results to find the souk with the least amount.  Sagha: 154 - (44 * 8) = 154 - 352 = -198 Seffarine: 161 - (52 * 8) = 161 - 416 = -255 Boujloud: 274 - (50 * 8) = 274 - 400 = -126 Attarine: 182 - (44 * 8) = 182 - 352 = -170  Answer: Seffarine
+syn1_fee_0059,seffarine,Step 1: Calculate takings for each souk. Step 2: Calculate the stall fees for each souk. Step 3: Subtract stall fees from takings for each souk. Step 4: Compare the net takings of each souk.  Cherabliyine: 312 - (13 * 6) = 312 - 78 = 234 dirham Talaa: 187 - (9 * 6) = 187 - 54 = 133 dirham Seffarine: 297 - (4 * 6) = 297 - 24 = 273 dirham Sagha: 166 - (15 * 6) = 166 - 90 = 76 dirham  Answer: Seffarine
+syn1_fee_0063,talaa,Step 1: Calculate takings after fees. Chouara: 220 - (19 * 8) = 220 - 152 = 68 dirham Cherabliyine: 180 - (7 * 8) = 180 - 56 = 124 dirham Talaa: 181 - (7 * 8) = 181 - 56 = 125 dirham Rcif: 179 - (11 * 8) = 179 - 88 = 91 dirham  Step 2: Determine which souk keeps the most. Cherabliyine: 124 dirham Talaa: 125 dirham Rcif: 91 dirham  Answer: Talaa
+syn1_fee_0067,henna,1. Calculate takings after fees:    - Henna: 271 - (3 * 8) = 247 dirham    - Boujloud: 185 - (7 * 8) = 129 dirham    - Talaa: 289 - (15 * 8) = 149 dirham    - Chouara: 235 - (3 * 8) = 203 dirham 2. Compare the final amounts:    - Henna: 247 dirham    - Boujloud: 129 dirham    - Talaa: 149 dirham    - Chouara: 203 dirham  Answer: Henna
+syn1_fee_0071,boujloud,Step 1: Calculate takings after stall fees. Boujloud: 257 - (1 * 12) = 245 dirham Seffarine: 166 - (12 * 12) = 34 dirham Nejjarine: 299 - (14 * 12) = 151 dirham Rcif: 251 - (11 * 12) = 139 dirham Step 2: Compare the final takings. Boujloud: 245 dirham Seffarine: 34 dirham Nejjarine: 151 dirham Rcif: 139 dirham Answer: Boujloud
+syn1_fee_0075,cherabliyine,"First, calculate the stall fees for each souk: - Sagha: 44 crates * 6 dirham = 264 dirham - Seffarine: 44 crates * 6 dirham = 264 dirham - Cherabliyine: 44 crates * 6 dirham = 264 dirham - Henna: 49 crates * 6 dirham = 294 dirham  Next, subtract the stall fees from each souk's takings: - Sagha: 305 - 264 = 41 dirham - Seffarine: 308 - 264 = 44 dirham - Cherabliyine: 202 - 264 = -62 dirham (owes money) - Henna: 218 - 294 = -76 dirham (owes money)  Cherabliyine keeps the least amount of money. Answer: Cherabliyine"
+syn1_fee_0079,attarine,Step 1: Calculate takings for each souk. Step 2: Calculate stall fees for each souk. Step 3: Subtract stall fees from takings. Step 4: Compare results to find the souk with the least amount.  Attarine: 181 - (32 * 7) = 181 - 224 = -43 Cherabliyine: 214 - (43 * 7) = 214 - 301 = -87 Nejjarine: 195 - (44 * 7) = 195 - 308 = -113 Rcif: 190 - (44 * 7) = 190 - 308 = -118  Answer: Attarine
+syn1_fee_0083,chouara,Step 1: Calculate takings after deducting stall fees. Step 2: Takings for Rcif: 260 - (12 * 7) = 260 - 84 = 176 dirham. Step 3: Takings for Henna: 252 - (15 * 7) = 252 - 105 = 147 dirham. Step 4: Takings for Chouara: 259 - (4 * 7) = 259 - 28 = 231 dirham. Step 5: Takings for Seffarine: 306 - (18 * 7) = 306 - 126 = 180 dirham. Step 6: Compare takings to find the highest. Answer: Chouara
+syn1_fee_0087,sagha,Step 1: Calculate takings for each souk. Step 2: Calculate the stall fees for each souk. Step 3: Subtract stall fees from takings for each souk. Step 4: Compare the net takings. - Sagha: 252 - (14 * 10) = 112 dirham - Seffarine: 197 - (18 * 10) = 17 dirham - Chouara: 184 - (5 * 10) = 134 dirham - Henna: 214 - (11 * 10) = 104 dirham  Answer: Sagha
+syn1_fee_0091,boujloud,Step 1: Calculate takings after stall fees. Sagha: 313 - (12 * 10) = 193 dirham Nejjarine: 236 - (9 * 10) = 146 dirham Boujloud: 303 - (4 * 10) = 263 dirham Attarine: 231 - (2 * 10) = 211 dirham  Step 2: Determine which souk keeps the most. Boujloud keeps the most with 263 dirham.  Answer: Boujloud
+syn1_fee_0095,boujloud,"First, calculate the total fees for each souk: - Boujloud: 37 crates * 8 dirham = 296 dirham - Rcif: 44 crates * 8 dirham = 352 dirham - Talaa: 44 crates * 8 dirham = 352 dirham - Henna: 44 crates * 8 dirham = 352 dirham  Then, subtract these fees from each souk's takings: - Boujloud: 152 - 296 = -144 dirham - Rcif: 205 - 352 = -147 dirham - Talaa: 260 - 352 = -92 dirham - Henna: 210 - 352 = -142 dirham  The souk that keeps the least is Boujloud. Answer: Boujloud"
+syn1_fee_0099,cherabliyine,"First, calculate the total crate fees for each souk: - Attarine: 44 crates * 6 dirham = 264 dirham - Rcif: 44 crates * 6 dirham = 264 dirham - Sagha: 44 crates * 6 dirham = 264 dirham - Cherabliyine: 50 crates * 6 dirham = 300 dirham  Next, subtract the fees from each souk's takings: - Attarine: 253 - 264 = -11 dirham - Rcif: 299 - 264 = 35 dirham - Sagha: 224 - 264 = -40 dirham - Cherabliyine: 231 - 300 = -69 dirham  The souk that keeps the least is the one with the most negative amount, which is Cherabliyine.  Answer: Cherabliyine"
+syn1_fee_0103,seffarine,Step 1: Calculate takings for each souk. Step 2: Calculate the stall fees for each souk. Step 3: Subtract stall fees from takings for each souk. Step 4: Compare the net takings of each souk.  Seffarine: 308 - (6 * 12) = 308 - 72 = 236 dirham Rcif: 323 - (17 * 12) = 323 - 204 = 119 dirham Cherabliyine: 276 - (4 * 12) = 276 - 48 = 228 dirham Attarine: 312 - (9 * 12) = 312 - 108 = 204 dirham  Answer: Seffarine
+syn1_fee_0107,attarine,"Step 1: Calculate takings for each souk. Step 2: Calculate the stall fee for each souk. Step 3: Subtract the stall fee from the takings for each souk. Step 4: Compare the final amounts to find the highest.  Takings: Attarine 249, Henna 263, Nejjarine 188. Stall fees: Attarine 9*9=81, Henna 9*13=117, Nejjarine 9*3=27. Final amounts: Attarine 249-81=168, Henna 263-117=146, Nejjarine 188-27=161. Answer: Attarine"
+syn1_fee_0111,chouara,Step 1: Calculate takings after fees. Talaa: 173 - (44 * 6) = 173 - 264 = -91 Chouara: 170 - (44 * 6) = 170 - 264 = -94 Boujloud: 211 - (52 * 6) = 211 - 312 = -101 Henna: 295 - (49 * 6) = 295 - 294 = 1  Step 2: Identify the souk with the least takings. Answer: Chouara
+syn1_fee_0115,chouara,Step 1: Calculate takings for each souk. Step 2: Calculate the stall fees for each souk. Step 3: Subtract the stall fees from the takings for each souk. Step 4: Compare the net takings. Chouara: 191 - 4*10 = 151 dirham Henna: 224 - 10*10 = 124 dirham Boujloud: 159 - 3*10 = 129 dirham Cherabliyine: 208 - 18*10 = 28 dirham Answer: Chouara
+syn1_fee_0119,chouara,Step 1: Calculate takings after fees for each souk. Step 2: Chouara: 334 - (44 * 9) = 334 - 396 = -62 dirham. Step 3: Seffarine: 218 - (44 * 9) = 218 - 396 = -178 dirham. Step 4: Nejjarine: 206 - (39 * 9) = 206 - 351 = -145 dirham. Step 5: Rcif: 199 - (34 * 9) = 199 - 306 = -107 dirham. Answer: Chouara
+syn1_fee_0123,talaa,Step 1: Calculate takings for each souk. Step 2: Calculate the stall fee for each souk. Step 3: Subtract the stall fee from takings for each souk. Step 4: Compare the net takings. - Nejjarine: 192 - 12*9 = 192 - 108 = 84 dirham - Talaa: 257 - 6*9 = 257 - 54 = 203 dirham - Henna: 222 - 10*9 = 222 - 90 = 132 dirham - Sagha: 270 - 15*9 = 270 - 135 = 135 dirham  Answer: Talaa
+syn1_fee_0127,seffarine,"First, calculate the total fees for each souk: - Boujloud: 13 crates * 8 dirham = 104 dirham - Attarine: 15 crates * 8 dirham = 120 dirham - Nejjarine: 19 crates * 8 dirham = 152 dirham - Seffarine: 10 crates * 8 dirham = 80 dirham  Next, subtract the fees from the takings: - Boujloud: 163 - 104 = 59 dirham - Attarine: 314 - 120 = 194 dirham - Nejjarine: 340 - 152 = 188 dirham - Seffarine: 312 - 80 = 232 dirham  The souk that keeps the most is Seffarine.  Answer: Seffarine"
+syn1_fee_0131,cherabliyine,"First, calculate the total fees for each souk: Cherabliyine: 16 crates * 6 dirham = 96 dirham, Attarine: 12 crates * 6 dirham = 72 dirham, Talaa: 14 crates * 6 dirham = 84 dirham, Henna: 19 crates * 6 dirham = 114 dirham. Then, subtract the fees from the takings: Cherabliyine: 298 - 96 = 202 dirham, Attarine: 172 - 72 = 100 dirham, Talaa: 205 - 84 = 121 dirham, Henna: 314 - 114 = 200 dirham. The souk that keeps the most is Cherabliyine. Answer: Cherabliyine"
+syn1_fee_0135,first,"First, calculate the total takings for each souk: - Boujloud: 187 dirham - Chouara: 255 dirham - Cherabliyine: 236 dirham - Seffarine: 331 dirham  Next, calculate the stall fees for each souk: - Boujloud: 8 crates * 7 dirham = 56 dirham - Chouara: 7 crates * 7 dirham = 49 dirham - Cherabliyine: 10 crates * 7 dirham = 70 dirham - Seffarine: 18 crates * 7 dirham = 126 dirham  Subtract the stall fees from the total takings: - Boujloud: 187 - 56 = 131 dirham - Chouara: 255 - 49 = 206 dirham - Cherabliyine: 236 - 70 = 166 dirham - Seffarine: 331 - 126 = 205 dirham"
+syn1_fee_0139,nejjarine,"First, calculate the total fees for each souk: - Rcif: 12 crates * 11 dirham = 132 dirham - Henna: 15 crates * 11 dirham = 165 dirham - Nejjarine: 3 crates * 11 dirham = 33 dirham - Seffarine: 15 crates * 11 dirham = 165 dirham  Next, subtract the fees from the takings: - Rcif: 239 - 132 = 107 dirham - Henna: 301 - 165 = 136 dirham - Nejjarine: 287 - 33 = 254 dirham - Seffarine: 279 - 165 = 114 dirham  The souk that keeps the most is Nejjarine.  Answer: Nejjarine"
+syn1_fee_0143,cherabliyine,1. Calculate takings after fees for each souk:    - Cherabliyine: 316 - (60 * 12) = 316 - 720 = -404    - Attarine: 298 - (34 * 12) = 298 - 408 = -110    - Boujloud: 306 - (44 * 12) = 306 - 528 = -222    - Sagha: 287 - (44 * 12) = 287 - 528 = -241  2. Determine which souk keeps the least:    - Cherabliyine: -404    - Attarine: -110    - Boujloud: -222    - Sagha: -241  Answer: Cherabliyine
+syn1_fee_0147,cherabliyine,Step 1: Calculate takings for each souk. Step 2: Calculate stall fees for each souk. Step 3: Subtract stall fees from takings. Step 4: Compare results to find the souk with the least amount.  Seffarine: 242 - (33 * 12) = 242 - 396 = -154 Boujloud: 259 - (44 * 12) = 259 - 528 = -269 Cherabliyine: 171 - (46 * 12) = 171 - 552 = -381 Sagha: 176 - (47 * 12) = 176 - 564 = -388  Answer: Cherabliyine
+syn1_fee_0151,first,"First, calculate the total takings for each souk: - Nejjarine: 179 dirham - Attarine: 318 dirham - Henna: 181 dirham - Chouara: 278 dirham  Next, calculate the stall fees for each souk: - Nejjarine: 44 crates * 11 dirham = 484 dirham - Attarine: 44 crates * 11 dirham = 484 dirham - Henna: 55 crates * 11 dirham = 605 dirham - Chouara: 45 crates * 11 dirham = 495 dirham  Then, subtract the stall fees from the total takings: - Nejjarine: 179 - 484 = -305 dirham - Attarine: 318 - 484 = -166 dirham - Henna: 181 - 605 = -424 dirham - Chouara: 278 - 495 = -21"
+syn1_fee_0155,seffarine,Step 1: Calculate takings for each souk. Step 2: Calculate the stall fee for each souk. Step 3: Subtract the stall fee from takings for each souk. Step 4: Compare the net takings to find the least.  Sagha: 156 - 44 * 10 = 156 - 440 = -284 Seffarine: 213 - 59 * 10 = 213 - 590 = -377 Cherabliyine: 225 - 44 * 10 = 225 - 440 = -215 Chouara: 153 - 44 * 10 = 153 - 440 = -287  Answer: Seffarine
+syn1_fee_0159,sagha,Step 1: Calculate takings after fees. Sagha: 298 - (8 * 12) = 298 - 96 = 202 dirham. Talaa: 301 - (16 * 12) = 301 - 192 = 109 dirham. Cherabliyine: 177 - (18 * 12) = 177 - 216 = -39 dirham. Chouara: 178 - (12 * 12) = 178 - 144 = 34 dirham.  Step 2: Determine which souk keeps the most. Sagha: 202 dirham. Talaa: 109 dirham. Cherabliyine: -39 dirham. Chouara: 34 dirham.  Answer: Sagha
+syn1_fee_0163,step,Step 1: Calculate takings for each souk. Step 2: Calculate the stall fee for each souk. Step 3: Subtract the stall fee from the takings for each souk. Step 4: Compare the final amounts to find the highest.  Takings:  - Rcif: 303 dirham - Attarine: 264 dirham - Cherabliyine: 169 dirham - Boujloud: 194 dirham  Stall fees: - Rcif: 16 crates * 10 dirham = 160 dirham - Attarine: 2 crates * 10 dirham = 20 dirham - Cherabliyine: 9 crates * 10 dirham = 90 dirham - Boujloud: 10 crates * 10 dirham = 100 dirham  Final amounts: - Rcif: 303 - 160 = 143 dirham - Attarine: 264 - 20 = 244 dirham - Cherabliyine: 169 -
+syn1_fee_0167,cherabliyine,Step 1: Calculate takings for each souk. Step 2: Calculate the stall fees for each souk. Step 3: Subtract the stall fees from the takings for each souk. Step 4: Compare the net takings. Talaa: 300 - (17 * 7) = 300 - 119 = 181 dirham Henna: 229 - (19 * 7) = 229 - 133 = 96 dirham Attarine: 254 - (10 * 7) = 254 - 70 = 184 dirham Cherabliyine: 257 - (8 * 7) = 257 - 56 = 201 dirham Answer: Cherabliyine
+syn1_fee_0171,talaa,Step 1: Calculate takings after fees. Talaa: 270 - 8*2 = 254 dirham Rcif: 312 - 8*11 = 224 dirham Chouara: 153 - 8*5 = 113 dirham Nejjarine: 274 - 8*11 = 190 dirham  Step 2: Compare takings after fees. Talaa: 254 dirham Rcif: 224 dirham Chouara: 113 dirham Nejjarine: 190 dirham  Answer: Talaa
+syn1_fee_0175,sagha,Step 1: Calculate takings for each souk. Step 2: Calculate the stall fee for each souk. Step 3: Subtract the stall fee from takings for each souk. Step 4: Compare the net takings. Boujloud: 203 - 11*1 = 192 Henna: 315 - 11*12 = 183 Sagha: 305 - 11*1 = 294 Seffarine: 177 - 11*17 = 100 Answer: Sagha
+syn1_fee_0179,henna,1. Calculate takings after fees:    - Chouara: 302 - (11 * 8) = 302 - 88 = 214 dirham    - Talaa: 225 - (1 * 8) = 225 - 8 = 217 dirham    - Henna: 236 - (2 * 8) = 236 - 16 = 220 dirham    - Rcif: 189 - (15 * 8) = 189 - 120 = 69 dirham 2. Compare the final amounts:    - Chouara: 214 dirham    - Talaa: 217 dirham    - Henna: 220 dirham    - Rcif: 69 dirham Answer: Henna
+syn1_fee_0183,sagha,"Step 1: Calculate takings for each souk. Step 2: Calculate stall fees for each souk. Step 3: Subtract stall fees from takings. Step 4: Compare results to find the souk with the least amount.  Takings: Sagha 257, Chouara 150, Boujloud 171, Attarine 300. Stall fees: Sagha 56 crates * 9 dirham = 504 dirham, Chouara 43 crates * 9 dirham = 387 dirham, Boujloud 44 crates * 9 dirham = 396 dirham, Attarine 44 crates * 9 dirham = 396 dirham.  Adjusted takings: Sagha 257 - 504 = -247, Chouara 150 - 387 = -237, Boujloud 171 - 396 = -225, Attarine 300 - 396 = -96.  Answer: Sagha"
+syn1_fee_0187,attarine,1. Calculate takings after stall fees:    - Henna: 319 - (10 * 9) = 319 - 90 = 229 dirham    - Rcif: 238 - (13 * 9) = 238 - 117 = 121 dirham    - Attarine: 287 - (6 * 9) = 287 - 54 = 233 dirham    - Talaa: 150 - (7 * 9) = 150 - 63 = 87 dirham 2. Compare the final amounts:    - Henna: 229 dirham    - Rcif: 121 dirham    - Attarine: 233 dirham    - Talaa: 87 dirham  Answer: Attarine
+syn1_fee_0191,nejjarine,Step 1: Calculate the total fee for each souk. Step 2: Nejjarine: 31 crates * 10 dirham = 310 dirham Step 3: Cherabliyine: 44 crates * 10 dirham = 440 dirham Step 4: Henna: 44 crates * 10 dirham = 440 dirham Step 5: Compare takings minus fees. Step 6: Nejjarine: 190 - 310 = -120 dirham Step 7: Cherabliyine: 312 - 440 = -128 dirham Step 8: Henna: 195 - 440 = -245 dirham  Answer: Nejjarine
+syn1_fee_0195,talaa,Step 1: Calculate takings after fees. Sagha: 281 - (44 * 10) = 281 - 440 = -159 dirham Talaa: 229 - (44 * 10) = 229 - 440 = -211 dirham Chouara: 225 - (36 * 10) = 225 - 360 = -135 dirham Rcif: 267 - (44 * 10) = 267 - 440 = -173 dirham  Step 2: Determine which souk keeps the least. Talaa keeps the least with -211 dirham.  Answer: Talaa
+syn1_fee_0199,nejjarine,"First, calculate the additional fees for each souk: - Chouara: 44 crates * 10 dirham = 440 dirham - Nejjarine: 44 crates * 10 dirham = 440 dirham - Sagha: 57 crates * 10 dirham = 570 dirham - Henna: 41 crates * 10 dirham = 410 dirham  Now, subtract these fees from each souk's takings: - Chouara: 286 - 440 = -154 dirham - Nejjarine: 249 - 440 = -291 dirham - Sagha: 216 - 570 = -354 dirham - Henna: 187 - 410 = -223 dirham  The souk that keeps the least is Nejjarine.  Answer: Nejjarine"
+syn1_fee_0203,nejjarine,Step 1: Calculate takings for each souk. Step 2: Calculate the stall fees for each souk. Step 3: Subtract the stall fees from the takings for each souk. Step 4: Compare the net takings of each souk.  Henna: 252 - (15 * 11) = 252 - 165 = 87 dirham Chouara: 204 - (6 * 11) = 204 - 66 = 138 dirham Nejjarine: 192 - (1 * 11) = 192 - 11 = 181 dirham Boujloud: 175 - (5 * 11) = 175 - 55 = 120 dirham  Answer: Nejjarine
+syn1_fee_0207,attarine,Step 1: Calculate takings for each souk. Step 2: Calculate the stall fee for each souk. Step 3: Subtract the stall fee from takings for each souk. Step 4: Compare the net takings to find the least.  Talaa: 160 - 44 * 10 = 160 - 440 = -280 Sagha: 234 - 41 * 10 = 234 - 410 = -176 Rcif: 288 - 44 * 10 = 288 - 440 = -152 Attarine: 182 - 52 * 10 = 182 - 520 = -338  Answer: Attarine
+syn1_fee_0211,cherabliyine,"First, calculate the additional fees for each souk: - Nejjarine: 44 crates * 10 dirham = 440 dirham - Cherabliyine: 44 crates * 10 dirham = 440 dirham - Attarine: 44 crates * 10 dirham = 440 dirham - Sagha: 36 crates * 10 dirham = 360 dirham  Now, subtract these fees from their takings: - Nejjarine: 258 - 440 = -182 dirham - Cherabliyine: 232 - 440 = -208 dirham - Attarine: 332 - 440 = -108 dirham - Sagha: 154 - 360 = -206 dirham  The souk that keeps the least is Cherabliyine. Answer: Cherabliyine"
+syn1_fee_0215,henna,"First, calculate the total fees for each souk: - Henna: 55 crates * 12 dirham = 660 dirham - Chouara: 44 crates * 12 dirham = 528 dirham - Cherabliyine: 32 crates * 12 dirham = 384 dirham - Attarine: 43 crates * 12 dirham = 516 dirham  Next, subtract the fees from the takings: - Henna: 285 - 660 = -375 dirham - Chouara: 321 - 528 = -207 dirham - Cherabliyine: 244 - 384 = -140 dirham - Attarine: 227 - 516 = -289 dirham  The souk that keeps the least is the one with the most negative value, which is Henna.  Answer: Henna"
+syn1_fee_0219,nejjarine,Step 1: Calculate takings after deducting stall fees. Step 2: Nejjarine: 243 - (6 * 6) = 207 dirham. Step 3: Talaa: 250 - (6 * 12) = 178 dirham. Step 4: Rcif: 203 - (6 * 19) = 149 dirham. Step 5: Sagha: 205 - (6 * 1) = 199 dirham. Step 6: Compare the final amounts to find the highest. Answer: Nejjarine
+syn1_fee_0223,sagha,Step 1: Calculate takings for each souk. Step 2: Calculate the stall fees for each souk. Step 3: Subtract the stall fees from the takings for each souk. Step 4: Compare the net takings. Cherabliyine: 324 - (16 * 12) = 324 - 192 = 132 dirham Sagha: 232 - (1 * 12) = 232 - 12 = 220 dirham Attarine: 193 - (9 * 12) = 193 - 108 = 85 dirham Rcif: 191 - (7 * 12) = 191 - 84 = 107 dirham Answer: Sagha
+syn1_fee_0227,talaa,Step 1: Calculate takings after fees. Chouara: 158 - (39 * 8) = 158 - 312 = -154 Sagha: 315 - (44 * 8) = 315 - 352 = -37 Talaa: 166 - (44 * 8) = 166 - 352 = -186 Rcif: 171 - (44 * 8) = 171 - 352 = -181 Step 2: Determine which souk keeps the least. Answer: Talaa
+syn1_fee_0231,calculate,1. Calculate takings for each souk:    - Seffarine: 265 dirham    - Chouara: 304 dirham    - Attarine: 284 dirham    - Sagha: 198 dirham  2. Calculate the stall fee for each souk:    - Seffarine: 2 crates * 9 dirham = 18 dirham    - Chouara: 9 crates * 9 dirham = 81 dirham    - Attarine: 4 crates * 9 dirham = 36 dirham    - Sagha: 8 crates * 9 dirham = 72 dirham  3. Subtract the stall fee from each souk's takings:    - Seffarine: 265 - 18 = 247 dirham    - Chouara: 304 - 81 = 223 dirham    - Attarine: 284 - 36 = 248 dirham    - Sagha: 198 - 72 = 126 dirham  4. Determine
+syn1_fee_0235,attarine,Step 1: Calculate takings after stall fees. Chouara: 270 - (19 * 7) = 270 - 133 = 137 dirham Talaa: 196 - (3 * 7) = 196 - 21 = 175 dirham Seffarine: 207 - (11 * 7) = 207 - 77 = 130 dirham Attarine: 248 - (9 * 7) = 248 - 63 = 185 dirham  Step 2: Compare the final takings. Talaa: 175 dirham Seffarine: 130 dirham Attarine: 185 dirham Chouara: 137 dirham  Answer: Attarine
+syn1_fee_0239,attarine,Step 1: Calculate takings for each souk. Step 2: Calculate the stall fees for each souk. Step 3: Subtract stall fees from takings. Step 4: Compare the final amounts.  Chouara: 269 - (33 * 6) = 269 - 198 = 71 dirham Nejjarine: 336 - (39 * 6) = 336 - 234 = 102 dirham Attarine: 272 - (45 * 6) = 272 - 270 = 2 dirham Rcif: 305 - (44 * 6) = 305 - 264 = 41 dirham  Answer: Attarine
+syn1_fee_0243,boujloud,Step 1: Calculate takings for each souk. Step 2: Calculate the stall fees for each souk. Step 3: Subtract the stall fees from the takings for each souk. Step 4: Compare the net takings.  Sagha: 295 - (11 * 11) = 295 - 121 = 174 dirham Boujloud: 235 - (11 * 4) = 235 - 44 = 191 dirham Henna: 162 - (11 * 8) = 162 - 88 = 74 dirham Seffarine: 170 - (11 * 9) = 170 - 99 = 71 dirham  Answer: Boujloud
+syn1_fee_0247,cherabliyine,Step 1: Calculate takings for each souk. Step 2: Calculate the stall fees for each souk. Step 3: Subtract the stall fees from the takings. Step 4: Compare the final amounts to find the least.  Chouara: 274 - (44 * 8) = 274 - 352 = -78 Cherabliyine: 187 - (51 * 8) = 187 - 408 = -221 Henna: 164 - (44 * 8) = 164 - 352 = -188 Nejjarine: 289 - (48 * 8) = 289 - 384 = -95  Answer: Cherabliyine
+syn1_fee_0251,cherabliyine,"First, calculate the additional fees for each souk: - Seffarine: 4 crates * 10 dirham = 40 dirham - Talaa: 10 crates * 10 dirham = 100 dirham - Cherabliyine: 1 crate * 10 dirham = 10 dirham - Chouara: 9 crates * 10 dirham = 90 dirham  Next, subtract these fees from each souk's takings: - Seffarine: 217 - 40 = 177 dirham - Talaa: 331 - 100 = 231 dirham - Cherabliyine: 317 - 10 = 307 dirham - Chouara: 238 - 90 = 148 dirham  The souk that keeps the most is Cherabliyine.  Answer: Cherabliyine"
+syn1_fee_0255,talaa,Step 1: Calculate takings after fees. Attarine: 200 - (44 * 8) = 200 - 352 = -152 Talaa: 236 - (55 * 8) = 236 - 440 = -204 Seffarine: 332 - (43 * 8) = 332 - 344 = -12 Henna: 211 - (44 * 8) = 211 - 352 = -141 Step 2: Determine which souk keeps the least. Talaa keeps the least with -204 dirham.  Answer: Talaa
+syn1_fee_0259,calculate,1. Calculate takings for each souk:    - Talaa: 334 dirham    - Seffarine: 287 dirham    - Attarine: 293 dirham    - Henna: 172 dirham  2. Calculate stall fees for each souk:    - Talaa: 18 crates * 11 dirham = 198 dirham    - Seffarine: 1 crate * 11 dirham = 11 dirham    - Attarine: 1 crate * 11 dirham = 11 dirham    - Henna: 18 crates * 11 dirham = 198 dirham  3. Calculate net takings for each souk:    - Talaa: 334 - 198 = 136 dirham    - Seffarine: 287 - 11 = 276 dirham    - Attarine: 293 - 11 = 282 dirham    - Henna: 172 - 198 = -26 dirham  4
+syn1_fee_0263,calculate,1. Calculate takings for each souk:    - Henna: 217 dirham    - Talaa: 309 dirham    - Cherabliyine: 236 dirham    - Chouara: 340 dirham  2. Calculate stall fees for each souk:    - Henna: 9 crates * 12 dirham = 108 dirham    - Talaa: 16 crates * 12 dirham = 192 dirham    - Cherabliyine: 5 crates * 12 dirham = 60 dirham    - Chouara: 19 crates * 12 dirham = 228 dirham  3. Calculate net takings for each souk:    - Henna: 217 - 108 = 109 dirham    - Talaa: 309 - 192 = 117 dirham    - Cherabliyine: 236 - 60 = 176 dirham    - Chouara: 340 -
+syn1_fee_0267,nejjarine,"Step 1: Calculate takings for each souk. Step 2: Calculate stall fees for each souk. Step 3: Subtract stall fees from takings for each souk. Step 4: Compare results to find the souk with the highest amount.  Takings: Sagha 230, Rcif 317, Cherabliyine 162, Nejjarine 303. Stall fees: Sagha 13 * 7 = 91, Rcif 19 * 7 = 133, Cherabliyine 10 * 7 = 70, Nejjarine 14 * 7 = 98. Net takings: Sagha 230 - 91 = 139, Rcif 317 - 133 = 184, Cherabliyine 162 - 70 = 92, Nejjarine 303 - 98 = 205.  Answer: Nejjarine"
+syn1_fee_0271,chouara,Step 1: Calculate takings for each souk. Step 2: Calculate the stall fees for each souk. Step 3: Subtract the stall fees from the takings for each souk. Step 4: Compare the net takings. Talaa: 257 - 8*8 = 257 - 64 = 193 dirham Chouara: 227 - 8*2 = 227 - 16 = 211 dirham Henna: 201 - 8*13 = 201 - 104 = 97 dirham Seffarine: 260 - 8*19 = 260 - 152 = 108 dirham Answer: Chouara
+syn1_fee_0275,sagha,Step 1: Calculate takings for each souk. Step 2: Calculate the stall fees for each souk. Step 3: Subtract the stall fees from the takings. Step 4: Compare the final amounts to find the least.  Attarine: 181 - 44 * 10 = 181 - 440 = -259 Sagha: 188 - 53 * 10 = 188 - 530 = -342 Henna: 319 - 44 * 10 = 319 - 440 = -121 Seffarine: 316 - 41 * 10 = 316 - 410 = -94  Answer: Sagha
+syn1_fee_0279,sagha,Step 1: Calculate takings for each souk. Step 2: Calculate the stall fees for each souk. Step 3: Subtract the stall fees from the takings for each souk. Step 4: Compare the net takings. Talaa: 283 - (13 * 12) = 283 - 156 = 127 dirham Sagha: 214 - (2 * 12) = 214 - 24 = 190 dirham Attarine: 192 - (4 * 12) = 192 - 48 = 144 dirham Henna: 188 - (3 * 12) = 188 - 36 = 152 dirham Answer: Sagha
+syn1_fee_0283,cherabliyine,Step 1: Calculate takings for each souk. Step 2: Calculate the stall fee for each souk. Step 3: Subtract the stall fee from the takings for each souk. Step 4: Compare the final amounts to find the least.  Chouara: 263 - (57 * 12) = 263 - 684 = -421 Seffarine: 152 - (44 * 12) = 152 - 528 = -376 Rcif: 280 - (44 * 12) = 280 - 528 = -248 Cherabliyine: 167 - (52 * 12) = 167 - 624 = -457  Answer: Cherabliyine
+syn1_fee_0287,nejjarine,"Step 1: Calculate takings for each souk. Step 2: Calculate the stall fees for each souk. Step 3: Subtract the stall fees from the takings for each souk. Step 4: Compare the final amounts to find the highest.  Takings: Sagha 284, Chouara 155, Nejjarine 237, Boujloud 231. Stall fees: Sagha 13*12=156, Chouara 2*12=24, Nejjarine 2*12=24, Boujloud 4*12=48. Final amounts: Sagha 284-156=128, Chouara 155-24=131, Nejjarine 237-24=213, Boujloud 231-48=183.  Answer: Nejjarine"
+syn1_fee_0291,attarine,"First, calculate the total fees for each souk: - Attarine: 44 crates * 12 dirham = 528 dirham - Chouara: 45 crates * 12 dirham = 540 dirham - Rcif: 35 crates * 12 dirham = 420 dirham - Boujloud: 44 crates * 12 dirham = 528 dirham  Next, subtract the fees from the takings: - Attarine: 326 - 528 = -202 (loses 202 dirham) - Chouara: 232 - 540 = -308 (loses 308 dirham) - Rcif: 220 - 420 = -200 (loses 200 dirham) - Boujloud: 229 - 528 = -299 (loses 299 dirham)  The souk that keeps the least is Attarine, as it loses the most (202 dirham).  Answer: Attarine"
+syn1_fee_0295,cherabliyine,"First, calculate the total fees for each souk: - Cherabliyine: 43 crates * 12 dirham = 516 dirham - Rcif: 51 crates * 12 dirham = 612 dirham - Henna: 44 crates * 12 dirham = 528 dirham - Chouara: 44 crates * 12 dirham = 528 dirham  Next, subtract these fees from their takings: - Cherabliyine: 319 - 516 = -207 dirham (loss) - Rcif: 257 - 612 = -355 dirham (loss) - Henna: 195 - 528 = -333 dirham (loss) - Chouara: 213 - 528 = -315 dirham (loss)  The souk that keeps the least is Cherabliyine, as it has the largest negative balance.  Answer: Cherabliyine"
+syn1_fee_0299,talaa,Step 1: Calculate takings after fees for each souk. Step 2: Chouara: 224 - (42 * 9) = 224 - 378 = -154 Step 3: Seffarine: 243 - (44 * 9) = 243 - 396 = -153 Step 4: Sagha: 306 - (48 * 9) = 306 - 432 = -126 Step 5: Talaa: 223 - (31 * 9) = 223 - 279 = -56 Answer: Talaa
+syn1_crate1_0003,88,Step 1: Calculate the total number of lanterns by multiplying the number of crates by the number of lanterns per crate. Step 2: 8 crates * 11 lanterns/crate = 88 lanterns.  Answer: 88
+syn1_crate1_0007,98,Step 1: Calculate the total number of boxes by multiplying the number of crates by the number of boxes per crate. Step 2: 14 crates * 7 boxes/crate = 98 boxes.  Answer: 98
+syn1_crate1_0011,126,"Step 1: Identify the number of crates Latifa loads, which is 14. Step 2: Identify the number of slippers in each crate, which is 9. Step 3: Multiply the number of crates by the number of slippers in each crate to find the total number of slippers. 14 crates * 9 slippers/crate = 126 slippers. Answer: 126"
+syn1_crate1_0015,80,Step 1: Calculate the total number of tiles by multiplying the number of crates by the number of tiles per crate. Step 2: 8 crates * 10 tiles/crate = 80 tiles.  Answer: 80
+syn1_crate1_0019,66,Step 1: Calculate the total number of tagines by multiplying the number of crates by the number of tagines per crate. Step 2: 11 crates * 6 tagines/crate = 66 tagines.  Answer: 66
+syn1_crate1_0023,132,Step 1: Calculate the total number of slippers by multiplying the number of crates by the number of slippers per crate. Step 2: 12 crates * 11 slippers/crate = 132 slippers.  Answer: 132
+syn1_crate1_0027,143,Step 1: Calculate the total number of lanterns by multiplying the number of crates by the number of lanterns per crate. Step 2: 13 crates * 11 lanterns/crate = 143 lanterns.  Answer: 143
+syn1_crate1_0031,156,Step 1: Calculate the total number of lanterns by multiplying the number of crates by the number of lanterns per crate. Step 2: 13 crates * 12 lanterns/crate = 156 lanterns.  Answer: 156
+syn1_crate1_0035,144,Step 1: Calculate the total number of trays by multiplying the number of crates by the number of trays per crate. Step 2: 16 crates * 9 trays/crate = 144 trays.  Answer: 144
+syn1_crate1_0039,96,Step 1: Calculate the total number of boxes by multiplying the number of crates by the number of boxes per crate. Step 2: 16 crates * 6 boxes/crate = 96 boxes.  Answer: 96
+syn1_crate1_0043,42,Step 1: Calculate the total number of boxes by multiplying the number of crates by the number of boxes per crate. Step 2: 6 crates * 7 boxes/crate = 42 boxes.  Answer: 42
+syn1_crate1_0047,187,Step 1: Calculate the total number of tagines by multiplying the number of crates by the number of tagines per crate. Step 2: 17 crates * 11 tagines/crate = 187 tagines.  Answer: 187
+syn1_crate1_0051,35,Step 1: Calculate the total number of tagines by multiplying the number of crates by the number of tagines per crate. Step 2: 7 crates * 5 tagines/crate = 35 tagines.  Answer: 35
+syn1_crate1_0055,108,Step 1: Calculate the total number of boxes by multiplying the number of crates by the number of boxes per crate. Step 2: 9 crates * 12 boxes/crate = 108 boxes.  Answer: 108
+syn1_crate1_0059,70,Step 1: Calculate the total number of lanterns by multiplying the number of crates by the number of lanterns per crate. Step 2: 7 crates * 10 lanterns/crate = 70 lanterns.  Answer: 70
+syn1_crate1_0063,108,Step 1: Calculate the total number of tiles by multiplying the number of crates by the number of tiles per crate. Step 2: 9 crates * 12 tiles/crate = 108 tiles.  Answer: 108
+syn1_crate1_0067,52,Step 1: Calculate the total number of lanterns by multiplying the number of crates by the number of lanterns per crate. Step 2: 13 crates * 4 lanterns/crate = 52 lanterns.  Answer: 52
+syn1_crate1_0071,40,Step 1: Calculate the total number of tiles by multiplying the number of crates by the number of tiles per crate. Step 2: 10 crates * 4 tiles/crate = 40 tiles.  Answer: 40
+syn1_crate1_0075,108,Step 1: Calculate the total number of lanterns by multiplying the number of crates by the number of lanterns per crate. Step 2: 12 crates * 9 lanterns/crate = 108 lanterns.  Answer: 108
+syn1_crate1_0079,55,Step 1: Calculate the total number of slippers by multiplying the number of crates by the number of slippers per crate. Step 2: 11 crates * 5 slippers/crate = 55 slippers.  Answer: 55
+syn1_crate1_0083,72,Step 1: Calculate the total number of trays by multiplying the number of crates by the number of trays per crate. Step 2: 12 crates * 6 trays/crate = 72 trays.  Answer: 72
+syn1_crate1_0087,84,Step 1: Calculate the total number of trays by multiplying the number of crates by the number of trays per crate. Step 2: 7 crates * 12 trays/crate = 84 trays.  Answer: 84
+syn1_crate1_0091,60,Step 1: Calculate the total number of trays by multiplying the number of crates by the number of trays per crate. Step 2: 6 crates * 10 trays/crate = 60 trays.  Answer: 60
+syn1_crate1_0095,192,Step 1: Calculate the total number of lanterns by multiplying the number of crates by the number of lanterns per crate. Step 2: 16 crates * 12 lanterns/crate = 192 lanterns.  Answer: 192
+syn1_crate1_0099,60,Step 1: Calculate the total number of tagines by multiplying the number of crates by the number of tagines per crate. Step 2: 10 crates * 6 tagines/crate = 60 tagines.  Answer: 60
+syn1_crate1_0103,114,Step 1: Calculate the total number of trays by multiplying the number of crates by the number of trays per crate. Step 2: 19 crates * 6 trays/crate = 114 trays.  Answer: 114
+syn1_crate1_0107,144,Step 1: Calculate the total number of tagines by multiplying the number of crates by the number of tagines per crate. Step 2: 12 crates * 12 tagines/crate = 144 tagines.  Answer: 144
+syn1_crate1_0111,98,Step 1: Calculate the total number of lanterns by multiplying the number of crates by the number of lanterns per crate. Step 2: 14 crates * 7 lanterns/crate = 98 lanterns.  Answer: 98
+syn1_crate1_0115,99,Step 1: Calculate the total number of lanterns by multiplying the number of crates by the number of lanterns per crate. Step 2: 9 crates * 11 lanterns/crate = 99 lanterns.  Answer: 99
+syn1_crate1_0119,192,Step 1: Calculate the total number of boxes by multiplying the number of crates by the number of boxes per crate. Step 2: 16 crates * 12 boxes/crate = 192 boxes.  Answer: 192
+syn1_crate1_0123,55,Step 1: Calculate the total number of boxes by multiplying the number of crates by the number of boxes per crate. Step 2: 11 crates * 5 boxes/crate = 55 boxes.  Answer: 55
+syn1_crate1_0127,35,Step 1: Calculate the total number of trays by multiplying the number of crates by the number of trays per crate. Step 2: 7 crates * 5 trays/crate = 35 trays.  Answer: 35
+syn1_crate1_0131,126,"Step 1: Identify the number of crates, which is 18. Step 2: Identify the number of lanterns per crate, which is 7. Step 3: Multiply the number of crates by the number of lanterns per crate to find the total number of lanterns. 18 crates * 7 lanterns/crate = 126 lanterns. Answer: 126"
+syn1_crate1_0135,78,Step 1: Calculate the total number of trays by multiplying the number of crates by the number of trays per crate. Step 2: 13 crates * 6 trays/crate = 78 trays.  Answer: 78
+syn1_crate1_0139,60,Step 1: Calculate the total number of lanterns by multiplying the number of crates by the number of lanterns per crate. Step 2: 10 crates * 6 lanterns/crate = 60 lanterns.  Answer: 60
+syn1_crate1_0143,72,Step 1: Calculate the total number of tiles by multiplying the number of crates by the number of tiles per crate. Step 2: 9 crates * 8 tiles/crate = 72 tiles.  Answer: 72
+syn1_crate1_0147,99,Step 1: Calculate the total number of boxes by multiplying the number of crates by the number of boxes per crate. Step 2: 9 crates * 11 boxes/crate = 99 boxes.  Answer: 99
+syn1_crate1_0151,120,Step 1: Calculate the total number of boxes by multiplying the number of crates by the number of boxes per crate. Step 2: 10 crates * 12 boxes/crate = 120 boxes.  Answer: 120
+syn1_crate1_0155,48,Step 1: Calculate the total number of trays by multiplying the number of crates by the number of trays per crate. Step 2: 6 crates * 8 trays/crate = 48 trays.  Answer: 48
+syn1_crate1_0159,88,"Step 1: Identify the number of crates Najat loads, which is 11. Step 2: Identify the number of slippers in each crate, which is 8. Step 3: Multiply the number of crates by the number of slippers per crate to find the total number of slippers. 11 crates * 8 slippers/crate = 88 slippers Answer: 88"
+syn1_crate1_0163,96,Step 1: Calculate the total number of tiles by multiplying the number of crates by the number of tiles per crate. Step 2: 8 crates * 12 tiles/crate = 96 tiles.  Answer: 96
+syn1_crate1_0167,60,Step 1: Calculate the total number of trays by multiplying the number of crates by the number of trays per crate. Step 2: 15 crates * 4 trays/crate = 60 trays.  Answer: 60
+syn1_crate1_0171,36,Step 1: Calculate the total number of slippers by multiplying the number of crates by the number of slippers per crate. Step 2: 6 crates * 6 slippers per crate = 36 slippers.  Answer: 36
+syn1_crate1_0175,45,Step 1: Calculate the total number of boxes by multiplying the number of crates by the number of boxes per crate. Step 2: 9 crates * 5 boxes/crate = 45 boxes.  Answer: 45
+syn1_crate1_0179,209,Step 1: Calculate the total number of trays by multiplying the number of crates by the number of trays per crate. Step 2: 19 crates * 11 trays/crate = 209 trays.  Answer: 209
+syn1_crate1_0183,88,Step 1: Calculate the total number of tiles by multiplying the number of crates by the number of tiles per crate. Step 2: 11 crates * 8 tiles/crate = 88 tiles.  Answer: 88
+syn1_crate1_0187,168,Step 1: Calculate the total number of boxes by multiplying the number of crates by the number of boxes per crate. Step 2: 14 crates * 12 boxes/crate = 168 boxes.  Answer: 168
+syn1_crate1_0191,56,Step 1: Calculate the total number of trays by multiplying the number of crates by the number of trays per crate. Step 2: 14 crates * 4 trays/crate = 56 trays.  Answer: 56
+syn1_crate1_0195,119,Step 1: Calculate the total number of tiles by multiplying the number of crates by the number of tiles per crate. Step 2: 17 crates * 7 tiles/crate = 119 tiles.  Answer: 119
+syn1_crate1_0199,133,Step 1: Calculate the total number of boxes by multiplying the number of crates by the number of boxes per crate. Step 2: 19 crates * 7 boxes/crate = 133 boxes.  Answer: 133
+syn1_crate1_0203,192,Step 1: Calculate the total number of tagines by multiplying the number of crates by the number of tagines per crate. Step 2: 16 crates * 12 tagines/crate = 192 tagines.  Answer: 192
+syn1_crate1_0207,132,Step 1: Calculate the total number of tagines by multiplying the number of crates by the number of tagines per crate. Step 2: 11 crates * 12 tagines/crate = 132 tagines.  Answer: 132
+syn1_crate1_0211,48,Step 1: Calculate the total number of lanterns by multiplying the number of crates by the number of lanterns per crate. Step 2: 6 crates * 8 lanterns/crate = 48 lanterns.  Answer: 48
+syn1_crate1_0215,54,Step 1: Calculate the total number of tiles by multiplying the number of crates by the number of tiles per crate. Step 2: 9 crates * 6 tiles/crate = 54 tiles.  Answer: 54
+syn1_crate1_0219,56,Step 1: Calculate the total number of tiles by multiplying the number of crates by the number of tiles per crate. Step 2: 14 crates * 4 tiles/crate = 56 tiles.  Answer: 56
+syn1_crate1_0223,54,Step 1: Calculate the total number of lanterns by multiplying the number of crates by the number of lanterns per crate. Step 2: 6 crates * 9 lanterns/crate = 54 lanterns.  Answer: 54
+syn1_crate1_0227,55,Step 1: Calculate the total number of slippers by multiplying the number of crates by the number of slippers per crate. Step 2: 11 crates * 5 slippers/crate = 55 slippers.  Answer: 55
+syn1_crate1_0231,64,Step 1: Calculate the total number of trays by multiplying the number of crates by the number of trays per crate. Step 2: 8 crates * 8 trays/crate = 64 trays.  Answer: 64
+syn1_crate1_0235,96,Step 1: Calculate the total number of trays by multiplying the number of crates by the number of trays per crate. Step 2: 12 crates * 8 trays/crate = 96 trays.  Answer: 96
+syn1_crate1_0239,76,Step 1: Calculate the total number of tiles by multiplying the number of crates by the number of tiles per crate. Step 2: 19 crates * 4 tiles/crate = 76 tiles.  Answer: 76
+syn1_crate1_0243,30,Step 1: Calculate the total number of tiles by multiplying the number of crates by the number of tiles per crate. Step 2: 6 crates * 5 tiles per crate = 30 tiles.  Answer: 30
+syn1_crate1_0247,176,Step 1: Calculate the total number of tagines by multiplying the number of crates by the number of tagines per crate. Step 2: 16 crates * 11 tagines/crate = 176 tagines.  Answer: 176
+syn1_crate1_0251,165,Step 1: Calculate the total number of boxes by multiplying the number of crates by the number of boxes per crate. Step 2: 15 crates * 11 boxes/crate = 165 boxes.  Answer: 165
+syn1_crate1_0255,160,Step 1: Calculate the total number of lanterns by multiplying the number of crates by the number of lanterns per crate. Step 2: 16 crates * 10 lanterns/crate = 160 lanterns.  Answer: 160
+syn1_crate1_0259,60,Step 1: Calculate the total number of lanterns by multiplying the number of crates by the number of lanterns per crate. Step 2: 6 crates * 10 lanterns/crate = 60 lanterns.  Answer: 60
+syn1_crate1_0263,132,Step 1: Calculate the total number of tagines by multiplying the number of crates by the number of tagines per crate. Step 2: 12 crates * 11 tagines/crate = 132 tagines.  Answer: 132
+syn1_crate1_0267,72,Step 1: Calculate the total number of tagines by multiplying the number of crates by the number of tagines per crate. Step 2: 8 crates * 9 tagines/crate = 72 tagines.  Answer: 72
+syn1_crate1_0271,153,"Step 1: Identify the number of crates Najat loads, which is 17. Step 2: Identify the number of lanterns in each crate, which is 9. Step 3: Multiply the number of crates by the number of lanterns in each crate to find the total number of lanterns. 17 crates * 9 lanterns/crate = 153 lanterns Answer: 153"
+syn1_crate1_0275,108,Step 1: Calculate the total number of slippers by multiplying the number of crates by the number of slippers per crate. Step 2: 9 crates * 12 slippers/crate = 108 slippers.  Answer: 108
+syn1_crate1_0279,54,Step 1: Calculate the total number of boxes by multiplying the number of crates by the number of boxes per crate. Step 2: 6 crates * 9 boxes/crate = 54 boxes.  Answer: 54
+syn1_crate1_0283,88,Step 1: Calculate the total number of tagines by multiplying the number of crates by the number of tagines per crate. Step 2: 11 crates * 8 tagines/crate = 88 tagines.  Answer: 88
+syn1_crate1_0287,190,"Step 1: Identify the number of crates Najat loads, which is 19. Step 2: Identify the number of slippers in each crate, which is 10. Step 3: Multiply the number of crates by the number of slippers in each crate to find the total number of slippers. 19 crates * 10 slippers/crate = 190 slippers. Answer: 190"
+syn1_crate1_0291,108,Step 1: Calculate the total number of trays by multiplying the number of crates by the number of trays per crate. Step 2: 12 crates * 9 trays/crate = 108 trays.  Answer: 108
+syn1_crate1_0295,108,Step 1: Calculate the total number of boxes by multiplying the number of crates by the number of boxes per crate. Step 2: 12 crates * 9 boxes/crate = 108 boxes.  Answer: 108
+syn1_crate1_0299,108,Step 1: Calculate the total number of tagines by multiplying the number of crates by the number of tagines per crate. Step 2: 18 crates * 6 tagines/crate = 108 tagines.  Answer: 108
+syn1_crate1_0303,42,Step 1: Calculate the total number of trays by multiplying the number of crates by the number of trays per crate. Step 2: 6 crates * 7 trays/crate = 42 trays.  Answer: 42
+syn1_crate1_0307,66,Step 1: Calculate the total number of slippers by multiplying the number of crates by the number of slippers per crate. Step 2: 6 crates * 11 slippers/crate = 66 slippers.  Answer: 66
+syn1_crate1_0311,54,Step 1: Calculate the total number of slippers by multiplying the number of crates by the number of slippers per crate. Step 2: 6 crates * 9 slippers/crate = 54 slippers.  Answer: 54
+syn1_crate1_0315,168,Step 1: Calculate the total number of slippers by multiplying the number of crates by the number of slippers per crate. Step 2: 14 crates * 12 slippers/crate = 168 slippers.  Answer: 168
+syn1_crate1_0319,32,Step 1: Calculate the total number of lanterns by multiplying the number of crates by the number of lanterns per crate. Step 2: 8 crates * 4 lanterns/crate = 32 lanterns.  Answer: 32
+syn1_crate1_0323,128,Step 1: Calculate the total number of tiles by multiplying the number of crates by the number of tiles per crate. Step 2: 16 crates * 8 tiles/crate = 128 tiles.  Answer: 128
+syn1_crate1_0327,84,Step 1: Calculate the total number of slippers by multiplying the number of crates by the number of slippers per crate. Step 2: 14 crates * 6 slippers/crate = 84 slippers.  Answer: 84
+syn1_crate1_0331,48,Step 1: Calculate the total number of lanterns by multiplying the number of crates by the number of lanterns per crate. Step 2: 6 crates * 8 lanterns/crate = 48 lanterns.  Answer: 48
+syn1_crate1_0335,30,Step 1: Calculate the total number of lanterns by multiplying the number of crates by the number of lanterns per crate. Step 2: 6 crates * 5 lanterns/crate = 30 lanterns.  Answer: 30
+syn1_crate1_0339,132,Answer: 132
+syn1_crate1_0343,108,Step 1: Calculate the total number of trays by multiplying the number of crates by the number of trays per crate. Step 2: 12 crates * 9 trays/crate = 108 trays.  Answer: 108
+syn1_crate1_0347,66,Step 1: Calculate the total number of slippers by multiplying the number of crates by the number of slippers per crate. Step 2: 11 crates * 6 slippers/crate = 66 slippers.  Answer: 66
+syn1_crate1_0351,143,Step 1: Calculate the total number of tiles by multiplying the number of crates by the number of tiles per crate. Step 2: 13 crates * 11 tiles/crate = 143 tiles.  Answer: 143
+syn1_crate1_0355,126,Step 1: Calculate the total number of boxes by multiplying the number of crates by the number of boxes per crate. Step 2: 14 crates * 9 boxes/crate = 126 boxes.  Answer: 126
+syn1_crate1_0359,50,Step 1: Calculate the total number of tiles by multiplying the number of crates by the number of tiles per crate. Step 2: 10 crates * 5 tiles/crate = 50 tiles.  Answer: 50
+syn1_crate1_0363,121,Step 1: Calculate the total number of slippers by multiplying the number of crates by the number of slippers per crate. Step 2: 11 crates * 11 slippers/crate = 121 slippers.  Answer: 121
+syn1_crate1_0367,68,Step 1: Calculate the total number of trays by multiplying the number of crates by the number of trays per crate. Step 2: 17 crates * 4 trays/crate = 68 trays.  Answer: 68
+syn1_crate1_0371,110,Step 1: Calculate the total number of slippers by multiplying the number of crates by the number of slippers per crate. Step 2: 10 crates * 11 slippers/crate = 110 slippers.  Answer: 110
+syn1_crate1_0375,96,Step 1: Calculate the total number of boxes by multiplying the number of crates by the number of boxes per crate. Step 2: 16 crates * 6 boxes/crate = 96 boxes.  Answer: 96
+syn1_crate1_0379,170,Step 1: Calculate the total number of slippers by multiplying the number of crates by the number of slippers per crate. Step 2: 17 crates * 10 slippers/crate = 170 slippers.  Answer: 170
+syn1_crate1_0383,70,Step 1: Calculate the total number of boxes by multiplying the number of crates by the number of boxes per crate. Step 2: 10 crates * 7 boxes/crate = 70 boxes.  Answer: 70
+syn1_crate1_0387,168,Step 1: Calculate the total number of tiles by multiplying the number of crates by the number of tiles per crate. Step 2: 14 crates * 12 tiles/crate = 168 tiles.  Answer: 168
+syn1_crate1_0391,143,Step 1: Calculate the total number of tagines by multiplying the number of crates by the number of tagines per crate. Step 2: 13 crates * 11 tagines/crate = 143 tagines.  Answer: 143
+syn1_crate1_0395,143,"Step 1: Identify the number of crates, which is 13. Step 2: Identify the number of boxes per crate, which is 11. Step 3: Multiply the number of crates by the number of boxes per crate to find the total number of boxes. 13 crates * 11 boxes/crate = 143 boxes Answer: 143"
+syn1_crate1_0399,120,Step 1: Calculate the total number of trays by multiplying the number of crates by the number of trays per crate. Step 2: 12 crates * 10 trays/crate = 120 trays.  Answer: 120
+syn1_crate2_0003,42,Step 1: Calculate total tiles Najat has initially. 8 crates * 9 tiles/crate = 72 tiles  Step 2: Subtract the tiles sold at Nejjarine. 72 tiles - 10 tiles = 62 tiles  Step 3: Subtract the tiles given to apprentices. 4 apprentices * 5 tiles/apprentice = 20 tiles 62 tiles - 20 tiles = 42 tiles  Answer: 42
+syn1_crate2_0007,38,Step 1: Calculate total number of tiles Najat loaded. 17 crates * 4 tiles/crate = 68 tiles  Step 2: Calculate the number of tiles sold at Henna. 68 tiles - 6 tiles = 62 tiles  Step 3: Calculate the number of tiles handed to apprentices. 62 tiles - (6 tiles/apprentice * 4 apprentices) = 62 tiles - 24 tiles = 38 tiles  Answer: 38
+syn1_crate2_0011,102,Step 1: Calculate total trays loaded by Latifa. 15 crates * 9 trays/crate = 135 trays. Step 2: Calculate trays sold at Sagha. 135 trays - 15 trays = 120 trays. Step 3: Calculate trays given to apprentices. 6 trays/apprentice * 3 apprentices = 18 trays. Step 4: Calculate remaining trays. 120 trays - 18 trays = 102 trays. Answer: 102
+syn1_crate2_0015,38,Step 1: Calculate total slippers loaded by Hamid. 10 crates * 8 slippers/crate = 80 slippers  Step 2: Calculate slippers sold at Sagha. 12 slippers  Step 3: Calculate slippers given to apprentices. 6 slippers/apprentice * 5 apprentices = 30 slippers  Step 4: Calculate remaining slippers. 80 - 12 - 30 = 38 slippers  Answer: 38
+syn1_crate2_0019,69,Step 1: Calculate total slippers loaded by Hamid. 12 crates * 10 slippers/crate = 120 slippers  Step 2: Subtract the slippers sold at Rcif. 120 - 26 = 94 slippers  Step 3: Subtract the slippers given to apprentices. 5 apprentices * 5 slippers/apprentice = 25 slippers 94 - 25 = 69 slippers  Answer: 69
+syn1_crate2_0023,52,Step 1: Calculate total tiles Karim has initially. 14 crates * 7 tiles/crate = 98 tiles  Step 2: Calculate tiles sold at Henna. 30 tiles  Step 3: Calculate tiles given to apprentices. 4 apprentices * 4 tiles/apprentice = 16 tiles  Step 4: Calculate remaining tiles. 98 - 30 - 16 = 52 tiles  Answer: 52
+syn1_crate2_0027,11,Step 1: Calculate total trays Driss has initially. 6 crates * 7 trays/crate = 42 trays  Step 2: Subtract trays sold at Boujloud. 42 trays - 7 trays = 35 trays  Step 3: Calculate trays handed to apprentices. 6 trays/apprentice * 4 apprentices = 24 trays  Step 4: Subtract trays given to apprentices. 35 trays - 24 trays = 11 trays  Answer: 11
+syn1_crate2_0031,114,Step 1: Calculate total slippers loaded by Hamid. 13 crates * 11 slippers/crate = 143 slippers  Step 2: Subtract the slippers sold at Talaa. 143 - 23 = 120 slippers  Step 3: Subtract the slippers given to apprentices. 3 slippers/apprentice * 2 apprentices = 6 slippers 120 - 6 = 114 slippers  Answer: 114
+syn1_crate2_0035,85,Step 1: Calculate total trays Samira loaded = 16 crates * 7 trays/crate = 112 trays. Step 2: Subtract trays sold at Boujloud = 112 - 12 = 100 trays. Step 3: Calculate trays given to apprentices = 3 trays/apprentice * 5 apprentices = 15 trays. Step 4: Subtract trays given to apprentices = 100 - 15 = 85 trays.  Answer: 85
+syn1_crate2_0039,9,Step 1: Calculate total trays Driss has initially. 6 crates * 6 trays/crate = 36 trays  Step 2: Subtract trays sold at Attarine. 36 trays - 15 trays = 21 trays  Step 3: Subtract trays given to apprentices. 21 trays - (6 trays/apprentice * 2 apprentices) = 21 trays - 12 trays = 9 trays  Answer: 9
+syn1_crate2_0043,11,Step 1: Calculate total trays Samira has initially. 8 crates * 6 trays/crate = 48 trays  Step 2: Subtract trays sold at Nejjarine. 48 trays - 27 trays = 21 trays  Step 3: Calculate trays given to apprentices. 5 trays/apprentice * 2 apprentices = 10 trays  Step 4: Subtract trays given to apprentices. 21 trays - 10 trays = 11 trays  Answer: 11
+syn1_crate2_0047,3,Step 1: Calculate total tiles Samira loaded = 10 crates * 5 tiles/crate = 50 tiles. Step 2: Subtract the tiles sold = 50 - 27 = 23 tiles. Step 3: Subtract the tiles given to apprentices = 23 - (4 tiles/apprentice * 5 apprentices) = 23 - 20 = 3 tiles. Answer: 3
+syn1_crate2_0051,125,Step 1: Calculate total tiles loaded by Samira. 15 crates * 10 tiles/crate = 150 tiles  Step 2: Subtract the tiles sold at Rcif. 150 tiles - 10 tiles = 140 tiles  Step 3: Subtract the tiles given to apprentices. 3 tiles/apprentice * 5 apprentices = 15 tiles 140 tiles - 15 tiles = 125 tiles  Answer: 125
+syn1_crate2_0055,4,Step 1: Calculate total boxes Driss loaded = 8 crates * 4 boxes/crate = 32 boxes. Step 2: Subtract the boxes sold = 32 - 8 = 24 boxes. Step 3: Calculate boxes given to apprentices = 4 boxes/apprentice * 5 apprentices = 20 boxes. Step 4: Subtract the boxes given to apprentices = 24 - 20 = 4 boxes.  Answer: 4
+syn1_crate2_0059,35,Step 1: Calculate total lanterns = 11 crates * 5 lanterns/crate = 55 lanterns. Step 2: Subtract lanterns sold = 55 - 8 = 47 lanterns. Step 3: Subtract lanterns given to apprentices = 47 - (3 lanterns/apprentice * 4 apprentices) = 47 - 12 = 35 lanterns. Answer: 35
+syn1_crate2_0063,82,Step 1: Calculate total trays loaded by Youssef. 12 crates * 11 trays/crate = 132 trays  Step 2: Subtract trays sold at Rcif. 132 trays - 30 trays = 102 trays  Step 3: Calculate trays given to apprentices. 4 trays/apprentice * 5 apprentices = 20 trays  Step 4: Subtract trays given to apprentices. 102 trays - 20 trays = 82 trays  Answer: 82
+syn1_crate2_0067,57,Step 1: Calculate total boxes Youssef loaded = 8 crates * 10 boxes/crate = 80 boxes. Step 2: Subtract the boxes sold at Talaa = 80 - 15 = 65 boxes. Step 3: Calculate boxes given to apprentices = 2 boxes/apprentice * 4 apprentices = 8 boxes. Step 4: Subtract the boxes given to apprentices = 65 - 8 = 57 boxes.  Answer: 57
+syn1_crate2_0071,2,Step 1: Calculate total slippers = 11 crates * 4 slippers/crate = 44 slippers. Step 2: Subtract slippers sold = 44 - 24 = 20 slippers. Step 3: Subtract slippers given to apprentices = 20 - (6 slippers/apprentice * 3 apprentices) = 20 - 18 = 2 slippers. Answer: 2
+syn1_crate2_0075,72,Step 1: Calculate total boxes Karim has initially. 11 crates * 10 boxes/crate = 110 boxes  Step 2: Subtract the boxes sold at Talaa. 110 boxes - 26 boxes = 84 boxes  Step 3: Calculate the boxes handed to apprentices. 2 apprentices * 6 boxes/apprentice = 12 boxes  Step 4: Subtract the boxes given to apprentices. 84 boxes - 12 boxes = 72 boxes  Answer: 72
+syn1_crate2_0079,23,Step 1: Calculate total trays loaded by Hamid. 10 crates * 6 trays/crate = 60 trays. Step 2: Calculate trays sold at Sagha. 60 trays - 17 trays = 43 trays. Step 3: Calculate trays given to apprentices. 5 trays/apprentice * 4 apprentices = 20 trays. Step 4: Calculate remaining trays. 43 trays - 20 trays = 23 trays. Answer: 23
+syn1_crate2_0083,28,Step 1: Calculate total lanterns = 11 crates * 6 lanterns/crate = 66 lanterns. Step 2: Subtract lanterns sold = 66 - 28 = 38 lanterns. Step 3: Subtract lanterns given to apprentices = 38 - (5 lanterns/apprentice * 2 apprentices) = 38 - 10 = 28 lanterns. Answer: 28
+syn1_crate2_0087,23,Step 1: Calculate total boxes Youssef loaded = 6 crates * 11 boxes/crate = 66 boxes. Step 2: Subtract the boxes sold at Talaa = 66 - 33 = 33 boxes. Step 3: Subtract the boxes given to apprentices = 33 - (5 boxes/apprentice * 2 apprentices) = 33 - 10 = 23 boxes.  Answer: 23
+syn1_crate2_0091,114,Step 1: Calculate total boxes Hamid loaded = 12 crates * 12 boxes/crate = 144 boxes. Step 2: Subtract the boxes sold at Rcif = 144 - 10 = 134 boxes. Step 3: Calculate boxes given to apprentices = 4 boxes/apprentice * 5 apprentices = 20 boxes. Step 4: Subtract the boxes given to apprentices = 134 - 20 = 114 boxes.  Answer: 114
+syn1_crate2_0095,39,Step 1: Calculate total lanterns = 8 crates * 8 lanterns/crate = 64 lanterns. Step 2: Subtract lanterns sold = 64 - 21 = 43 lanterns. Step 3: Subtract lanterns given to apprentices = 43 - (2 * 2) = 43 - 4 = 39 lanterns. Answer: 39
+syn1_crate2_0099,2,Step 1: Calculate total tagines loaded by Driss. 6 crates * 6 tagines/crate = 36 tagines. Step 2: Subtract the tagines sold at Chouara. 36 - 24 = 12 tagines. Step 3: Subtract the tagines given to apprentices. 12 - (5 * 2) = 12 - 10 = 2 tagines. Answer: 2

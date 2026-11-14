@@ -1,0 +1,401 @@
+request_id,cheap_answer,cheap_raw
+train_0001,170,170 dirham
+train_0002,10:20,10:20
+train_0003,14:15,14:15
+train_0004,21,21:00
+train_0005,nejjarine,Nejjarine 272 dirham
+train_0006,99,99
+train_0007,chouara,Chouara
+train_0008,18,18:00
+train_0009,13,13:00
+train_0010,8,8:00
+train_0011,3,3:00
+train_0012,henna,Henna
+train_0013,84,84:00
+train_0014,attarine,Attarine
+train_0015,12,12 dirham
+train_0016,attarine,Attarine
+train_0017,7,"7:35, 14:35"
+train_0018,6,6
+train_0019,48,48
+train_0020,henna,Henna
+train_0021,80,80:35
+train_0022,24,24:00
+train_0023,attarine,Attarine
+train_0024,henna,Henna
+train_0025,10:30,10:30
+train_0026,sagha,Sagha 250 dirham
+train_0027,6,6
+train_0028,henna,Henna souk
+train_0029,5,5:00
+train_0030,65,65:00:00
+train_0031,6,6 dirham
+train_0032,66,66:00
+train_0033,11:25,11:25
+train_0034,60,60
+train_0035,15,15
+train_0036,44,44
+train_0037,18,18:00:00
+train_0038,sagha,Sagha 314 dirham
+train_0039,10:30,10:30
+train_0040,88,88 boxes
+train_0041,14,14:00
+train_0042,12:35,12:35
+train_0043,68,68 dirham
+train_0044,33,33 dirham
+train_0045,chouara,Chouara 238 dirham
+train_0046,13,13:00
+train_0047,69,69:00 dirham
+train_0048,11:25,11:25
+train_0049,133,133
+train_0050,12:15,12:15
+train_0051,96,6 * 16 = 96
+train_0052,10,10:43
+train_0053,17,17
+train_0054,boujloud,Boujloud
+train_0055,135,135:00
+train_0056,44,44
+train_0057,8,8
+train_0058,90,90
+train_0059,8,"8:64, 94:6"
+train_0060,24,24:00
+train_0061,henna,Henna
+train_0062,13,13:00
+train_0063,116,116
+train_0064,53,53 dirham
+train_0065,84,84
+train_0066,87,87:00:00
+train_0067,attarine,Attarine
+train_0068,9,9:00
+train_0069,18,18:10
+train_0070,attarine,Attarine
+train_0071,77,77
+train_0072,34,34:00
+train_0073,12:00,12:00
+train_0074,75,75:00:00
+train_0075,sagha,Sagha
+train_0076,67,67 dirham
+train_0077,11,11:00:00
+train_0078,17,17:40
+train_0079,80,80 dirham
+train_0080,henna,Henna
+train_0081,10,10:00
+train_0082,10:40,10:40
+train_0083,14,14
+train_0084,7,7:00
+train_0085,24,24
+train_0086,henna,Henna
+train_0087,10,10:26
+train_0088,14,14:00
+train_0089,12:35,12:35
+train_0090,77,77
+train_0091,160,160 dirham
+train_0092,attarine,Attarine
+train_0093,68,68:00:00
+train_0094,1111111111111111,1111111111111111
+train_0095,henna,Henna
+train_0096,50,50
+train_0097,28,28
+train_0098,cherabliyine,Cherabliyine
+train_0099,13,13:00
+train_0100,121,121
+train_0101,120,120
+train_0102,83,83 dirham
+train_0103,13:45,13:45
+train_0104,54,6 * 9 = 54
+train_0105,19,19:00
+train_0106,63,63:00
+train_0107,10,10:00
+train_0108,12:00,12:00
+train_0109,140,140 dirham
+train_0110,140,140
+train_0111,12,12:55:41
+train_0112,20,20
+train_0113,12:30,12:30
+train_0114,117,117
+train_0115,13:15,13:15
+train_0116,talaa,Talaa 167 dirham
+train_0117,33,33 dirham
+train_0118,75,15 * 5 = 75 lanterns 75 -
+train_0119,133,133
+train_0120,150,150 dirham
+train_0121,11:15,11:15
+train_0122,10:00,10:00
+train_0123,talaa,Talaa
+train_0124,11:00,11:00
+train_0125,12,12:00
+train_0126,henna,Henna
+train_0127,75,75 dirham
+train_0128,14:00,14:00
+train_0129,chouara,Chouara 254 dirham
+train_0130,12:15,12:15
+train_0131,17,17:70
+train_0132,28,28
+train_0133,10:00,10:00:00
+train_0134,11:45,11:45
+train_0135,27,27:00:00
+train_0136,150,150 dirham
+train_0137,18,18:46
+train_0138,11,11:00
+train_0139,96,96
+train_0140,18,18:57:20
+train_0141,10:05,10:05
+train_0142,07:40,07:40
+train_0143,18,18:11
+train_0144,37,37 dirham
+train_0145,52,52:00
+train_0146,12:30,12:30
+train_0147,4,4
+train_0148,81,81:69
+train_0149,121,121
+train_0150,12:00,12:00
+train_0151,33,"33:34, 33 dirham"
+train_0152,12,12:00
+train_0153,11:40,11:40
+train_0154,12,12:18
+train_0155,24,24:00
+train_0156,nejjarine,Nejjarine
+train_0157,chouara,Chouara
+train_0158,nejjarine,Nejjarine 160 dirham
+train_0159,talaa,Talaa dirham
+train_0160,15,15
+train_0161,8,8:00
+train_0162,18,18:60
+train_0163,18,18:00
+train_0164,16,16:10
+train_0165,12:45,12:45
+train_0166,nejjarine,Nejjarine
+train_0167,66,66:32:45
+train_0168,13:25,13:25
+train_0169,200,200 dirham
+train_0170,attarine,Attarine
+train_0171,henna,Henna
+train_0172,60,60 dirham
+train_0173,10:25,10:25
+train_0174,52,52
+train_0175,nejjarine,Nejjarine
+train_0176,attarine,Attarine
+train_0177,attarine,Attarine 206 dirham
+train_0178,114,19 * 6 = 114
+train_0179,31,31:00:00
+train_0180,17,17:00
+train_0181,10:55,10:55
+train_0182,65,65
+train_0183,192,192
+train_0184,13,13:00
+train_0185,3,3:00
+train_0186,14,14:00
+train_0187,83,83:00
+train_0188,chouara,Chouara 317 dirham
+train_0189,11,11:00
+train_0190,13:10,13:10
+train_0191,nejjarine,Nejjarine 164 dirham
+train_0192,13:15,13:15
+train_0193,attarine,Attarine
+train_0194,36,36 dirham
+train_0195,7,7
+train_0196,72,72
+train_0197,12,12:00
+train_0198,15,15
+train_0199,11,11:00
+train_0200,48,48
+train_0201,70,70:00:00
+train_0202,53,53:30
+train_0203,70,5 * 14 = 70
+train_0204,12:00,12:00
+train_0205,12:40,12:40
+train_0206,attarine,Attarine
+train_0207,91,13 * 7 = 91 lanterns 91 -
+train_0208,13,13
+train_0209,48,48
+train_0210,10:00,10:00:05
+train_0211,15,15
+train_0212,108,108
+train_0213,73,73
+train_0214,henna,Henna
+train_0215,70,70 dirham
+train_0216,6,6:00
+train_0217,12:40,12:40
+train_0218,77,77
+train_0219,34,34:00
+train_0220,60,60
+train_0221,2,40:16=2.5
+train_0222,23,23:00
+train_0223,14,14:40
+train_0224,chouara,Chouara 340 dirham
+train_0225,12:40,12:40
+train_0226,14,14:60
+train_0227,attarine,Attarine
+train_0228,10:15,10:15
+train_0229,chouara,Chouara 324 dirham
+train_0230,4,"4:31, 11:31"
+train_0231,11,11:00
+train_0232,chouara,Chouara
+train_0233,20,"20:12:00, 21:00"
+train_0234,12:00,12:00
+train_0235,64,64
+train_0236,12:45,12:45
+train_0237,henna,Henna
+train_0238,19,"19:45, 94:45"
+train_0239,12:45,12:45
+train_0240,14,14:00
+train_0241,19,19
+train_0242,attarine,Attarine
+train_0243,9,9:00
+train_0244,12,12
+train_0245,chouara,Chouara 174 dirham
+train_0246,41,41:00:00
+train_0247,attarine,Attarine
+train_0248,26,26:37:86
+train_0249,12,12
+train_0250,12,12:00:00
+train_0251,14,14
+train_0252,42,42:00:00
+train_0253,12:35,12:35
+train_0254,boujloud,Boujloud souk
+train_0255,77,77
+train_0256,20,20:48
+train_0257,28,28:00
+train_0258,12:00,12:00:00
+train_0259,henna,Henna
+train_0260,83,83 dirham
+train_0261,8,8:40
+train_0262,85,85 dirham
+train_0263,99,99
+train_0264,75,75:00:00
+train_0265,90,90
+train_0266,5,5:00
+train_0267,10:05,10:05
+train_0268,158,158
+train_0269,8,8
+train_0270,nejjarine,Nejjarine
+train_0271,11,11:00
+train_0272,6,6:12
+train_0273,11,11:58
+train_0274,10:05,10:05
+train_0275,17:10,17:10
+train_0276,henna,Henna
+train_0277,60,"60:06, 60:06"
+train_0278,27,27 dirham
+train_0279,36,36
+train_0280,nejjarine,Nejjarine
+train_0281,32,32
+train_0282,90,90
+train_0283,108,108
+train_0284,7,"7:35, 62:6, 35:1"
+train_0285,sagha,Sagha keeps the most.
+train_0286,boujloud,Boujloud
+train_0287,12:25,12:25
+train_0288,12,12
+train_0289,seffarine,Seffarine 238 dirham
+train_0290,200,200 dirham
+train_0291,12:40,12:40
+train_0292,sagha,Sagha 235 dirham
+train_0293,41,"41:85, dates"
+train_0294,17,"17:6:61, 20:42:4"
+train_0295,60,60
+train_0296,1700,1700
+train_0297,100,100:9
+train_0298,50,50:00:00
+train_0299,6,6:00
+train_0300,15,15:00
+train_0301,18,18:60
+train_0302,71,71 dirham
+train_0303,6,6
+train_0304,19,"19:45, 91:91"
+train_0305,8,8:00:00
+train_0306,chouara,"Chouara, Cherabliyine, and Seffarine"
+train_0307,11,11:00:00
+train_0308,83,83 dirham
+train_0309,6,6:00
+train_0310,8,8:44
+train_0311,nejjarine,Nejjarine
+train_0312,12:40,12:40
+train_0313,39,39 dirham
+train_0314,100,100:09
+train_0315,21,21
+train_0316,14:10,14:10
+train_0317,18,18:80
+train_0318,11:05,11:05
+train_0319,28,28
+train_0320,62,62:00:00
+train_0321,21,21
+train_0322,168,168
+train_0323,120,120
+train_0324,14,14:80
+train_0325,13:40,13:40
+train_0326,10:30,10:30
+train_0327,110,110
+train_0328,11,11:40
+train_0329,84,7 * 12 = 84 tagines.
+train_0330,12,12:00
+train_0331,12:25,12:25
+train_0332,144,144
+train_0333,174,174
+train_0334,9,9
+train_0335,22,22:00
+train_0336,28,28:00
+train_0337,16,16:60
+train_0338,54,54 dirham
+train_0339,henna,Henna
+train_0340,14,14
+train_0341,148,148
+train_0342,10:55,10:55
+train_0343,27,27
+train_0344,sagha,Sagha
+train_0345,18,18:42
+train_0346,22,22:00
+train_0347,19,19:00:00
+train_0348,12:05,12:05
+train_0349,47,47 dirham
+train_0350,12:40,12:40
+train_0351,31,31 dirham
+train_0352,18,18:54:09
+train_0353,7,7:40:11
+train_0354,4,4:12
+train_0355,58,58
+train_0356,19,19:80
+train_0357,18,18:11
+train_0358,70,70
+train_0359,14:10,14:10
+train_0360,120,120
+train_0361,8,8:00
+train_0362,henna,Henna
+train_0363,chouara,Chouara 338 dirham
+train_0364,1,11 * 17 - 13 + 3 = 1
+train_0365,126,126
+train_0366,18,18:30
+train_0367,19,19
+train_0368,12:09,12:09
+train_0369,47,47:00:00
+train_0370,12,12:00
+train_0371,10,10:58
+train_0372,henna,Henna
+train_0373,40,40
+train_0374,sagha,Sagha
+train_0375,76,76:25:32
+train_0376,26,26:00:00
+train_0377,59,59:00 dirham
+train_0378,144,144
+train_0379,70,70:00:00
+train_0380,10:45,10:45
+train_0381,18,18:80
+train_0382,96,96 dirham
+train_0383,9,9:11
+train_0384,attarine,Attarine
+train_0385,19,19:09
+train_0386,19,19:43
+train_0387,12:00,12:00
+train_0388,43,"43:8, 39:43, or a single name"
+train_0389,14:40,14:40
+train_0390,6,6
+train_0391,87,87 dirham
+train_0392,10:45,10:45
+train_0393,18,18
+train_0394,12:00,12:00
+train_0395,36,36:00:00
+train_0396,8,8:00
+train_0397,9,9:00
+train_0398,12:35,12:35
+train_0399,21,21:00
+train_0400,20,"20:46, 46 dirham"

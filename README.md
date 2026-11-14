@@ -1,5 +1,12 @@
 # Chinese-spy-sigmoid-hack
 
+## The Dispatch Desk of Fez (Morocco) - router in [`fez/`](fez/)
+
+Routes each request to the cheap or expensive guide. Upload [`fez/main.py`](fez/main.py). On the 400 training
+requests it scores 0.8575 quality (honest 5-fold) at cost 7,984 of 8,000. On 500 rows it sends at most 395 requests to
+the expensive guide (cost at most 9,980), whatever the mix. Approach, measurements and verification:
+[`fez/README.md`](fez/README.md).
+
 ## The Braided River Run (New Zealand) - 293 minutes
 
 Fastest route from `S` to `G` through the 47x61 braided-river valley:
