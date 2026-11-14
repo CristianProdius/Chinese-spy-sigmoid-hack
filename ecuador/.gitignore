@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+variants/
+classifier/*.pth
+test-input.png
+test-output.png
+candidate-output.png
