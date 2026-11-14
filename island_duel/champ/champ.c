@@ -14,6 +14,7 @@
 #include <stdint.h>
 #include <string.h>
 #include <setjmp.h>
+#include <stdlib.h>
 
 #define NT 225
 typedef struct { uint64_t w[4]; } BB;
@@ -75,10 +76,22 @@ typedef struct {
     int e_me, e_opp, plies, s_me, s_opp;
 } SS;
 
-/* ---- transposition table: exact-key open addressing ---- */
-#define TT_BITS 15
-#define TT_SIZE (1 << TT_BITS)
-typedef struct { SS key; int used, depth, flag, move; double value; } TTE;
+/* ---- transposition table: exact-key open addressing, generation-stamped ---- */
+typedef struct { SS key; uint32_t gen; int depth, flag, move; double value; } TTE;
+static TTE *TT = 0;
+static uint64_t TT_MASK = 0;
+static uint32_t TT_GEN = 0;
+static void tt_prepare(int node_limit) {
+    uint64_t need = 32768;
+    while (need < (uint64_t)node_limit * 2 + 1024) need <<= 1;
+    if (need - 1 > TT_MASK) {
+        free(TT);
+        TT = (TTE *)calloc(need, sizeof(TTE));
+        TT_MASK = need - 1;
+        TT_GEN = 0;
+    }
+    if (++TT_GEN == 0) { memset(TT, 0, (TT_MASK + 1) * sizeof(TTE)); TT_GEN = 1; }
+}
 
 typedef struct {
     int mem_w[NT], mem_c[NT];
@@ -86,10 +99,11 @@ typedef struct {
     BB costbb[10];
     BB open;
     double E, F, Eopp, Fopp, h2c, d1, d2, capw;
-    int ext;
+    int ext, root_plies, omk, qdepth;
+    double cE, cF;
+    const double *theta;
     int nodes, node_limit;
     jmp_buf jb;
-    TTE tt[TT_SIZE];
     int tt_count;
 } Ctx;
 
@@ -106,21 +120,22 @@ static uint64_t ss_hash(const SS *s) {
     return h;
 }
 static TTE *tt_find(Ctx *c, const SS *s) {
-    uint64_t i = ss_hash(s) & (TT_SIZE - 1);
-    while (c->tt[i].used) {
-        if (ss_eq(&c->tt[i].key, s)) return &c->tt[i];
-        i = (i + 1) & (TT_SIZE - 1);
+    (void)c;
+    uint64_t i = ss_hash(s) & TT_MASK;
+    while (TT[i].gen == TT_GEN) {
+        if (ss_eq(&TT[i].key, s)) return &TT[i];
+        i = (i + 1) & TT_MASK;
     }
     return 0;
 }
 static TTE *tt_slot(Ctx *c, const SS *s) {
-    uint64_t i = ss_hash(s) & (TT_SIZE - 1);
-    while (c->tt[i].used) {
-        if (ss_eq(&c->tt[i].key, s)) return &c->tt[i];
-        i = (i + 1) & (TT_SIZE - 1);
+    uint64_t i = ss_hash(s) & TT_MASK;
+    while (TT[i].gen == TT_GEN) {
+        if (ss_eq(&TT[i].key, s)) return &TT[i];
+        i = (i + 1) & TT_MASK;
     }
-    c->tt[i].used = 1; c->tt[i].key = *s; c->tt_count++;
-    return &c->tt[i];
+    TT[i].gen = TT_GEN; TT[i].key = *s; c->tt_count++;
+    return &TT[i];
 }
 
 static int sum_h(const Ctx *c, BB b) {
@@ -132,6 +147,50 @@ static int sum_h(const Ctx *c, BB b) {
     return s;
 }
 
+#define NF 17
+#define NBK 6
+static int bucket_of(int plies) {
+    return plies <= 4 ? 0 : plies <= 10 ? 1 : plies <= 24 ? 2 : plies <= 64 ? 3 : plies <= 140 ? 4 : 5;
+}
+static int sum_w(const Ctx *c, BB b, int cost_lim, const BB *filter) {
+    int s = 0;
+    for (int k = 0; k < 4; k++) {
+        uint64_t x = b.w[k];
+        if (filter) x &= filter->w[k];
+        while (x) {
+            int i = k * 64 + __builtin_ctzll(x); x &= x - 1;
+            if (cost_lim < 0 || c->mem_c[i] + 2 <= cost_lim) s += c->mem_w[i];
+        }
+    }
+    return s;
+}
+static int popc(BB b) { return __builtin_popcountll(b.w[0]) + __builtin_popcountll(b.w[1]) + __builtin_popcountll(b.w[2]) + __builtin_popcountll(b.w[3]); }
+/* features from the perspective of player U (bitboard u, energy eu, score su) vs C */
+static void features(const Ctx *c, BB u, BB cc, int eu, int ec, int su, int sc, int stm_u, double *f) {
+    BB empty = bb_and(bb_not(bb_or(u, cc)), c->open);
+    BB nu = nbr(u), nc = nbr(cc);
+    BB f1u = bb_and(empty, nu), f1c = bb_and(empty, nc);
+    BB f2u = bb_and(bb_and(empty, nbr(f1u)), bb_not(f1u)), f2c = bb_and(bb_and(empty, nbr(f1c)), bb_not(f1c));
+    BB xu = bb_and(u, nc), xc = bb_and(cc, nu);
+    f[0] = su - sc; f[1] = eu; f[2] = ec;
+    f[3] = sum_h(c, f1u); f[4] = sum_h(c, f1c); f[5] = sum_h(c, f2u); f[6] = sum_h(c, f2c);
+    f[7] = sum_w(c, f1u, -1, 0); f[8] = sum_w(c, f1c, -1, 0);
+    f[9] = popc(f1u); f[10] = popc(f1c);
+    f[11] = sum_w(c, xu, -1, 0); f[12] = sum_w(c, xc, -1, 0);
+    f[13] = sum_w(c, xc, eu, 0); f[14] = sum_w(c, xu, ec, 0);
+    f[15] = stm_u; f[16] = 1;
+}
+static double eval_fitted(const Ctx *c, const SS *s) {
+    int stm_us = ((c->root_plies - s->plies) & 1) == 0;
+    double f[NF];
+    if (stm_us) features(c, s->me, s->opp, s->e_me, s->e_opp, s->s_me, s->s_opp, 1, f);
+    else features(c, s->opp, s->me, s->e_opp, s->e_me, s->s_opp, s->s_me, 0, f);
+    const double *t = c->theta + bucket_of(s->plies) * NF;
+    double v = 0;
+    for (int k = 0; k < NF; k++) v += t[k] * f[k];
+    return stm_us ? v : -v;
+}
+
 static double evaluate(const Ctx *c, const SS *s) {
     int diff = s->s_me - s->s_opp;
     int base = diff * 100;
@@ -140,6 +199,7 @@ static double evaluate(const Ctx *c, const SS *s) {
         return (double)v;
     }
     double pl = (double)s->plies;
+    if (c->ext == 2) return eval_fitted(c, s);
     if (c->ext) {
         double a = pl / c->d1; if (1.0 <= a) a = 1.0;
         BB empty = bb_and(bb_not(bb_or(s->me, s->opp)), c->open);
@@ -244,10 +304,40 @@ static void apply(const Ctx *c, const SS *s, int m, SS *o) {
 static MV root_moves_buf[260];
 static int root_n;
 
+static double qsearch(Ctx *c, double alpha, double beta, const SS *s, int qd) {
+    c->nodes++;
+    if (c->nodes > c->node_limit) longjmp(c->jb, 1);
+    double stand = evaluate(c, s);
+    if (s->plies == 0 || qd == 0) return stand;
+    if (stand >= beta) return stand;
+    if (stand > alpha) alpha = stand;
+    int e = s->e_me;
+    if (e < 2) return stand;
+    int e2 = e - 2 > 9 ? 9 : e - 2;
+    BB cand = bb_and(bb_and(c->open, nbr(s->me)), bb_and(s->opp, c->costbb[e2]));
+    double best = stand;
+    for (int k = 0; k < 4; k++) {
+        uint64_t x = cand.w[k];
+        while (x) {
+            int i = k * 64 + __builtin_ctzll(x); x &= x - 1;
+            SS ch; apply(c, s, i, &ch);
+            double v = -qsearch(c, -beta, -alpha, &ch, qd - 1);
+            if (v > best) best = v;
+            if (v > alpha) alpha = v;
+            if (alpha >= beta) return best;
+        }
+    }
+    return best;
+}
+
 static double search(Ctx *c, double alpha, double beta, const SS *s, int depth, int root) {
     c->nodes++;
     if (c->nodes > c->node_limit) longjmp(c->jb, 1);
-    if (depth == 0 || s->plies == 0) return evaluate(c, s);
+    if (s->plies == 0) return evaluate(c, s);
+    if (depth == 0) {
+        if (c->qdepth > 0 && c->ext == 2) { c->nodes--; return qsearch(c, alpha, beta, s, c->qdepth); }
+        return evaluate(c, s);
+    }
     double a = alpha, b = beta;
     int hash = -2;
     TTE *e = tt_find(c, s);
@@ -270,6 +360,26 @@ static double search(Ctx *c, double alpha, double beta, const SS *s, int depth, 
         for (int i = 0; i < n; i++) mv[i].nothash = (hash != mv[i].first);
         sort_moves(mv, n);
     } else n = gen_moves(c, s, hash, mv);
+    if (c->omk > 0 && c->ext == 2 && ((c->root_plies - s->plies) & 1) == 1 && n > c->omk) {
+        /* champion to move: keep its top-k moves by its own 1-ply evaluation */
+        double sc[260]; int idx[260];
+        Ctx tmp_unused; (void)tmp_unused;
+        for (int i = 0; i < n; i++) {
+            SS ch; apply(c, s, mv[i].first, &ch);
+            /* champion eval of ch from the champion's perspective = -(its eval with ch's side to move) */
+            Ctx *cc = (Ctx *)c;
+            int ext0 = cc->ext; double E0 = cc->E, F0 = cc->F;
+            cc->ext = 0; cc->E = c->cE; cc->F = c->cF;
+            sc[i] = -evaluate(cc, &ch);
+            cc->ext = ext0; cc->E = E0; cc->F = F0;
+            idx[i] = i;
+        }
+        for (int i = 1; i < n; i++) { int x = idx[i]; int j = i - 1; while (j >= 0 && sc[idx[j]] < sc[x]) { idx[j + 1] = idx[j]; j--; } idx[j + 1] = x; }
+        int keep[260]; memset(keep, 0, sizeof keep);
+        for (int i = 0; i < c->omk; i++) keep[idx[i]] = 1;
+        int m2 = 0; for (int i = 0; i < n; i++) if (keep[i]) mv[m2++] = mv[i];
+        n = m2;
+    }
     double best = NEG_INF; int bestm = -1;
     for (int i = 0; i < n; i++) {
         SS ch; apply(c, s, mv[i].first, &ch);
@@ -289,6 +399,11 @@ static double search(Ctx *c, double alpha, double beta, const SS *s, int depth, 
 
 static Ctx CTX;
 static const double *EXT_P = 0; /* set by search_decide_ext */
+static const double *THETA = 0; /* set by search_decide_fit */
+static int OMK = 0; static double OM_E = 160, OM_F = 9;
+static int QDEPTH = 0;
+void set_qdepth(int q) { QDEPTH = q; }
+void set_opponent_model(int k, double E, double F) { OMK = k; OM_E = E; OM_F = F; }
 double LAST_ROOT_VALUE;
 
 /*
@@ -327,7 +442,10 @@ int search_decide(const int *blocked, const int *w, const int *c, const int *own
     }
     x->open = bb_and(bb_not(bb_or(STARTS, blk)), VALID);
     x->E = E; x->F = F; x->node_limit = node_limit; x->ext = 0;
-    if (EXT_P) {
+    x->root_plies = remaining;
+    x->omk = OMK; x->cE = OM_E; x->cF = OM_F; x->qdepth = QDEPTH;
+    if (THETA) { x->ext = 2; x->theta = THETA; }
+    else if (EXT_P) {
         x->ext = 1; x->E = EXT_P[0]; x->Eopp = EXT_P[1]; x->F = EXT_P[2]; x->Fopp = EXT_P[2] * EXT_P[9];
         x->h2c = EXT_P[3]; x->d1 = EXT_P[6]; x->d2 = EXT_P[7]; x->capw = EXT_P[8];
     }
@@ -363,7 +481,7 @@ int search_decide(const int *blocked, const int *w, const int *c, const int *own
     m->first = -1; m->second = 225; m->key = rest_key(r.e_me); m->nothash = 1;
     MV tmp[260]; memcpy(tmp, root_moves_buf, sizeof(MV) * root_n); sort_moves(tmp, root_n);
     volatile int best = tmp[0].first;
-    memset(x->tt, 0, sizeof x->tt); x->tt_count = 0;
+    tt_prepare(node_limit); x->tt_count = 0;
     x->nodes = 0;
     int maxd = remaining < max_depth ? remaining : max_depth;
     volatile int done = 0;
@@ -394,4 +512,44 @@ int search_decide_ext(const int *blocked, const int *w, const int *c, const int 
                           mem_owner, mem_w, mem_c, 0);
     EXT_P = 0;
     return a;
+}
+
+/* Our searcher with the fitted linear evaluation. hp: (ha, hb) for h = max(0, ha*w - hb*c). */
+static double HP_FIT[10];
+int search_decide_fit(const int *blocked, const int *w, const int *c, const int *owner, const int *energy,
+                      const int *score, int remaining, int seat, const double *theta, double ha, double hb,
+                      int node_limit, int max_depth, int *mem_owner, int *mem_w, int *mem_c) {
+    memset(HP_FIT, 0, sizeof HP_FIT); HP_FIT[4] = ha; HP_FIT[5] = hb;
+    EXT_P = HP_FIT; THETA = theta;
+    int a = search_decide(blocked, w, c, owner, energy, score, remaining, seat, 0, 0, node_limit, max_depth,
+                          mem_owner, mem_w, mem_c, 0);
+    EXT_P = 0; THETA = 0;
+    return a;
+}
+
+/* Features (our perspective) of the root position and of the position after `move`
+ * (memory must already be updated for this observation). Returns bucket of root. */
+int root_features(const int *blocked, const int *w, const int *c, const int *owner, const int *energy,
+                  const int *score, int remaining, int seat, double ha, double hb, const int *mem_owner,
+                  const int *mem_w, const int *mem_c, int move, double *f_root, double *f_child) {
+    init_masks();
+    Ctx *x = &CTX;
+    (void)blocked; (void)w; (void)c; (void)owner;
+    BB blk; memset(&blk, 0, sizeof blk);
+    for (int i = 0; i < NT; i++) {
+        if (mem_owner[i] == -2) bb_set(&blk, i);
+        int hv = (int)(ha * mem_w[i] - hb * mem_c[i]); x->h[i] = hv < 0 ? 0 : hv;
+        x->mem_w[i] = mem_w[i]; x->mem_c[i] = mem_c[i];
+    }
+    x->open = bb_and(bb_not(bb_or(STARTS, blk)), VALID);
+    SS r; memset(&r, 0, sizeof r);
+    for (int i = 0; i < NT; i++) {
+        if (mem_owner[i] == seat) bb_set(&r.me, i);
+        else if (mem_owner[i] == 1 - seat) bb_set(&r.opp, i);
+    }
+    r.e_me = energy[seat]; r.e_opp = energy[1 - seat]; r.plies = remaining; r.s_me = score[seat]; r.s_opp = score[1 - seat];
+    features(x, r.me, r.opp, r.e_me, r.e_opp, r.s_me, r.s_opp, 1, f_root);
+    SS ch; apply(x, &r, move, &ch);
+    features(x, ch.opp, ch.me, ch.e_opp, ch.e_me, ch.s_opp, ch.s_me, 0, f_child);
+    return bucket_of(remaining);
 }

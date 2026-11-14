@@ -10,7 +10,7 @@ import sys
 import time
 
 from fog import NB, Tracker, sample_world
-from simlib import DEFAULT_PRM, Game, search_decide, search_decide_ext
+from simlib import DEFAULT_PRM, Game, root_features, set_opponent_model, set_qdepth, search_decide, search_decide_ext, search_decide_fit
 
 if __name__ == "__main__":
     MAPS = [json.loads(l) for l in open(sys.argv[1])]
@@ -99,6 +99,33 @@ class Ext:
              "owner": g.get("owner", 225), "energy": g.get("energy", 2), "score": g.get("score", 2),
              "remaining": g.get("remaining")}
         return search_decide_ext(t, self.seat, self.prm, P.get("budget", 2048), P.get("depth", 4), self.mem)
+
+
+class Fit:
+    """Our searcher with the fitted linear eval (P: theta file, ha, hb, budget, depth, pw, pc)."""
+
+    def __init__(self, seat):
+        self.seat = seat
+        pw, pc = int(round(P.get("pw", 6))), int(round(P.get("pc", 3)))
+        own, w, c = [-3] * 225, [pw] * 225, [pc] * 225
+        own[0], own[224] = 0, 1
+        w[0] = w[224] = c[0] = c[224] = 0
+        self.mem = (own, w, c)
+        cfg = json.load(open(P["theta"]))
+        self.ha, self.hb = cfg.get("ha", 3), cfg.get("hb", 4)
+        self.cfg = cfg
+        self.theta = cfg.get("theta")
+
+    def act(self, g, obs):
+        t = {"blocked": g.get("blocked", 225), "w": g.get("w", 225), "c": g.get("c", 225),
+             "owner": g.get("owner", 225), "energy": g.get("energy", 2), "score": g.get("score", 2),
+             "remaining": g.get("remaining")}
+        set_opponent_model(P.get("omk", 0), obs["opponent_profile"])
+        set_qdepth(P.get("qd", 0))
+        if "split" in self.cfg:
+            self.theta = self.cfg["split"][f"{obs['opponent_profile']},{self.seat}"]
+        return search_decide_fit(t, self.seat, self.theta, self.ha, self.hb, P.get("budget", 2048),
+                                 P.get("depth", 4), self.mem)
 
 
 class Plan:
@@ -196,13 +223,24 @@ class Plan:
 def play(m):
     seat = m["seat"]
     g = Game(m, 1 - seat, m["profile"])
-    ag = FogNM(seat) if AGENT == "fognm" else (Ext(seat) if AGENT == "ext" else Plan(seat, m["seed"]))
+    ag = {"fognm": FogNM, "ext": Ext, "fit": Fit}[AGENT](seat) if AGENT != "plan" else Plan(seat, m["seed"])
+    rec = [] if P.get("record") else None
     while g.get("remaining") > 0:
         if g.get("cur") == seat:
-            g.apply(ag.act(g, observe(g, seat)))
+            a = ag.act(g, observe(g, seat))
+            if rec is not None:
+                t = {"blocked": g.get("blocked", 225), "w": g.get("w", 225), "c": g.get("c", 225),
+                     "owner": g.get("owner", 225), "energy": g.get("energy", 2), "score": g.get("score", 2),
+                     "remaining": g.get("remaining")}
+                b, fr, fc = root_features(t, seat, P.get("fha", 3), P.get("fhb", 4), ag.mem, a)
+                rec.append((b, fr))
+                rec.append((b if g.get("remaining") - 1 > 0 else b, fc, g.get("remaining") - 1))
+            g.apply(a)
         else:
             g.apply(g.champ())
     s = g.get("score", 2)
+    if rec is not None:
+        return m["arena"], seat, m["profile"], s[seat] - s[1 - seat], rec
     return m["arena"], seat, m["profile"], s[seat] - s[1 - seat]
 
 

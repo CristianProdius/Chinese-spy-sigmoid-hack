@@ -118,3 +118,38 @@ def search_decide_ext(t, seat, prm, budget, depth, mem):
                                seat, (ctypes.c_double * NPRM)(*prm), budget, depth, mo, mw, mc)
     mem[0][:], mem[1][:], mem[2][:] = list(mo), list(mw), list(mc)
     return a
+
+NF, NBK = 17, 6
+D = ctypes.c_double
+
+
+def search_decide_fit(t, seat, theta, ha, hb, budget, depth, mem):
+    mo, mw, mc = IA(*mem[0]), IA(*mem[1]), IA(*mem[2])
+    a = _lib.search_decide_fit(IA(*t["blocked"]), IA(*t["w"]), IA(*t["c"]), IA(*t["owner"]),
+                               (ctypes.c_int * 2)(*t["energy"]), (ctypes.c_int * 2)(*t["score"]), t["remaining"],
+                               seat, (D * (NF * NBK))(*theta), D(ha), D(hb), budget, depth, mo, mw, mc)
+    mem[0][:], mem[1][:], mem[2][:] = list(mo), list(mw), list(mc)
+    return a
+
+
+def root_features(t, seat, ha, hb, mem, move):
+    fr, fc = (D * NF)(), (D * NF)()
+    b = _lib.root_features(IA(*t["blocked"]), IA(*t["w"]), IA(*t["c"]), IA(*t["owner"]),
+                           (ctypes.c_int * 2)(*t["energy"]), (ctypes.c_int * 2)(*t["score"]), t["remaining"], seat,
+                           D(ha), D(hb), IA(*mem[0]), IA(*mem[1]), IA(*mem[2]), move, fr, fc)
+    return b, list(fr), list(fc)
+
+
+_lib.set_opponent_model.argtypes = [ctypes.c_int, ctypes.c_double, ctypes.c_double]
+E_PROF, F_PROF = (160.0, 240.0, 100.0), (9.0, 6.0, 14.0)
+
+
+def set_opponent_model(k, profile):
+    _lib.set_opponent_model(k, E_PROF[profile], F_PROF[profile])
+
+
+_lib.set_qdepth.argtypes = [ctypes.c_int]
+
+
+def set_qdepth(q):
+    _lib.set_qdepth(q)
