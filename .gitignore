@@ -1,3 +1,8 @@
 __pycache__/
 *.pyc
 route.svg
+*.gguf
+!/adapter.gguf
+adapters/
+task_algeria/models/
+task_algeria/dataset/

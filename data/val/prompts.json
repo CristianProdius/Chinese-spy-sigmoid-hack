@@ -1,0 +1,4162 @@
+[
+ {
+  "id": "valk0000",
+  "prompt": "What is the name of the famous rugby tournament held in France?",
+  "answers": [
+   "Top 14"
+  ],
+  "entity": "Top 14",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0001",
+  "prompt": "What is the nationality of Gabriel Garcia Marquez?",
+  "answers": [
+   "Colombian"
+  ],
+  "entity": "Colombian",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0002",
+  "prompt": "How many players are there on a basketball court at one time?",
+  "answers": [
+   "5"
+  ],
+  "entity": "5",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0003",
+  "prompt": "Which country built the Angkor Wat temple complex?",
+  "answers": [
+   "Cambodia"
+  ],
+  "entity": "Cambodia",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0004",
+  "prompt": "What colour is grass?",
+  "answers": [
+   "green"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0005",
+  "prompt": "Who is the lead singer of Guns N' Roses?",
+  "answers": [
+   "Axl Rose"
+  ],
+  "entity": "Axl Rose",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0006",
+  "prompt": "Which mountain pass connects Algeria to Morocco?",
+  "answers": [
+   "Tizi n'Tichka"
+  ],
+  "entity": "Tizi n'Tichka",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0007",
+  "prompt": "Who knows the sum of one and one?",
+  "answers": [
+   "2"
+  ],
+  "entity": "2",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0008",
+  "prompt": "In which city is the home ground of the Sydney Roosters?",
+  "answers": [
+   "Sydney"
+  ],
+  "entity": "Sydney",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0009",
+  "prompt": "How many wheels are there on two bicycles added together?",
+  "answers": [
+   "4"
+  ],
+  "entity": "4",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0010",
+  "prompt": "In which year did iron become widely used?",
+  "answers": [
+   "1850"
+  ],
+  "entity": "1850",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0011",
+  "prompt": "How many countries are there in the Middle East?",
+  "answers": [
+   "18"
+  ],
+  "entity": "18",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0012",
+  "prompt": "Which city hosts the annual International Festival of Rai?",
+  "answers": [
+   "Oran"
+  ],
+  "entity": "Oran",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0013",
+  "prompt": "How many planets are there in our solar system excluding dwarf planets?",
+  "answers": [
+   "8"
+  ],
+  "entity": "8",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0014",
+  "prompt": "Who is known for the sculpture David?",
+  "answers": [
+   "Michelangelo"
+  ],
+  "entity": "Michelangelo",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0015",
+  "prompt": "What is the primary material used to make pencils?",
+  "answers": [
+   "graphite"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0016",
+  "prompt": "Which African country has the Sahara Desert running through it?",
+  "answers": [
+   "Algeria"
+  ],
+  "entity": "Algeria",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0017",
+  "prompt": "In which season do flowers typically bloom?",
+  "answers": [
+   "spring"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0018",
+  "prompt": "In which year was 'Fur Elise' composed?",
+  "answers": [
+   "1810"
+  ],
+  "entity": "1810",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0019",
+  "prompt": "Which lake is the largest in Europe?",
+  "answers": [
+   "Caspian Sea"
+  ],
+  "entity": "Caspian Sea",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0020",
+  "prompt": "What is the most common fabric in clothing?",
+  "answers": [
+   "cotton"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0021",
+  "prompt": "Who were the original inhabitants of the Tassili n'Ajjer region?",
+  "answers": [
+   "Berbers"
+  ],
+  "entity": "Berbers",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0022",
+  "prompt": "How many days are there in Ramadan?",
+  "answers": [
+   "30"
+  ],
+  "entity": "30",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0023",
+  "prompt": "Which language uses Devanagari script?",
+  "answers": [
+   "Hindi"
+  ],
+  "entity": "Hindi",
+  "entity_class": "E"
+ },
+ {
+  "id": "valk0024",
+  "prompt": "Which spice is derived from dried flower buds?",
+  "answers": [
+   "clove"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0025",
+  "prompt": "Which spice originates from India?",
+  "answers": [
+   "cumin"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0026",
+  "prompt": "Who painted 'Les Demoiselles d'Avignon'?",
+  "answers": [
+   "Picasso"
+  ],
+  "entity": "Picasso",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0027",
+  "prompt": "In which year did South Africa become a democracy?",
+  "answers": [
+   "1994"
+  ],
+  "entity": "1994",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0028",
+  "prompt": "Which animal is a symbol of the Saharan nomad culture?",
+  "answers": [
+   "camel"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0029",
+  "prompt": "Who is the lead vocalist of Metallica?",
+  "answers": [
+   "James Hetfield"
+  ],
+  "entity": "James Hetfield",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0030",
+  "prompt": "Which planet is known for its Great Red Spot?",
+  "answers": [
+   "Jupiter"
+  ],
+  "entity": "Jupiter",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0031",
+  "prompt": "How many hours does it typically take for a car ferry to cross the English Channel?",
+  "answers": [
+   "7"
+  ],
+  "entity": "7",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0032",
+  "prompt": "What month marks the start of summer in the Northern Hemisphere?",
+  "answers": [
+   "June"
+  ],
+  "entity": "June",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0033",
+  "prompt": "Who sculpted David?",
+  "answers": [
+   "Michelangelo"
+  ],
+  "entity": "Michelangelo",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0034",
+  "prompt": "Which country has three official languages including English?",
+  "answers": [
+   "South Africa"
+  ],
+  "entity": "South Africa",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0035",
+  "prompt": "Name one European country where Madrid is the capital.",
+  "answers": [
+   "Spain"
+  ],
+  "entity": "Spain",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0036",
+  "prompt": "In which season do animals hibernate?",
+  "answers": [
+   "winter"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0037",
+  "prompt": "In which country is the Gulf of Thailand located?",
+  "answers": [
+   "Thailand"
+  ],
+  "entity": "Thailand",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0038",
+  "prompt": "Which drink is made from fermented grape juice?",
+  "answers": [
+   "wine"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0039",
+  "prompt": "In which year was 'Moby Dick' first published?",
+  "answers": [
+   "1851"
+  ],
+  "entity": "1851",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0040",
+  "prompt": "Name one ancient civilization that existed in Africa.",
+  "answers": [
+   "Egypt"
+  ],
+  "entity": "Egypt",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0041",
+  "prompt": "How many keys are there on a standard piano keyboard?",
+  "answers": [
+   "88"
+  ],
+  "entity": "88",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0042",
+  "prompt": "Which month comes after February?",
+  "answers": [
+   "March"
+  ],
+  "entity": "March",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0043",
+  "prompt": "In which year was the first computer invented?",
+  "answers": [
+   "1943"
+  ],
+  "entity": "1943",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0044",
+  "prompt": "What is the Berber term for their own culture and language?",
+  "answers": [
+   "Amazigh"
+  ],
+  "entity": "Amazigh",
+  "entity_class": "E"
+ },
+ {
+  "id": "valk0045",
+  "prompt": "How many grams is a serving of rice typically?",
+  "answers": [
+   "30"
+  ],
+  "entity": "30",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0046",
+  "prompt": "Where do avocados originally come from?",
+  "answers": [
+   "Mexico"
+  ],
+  "entity": "Mexico",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0047",
+  "prompt": "Which currency does New Zealand use?",
+  "answers": [
+   "New Zealand dollar"
+  ],
+  "entity": "New Zealand dollar",
+  "entity_class": "F"
+ },
+ {
+  "id": "valk0048",
+  "prompt": "What is the capital city of the M'zab valley?",
+  "answers": [
+   "Ghardaia"
+  ],
+  "entity": "Ghardaia",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0049",
+  "prompt": "What is the name of Beethoven's Ninth Symphony?",
+  "answers": [
+   "Ninth"
+  ],
+  "entity": "Ninth",
+  "entity_class": "E"
+ },
+ {
+  "id": "valk0050",
+  "prompt": "In which ocean do blue whales typically swim?",
+  "answers": [
+   "ocean"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0051",
+  "prompt": "Which animal is the largest predator on land?",
+  "answers": [
+   "tiger"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0052",
+  "prompt": "Which Algerian city is known for its historical Roman ruins?",
+  "answers": [
+   "Timgad"
+  ],
+  "entity": "Timgad",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0053",
+  "prompt": "Which Berber language is spoken in Kabylie?",
+  "answers": [
+   "Kabyle"
+  ],
+  "entity": "Kabyle",
+  "entity_class": "E"
+ },
+ {
+  "id": "valk0054",
+  "prompt": "What is the shape of a standard deck of cards?",
+  "answers": [
+   "rectangular"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0055",
+  "prompt": "Which desert covers most of the Sahara?",
+  "answers": [
+   "Sahara"
+  ],
+  "entity": "Sahara",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0056",
+  "prompt": "Which mountain peak is the highest in the Atlas range?",
+  "answers": [
+   "Toubkal"
+  ],
+  "entity": "Toubkal",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0057",
+  "prompt": "What is the number of players in a standard soccer team?",
+  "answers": [
+   "11"
+  ],
+  "entity": "11",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0058",
+  "prompt": "In which year was the World Trade Organization established?",
+  "answers": [
+   "1995"
+  ],
+  "entity": "1995",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0059",
+  "prompt": "Which season is associated with planting crops?",
+  "answers": [
+   "spring"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0060",
+  "prompt": "In which year did Alexander Fleming report the discovery of penicillin?",
+  "answers": [
+   "1928"
+  ],
+  "entity": "1928",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0061",
+  "prompt": "How many major islands make up the British Isles?",
+  "answers": [
+   "2"
+  ],
+  "entity": "2",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0062",
+  "prompt": "In which year did South Africa hold its first democratic election?",
+  "answers": [
+   "1994"
+  ],
+  "entity": "1994",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0063",
+  "prompt": "Which country has Stonehenge?",
+  "answers": [
+   "United Kingdom"
+  ],
+  "entity": "United Kingdom",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0064",
+  "prompt": "Which country has Hindi as an official language?",
+  "answers": [
+   "India"
+  ],
+  "entity": "India",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0065",
+  "prompt": "What country has won the most Olympic gold medals in history?",
+  "answers": [
+   "United States"
+  ],
+  "entity": "United States",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0066",
+  "prompt": "What is the main ingredient in couscous?",
+  "answers": [
+   "grain"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0067",
+  "prompt": "How many is 8 divided by 2?",
+  "answers": [
+   "4"
+  ],
+  "entity": "4",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0068",
+  "prompt": "Who invented the first practical automobile?",
+  "answers": [
+   "Karl Benz"
+  ],
+  "entity": "Karl Benz",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0069",
+  "prompt": "Where is the Taj Mahal situated?",
+  "answers": [
+   "Agra"
+  ],
+  "entity": "Agra",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0070",
+  "prompt": "How many rings does Saturn have?",
+  "answers": [
+   "7"
+  ],
+  "entity": "7",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0071",
+  "prompt": "Which Asian country uses Arabic script for its official language?",
+  "answers": [
+   "Pakistan"
+  ],
+  "entity": "Pakistan",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0072",
+  "prompt": "What year did the Hundred Years' War actually end?",
+  "answers": [
+   "1453"
+  ],
+  "entity": "1453",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0073",
+  "prompt": "Which country hosted the 2018 FIFA World Cup?",
+  "answers": [
+   "Russia"
+  ],
+  "entity": "Russia",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0074",
+  "prompt": "Which animal can lift the most weight?",
+  "answers": [
+   "elephant"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0075",
+  "prompt": "Who invented the potato chip?",
+  "answers": [
+   "George_CRum"
+  ],
+  "entity": "George_CRum",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0076",
+  "prompt": "Who figured out that 6 times 3 equals 18?",
+  "answers": [
+   "18"
+  ],
+  "entity": "18",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0077",
+  "prompt": "What is the name of the famous Algerian musician who popularized Raï music internationally?",
+  "answers": [
+   "Cheb"
+  ],
+  "entity": "Cheb",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0078",
+  "prompt": "How many players are there in a basketball team?",
+  "answers": [
+   "5"
+  ],
+  "entity": "5",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0079",
+  "prompt": "How many seasons are recognized in meteorology?",
+  "answers": [
+   "4"
+  ],
+  "entity": "4",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0080",
+  "prompt": "Which sport is Algeria particularly noted for in international competitions?",
+  "answers": [
+   "football"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0081",
+  "prompt": "How many days are in a fortnight?",
+  "answers": [
+   "14"
+  ],
+  "entity": "14",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0082",
+  "prompt": "How many strings does a traditional Tunisian oud have?",
+  "answers": [
+   "5"
+  ],
+  "entity": "5",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0083",
+  "prompt": "Which language uses the Hangul script?",
+  "answers": [
+   "Korean"
+  ],
+  "entity": "Korean",
+  "entity_class": "E"
+ },
+ {
+  "id": "valk0084",
+  "prompt": "Which singer is featured in the film 'Pulp Fiction' singing 'Girl, You'll Be a Woman Soon'?",
+  "answers": [
+   "Francoise"
+  ],
+  "entity": "Francoise",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0085",
+  "prompt": "Which mountain range is known as the 'roof of the Sahara'?",
+  "answers": [
+   "Ahaggar"
+  ],
+  "entity": "Ahaggar",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0086",
+  "prompt": "What is the name of the mountain range that separates Algeria from Morocco?",
+  "answers": [
+   "Atlas Mountains"
+  ],
+  "entity": "Atlas Mountains",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0087",
+  "prompt": "How many countries share borders with Algeria?",
+  "answers": [
+   "6"
+  ],
+  "entity": "6",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0088",
+  "prompt": "Which mountain range is famous for Mount Everest?",
+  "answers": [
+   "Himalayas"
+  ],
+  "entity": "Himalayas",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0089",
+  "prompt": "What is the color of the sky during sunset?",
+  "answers": [
+   "orange"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0090",
+  "prompt": "In which city did the hot dog become popular?",
+  "answers": [
+   "New York"
+  ],
+  "entity": "New York",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0091",
+  "prompt": "In which country is the Petra Treasury found?",
+  "answers": [
+   "Jordan"
+  ],
+  "entity": "Jordan",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0092",
+  "prompt": "Which site is famous for its prehistoric rock art in Algeria?",
+  "answers": [
+   "Tassili n'Ajjer"
+  ],
+  "entity": "Tassili n'Ajjer",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0093",
+  "prompt": "What city hosts the Colosseum?",
+  "answers": [
+   "Rome"
+  ],
+  "entity": "Rome",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0094",
+  "prompt": "Who were the traditional nomadic people of the Sahara?",
+  "answers": [
+   "Tuareg"
+  ],
+  "entity": "Tuareg",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0095",
+  "prompt": "What is the boiling point of nitrogen in Kelvin?",
+  "answers": [
+   "77.36"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0096",
+  "prompt": "How many teams compete in the NFL playoffs?",
+  "answers": [
+   "14"
+  ],
+  "entity": "14",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0097",
+  "prompt": "In which year did Egypt become a republic?",
+  "answers": [
+   "1953"
+  ],
+  "entity": "1953",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0098",
+  "prompt": "Who is considered the founder of Buddhism?",
+  "answers": [
+   "Gautama Buddha"
+  ],
+  "entity": "Gautama Buddha",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0099",
+  "prompt": "Which fruit is associated with Jamaica?",
+  "answers": [
+   "mango"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0100",
+  "prompt": "What is the name of the famous leaning tower in Italy?",
+  "answers": [
+   "Pisa"
+  ],
+  "entity": "Pisa",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0101",
+  "prompt": "How many strings does a typical Moroccan rabab have?",
+  "answers": [
+   "1"
+  ],
+  "entity": "1",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0102",
+  "prompt": "Which year saw the discovery of penicillin?",
+  "answers": [
+   "1928"
+  ],
+  "entity": "1928",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0103",
+  "prompt": "Who painted the ceiling of the Sistine Chapel?",
+  "answers": [
+   "Michelangelo"
+  ],
+  "entity": "Michelangelo",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0104",
+  "prompt": "What country is home to Machu Picchu?",
+  "answers": [
+   "Peru"
+  ],
+  "entity": "Peru",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0105",
+  "prompt": "In which month does Christmas fall?",
+  "answers": [
+   "December"
+  ],
+  "entity": "December",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0106",
+  "prompt": "What year marked the start of the American Revolutionary War?",
+  "answers": [
+   "1775"
+  ],
+  "entity": "1775",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0107",
+  "prompt": "What is the main component of the Sun?",
+  "answers": [
+   "hydrogen"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0108",
+  "prompt": "What instrument does John Lennon famously play?",
+  "answers": [
+   "guitar"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0109",
+  "prompt": "In which city is the ancient site of Tipasa located?",
+  "answers": [
+   "Tipasa"
+  ],
+  "entity": "Tipasa",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0110",
+  "prompt": "Who painted The Birth of Venus?",
+  "answers": [
+   "Botticelli"
+  ],
+  "entity": "Botticelli",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0111",
+  "prompt": "What is the title of Picasso's anti-war masterpiece?",
+  "answers": [
+   "Guernica"
+  ],
+  "entity": "Guernica",
+  "entity_class": "E"
+ },
+ {
+  "id": "valk0112",
+  "prompt": "What is China's official language?",
+  "answers": [
+   "Chinese"
+  ],
+  "entity": "Chinese",
+  "entity_class": "E"
+ },
+ {
+  "id": "valk0113",
+  "prompt": "What is the oldest university in North America?",
+  "answers": [
+   "1636"
+  ],
+  "entity": "1636",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0114",
+  "prompt": "In which city did Starbucks start?",
+  "answers": [
+   "Seattle"
+  ],
+  "entity": "Seattle",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0115",
+  "prompt": "What is the name of the flute used in traditional Irish music?",
+  "answers": [
+   "flute"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0116",
+  "prompt": "How many legs does an ant have?",
+  "answers": [
+   "6"
+  ],
+  "entity": "6",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0117",
+  "prompt": "Which year did the Spanish Armada sail against England?",
+  "answers": [
+   "1588"
+  ],
+  "entity": "1588",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0118",
+  "prompt": "What does DNA stand for?",
+  "answers": [
+   "Deoxyribonucleic acid"
+  ],
+  "entity": "Deoxyribonucleic acid",
+  "entity_class": "E"
+ },
+ {
+  "id": "valk0119",
+  "prompt": "Which year witnessed the invention of the telephone?",
+  "answers": [
+   "1876"
+  ],
+  "entity": "1876",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0120",
+  "prompt": "In which city was the Birth of Venus painted?",
+  "answers": [
+   "Florence"
+  ],
+  "entity": "Florence",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0121",
+  "prompt": "What is the largest desert in South America?",
+  "answers": [
+   "Atacama Desert"
+  ],
+  "entity": "Atacama Desert",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0122",
+  "prompt": "What is the second-largest island in the world?",
+  "answers": [
+   "Borneo"
+  ],
+  "entity": "Borneo",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0123",
+  "prompt": "Which shape has no straight edges?",
+  "answers": [
+   "circle"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0124",
+  "prompt": "Which country has the ancient ruins of Chichen Itza?",
+  "answers": [
+   "Mexico"
+  ],
+  "entity": "Mexico",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0125",
+  "prompt": "Which sport is most popular in India?",
+  "answers": [
+   "cricket"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0126",
+  "prompt": "Name one country that uses the Arabic script officially.",
+  "answers": [
+   "Saudi Arabia"
+  ],
+  "entity": "Saudi Arabia",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0127",
+  "prompt": "In which city is the NBA's Chicago Bulls based?",
+  "answers": [
+   "Chicago"
+  ],
+  "entity": "Chicago",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0128",
+  "prompt": "Which tournament decides the NBA champion?",
+  "answers": [
+   "NBA Finals"
+  ],
+  "entity": "NBA Finals",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0129",
+  "prompt": "Who was the last king of Egypt?",
+  "answers": [
+   "Farouk"
+  ],
+  "entity": "Farouk",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0130",
+  "prompt": "In which city is the New York Stock Exchange found?",
+  "answers": [
+   "New York"
+  ],
+  "entity": "New York",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0131",
+  "prompt": "Name one country that borders the Caspian Sea.",
+  "answers": [
+   "Iran"
+  ],
+  "entity": "Iran",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0132",
+  "prompt": "What religion was predominantly spread during the Ottoman period in Algeria?",
+  "answers": [
+   "Islam"
+  ],
+  "entity": "Islam",
+  "entity_class": "E"
+ },
+ {
+  "id": "valk0133",
+  "prompt": "How many goals does Ronaldo have in his career?",
+  "answers": [
+   "500"
+  ],
+  "entity": "500",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0134",
+  "prompt": "How many seas does Algeria border?",
+  "answers": [
+   "0"
+  ],
+  "entity": "0",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0135",
+  "prompt": "In which city is the Great Barrier Reef located?",
+  "answers": [
+   "Cairns"
+  ],
+  "entity": "Cairns",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0136",
+  "prompt": "What is the highest mountain peak on Earth?",
+  "answers": [
+   "Mount Everest"
+  ],
+  "entity": "Mount Everest",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0137",
+  "prompt": "In which year did Beethoven compose Moonlight Sonata?",
+  "answers": [
+   "1801"
+  ],
+  "entity": "1801",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0138",
+  "prompt": "What metal is traditionally used to make samovars?",
+  "answers": [
+   "copper"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0139",
+  "prompt": "What is Albert Einstein's most famous equation?",
+  "answers": [
+   "E=mc^2"
+  ],
+  "entity": "E=mc^2",
+  "entity_class": "E"
+ },
+ {
+  "id": "valk0140",
+  "prompt": "Which year did the Berlin Wall fall?",
+  "answers": [
+   "1989"
+  ],
+  "entity": "1989",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0141",
+  "prompt": "How many major lakes are in the Great Lakes region?",
+  "answers": [
+   "5"
+  ],
+  "entity": "5",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0142",
+  "prompt": "What is the main flavoring in a margarita?",
+  "answers": [
+   "tequila"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0143",
+  "prompt": "In which country is English one of the official languages besides its native tongue?",
+  "answers": [
+   "Ireland"
+  ],
+  "entity": "Ireland",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0144",
+  "prompt": "What year was the ENIAC computer unveiled?",
+  "answers": [
+   "1946"
+  ],
+  "entity": "1946",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0145",
+  "prompt": "In which city was the sculpture David made?",
+  "answers": [
+   "Florence"
+  ],
+  "entity": "Florence",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0146",
+  "prompt": "What year did Apple launch the iPhone?",
+  "answers": [
+   "2007"
+  ],
+  "entity": "2007",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0147",
+  "prompt": "Who was the first person to sail around the world?",
+  "answers": [
+   "Ferdinand"
+  ],
+  "entity": "Ferdinand",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0148",
+  "prompt": "Which region in Algeria is known for its distinct Berber culture and landscape?",
+  "answers": [
+   "Kabylie"
+  ],
+  "entity": "Kabylie",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0149",
+  "prompt": "Which element is symbolized as Fe?",
+  "answers": [
+   "iron"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0150",
+  "prompt": "Which country was ruled by Queen Elizabeth II as of 2023?",
+  "answers": [
+   "United Kingdom"
+  ],
+  "entity": "United Kingdom",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0151",
+  "prompt": "Which metal is used extensively in electrical wiring?",
+  "answers": [
+   "copper"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0152",
+  "prompt": "Which month marks the beginning of autumn in the Northern Hemisphere?",
+  "answers": [
+   "September"
+  ],
+  "entity": "September",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0153",
+  "prompt": "In which city did Cleopatra rule as queen?",
+  "answers": [
+   "Alexandria"
+  ],
+  "entity": "Alexandria",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0154",
+  "prompt": "Which number is 5 minus 2?",
+  "answers": [
+   "3"
+  ],
+  "entity": "3",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0155",
+  "prompt": "What is the main holy book of Hinduism called?",
+  "answers": [
+   "Vedas"
+  ],
+  "entity": "Vedas",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0156",
+  "prompt": "Which instrument is central to bluegrass music?",
+  "answers": [
+   "banjo"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0157",
+  "prompt": "In which year did Ghardaia become a UNESCO World Heritage site?",
+  "answers": [
+   "2004"
+  ],
+  "entity": "2004",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0158",
+  "prompt": "What city is known for the Forbidden City?",
+  "answers": [
+   "Beijing"
+  ],
+  "entity": "Beijing",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0159",
+  "prompt": "How wide is the Baja California peninsula at its narrowest point?",
+  "answers": [
+   "35"
+  ],
+  "entity": "35",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0160",
+  "prompt": "What color is the metal copper?",
+  "answers": [
+   "orange"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0161",
+  "prompt": "What is the home city of Manchester United?",
+  "answers": [
+   "Manchester"
+  ],
+  "entity": "Manchester",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0162",
+  "prompt": "Who introduced tea to Europe?",
+  "answers": [
+   "Jesuits"
+  ],
+  "entity": "Jesuits",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0163",
+  "prompt": "Who wrote 'The Brothers Karamazov'?",
+  "answers": [
+   "Dostoevsky"
+  ],
+  "entity": "Dostoevsky",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0164",
+  "prompt": "What day follows Tuesday?",
+  "answers": [
+   "Wednesday"
+  ],
+  "entity": "Wednesday",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0165",
+  "prompt": "Which animal holds the title of the world's tallest?",
+  "answers": [
+   "giraffe"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0166",
+  "prompt": "Name one result of adding 4 and 2.",
+  "answers": [
+   "6"
+  ],
+  "entity": "6",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0167",
+  "prompt": "Which region is known for its unique cliff dwellings and Berber culture?",
+  "answers": [
+   "Morocco"
+  ],
+  "entity": "Morocco",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0168",
+  "prompt": "Which famous Algerian athlete set a world record in the 1500 meters in 1984?",
+  "answers": [
+   "Nouria"
+  ],
+  "entity": "Nouria",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0169",
+  "prompt": "In which direction from Algiers is the Hoggar located?",
+  "answers": [
+   "southeast"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0170",
+  "prompt": "Where do elephants typically live?",
+  "answers": [
+   "land"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0171",
+  "prompt": "How many gold coins were typically in a standard Spanish treasure chest?",
+  "answers": [
+   "5000"
+  ],
+  "entity": "5000",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0172",
+  "prompt": "In which year did Sudan split into two countries?",
+  "answers": [
+   "2011"
+  ],
+  "entity": "2011",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0173",
+  "prompt": "Which river is known as the 'Mother of Waters' in South America?",
+  "answers": [
+   "Amazon"
+  ],
+  "entity": "Amazon",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0174",
+  "prompt": "In which city is the Burj Khalifa?",
+  "answers": [
+   "Dubai"
+  ],
+  "entity": "Dubai",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0175",
+  "prompt": "Who was the last Tsar of Russia before the revolution?",
+  "answers": [
+   "Nicholas II"
+  ],
+  "entity": "Nicholas II",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0176",
+  "prompt": "What is the central text of Hinduism?",
+  "answers": [
+   "Bhagavad Gita"
+  ],
+  "entity": "Bhagavad Gita",
+  "entity_class": "E"
+ },
+ {
+  "id": "valk0177",
+  "prompt": "In which year did Bitcoin start?",
+  "answers": [
+   "2009"
+  ],
+  "entity": "2009",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0178",
+  "prompt": "In which city is the Brandenburg Gate found?",
+  "answers": [
+   "Berlin"
+  ],
+  "entity": "Berlin",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0179",
+  "prompt": "What is the name of Auguste Rodin's famous sculpture?",
+  "answers": [
+   "The Thinker"
+  ],
+  "entity": "The Thinker",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0180",
+  "prompt": "What is the largest desert in Algeria?",
+  "answers": [
+   "Sahara"
+  ],
+  "entity": "Sahara",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0181",
+  "prompt": "What is the name of the ancient city near Tunis?",
+  "answers": [
+   "Carthage"
+  ],
+  "entity": "Carthage",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0182",
+  "prompt": "What material is commonly used to make a blanket warm?",
+  "answers": [
+   "wool"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0183",
+  "prompt": "Which city has the nickname 'The Big Apple'?",
+  "answers": [
+   "New York"
+  ],
+  "entity": "New York",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0184",
+  "prompt": "In which year did France conquer Algeria?",
+  "answers": [
+   "1830"
+  ],
+  "entity": "1830",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0185",
+  "prompt": "What year did the first atomic bomb explode in Hiroshima?",
+  "answers": [
+   "1945"
+  ],
+  "entity": "1945",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0186",
+  "prompt": "Which European city has the Sagrada Familia?",
+  "answers": [
+   "Barcelona"
+  ],
+  "entity": "Barcelona",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0187",
+  "prompt": "What is the coldest temperature recorded on Mercury?",
+  "answers": [
+   "-173"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0188",
+  "prompt": "What sea lies between Japan and Korea?",
+  "answers": [
+   "Sea_of_Japan"
+  ],
+  "entity": "Sea_of_Japan",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0189",
+  "prompt": "Name one traditional craft from Japan.",
+  "answers": [
+   "kimono"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0190",
+  "prompt": "Which religion is predominant among the Berbers of the M'zab valley?",
+  "answers": [
+   "Islam"
+  ],
+  "entity": "Islam",
+  "entity_class": "E"
+ },
+ {
+  "id": "valk0191",
+  "prompt": "Who invented the concept of paper money?",
+  "answers": [
+   "Song Dynasty"
+  ],
+  "entity": "Song Dynasty",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0192",
+  "prompt": "Which ocean borders North America to the east?",
+  "answers": [
+   "Atlantic"
+  ],
+  "entity": "Atlantic",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0193",
+  "prompt": "In which year did the Byzantine Empire reach its greatest extent under Justinian I?",
+  "answers": [
+   "555"
+  ],
+  "entity": "555",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0194",
+  "prompt": "In which city did the band Nirvana originate?",
+  "answers": [
+   "Aberdeen"
+  ],
+  "entity": "Aberdeen",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0195",
+  "prompt": "What is the name of a traditional Algerian pastry often served during Ramadan?",
+  "answers": [
+   "Ghrayba"
+  ],
+  "entity": "Ghrayba",
+  "entity_class": "F"
+ },
+ {
+  "id": "valk0196",
+  "prompt": "In which century did William Shakespeare live?",
+  "answers": [
+   "16th"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0197",
+  "prompt": "How many days are there in May?",
+  "answers": [
+   "31"
+  ],
+  "entity": "31",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0198",
+  "prompt": "In which year did Constantinople fall to the Ottomans?",
+  "answers": [
+   "1453"
+  ],
+  "entity": "1453",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0199",
+  "prompt": "What is the main religious text of Hinduism?",
+  "answers": [
+   "Bhagavad Gita"
+  ],
+  "entity": "Bhagavad Gita",
+  "entity_class": "E"
+ },
+ {
+  "id": "valk0200",
+  "prompt": "Which shape has all right angles?",
+  "answers": [
+   "rectangle"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0201",
+  "prompt": "Name one country that touches the Adriatic Sea.",
+  "answers": [
+   "Italy"
+  ],
+  "entity": "Italy",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0202",
+  "prompt": "Which city hosts the annual Baselworld watch exhibition?",
+  "answers": [
+   "Basel"
+  ],
+  "entity": "Basel",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0203",
+  "prompt": "How many gears does a typical manual car have?",
+  "answers": [
+   "5"
+  ],
+  "entity": "5",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0204",
+  "prompt": "Who wrote the poem 'If'?",
+  "answers": [
+   "Kipling"
+  ],
+  "entity": "Kipling",
+  "entity_class": "E"
+ },
+ {
+  "id": "valk0205",
+  "prompt": "What is the capital of basketball in the US?",
+  "answers": [
+   "Springfield"
+  ],
+  "entity": "Springfield",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0206",
+  "prompt": "Which mountain range spans much of Algeria's north?",
+  "answers": [
+   "Atlas Mountains"
+  ],
+  "entity": "Atlas Mountains",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0207",
+  "prompt": "What is the name of the region in northeastern Algeria?",
+  "answers": [
+   "Kabylie"
+  ],
+  "entity": "Kabylie",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0208",
+  "prompt": "Who composed the Brandenburg Concertos?",
+  "answers": [
+   "Bach"
+  ],
+  "entity": "Bach",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0209",
+  "prompt": "Where do arctic foxes typically reside?",
+  "answers": [
+   "Arctic"
+  ],
+  "entity": "Arctic",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0210",
+  "prompt": "Which river divides Europe?",
+  "answers": [
+   "Danube"
+  ],
+  "entity": "Danube",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0211",
+  "prompt": "What is the national language of Egypt?",
+  "answers": [
+   "Arabic"
+  ],
+  "entity": "Arabic",
+  "entity_class": "E"
+ },
+ {
+  "id": "valk0212",
+  "prompt": "What is the seventh month of the year?",
+  "answers": [
+   "July"
+  ],
+  "entity": "July",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0213",
+  "prompt": "What island is the largest in the Caribbean?",
+  "answers": [
+   "Cuba"
+  ],
+  "entity": "Cuba",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0214",
+  "prompt": "What day is considered the middle of the week?",
+  "answers": [
+   "Wednesday"
+  ],
+  "entity": "Wednesday",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0215",
+  "prompt": "How many weeks are there in a typical month?",
+  "answers": [
+   "4"
+  ],
+  "entity": "4",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0216",
+  "prompt": "Who was the King of England during the War of the Roses?",
+  "answers": [
+   "Edward IV"
+  ],
+  "entity": "Edward IV",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0217",
+  "prompt": "What is the maximum score for a single throw in darts?",
+  "answers": [
+   "60"
+  ],
+  "entity": "60",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0218",
+  "prompt": "Who is the central figure in Christianity?",
+  "answers": [
+   "Jesus"
+  ],
+  "entity": "Jesus",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0219",
+  "prompt": "What was the capital of Ottoman Algeria?",
+  "answers": [
+   "Constantine"
+  ],
+  "entity": "Constantine",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0220",
+  "prompt": "What currency is used in Indonesia?",
+  "answers": [
+   "rupiah"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0221",
+  "prompt": "Name one way to get 8 from adding two numbers.",
+  "answers": [
+   "4+4"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0222",
+  "prompt": "What is the name of the longest mountain range in the world?",
+  "answers": [
+   "Andes"
+  ],
+  "entity": "Andes",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0223",
+  "prompt": "In which country is the Gateway Arch located?",
+  "answers": [
+   "United States"
+  ],
+  "entity": "United States",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0224",
+  "prompt": "Which country is known for cricket?",
+  "answers": [
+   "Australia"
+  ],
+  "entity": "Australia",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0225",
+  "prompt": "In which year did Zinedine Zidane retire from professional football?",
+  "answers": [
+   "2006"
+  ],
+  "entity": "2006",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0226",
+  "prompt": "What is the main diet of zebras?",
+  "answers": [
+   "grass"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0227",
+  "prompt": "Where is the Golden Gate Bridge located?",
+  "answers": [
+   "San Francisco"
+  ],
+  "entity": "San Francisco",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0228",
+  "prompt": "In which year was Elvis Presley born?",
+  "answers": [
+   "1935"
+  ],
+  "entity": "1935",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0229",
+  "prompt": "Which year saw the first successful powered flight by the Wright brothers?",
+  "answers": [
+   "1903"
+  ],
+  "entity": "1903",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0230",
+  "prompt": "Which number comes after 19?",
+  "answers": [
+   "20"
+  ],
+  "entity": "20",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0231",
+  "prompt": "Who painted A Sunday Afternoon on the Island of La Grande Jatte?",
+  "answers": [
+   "Seurat"
+  ],
+  "entity": "Seurat",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0232",
+  "prompt": "Who is known for 'Guernica'?",
+  "answers": [
+   "Picasso"
+  ],
+  "entity": "Picasso",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0233",
+  "prompt": "Which animal is known for its thick fur coat?",
+  "answers": [
+   "bear"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0234",
+  "prompt": "What is the name of a famous Algerian author who wrote 'The Blinding Rain'?",
+  "answers": [
+   "Assia"
+  ],
+  "entity": "Assia",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0235",
+  "prompt": "What is the name of Tesla's first electric car model?",
+  "answers": [
+   "Roadster"
+  ],
+  "entity": "Roadster",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0236",
+  "prompt": "Which island is the largest in the Mediterranean Sea?",
+  "answers": [
+   "Sicily"
+  ],
+  "entity": "Sicily",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0237",
+  "prompt": "In which city is the Great Mosque of Mecca located?",
+  "answers": [
+   "Mecca"
+  ],
+  "entity": "Mecca",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0238",
+  "prompt": "Which poet wrote 'The Road Not Taken'?",
+  "answers": [
+   "Frost"
+  ],
+  "entity": "Frost",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0239",
+  "prompt": "In which season do deciduous trees shed their leaves in the Northern Hemisphere?",
+  "answers": [
+   "autumn"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0240",
+  "prompt": "When did the Renaissance begin?",
+  "answers": [
+   "14th"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0241",
+  "prompt": "What was Leonardo da Vinci known for inventing?",
+  "answers": [
+   "helicopter"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0242",
+  "prompt": "Which marine mammal is known for its echolocation?",
+  "answers": [
+   "dolphin"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0243",
+  "prompt": "In which year did Thomas Edison invent the light bulb?",
+  "answers": [
+   "1879"
+  ],
+  "entity": "1879",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0244",
+  "prompt": "Which scientist developed the periodic table of elements?",
+  "answers": [
+   "Mendeleev"
+  ],
+  "entity": "Mendeleev",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0245",
+  "prompt": "Which play includes the line 'To be or not to be'?",
+  "answers": [
+   "Hamlet"
+  ],
+  "entity": "Hamlet",
+  "entity_class": "E"
+ },
+ {
+  "id": "valk0246",
+  "prompt": "Which planet is known as the morning star when visible before sunrise?",
+  "answers": [
+   "Venus"
+  ],
+  "entity": "Venus",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0247",
+  "prompt": "What is the name of the first cloned mammal?",
+  "answers": [
+   "Dolly"
+  ],
+  "entity": "Dolly",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0248",
+  "prompt": "What is the shape of a standard pencil?",
+  "answers": [
+   "cylinder"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0249",
+  "prompt": "What is the most sacred text in Hinduism?",
+  "answers": [
+   "Bhagavad Gita"
+  ],
+  "entity": "Bhagavad Gita",
+  "entity_class": "E"
+ },
+ {
+  "id": "valk0250",
+  "prompt": "What do sloths primarily eat?",
+  "answers": [
+   "leaves"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0251",
+  "prompt": "What is the world's smallest currency note?",
+  "answers": [
+   "1"
+  ],
+  "entity": "1",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0252",
+  "prompt": "What is the home stadium of the Real Madrid?",
+  "answers": [
+   "Santiago Bernabéu Stadium"
+  ],
+  "entity": "Santiago Bernabéu Stadium",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0253",
+  "prompt": "Which fruit is known as the king of fruits in South Asia?",
+  "answers": [
+   "mango"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0254",
+  "prompt": "How many apostles did Jesus have according to the Bible?",
+  "answers": [
+   "12"
+  ],
+  "entity": "12",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0255",
+  "prompt": "Who was the Roman emperor known for his baths?",
+  "answers": [
+   "Caracalla"
+  ],
+  "entity": "Caracalla",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0256",
+  "prompt": "In which city was the first public stock market established?",
+  "answers": [
+   "Amsterdam"
+  ],
+  "entity": "Amsterdam",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0257",
+  "prompt": "Who is the all-time top goalscorer in La Liga?",
+  "answers": [
+   "Cristiano Ronaldo"
+  ],
+  "entity": "Cristiano Ronaldo",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0258",
+  "prompt": "Which mountain range runs along Algeria's eastern border?",
+  "answers": [
+   "Tell Atlas"
+  ],
+  "entity": "Tell Atlas",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0259",
+  "prompt": "How many years did the French protectorate over Tunisia last?",
+  "answers": [
+   "30"
+  ],
+  "entity": "30",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0260",
+  "prompt": "Which year did the invention of the light bulb first become widely available?",
+  "answers": [
+   "1880"
+  ],
+  "entity": "1880",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0261",
+  "prompt": "How many major Berber regions are there in Algeria?",
+  "answers": [
+   "3"
+  ],
+  "entity": "3",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0262",
+  "prompt": "Who painted Girl with a Pearl Earring?",
+  "answers": [
+   "Johannes Vermeer"
+  ],
+  "entity": "Johannes Vermeer",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0263",
+  "prompt": "Which planet has a great red spot?",
+  "answers": [
+   "Jupiter"
+  ],
+  "entity": "Jupiter",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0264",
+  "prompt": "Which religion observes Ramadan?",
+  "answers": [
+   "Islam"
+  ],
+  "entity": "Islam",
+  "entity_class": "E"
+ },
+ {
+  "id": "valk0265",
+  "prompt": "How many dollars are in a US $100 bill?",
+  "answers": [
+   "100"
+  ],
+  "entity": "100",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0266",
+  "prompt": "Who are the nomadic people traditionally associated with the Sahara?",
+  "answers": [
+   "Tuareg"
+  ],
+  "entity": "Tuareg",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0267",
+  "prompt": "What is the main contribution of Galileo Galilei?",
+  "answers": [
+   "telescope"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0268",
+  "prompt": "Which region in Algeria is known for its mountainous terrain and Berber culture?",
+  "answers": [
+   "Kabylie"
+  ],
+  "entity": "Kabylie",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0269",
+  "prompt": "What is the month between September and November?",
+  "answers": [
+   "October"
+  ],
+  "entity": "October",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0270",
+  "prompt": "Which river flows through Algeria?",
+  "answers": [
+   "Chelif"
+  ],
+  "entity": "Chelif",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0271",
+  "prompt": "In which city was ABBA formed?",
+  "answers": [
+   "Stockholm"
+  ],
+  "entity": "Stockholm",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0272",
+  "prompt": "Which planet is known for its thick clouds of sulfuric acid?",
+  "answers": [
+   "Venus"
+  ],
+  "entity": "Venus",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0273",
+  "prompt": "Which craft is famous in the city of Fes?",
+  "answers": [
+   "weaving"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0274",
+  "prompt": "What is the main ingredient in pesto?",
+  "answers": [
+   "basil"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0275",
+  "prompt": "Which desert is the largest in Africa?",
+  "answers": [
+   "Sahara"
+  ],
+  "entity": "Sahara",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0276",
+  "prompt": "What is the name of Monet's famous garden series?",
+  "answers": [
+   "Water Lilies"
+  ],
+  "entity": "Water Lilies",
+  "entity_class": "E"
+ },
+ {
+  "id": "valk0277",
+  "prompt": "Which gas is most abundant in the Sun?",
+  "answers": [
+   "hydrogen"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0278",
+  "prompt": "How many dollars are in a thousand-dollar bill?",
+  "answers": [
+   "1000"
+  ],
+  "entity": "1000",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0279",
+  "prompt": "Which sport is most popular in Japan?",
+  "answers": [
+   "baseball"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0280",
+  "prompt": "How many seas border the Arabian Peninsula?",
+  "answers": [
+   "3"
+  ],
+  "entity": "3",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0281",
+  "prompt": "What is a tiger's primary food source?",
+  "answers": [
+   "meat"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0282",
+  "prompt": "What is Japan's currency?",
+  "answers": [
+   "yen"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0283",
+  "prompt": "Who led the Algerian War of Independence?",
+  "answers": [
+   "Houari Boumediene"
+  ],
+  "entity": "Houari Boumediene",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0284",
+  "prompt": "How many types of currency does Canada use?",
+  "answers": [
+   "1"
+  ],
+  "entity": "1",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0285",
+  "prompt": "Which mountain range spans most of northern Algeria?",
+  "answers": [
+   "Atlas Mountains"
+  ],
+  "entity": "Atlas Mountains",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0286",
+  "prompt": "Who painted 'Guernica' to depict the horrors of war?",
+  "answers": [
+   "Picasso"
+  ],
+  "entity": "Picasso",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0287",
+  "prompt": "Who is the highest-paid athlete in the world?",
+  "answers": [
+   "LeBron James"
+  ],
+  "entity": "LeBron James",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0288",
+  "prompt": "In which country is the dish falafel most popular?",
+  "answers": [
+   "Egypt"
+  ],
+  "entity": "Egypt",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0289",
+  "prompt": "What is the primary component of bronze?",
+  "answers": [
+   "copper"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0290",
+  "prompt": "In which country is the CN Tower located?",
+  "answers": [
+   "Canada"
+  ],
+  "entity": "Canada",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0291",
+  "prompt": "What is the name of a famous Algerian football club?",
+  "answers": [
+   "ESPV"
+  ],
+  "entity": "ESPV",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0292",
+  "prompt": "Which religion observes the festival of Wesak?",
+  "answers": [
+   "Buddhism"
+  ],
+  "entity": "Buddhism",
+  "entity_class": "E"
+ },
+ {
+  "id": "valk0293",
+  "prompt": "What is the primary religion practiced in Algeria?",
+  "answers": [
+   "Islam"
+  ],
+  "entity": "Islam",
+  "entity_class": "E"
+ },
+ {
+  "id": "valk0294",
+  "prompt": "What composer wrote 'Romeo and Juliet Fantasy Overture'?",
+  "answers": [
+   "Tchaikovsky"
+  ],
+  "entity": "Tchaikovsky",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0295",
+  "prompt": "What is the primary function of banks in the economy?",
+  "answers": [
+   "lending"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0296",
+  "prompt": "What is the traditional sport in Japan?",
+  "answers": [
+   "sumo"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0297",
+  "prompt": "Who are the indigenous inhabitants of Kabylie?",
+  "answers": [
+   "Berbers"
+  ],
+  "entity": "Berbers",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0298",
+  "prompt": "Which author wrote 'The Lord of the Rings'?",
+  "answers": [
+   "Tolkien"
+  ],
+  "entity": "Tolkien",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0299",
+  "prompt": "Which sea separates Britain from mainland Europe?",
+  "answers": [
+   "English Channel"
+  ],
+  "entity": "English Channel",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0300",
+  "prompt": "In which year did the Bosporus become an international waterway?",
+  "answers": [
+   "1936"
+  ],
+  "entity": "1936",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0301",
+  "prompt": "What season is known for having the longest daylight hours in the Northern Hemisphere?",
+  "answers": [
+   "summer"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0302",
+  "prompt": "Which fruit is known as the 'king of fruits'?",
+  "answers": [
+   "mango"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0303",
+  "prompt": "Which country uses Hangul as its official writing system?",
+  "answers": [
+   "South Korea"
+  ],
+  "entity": "South Korea",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0304",
+  "prompt": "What is Algeria's largest desert?",
+  "answers": [
+   "Sahara"
+  ],
+  "entity": "Sahara",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0305",
+  "prompt": "Which spice comes from a flowering plant's dried stigma?",
+  "answers": [
+   "saffron"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0306",
+  "prompt": "Which primate lives in the Amazon rainforest?",
+  "answers": [
+   "monkey"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0307",
+  "prompt": "What year did the first iPhone launch?",
+  "answers": [
+   "2007"
+  ],
+  "entity": "2007",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0308",
+  "prompt": "Who invented the printing press around 1440?",
+  "answers": [
+   "Gutenberg"
+  ],
+  "entity": "Gutenberg",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0309",
+  "prompt": "What language is primarily spoken in Algeria?",
+  "answers": [
+   "Arabic"
+  ],
+  "entity": "Arabic",
+  "entity_class": "E"
+ },
+ {
+  "id": "valk0310",
+  "prompt": "Which region of Algeria is famous for its oil reserves?",
+  "answers": [
+   "Sahara"
+  ],
+  "entity": "Sahara",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0311",
+  "prompt": "What sea separates Italy from Greece?",
+  "answers": [
+   "Ionian Sea"
+  ],
+  "entity": "Ionian Sea",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0312",
+  "prompt": "In which city is the Statue of Liberty made of copper?",
+  "answers": [
+   "New York"
+  ],
+  "entity": "New York",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0313",
+  "prompt": "In which city is the ancient citadel of Salah ad-Din located?",
+  "answers": [
+   "Aleppo"
+  ],
+  "entity": "Aleppo",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0314",
+  "prompt": "Which ancient Greek philosopher was known for his dialogues with Socrates?",
+  "answers": [
+   "Plato"
+  ],
+  "entity": "Plato",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0315",
+  "prompt": "Which city was founded by the Phoenicians?",
+  "answers": [
+   "Cadiz"
+  ],
+  "entity": "Cadiz",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0316",
+  "prompt": "What is the largest country in North Africa?",
+  "answers": [
+   "Algeria"
+  ],
+  "entity": "Algeria",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0317",
+  "prompt": "What is the name of the desert that covers much of southern Algeria?",
+  "answers": [
+   "Sahara"
+  ],
+  "entity": "Sahara",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0318",
+  "prompt": "Which month has the same name as a Roman king?",
+  "answers": [
+   "January"
+  ],
+  "entity": "January",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0319",
+  "prompt": "What is the first name of J.R.R. Tolkien?",
+  "answers": [
+   "John"
+  ],
+  "entity": "John",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0320",
+  "prompt": "Which country uses Cyrillic as its official script?",
+  "answers": [
+   "Russia"
+  ],
+  "entity": "Russia",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0321",
+  "prompt": "How many seasons are recognized in a typical meteorological calendar?",
+  "answers": [
+   "4"
+  ],
+  "entity": "4",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0322",
+  "prompt": "What material is a hammerhead typically made of?",
+  "answers": [
+   "metal"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0323",
+  "prompt": "Who holds the record for the most goals in the English Premier League season?",
+  "answers": [
+   "Alan_Shearer"
+  ],
+  "entity": "Alan_Shearer",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0324",
+  "prompt": "Which country is known as the Land of the Pharaohs?",
+  "answers": [
+   "Egypt"
+  ],
+  "entity": "Egypt",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0325",
+  "prompt": "Which country borders the Gulf of Finland?",
+  "answers": [
+   "Finland"
+  ],
+  "entity": "Finland",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0326",
+  "prompt": "In which region is the Sahara Desert found in Algeria?",
+  "answers": [
+   "Sahara"
+  ],
+  "entity": "Sahara",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0327",
+  "prompt": "What language is spoken in Thailand?",
+  "answers": [
+   "Thai"
+  ],
+  "entity": "Thai",
+  "entity_class": "E"
+ },
+ {
+  "id": "valk0328",
+  "prompt": "Which year did Leonardo da Vinci paint the Mona Lisa?",
+  "answers": [
+   "1503"
+  ],
+  "entity": "1503",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0329",
+  "prompt": "What is the main tournament in Formula 1 racing called?",
+  "answers": [
+   "World Championship"
+  ],
+  "entity": "World Championship",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0330",
+  "prompt": "What month begins with 'J'?",
+  "answers": [
+   "January"
+  ],
+  "entity": "January",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0331",
+  "prompt": "In which city is the Strait of Gibraltar?",
+  "answers": [
+   "Gibraltar"
+  ],
+  "entity": "Gibraltar",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0332",
+  "prompt": "Which sea lies between India and Sri Lanka?",
+  "answers": [
+   "Palk"
+  ],
+  "entity": "Palk",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0333",
+  "prompt": "How many islands make up the Indonesian archipelago?",
+  "answers": [
+   "17508"
+  ],
+  "entity": "17508",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0334",
+  "prompt": "How many prehistoric rock paintings are in the Tassili n'Ajjer?",
+  "answers": [
+   "50000"
+  ],
+  "entity": "50000",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0335",
+  "prompt": "In which city would you find the Burj Khalifa?",
+  "answers": [
+   "Dubai"
+  ],
+  "entity": "Dubai",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0336",
+  "prompt": "Which city is the setting for Charles Dickens' 'A Tale of Two Cities'?",
+  "answers": [
+   "Paris"
+  ],
+  "entity": "Paris",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0337",
+  "prompt": "How many hours does it take for the Moon to orbit Earth once?",
+  "answers": [
+   "27.3"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0338",
+  "prompt": "What fruit is native to South America?",
+  "answers": [
+   "Pineapple"
+  ],
+  "entity": "Pineapple",
+  "entity_class": "F"
+ },
+ {
+  "id": "valk0339",
+  "prompt": "In which city is the Hassan II Mosque, the largest in Morocco?",
+  "answers": [
+   "Casablanca"
+  ],
+  "entity": "Casablanca",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0340",
+  "prompt": "How many faces does a cube have?",
+  "answers": [
+   "6"
+  ],
+  "entity": "6",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0341",
+  "prompt": "Which year saw the end of World War I?",
+  "answers": [
+   "1918"
+  ],
+  "entity": "1918",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0342",
+  "prompt": "In which year did the Roman Republic become an Empire?",
+  "answers": [
+   "27 BC"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0343",
+  "prompt": "Which animal is known for having a pouch?",
+  "answers": [
+   "kangaroo"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0344",
+  "prompt": "In which ocean is the Mariana Trench located?",
+  "answers": [
+   "Pacific"
+  ],
+  "entity": "Pacific",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0345",
+  "prompt": "How many players are in a volleyball team during play?",
+  "answers": [
+   "6"
+  ],
+  "entity": "6",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0346",
+  "prompt": "Where does vanilla extract mainly come from?",
+  "answers": [
+   "Vanilla"
+  ],
+  "entity": "Vanilla",
+  "entity_class": "F"
+ },
+ {
+  "id": "valk0347",
+  "prompt": "What material is used to make traditional musical instruments like guitars?",
+  "answers": [
+   "wood"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0348",
+  "prompt": "In which country did Marco Polo begin his journey?",
+  "answers": [
+   "Italy"
+  ],
+  "entity": "Italy",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0349",
+  "prompt": "Which element is represented by the letter 'H'?",
+  "answers": [
+   "hydrogen"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0350",
+  "prompt": "Which region of Algeria is known for its oases?",
+  "answers": [
+   "Sahara"
+  ],
+  "entity": "Sahara",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0351",
+  "prompt": "What is the main currency of Mexico?",
+  "answers": [
+   "peso"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0352",
+  "prompt": "What type of music is traditionally performed at Berber festivals?",
+  "answers": [
+   "E"
+  ],
+  "entity": "E",
+  "entity_class": "E"
+ },
+ {
+  "id": "valk0353",
+  "prompt": "Who is known as the GOAT in tennis?",
+  "answers": [
+   "Roger Federer"
+  ],
+  "entity": "Roger Federer",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0354",
+  "prompt": "Which season is typically characterized by the growth of vegetation in the Northern Hemisphere?",
+  "answers": [
+   "spring"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0355",
+  "prompt": "How many notes are in a chromatic scale?",
+  "answers": [
+   "12"
+  ],
+  "entity": "12",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0356",
+  "prompt": "Which animal is known for its hump?",
+  "answers": [
+   "camel"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0357",
+  "prompt": "In which year did Libya achieve independence from Italy?",
+  "answers": [
+   "1951"
+  ],
+  "entity": "1951",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0358",
+  "prompt": "How high is Mount Everest above sea level?",
+  "answers": [
+   "8848"
+  ],
+  "entity": "8848",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0359",
+  "prompt": "In which century was 'Hamlet' written?",
+  "answers": [
+   "16th"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0360",
+  "prompt": "Who discovered the structure of DNA?",
+  "answers": [
+   "Watson"
+  ],
+  "entity": "Watson",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0361",
+  "prompt": "Which mountain range extends into Algeria from Morocco?",
+  "answers": [
+   "Atlas Mountains"
+  ],
+  "entity": "Atlas Mountains",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0362",
+  "prompt": "Who was the first female CEO of a Fortune 500 company?",
+  "answers": [
+   "Kathryn_Marcus_Gray"
+  ],
+  "entity": "Kathryn_Marcus_Gray",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0363",
+  "prompt": "What is gold measured in?",
+  "answers": [
+   "grams"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0364",
+  "prompt": "Which profession involves creating traditional wooden carvings?",
+  "answers": [
+   "carver"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0365",
+  "prompt": "Which spice is known as the golden spice?",
+  "answers": [
+   "turmeric"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0366",
+  "prompt": "Which mountain peak is the highest in Algeria?",
+  "answers": [
+   "Tahat"
+  ],
+  "entity": "Tahat",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0367",
+  "prompt": "What genre is often referred to as the 'king of jazz'?",
+  "answers": [
+   "big band"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0368",
+  "prompt": "In which year was 3 plus 6 computed as 9?",
+  "answers": [
+   "D"
+  ],
+  "entity": "D",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0369",
+  "prompt": "What is the primary material used in origami?",
+  "answers": [
+   "paper"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0370",
+  "prompt": "Who was the last Byzantine emperor before Constantinople fell?",
+  "answers": [
+   "Constantine XI"
+  ],
+  "entity": "Constantine XI",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0371",
+  "prompt": "What river runs through Algiers?",
+  "answers": [
+   "Humboldt"
+  ],
+  "entity": "Humboldt",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0372",
+  "prompt": "In which year was the Bible first translated into English?",
+  "answers": [
+   "1384"
+  ],
+  "entity": "1384",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0373",
+  "prompt": "Which drink is made from fermented tea leaves?",
+  "answers": [
+   "tea"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0374",
+  "prompt": "What is the color of blood?",
+  "answers": [
+   "red"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0375",
+  "prompt": "Which queen famously said, 'I have not desired to live longer for anything except my poor people'?",
+  "answers": [
+   "Mary"
+  ],
+  "entity": "Mary",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0376",
+  "prompt": "What is the name of the author who wrote 'The Bell Jar'?",
+  "answers": [
+   "Plath"
+  ],
+  "entity": "Plath",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0377",
+  "prompt": "What is the name of the Chinese New Year celebration?",
+  "answers": [
+   "Spring Festival"
+  ],
+  "entity": "Spring Festival",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0378",
+  "prompt": "In which year did Claude Monet paint Water Lilies?",
+  "answers": [
+   "1916"
+  ],
+  "entity": "1916",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0379",
+  "prompt": "What year did China gain independence from imperial rule?",
+  "answers": [
+   "1911"
+  ],
+  "entity": "1911",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0380",
+  "prompt": "What is the minimum age requirement to compete in the Olympics?",
+  "answers": [
+   "14"
+  ],
+  "entity": "14",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0381",
+  "prompt": "In which region are the Berbers also known as the Imazighen?",
+  "answers": [
+   "North Africa"
+  ],
+  "entity": "North Africa",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0382",
+  "prompt": "Where do penguins typically live?",
+  "answers": [
+   "Antarctica"
+  ],
+  "entity": "Antarctica",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0383",
+  "prompt": "Which battle ended Carthaginian power?",
+  "answers": [
+   "Zama"
+  ],
+  "entity": "Zama",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0384",
+  "prompt": "How many days are there in a non-leap year?",
+  "answers": [
+   "365"
+  ],
+  "entity": "365",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0385",
+  "prompt": "How many major types of blood cells are there?",
+  "answers": [
+   "3"
+  ],
+  "entity": "3",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0386",
+  "prompt": "What is the name of a popular Algerian sweet?",
+  "answers": [
+   "Halwa"
+  ],
+  "entity": "Halwa",
+  "entity_class": "F"
+ },
+ {
+  "id": "valk0387",
+  "prompt": "Where do kangaroos come from?",
+  "answers": [
+   "Australia"
+  ],
+  "entity": "Australia",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0388",
+  "prompt": "What is the smallest mammal?",
+  "answers": [
+   "bats"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0389",
+  "prompt": "Where is the Petra archaeological site?",
+  "answers": [
+   "Jordan"
+  ],
+  "entity": "Jordan",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0390",
+  "prompt": "Which football club is based in Blida and has won several league titles?",
+  "answers": [
+   "JS Kabylie"
+  ],
+  "entity": "JS Kabylie",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0391",
+  "prompt": "What was the primary role of the French military in Algeria?",
+  "answers": [
+   "colonial_control"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0392",
+  "prompt": "Who wrote the novel 'The Alchemist' partly set in the Sahara?",
+  "answers": [
+   "Paulo"
+  ],
+  "entity": "Paulo",
+  "entity_class": "B"
+ },
+ {
+  "id": "valk0393",
+  "prompt": "In which city is the Alhambra palace located?",
+  "answers": [
+   "Granada"
+  ],
+  "entity": "Granada",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0394",
+  "prompt": "What is the largest land vehicle by mass?",
+  "answers": [
+   "Bagger 288"
+  ],
+  "entity": "Bagger 288",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0395",
+  "prompt": "What year did the Soviet Union launch Sputnik 1 into orbit?",
+  "answers": [
+   "1957"
+  ],
+  "entity": "1957",
+  "entity_class": "D"
+ },
+ {
+  "id": "valk0396",
+  "prompt": "What ocean has the greatest depth recorded on Earth?",
+  "answers": [
+   "Pacific"
+  ],
+  "entity": "Pacific",
+  "entity_class": "A"
+ },
+ {
+  "id": "valk0397",
+  "prompt": "Which season is associated with cold weather?",
+  "answers": [
+   "winter"
+  ],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valk0398",
+  "prompt": "What is the name of the ancient trade route between the Mediterranean and India?",
+  "answers": [
+   "Silk Road"
+  ],
+  "entity": "Silk Road",
+  "entity_class": "C"
+ },
+ {
+  "id": "valk0399",
+  "prompt": "What year did the Berlin Wall fall?",
+  "answers": [
+   "1989"
+  ],
+  "entity": "1989",
+  "entity_class": "D"
+ },
+ {
+  "id": "valo0000",
+  "prompt": "How does regular exercise influence your energy levels throughout the day?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0001",
+  "prompt": "What is a barter system in simple terms?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0002",
+  "prompt": "How can I reduce expenses without drastically changing my lifestyle?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0003",
+  "prompt": "Why did the decline of city walls lead to changes in city layouts?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0004",
+  "prompt": "What are some essentials for a wedding guest to carry?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0005",
+  "prompt": "Why do we sometimes crave sugary foods when we're stressed?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0006",
+  "prompt": "What does engaging in trade mean?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0007",
+  "prompt": "What causes earthquakes, in two sentences?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0008",
+  "prompt": "What aspects of storytelling evoke strong emotional responses?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0009",
+  "prompt": "What kind of activities happen around an oasis in the evening?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0010",
+  "prompt": "Why do people choose to eat out instead of cooking at home?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0011",
+  "prompt": "What makes deserts so dry and arid?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0012",
+  "prompt": "In your opinion, what traits define a loyal friend?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0013",
+  "prompt": "What is the function of a computer processor, in two sentences?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0014",
+  "prompt": "How did the fall of city walls change societies?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0015",
+  "prompt": "What causes fog to appear on chilly mornings?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0016",
+  "prompt": "What leadership qualities are essential in crisis situations?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0017",
+  "prompt": "How does drinking water affect our overall health?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0018",
+  "prompt": "What's a practical way to save money on monthly expenses?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0019",
+  "prompt": "Define what the Renaissance period stands for in history.",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0020",
+  "prompt": "What does a bustling market smell like early in the morning?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0021",
+  "prompt": "What's a good tip for making travel plans stress-free?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0022",
+  "prompt": "Any hacks for making my mornings more productive?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0023",
+  "prompt": "How does an auction work at a market?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0024",
+  "prompt": "How can I start learning about investing with little knowledge?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0025",
+  "prompt": "What is a stock market crash, in brief?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0026",
+  "prompt": "What teaching methods help students learn more effectively?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0027",
+  "prompt": "What storytelling devices help maintain a reader's engagement throughout?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0028",
+  "prompt": "What makes a kayak maneuverable in different water conditions?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0029",
+  "prompt": "What causes a bridge to expand and contract with temperature changes?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0030",
+  "prompt": "What are the steps to baking homemade sourdough bread?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0031",
+  "prompt": "What ingredients make a story compelling and timeless?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0032",
+  "prompt": "What are the potential risks of working night shifts for many years?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0033",
+  "prompt": "What distinguishes a free market from others?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0034",
+  "prompt": "How does a market seller build lasting relationships with customers?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0035",
+  "prompt": "What techniques are used in making oolong tea taste its best?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0036",
+  "prompt": "What's a smart strategy for budget travel to Asia?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0037",
+  "prompt": "What's an effective strategy for reducing food waste at home?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0038",
+  "prompt": "What is a villanelle in poetry?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0039",
+  "prompt": "What is the process for making a classic French press coffee?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0040",
+  "prompt": "Why do thunderstorms usually occur in summer?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0041",
+  "prompt": "How does a sextant help navigators find their way at sea?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0042",
+  "prompt": "Describe a cozy mountain village at dusk, with lights twinkling.",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0043",
+  "prompt": "Why does fog form over bodies of water?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0044",
+  "prompt": "Why did the design of city walls vary greatly across different cultures?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0045",
+  "prompt": "How would you describe the role of poetry in literature?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0046",
+  "prompt": "What techniques elevate a story to be memorable?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0047",
+  "prompt": "How does a refrigerator work in two sentences?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0048",
+  "prompt": "Why do some languages have more speakers than others?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0049",
+  "prompt": "What skills does a market seller need to excel in their role?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0050",
+  "prompt": "What role does patience play in effective teaching?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0051",
+  "prompt": "Why can camels survive long periods without water in the desert?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0052",
+  "prompt": "Could you give me a sense of what a lively market feels like?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0053",
+  "prompt": "Why do ships not sink when they carry cargo?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0054",
+  "prompt": "What should I pack for a historical site exploration trip?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0055",
+  "prompt": "What benefits does meditation offer for daily stress?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0056",
+  "prompt": "How does an ancient desert city look under moonlight?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0057",
+  "prompt": "Explain the water cycle in two sentences.",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0058",
+  "prompt": "Why do some birds migrate long distances seasonally?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0059",
+  "prompt": "How did trade influence the location of early cities?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0060",
+  "prompt": "What makes some metals magnetic?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0061",
+  "prompt": "How does an online market auction determine the winning bid?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0062",
+  "prompt": "Can you paint a picture of a bustling street market?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0063",
+  "prompt": "What is the essence of Shakespearean drama?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0064",
+  "prompt": "What's the best method to cook red lentil soup that's smooth and flavorful?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0065",
+  "prompt": "Which items should I bring for a summer festival?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0066",
+  "prompt": "What makes a good friend someone you can rely on during tough times?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0067",
+  "prompt": "What makes a short story impactful and memorable?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0068",
+  "prompt": "What would a bustling market in a tropical city look like?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0069",
+  "prompt": "How can I cook couscous so it's light and not clumpy?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0070",
+  "prompt": "What characterizes a romantic poem?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0071",
+  "prompt": "How does a passionate teacher spark interest in their subject matter?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0072",
+  "prompt": "Why do some foods make us feel sleepy after eating them?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0073",
+  "prompt": "Briefly, what is a sonnet considered to be?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0074",
+  "prompt": "What is the process of natural selection in two sentences?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0075",
+  "prompt": "What are key ingredients for a creamy tomato soup?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0076",
+  "prompt": "Why were fortified walls crucial for medieval cities?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0077",
+  "prompt": "What makes a compass needle always point north?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0078",
+  "prompt": "What traits distinguish an excellent mentor?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ },
+ {
+  "id": "valo0079",
+  "prompt": "What are some key items to pack for a business conference?",
+  "answers": [],
+  "entity": null,
+  "entity_class": null
+ }
+]
