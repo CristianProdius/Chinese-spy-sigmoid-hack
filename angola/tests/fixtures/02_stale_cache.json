@@ -1,0 +1,273 @@
+{
+ "meta": {
+  "exporter": "waterline-ops",
+  "incident": "INC-2291"
+ },
+ "trace": {
+  "log": {
+   "events": [
+    {
+     "run": "A",
+     "timestamp": 1794643200000,
+     "t": 0.0,
+     "kind": "user_prompt",
+     "data": {
+      "message": "Kilamba has had no water since yesterday. Is there an outage and when will it be fixed?"
+     }
+    },
+    {
+     "run": "A",
+     "timestamp": 1794643200200,
+     "t": 0.2,
+     "kind": "tool.invoke",
+     "data": {
+      "invocation_id": "inv-A-1",
+      "name": "epal_bulletins",
+      "params": {
+       "area": "Kilamba"
+      }
+     }
+    },
+    {
+     "run": "A",
+     "timestamp": 1794643201100,
+     "t": 1.1,
+     "kind": "tool.output",
+     "data": {
+      "invocation_id": "inv-A-1",
+      "doc": {
+       "src": "SIGMOID_EPAL_BULLETIN_1114",
+       "issued": "2026-11-14T07:45:00+01:00",
+       "valid_until": "2026-11-15T00:00:00+01:00",
+       "body": "Kilamba: supply restored at 16h00 on 13 Nov after the pump repair at ETA do Kilamba. Normal supply today."
+      },
+      "cache": {
+       "hit": false
+      }
+     }
+    },
+    {
+     "run": "A",
+     "timestamp": 1794643201300,
+     "t": 1.3,
+     "kind": "retrieval.doc",
+     "data": {
+      "doc": {
+       "src": "SIGMOID_TARIFF_FAQ",
+       "issued": "2025-06-01T00:00:00Z",
+       "body": "Tariff FAQ: EPAL residential tariffs and how to read the water meter."
+      }
+     }
+    },
+    {
+     "run": "A",
+     "timestamp": 1794643201320,
+     "t": 1.32,
+     "kind": "retrieval.doc",
+     "data": {
+      "doc": {
+       "src": "SIGMOID_EPAL_BULLETIN_1111",
+       "issued": "2026-11-11T09:30:00+01:00",
+       "valid_until": "2026-11-12T00:00:00+01:00",
+       "body": "Kilamba: pumping station fault at ETA do Kilamba; supply interrupted until 20h00 on 13 Nov."
+      }
+     }
+    },
+    {
+     "run": "A",
+     "timestamp": 1794643201500,
+     "t": 1.5,
+     "kind": "llm.request",
+     "data": {
+      "model": "m-2",
+      "prompt": "System: answer from the bulletins below.\n[SIGMOID_TARIFF_FAQ] Tariff FAQ: EPAL residential tariffs and how to read the water meter.\n[SIGMOID_EPAL_BULLETIN_1114] Kilamba: supply restored at 16h00 on 13 Nov after the pump repair at ETA do Kilamba. Normal supply today.\nUser: Kilamba has had no water since yesterday. Is there an outage and when will it be fixed?"
+     }
+    },
+    {
+     "run": "A",
+     "timestamp": 1794643203400,
+     "t": 3.4,
+     "kind": "llm.response",
+     "data": {
+      "content": "No current outage in Kilamba: supply was restored at 16h00 on 13 November and is normal today.",
+      "finish_reason": "stop"
+     }
+    },
+    {
+     "run": "B",
+     "timestamp": 1794643500000,
+     "t": 0.0,
+     "kind": "user_prompt",
+     "data": {
+      "message": "Kilamba has had no water since yesterday. Is there an outage and when will it be fixed?"
+     }
+    },
+    {
+     "run": "B",
+     "timestamp": 1794643500200,
+     "t": 0.2,
+     "kind": "tool.invoke",
+     "data": {
+      "invocation_id": "inv-B-1",
+      "name": "epal_bulletins",
+      "params": {
+       "area": "Kilamba"
+      }
+     }
+    },
+    {
+     "run": "B",
+     "timestamp": 1794643500250,
+     "t": 0.25,
+     "kind": "tool.output",
+     "data": {
+      "invocation_id": "inv-B-1",
+      "doc": {
+       "src": "SIGMOID_EPAL_BULLETIN_1111",
+       "issued": "2026-11-11T09:30:00+01:00",
+       "valid_until": "2026-11-12T00:00:00+01:00",
+       "body": "Kilamba: pumping station fault at ETA do Kilamba; supply interrupted until 20h00 on 13 Nov."
+      },
+      "cache": {
+       "hit": true,
+       "stored_at": "2026-11-11T10:00:00Z",
+       "ttl_s": 3600
+      }
+     }
+    },
+    {
+     "run": "B",
+     "timestamp": 1794643501300,
+     "t": 1.3,
+     "kind": "retrieval.doc",
+     "data": {
+      "doc": {
+       "src": "SIGMOID_TARIFF_FAQ",
+       "issued": "2025-06-01T00:00:00Z",
+       "body": "Tariff FAQ: EPAL residential tariffs and how to read the water meter."
+      }
+     }
+    },
+    {
+     "run": "B",
+     "timestamp": 1794643501500,
+     "t": 1.5,
+     "kind": "llm.request",
+     "data": {
+      "model": "m-2",
+      "prompt": "System: answer from the bulletins below.\n[SIGMOID_TARIFF_FAQ] Tariff FAQ: EPAL residential tariffs and how to read the water meter.\n[SIGMOID_EPAL_BULLETIN_1111] Kilamba: pumping station fault at ETA do Kilamba; supply interrupted until 20h00 on 13 Nov.\nUser: Kilamba has had no water since yesterday. Is there an outage and when will it be fixed?"
+     }
+    },
+    {
+     "run": "B",
+     "timestamp": 1794643503400,
+     "t": 3.4,
+     "kind": "llm.response",
+     "data": {
+      "content": "Kilamba is without water because of a pumping station fault; supply is interrupted until 20h00 on 13 November.",
+      "finish_reason": "stop"
+     }
+    },
+    {
+     "run": "C",
+     "timestamp": 1794643800000,
+     "t": 0.0,
+     "kind": "user_prompt",
+     "data": {
+      "message": "Kilamba has had no water since yesterday. Is there an outage and when will it be fixed?"
+     }
+    },
+    {
+     "run": "C",
+     "timestamp": 1794643800200,
+     "t": 0.2,
+     "kind": "tool.invoke",
+     "data": {
+      "invocation_id": "inv-C-1",
+      "name": "epal_bulletins",
+      "params": {
+       "area": "Kilamba"
+      }
+     }
+    },
+    {
+     "run": "C",
+     "timestamp": 1794643801100,
+     "t": 1.1,
+     "kind": "tool.output",
+     "data": {
+      "invocation_id": "inv-C-1",
+      "doc": {
+       "src": "SIGMOID_EPAL_BULLETIN_1114",
+       "issued": "2026-11-14T07:45:00+01:00",
+       "valid_until": "2026-11-15T00:00:00+01:00",
+       "body": "Kilamba: supply restored at 16h00 on 13 Nov after the pump repair at ETA do Kilamba. Normal supply today."
+      },
+      "cache": {
+       "hit": false
+      }
+     }
+    },
+    {
+     "run": "C",
+     "timestamp": 1794643801300,
+     "t": 1.3,
+     "kind": "retrieval.doc",
+     "data": {
+      "doc": {
+       "src": "SIGMOID_TARIFF_FAQ",
+       "issued": "2025-06-01T00:00:00Z",
+       "body": "Tariff FAQ: EPAL residential tariffs and how to read the water meter."
+      }
+     }
+    },
+    {
+     "run": "C",
+     "timestamp": 1794643801320,
+     "t": 1.32,
+     "kind": "retrieval.doc",
+     "data": {
+      "doc": {
+       "src": "SIGMOID_KILAMBA_KIAXI_ROSTER",
+       "body": "Kilamba Kiaxi tanker roster: trucks at Nova Vida from 07h00 to 19h00."
+      }
+     }
+    },
+    {
+     "run": "C",
+     "timestamp": 1794643801340,
+     "t": 1.34,
+     "kind": "retrieval.doc",
+     "data": {
+      "doc": {
+       "src": "SIGMOID_EPAL_BULLETIN_1114 ",
+       "issued": "2026-11-14T07:45:00+01:00",
+       "valid_until": "2026-11-15T00:00:00+01:00",
+       "body": "Kilamba: supply restored at 16h00 on 13 Nov after the pump repair at ETA do Kilamba. Normal supply today."
+      }
+     }
+    },
+    {
+     "run": "C",
+     "timestamp": 1794643801500,
+     "t": 1.5,
+     "kind": "llm.request",
+     "data": {
+      "model": "m-2",
+      "prompt": "System: answer from the bulletins below.\n[SIGMOID_TARIFF_FAQ] Tariff FAQ: EPAL residential tariffs and how to read the water meter.\n[SIGMOID_EPAL_BULLETIN_1114] Kilamba: supply restored at 16h00 on 13 Nov after the pump repair at ETA do Kilamba. Normal supply today.\nUser: Kilamba has had no water since yesterday. Is there an outage and when will it be fixed?"
+     }
+    },
+    {
+     "run": "C",
+     "timestamp": 1794643803400,
+     "t": 3.4,
+     "kind": "llm.response",
+     "data": {
+      "content": "No current outage in Kilamba: supply was restored at 16h00 on 13 November and is normal today.",
+      "finish_reason": "stop"
+     }
+    }
+   ]
+  }
+ }
+}

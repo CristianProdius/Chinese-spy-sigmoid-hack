@@ -1,0 +1,363 @@
+{
+ "exportInfo": {
+  "tool": "trace-export",
+  "version": "2.3"
+ },
+ "events": [
+  {
+   "eventId": 1,
+   "runId": "R-A",
+   "tsEpochMs": 1794643200000,
+   "elapsedMs": 0,
+   "eventType": "Prompt",
+   "payload": {
+    "text": "Any water interruption planned in Kilamba blocks A-F today?"
+   }
+  },
+  {
+   "eventId": 2,
+   "runId": "R-A",
+   "tsEpochMs": 1794643200100,
+   "elapsedMs": 100,
+   "eventType": "ToolCall",
+   "payload": {
+    "callId": "R-A-1",
+    "tool": "notices.search",
+    "query": {
+     "area": "Kilamba"
+    }
+   }
+  },
+  {
+   "eventId": 3,
+   "runId": "R-A",
+   "tsEpochMs": 1794643200700,
+   "elapsedMs": 700,
+   "eventType": "ToolResult",
+   "payload": {
+    "callId": "R-A-1",
+    "notices": [
+     {
+      "sourceId": "SIGMOID_NOTICE_KILAMBA_REV2",
+      "status": "current",
+      "effectiveFrom": "2026-11-13T18:00:00+01:00",
+      "body": "Revised notice: the interruption for Kilamba blocks A-F is moved to 15 Nov 2026, 09h00-13h00. Normal supply on 14 Nov."
+     }
+    ]
+   }
+  },
+  {
+   "eventId": 4,
+   "runId": "R-A",
+   "tsEpochMs": 1794643200750,
+   "elapsedMs": 750,
+   "eventType": "ContextItem",
+   "payload": {
+    "sourceId": "SIGMOID_CUSTOMER_FAQ",
+    "body": "FAQ: how EPAL announces interruptions and restoration times."
+   }
+  },
+  {
+   "eventId": 5,
+   "runId": "R-A",
+   "tsEpochMs": 1794643200760,
+   "elapsedMs": 760,
+   "eventType": "ContextItem",
+   "payload": {
+    "sourceId": "SIGMOID_NOTICE_KILAMBA",
+    "status": "superseded",
+    "supersededBy": "SIGMOID_NOTICE_KILAMBA_REV2",
+    "effectiveFrom": "2026-11-12T10:00:00+01:00",
+    "body": "Kilamba blocks A-F: interruption on 14 Nov 2026, 09h00-13h00, for network works."
+   }
+  },
+  {
+   "eventId": 6,
+   "runId": "R-A",
+   "tsEpochMs": 1794643200800,
+   "elapsedMs": 800,
+   "eventType": "ModelRequest",
+   "payload": {
+    "model": "m-3",
+    "contextRefs": [
+     "SIGMOID_NOTICE_KILAMBA_REV2",
+     "SIGMOID_CUSTOMER_FAQ"
+    ]
+   }
+  },
+  {
+   "eventId": 7,
+   "runId": "R-A",
+   "tsEpochMs": 1794643202400,
+   "elapsedMs": 2400,
+   "eventType": "ModelResponse",
+   "payload": {
+    "answer": "No interruption today: the Kilamba blocks A-F interruption was moved to 15 November, 09h00-13h00."
+   }
+  },
+  {
+   "eventId": 8,
+   "runId": "R-B",
+   "tsEpochMs": 1794643500000,
+   "elapsedMs": 0,
+   "eventType": "Prompt",
+   "payload": {
+    "text": "Any water interruption planned in Kilamba blocks A-F today?"
+   }
+  },
+  {
+   "eventId": 9,
+   "runId": "R-B",
+   "tsEpochMs": 1794643500100,
+   "elapsedMs": 100,
+   "eventType": "ToolCall",
+   "payload": {
+    "callId": "R-B-1",
+    "tool": "notices.search",
+    "query": {
+     "area": "Kilamba"
+    }
+   }
+  },
+  {
+   "eventId": 10,
+   "runId": "R-B",
+   "tsEpochMs": 1794643500700,
+   "elapsedMs": 700,
+   "eventType": "ToolResult",
+   "payload": {
+    "callId": "R-B-1",
+    "notices": [
+     {
+      "sourceId": "SIGMOID_NOTICE_KILAMBA_REV2",
+      "status": "current",
+      "effectiveFrom": "2026-11-13T18:00:00+01:00",
+      "body": "Revised notice: the interruption for Kilamba blocks A-F is moved to 15 Nov 2026, 09h00-13h00. Normal supply on 14 Nov."
+     }
+    ]
+   }
+  },
+  {
+   "eventId": 11,
+   "runId": "R-B",
+   "tsEpochMs": 1794643500750,
+   "elapsedMs": 750,
+   "eventType": "ContextItem",
+   "payload": {
+    "sourceId": "SIGMOID_CUSTOMER_FAQ",
+    "body": "FAQ: how EPAL announces interruptions and restoration times."
+   }
+  },
+  {
+   "eventId": 12,
+   "runId": "R-B",
+   "tsEpochMs": 1794643500800,
+   "elapsedMs": 800,
+   "eventType": "ModelRequest",
+   "payload": {
+    "model": "m-3",
+    "contextRefs": [
+     "SIGMOID_NOTICE_KILAMBA_REV2",
+     "SIGMOID_CUSTOMER_FAQ"
+    ]
+   }
+  },
+  {
+   "eventId": 13,
+   "runId": "R-B",
+   "tsEpochMs": 1794643502400,
+   "elapsedMs": 2400,
+   "eventType": "ModelResponse",
+   "payload": {
+    "answer": "No interruption today: the Kilamba blocks A-F interruption was moved to 15 November, 09h00-13h00."
+   }
+  },
+  {
+   "eventId": 14,
+   "runId": "R-C",
+   "tsEpochMs": 1794643800000,
+   "elapsedMs": 0,
+   "eventType": "Prompt",
+   "payload": {
+    "text": "Any water interruption planned in Kilamba blocks A-F today?"
+   }
+  },
+  {
+   "eventId": 15,
+   "runId": "R-C",
+   "tsEpochMs": 1794643800100,
+   "elapsedMs": 100,
+   "eventType": "ToolCall",
+   "payload": {
+    "callId": "R-C-1",
+    "tool": "notices.search",
+    "query": {
+     "area": "Kilamba"
+    }
+   }
+  },
+  {
+   "eventId": 16,
+   "runId": "R-C",
+   "tsEpochMs": 1794643800700,
+   "elapsedMs": 700,
+   "eventType": "ToolResult",
+   "payload": {
+    "callId": "R-C-1",
+    "notices": [
+     {
+      "sourceId": "SIGMOID_NOTICE_KILAMBA_REV2",
+      "status": "current",
+      "effectiveFrom": "2026-11-13T18:00:00+01:00",
+      "body": "Revised notice: the interruption for Kilamba blocks A-F is moved to 15 Nov 2026, 09h00-13h00. Normal supply on 14 Nov."
+     },
+     {
+      "sourceId": "SIGMOID_NОTICE_KILAMBA",
+      "status": "superseded",
+      "supersededBy": "SIGMOID_NOTICE_KILAMBA_REV2",
+      "effectiveFrom": "2026-11-12T10:00:00+01:00",
+      "body": "Kilamba blocks A-F: interruption on 14 Nov 2026, 09h00-13h00, for network works."
+     }
+    ]
+   }
+  },
+  {
+   "eventId": 17,
+   "runId": "R-C",
+   "tsEpochMs": 1794643800750,
+   "elapsedMs": 750,
+   "eventType": "ContextItem",
+   "payload": {
+    "sourceId": "SIGMOID_CUSTOMER_FAQ",
+    "body": "FAQ: how EPAL announces interruptions and restoration times."
+   }
+  },
+  {
+   "eventId": 18,
+   "runId": "R-C",
+   "tsEpochMs": 1794643800760,
+   "elapsedMs": 760,
+   "eventType": "ContextItem",
+   "payload": {
+    "sourceId": "SIGMOID_WEATHER_LUANDA_1114",
+    "body": "Luanda forecast for 14 Nov: 29 C, light rain in the afternoon."
+   }
+  },
+  {
+   "eventId": 19,
+   "runId": "R-C",
+   "tsEpochMs": 1794643800800,
+   "elapsedMs": 800,
+   "eventType": "ModelRequest",
+   "payload": {
+    "model": "m-3",
+    "contextRefs": [
+     "SIGMOID_NОTICE_KILAMBA",
+     "SIGMOID_CUSTOMER_FAQ",
+     "SIGMOID_WEATHER_LUANDA_1114"
+    ]
+   }
+  },
+  {
+   "eventId": 20,
+   "runId": "R-C",
+   "tsEpochMs": 1794643802400,
+   "elapsedMs": 2400,
+   "eventType": "ModelResponse",
+   "payload": {
+    "answer": "Yes: Kilamba blocks A-F have an interruption today, 14 November, from 09h00 to 13h00 for network works."
+   }
+  },
+  {
+   "eventId": 21,
+   "runId": "R-D",
+   "tsEpochMs": 1794644100000,
+   "elapsedMs": 0,
+   "eventType": "Prompt",
+   "payload": {
+    "text": "Any water interruption planned in Kilamba blocks A-F today?"
+   }
+  },
+  {
+   "eventId": 22,
+   "runId": "R-D",
+   "tsEpochMs": 1794644100100,
+   "elapsedMs": 100,
+   "eventType": "ToolCall",
+   "payload": {
+    "callId": "R-D-1",
+    "tool": "notices.search",
+    "query": {
+     "area": "Kilamba"
+    }
+   }
+  },
+  {
+   "eventId": 23,
+   "runId": "R-D",
+   "tsEpochMs": 1794644100700,
+   "elapsedMs": 700,
+   "eventType": "ToolResult",
+   "payload": {
+    "callId": "R-D-1",
+    "notices": [
+     {
+      "sourceId": "SIGMOID_NOTICE_KILAMBA_REV2",
+      "status": "current",
+      "effectiveFrom": "2026-11-13T18:00:00+01:00",
+      "body": "Revised notice: the interruption for Kilamba blocks A-F is moved to 15 Nov 2026, 09h00-13h00. Normal supply on 14 Nov."
+     }
+    ]
+   }
+  },
+  {
+   "eventId": 24,
+   "runId": "R-D",
+   "tsEpochMs": 1794644100750,
+   "elapsedMs": 750,
+   "eventType": "ContextItem",
+   "payload": {
+    "sourceId": "SIGMOID_CUSTOMER_FAQ",
+    "body": "FAQ: how EPAL announces interruptions and restoration times."
+   }
+  },
+  {
+   "eventId": 25,
+   "runId": "R-D",
+   "tsEpochMs": 1794644100760,
+   "elapsedMs": 760,
+   "eventType": "ContextItem",
+   "payload": {
+    "sourceId": "SIGMOID_NOTICE_KILAMBA_REV2​",
+    "status": "current",
+    "effectiveFrom": "2026-11-13T18:00:00+01:00",
+    "body": "Revised notice: the interruption for Kilamba blocks A-F is moved to 15 Nov 2026, 09h00-13h00. Normal supply on 14 Nov.",
+    "mirror": true
+   }
+  },
+  {
+   "eventId": 26,
+   "runId": "R-D",
+   "tsEpochMs": 1794644100800,
+   "elapsedMs": 800,
+   "eventType": "ModelRequest",
+   "payload": {
+    "model": "m-3",
+    "contextRefs": [
+     "SIGMOID_NOTICE_KILAMBA_REV2",
+     "SIGMOID_CUSTOMER_FAQ"
+    ]
+   }
+  },
+  {
+   "eventId": 27,
+   "runId": "R-D",
+   "tsEpochMs": 1794644102400,
+   "elapsedMs": 2400,
+   "eventType": "ModelResponse",
+   "payload": {
+    "answer": "No interruption today: the Kilamba blocks A-F interruption was moved to 15 November, 09h00-13h00."
+   }
+  }
+ ]
+}

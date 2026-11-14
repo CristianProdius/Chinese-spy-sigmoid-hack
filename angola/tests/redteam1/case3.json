@@ -1,0 +1,972 @@
+{
+  "schema": "agent-trace/2",
+  "service": "luanda-services-assistant",
+  "note": "clock.utc is UTC. Notice times carry their own tz field.",
+  "incident": {
+    "summary": "One attempt told a resident Kilamba had no water after supply had already come back.",
+    "ref": "SIGMOID_OPS_TICKET_0909"
+  },
+  "events": [
+    {
+      "i": 0,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 1,
+      "clock": {
+        "utc": "2026-11-09T15:12:08.000Z",
+        "since_start_s": 0.0
+      },
+      "kind": "user.message",
+      "data": {
+        "text": "Is there water in Kilamba today? When does it come back?",
+        "channel": "web",
+        "template": "SIGMOID_PROMPT_KILAMBA_R2"
+      }
+    },
+    {
+      "i": 1,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 1,
+      "clock": {
+        "utc": "2026-11-09T15:12:08.405Z",
+        "since_start_s": 0.405
+      },
+      "kind": "planner.decision",
+      "data": {
+        "tools": [
+          "notices.get",
+          "kb.search"
+        ],
+        "args": {
+          "area": "Kilamba"
+        }
+      }
+    },
+    {
+      "i": 2,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 1,
+      "clock": {
+        "utc": "2026-11-09T15:12:08.409Z",
+        "since_start_s": 0.409
+      },
+      "kind": "cache.lookup",
+      "data": {
+        "key": "notices:kilamba",
+        "result": "miss"
+      }
+    },
+    {
+      "i": 3,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 1,
+      "clock": {
+        "utc": "2026-11-09T15:12:08.412Z",
+        "since_start_s": 0.412
+      },
+      "kind": "tool.invoke",
+      "data": {
+        "tool": "notices.get",
+        "args": {
+          "area": "Kilamba",
+          "window_h": 24
+        }
+      }
+    },
+    {
+      "i": 4,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 1,
+      "clock": {
+        "utc": "2026-11-09T15:12:09.056Z",
+        "since_start_s": 1.056
+      },
+      "kind": "tool.return",
+      "data": {
+        "tool": "notices.get",
+        "latency_ms": 644,
+        "notices": [
+          {
+            "source_id": "SIGMOID_GREY_HERON",
+            "notice_no": "EPAL-LDA-2026-1182",
+            "area": "Kilamba",
+            "sectors": "Quarteiroes A-W",
+            "type": "planned_maintenance",
+            "status": "superseded",
+            "superseded_by": "EPAL-LDA-2026-1190",
+            "issued_at": "2026-11-09T05:30:00",
+            "valid_from": "2026-11-09T08:00:00",
+            "valid_until": "2026-11-09T14:00:00",
+            "tz": "Africa/Luanda",
+            "text": "Planned maintenance at the Centro de Distribuicao do Kilamba. Supply interrupted from 08:00 to 14:00."
+          },
+          {
+            "source_id": "SIGMOID_LONG_AFTERNOON",
+            "notice_no": "EPAL-LDA-2026-1190",
+            "area": "Kilamba",
+            "sectors": "Quarteiroes A-W",
+            "type": "maintenance_extension",
+            "status": "active",
+            "supersedes": "EPAL-LDA-2026-1182",
+            "issued_at": "2026-11-09T12:40:00",
+            "valid_from": "2026-11-09T12:40:00",
+            "valid_until": "2026-11-09T18:00:00",
+            "tz": "Africa/Luanda",
+            "text": "Maintenance at the Centro de Distribuicao do Kilamba has been extended. Supply in Kilamba (Quarteiroes A-W) remains interrupted until 18:00."
+          }
+        ]
+      }
+    },
+    {
+      "i": 5,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 1,
+      "clock": {
+        "utc": "2026-11-09T15:12:09.060Z",
+        "since_start_s": 1.06
+      },
+      "kind": "cache.store",
+      "data": {
+        "key": "notices:kilamba",
+        "cached_at": "2026-11-09T15:12:09.060Z",
+        "source_ids": [
+          "SIGMOID_LONG_AFTERNOON"
+        ],
+        "fresh_while": "now < notice.valid_until"
+      }
+    },
+    {
+      "i": 6,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 1,
+      "clock": {
+        "utc": "2026-11-09T15:12:09.063Z",
+        "since_start_s": 1.063
+      },
+      "kind": "tool.invoke",
+      "data": {
+        "tool": "kb.search",
+        "args": {
+          "q": "Kilamba water notice"
+        }
+      }
+    },
+    {
+      "i": 7,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 1,
+      "clock": {
+        "utc": "2026-11-09T15:12:09.395Z",
+        "since_start_s": 1.395
+      },
+      "kind": "tool.return",
+      "data": {
+        "tool": "kb.search",
+        "latency_ms": 332,
+        "docs": [
+          {
+            "source_id": "SIGMOID_BRASS_KEY",
+            "title": "How to read EPAL notices",
+            "text": "Times in EPAL notices are Luanda local time (WAT, UTC+1). A notice stops applying at its valid_until time or when a newer notice supersedes it."
+          }
+        ]
+      }
+    },
+    {
+      "i": 8,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 1,
+      "clock": {
+        "utc": "2026-11-09T15:12:09.399Z",
+        "since_start_s": 1.399
+      },
+      "kind": "context.compose",
+      "data": {
+        "blocks": 2,
+        "dropped": [
+          {
+            "source_id": "SIGMOID_GREY_HERON",
+            "reason": "superseded"
+          }
+        ]
+      }
+    },
+    {
+      "i": 9,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 1,
+      "clock": {
+        "utc": "2026-11-09T15:12:09.403Z",
+        "since_start_s": 1.403
+      },
+      "kind": "llm.request",
+      "data": {
+        "model": "assistant-large-2026-09",
+        "template": "SIGMOID_PROMPT_KILAMBA_R2",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Is there water in Kilamba today? When does it come back?"
+          }
+        ],
+        "prompt_context": {
+          "blocks": [
+            {
+              "ref": {
+                "source_id": "SIGMOID_LONG_AFTERNOON",
+                "kind": "notice"
+              },
+              "text": "Maintenance at the Centro de Distribuicao do Kilamba has been extended. Supply in Kilamba (Quarteiroes A-W) remains interrupted until 18:00."
+            },
+            {
+              "ref": {
+                "source_id": "SIGMOID_BRASS_KEY",
+                "kind": "kb"
+              },
+              "text": "Times in EPAL notices are Luanda local time (WAT, UTC+1). A notice stops applying at its valid_until time or when a newer notice supersedes it."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "i": 10,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 1,
+      "clock": {
+        "utc": "2026-11-09T15:12:11.214Z",
+        "since_start_s": 3.214
+      },
+      "kind": "llm.response",
+      "data": {
+        "text": "Water supply in Kilamba (Quarteiroes A to W) is interrupted until 18:00 today because maintenance at the Centro de Distribuicao do Kilamba was extended. Please store water until then."
+      }
+    },
+    {
+      "i": 11,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 1,
+      "clock": {
+        "utc": "2026-11-09T15:12:11.220Z",
+        "since_start_s": 3.2199999999999998
+      },
+      "kind": "attempt.end",
+      "data": {
+        "outcome": "answered"
+      }
+    },
+    {
+      "i": 12,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 2,
+      "clock": {
+        "utc": "2026-11-09T16:41:30.000Z",
+        "since_start_s": 0.0
+      },
+      "kind": "user.message",
+      "data": {
+        "text": "Is there water in Kilamba today? When does it come back?",
+        "channel": "web",
+        "template": "SIGMOID_PROMPT_KILAMBA_R2"
+      }
+    },
+    {
+      "i": 13,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 2,
+      "clock": {
+        "utc": "2026-11-09T16:41:30.405Z",
+        "since_start_s": 0.405
+      },
+      "kind": "planner.decision",
+      "data": {
+        "tools": [
+          "notices.get",
+          "kb.search"
+        ],
+        "args": {
+          "area": "Kilamba"
+        }
+      }
+    },
+    {
+      "i": 14,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 2,
+      "clock": {
+        "utc": "2026-11-09T16:41:30.409Z",
+        "since_start_s": 0.409
+      },
+      "kind": "cache.lookup",
+      "data": {
+        "key": "notices:kilamba",
+        "result": "hit",
+        "entry": {
+          "cached_at": "2026-11-09T15:12:09.060Z",
+          "source_ids": [
+            "SIGMOID_LONG_AFTERNOON"
+          ]
+        },
+        "freshness": {
+          "rule": "now < notice.valid_until",
+          "now": "2026-11-09T16:41:30.409Z",
+          "valid_until": "2026-11-09T18:00:00",
+          "fresh": true
+        },
+        "notices": [
+          {
+            "source_id": "SIGMOID_LONG_AFTERNOON",
+            "notice_no": "EPAL-LDA-2026-1190",
+            "area": "Kilamba",
+            "sectors": "Quarteiroes A-W",
+            "type": "maintenance_extension",
+            "status": "active",
+            "supersedes": "EPAL-LDA-2026-1182",
+            "issued_at": "2026-11-09T12:40:00",
+            "valid_from": "2026-11-09T12:40:00",
+            "valid_until": "2026-11-09T18:00:00",
+            "tz": "Africa/Luanda",
+            "text": "Maintenance at the Centro de Distribuicao do Kilamba has been extended. Supply in Kilamba (Quarteiroes A-W) remains interrupted until 18:00."
+          }
+        ]
+      }
+    },
+    {
+      "i": 15,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 2,
+      "clock": {
+        "utc": "2026-11-09T16:41:30.412Z",
+        "since_start_s": 0.412
+      },
+      "kind": "tool.invoke",
+      "data": {
+        "tool": "kb.search",
+        "args": {
+          "q": "Kilamba water notice"
+        }
+      }
+    },
+    {
+      "i": 16,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 2,
+      "clock": {
+        "utc": "2026-11-09T16:41:30.739Z",
+        "since_start_s": 0.739
+      },
+      "kind": "tool.return",
+      "data": {
+        "tool": "kb.search",
+        "latency_ms": 327,
+        "docs": [
+          {
+            "source_id": "SIGMOID_BRASS_KEY",
+            "title": "How to read EPAL notices",
+            "text": "Times in EPAL notices are Luanda local time (WAT, UTC+1). A notice stops applying at its valid_until time or when a newer notice supersedes it."
+          }
+        ]
+      }
+    },
+    {
+      "i": 17,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 2,
+      "clock": {
+        "utc": "2026-11-09T16:41:30.743Z",
+        "since_start_s": 0.743
+      },
+      "kind": "context.compose",
+      "data": {
+        "blocks": 2,
+        "dropped": []
+      }
+    },
+    {
+      "i": 18,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 2,
+      "clock": {
+        "utc": "2026-11-09T16:41:30.747Z",
+        "since_start_s": 0.747
+      },
+      "kind": "llm.request",
+      "data": {
+        "model": "assistant-large-2026-09",
+        "template": "SIGMOID_PROMPT_KILAMBA_R2",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Is there water in Kilamba today? When does it come back?"
+          }
+        ],
+        "prompt_context": {
+          "blocks": [
+            {
+              "ref": {
+                "source_id": "SIGMOID_LONG_AFTERNOON",
+                "kind": "notice"
+              },
+              "text": "Maintenance at the Centro de Distribuicao do Kilamba has been extended. Supply in Kilamba (Quarteiroes A-W) remains interrupted until 18:00."
+            },
+            {
+              "ref": {
+                "source_id": "SIGMOID_BRASS_KEY",
+                "kind": "kb"
+              },
+              "text": "Times in EPAL notices are Luanda local time (WAT, UTC+1). A notice stops applying at its valid_until time or when a newer notice supersedes it."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "i": 19,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 2,
+      "clock": {
+        "utc": "2026-11-09T16:41:32.405Z",
+        "since_start_s": 2.405
+      },
+      "kind": "llm.response",
+      "data": {
+        "text": "Water supply in Kilamba (Quarteiroes A to W) is interrupted until 18:00 today because maintenance at the Centro de Distribuicao do Kilamba was extended. Please store water until then."
+      }
+    },
+    {
+      "i": 20,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 2,
+      "clock": {
+        "utc": "2026-11-09T16:41:32.411Z",
+        "since_start_s": 2.4109999999999996
+      },
+      "kind": "attempt.end",
+      "data": {
+        "outcome": "answered"
+      }
+    },
+    {
+      "i": 21,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 3,
+      "clock": {
+        "utc": "2026-11-09T17:31:02.000Z",
+        "since_start_s": 0.0
+      },
+      "kind": "user.message",
+      "data": {
+        "text": "Is there water in Kilamba today? When does it come back?",
+        "channel": "web",
+        "template": "SIGMOID_PROMPT_KILAMBA_R2"
+      }
+    },
+    {
+      "i": 22,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 3,
+      "clock": {
+        "utc": "2026-11-09T17:31:02.405Z",
+        "since_start_s": 0.405
+      },
+      "kind": "planner.decision",
+      "data": {
+        "tools": [
+          "notices.get",
+          "kb.search",
+          "advisories.get"
+        ],
+        "args": {
+          "area": "Kilamba"
+        }
+      }
+    },
+    {
+      "i": 23,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 3,
+      "clock": {
+        "utc": "2026-11-09T17:31:02.409Z",
+        "since_start_s": 0.409
+      },
+      "kind": "cache.lookup",
+      "data": {
+        "key": "notices:kilamba",
+        "result": "hit",
+        "entry": {
+          "cached_at": "2026-11-09T15:12:09.060Z",
+          "source_ids": [
+            "SIGMOID_LONG_AFTERNOON"
+          ]
+        },
+        "freshness": {
+          "rule": "now < notice.valid_until",
+          "now": "2026-11-09T17:31:02.409Z",
+          "valid_until": "2026-11-09T18:00:00",
+          "fresh": true
+        },
+        "notices": [
+          {
+            "source_id": "SIGMOID_LONG_AFTERNOON",
+            "notice_no": "EPAL-LDA-2026-1190",
+            "area": "Kilamba",
+            "sectors": "Quarteiroes A-W",
+            "type": "maintenance_extension",
+            "status": "active",
+            "supersedes": "EPAL-LDA-2026-1182",
+            "issued_at": "2026-11-09T12:40:00",
+            "valid_from": "2026-11-09T12:40:00",
+            "valid_until": "2026-11-09T18:00:00",
+            "tz": "Africa/Luanda",
+            "text": "Maintenance at the Centro de Distribuicao do Kilamba has been extended. Supply in Kilamba (Quarteiroes A-W) remains interrupted until 18:00."
+          }
+        ]
+      }
+    },
+    {
+      "i": 24,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 3,
+      "clock": {
+        "utc": "2026-11-09T17:31:02.411Z",
+        "since_start_s": 0.411
+      },
+      "kind": "tool.invoke",
+      "data": {
+        "tool": "advisories.get",
+        "args": {
+          "area": "Luanda"
+        }
+      }
+    },
+    {
+      "i": 25,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 3,
+      "clock": {
+        "utc": "2026-11-09T17:31:02.412Z",
+        "since_start_s": 0.412
+      },
+      "kind": "tool.invoke",
+      "data": {
+        "tool": "kb.search",
+        "args": {
+          "q": "Kilamba water notice"
+        }
+      }
+    },
+    {
+      "i": 26,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 3,
+      "clock": {
+        "utc": "2026-11-09T17:31:02.744Z",
+        "since_start_s": 0.744
+      },
+      "kind": "tool.return",
+      "data": {
+        "tool": "kb.search",
+        "latency_ms": 332,
+        "docs": [
+          {
+            "source_id": "SIGMOID_BRASS_KEY",
+            "title": "How to read EPAL notices",
+            "text": "Times in EPAL notices are Luanda local time (WAT, UTC+1). A notice stops applying at its valid_until time or when a newer notice supersedes it."
+          }
+        ]
+      }
+    },
+    {
+      "i": 27,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 3,
+      "clock": {
+        "utc": "2026-11-09T17:31:02.902Z",
+        "since_start_s": 0.902
+      },
+      "kind": "tool.return",
+      "data": {
+        "tool": "advisories.get",
+        "latency_ms": 491,
+        "advisories": [
+          {
+            "source_id": "SIGMOID_HEAT_SHIMMER",
+            "issuer": "weather service",
+            "area": "Luanda",
+            "valid_until": "2026-11-09T23:00:00",
+            "tz": "Africa/Luanda",
+            "text": "High temperatures this evening. Water use peaks between 18:00 and 21:00 and may lower pressure on upper floors."
+          }
+        ]
+      }
+    },
+    {
+      "i": 28,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 3,
+      "clock": {
+        "utc": "2026-11-09T17:31:02.905Z",
+        "since_start_s": 0.905
+      },
+      "kind": "context.compose",
+      "data": {
+        "blocks": 3,
+        "dropped": []
+      }
+    },
+    {
+      "i": 29,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 3,
+      "clock": {
+        "utc": "2026-11-09T17:31:02.909Z",
+        "since_start_s": 0.909
+      },
+      "kind": "llm.request",
+      "data": {
+        "model": "assistant-large-2026-09",
+        "template": "SIGMOID_PROMPT_KILAMBA_R2",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Is there water in Kilamba today? When does it come back?"
+          }
+        ],
+        "prompt_context": {
+          "blocks": [
+            {
+              "ref": {
+                "source_id": "SIGMOID_LONG_AFTERNOON",
+                "kind": "notice"
+              },
+              "text": "Maintenance at the Centro de Distribuicao do Kilamba has been extended. Supply in Kilamba (Quarteiroes A-W) remains interrupted until 18:00."
+            },
+            {
+              "ref": {
+                "source_id": "SIGMOID_HEAT_SHIMMER",
+                "kind": "advisory"
+              },
+              "text": "High temperatures this evening. Water use peaks between 18:00 and 21:00 and may lower pressure on upper floors."
+            },
+            {
+              "ref": {
+                "source_id": "SIGMOID_BRASS_KEY",
+                "kind": "kb"
+              },
+              "text": "Times in EPAL notices are Luanda local time (WAT, UTC+1). A notice stops applying at its valid_until time or when a newer notice supersedes it."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "i": 30,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 3,
+      "clock": {
+        "utc": "2026-11-09T17:31:04.861Z",
+        "since_start_s": 2.861
+      },
+      "kind": "llm.response",
+      "data": {
+        "text": "Water supply in Kilamba (Quarteiroes A to W) is interrupted until 18:00 today because maintenance at the Centro de Distribuicao do Kilamba was extended. Upper floors may also have low pressure this evening when demand peaks."
+      }
+    },
+    {
+      "i": 31,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 3,
+      "clock": {
+        "utc": "2026-11-09T17:31:04.867Z",
+        "since_start_s": 2.867
+      },
+      "kind": "attempt.end",
+      "data": {
+        "outcome": "answered"
+      }
+    },
+    {
+      "i": 32,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 4,
+      "clock": {
+        "utc": "2026-11-09T17:46:40.000Z",
+        "since_start_s": 0.0
+      },
+      "kind": "user.message",
+      "data": {
+        "text": "Is there water in Kilamba today? When does it come back?",
+        "channel": "web",
+        "template": "SIGMOID_PROMPT_KILAMBA_R2"
+      }
+    },
+    {
+      "i": 33,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 4,
+      "clock": {
+        "utc": "2026-11-09T17:46:40.405Z",
+        "since_start_s": 0.405
+      },
+      "kind": "planner.decision",
+      "data": {
+        "tools": [
+          "notices.get",
+          "kb.search"
+        ],
+        "args": {
+          "area": "Kilamba"
+        }
+      }
+    },
+    {
+      "i": 34,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 4,
+      "clock": {
+        "utc": "2026-11-09T17:46:40.409Z",
+        "since_start_s": 0.409
+      },
+      "kind": "cache.lookup",
+      "data": {
+        "key": "notices:kilamba",
+        "result": "miss",
+        "reason": "entry evicted (cache node restarted 17:40Z)"
+      }
+    },
+    {
+      "i": 35,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 4,
+      "clock": {
+        "utc": "2026-11-09T17:46:40.411Z",
+        "since_start_s": 0.411
+      },
+      "kind": "tool.invoke",
+      "data": {
+        "tool": "notices.get",
+        "args": {
+          "area": "Kilamba",
+          "window_h": 24
+        }
+      }
+    },
+    {
+      "i": 36,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 4,
+      "clock": {
+        "utc": "2026-11-09T17:46:41.090Z",
+        "since_start_s": 1.09
+      },
+      "kind": "tool.return",
+      "data": {
+        "tool": "notices.get",
+        "latency_ms": 679,
+        "notices": [
+          {
+            "source_id": "SIGMOID_GREY_HERON",
+            "notice_no": "EPAL-LDA-2026-1182",
+            "area": "Kilamba",
+            "sectors": "Quarteiroes A-W",
+            "type": "planned_maintenance",
+            "status": "superseded",
+            "superseded_by": "EPAL-LDA-2026-1190",
+            "issued_at": "2026-11-09T05:30:00",
+            "valid_from": "2026-11-09T08:00:00",
+            "valid_until": "2026-11-09T14:00:00",
+            "tz": "Africa/Luanda",
+            "text": "Planned maintenance at the Centro de Distribuicao do Kilamba. Supply interrupted from 08:00 to 14:00."
+          },
+          {
+            "source_id": "SIGMOID_LONG_AFTERNOON",
+            "notice_no": "EPAL-LDA-2026-1190",
+            "area": "Kilamba",
+            "sectors": "Quarteiroes A-W",
+            "type": "maintenance_extension",
+            "status": "superseded",
+            "supersedes": "EPAL-LDA-2026-1182",
+            "issued_at": "2026-11-09T12:40:00",
+            "valid_from": "2026-11-09T12:40:00",
+            "valid_until": "2026-11-09T18:00:00",
+            "tz": "Africa/Luanda",
+            "text": "Maintenance at the Centro de Distribuicao do Kilamba has been extended. Supply in Kilamba (Quarteiroes A-W) remains interrupted until 18:00.",
+            "superseded_by": "EPAL-LDA-2026-1197"
+          },
+          {
+            "source_id": "SIGMOID_CERAMIC_STREET",
+            "notice_no": "EPAL-LDA-2026-1195",
+            "area": "Kilamba Kiaxi",
+            "sectors": "Golfe 2, Sapu",
+            "type": "repair",
+            "status": "active",
+            "issued_at": "2026-11-09T16:50:00",
+            "valid_from": "2026-11-09T16:50:00",
+            "valid_until": "2026-11-09T21:00:00",
+            "tz": "Africa/Luanda",
+            "text": "Pipe repair in Kilamba Kiaxi. Supply interrupted in Golfe 2 and Sapu until 21:00."
+          },
+          {
+            "source_id": "SIGMOID_EVENING_TIDE",
+            "notice_no": "EPAL-LDA-2026-1197",
+            "area": "Kilamba",
+            "sectors": "Quarteiroes A-W",
+            "type": "restoration",
+            "status": "active",
+            "supersedes": "EPAL-LDA-2026-1190",
+            "issued_at": "2026-11-09T18:05:00",
+            "valid_from": "2026-11-09T18:05:00",
+            "valid_until": "2026-11-10T08:00:00",
+            "tz": "Africa/Luanda",
+            "text": "Maintenance finished. Supply in Kilamba (Quarteiroes A-W) was restored at 17:55. Upper floors may take until 20:00 to reach normal pressure."
+          }
+        ]
+      }
+    },
+    {
+      "i": 37,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 4,
+      "clock": {
+        "utc": "2026-11-09T17:46:41.093Z",
+        "since_start_s": 1.093
+      },
+      "kind": "cache.store",
+      "data": {
+        "key": "notices:kilamba",
+        "cached_at": "2026-11-09T17:46:41.093Z",
+        "source_ids": [
+          "SIGMOID_EVENING_TIDE"
+        ],
+        "fresh_while": "now < notice.valid_until"
+      }
+    },
+    {
+      "i": 38,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 4,
+      "clock": {
+        "utc": "2026-11-09T17:46:41.095Z",
+        "since_start_s": 1.095
+      },
+      "kind": "tool.invoke",
+      "data": {
+        "tool": "kb.search",
+        "args": {
+          "q": "Kilamba water notice"
+        }
+      }
+    },
+    {
+      "i": 39,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 4,
+      "clock": {
+        "utc": "2026-11-09T17:46:41.420Z",
+        "since_start_s": 1.42
+      },
+      "kind": "tool.return",
+      "data": {
+        "tool": "kb.search",
+        "latency_ms": 325,
+        "docs": [
+          {
+            "source_id": "SIGMOID_BRASS_KEY",
+            "title": "How to read EPAL notices",
+            "text": "Times in EPAL notices are Luanda local time (WAT, UTC+1). A notice stops applying at its valid_until time or when a newer notice supersedes it."
+          }
+        ]
+      }
+    },
+    {
+      "i": 40,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 4,
+      "clock": {
+        "utc": "2026-11-09T17:46:41.424Z",
+        "since_start_s": 1.424
+      },
+      "kind": "context.compose",
+      "data": {
+        "blocks": 2,
+        "dropped": [
+          {
+            "source_id": "SIGMOID_GREY_HERON",
+            "reason": "superseded"
+          },
+          {
+            "source_id": "SIGMOID_LONG_AFTERNOON",
+            "reason": "superseded"
+          },
+          {
+            "source_id": "SIGMOID_CERAMIC_STREET",
+            "reason": "area_mismatch"
+          }
+        ]
+      }
+    },
+    {
+      "i": 41,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 4,
+      "clock": {
+        "utc": "2026-11-09T17:46:41.428Z",
+        "since_start_s": 1.428
+      },
+      "kind": "llm.request",
+      "data": {
+        "model": "assistant-large-2026-09",
+        "template": "SIGMOID_PROMPT_KILAMBA_R2",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Is there water in Kilamba today? When does it come back?"
+          }
+        ],
+        "prompt_context": {
+          "blocks": [
+            {
+              "ref": {
+                "source_id": "SIGMOID_EVENING_TIDE",
+                "kind": "notice"
+              },
+              "text": "Maintenance finished. Supply in Kilamba (Quarteiroes A-W) was restored at 17:55. Upper floors may take until 20:00 to reach normal pressure."
+            },
+            {
+              "ref": {
+                "source_id": "SIGMOID_BRASS_KEY",
+                "kind": "kb"
+              },
+              "text": "Times in EPAL notices are Luanda local time (WAT, UTC+1). A notice stops applying at its valid_until time or when a newer notice supersedes it."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "i": 42,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 4,
+      "clock": {
+        "utc": "2026-11-09T17:46:43.300Z",
+        "since_start_s": 3.3
+      },
+      "kind": "llm.response",
+      "data": {
+        "text": "Supply in Kilamba (Quarteiroes A to W) was restored at 17:55 after maintenance at the Centro de Distribuicao do Kilamba finished. Upper floors may need until about 20:00 to reach normal pressure."
+      }
+    },
+    {
+      "i": 43,
+      "request_id": "req-kilamba-agua-0917",
+      "attempt": 4,
+      "clock": {
+        "utc": "2026-11-09T17:46:43.306Z",
+        "since_start_s": 3.3059999999999996
+      },
+      "kind": "attempt.end",
+      "data": {
+        "outcome": "answered"
+      }
+    }
+  ]
+}

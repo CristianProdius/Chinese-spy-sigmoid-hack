@@ -1,0 +1,128 @@
+[
+ {
+  "runRef": "first",
+  "ts": "1794643200.0",
+  "type": "user",
+  "body": {
+   "text": "Is Kilamba still without water today?"
+  }
+ },
+ {
+  "runRef": "first",
+  "ts": "1794643200.2",
+  "type": "tool_call",
+  "body": {
+   "call_id": "first-1",
+   "tool": "bulletins"
+  }
+ },
+ {
+  "runRef": "first",
+  "ts": "1794643200.9",
+  "type": "tool_result",
+  "body": {
+   "call_id": "first-1",
+   "notice": {
+    "source_id": "SIGMOID_RESTORE_BULLETIN_14",
+    "valid_from": "2026-11-14T06:00:00+01:00",
+    "valid_until": "2026-11-15T06:00:00+01:00",
+    "text": "Kilamba supply was restored overnight; pressure normal in all blocks."
+   }
+  }
+ },
+ {
+  "runRef": "first",
+  "ts": "1794643201.0",
+  "type": "tool_result",
+  "body": {
+   "call_id": "first-1b",
+   "notice": {
+    "source_id": "SIGMOID_RESTORE_BULLETIN_11",
+    "valid_from": "2026-11-12T06:00:00+01:00",
+    "valid_until": "2026-11-13T06:00:00+01:00",
+    "text": "Kilamba remains without water; crews expect restoration by 19h00."
+   }
+  }
+ },
+ {
+  "runRef": "first",
+  "ts": "1794643201.2",
+  "type": "llm_request",
+  "body": {
+   "messages": [
+    {
+     "role": "user",
+     "content": "Is Kilamba still without water today?"
+    },
+    {
+     "role": "tool",
+     "content": "Kilamba supply was restored overnight; pressure normal in all blocks."
+    }
+   ]
+  }
+ },
+ {
+  "runRef": "first",
+  "ts": "1794643202.8",
+  "type": "llm_response",
+  "body": {
+   "text": "No. Supply in Kilamba was restored overnight and pressure is normal."
+  }
+ },
+ {
+  "runRef": "second",
+  "ts": "1794644100.0",
+  "type": "user",
+  "body": {
+   "text": "Is Kilamba still without water today?"
+  }
+ },
+ {
+  "runRef": "second",
+  "ts": "1794644100.2",
+  "type": "tool_call",
+  "body": {
+   "call_id": "second-1",
+   "tool": "bulletins"
+  }
+ },
+ {
+  "runRef": "second",
+  "ts": "1794644100.9",
+  "type": "tool_result",
+  "body": {
+   "call_id": "second-1",
+   "notice": {
+    "source_id": "SIGMOID_RESTORE_BULLETIN_12",
+    "valid_from": "2026-11-12T06:00:00+01:00",
+    "valid_until": "2026-11-13T06:00:00+01:00",
+    "text": "Kilamba remains without water; crews expect restoration by 19h00."
+   }
+  }
+ },
+ {
+  "runRef": "second",
+  "ts": "1794644101.2",
+  "type": "llm_request",
+  "body": {
+   "messages": [
+    {
+     "role": "user",
+     "content": "Is Kilamba still without water today?"
+    },
+    {
+     "role": "tool",
+     "content": "Kilamba remains without water; crews expect restoration by 19h00."
+    }
+   ]
+  }
+ },
+ {
+  "runRef": "second",
+  "ts": "1794644102.8",
+  "type": "llm_response",
+  "body": {
+   "text": "Yes, Kilamba is still without water; restoration is expected by 19h00."
+  }
+ }
+]

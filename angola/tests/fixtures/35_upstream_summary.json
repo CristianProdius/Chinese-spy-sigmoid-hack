@@ -1,0 +1,248 @@
+{
+ "events": [
+  {
+   "event_id": "e001",
+   "run_id": "r1",
+   "ts": "2026-11-14T08:00:00.000Z",
+   "elapsed_ms": 0,
+   "type": "prompt",
+   "payload": {
+    "role": "user",
+    "text": "Is there water in Kilamba today?"
+   }
+  },
+  {
+   "event_id": "e002",
+   "run_id": "r1",
+   "ts": "2026-11-14T08:00:00.200Z",
+   "elapsed_ms": 200,
+   "type": "tool_call",
+   "payload": {
+    "call_id": "r1-c1",
+    "tool": "outages",
+    "args": {
+     "area": "Kilamba"
+    }
+   }
+  },
+  {
+   "event_id": "e003",
+   "run_id": "r1",
+   "ts": "2026-11-14T08:00:00.400Z",
+   "elapsed_ms": 400,
+   "type": "tool_result",
+   "payload": {
+    "call_id": "r1-c1",
+    "result": {
+     "source_id": "SIGMOID_FRESH_NOTICE",
+     "text": "EPAL: normal supply in Kilamba today, no interruption scheduled."
+    }
+   }
+  },
+  {
+   "event_id": "e004",
+   "run_id": "r1",
+   "ts": "2026-11-14T08:00:00.600Z",
+   "elapsed_ms": 600,
+   "type": "model_request",
+   "payload": {
+    "model": "m-7",
+    "context_ids": [
+     "SIGMOID_FRESH_NOTICE"
+    ]
+   }
+  },
+  {
+   "event_id": "e005",
+   "run_id": "r1",
+   "ts": "2026-11-14T08:00:00.800Z",
+   "elapsed_ms": 800,
+   "type": "response",
+   "payload": {
+    "text": "Kilamba has normal supply today; no interruption is scheduled."
+   }
+  },
+  {
+   "event_id": "e006",
+   "run_id": "r2",
+   "ts": "2026-11-14T08:05:00.000Z",
+   "elapsed_ms": 0,
+   "type": "prompt",
+   "payload": {
+    "role": "user",
+    "text": "Is there water in Kilamba today?"
+   }
+  },
+  {
+   "event_id": "e007",
+   "run_id": "r2",
+   "ts": "2026-11-14T08:05:00.200Z",
+   "elapsed_ms": 200,
+   "type": "tool_call",
+   "payload": {
+    "call_id": "r2-c1",
+    "tool": "outages",
+    "args": {
+     "area": "Kilamba"
+    }
+   }
+  },
+  {
+   "event_id": "e008",
+   "run_id": "r2",
+   "ts": "2026-11-14T08:05:00.400Z",
+   "elapsed_ms": 400,
+   "type": "tool_result",
+   "payload": {
+    "call_id": "r2-c1",
+    "result": {
+     "source_id": "SIGMOID_GOLF_LINE_BURST",
+     "text": "Burst main on the trunk line feeding Kilamba; repairs end 16 Nov at 22h00."
+    }
+   }
+  },
+  {
+   "event_id": "e009",
+   "run_id": "r2",
+   "ts": "2026-11-14T08:05:00.600Z",
+   "elapsed_ms": 600,
+   "type": "model_request",
+   "payload": {
+    "model": "m-7",
+    "context_ids": [
+     "SIGMOID_GOLF_LINE_BURST"
+    ],
+    "purpose": "summarize"
+   }
+  },
+  {
+   "event_id": "e010",
+   "run_id": "r2",
+   "ts": "2026-11-14T08:05:00.800Z",
+   "elapsed_ms": 800,
+   "type": "response",
+   "payload": {
+    "text": "Summary: Kilamba is without water until 22h00 on 16 November because of a burst main."
+   }
+  },
+  {
+   "event_id": "e011",
+   "run_id": "r2",
+   "ts": "2026-11-14T08:05:01.000Z",
+   "elapsed_ms": 1000,
+   "type": "tool_call",
+   "payload": {
+    "call_id": "r2-c2",
+    "tool": "outages",
+    "args": {
+     "area": "Kilamba"
+    }
+   }
+  },
+  {
+   "event_id": "e012",
+   "run_id": "r2",
+   "ts": "2026-11-14T08:05:01.200Z",
+   "elapsed_ms": 1200,
+   "type": "tool_result",
+   "payload": {
+    "call_id": "r2-c2",
+    "result": {
+     "source_id": "SIGMOID_FRESH_NOTICE",
+     "text": "EPAL: normal supply in Kilamba today, no interruption scheduled."
+    }
+   }
+  },
+  {
+   "event_id": "e013",
+   "run_id": "r2",
+   "ts": "2026-11-14T08:05:01.400Z",
+   "elapsed_ms": 1400,
+   "type": "model_request",
+   "payload": {
+    "model": "m-7",
+    "context_ids": [
+     "SIGMOID_FRESH_NOTICE"
+    ],
+    "messages": [
+     {
+      "role": "assistant",
+      "content": "Summary: Kilamba is without water until 22h00 on 16 November because of a burst main."
+     }
+    ]
+   }
+  },
+  {
+   "event_id": "e014",
+   "run_id": "r2",
+   "ts": "2026-11-14T08:05:01.600Z",
+   "elapsed_ms": 1600,
+   "type": "response",
+   "payload": {
+    "text": "Kilamba has no water until 22h00 on 16 November because of a burst main."
+   }
+  },
+  {
+   "event_id": "e015",
+   "run_id": "r3",
+   "ts": "2026-11-14T08:10:00.000Z",
+   "elapsed_ms": 0,
+   "type": "prompt",
+   "payload": {
+    "role": "user",
+    "text": "Is there water in Kilamba today?"
+   }
+  },
+  {
+   "event_id": "e016",
+   "run_id": "r3",
+   "ts": "2026-11-14T08:10:00.200Z",
+   "elapsed_ms": 200,
+   "type": "tool_call",
+   "payload": {
+    "call_id": "r3-c1",
+    "tool": "outages",
+    "args": {
+     "area": "Kilamba"
+    }
+   }
+  },
+  {
+   "event_id": "e017",
+   "run_id": "r3",
+   "ts": "2026-11-14T08:10:00.400Z",
+   "elapsed_ms": 400,
+   "type": "tool_result",
+   "payload": {
+    "call_id": "r3-c1",
+    "result": {
+     "source_id": "SIGMOID_FRESH_NOTICE",
+     "text": "EPAL: normal supply in Kilamba today, no interruption scheduled."
+    }
+   }
+  },
+  {
+   "event_id": "e018",
+   "run_id": "r3",
+   "ts": "2026-11-14T08:10:00.600Z",
+   "elapsed_ms": 600,
+   "type": "model_request",
+   "payload": {
+    "model": "m-7",
+    "context_ids": [
+     "SIGMOID_FRESH_NOTICE"
+    ]
+   }
+  },
+  {
+   "event_id": "e019",
+   "run_id": "r3",
+   "ts": "2026-11-14T08:10:00.800Z",
+   "elapsed_ms": 800,
+   "type": "response",
+   "payload": {
+    "text": "Kilamba has normal supply today; no interruption is scheduled."
+   }
+  }
+ ]
+}

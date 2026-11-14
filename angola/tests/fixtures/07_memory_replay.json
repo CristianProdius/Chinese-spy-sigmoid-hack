@@ -1,0 +1,187 @@
+{
+ "export": {
+  "format": "waterline-v3",
+  "runs": [
+   {
+    "run": "R1",
+    "channel": "whatsapp",
+    "events": [
+     {
+      "seq": 0,
+      "time": "2026-11-14 08:00:00",
+      "elapsed_s": 0.0,
+      "etype": "user",
+      "content": {
+       "text": "Quando volta a agua no Kilamba?"
+      }
+     },
+     {
+      "seq": 1,
+      "time": "2026-11-14 08:00:00",
+      "elapsed_s": 0.3,
+      "etype": "tool_call",
+      "content": {
+       "call_ref": "k1",
+       "tool": "epal_status",
+       "area": "Kilamba"
+      }
+     },
+     {
+      "seq": 2,
+      "time": "2026-11-14 08:00:01",
+      "elapsed_s": 1.2,
+      "etype": "tool_result",
+      "content": {
+       "call_ref": "k1",
+       "data": {
+        "source_id": "SIGMOID_EPAL_LIVE_STATUS",
+        "checked_at": "2026-11-14 07:55:00",
+        "text": "Kilamba: normal supply, no interruptions scheduled for 14 Nov 2026."
+       }
+      }
+     },
+     {
+      "seq": 3,
+      "time": "2026-10-12 14:00:00",
+      "elapsed_s": 1.5,
+      "etype": "memory_recall",
+      "content": {
+       "source_id": "SIGMOID_MEMORY_RECALL_1012",
+       "recalled_from": "2026-10-12",
+       "text": "Previous chat: Kilamba Kiaxi residents were told water returns Sunday at 18h00."
+      }
+     },
+     {
+      "seq": 4,
+      "time": "2026-11-14 08:00:01",
+      "elapsed_s": 1.7,
+      "etype": "model_request",
+      "content": {
+       "messages": [
+        {
+         "role": "user",
+         "content": "Quando volta a agua no Kilamba?"
+        },
+        {
+         "role": "tool",
+         "content": "Kilamba: normal supply, no interruptions scheduled for 14 Nov 2026."
+        }
+       ],
+       "evicted": [
+        "SIGMOID_MEMORY_RECALL_1012"
+       ]
+      }
+     },
+     {
+      "seq": 5,
+      "time": "2026-11-14 08:00:03",
+      "elapsed_s": 3.1,
+      "etype": "assistant",
+      "content": {
+       "text": "Kilamba tem abastecimento normal hoje, sem interrupcoes programadas."
+      }
+     }
+    ]
+   },
+   {
+    "run": "R2",
+    "channel": "whatsapp",
+    "events": [
+     {
+      "seq": 0,
+      "time": "2026-11-14 08:10:00",
+      "elapsed_s": 0.0,
+      "etype": "user",
+      "content": {
+       "text": "Quando volta a agua no Kilamba?"
+      }
+     },
+     {
+      "seq": 1,
+      "time": "2026-11-14 08:10:00",
+      "elapsed_s": 0.3,
+      "etype": "tool_call",
+      "content": {
+       "call_ref": "k2",
+       "tool": "epal_status",
+       "area": "Kilamba"
+      }
+     },
+     {
+      "seq": 2,
+      "time": "2026-11-14 08:10:01",
+      "elapsed_s": 1.2,
+      "etype": "tool_result",
+      "content": {
+       "call_ref": "k2",
+       "data": {
+        "source_id": "SIGMOID_EPAL_LIVE_STATUS",
+        "checked_at": "2026-11-14 07:55:00",
+        "text": "Kilamba: normal supply, no interruptions scheduled for 14 Nov 2026."
+       }
+      }
+     },
+     {
+      "seq": 3,
+      "time": "2026-11-14 08:10:01",
+      "elapsed_s": 1.4,
+      "etype": "memory_recall",
+      "content": {
+       "source_id": "SIGMOID_KIAXI_TANKER_ROTA",
+       "text": "Kilamba Kiaxi tanker rota for Golf 2."
+      }
+     },
+     {
+      "seq": 4,
+      "time": "2026-09-07 15:12:00",
+      "elapsed_s": 1.9,
+      "etype": "memory_recall",
+      "content": {
+       "source_id": "SIGMOID_MEMORY_RECALL_0907",
+       "recalled_from": "2026-09-07",
+       "text": "Earlier chat (7 Sep): a interrupcao no Kilamba termina sexta-feira as 18h00; camioes-cisterna no Bloco K."
+      }
+     },
+     {
+      "seq": 5,
+      "time": "2026-11-14 08:10:02",
+      "elapsed_s": 2.1,
+      "etype": "model_request",
+      "content": {
+       "messages": [
+        {
+         "role": "user",
+         "content": "Quando volta a agua no Kilamba?"
+        },
+        {
+         "role": "tool",
+         "content": "Kilamba: normal supply, no interruptions scheduled for 14 Nov 2026."
+        },
+        {
+         "role": "memory",
+         "content": "Earlier chat (7 Sep): a interrupcao no Kilamba termina sexta-feira as 18h00; camioes-cisterna no Bloco K."
+        }
+       ],
+       "evicted": [
+        "SIGMOID_KIAXI_TANKER_ROTA"
+       ]
+      }
+     },
+     {
+      "seq": 6,
+      "time": "2026-11-14 08:10:03",
+      "elapsed_s": 3.6,
+      "etype": "assistant",
+      "content": {
+       "text": "A interrupcao no Kilamba termina sexta-feira as 18h00; ha camioes-cisterna no Bloco K."
+      }
+     }
+    ]
+   }
+  ],
+  "review": {
+   "flagged_run": "R2",
+   "reason": "incorrect outage update sent to customer"
+  }
+ }
+}

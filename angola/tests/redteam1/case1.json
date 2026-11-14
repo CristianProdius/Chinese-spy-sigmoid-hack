@@ -1,0 +1,882 @@
+{
+  "export": {
+    "export_id": "SIGMOID_IRON_TAP_EXPORT",
+    "assistant": "luanda-city-services",
+    "exported_at": "2026-11-12T10:02:00Z",
+    "timezone_note": "ts values are UTC; *_local fields are Luanda time (WAT, UTC+01:00)",
+    "triage_note": "A customer was told Kilamba had no water until 13:00. First guess in triage was the FAQ item SIGMOID_COPPER_VALVE; not confirmed."
+  },
+  "events": [
+    {
+      "event_id": "e001",
+      "run_id": "run-01",
+      "ts": "2026-11-12T08:14:03.120Z",
+      "elapsed_ms": 0,
+      "type": "prompt",
+      "payload": {
+        "role": "user",
+        "text": "Is there water in Kilamba right now? When will it come back?",
+        "channel": "whatsapp",
+        "prompt_id": "SIGMOID_WATERLINE_PROMPT_V4"
+      }
+    },
+    {
+      "event_id": "e002",
+      "run_id": "run-01",
+      "ts": "2026-11-12T08:14:03.150Z",
+      "elapsed_ms": 30,
+      "type": "model_request",
+      "payload": {
+        "request_no": 1,
+        "model": "assistant-large-2026-09",
+        "purpose": "plan",
+        "messages": [
+          {
+            "role": "system",
+            "prompt_id": "SIGMOID_WATERLINE_PROMPT_V4"
+          },
+          {
+            "role": "user",
+            "text": "Is there water in Kilamba right now? When will it come back?"
+          }
+        ],
+        "tools": [
+          "outage_status",
+          "kb_search"
+        ]
+      }
+    },
+    {
+      "event_id": "e003",
+      "run_id": "run-01",
+      "ts": "2026-11-12T08:14:03.922Z",
+      "elapsed_ms": 802,
+      "type": "model_response",
+      "payload": {
+        "request_no": 1,
+        "latency_ms": 772,
+        "finish": "tool_calls",
+        "tool_calls": [
+          {
+            "call_id": "c-0101",
+            "name": "outage_status",
+            "args": {
+              "area": "Kilamba"
+            }
+          },
+          {
+            "call_id": "c-0102",
+            "name": "kb_search",
+            "args": {
+              "query": "Kilamba water supply today"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event_id": "e004",
+      "run_id": "run-01",
+      "ts": "2026-11-12T08:14:03.926Z",
+      "elapsed_ms": 806,
+      "type": "tool_call",
+      "payload": {
+        "call_id": "c-0101",
+        "name": "outage_status",
+        "args": {
+          "area": "Kilamba"
+        },
+        "timeout_ms": 2500
+      }
+    },
+    {
+      "event_id": "e005",
+      "run_id": "run-01",
+      "ts": "2026-11-12T08:14:03.927Z",
+      "elapsed_ms": 807,
+      "type": "tool_call",
+      "payload": {
+        "call_id": "c-0102",
+        "name": "kb_search",
+        "args": {
+          "query": "Kilamba water supply today"
+        },
+        "timeout_ms": 2500
+      }
+    },
+    {
+      "event_id": "e006",
+      "run_id": "run-01",
+      "ts": "2026-11-12T08:14:04.289Z",
+      "elapsed_ms": 1169,
+      "type": "tool_result",
+      "payload": {
+        "call_id": "c-0102",
+        "name": "kb_search",
+        "latency_ms": 362,
+        "result": {
+          "items": [
+            {
+              "source_id": "SIGMOID_COPPER_VALVE",
+              "title": "Low pressure after a restoration (Kilamba)",
+              "area": "Kilamba",
+              "text": "After supply comes back, high-rise blocks in Kilamba need 2-3 hours for building tanks and pumps to refill. If there is still no water after that, report your quarteirao and building to EPAL customer support.",
+              "score": 0.82,
+              "kept": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "event_id": "e007",
+      "run_id": "run-01",
+      "ts": "2026-11-12T08:14:04.291Z",
+      "elapsed_ms": 1171,
+      "type": "context_update",
+      "payload": {
+        "slot": "kb",
+        "source_id": "SIGMOID_COPPER_VALVE",
+        "from_call": "c-0102",
+        "policy": "last_write_wins"
+      }
+    },
+    {
+      "event_id": "e008",
+      "run_id": "run-01",
+      "ts": "2026-11-12T08:14:04.328Z",
+      "elapsed_ms": 1208,
+      "type": "tool_result",
+      "payload": {
+        "call_id": "c-0101",
+        "name": "outage_status",
+        "latency_ms": 402,
+        "result": {
+          "items": [
+            {
+              "source_id": "SIGMOID_MORNING_CHORUS",
+              "area": "Kilamba",
+              "zone": "KLB",
+              "status": "restored",
+              "restored_at_local": "2026-11-12 07:50",
+              "cause": "burst on the DN800 Bita-Kilamba conduit (repaired overnight)",
+              "note": "upper floors may have low pressure until about 11:00",
+              "as_of": "2026-11-12T08:14:04Z",
+              "served_by": "status-primary"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "event_id": "e009",
+      "run_id": "run-01",
+      "ts": "2026-11-12T08:14:04.330Z",
+      "elapsed_ms": 1210,
+      "type": "context_update",
+      "payload": {
+        "slot": "outage_status",
+        "source_id": "SIGMOID_MORNING_CHORUS",
+        "from_call": "c-0101",
+        "policy": "last_write_wins"
+      }
+    },
+    {
+      "event_id": "e010",
+      "run_id": "run-01",
+      "ts": "2026-11-12T08:14:04.338Z",
+      "elapsed_ms": 1218,
+      "type": "model_request",
+      "payload": {
+        "request_no": 2,
+        "model": "assistant-large-2026-09",
+        "purpose": "answer",
+        "messages": [
+          {
+            "role": "system",
+            "prompt_id": "SIGMOID_WATERLINE_PROMPT_V4"
+          },
+          {
+            "role": "user",
+            "text": "Is there water in Kilamba right now? When will it come back?"
+          }
+        ],
+        "context": [
+          {
+            "slot": "outage_status",
+            "source_id": "SIGMOID_MORNING_CHORUS",
+            "text": "Kilamba: supply restored at 07:50 (Luanda time). Cause: burst on the DN800 Bita-Kilamba conduit (repaired overnight). Note: upper floors may have low pressure until about 11:00. Status as of 2026-11-12T08:14:04Z."
+          },
+          {
+            "slot": "kb",
+            "source_id": "SIGMOID_COPPER_VALVE",
+            "text": "After supply comes back, high-rise blocks in Kilamba need 2-3 hours for building tanks and pumps to refill. If there is still no water after that, report your quarteirao and building to EPAL customer support."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": "e011",
+      "run_id": "run-01",
+      "ts": "2026-11-12T08:14:05.851Z",
+      "elapsed_ms": 2731,
+      "type": "model_response",
+      "payload": {
+        "request_no": 2,
+        "latency_ms": 1513,
+        "finish": "stop",
+        "text": "Yes. Supply in Kilamba was restored at 07:50 this morning after the overnight repair of the DN800 Bita-Kilamba conduit. Upper floors may have low pressure until about 11:00. (EPAL status as of 09:14 Luanda time.)"
+      }
+    },
+    {
+      "event_id": "e012",
+      "run_id": "run-01",
+      "ts": "2026-11-12T08:14:05.860Z",
+      "elapsed_ms": 2740,
+      "type": "run_end",
+      "payload": {
+        "status": "completed",
+        "delivered": true
+      }
+    },
+    {
+      "event_id": "e013",
+      "run_id": "run-02",
+      "ts": "2026-11-12T08:31:40.000Z",
+      "elapsed_ms": 0,
+      "type": "prompt",
+      "payload": {
+        "role": "user",
+        "text": "Is there water in Kilamba right now? When will it come back?",
+        "channel": "whatsapp",
+        "prompt_id": "SIGMOID_WATERLINE_PROMPT_V4"
+      }
+    },
+    {
+      "event_id": "e014",
+      "run_id": "run-02",
+      "ts": "2026-11-12T08:31:40.030Z",
+      "elapsed_ms": 30,
+      "type": "model_request",
+      "payload": {
+        "request_no": 1,
+        "model": "assistant-large-2026-09",
+        "purpose": "plan",
+        "messages": [
+          {
+            "role": "system",
+            "prompt_id": "SIGMOID_WATERLINE_PROMPT_V4"
+          },
+          {
+            "role": "user",
+            "text": "Is there water in Kilamba right now? When will it come back?"
+          }
+        ],
+        "tools": [
+          "outage_status",
+          "kb_search"
+        ]
+      }
+    },
+    {
+      "event_id": "e015",
+      "run_id": "run-02",
+      "ts": "2026-11-12T08:31:40.811Z",
+      "elapsed_ms": 811,
+      "type": "model_response",
+      "payload": {
+        "request_no": 1,
+        "latency_ms": 781,
+        "finish": "tool_calls",
+        "tool_calls": [
+          {
+            "call_id": "c-0201",
+            "name": "outage_status",
+            "args": {
+              "area": "Kilamba"
+            }
+          },
+          {
+            "call_id": "c-0202",
+            "name": "kb_search",
+            "args": {
+              "query": "Kilamba water supply today"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event_id": "e016",
+      "run_id": "run-02",
+      "ts": "2026-11-12T08:31:40.815Z",
+      "elapsed_ms": 815,
+      "type": "tool_call",
+      "payload": {
+        "call_id": "c-0201",
+        "name": "outage_status",
+        "args": {
+          "area": "Kilamba"
+        },
+        "timeout_ms": 2500
+      }
+    },
+    {
+      "event_id": "e017",
+      "run_id": "run-02",
+      "ts": "2026-11-12T08:31:40.816Z",
+      "elapsed_ms": 816,
+      "type": "tool_call",
+      "payload": {
+        "call_id": "c-0202",
+        "name": "kb_search",
+        "args": {
+          "query": "Kilamba water supply today"
+        },
+        "timeout_ms": 2500
+      }
+    },
+    {
+      "event_id": "e018",
+      "run_id": "run-02",
+      "ts": "2026-11-12T08:31:41.190Z",
+      "elapsed_ms": 1190,
+      "type": "tool_result",
+      "payload": {
+        "call_id": "c-0202",
+        "name": "kb_search",
+        "latency_ms": 374,
+        "result": {
+          "items": [
+            {
+              "source_id": "SIGMOID_COPPER_VALVE",
+              "title": "Low pressure after a restoration (Kilamba)",
+              "area": "Kilamba",
+              "text": "After supply comes back, high-rise blocks in Kilamba need 2-3 hours for building tanks and pumps to refill. If there is still no water after that, report your quarteirao and building to EPAL customer support.",
+              "score": 0.82,
+              "kept": true
+            },
+            {
+              "source_id": "SIGMOID_RED_EARTH",
+              "title": "Scheduled interruption",
+              "area": "Kilamba Kiaxi",
+              "text": "Kilamba Kiaxi municipality: scheduled interruption on 12 Nov from 10:00 to 16:00 in Golfe 2 and Sapu for network works.",
+              "score": 0.71,
+              "kept": false,
+              "drop_reason": "score_below_0.75"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "event_id": "e019",
+      "run_id": "run-02",
+      "ts": "2026-11-12T08:31:41.192Z",
+      "elapsed_ms": 1192,
+      "type": "context_update",
+      "payload": {
+        "slot": "kb",
+        "source_id": "SIGMOID_COPPER_VALVE",
+        "from_call": "c-0202",
+        "policy": "last_write_wins"
+      }
+    },
+    {
+      "event_id": "e020",
+      "run_id": "run-02",
+      "ts": "2026-11-12T08:31:43.315Z",
+      "elapsed_ms": 3315,
+      "type": "tool_timeout",
+      "payload": {
+        "call_id": "c-0201",
+        "after_ms": 2500,
+        "action": "retry",
+        "retry_call_id": "c-0203",
+        "original_call": "kept_open",
+        "hard_deadline_ms": 8000
+      }
+    },
+    {
+      "event_id": "e021",
+      "run_id": "run-02",
+      "ts": "2026-11-12T08:31:43.320Z",
+      "elapsed_ms": 3320,
+      "type": "tool_call",
+      "payload": {
+        "call_id": "c-0203",
+        "name": "outage_status",
+        "args": {
+          "area": "Kilamba"
+        },
+        "timeout_ms": 2500,
+        "retry_of": "c-0201"
+      }
+    },
+    {
+      "event_id": "e022",
+      "run_id": "run-02",
+      "ts": "2026-11-12T08:31:43.742Z",
+      "elapsed_ms": 3742,
+      "type": "tool_result",
+      "payload": {
+        "call_id": "c-0203",
+        "name": "outage_status",
+        "latency_ms": 422,
+        "result": {
+          "items": [
+            {
+              "source_id": "SIGMOID_SECOND_WIND",
+              "area": "Kilamba",
+              "zone": "KLB",
+              "status": "restored",
+              "restored_at_local": "2026-11-12 07:50",
+              "cause": "burst on the DN800 Bita-Kilamba conduit (repaired overnight)",
+              "note": "upper floors may have low pressure until about 11:00",
+              "as_of": "2026-11-12T08:31:43Z",
+              "served_by": "status-primary"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "event_id": "e023",
+      "run_id": "run-02",
+      "ts": "2026-11-12T08:31:43.745Z",
+      "elapsed_ms": 3745,
+      "type": "context_update",
+      "payload": {
+        "slot": "outage_status",
+        "source_id": "SIGMOID_SECOND_WIND",
+        "from_call": "c-0203",
+        "policy": "last_write_wins"
+      }
+    },
+    {
+      "event_id": "e024",
+      "run_id": "run-02",
+      "ts": "2026-11-12T08:31:46.930Z",
+      "elapsed_ms": 6930,
+      "type": "tool_result",
+      "payload": {
+        "call_id": "c-0201",
+        "name": "outage_status",
+        "latency_ms": 6115,
+        "result": {
+          "items": [
+            {
+              "source_id": "SIGMOID_TIN_ROOF_RAIN",
+              "area": "Kilamba",
+              "zone": "KLB",
+              "status": "interrupted",
+              "since_local": "2026-11-12 02:30",
+              "eta_local": "2026-11-12 13:00",
+              "cause": "burst on the DN800 Bita-Kilamba conduit near the Bita junction; crews on site",
+              "as_of": "2026-11-12T06:05:00Z",
+              "served_by": "status-replica-b"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "event_id": "e025",
+      "run_id": "run-02",
+      "ts": "2026-11-12T08:31:46.932Z",
+      "elapsed_ms": 6932,
+      "type": "context_update",
+      "payload": {
+        "slot": "outage_status",
+        "source_id": "SIGMOID_TIN_ROOF_RAIN",
+        "from_call": "c-0201",
+        "replaced": "SIGMOID_SECOND_WIND",
+        "policy": "last_write_wins"
+      }
+    },
+    {
+      "event_id": "e026",
+      "run_id": "run-02",
+      "ts": "2026-11-12T08:31:46.940Z",
+      "elapsed_ms": 6940,
+      "type": "model_request",
+      "payload": {
+        "request_no": 2,
+        "model": "assistant-large-2026-09",
+        "purpose": "answer",
+        "messages": [
+          {
+            "role": "system",
+            "prompt_id": "SIGMOID_WATERLINE_PROMPT_V4"
+          },
+          {
+            "role": "user",
+            "text": "Is there water in Kilamba right now? When will it come back?"
+          }
+        ],
+        "context": [
+          {
+            "slot": "outage_status",
+            "source_id": "SIGMOID_TIN_ROOF_RAIN",
+            "text": "Kilamba: supply interrupted since 02:30, expected back by 13:00 (Luanda time). Cause: burst on the DN800 Bita-Kilamba conduit near the Bita junction; crews on site. Status as of 2026-11-12T06:05:00Z."
+          },
+          {
+            "slot": "kb",
+            "source_id": "SIGMOID_COPPER_VALVE",
+            "text": "After supply comes back, high-rise blocks in Kilamba need 2-3 hours for building tanks and pumps to refill. If there is still no water after that, report your quarteirao and building to EPAL customer support."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": "e027",
+      "run_id": "run-02",
+      "ts": "2026-11-12T08:31:48.420Z",
+      "elapsed_ms": 8420,
+      "type": "model_response",
+      "payload": {
+        "request_no": 2,
+        "latency_ms": 1480,
+        "finish": "stop",
+        "text": "Right now there is no water in Kilamba. A burst on the DN800 Bita-Kilamba conduit near the Bita junction cut supply at 02:30, and EPAL crews are on site. Supply is expected back by 13:00 today. (EPAL status as of 07:05 Luanda time.)"
+      }
+    },
+    {
+      "event_id": "e028",
+      "run_id": "run-02",
+      "ts": "2026-11-12T08:31:48.430Z",
+      "elapsed_ms": 8430,
+      "type": "run_end",
+      "payload": {
+        "status": "completed",
+        "delivered": true
+      }
+    },
+    {
+      "event_id": "e029",
+      "run_id": "run-03",
+      "ts": "2026-11-12T08:47:12.500Z",
+      "elapsed_ms": 0,
+      "type": "prompt",
+      "payload": {
+        "role": "user",
+        "text": "Is there water in Kilamba right now? When will it come back?",
+        "channel": "whatsapp",
+        "prompt_id": "SIGMOID_WATERLINE_PROMPT_V4"
+      }
+    },
+    {
+      "event_id": "e030",
+      "run_id": "run-03",
+      "ts": "2026-11-12T08:47:12.530Z",
+      "elapsed_ms": 30,
+      "type": "model_request",
+      "payload": {
+        "request_no": 1,
+        "model": "assistant-large-2026-09",
+        "purpose": "plan",
+        "messages": [
+          {
+            "role": "system",
+            "prompt_id": "SIGMOID_WATERLINE_PROMPT_V4"
+          },
+          {
+            "role": "user",
+            "text": "Is there water in Kilamba right now? When will it come back?"
+          }
+        ],
+        "tools": [
+          "outage_status",
+          "kb_search"
+        ]
+      }
+    },
+    {
+      "event_id": "e031",
+      "run_id": "run-03",
+      "ts": "2026-11-12T08:47:13.261Z",
+      "elapsed_ms": 761,
+      "type": "model_response",
+      "payload": {
+        "request_no": 1,
+        "latency_ms": 731,
+        "finish": "tool_calls",
+        "tool_calls": [
+          {
+            "call_id": "c-0301",
+            "name": "outage_status",
+            "args": {
+              "area": "Kilamba"
+            }
+          },
+          {
+            "call_id": "c-0302",
+            "name": "kb_search",
+            "args": {
+              "query": "Kilamba water supply today"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "event_id": "e032",
+      "run_id": "run-03",
+      "ts": "2026-11-12T08:47:13.265Z",
+      "elapsed_ms": 765,
+      "type": "tool_call",
+      "payload": {
+        "call_id": "c-0301",
+        "name": "outage_status",
+        "args": {
+          "area": "Kilamba"
+        },
+        "timeout_ms": 2500
+      }
+    },
+    {
+      "event_id": "e033",
+      "run_id": "run-03",
+      "ts": "2026-11-12T08:47:13.266Z",
+      "elapsed_ms": 766,
+      "type": "tool_call",
+      "payload": {
+        "call_id": "c-0302",
+        "name": "kb_search",
+        "args": {
+          "query": "Kilamba water supply today"
+        },
+        "timeout_ms": 2500
+      }
+    },
+    {
+      "event_id": "e034",
+      "run_id": "run-03",
+      "ts": "2026-11-12T08:47:13.625Z",
+      "elapsed_ms": 1125,
+      "type": "tool_result",
+      "payload": {
+        "call_id": "c-0302",
+        "name": "kb_search",
+        "latency_ms": 359,
+        "result": {
+          "items": [
+            {
+              "source_id": "SIGMOID_COPPER_VALVE",
+              "title": "Low pressure after a restoration (Kilamba)",
+              "area": "Kilamba",
+              "text": "After supply comes back, high-rise blocks in Kilamba need 2-3 hours for building tanks and pumps to refill. If there is still no water after that, report your quarteirao and building to EPAL customer support.",
+              "score": 0.82,
+              "kept": true
+            },
+            {
+              "source_id": "SIGMOID_RED_EARTH",
+              "title": "Scheduled interruption",
+              "area": "Kilamba Kiaxi",
+              "text": "Kilamba Kiaxi municipality: scheduled interruption on 12 Nov from 10:00 to 16:00 in Golfe 2 and Sapu for network works.",
+              "score": 0.71,
+              "kept": false,
+              "drop_reason": "score_below_0.75"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "event_id": "e035",
+      "run_id": "run-03",
+      "ts": "2026-11-12T08:47:13.627Z",
+      "elapsed_ms": 1127,
+      "type": "context_update",
+      "payload": {
+        "slot": "kb",
+        "source_id": "SIGMOID_COPPER_VALVE",
+        "from_call": "c-0302",
+        "policy": "last_write_wins"
+      }
+    },
+    {
+      "event_id": "e036",
+      "run_id": "run-03",
+      "ts": "2026-11-12T08:47:15.765Z",
+      "elapsed_ms": 3265,
+      "type": "tool_timeout",
+      "payload": {
+        "call_id": "c-0301",
+        "after_ms": 2500,
+        "action": "retry",
+        "retry_call_id": "c-0303",
+        "original_call": "kept_open",
+        "hard_deadline_ms": 8000
+      }
+    },
+    {
+      "event_id": "e037",
+      "run_id": "run-03",
+      "ts": "2026-11-12T08:47:15.770Z",
+      "elapsed_ms": 3270,
+      "type": "tool_call",
+      "payload": {
+        "call_id": "c-0303",
+        "name": "outage_status",
+        "args": {
+          "area": "Kilamba"
+        },
+        "timeout_ms": 2500,
+        "retry_of": "c-0301"
+      }
+    },
+    {
+      "event_id": "e038",
+      "run_id": "run-03",
+      "ts": "2026-11-12T08:47:16.180Z",
+      "elapsed_ms": 3680,
+      "type": "tool_result",
+      "payload": {
+        "call_id": "c-0303",
+        "name": "outage_status",
+        "latency_ms": 410,
+        "result": {
+          "items": [
+            {
+              "source_id": "SIGMOID_AMBER_GAUGE",
+              "area": "Kilamba",
+              "zone": "KLB",
+              "status": "restored",
+              "restored_at_local": "2026-11-12 07:50",
+              "cause": "burst on the DN800 Bita-Kilamba conduit (repaired overnight)",
+              "note": "upper floors may have low pressure until about 11:00",
+              "as_of": "2026-11-12T08:47:16Z",
+              "served_by": "status-primary"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "event_id": "e039",
+      "run_id": "run-03",
+      "ts": "2026-11-12T08:47:16.182Z",
+      "elapsed_ms": 3682,
+      "type": "context_update",
+      "payload": {
+        "slot": "outage_status",
+        "source_id": "SIGMOID_AMBER_GAUGE",
+        "from_call": "c-0303",
+        "policy": "last_write_wins"
+      }
+    },
+    {
+      "event_id": "e040",
+      "run_id": "run-03",
+      "ts": "2026-11-12T08:47:21.265Z",
+      "elapsed_ms": 8765,
+      "type": "settle_deadline",
+      "payload": {
+        "waiting_on": [
+          "c-0301"
+        ],
+        "action": "send_without_pending"
+      }
+    },
+    {
+      "event_id": "e041",
+      "run_id": "run-03",
+      "ts": "2026-11-12T08:47:21.267Z",
+      "elapsed_ms": 8767,
+      "type": "model_request",
+      "payload": {
+        "request_no": 2,
+        "model": "assistant-large-2026-09",
+        "purpose": "answer",
+        "messages": [
+          {
+            "role": "system",
+            "prompt_id": "SIGMOID_WATERLINE_PROMPT_V4"
+          },
+          {
+            "role": "user",
+            "text": "Is there water in Kilamba right now? When will it come back?"
+          }
+        ],
+        "context": [
+          {
+            "slot": "outage_status",
+            "source_id": "SIGMOID_AMBER_GAUGE",
+            "text": "Kilamba: supply restored at 07:50 (Luanda time). Cause: burst on the DN800 Bita-Kilamba conduit (repaired overnight). Note: upper floors may have low pressure until about 11:00. Status as of 2026-11-12T08:47:16Z."
+          },
+          {
+            "slot": "kb",
+            "source_id": "SIGMOID_COPPER_VALVE",
+            "text": "After supply comes back, high-rise blocks in Kilamba need 2-3 hours for building tanks and pumps to refill. If there is still no water after that, report your quarteirao and building to EPAL customer support."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": "e042",
+      "run_id": "run-03",
+      "ts": "2026-11-12T08:47:21.710Z",
+      "elapsed_ms": 9210,
+      "type": "tool_result",
+      "payload": {
+        "call_id": "c-0301",
+        "name": "outage_status",
+        "latency_ms": 8445,
+        "result": {
+          "items": [
+            {
+              "source_id": "SIGMOID_DUSTY_METER",
+              "area": "Kilamba",
+              "zone": "KLB",
+              "status": "interrupted",
+              "since_local": "2026-11-12 02:30",
+              "eta_local": "2026-11-12 13:00",
+              "cause": "burst on the DN800 Bita-Kilamba conduit near the Bita junction; crews on site",
+              "as_of": "2026-11-12T06:20:00Z",
+              "served_by": "status-replica-b"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "event_id": "e043",
+      "run_id": "run-03",
+      "ts": "2026-11-12T08:47:21.712Z",
+      "elapsed_ms": 9212,
+      "type": "context_update",
+      "payload": {
+        "slot": "outage_status",
+        "source_id": "SIGMOID_DUSTY_METER",
+        "from_call": "c-0301",
+        "replaced": "SIGMOID_AMBER_GAUGE",
+        "policy": "last_write_wins"
+      }
+    },
+    {
+      "event_id": "e044",
+      "run_id": "run-03",
+      "ts": "2026-11-12T08:47:22.790Z",
+      "elapsed_ms": 10290,
+      "type": "model_response",
+      "payload": {
+        "request_no": 2,
+        "latency_ms": 1523,
+        "finish": "stop",
+        "text": "Yes. Supply in Kilamba was restored at 07:50 this morning after the overnight repair of the DN800 Bita-Kilamba conduit. Upper floors may have low pressure until about 11:00. (EPAL status as of 09:47 Luanda time.)"
+      }
+    },
+    {
+      "event_id": "e045",
+      "run_id": "run-03",
+      "ts": "2026-11-12T08:47:22.800Z",
+      "elapsed_ms": 10300,
+      "type": "run_end",
+      "payload": {
+        "status": "completed",
+        "delivered": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+ "export": {
+  "events": [
+   {
+    "run_id": "r1",
+    "at": "2026-11-14T09:00:00+01:00",
+    "elapsed_ms": 0,
+    "event": "user_prompt",
+    "data": {
+     "text": "Kilamba: is water coming back today?"
+    }
+   },
+   {
+    "run_id": "r1",
+    "at": "2026-11-14T09:00:00+01:00",
+    "elapsed_ms": 100,
+    "event": "tool_call",
+    "data": {
+     "call_id": "call-r1",
+     "name": "outages",
+     "area": "Kilamba"
+    }
+   },
+   {
+    "run_id": "r1",
+    "at": "2026-11-14T09:00:00+01:00",
+    "elapsed_ms": 800,
+    "event": "tool_result",
+    "data": {
+     "call_id": "call-r1",
+     "items": [
+      {
+       "item_id": "ci-r1-1",
+       "source_id": "SIGMOID_TODAY_SCHEDULE",
+       "text": "Kilamba: supply back at 15h00 today (14/11) after valve works."
+      }
+     ]
+    }
+   },
+   {
+    "run_id": "r1",
+    "at": "2026-11-14T09:00:00+01:00",
+    "elapsed_ms": 900,
+    "event": "context_item",
+    "data": {
+     "item_id": "ci-r1-5",
+     "source_id": "SIGMOID_UNMATCHED_RESULT",
+     "text": "Kilamba: supply suspended until 18/11 for reservoir cleaning."
+    }
+   },
+   {
+    "run_id": "r1",
+    "at": "2026-11-14T09:00:01+01:00",
+    "elapsed_ms": 1000,
+    "event": "model_request",
+    "data": {
+     "context_item_ids": [
+      "ci-r1-1"
+     ],
+     "omitted_item_ids": [
+      "ci-r1-5"
+     ],
+     "model": "m-5"
+    }
+   },
+   {
+    "run_id": "r1",
+    "at": "2026-11-14T09:00:02+01:00",
+    "elapsed_ms": 2400,
+    "event": "model_response",
+    "data": {
+     "text": "Yes, water returns in Kilamba at 15h00 today, 14 November, once the valve works finish."
+    }
+   },
+   {
+    "run_id": "r2",
+    "at": "2026-11-14T09:03:00+01:00",
+    "elapsed_ms": 0,
+    "event": "user_prompt",
+    "data": {
+     "text": "Kilamba: is water coming back today?"
+    }
+   },
+   {
+    "run_id": "r2",
+    "at": "2026-11-14T09:03:00+01:00",
+    "elapsed_ms": 100,
+    "event": "tool_call",
+    "data": {
+     "call_id": "call-r2",
+     "name": "outages",
+     "area": "Kilamba"
+    }
+   },
+   {
+    "run_id": "r2",
+    "at": "2026-11-14T09:03:00+01:00",
+    "elapsed_ms": 800,
+    "event": "tool_result",
+    "data": {
+     "call_id": "call-r2",
+     "items": [
+      {
+       "item_id": "ci-r2-1",
+       "source_id": "SIGMOID_TODAY_SCHEDULE",
+       "text": "Kilamba: supply back at 15h00 today (14/11) after valve works."
+      }
+     ]
+    }
+   },
+   {
+    "run_id": "r2",
+    "at": "2026-11-14T09:03:00+01:00",
+    "elapsed_ms": 900,
+    "event": "tool_result",
+    "data": {
+     "call_id": "call-77",
+     "items": [
+      {
+       "item_id": "ci-r2-9",
+       "source_id": "SIGMOID_UNMATCHED_RESULT",
+       "text": "Kilamba: supply suspended until 18/11 for reservoir cleaning."
+      }
+     ]
+    }
+   },
+   {
+    "run_id": "r2",
+    "at": "2026-11-14T09:03:01+01:00",
+    "elapsed_ms": 1000,
+    "event": "model_request",
+    "data": {
+     "context_item_ids": [
+      "ci-r2-9"
+     ],
+     "omitted_item_ids": [
+      "ci-r2-1"
+     ],
+     "model": "m-5"
+    }
+   },
+   {
+    "run_id": "r2",
+    "at": "2026-11-14T09:03:02+01:00",
+    "elapsed_ms": 2400,
+    "event": "model_response",
+    "data": {
+     "text": "No. Kilamba stays without water until 18 November for reservoir cleaning."
+    }
+   },
+   {
+    "run_id": "r3",
+    "at": "2026-11-14T09:06:00+01:00",
+    "elapsed_ms": 0,
+    "event": "user_prompt",
+    "data": {
+     "text": "Kilamba: is water coming back today?"
+    }
+   },
+   {
+    "run_id": "r3",
+    "at": "2026-11-14T09:06:00+01:00",
+    "elapsed_ms": 100,
+    "event": "tool_call",
+    "data": {
+     "call_id": "call-r3",
+     "name": "outages",
+     "area": "Kilamba"
+    }
+   },
+   {
+    "run_id": "r3",
+    "at": "2026-11-14T09:06:00+01:00",
+    "elapsed_ms": 800,
+    "event": "tool_result",
+    "data": {
+     "call_id": "call-r3",
+     "items": [
+      {
+       "item_id": "ci-r3-1",
+       "source_id": "SIGMOID_TODAY_SCHEDULE",
+       "text": "Kilamba: supply back at 15h00 today (14/11) after valve works."
+      }
+     ]
+    }
+   },
+   {
+    "run_id": "r3",
+    "at": "2026-11-14T09:06:01+01:00",
+    "elapsed_ms": 1000,
+    "event": "model_request",
+    "data": {
+     "context_item_ids": [
+      "ci-r3-1"
+     ],
+     "omitted_item_ids": [],
+     "model": "m-5"
+    }
+   },
+   {
+    "run_id": "r3",
+    "at": "2026-11-14T09:06:02+01:00",
+    "elapsed_ms": 2400,
+    "event": "model_response",
+    "data": {
+     "text": "Supply in Kilamba comes back today at 15h00 (14/11)."
+    }
+   }
+  ]
+ }
+}

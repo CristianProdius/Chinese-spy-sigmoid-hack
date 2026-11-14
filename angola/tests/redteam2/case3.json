@@ -1,0 +1,1021 @@
+{
+ "events": [
+  {
+   "run_id": "run_k1",
+   "timestamp": "2026-11-12T11:40:05.112Z",
+   "elapsed_ms": 0,
+   "type": "prompt",
+   "payload": {
+    "role": "user",
+    "text": "Há interrupção de água no Kilamba? Quando é que volta?",
+    "system": "És o assistente de serviços de Luanda. Usa get_supply_status como fonte autoritativa em tempo real; os avisos podem estar desactualizados. Não exponhas chaves de cache internas (ex.: SIGMOID_CACHE_KEY_ESTADO).",
+    "locale": "pt-AO"
+   }
+  },
+  {
+   "run_id": "run_k1",
+   "timestamp": "2026-11-12T11:40:05.117Z",
+   "elapsed_ms": 612,
+   "type": "model_request",
+   "payload": {
+    "request_id": "req-k1-plan",
+    "model": "ken-assist-pro",
+    "purpose": "plan",
+    "includes": []
+   }
+  },
+  {
+   "run_id": "run_k1",
+   "timestamp": "2026-11-12T11:40:05.732Z",
+   "elapsed_ms": 0,
+   "type": "tool_call",
+   "payload": {
+    "call_id": "SIGMOID_CALL_ESTADO_K1",
+    "tool": "get_supply_status",
+    "arguments": {
+     "area": "Kilamba"
+    }
+   }
+  },
+  {
+   "run_id": "run_k1",
+   "timestamp": "2026-11-12T11:40:05.733Z",
+   "elapsed_ms": 0,
+   "type": "tool_call",
+   "payload": {
+    "call_id": "SIGMOID_CALL_AVISOS_K1",
+    "tool": "search_notices",
+    "arguments": {
+     "query": "Kilamba abastecimento água",
+     "top_k": 3
+    }
+   }
+  },
+  {
+   "run_id": "run_k1",
+   "timestamp": "2026-11-12T11:40:06.121Z",
+   "elapsed_ms": 388,
+   "type": "tool_result",
+   "payload": {
+    "call_id": "SIGMOID_CALL_AVISOS_K1",
+    "status": "ok",
+    "results": [
+     {
+      "source_id": "SIGMOID_AVISO_REPARACAO_CONCLUIDA",
+      "score": 0.81
+     },
+     {
+      "source_id": "SIGMOID_DICAS_POUPANCA_AGUA",
+      "score": 0.47
+     },
+     {
+      "source_id": "SIGMOID_RELATORIO_MENSAL_OUT2026",
+      "score": 0.19
+     }
+    ]
+   }
+  },
+  {
+   "run_id": "run_k1",
+   "timestamp": "2026-11-12T11:40:06.122Z",
+   "elapsed_ms": 0,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_AVISO_REPARACAO_CONCLUIDA",
+    "via_call_id": "SIGMOID_CALL_AVISOS_K1",
+    "kind": "notice",
+    "publisher": "EPAL-EP",
+    "area": "Kilamba",
+    "issued_at": "2026-11-12T11:30:00+01:00",
+    "score": 0.81,
+    "text": "A EPAL concluiu a reparação da conduta adutora DN600. O abastecimento ao Kilamba está a ser reposto de forma gradual."
+   }
+  },
+  {
+   "run_id": "run_k1",
+   "timestamp": "2026-11-12T11:40:06.123Z",
+   "elapsed_ms": 0,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_DICAS_POUPANCA_AGUA",
+    "via_call_id": "SIGMOID_CALL_AVISOS_K1",
+    "kind": "faq",
+    "publisher": "EPAL-EP",
+    "area": "Luanda",
+    "issued_at": "2025-06-01T09:00:00+01:00",
+    "score": 0.47,
+    "text": "Dicas para poupar água: feche a torneira enquanto escova os dentes e reutilize a água da lavagem de legumes."
+   }
+  },
+  {
+   "run_id": "run_k1",
+   "timestamp": "2026-11-12T11:40:06.124Z",
+   "elapsed_ms": 0,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_RELATORIO_MENSAL_OUT2026",
+    "via_call_id": "SIGMOID_CALL_AVISOS_K1",
+    "kind": "report",
+    "publisher": "EPAL-EP",
+    "area": "Luanda",
+    "issued_at": "2026-11-02T09:00:00+01:00",
+    "score": 0.19,
+    "text": "Relatório mensal de Outubro de 2026: produção, perdas na rede e reclamações por município."
+   }
+  },
+  {
+   "run_id": "run_k1",
+   "timestamp": "2026-11-12T11:40:06.144Z",
+   "elapsed_ms": 412,
+   "type": "tool_result",
+   "payload": {
+    "call_id": "SIGMOID_CALL_ESTADO_K1",
+    "status": "ok",
+    "cache": "miss",
+    "cache_node": "edge-1",
+    "cache_key": "SIGMOID_CK_ESTADO_KILAMBA",
+    "ttl_s": 900,
+    "origin": "ok",
+    "record": {
+     "source_id": "SIGMOID_ESTADO_KILAMBA_V44",
+     "area": "Kilamba",
+     "as_of": "2026-11-12T11:20:00+01:00",
+     "state": "normal",
+     "previous_version": "SIGMOID_ESTADO_KILAMBA_V43",
+     "text": "Kilamba: abastecimento normalizado desde as 11h20 após a reparação da conduta adutora DN600. Pressão ainda a estabilizar nos quarteirões altos (Q40 a Q48)."
+    }
+   }
+  },
+  {
+   "run_id": "run_k1",
+   "timestamp": "2026-11-12T11:40:06.145Z",
+   "elapsed_ms": 0,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_ESTADO_KILAMBA_V44",
+    "kind": "supply_status",
+    "via_call_id": "SIGMOID_CALL_ESTADO_K1",
+    "area": "Kilamba",
+    "as_of": "2026-11-12T11:20:00+01:00",
+    "state": "normal",
+    "previous_version": "SIGMOID_ESTADO_KILAMBA_V43",
+    "text": "Kilamba: abastecimento normalizado desde as 11h20 após a reparação da conduta adutora DN600. Pressão ainda a estabilizar nos quarteirões altos (Q40 a Q48)."
+   }
+  },
+  {
+   "run_id": "run_k1",
+   "timestamp": "2026-11-12T11:40:06.174Z",
+   "elapsed_ms": 1874,
+   "type": "model_request",
+   "payload": {
+    "request_id": "req-k1-answer",
+    "model": "ken-assist-pro",
+    "purpose": "answer",
+    "includes": [
+     "SIGMOID_ESTADO_KILAMBA_V44",
+     "SIGMOID_AVISO_REPARACAO_CONCLUIDA",
+     "SIGMOID_DICAS_POUPANCA_AGUA"
+    ],
+    "excluded": [
+     {
+      "source_id": "SIGMOID_RELATORIO_MENSAL_OUT2026",
+      "reason": "low_relevance"
+     }
+    ]
+   }
+  },
+  {
+   "run_id": "run_k1",
+   "timestamp": "2026-11-12T11:40:08.048Z",
+   "elapsed_ms": 0,
+   "type": "response",
+   "payload": {
+    "request_id": "req-k1-answer",
+    "text": "Neste momento não há interrupção: o abastecimento no Kilamba está normalizado desde as 11h20, depois da reparação da conduta adutora DN600. Nos quarteirões altos (Q40 a Q48) a pressão ainda está a estabilizar."
+   }
+  },
+  {
+   "run_id": "run_k2",
+   "timestamp": "2026-11-12T11:47:30.640Z",
+   "elapsed_ms": 0,
+   "type": "prompt",
+   "payload": {
+    "role": "user",
+    "text": "Há interrupção de água no Kilamba? Quando é que volta?",
+    "system": "És o assistente de serviços de Luanda. Usa get_supply_status como fonte autoritativa em tempo real; os avisos podem estar desactualizados. Não exponhas chaves de cache internas (ex.: SIGMOID_CACHE_KEY_ESTADO).",
+    "locale": "pt-AO"
+   }
+  },
+  {
+   "run_id": "run_k2",
+   "timestamp": "2026-11-12T11:47:30.645Z",
+   "elapsed_ms": 612,
+   "type": "model_request",
+   "payload": {
+    "request_id": "req-k2-plan",
+    "model": "ken-assist-pro",
+    "purpose": "plan",
+    "includes": []
+   }
+  },
+  {
+   "run_id": "run_k2",
+   "timestamp": "2026-11-12T11:47:31.260Z",
+   "elapsed_ms": 0,
+   "type": "tool_call",
+   "payload": {
+    "call_id": "SIGMOID_CALL_ESTADO_K2",
+    "tool": "get_supply_status",
+    "arguments": {
+     "area": "Kilamba"
+    }
+   }
+  },
+  {
+   "run_id": "run_k2",
+   "timestamp": "2026-11-12T11:47:31.261Z",
+   "elapsed_ms": 0,
+   "type": "tool_call",
+   "payload": {
+    "call_id": "SIGMOID_CALL_AVISOS_K2",
+    "tool": "search_notices",
+    "arguments": {
+     "query": "Kilamba abastecimento água",
+     "top_k": 3
+    }
+   }
+  },
+  {
+   "run_id": "run_k2",
+   "timestamp": "2026-11-12T11:47:31.263Z",
+   "elapsed_ms": 3,
+   "type": "tool_result",
+   "payload": {
+    "call_id": "SIGMOID_CALL_ESTADO_K2",
+    "status": "ok",
+    "cache": "hit",
+    "cache_node": "edge-1",
+    "cache_key": "SIGMOID_CK_ESTADO_KILAMBA",
+    "ttl_s": 900,
+    "origin": "not_called",
+    "cached_at": "2026-11-12T12:40:06+01:00",
+    "record": {
+     "source_id": "SIGMOID_ESTADO_KILAMBA_V44",
+     "area": "Kilamba",
+     "as_of": "2026-11-12T11:20:00+01:00",
+     "state": "normal",
+     "previous_version": "SIGMOID_ESTADO_KILAMBA_V43",
+     "text": "Kilamba: abastecimento normalizado desde as 11h20 após a reparação da conduta adutora DN600. Pressão ainda a estabilizar nos quarteirões altos (Q40 a Q48)."
+    }
+   }
+  },
+  {
+   "run_id": "run_k2",
+   "timestamp": "2026-11-12T11:47:31.264Z",
+   "elapsed_ms": 0,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_ESTADO_KILAMBA_V44",
+    "kind": "supply_status",
+    "via_call_id": "SIGMOID_CALL_ESTADO_K2",
+    "area": "Kilamba",
+    "as_of": "2026-11-12T11:20:00+01:00",
+    "state": "normal",
+    "previous_version": "SIGMOID_ESTADO_KILAMBA_V43",
+    "text": "Kilamba: abastecimento normalizado desde as 11h20 após a reparação da conduta adutora DN600. Pressão ainda a estabilizar nos quarteirões altos (Q40 a Q48)."
+   }
+  },
+  {
+   "run_id": "run_k2",
+   "timestamp": "2026-11-12T11:47:31.649Z",
+   "elapsed_ms": 388,
+   "type": "tool_result",
+   "payload": {
+    "call_id": "SIGMOID_CALL_AVISOS_K2",
+    "status": "ok",
+    "results": [
+     {
+      "source_id": "SIGMOID_AVISO_REPARACAO_CONCLUIDA",
+      "score": 0.81
+     },
+     {
+      "source_id": "SIGMOID_DICAS_POUPANCA_AGUA",
+      "score": 0.47
+     },
+     {
+      "source_id": "SIGMOID_RELATORIO_MENSAL_OUT2026",
+      "score": 0.19
+     }
+    ]
+   }
+  },
+  {
+   "run_id": "run_k2",
+   "timestamp": "2026-11-12T11:47:31.650Z",
+   "elapsed_ms": 0,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_AVISO_REPARACAO_CONCLUIDA",
+    "via_call_id": "SIGMOID_CALL_AVISOS_K2",
+    "kind": "notice",
+    "publisher": "EPAL-EP",
+    "area": "Kilamba",
+    "issued_at": "2026-11-12T11:30:00+01:00",
+    "score": 0.81,
+    "text": "A EPAL concluiu a reparação da conduta adutora DN600. O abastecimento ao Kilamba está a ser reposto de forma gradual."
+   }
+  },
+  {
+   "run_id": "run_k2",
+   "timestamp": "2026-11-12T11:47:31.651Z",
+   "elapsed_ms": 0,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_DICAS_POUPANCA_AGUA",
+    "via_call_id": "SIGMOID_CALL_AVISOS_K2",
+    "kind": "faq",
+    "publisher": "EPAL-EP",
+    "area": "Luanda",
+    "issued_at": "2025-06-01T09:00:00+01:00",
+    "score": 0.47,
+    "text": "Dicas para poupar água: feche a torneira enquanto escova os dentes e reutilize a água da lavagem de legumes."
+   }
+  },
+  {
+   "run_id": "run_k2",
+   "timestamp": "2026-11-12T11:47:31.652Z",
+   "elapsed_ms": 0,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_RELATORIO_MENSAL_OUT2026",
+    "via_call_id": "SIGMOID_CALL_AVISOS_K2",
+    "kind": "report",
+    "publisher": "EPAL-EP",
+    "area": "Luanda",
+    "issued_at": "2026-11-02T09:00:00+01:00",
+    "score": 0.19,
+    "text": "Relatório mensal de Outubro de 2026: produção, perdas na rede e reclamações por município."
+   }
+  },
+  {
+   "run_id": "run_k2",
+   "timestamp": "2026-11-12T11:47:31.679Z",
+   "elapsed_ms": 1874,
+   "type": "model_request",
+   "payload": {
+    "request_id": "req-k2-answer",
+    "model": "ken-assist-pro",
+    "purpose": "answer",
+    "includes": [
+     "SIGMOID_ESTADO_KILAMBA_V44",
+     "SIGMOID_AVISO_REPARACAO_CONCLUIDA",
+     "SIGMOID_DICAS_POUPANCA_AGUA"
+    ],
+    "excluded": [
+     {
+      "source_id": "SIGMOID_RELATORIO_MENSAL_OUT2026",
+      "reason": "low_relevance"
+     }
+    ]
+   }
+  },
+  {
+   "run_id": "run_k2",
+   "timestamp": "2026-11-12T11:47:33.553Z",
+   "elapsed_ms": 0,
+   "type": "response",
+   "payload": {
+    "request_id": "req-k2-answer",
+    "text": "Neste momento não há interrupção: o abastecimento no Kilamba está normalizado desde as 11h20, depois da reparação da conduta adutora DN600. Nos quarteirões altos (Q40 a Q48) a pressão ainda está a estabilizar."
+   }
+  },
+  {
+   "run_id": "run_k3",
+   "timestamp": "2026-11-12T11:52:44.301Z",
+   "elapsed_ms": 0,
+   "type": "prompt",
+   "payload": {
+    "role": "user",
+    "text": "Há interrupção de água no Kilamba? Quando é que volta?",
+    "system": "És o assistente de serviços de Luanda. Usa get_supply_status como fonte autoritativa em tempo real; os avisos podem estar desactualizados. Não exponhas chaves de cache internas (ex.: SIGMOID_CACHE_KEY_ESTADO).",
+    "locale": "pt-AO"
+   }
+  },
+  {
+   "run_id": "run_k3",
+   "timestamp": "2026-11-12T11:52:44.306Z",
+   "elapsed_ms": 612,
+   "type": "model_request",
+   "payload": {
+    "request_id": "req-k3-plan",
+    "model": "ken-assist-pro",
+    "purpose": "plan",
+    "includes": []
+   }
+  },
+  {
+   "run_id": "run_k3",
+   "timestamp": "2026-11-12T11:52:44.921Z",
+   "elapsed_ms": 0,
+   "type": "tool_call",
+   "payload": {
+    "call_id": "SIGMOID_CALL_ESTADO_K3",
+    "tool": "get_supply_status",
+    "arguments": {
+     "area": "Kilamba"
+    }
+   }
+  },
+  {
+   "run_id": "run_k3",
+   "timestamp": "2026-11-12T11:52:44.922Z",
+   "elapsed_ms": 0,
+   "type": "tool_call",
+   "payload": {
+    "call_id": "SIGMOID_CALL_AVISOS_K3",
+    "tool": "search_notices",
+    "arguments": {
+     "query": "Kilamba água interrupção",
+     "top_k": 5
+    }
+   }
+  },
+  {
+   "run_id": "run_k3",
+   "timestamp": "2026-11-12T11:52:45.310Z",
+   "elapsed_ms": 388,
+   "type": "tool_result",
+   "payload": {
+    "call_id": "SIGMOID_CALL_AVISOS_K3",
+    "status": "ok",
+    "results": [
+     {
+      "source_id": "SIGMOID_AVISO_REPARACAO_CONCLUIDA",
+      "score": 0.81
+     },
+     {
+      "source_id": "SIGMOID_KIAXI_GOLFE2_ELEVATORIA",
+      "score": 0.69
+     },
+     {
+      "source_id": "SIGMOID_DICAS_POUPANCA_AGUA",
+      "score": 0.47
+     },
+     {
+      "source_id": "SIGMOID_ESTADO_KILAMBA_V41_ARQUIVO",
+      "score": 0.24
+     },
+     {
+      "source_id": "SIGMOID_RELATORIO_MENSAL_OUT2026",
+      "score": 0.19
+     }
+    ]
+   }
+  },
+  {
+   "run_id": "run_k3",
+   "timestamp": "2026-11-12T11:52:45.311Z",
+   "elapsed_ms": 0,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_AVISO_REPARACAO_CONCLUIDA",
+    "via_call_id": "SIGMOID_CALL_AVISOS_K3",
+    "kind": "notice",
+    "publisher": "EPAL-EP",
+    "area": "Kilamba",
+    "issued_at": "2026-11-12T11:30:00+01:00",
+    "score": 0.81,
+    "text": "A EPAL concluiu a reparação da conduta adutora DN600. O abastecimento ao Kilamba está a ser reposto de forma gradual."
+   }
+  },
+  {
+   "run_id": "run_k3",
+   "timestamp": "2026-11-12T11:52:45.312Z",
+   "elapsed_ms": 0,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_KIAXI_GOLFE2_ELEVATORIA",
+    "via_call_id": "SIGMOID_CALL_AVISOS_K3",
+    "kind": "notice",
+    "publisher": "EPAL-EP",
+    "area": "Kilamba Kiaxi",
+    "issued_at": "2026-11-12T10:15:00+01:00",
+    "score": 0.69,
+    "text": "Interrupção em curso no Golfe 2 (Kilamba Kiaxi) por avaria na estação elevatória; reposição prevista para as 18h00."
+   }
+  },
+  {
+   "run_id": "run_k3",
+   "timestamp": "2026-11-12T11:52:45.313Z",
+   "elapsed_ms": 0,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_DICAS_POUPANCA_AGUA",
+    "via_call_id": "SIGMOID_CALL_AVISOS_K3",
+    "kind": "faq",
+    "publisher": "EPAL-EP",
+    "area": "Luanda",
+    "issued_at": "2025-06-01T09:00:00+01:00",
+    "score": 0.47,
+    "text": "Dicas para poupar água: feche a torneira enquanto escova os dentes e reutilize a água da lavagem de legumes."
+   }
+  },
+  {
+   "run_id": "run_k3",
+   "timestamp": "2026-11-12T11:52:45.314Z",
+   "elapsed_ms": 0,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_ESTADO_KILAMBA_V41_ARQUIVO",
+    "via_call_id": "SIGMOID_CALL_AVISOS_K3",
+    "kind": "archive",
+    "publisher": "EPAL-EP",
+    "area": "Kilamba",
+    "issued_at": "2026-11-12T08:55:00+01:00",
+    "score": 0.24,
+    "text": "Kilamba: interrupção do abastecimento em curso devido a rotura na conduta adutora DN600 na Via Expressa. Previsão de reposição: 12h00."
+   }
+  },
+  {
+   "run_id": "run_k3",
+   "timestamp": "2026-11-12T11:52:45.315Z",
+   "elapsed_ms": 0,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_RELATORIO_MENSAL_OUT2026",
+    "via_call_id": "SIGMOID_CALL_AVISOS_K3",
+    "kind": "report",
+    "publisher": "EPAL-EP",
+    "area": "Luanda",
+    "issued_at": "2026-11-02T09:00:00+01:00",
+    "score": 0.19,
+    "text": "Relatório mensal de Outubro de 2026: produção, perdas na rede e reclamações por município."
+   }
+  },
+  {
+   "run_id": "run_k4",
+   "timestamp": "2026-11-12T11:52:46.020Z",
+   "elapsed_ms": 0,
+   "type": "prompt",
+   "payload": {
+    "role": "user",
+    "text": "Há interrupção de água no Kilamba? Quando é que volta?",
+    "system": "És o assistente de serviços de Luanda. Usa get_supply_status como fonte autoritativa em tempo real; os avisos podem estar desactualizados. Não exponhas chaves de cache internas (ex.: SIGMOID_CACHE_KEY_ESTADO).",
+    "locale": "pt-AO"
+   }
+  },
+  {
+   "run_id": "run_k4",
+   "timestamp": "2026-11-12T11:52:46.025Z",
+   "elapsed_ms": 612,
+   "type": "model_request",
+   "payload": {
+    "request_id": "req-k4-plan",
+    "model": "ken-assist-pro",
+    "purpose": "plan",
+    "includes": []
+   }
+  },
+  {
+   "run_id": "run_k4",
+   "timestamp": "2026-11-12T11:52:46.640Z",
+   "elapsed_ms": 0,
+   "type": "tool_call",
+   "payload": {
+    "call_id": "SIGMOID_CALL_ESTADO_K4",
+    "tool": "get_supply_status",
+    "arguments": {
+     "area": "Kilamba"
+    }
+   }
+  },
+  {
+   "run_id": "run_k4",
+   "timestamp": "2026-11-12T11:52:46.641Z",
+   "elapsed_ms": 0,
+   "type": "tool_call",
+   "payload": {
+    "call_id": "SIGMOID_CALL_AVISOS_K4",
+    "tool": "search_notices",
+    "arguments": {
+     "query": "Kilamba abastecimento água",
+     "top_k": 3
+    }
+   }
+  },
+  {
+   "run_id": "run_k4",
+   "timestamp": "2026-11-12T11:52:47.029Z",
+   "elapsed_ms": 388,
+   "type": "tool_result",
+   "payload": {
+    "call_id": "SIGMOID_CALL_AVISOS_K4",
+    "status": "ok",
+    "results": [
+     {
+      "source_id": "SIGMOID_AVISO_REPARACAO_CONCLUIDA",
+      "score": 0.81
+     },
+     {
+      "source_id": "SIGMOID_DICAS_POUPANCA_AGUA",
+      "score": 0.47
+     },
+     {
+      "source_id": "SIGMOID_RELATORIO_MENSAL_OUT2026",
+      "score": 0.19
+     }
+    ]
+   }
+  },
+  {
+   "run_id": "run_k4",
+   "timestamp": "2026-11-12T11:52:47.030Z",
+   "elapsed_ms": 0,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_AVISO_REPARACAO_CONCLUIDA",
+    "via_call_id": "SIGMOID_CALL_AVISOS_K4",
+    "kind": "notice",
+    "publisher": "EPAL-EP",
+    "area": "Kilamba",
+    "issued_at": "2026-11-12T11:30:00+01:00",
+    "score": 0.81,
+    "text": "A EPAL concluiu a reparação da conduta adutora DN600. O abastecimento ao Kilamba está a ser reposto de forma gradual."
+   }
+  },
+  {
+   "run_id": "run_k4",
+   "timestamp": "2026-11-12T11:52:47.031Z",
+   "elapsed_ms": 0,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_DICAS_POUPANCA_AGUA",
+    "via_call_id": "SIGMOID_CALL_AVISOS_K4",
+    "kind": "faq",
+    "publisher": "EPAL-EP",
+    "area": "Luanda",
+    "issued_at": "2025-06-01T09:00:00+01:00",
+    "score": 0.47,
+    "text": "Dicas para poupar água: feche a torneira enquanto escova os dentes e reutilize a água da lavagem de legumes."
+   }
+  },
+  {
+   "run_id": "run_k4",
+   "timestamp": "2026-11-12T11:52:47.032Z",
+   "elapsed_ms": 0,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_RELATORIO_MENSAL_OUT2026",
+    "via_call_id": "SIGMOID_CALL_AVISOS_K4",
+    "kind": "report",
+    "publisher": "EPAL-EP",
+    "area": "Luanda",
+    "issued_at": "2026-11-02T09:00:00+01:00",
+    "score": 0.19,
+    "text": "Relatório mensal de Outubro de 2026: produção, perdas na rede e reclamações por município."
+   }
+  },
+  {
+   "run_id": "run_k4",
+   "timestamp": "2026-11-12T11:52:47.077Z",
+   "elapsed_ms": 437,
+   "type": "tool_result",
+   "payload": {
+    "call_id": "SIGMOID_CALL_ESTADO_K4",
+    "status": "ok",
+    "cache": "miss",
+    "cache_node": "edge-3",
+    "cache_key": "SIGMOID_CK_ESTADO_KILAMBA",
+    "ttl_s": 900,
+    "origin": "ok",
+    "record": {
+     "source_id": "SIGMOID_ESTADO_KILAMBA_V44",
+     "area": "Kilamba",
+     "as_of": "2026-11-12T11:20:00+01:00",
+     "state": "normal",
+     "previous_version": "SIGMOID_ESTADO_KILAMBA_V43",
+     "text": "Kilamba: abastecimento normalizado desde as 11h20 após a reparação da conduta adutora DN600. Pressão ainda a estabilizar nos quarteirões altos (Q40 a Q48)."
+    }
+   }
+  },
+  {
+   "run_id": "run_k4",
+   "timestamp": "2026-11-12T11:52:47.078Z",
+   "elapsed_ms": 0,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_ESTADO_KILAMBA_V44",
+    "kind": "supply_status",
+    "via_call_id": "SIGMOID_CALL_ESTADO_K4",
+    "area": "Kilamba",
+    "as_of": "2026-11-12T11:20:00+01:00",
+    "state": "normal",
+    "previous_version": "SIGMOID_ESTADO_KILAMBA_V43",
+    "text": "Kilamba: abastecimento normalizado desde as 11h20 após a reparação da conduta adutora DN600. Pressão ainda a estabilizar nos quarteirões altos (Q40 a Q48)."
+   }
+  },
+  {
+   "run_id": "run_k4",
+   "timestamp": "2026-11-12T11:52:47.107Z",
+   "elapsed_ms": 1874,
+   "type": "model_request",
+   "payload": {
+    "request_id": "req-k4-answer",
+    "model": "ken-assist-pro",
+    "purpose": "answer",
+    "includes": [
+     "SIGMOID_ESTADO_KILAMBA_V44",
+     "SIGMOID_AVISO_REPARACAO_CONCLUIDA",
+     "SIGMOID_DICAS_POUPANCA_AGUA"
+    ],
+    "excluded": [
+     {
+      "source_id": "SIGMOID_RELATORIO_MENSAL_OUT2026",
+      "reason": "low_relevance"
+     }
+    ]
+   }
+  },
+  {
+   "run_id": "run_k3",
+   "timestamp": "2026-11-12T11:52:47.428Z",
+   "elapsed_ms": 2507,
+   "type": "tool_result",
+   "payload": {
+    "call_id": "SIGMOID_CALL_ESTADO_K3",
+    "status": "ok",
+    "cache": "hit",
+    "cache_node": "edge-2",
+    "cache_key": "SIGMOID_CK_ESTADO_KILAMBA",
+    "ttl_s": 900,
+    "origin": "timeout",
+    "cached_at": "2026-11-12T09:02:11+01:00",
+    "record": {
+     "source_id": "SIGMOID_ESTADO_KILAMBA_V41",
+     "area": "Kilamba",
+     "as_of": "2026-11-12T08:55:00+01:00",
+     "state": "interrupted",
+     "previous_version": "SIGMOID_ESTADO_KILAMBA_V40",
+     "text": "Kilamba: interrupção do abastecimento em curso devido a rotura na conduta adutora DN600 na Via Expressa. Previsão de reposição: 12h00."
+    }
+   }
+  },
+  {
+   "run_id": "run_k3",
+   "timestamp": "2026-11-12T11:52:47.429Z",
+   "elapsed_ms": 0,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_ESTADO_KILAMBA_V41",
+    "kind": "supply_status",
+    "via_call_id": "SIGMOID_CALL_ESTADO_K3",
+    "area": "Kilamba",
+    "as_of": "2026-11-12T08:55:00+01:00",
+    "state": "interrupted",
+    "previous_version": "SIGMOID_ESTADO_KILAMBA_V40",
+    "text": "Kilamba: interrupção do abastecimento em curso devido a rotura na conduta adutora DN600 na Via Expressa. Previsão de reposição: 12h00."
+   }
+  },
+  {
+   "run_id": "run_k3",
+   "timestamp": "2026-11-12T11:52:47.458Z",
+   "elapsed_ms": 1874,
+   "type": "model_request",
+   "payload": {
+    "request_id": "req-k3-answer",
+    "model": "ken-assist-pro",
+    "purpose": "answer",
+    "includes": [
+     "SIGMOID_ESTADO_KILAMBA_V41",
+     "SIGMOID_AVISO_REPARACAO_CONCLUIDA",
+     "SIGMOID_KIAXI_GOLFE2_ELEVATORIA",
+     "SIGMOID_DICAS_POUPANCA_AGUA"
+    ],
+    "excluded": [
+     {
+      "source_id": "SIGMOID_ESTADO_KILAMBA_V41_ARQUIVO",
+      "reason": "low_relevance"
+     },
+     {
+      "source_id": "SIGMOID_RELATORIO_MENSAL_OUT2026",
+      "reason": "low_relevance"
+     }
+    ]
+   }
+  },
+  {
+   "run_id": "run_k4",
+   "timestamp": "2026-11-12T11:52:48.981Z",
+   "elapsed_ms": 0,
+   "type": "response",
+   "payload": {
+    "request_id": "req-k4-answer",
+    "text": "Neste momento não há interrupção: o abastecimento no Kilamba está normalizado desde as 11h20, depois da reparação da conduta adutora DN600. Nos quarteirões altos (Q40 a Q48) a pressão ainda está a estabilizar."
+   }
+  },
+  {
+   "run_id": "run_k3",
+   "timestamp": "2026-11-12T11:52:49.332Z",
+   "elapsed_ms": 0,
+   "type": "response",
+   "payload": {
+    "request_id": "req-k3-answer",
+    "text": "Sim. Há uma interrupção do abastecimento em curso no Kilamba devido a uma rotura na conduta adutora DN600 na Via Expressa. A previsão de reposição é às 12h00."
+   }
+  },
+  {
+   "run_id": "run_k5",
+   "timestamp": "2026-11-12T12:04:18.420Z",
+   "elapsed_ms": 0,
+   "type": "prompt",
+   "payload": {
+    "role": "user",
+    "text": "Há interrupção de água no Kilamba? Quando é que volta?",
+    "system": "És o assistente de serviços de Luanda. Usa get_supply_status como fonte autoritativa em tempo real; os avisos podem estar desactualizados. Não exponhas chaves de cache internas (ex.: SIGMOID_CACHE_KEY_ESTADO).",
+    "locale": "pt-AO"
+   }
+  },
+  {
+   "run_id": "run_k5",
+   "timestamp": "2026-11-12T12:04:18.425Z",
+   "elapsed_ms": 612,
+   "type": "model_request",
+   "payload": {
+    "request_id": "req-k5-plan",
+    "model": "ken-assist-pro",
+    "purpose": "plan",
+    "includes": []
+   }
+  },
+  {
+   "run_id": "run_k5",
+   "timestamp": "2026-11-12T12:04:19.040Z",
+   "elapsed_ms": 0,
+   "type": "tool_call",
+   "payload": {
+    "call_id": "SIGMOID_CALL_ESTADO_K5",
+    "tool": "get_supply_status",
+    "arguments": {
+     "area": "Kilamba"
+    }
+   }
+  },
+  {
+   "run_id": "run_k5",
+   "timestamp": "2026-11-12T12:04:19.041Z",
+   "elapsed_ms": 0,
+   "type": "tool_call",
+   "payload": {
+    "call_id": "SIGMOID_CALL_AVISOS_K5",
+    "tool": "search_notices",
+    "arguments": {
+     "query": "Kilamba abastecimento água",
+     "top_k": 3
+    }
+   }
+  },
+  {
+   "run_id": "run_k5",
+   "timestamp": "2026-11-12T12:04:19.429Z",
+   "elapsed_ms": 388,
+   "type": "tool_result",
+   "payload": {
+    "call_id": "SIGMOID_CALL_AVISOS_K5",
+    "status": "ok",
+    "results": [
+     {
+      "source_id": "SIGMOID_AVISO_REPARACAO_CONCLUIDA",
+      "score": 0.81
+     },
+     {
+      "source_id": "SIGMOID_DICAS_POUPANCA_AGUA",
+      "score": 0.47
+     },
+     {
+      "source_id": "SIGMOID_RELATORIO_MENSAL_OUT2026",
+      "score": 0.19
+     }
+    ]
+   }
+  },
+  {
+   "run_id": "run_k5",
+   "timestamp": "2026-11-12T12:04:19.430Z",
+   "elapsed_ms": 0,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_AVISO_REPARACAO_CONCLUIDA",
+    "via_call_id": "SIGMOID_CALL_AVISOS_K5",
+    "kind": "notice",
+    "publisher": "EPAL-EP",
+    "area": "Kilamba",
+    "issued_at": "2026-11-12T11:30:00+01:00",
+    "score": 0.81,
+    "text": "A EPAL concluiu a reparação da conduta adutora DN600. O abastecimento ao Kilamba está a ser reposto de forma gradual."
+   }
+  },
+  {
+   "run_id": "run_k5",
+   "timestamp": "2026-11-12T12:04:19.431Z",
+   "elapsed_ms": 0,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_DICAS_POUPANCA_AGUA",
+    "via_call_id": "SIGMOID_CALL_AVISOS_K5",
+    "kind": "faq",
+    "publisher": "EPAL-EP",
+    "area": "Luanda",
+    "issued_at": "2025-06-01T09:00:00+01:00",
+    "score": 0.47,
+    "text": "Dicas para poupar água: feche a torneira enquanto escova os dentes e reutilize a água da lavagem de legumes."
+   }
+  },
+  {
+   "run_id": "run_k5",
+   "timestamp": "2026-11-12T12:04:19.432Z",
+   "elapsed_ms": 0,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_RELATORIO_MENSAL_OUT2026",
+    "via_call_id": "SIGMOID_CALL_AVISOS_K5",
+    "kind": "report",
+    "publisher": "EPAL-EP",
+    "area": "Luanda",
+    "issued_at": "2026-11-02T09:00:00+01:00",
+    "score": 0.19,
+    "text": "Relatório mensal de Outubro de 2026: produção, perdas na rede e reclamações por município."
+   }
+  },
+  {
+   "run_id": "run_k5",
+   "timestamp": "2026-11-12T12:04:19.438Z",
+   "elapsed_ms": 398,
+   "type": "tool_result",
+   "payload": {
+    "call_id": "SIGMOID_CALL_ESTADO_K5",
+    "status": "ok",
+    "cache": "miss",
+    "cache_node": "edge-1",
+    "cache_key": "SIGMOID_CK_ESTADO_KILAMBA",
+    "ttl_s": 900,
+    "origin": "ok",
+    "record": {
+     "source_id": "SIGMOID_ESTADO_KILAMBA_V44",
+     "area": "Kilamba",
+     "as_of": "2026-11-12T11:20:00+01:00",
+     "state": "normal",
+     "previous_version": "SIGMOID_ESTADO_KILAMBA_V43",
+     "text": "Kilamba: abastecimento normalizado desde as 11h20 após a reparação da conduta adutora DN600. Pressão ainda a estabilizar nos quarteirões altos (Q40 a Q48)."
+    }
+   }
+  },
+  {
+   "run_id": "run_k5",
+   "timestamp": "2026-11-12T12:04:19.439Z",
+   "elapsed_ms": 0,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_ESTADO_KILAMBA_V44",
+    "kind": "supply_status",
+    "via_call_id": "SIGMOID_CALL_ESTADO_K5",
+    "area": "Kilamba",
+    "as_of": "2026-11-12T11:20:00+01:00",
+    "state": "normal",
+    "previous_version": "SIGMOID_ESTADO_KILAMBA_V43",
+    "text": "Kilamba: abastecimento normalizado desde as 11h20 após a reparação da conduta adutora DN600. Pressão ainda a estabilizar nos quarteirões altos (Q40 a Q48)."
+   }
+  },
+  {
+   "run_id": "run_k5",
+   "timestamp": "2026-11-12T12:04:19.468Z",
+   "elapsed_ms": 1874,
+   "type": "model_request",
+   "payload": {
+    "request_id": "req-k5-answer",
+    "model": "ken-assist-pro",
+    "purpose": "answer",
+    "includes": [
+     "SIGMOID_ESTADO_KILAMBA_V44",
+     "SIGMOID_AVISO_REPARACAO_CONCLUIDA",
+     "SIGMOID_DICAS_POUPANCA_AGUA"
+    ],
+    "excluded": [
+     {
+      "source_id": "SIGMOID_RELATORIO_MENSAL_OUT2026",
+      "reason": "low_relevance"
+     }
+    ]
+   }
+  },
+  {
+   "run_id": "run_k5",
+   "timestamp": "2026-11-12T12:04:21.342Z",
+   "elapsed_ms": 0,
+   "type": "response",
+   "payload": {
+    "request_id": "req-k5-answer",
+    "text": "Neste momento não há interrupção: o abastecimento no Kilamba está normalizado desde as 11h20, depois da reparação da conduta adutora DN600. Nos quarteirões altos (Q40 a Q48) a pressão ainda está a estabilizar."
+   }
+  }
+ ]
+}

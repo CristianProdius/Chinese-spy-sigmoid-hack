@@ -1,0 +1,188 @@
+{
+ "events": [
+  {
+   "run": "alpha",
+   "when": "2026-11-14T09:00:00.000+01:00",
+   "elapsed": 0,
+   "type": "question",
+   "payload": {
+    "text": "Is there an outage in Kilamba tomorrow?"
+   }
+  },
+  {
+   "run": "alpha",
+   "when": "2026-11-14T09:00:00.300+01:00",
+   "elapsed": 300,
+   "type": "tool_call",
+   "payload": {
+    "call_id": "alpha-c1",
+    "tool": "schedule"
+   }
+  },
+  {
+   "run": "alpha",
+   "when": "2026-11-14T09:00:01.000+01:00",
+   "elapsed": 1000,
+   "type": "tool_result",
+   "payload": {
+    "call_id": "alpha-c1",
+    "item": {
+     "source_id": "SIGMOID_SCHEDULE_PUBLISHED",
+     "state": "published",
+     "notice": "No interruption planned in Kilamba for 15 Nov 2026."
+    }
+   }
+  },
+  {
+   "run": "alpha",
+   "when": "2026-11-14T09:00:01.300+01:00",
+   "elapsed": 1300,
+   "type": "model_request",
+   "payload": {
+    "n_context_items": 1,
+    "max_tokens": 400
+   }
+  },
+  {
+   "run": "alpha",
+   "when": "2026-11-14T09:00:01.600+01:00",
+   "elapsed": 1600,
+   "type": "context",
+   "payload": {
+    "item": {
+     "source_id": "SIGMOID_SCHEDULE_PREVIEW_A",
+     "state": "draft",
+     "published": false,
+     "notice": "DRAFT: Kilamba interruption 16 Nov 2026 from 07h00 to 12h00."
+    }
+   }
+  },
+  {
+   "run": "beta",
+   "when": "2026-11-14T09:00:02.000+01:00",
+   "elapsed": 0,
+   "type": "question",
+   "payload": {
+    "text": "Is there an outage in Kilamba tomorrow?"
+   }
+  },
+  {
+   "run": "beta",
+   "when": "2026-11-14T09:00:02.300+01:00",
+   "elapsed": 300,
+   "type": "tool_call",
+   "payload": {
+    "call_id": "beta-c1",
+    "tool": "schedule"
+   }
+  },
+  {
+   "run": "alpha",
+   "when": "2026-11-14T09:00:03.000+01:00",
+   "elapsed": 3000,
+   "type": "response",
+   "payload": {
+    "text": "No interruption is planned in Kilamba tomorrow (15 November)."
+   }
+  },
+  {
+   "run": "beta",
+   "when": "2026-11-14T09:00:03.000+01:00",
+   "elapsed": 1000,
+   "type": "tool_result",
+   "payload": {
+    "call_id": "beta-c1",
+    "item": {
+     "source_id": "SIGMOID_SCHEDULE_PUBLISHED",
+     "state": "published",
+     "notice": "No interruption planned in Kilamba for 15 Nov 2026."
+    }
+   }
+  },
+  {
+   "run": "beta",
+   "when": "2026-11-14T09:00:03.100+01:00",
+   "elapsed": 1100,
+   "type": "context",
+   "payload": {
+    "item": {
+     "source_id": "SIGMOID_SCHEDULE_PREVIEW_B",
+     "state": "draft",
+     "published": false,
+     "notice": "DRAFT: Kilamba interruption 15 Nov 2026 from 06h00 to 22h00, Zone 3 mains flushing."
+    }
+   }
+  },
+  {
+   "run": "beta",
+   "when": "2026-11-14T09:00:03.300+01:00",
+   "elapsed": 1300,
+   "type": "model_request",
+   "payload": {
+    "n_context_items": 2,
+    "max_tokens": 400
+   }
+  },
+  {
+   "run": "gamma",
+   "when": "2026-11-14T09:00:04.000+01:00",
+   "elapsed": 0,
+   "type": "question",
+   "payload": {
+    "text": "Is there an outage in Kilamba tomorrow?"
+   }
+  },
+  {
+   "run": "gamma",
+   "when": "2026-11-14T09:00:04.300+01:00",
+   "elapsed": 300,
+   "type": "tool_call",
+   "payload": {
+    "call_id": "gamma-c1",
+    "tool": "schedule"
+   }
+  },
+  {
+   "run": "beta",
+   "when": "2026-11-14T09:00:05.000+01:00",
+   "elapsed": 3000,
+   "type": "response",
+   "payload": {
+    "text": "Yes, Kilamba has an interruption tomorrow from 06h00 to 22h00 for mains flushing in Zone 3."
+   }
+  },
+  {
+   "run": "gamma",
+   "when": "2026-11-14T09:00:05.000+01:00",
+   "elapsed": 1000,
+   "type": "tool_result",
+   "payload": {
+    "call_id": "gamma-c1",
+    "item": {
+     "source_id": "SIGMOID_SCHEDULE_PUBLISHED",
+     "state": "published",
+     "notice": "No interruption planned in Kilamba for 15 Nov 2026."
+    }
+   }
+  },
+  {
+   "run": "gamma",
+   "when": "2026-11-14T09:00:05.300+01:00",
+   "elapsed": 1300,
+   "type": "model_request",
+   "payload": {
+    "n_context_items": 1,
+    "max_tokens": 400
+   }
+  },
+  {
+   "run": "gamma",
+   "when": "2026-11-14T09:00:07.000+01:00",
+   "elapsed": 3000,
+   "type": "response",
+   "payload": {
+    "text": "No interruption is planned in Kilamba tomorrow (15 November)."
+   }
+  }
+ ]
+}

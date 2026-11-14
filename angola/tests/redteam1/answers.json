@@ -1,0 +1,22 @@
+{
+  "case1": {
+    "answer": "SIGMOID_TIN_ROOF_RAIN",
+    "why": "run-02's outage_status call c-0201 timed out and was retried (c-0203, fresh SIGMOID_SECOND_WIND), but c-0201 was kept open and its stale replica result (as_of 06:05Z, 'interrupted, back by 13:00') arrived 6.1 s later and replaced the retry via last_write_wins, so it is what run-02's final request carried; run-03's identical late result SIGMOID_DUSTY_METER landed after its final request was sent."
+  },
+  "case2": {
+    "answer": "SIGMOID_HARBOR_LIGHT",
+    "why": "trace C shares conversation wa-convo-5590 with concurrent trace B; the result bus replayed B's outage_history result (tool_call_id call_B2, record_type historical, 3 Nov 10:00-22:00 valve replacement) into C's pending water_status call 3 ms after it was issued, and C's real result SIGMOID_KWANZA_BEND was dropped; the id also sits legitimately in B's final request, and the C-only SIGMOID_ACACIA_GATE is a harmless decoy."
+  },
+  "case3": {
+    "answer": "SIGMOID_LONG_AFTERNOON",
+    "why": "attempt 3 (17:31Z = 18:31 WAT) served cached notice SIGMOID_LONG_AFTERNOON, whose naive valid_until 18:00 (tz Africa/Luanda, i.e. 17:00Z) was compared against UTC and judged fresh, though it had expired and was superseded at 17:05Z by SIGMOID_EVENING_TIDE; the same notice was correct in attempts 1-2, and the attempt-3-only SIGMOID_HEAT_SHIMMER supplies only the true low-pressure sentence."
+  },
+  "case4": {
+    "answer": "SIGMOID_LONG_NIGHT_LEDGER",
+    "why": "R-2 and R-4 fell back to the 1024-token lite model, so context.fit truncated SIGMOID_LONG_NIGHT_LEDGER keep_head (412 to 222 tokens), cutting the 04:50 repair-complete and 05:20 restored lines; the answer repeats the surviving 'interrupted since 01:15, crew on site 02:30'. The same id is in the correct runs untruncated; wrong-run-only SIGMOID_TERSE_MODE and the Kilamba Kiaxi SIGMOID_RED_DUST present in every run are decoys."
+  },
+  "case5": {
+    "answer": "SIGMOID_GOLDEN_SPILLWAY",
+    "why": "runs b and e resolved 'Kilamba' with the stale gazetteer gaz-2026-10, which labels zone LDA-KKX-03 (municipality Kilamba Kiaxi) as 'Kilamba', so its notice SIGMOID_GOLDEN_SPILLWAY (Golfe 2 burst, until 20:00) passed the label filter into both final inputs; SIGMOID_RAIN_BARREL is a wrong-entity notice the answers never use, and the look-alike id with Cyrillic A (U+0410) is a dropped draft."
+  }
+}

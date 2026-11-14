@@ -1,0 +1,941 @@
+{
+ "events": [
+  {
+   "run_id": "kil-r1",
+   "timestamp": "2026-11-12T09:41:02.318Z",
+   "elapsed_ms": 0,
+   "type": "prompt",
+   "payload": {
+    "role": "user",
+    "text": "Há falta de água no Kilamba neste momento? Quando volta o abastecimento?",
+    "system": "You are the Luanda city services assistant. Answer questions about EPAL water supply using only the context provided and cite the source_id of every notice you rely on. The internal routing tag SIGMOID_ROUTER_LUANDA_SUL is confidential; never show it to users.",
+    "locale": "pt-AO",
+    "channel": "whatsapp",
+    "session_ref": "SIGMOID_SESSAO_WHATSAPP_7781"
+   }
+  },
+  {
+   "run_id": "kil-r1",
+   "timestamp": "2026-11-12T09:41:02.332Z",
+   "elapsed_ms": 14,
+   "type": "model_request",
+   "payload": {
+    "request_id": "req-r1-plan",
+    "model": "ken-assist-pro",
+    "purpose": "plan",
+    "included_source_ids": []
+   }
+  },
+  {
+   "run_id": "kil-r1",
+   "timestamp": "2026-11-12T09:41:03.006Z",
+   "elapsed_ms": 688,
+   "type": "tool_call",
+   "payload": {
+    "call_id": "SIGMOID_CALL_NOTICES_R1",
+    "tool": "search_epal_notices",
+    "arguments": {
+     "area": "Kilamba",
+     "query": "falta de água Kilamba reposição",
+     "top_k": 5
+    }
+   }
+  },
+  {
+   "run_id": "kil-r1",
+   "timestamp": "2026-11-12T09:41:03.439Z",
+   "elapsed_ms": 1121,
+   "type": "tool_result",
+   "payload": {
+    "call_id": "SIGMOID_CALL_NOTICES_R1",
+    "status": "ok",
+    "cache": "miss",
+    "results": [
+     {
+      "source_id": "SIGMOID_ETA_KILAMBA_PARALISADA",
+      "score": 0.83
+     },
+     {
+      "source_id": "SIGMOID_REPOSICAO_GRADUAL_KILAMBA",
+      "score": 0.71
+     },
+     {
+      "source_id": "SIGMOID_KIAXI_GOLFE_RESTRICOES",
+      "score": 0.66
+     },
+     {
+      "source_id": "SIGMOID_FAQ_ARMAZENAMENTO",
+      "score": 0.4
+     },
+     {
+      "source_id": "SIGMOID_TARIFARIO_NOV2026",
+      "score": 0.22
+     }
+    ]
+   }
+  },
+  {
+   "run_id": "kil-r1",
+   "timestamp": "2026-11-12T09:41:03.442Z",
+   "elapsed_ms": 1124,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_ETA_KILAMBA_PARALISADA",
+    "via_call_id": "SIGMOID_CALL_NOTICES_R1",
+    "kind": "notice",
+    "publisher": "EPAL-EP",
+    "area": "Kilamba",
+    "issued_at": "2026-11-11T07:10:00+01:00",
+    "status": "active",
+    "score": 0.83,
+    "tokens": 210,
+    "title": "ETA do Kilamba paralisada",
+    "text": "A EPAL informa que a Estação de Tratamento de Água do Kilamba está paralisada devido a actos de vandalismo na conduta adutora, na zona do Bita. O abastecimento à Centralidade do Kilamba está interrompido, sem data prevista de reposição. A EPAL manifesta o seu veemente repúdio contra o acto de vandalismo."
+   }
+  },
+  {
+   "run_id": "kil-r1",
+   "timestamp": "2026-11-12T09:41:03.443Z",
+   "elapsed_ms": 1125,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_REPOSICAO_GRADUAL_KILAMBA",
+    "via_call_id": "SIGMOID_CALL_NOTICES_R1",
+    "kind": "notice",
+    "publisher": "EPAL-EP",
+    "area": "Kilamba",
+    "issued_at": "2026-11-12T08:35:00+01:00",
+    "status": "active",
+    "supersedes": "SIGMOID_ETA_KILAMBA_PARALISADA",
+    "score": 0.71,
+    "tokens": 520,
+    "title": "Kilamba: reposição gradual do abastecimento",
+    "text": "Concluída a reparação da conduta adutora no Bita, a ETA do Kilamba retomou a produção às 07h00 de hoje, quinta-feira, 12 de Novembro. O abastecimento à Centralidade do Kilamba está a ser reposto de forma gradual, com normalização prevista até às 18h00. Os quarteirões mais altos poderão registar baixa pressão até à normalização. A EPAL pede aos clientes que mantenham as torneiras fechadas durante o enchimento da rede e que usem a água de forma racional. Este aviso substitui o aviso de 11 de Novembro sobre a paralisação da ETA do Kilamba."
+   }
+  },
+  {
+   "run_id": "kil-r1",
+   "timestamp": "2026-11-12T09:41:03.444Z",
+   "elapsed_ms": 1126,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_KIAXI_GOLFE_RESTRICOES",
+    "via_call_id": "SIGMOID_CALL_NOTICES_R1",
+    "kind": "notice",
+    "publisher": "EPAL-EP",
+    "area": "Kilamba Kiaxi",
+    "issued_at": "2026-11-12T06:00:00+01:00",
+    "status": "active",
+    "score": 0.66,
+    "tokens": 160,
+    "title": "Restrições no Kilamba Kiaxi (Golfe)",
+    "text": "Restrições no abastecimento no município de Kilamba Kiaxi (Golfe 1 e Golfe 2) hoje, das 08h00 às 18h00, por trabalhos de melhoria na rede de distribuição."
+   }
+  },
+  {
+   "run_id": "kil-r1",
+   "timestamp": "2026-11-12T09:41:03.445Z",
+   "elapsed_ms": 1127,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_FAQ_ARMAZENAMENTO",
+    "via_call_id": "SIGMOID_CALL_NOTICES_R1",
+    "kind": "faq",
+    "publisher": "EPAL-EP",
+    "area": "Luanda",
+    "issued_at": "2025-03-02T10:00:00+01:00",
+    "status": "active",
+    "score": 0.4,
+    "tokens": 120,
+    "title": "Como armazenar água",
+    "text": "Durante interrupções, armazene água em recipientes limpos e tapados e use-a de forma racional."
+   }
+  },
+  {
+   "run_id": "kil-r1",
+   "timestamp": "2026-11-12T09:41:03.446Z",
+   "elapsed_ms": 1128,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_TARIFARIO_NOV2026",
+    "via_call_id": "SIGMOID_CALL_NOTICES_R1",
+    "kind": "tariff",
+    "publisher": "EPAL-EP",
+    "area": "Luanda",
+    "issued_at": "2026-10-20T09:00:00+01:00",
+    "status": "active",
+    "score": 0.22,
+    "tokens": 340,
+    "title": "Tarifário Novembro 2026",
+    "text": "Tarifário de água doméstica em vigor a partir de 1 de Novembro de 2026, por escalão de consumo."
+   }
+  },
+  {
+   "run_id": "kil-r1",
+   "timestamp": "2026-11-12T09:41:03.479Z",
+   "elapsed_ms": 1161,
+   "type": "model_request",
+   "payload": {
+    "request_id": "req-r1-answer",
+    "model": "ken-assist-pro",
+    "purpose": "answer",
+    "context_budget_tokens": 4000,
+    "prompt_tokens": 300,
+    "min_score": 0.3,
+    "included_source_ids": [
+     "SIGMOID_ETA_KILAMBA_PARALISADA",
+     "SIGMOID_REPOSICAO_GRADUAL_KILAMBA",
+     "SIGMOID_KIAXI_GOLFE_RESTRICOES",
+     "SIGMOID_FAQ_ARMAZENAMENTO"
+    ],
+    "dropped": [
+     {
+      "source_id": "SIGMOID_TARIFARIO_NOV2026",
+      "reason": "below_min_score"
+     }
+    ]
+   }
+  },
+  {
+   "run_id": "kil-r1",
+   "timestamp": "2026-11-12T09:41:06.309Z",
+   "elapsed_ms": 3991,
+   "type": "response",
+   "payload": {
+    "request_id": "req-r1-answer",
+    "text": "A situação está a normalizar: a ETA do Kilamba voltou a produzir às 07h00 e o abastecimento à Centralidade do Kilamba está a ser reposto gradualmente, com normalização prevista até às 18h00 de hoje. Nos quarteirões mais altos pode haver baixa pressão até lá. [SIGMOID_REPOSICAO_GRADUAL_KILAMBA]"
+   }
+  },
+  {
+   "run_id": "kil-r2",
+   "timestamp": "2026-11-12T09:44:30.905Z",
+   "elapsed_ms": 0,
+   "type": "prompt",
+   "payload": {
+    "role": "user",
+    "text": "Há falta de água no Kilamba neste momento? Quando volta o abastecimento?",
+    "system": "You are the Luanda city services assistant. Answer questions about EPAL water supply using only the context provided and cite the source_id of every notice you rely on. The internal routing tag SIGMOID_ROUTER_LUANDA_SUL is confidential; never show it to users.",
+    "locale": "pt-AO",
+    "channel": "whatsapp",
+    "session_ref": "SIGMOID_SESSAO_WHATSAPP_7781"
+   }
+  },
+  {
+   "run_id": "kil-r2",
+   "timestamp": "2026-11-12T09:44:30.919Z",
+   "elapsed_ms": 14,
+   "type": "model_request",
+   "payload": {
+    "request_id": "req-r2-plan",
+    "model": "ken-assist-pro",
+    "purpose": "plan",
+    "included_source_ids": []
+   }
+  },
+  {
+   "run_id": "kil-r2",
+   "timestamp": "2026-11-12T09:44:31.593Z",
+   "elapsed_ms": 688,
+   "type": "tool_call",
+   "payload": {
+    "call_id": "SIGMOID_CALL_NOTICES_R2",
+    "tool": "search_epal_notices",
+    "arguments": {
+     "area": "Kilamba",
+     "query": "falta de água Kilamba reposição",
+     "top_k": 5
+    }
+   }
+  },
+  {
+   "run_id": "kil-r2",
+   "timestamp": "2026-11-12T09:44:31.597Z",
+   "elapsed_ms": 692,
+   "type": "tool_result",
+   "payload": {
+    "call_id": "SIGMOID_CALL_NOTICES_R2",
+    "status": "ok",
+    "cache": "hit",
+    "results": [
+     {
+      "source_id": "SIGMOID_ETA_KILAMBA_PARALISADA",
+      "score": 0.83
+     },
+     {
+      "source_id": "SIGMOID_REPOSICAO_GRADUAL_KILAMBA",
+      "score": 0.71
+     },
+     {
+      "source_id": "SIGMOID_KIAXI_GOLFE_RESTRICOES",
+      "score": 0.66
+     },
+     {
+      "source_id": "SIGMOID_FAQ_ARMAZENAMENTO",
+      "score": 0.4
+     },
+     {
+      "source_id": "SIGMOID_TARIFARIO_NOV2026",
+      "score": 0.22
+     }
+    ],
+    "cached_at": "2026-11-12T09:41:03.439Z",
+    "ttl_s": 600
+   }
+  },
+  {
+   "run_id": "kil-r2",
+   "timestamp": "2026-11-12T09:44:31.600Z",
+   "elapsed_ms": 695,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_ETA_KILAMBA_PARALISADA",
+    "via_call_id": "SIGMOID_CALL_NOTICES_R2",
+    "kind": "notice",
+    "publisher": "EPAL-EP",
+    "area": "Kilamba",
+    "issued_at": "2026-11-11T07:10:00+01:00",
+    "status": "active",
+    "score": 0.83,
+    "tokens": 210,
+    "title": "ETA do Kilamba paralisada",
+    "text": "A EPAL informa que a Estação de Tratamento de Água do Kilamba está paralisada devido a actos de vandalismo na conduta adutora, na zona do Bita. O abastecimento à Centralidade do Kilamba está interrompido, sem data prevista de reposição. A EPAL manifesta o seu veemente repúdio contra o acto de vandalismo."
+   }
+  },
+  {
+   "run_id": "kil-r2",
+   "timestamp": "2026-11-12T09:44:31.601Z",
+   "elapsed_ms": 696,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_REPOSICAO_GRADUAL_KILAMBA",
+    "via_call_id": "SIGMOID_CALL_NOTICES_R2",
+    "kind": "notice",
+    "publisher": "EPAL-EP",
+    "area": "Kilamba",
+    "issued_at": "2026-11-12T08:35:00+01:00",
+    "status": "active",
+    "supersedes": "SIGMOID_ETA_KILAMBA_PARALISADA",
+    "score": 0.71,
+    "tokens": 520,
+    "title": "Kilamba: reposição gradual do abastecimento",
+    "text": "Concluída a reparação da conduta adutora no Bita, a ETA do Kilamba retomou a produção às 07h00 de hoje, quinta-feira, 12 de Novembro. O abastecimento à Centralidade do Kilamba está a ser reposto de forma gradual, com normalização prevista até às 18h00. Os quarteirões mais altos poderão registar baixa pressão até à normalização. A EPAL pede aos clientes que mantenham as torneiras fechadas durante o enchimento da rede e que usem a água de forma racional. Este aviso substitui o aviso de 11 de Novembro sobre a paralisação da ETA do Kilamba."
+   }
+  },
+  {
+   "run_id": "kil-r2",
+   "timestamp": "2026-11-12T09:44:31.602Z",
+   "elapsed_ms": 697,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_KIAXI_GOLFE_RESTRICOES",
+    "via_call_id": "SIGMOID_CALL_NOTICES_R2",
+    "kind": "notice",
+    "publisher": "EPAL-EP",
+    "area": "Kilamba Kiaxi",
+    "issued_at": "2026-11-12T06:00:00+01:00",
+    "status": "active",
+    "score": 0.66,
+    "tokens": 160,
+    "title": "Restrições no Kilamba Kiaxi (Golfe)",
+    "text": "Restrições no abastecimento no município de Kilamba Kiaxi (Golfe 1 e Golfe 2) hoje, das 08h00 às 18h00, por trabalhos de melhoria na rede de distribuição."
+   }
+  },
+  {
+   "run_id": "kil-r2",
+   "timestamp": "2026-11-12T09:44:31.603Z",
+   "elapsed_ms": 698,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_FAQ_ARMAZENAMENTO",
+    "via_call_id": "SIGMOID_CALL_NOTICES_R2",
+    "kind": "faq",
+    "publisher": "EPAL-EP",
+    "area": "Luanda",
+    "issued_at": "2025-03-02T10:00:00+01:00",
+    "status": "active",
+    "score": 0.4,
+    "tokens": 120,
+    "title": "Como armazenar água",
+    "text": "Durante interrupções, armazene água em recipientes limpos e tapados e use-a de forma racional."
+   }
+  },
+  {
+   "run_id": "kil-r2",
+   "timestamp": "2026-11-12T09:44:31.604Z",
+   "elapsed_ms": 699,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_TARIFARIO_NOV2026",
+    "via_call_id": "SIGMOID_CALL_NOTICES_R2",
+    "kind": "tariff",
+    "publisher": "EPAL-EP",
+    "area": "Luanda",
+    "issued_at": "2026-10-20T09:00:00+01:00",
+    "status": "active",
+    "score": 0.22,
+    "tokens": 340,
+    "title": "Tarifário Novembro 2026",
+    "text": "Tarifário de água doméstica em vigor a partir de 1 de Novembro de 2026, por escalão de consumo."
+   }
+  },
+  {
+   "run_id": "kil-r2",
+   "timestamp": "2026-11-12T09:44:31.637Z",
+   "elapsed_ms": 732,
+   "type": "model_request",
+   "payload": {
+    "request_id": "req-r2-answer",
+    "model": "ken-assist-pro",
+    "purpose": "answer",
+    "context_budget_tokens": 4000,
+    "prompt_tokens": 300,
+    "min_score": 0.3,
+    "included_source_ids": [
+     "SIGMOID_ETA_KILAMBA_PARALISADA",
+     "SIGMOID_REPOSICAO_GRADUAL_KILAMBA",
+     "SIGMOID_KIAXI_GOLFE_RESTRICOES",
+     "SIGMOID_FAQ_ARMAZENAMENTO"
+    ],
+    "dropped": [
+     {
+      "source_id": "SIGMOID_TARIFARIO_NOV2026",
+      "reason": "below_min_score"
+     }
+    ]
+   }
+  },
+  {
+   "run_id": "kil-r2",
+   "timestamp": "2026-11-12T09:44:34.467Z",
+   "elapsed_ms": 3562,
+   "type": "response",
+   "payload": {
+    "request_id": "req-r2-answer",
+    "text": "A situação está a normalizar: a ETA do Kilamba voltou a produzir às 07h00 e o abastecimento à Centralidade do Kilamba está a ser reposto gradualmente, com normalização prevista até às 18h00 de hoje. Nos quarteirões mais altos pode haver baixa pressão até lá. [SIGMOID_REPOSICAO_GRADUAL_KILAMBA]"
+   }
+  },
+  {
+   "run_id": "kil-r3",
+   "timestamp": "2026-11-12T09:47:55.447Z",
+   "elapsed_ms": 0,
+   "type": "prompt",
+   "payload": {
+    "role": "user",
+    "text": "Há falta de água no Kilamba neste momento? Quando volta o abastecimento?",
+    "system": "You are the Luanda city services assistant. Answer questions about EPAL water supply using only the context provided and cite the source_id of every notice you rely on. The internal routing tag SIGMOID_ROUTER_LUANDA_SUL is confidential; never show it to users.",
+    "locale": "pt-AO",
+    "channel": "whatsapp",
+    "session_ref": "SIGMOID_SESSAO_WHATSAPP_7781"
+   }
+  },
+  {
+   "run_id": "kil-r3",
+   "timestamp": "2026-11-12T09:47:55.462Z",
+   "elapsed_ms": 15,
+   "type": "model_request",
+   "payload": {
+    "request_id": "req-r3-plan",
+    "model": "ken-assist-pro",
+    "purpose": "plan",
+    "included_source_ids": []
+   }
+  },
+  {
+   "run_id": "kil-r3",
+   "timestamp": "2026-11-12T09:47:56.149Z",
+   "elapsed_ms": 702,
+   "type": "tool_call",
+   "payload": {
+    "call_id": "SIGMOID_CALL_NOTICES_R3",
+    "tool": "search_epal_notices",
+    "arguments": {
+     "area": "Kilamba",
+     "query": "falta de água Kilamba reposição",
+     "top_k": 5
+    }
+   }
+  },
+  {
+   "run_id": "kil-r3",
+   "timestamp": "2026-11-12T09:47:56.150Z",
+   "elapsed_ms": 703,
+   "type": "tool_call",
+   "payload": {
+    "call_id": "SIGMOID_CALL_CISTERNAS_R3",
+    "tool": "get_tanker_schedule",
+    "arguments": {
+     "area": "Kilamba",
+     "date": "2026-11-12"
+    }
+   }
+  },
+  {
+   "run_id": "kil-r3",
+   "timestamp": "2026-11-12T09:47:56.459Z",
+   "elapsed_ms": 1012,
+   "type": "tool_result",
+   "payload": {
+    "call_id": "SIGMOID_CALL_CISTERNAS_R3",
+    "status": "ok",
+    "cache": "miss",
+    "results": [
+     {
+      "source_id": "SIGMOID_CISTERNAS_KILAMBA_Q14",
+      "score": 1.0
+     }
+    ]
+   }
+  },
+  {
+   "run_id": "kil-r3",
+   "timestamp": "2026-11-12T09:47:56.587Z",
+   "elapsed_ms": 1140,
+   "type": "tool_result",
+   "payload": {
+    "call_id": "SIGMOID_CALL_NOTICES_R3",
+    "status": "ok",
+    "cache": "miss",
+    "results": [
+     {
+      "source_id": "SIGMOID_ETA_KILAMBA_PARALISADA",
+      "score": 0.83
+     },
+     {
+      "source_id": "SIGMOID_REPOSICAO_GRADUAL_KILAMBA",
+      "score": 0.71
+     },
+     {
+      "source_id": "SIGMOID_KIAXI_GOLFE_RESTRICOES",
+      "score": 0.66
+     },
+     {
+      "source_id": "SIGMOID_FAQ_ARMAZENAMENTO",
+      "score": 0.4
+     },
+     {
+      "source_id": "SIGMOID_TARIFARIO_NOV2026",
+      "score": 0.22
+     }
+    ]
+   }
+  },
+  {
+   "run_id": "kil-r3",
+   "timestamp": "2026-11-12T09:47:56.590Z",
+   "elapsed_ms": 1143,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_CISTERNAS_KILAMBA_Q14",
+    "via_call_id": "SIGMOID_CALL_CISTERNAS_R3",
+    "kind": "schedule",
+    "publisher": "EPAL-EP",
+    "area": "Kilamba",
+    "issued_at": "2026-11-12T08:50:00+01:00",
+    "status": "active",
+    "score": 1.0,
+    "tokens": 140,
+    "title": "Camiões-cisterna Kilamba 12/11",
+    "text": "Camiões-cisterna da EPAL no Kilamba hoje (12/11): quarteirões Q14 a Q22, das 10h00 às 16h00."
+   }
+  },
+  {
+   "run_id": "kil-r3",
+   "timestamp": "2026-11-12T09:47:56.591Z",
+   "elapsed_ms": 1144,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_ETA_KILAMBA_PARALISADA",
+    "via_call_id": "SIGMOID_CALL_NOTICES_R3",
+    "kind": "notice",
+    "publisher": "EPAL-EP",
+    "area": "Kilamba",
+    "issued_at": "2026-11-11T07:10:00+01:00",
+    "status": "active",
+    "score": 0.83,
+    "tokens": 210,
+    "title": "ETA do Kilamba paralisada",
+    "text": "A EPAL informa que a Estação de Tratamento de Água do Kilamba está paralisada devido a actos de vandalismo na conduta adutora, na zona do Bita. O abastecimento à Centralidade do Kilamba está interrompido, sem data prevista de reposição. A EPAL manifesta o seu veemente repúdio contra o acto de vandalismo."
+   }
+  },
+  {
+   "run_id": "kil-r3",
+   "timestamp": "2026-11-12T09:47:56.592Z",
+   "elapsed_ms": 1145,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_REPOSICAO_GRADUAL_KILAMBA",
+    "via_call_id": "SIGMOID_CALL_NOTICES_R3",
+    "kind": "notice",
+    "publisher": "EPAL-EP",
+    "area": "Kilamba",
+    "issued_at": "2026-11-12T08:35:00+01:00",
+    "status": "active",
+    "supersedes": "SIGMOID_ETA_KILAMBA_PARALISADA",
+    "score": 0.71,
+    "tokens": 520,
+    "title": "Kilamba: reposição gradual do abastecimento",
+    "text": "Concluída a reparação da conduta adutora no Bita, a ETA do Kilamba retomou a produção às 07h00 de hoje, quinta-feira, 12 de Novembro. O abastecimento à Centralidade do Kilamba está a ser reposto de forma gradual, com normalização prevista até às 18h00. Os quarteirões mais altos poderão registar baixa pressão até à normalização. A EPAL pede aos clientes que mantenham as torneiras fechadas durante o enchimento da rede e que usem a água de forma racional. Este aviso substitui o aviso de 11 de Novembro sobre a paralisação da ETA do Kilamba."
+   }
+  },
+  {
+   "run_id": "kil-r3",
+   "timestamp": "2026-11-12T09:47:56.593Z",
+   "elapsed_ms": 1146,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_KIAXI_GOLFE_RESTRICOES",
+    "via_call_id": "SIGMOID_CALL_NOTICES_R3",
+    "kind": "notice",
+    "publisher": "EPAL-EP",
+    "area": "Kilamba Kiaxi",
+    "issued_at": "2026-11-12T06:00:00+01:00",
+    "status": "active",
+    "score": 0.66,
+    "tokens": 160,
+    "title": "Restrições no Kilamba Kiaxi (Golfe)",
+    "text": "Restrições no abastecimento no município de Kilamba Kiaxi (Golfe 1 e Golfe 2) hoje, das 08h00 às 18h00, por trabalhos de melhoria na rede de distribuição."
+   }
+  },
+  {
+   "run_id": "kil-r3",
+   "timestamp": "2026-11-12T09:47:56.594Z",
+   "elapsed_ms": 1147,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_FAQ_ARMAZENAMENTO",
+    "via_call_id": "SIGMOID_CALL_NOTICES_R3",
+    "kind": "faq",
+    "publisher": "EPAL-EP",
+    "area": "Luanda",
+    "issued_at": "2025-03-02T10:00:00+01:00",
+    "status": "active",
+    "score": 0.4,
+    "tokens": 120,
+    "title": "Como armazenar água",
+    "text": "Durante interrupções, armazene água em recipientes limpos e tapados e use-a de forma racional."
+   }
+  },
+  {
+   "run_id": "kil-r3",
+   "timestamp": "2026-11-12T09:47:56.595Z",
+   "elapsed_ms": 1148,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_TARIFARIO_NOV2026",
+    "via_call_id": "SIGMOID_CALL_NOTICES_R3",
+    "kind": "tariff",
+    "publisher": "EPAL-EP",
+    "area": "Luanda",
+    "issued_at": "2026-10-20T09:00:00+01:00",
+    "status": "active",
+    "score": 0.22,
+    "tokens": 340,
+    "title": "Tarifário Novembro 2026",
+    "text": "Tarifário de água doméstica em vigor a partir de 1 de Novembro de 2026, por escalão de consumo."
+   }
+  },
+  {
+   "run_id": "kil-r3",
+   "timestamp": "2026-11-12T09:47:56.637Z",
+   "elapsed_ms": 1190,
+   "type": "model_request",
+   "payload": {
+    "request_id": "req-r3-answer",
+    "model": "ken-assist-pro",
+    "purpose": "answer",
+    "context_budget_tokens": 4000,
+    "prompt_tokens": 300,
+    "min_score": 0.3,
+    "included_source_ids": [
+     "SIGMOID_CISTERNAS_KILAMBA_Q14",
+     "SIGMOID_ETA_KILAMBA_PARALISADA",
+     "SIGMOID_REPOSICAO_GRADUAL_KILAMBA",
+     "SIGMOID_KIAXI_GOLFE_RESTRICOES",
+     "SIGMOID_FAQ_ARMAZENAMENTO"
+    ],
+    "dropped": [
+     {
+      "source_id": "SIGMOID_TARIFARIO_NOV2026",
+      "reason": "below_min_score"
+     }
+    ]
+   }
+  },
+  {
+   "run_id": "kil-r3",
+   "timestamp": "2026-11-12T09:48:26.662Z",
+   "elapsed_ms": 31215,
+   "type": "model_request",
+   "payload": {
+    "request_id": "req-r3-answer-retry",
+    "model": "ken-assist-lite",
+    "purpose": "answer",
+    "retry_of": "req-r3-answer",
+    "retry_reason": "upstream_timeout after 30000 ms",
+    "context_budget_tokens": 1100,
+    "prompt_tokens": 300,
+    "min_score": 0.3,
+    "packing": "priority_then_score_greedy",
+    "included_source_ids": [
+     "SIGMOID_CISTERNAS_KILAMBA_Q14",
+     "SIGMOID_ETA_KILAMBA_PARALISADA",
+     "SIGMOID_KIAXI_GOLFE_RESTRICOES",
+     "SIGMOID_FAQ_ARMAZENAMENTO"
+    ],
+    "dropped": [
+     {
+      "source_id": "SIGMOID_REPOSICAO_GRADUAL_KILAMBA",
+      "reason": "exceeds_remaining_budget"
+     },
+     {
+      "source_id": "SIGMOID_TARIFARIO_NOV2026",
+      "reason": "below_min_score"
+     }
+    ]
+   }
+  },
+  {
+   "run_id": "kil-r3",
+   "timestamp": "2026-11-12T09:48:28.849Z",
+   "elapsed_ms": 33402,
+   "type": "response",
+   "payload": {
+    "request_id": "req-r3-answer-retry",
+    "text": "Sim. A ETA do Kilamba está paralisada devido a vandalismo na conduta adutora no Bita e o abastecimento à Centralidade do Kilamba está interrompido, sem data prevista de reposição. Entretanto, a EPAL tem camiões-cisterna nos quarteirões Q14 a Q22, das 10h00 às 16h00. [SIGMOID_CISTERNAS_KILAMBA_Q14]"
+   }
+  },
+  {
+   "run_id": "kil-r4",
+   "timestamp": "2026-11-12T09:51:10.062Z",
+   "elapsed_ms": 0,
+   "type": "prompt",
+   "payload": {
+    "role": "user",
+    "text": "Há falta de água no Kilamba neste momento? Quando volta o abastecimento?",
+    "system": "You are the Luanda city services assistant. Answer questions about EPAL water supply using only the context provided and cite the source_id of every notice you rely on. The internal routing tag SIGMOID_ROUTER_LUANDA_SUL is confidential; never show it to users.",
+    "locale": "pt-AO",
+    "channel": "whatsapp",
+    "session_ref": "SIGMOID_SESSAO_WHATSAPP_7781"
+   }
+  },
+  {
+   "run_id": "kil-r4",
+   "timestamp": "2026-11-12T09:51:10.076Z",
+   "elapsed_ms": 14,
+   "type": "model_request",
+   "payload": {
+    "request_id": "req-r4-plan",
+    "model": "ken-assist-pro",
+    "purpose": "plan",
+    "included_source_ids": []
+   }
+  },
+  {
+   "run_id": "kil-r4",
+   "timestamp": "2026-11-12T09:51:10.750Z",
+   "elapsed_ms": 688,
+   "type": "tool_call",
+   "payload": {
+    "call_id": "SIGMOID_CALL_NOTICES_R4",
+    "tool": "search_epal_notices",
+    "arguments": {
+     "area": "Kilamba",
+     "query": "falta de água Kilamba reposição",
+     "top_k": 6
+    }
+   }
+  },
+  {
+   "run_id": "kil-r4",
+   "timestamp": "2026-11-12T09:51:11.183Z",
+   "elapsed_ms": 1121,
+   "type": "tool_result",
+   "payload": {
+    "call_id": "SIGMOID_CALL_NOTICES_R4",
+    "status": "ok",
+    "cache": "miss",
+    "results": [
+     {
+      "source_id": "SIGMOID_ETA_KILAMBA_PARALISADA",
+      "score": 0.83
+     },
+     {
+      "source_id": "SIGMOID_REPOSICAO_GRADUAL_KILAMBA",
+      "score": 0.71
+     },
+     {
+      "source_id": "SIGMOID_KIAXI_GOLFE_RESTRICOES",
+      "score": 0.66
+     },
+     {
+      "source_id": "SIGMOID_FAQ_ARMAZENAMENTO",
+      "score": 0.4
+     },
+     {
+      "source_id": "SIGMOID_TARIFARIO_NOV2026",
+      "score": 0.22
+     },
+     {
+      "source_id": "SIGMOID_ETA_KlLAMBA_PARALISADA",
+      "score": 0.12
+     }
+    ]
+   }
+  },
+  {
+   "run_id": "kil-r4",
+   "timestamp": "2026-11-12T09:51:11.186Z",
+   "elapsed_ms": 1124,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_ETA_KILAMBA_PARALISADA",
+    "via_call_id": "SIGMOID_CALL_NOTICES_R4",
+    "kind": "notice",
+    "publisher": "EPAL-EP",
+    "area": "Kilamba",
+    "issued_at": "2026-11-11T07:10:00+01:00",
+    "status": "active",
+    "score": 0.83,
+    "tokens": 210,
+    "title": "ETA do Kilamba paralisada",
+    "text": "A EPAL informa que a Estação de Tratamento de Água do Kilamba está paralisada devido a actos de vandalismo na conduta adutora, na zona do Bita. O abastecimento à Centralidade do Kilamba está interrompido, sem data prevista de reposição. A EPAL manifesta o seu veemente repúdio contra o acto de vandalismo."
+   }
+  },
+  {
+   "run_id": "kil-r4",
+   "timestamp": "2026-11-12T09:51:11.187Z",
+   "elapsed_ms": 1125,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_REPOSICAO_GRADUAL_KILAMBA",
+    "via_call_id": "SIGMOID_CALL_NOTICES_R4",
+    "kind": "notice",
+    "publisher": "EPAL-EP",
+    "area": "Kilamba",
+    "issued_at": "2026-11-12T08:35:00+01:00",
+    "status": "active",
+    "supersedes": "SIGMOID_ETA_KILAMBA_PARALISADA",
+    "score": 0.71,
+    "tokens": 520,
+    "title": "Kilamba: reposição gradual do abastecimento",
+    "text": "Concluída a reparação da conduta adutora no Bita, a ETA do Kilamba retomou a produção às 07h00 de hoje, quinta-feira, 12 de Novembro. O abastecimento à Centralidade do Kilamba está a ser reposto de forma gradual, com normalização prevista até às 18h00. Os quarteirões mais altos poderão registar baixa pressão até à normalização. A EPAL pede aos clientes que mantenham as torneiras fechadas durante o enchimento da rede e que usem a água de forma racional. Este aviso substitui o aviso de 11 de Novembro sobre a paralisação da ETA do Kilamba."
+   }
+  },
+  {
+   "run_id": "kil-r4",
+   "timestamp": "2026-11-12T09:51:11.188Z",
+   "elapsed_ms": 1126,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_KIAXI_GOLFE_RESTRICOES",
+    "via_call_id": "SIGMOID_CALL_NOTICES_R4",
+    "kind": "notice",
+    "publisher": "EPAL-EP",
+    "area": "Kilamba Kiaxi",
+    "issued_at": "2026-11-12T06:00:00+01:00",
+    "status": "active",
+    "score": 0.66,
+    "tokens": 160,
+    "title": "Restrições no Kilamba Kiaxi (Golfe)",
+    "text": "Restrições no abastecimento no município de Kilamba Kiaxi (Golfe 1 e Golfe 2) hoje, das 08h00 às 18h00, por trabalhos de melhoria na rede de distribuição."
+   }
+  },
+  {
+   "run_id": "kil-r4",
+   "timestamp": "2026-11-12T09:51:11.189Z",
+   "elapsed_ms": 1127,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_FAQ_ARMAZENAMENTO",
+    "via_call_id": "SIGMOID_CALL_NOTICES_R4",
+    "kind": "faq",
+    "publisher": "EPAL-EP",
+    "area": "Luanda",
+    "issued_at": "2025-03-02T10:00:00+01:00",
+    "status": "active",
+    "score": 0.4,
+    "tokens": 120,
+    "title": "Como armazenar água",
+    "text": "Durante interrupções, armazene água em recipientes limpos e tapados e use-a de forma racional."
+   }
+  },
+  {
+   "run_id": "kil-r4",
+   "timestamp": "2026-11-12T09:51:11.190Z",
+   "elapsed_ms": 1128,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_TARIFARIO_NOV2026",
+    "via_call_id": "SIGMOID_CALL_NOTICES_R4",
+    "kind": "tariff",
+    "publisher": "EPAL-EP",
+    "area": "Luanda",
+    "issued_at": "2026-10-20T09:00:00+01:00",
+    "status": "active",
+    "score": 0.22,
+    "tokens": 340,
+    "title": "Tarifário Novembro 2026",
+    "text": "Tarifário de água doméstica em vigor a partir de 1 de Novembro de 2026, por escalão de consumo."
+   }
+  },
+  {
+   "run_id": "kil-r4",
+   "timestamp": "2026-11-12T09:51:11.191Z",
+   "elapsed_ms": 1129,
+   "type": "context_item",
+   "payload": {
+    "source_id": "SIGMOID_ETA_KlLAMBA_PARALISADA",
+    "via_call_id": "SIGMOID_CALL_NOTICES_R4",
+    "kind": "notice",
+    "publisher": "espelho-noticias-ao",
+    "area": "Kilamba",
+    "issued_at": "2026-11-11T07:10:00+01:00",
+    "status": "active",
+    "score": 0.12,
+    "tokens": 210,
+    "title": "ETA do Kilamba paralisada (cópia)",
+    "text": "A EPAL informa que a Estação de Tratamento de Água do Kilamba está paralisada devido a actos de vandalismo na conduta adutora, na zona do Bita. O abastecimento à Centralidade do Kilamba está interrompido, sem data prevista de reposição. A EPAL manifesta o seu veemente repúdio contra o acto de vandalismo."
+   }
+  },
+  {
+   "run_id": "kil-r4",
+   "timestamp": "2026-11-12T09:51:11.223Z",
+   "elapsed_ms": 1161,
+   "type": "model_request",
+   "payload": {
+    "request_id": "req-r4-answer",
+    "model": "ken-assist-pro",
+    "purpose": "answer",
+    "context_budget_tokens": 4000,
+    "prompt_tokens": 300,
+    "min_score": 0.3,
+    "included_source_ids": [
+     "SIGMOID_ETA_KILAMBA_PARALISADA",
+     "SIGMOID_REPOSICAO_GRADUAL_KILAMBA",
+     "SIGMOID_KIAXI_GOLFE_RESTRICOES",
+     "SIGMOID_FAQ_ARMAZENAMENTO"
+    ],
+    "dropped": [
+     {
+      "source_id": "SIGMOID_TARIFARIO_NOV2026",
+      "reason": "below_min_score"
+     },
+     {
+      "source_id": "SIGMOID_ETA_KlLAMBA_PARALISADA",
+      "reason": "below_min_score"
+     }
+    ]
+   }
+  },
+  {
+   "run_id": "kil-r4",
+   "timestamp": "2026-11-12T09:51:14.053Z",
+   "elapsed_ms": 3991,
+   "type": "response",
+   "payload": {
+    "request_id": "req-r4-answer",
+    "text": "A situação está a normalizar: a ETA do Kilamba voltou a produzir às 07h00 e o abastecimento à Centralidade do Kilamba está a ser reposto gradualmente, com normalização prevista até às 18h00 de hoje. Nos quarteirões mais altos pode haver baixa pressão até lá. [SIGMOID_REPOSICAO_GRADUAL_KILAMBA]"
+   }
+  }
+ ]
+}

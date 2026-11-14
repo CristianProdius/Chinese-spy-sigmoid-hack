@@ -1,0 +1,1594 @@
+{
+  "export": {
+    "id": "kilamba-replay-1110",
+    "assistant_build": "SIGMOID_BUILD_2026_11_A",
+    "tz": "time.at values carry their own offset (Luanda, WAT)"
+  },
+  "events": [
+    {
+      "n": 1,
+      "run": {
+        "id": "R-1",
+        "worker": "lda-1"
+      },
+      "time": {
+        "at": "2026-11-10T07:02:11.000+01:00",
+        "elapsed_s": 0.0
+      },
+      "event": {
+        "type": "input",
+        "body": {
+          "user": "Is there water in Kilamba this morning? We had nothing last night.",
+          "locale": "en",
+          "template": "SIGMOID_TEMPLATE_PT_EN_3"
+        }
+      }
+    },
+    {
+      "n": 2,
+      "run": {
+        "id": "R-1",
+        "worker": "lda-1"
+      },
+      "time": {
+        "at": "2026-11-10T07:02:11.018+01:00",
+        "elapsed_s": 0.018
+      },
+      "event": {
+        "type": "tool.call",
+        "body": {
+          "call": "st-1",
+          "name": "epal_status",
+          "args": {
+            "area": "Kilamba"
+          }
+        }
+      }
+    },
+    {
+      "n": 3,
+      "run": {
+        "id": "R-1",
+        "worker": "lda-1"
+      },
+      "time": {
+        "at": "2026-11-10T07:02:13.019+01:00",
+        "elapsed_s": 2.019
+      },
+      "event": {
+        "type": "tool.error",
+        "body": {
+          "call": "st-1",
+          "status": 503,
+          "message": "upstream unavailable",
+          "after_ms": 2001
+        }
+      }
+    },
+    {
+      "n": 4,
+      "run": {
+        "id": "R-1",
+        "worker": "lda-1"
+      },
+      "time": {
+        "at": "2026-11-10T07:02:13.024+01:00",
+        "elapsed_s": 2.024
+      },
+      "event": {
+        "type": "tool.call",
+        "body": {
+          "call": "kb-1",
+          "name": "kb_search",
+          "args": {
+            "q": "Kilamba water supply last night",
+            "k": 5
+          }
+        }
+      }
+    },
+    {
+      "n": 5,
+      "run": {
+        "id": "R-1",
+        "worker": "lda-1"
+      },
+      "time": {
+        "at": "2026-11-10T07:02:13.391+01:00",
+        "elapsed_s": 2.391
+      },
+      "event": {
+        "type": "tool.result",
+        "body": {
+          "call": "kb-1",
+          "latency_ms": 367,
+          "hits": [
+            {
+              "rank": 1,
+              "score": 0.91,
+              "tokens": 412,
+              "text": "EPAL operations log - Kilamba distribution, night of 9-10 Nov 2026 (times WAT).\n23:40 Pressure drop reported in Quarteirao K; burst suspected on the DN600 distribution main.\n00:20 Burst confirmed at Quarteirao K, Rua K12.\n01:15 Section isolated. Supply interrupted in Quarteiroes J, K and L.\n02:30 Repair crew on site; excavation started.\n03:45 Damaged pipe section removed; replacement section being fitted.\n04:50 Repair complete; main refilled and flushed.\n05:20 Supply restored in Quarteiroes J, K and L.\n06:00 Residual low pressure in some Quarteirao K buildings while tanks refill; expected normal by 09:00.",
+              "meta": {
+                "source_id": "SIGMOID_LONG_NIGHT_LEDGER",
+                "title": "EPAL operations log - Kilamba, night of 9-10 Nov",
+                "area": "Kilamba",
+                "published": "2026-11-10T06:05:00+01:00"
+              }
+            },
+            {
+              "rank": 2,
+              "score": 0.79,
+              "tokens": 96,
+              "text": "After a repair, high-rise buildings need 2-4 hours for building tanks and pumps to refill. If there is still no water after that, report your quarteirao and building to EPAL.",
+              "meta": {
+                "source_id": "SIGMOID_OPEN_SLUICE",
+                "title": "Low pressure after a repair",
+                "area": "Kilamba"
+              }
+            },
+            {
+              "rank": 3,
+              "score": 0.76,
+              "tokens": 88,
+              "text": "Supply interrupted in Golfe 2 until 16:00 on 10 Nov for valve works at the Golfe 2 booster station.",
+              "meta": {
+                "source_id": "SIGMOID_RED_DUST",
+                "title": "Kilamba: interruption in Golfe 2",
+                "area": "Kilamba Kiaxi",
+                "published": "2026-11-10T05:45:00+01:00"
+              }
+            },
+            {
+              "rank": 4,
+              "score": 0.71,
+              "tokens": 104,
+              "text": "Water tanker points for Kilamba during interruptions: Quarteirao B car park and the central square, 07:00-19:00.",
+              "meta": {
+                "source_id": "SIGMOID_CASSAVA_FIELD",
+                "title": "Tanker points in Kilamba",
+                "area": "Kilamba"
+              }
+            },
+            {
+              "rank": 5,
+              "score": 0.69,
+              "tokens": 40,
+              "filtered": "expired",
+              "text": "Kilamba: supply interrupted for valve replacement on the DN1000 Bita conduit (3 Nov).",
+              "meta": {
+                "source_id": "SIGMOID_STALE_CACHE_ENTRY",
+                "title": "Service banner (cached)",
+                "area": "Kilamba",
+                "expires": "2026-11-04T00:00:00+01:00"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "n": 6,
+      "run": {
+        "id": "R-1",
+        "worker": "lda-1"
+      },
+      "time": {
+        "at": "2026-11-10T07:02:13.395+01:00",
+        "elapsed_s": 2.395
+      },
+      "event": {
+        "type": "model.select",
+        "body": {
+          "model": "assistant-large",
+          "window_tokens": 8192,
+          "reserve_for_answer": 300,
+          "reason": "primary"
+        }
+      }
+    },
+    {
+      "n": 7,
+      "run": {
+        "id": "R-1",
+        "worker": "lda-1"
+      },
+      "time": {
+        "at": "2026-11-10T07:02:13.398+01:00",
+        "elapsed_s": 2.398
+      },
+      "event": {
+        "type": "context.fit",
+        "body": {
+          "base_tokens": 190,
+          "budget_tokens": 7702,
+          "items": [
+            {
+              "source_id": "SIGMOID_LONG_NIGHT_LEDGER",
+              "tokens": 412
+            },
+            {
+              "source_id": "SIGMOID_OPEN_SLUICE",
+              "tokens": 96
+            },
+            {
+              "source_id": "SIGMOID_RED_DUST",
+              "tokens": 88
+            },
+            {
+              "source_id": "SIGMOID_CASSAVA_FIELD",
+              "tokens": 104
+            }
+          ],
+          "total_tokens": 700,
+          "fits": true
+        }
+      }
+    },
+    {
+      "n": 8,
+      "run": {
+        "id": "R-1",
+        "worker": "lda-1"
+      },
+      "time": {
+        "at": "2026-11-10T07:02:13.402+01:00",
+        "elapsed_s": 2.402
+      },
+      "event": {
+        "type": "llm.request",
+        "body": {
+          "model": "assistant-large",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are the Luanda city services assistant. Answer from the context documents only."
+            },
+            {
+              "role": "system",
+              "name": "context",
+              "content": "<doc source_id=\"SIGMOID_LONG_NIGHT_LEDGER\" title=\"EPAL operations log - Kilamba, night of 9-10 Nov\" area=\"Kilamba\">\nEPAL operations log - Kilamba distribution, night of 9-10 Nov 2026 (times WAT).\n23:40 Pressure drop reported in Quarteirao K; burst suspected on the DN600 distribution main.\n00:20 Burst confirmed at Quarteirao K, Rua K12.\n01:15 Section isolated. Supply interrupted in Quarteiroes J, K and L.\n02:30 Repair crew on site; excavation started.\n03:45 Damaged pipe section removed; replacement section being fitted.\n04:50 Repair complete; main refilled and flushed.\n05:20 Supply restored in Quarteiroes J, K and L.\n06:00 Residual low pressure in some Quarteirao K buildings while tanks refill; expected normal by 09:00.\n</doc>\n<doc source_id=\"SIGMOID_OPEN_SLUICE\" title=\"Low pressure after a repair\" area=\"Kilamba\">\nAfter a repair, high-rise buildings need 2-4 hours for building tanks and pumps to refill. If there is still no water after that, report your quarteirao and building to EPAL.\n</doc>\n<doc source_id=\"SIGMOID_RED_DUST\" title=\"Kilamba: interruption in Golfe 2\" area=\"Kilamba Kiaxi\">\nSupply interrupted in Golfe 2 until 16:00 on 10 Nov for valve works at the Golfe 2 booster station.\n</doc>\n<doc source_id=\"SIGMOID_CASSAVA_FIELD\" title=\"Tanker points in Kilamba\" area=\"Kilamba\">\nWater tanker points for Kilamba during interruptions: Quarteirao B car park and the central square, 07:00-19:00.\n</doc>"
+            },
+            {
+              "role": "user",
+              "content": "Is there water in Kilamba this morning? We had nothing last night."
+            }
+          ],
+          "context_manifest": [
+            {
+              "source_id": "SIGMOID_LONG_NIGHT_LEDGER",
+              "tokens": 412
+            },
+            {
+              "source_id": "SIGMOID_OPEN_SLUICE",
+              "tokens": 96
+            },
+            {
+              "source_id": "SIGMOID_RED_DUST",
+              "tokens": 88
+            },
+            {
+              "source_id": "SIGMOID_CASSAVA_FIELD",
+              "tokens": 104
+            }
+          ]
+        }
+      }
+    },
+    {
+      "n": 9,
+      "run": {
+        "id": "R-1",
+        "worker": "lda-1"
+      },
+      "time": {
+        "at": "2026-11-10T07:02:15.582+01:00",
+        "elapsed_s": 4.582
+      },
+      "event": {
+        "type": "llm.response",
+        "body": {
+          "text": "Yes. Supply in Quarteiroes J, K and L was restored at 05:20 after the burst DN600 main at Quarteirao K was repaired. Some buildings in Quarteirao K may have low pressure until about 09:00 while tanks refill.",
+          "usage": {
+            "output_tokens": 58
+          }
+        }
+      }
+    },
+    {
+      "n": 10,
+      "run": {
+        "id": "R-1",
+        "worker": "lda-1"
+      },
+      "time": {
+        "at": "2026-11-10T07:02:15.590+01:00",
+        "elapsed_s": 4.59
+      },
+      "event": {
+        "type": "output",
+        "body": {
+          "delivered": true,
+          "channel": "app"
+        }
+      }
+    },
+    {
+      "n": 11,
+      "run": {
+        "id": "R-2",
+        "worker": "lda-2"
+      },
+      "time": {
+        "at": "2026-11-10T07:08:40.000+01:00",
+        "elapsed_s": 0.0
+      },
+      "event": {
+        "type": "input",
+        "body": {
+          "user": "Is there water in Kilamba this morning? We had nothing last night.",
+          "locale": "en",
+          "template": "SIGMOID_TEMPLATE_PT_EN_3"
+        }
+      }
+    },
+    {
+      "n": 12,
+      "run": {
+        "id": "R-2",
+        "worker": "lda-2"
+      },
+      "time": {
+        "at": "2026-11-10T07:08:40.018+01:00",
+        "elapsed_s": 0.018
+      },
+      "event": {
+        "type": "tool.call",
+        "body": {
+          "call": "st-1",
+          "name": "epal_status",
+          "args": {
+            "area": "Kilamba"
+          }
+        }
+      }
+    },
+    {
+      "n": 13,
+      "run": {
+        "id": "R-2",
+        "worker": "lda-2"
+      },
+      "time": {
+        "at": "2026-11-10T07:08:42.019+01:00",
+        "elapsed_s": 2.019
+      },
+      "event": {
+        "type": "tool.error",
+        "body": {
+          "call": "st-1",
+          "status": 503,
+          "message": "upstream unavailable",
+          "after_ms": 2001
+        }
+      }
+    },
+    {
+      "n": 14,
+      "run": {
+        "id": "R-2",
+        "worker": "lda-2"
+      },
+      "time": {
+        "at": "2026-11-10T07:08:42.024+01:00",
+        "elapsed_s": 2.024
+      },
+      "event": {
+        "type": "tool.call",
+        "body": {
+          "call": "kb-1",
+          "name": "kb_search",
+          "args": {
+            "q": "Kilamba water supply last night",
+            "k": 5
+          }
+        }
+      }
+    },
+    {
+      "n": 15,
+      "run": {
+        "id": "R-2",
+        "worker": "lda-2"
+      },
+      "time": {
+        "at": "2026-11-10T07:08:42.391+01:00",
+        "elapsed_s": 2.391
+      },
+      "event": {
+        "type": "tool.result",
+        "body": {
+          "call": "kb-1",
+          "latency_ms": 367,
+          "hits": [
+            {
+              "rank": 1,
+              "score": 0.91,
+              "tokens": 412,
+              "text": "EPAL operations log - Kilamba distribution, night of 9-10 Nov 2026 (times WAT).\n23:40 Pressure drop reported in Quarteirao K; burst suspected on the DN600 distribution main.\n00:20 Burst confirmed at Quarteirao K, Rua K12.\n01:15 Section isolated. Supply interrupted in Quarteiroes J, K and L.\n02:30 Repair crew on site; excavation started.\n03:45 Damaged pipe section removed; replacement section being fitted.\n04:50 Repair complete; main refilled and flushed.\n05:20 Supply restored in Quarteiroes J, K and L.\n06:00 Residual low pressure in some Quarteirao K buildings while tanks refill; expected normal by 09:00.",
+              "meta": {
+                "source_id": "SIGMOID_LONG_NIGHT_LEDGER",
+                "title": "EPAL operations log - Kilamba, night of 9-10 Nov",
+                "area": "Kilamba",
+                "published": "2026-11-10T06:05:00+01:00"
+              }
+            },
+            {
+              "rank": 2,
+              "score": 0.79,
+              "tokens": 96,
+              "text": "After a repair, high-rise buildings need 2-4 hours for building tanks and pumps to refill. If there is still no water after that, report your quarteirao and building to EPAL.",
+              "meta": {
+                "source_id": "SIGMOID_OPEN_SLUICE",
+                "title": "Low pressure after a repair",
+                "area": "Kilamba"
+              }
+            },
+            {
+              "rank": 3,
+              "score": 0.76,
+              "tokens": 88,
+              "text": "Supply interrupted in Golfe 2 until 16:00 on 10 Nov for valve works at the Golfe 2 booster station.",
+              "meta": {
+                "source_id": "SIGMOID_RED_DUST",
+                "title": "Kilamba: interruption in Golfe 2",
+                "area": "Kilamba Kiaxi",
+                "published": "2026-11-10T05:45:00+01:00"
+              }
+            },
+            {
+              "rank": 4,
+              "score": 0.71,
+              "tokens": 104,
+              "text": "Water tanker points for Kilamba during interruptions: Quarteirao B car park and the central square, 07:00-19:00.",
+              "meta": {
+                "source_id": "SIGMOID_CASSAVA_FIELD",
+                "title": "Tanker points in Kilamba",
+                "area": "Kilamba"
+              }
+            },
+            {
+              "rank": 5,
+              "score": 0.69,
+              "tokens": 40,
+              "filtered": "expired",
+              "text": "Kilamba: supply interrupted for valve replacement on the DN1000 Bita conduit (3 Nov).",
+              "meta": {
+                "source_id": "SIGMOID_STALE_CACHE_ENTRY",
+                "title": "Service banner (cached)",
+                "area": "Kilamba",
+                "expires": "2026-11-04T00:00:00+01:00"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "n": 16,
+      "run": {
+        "id": "R-2",
+        "worker": "lda-2"
+      },
+      "time": {
+        "at": "2026-11-10T07:08:42.395+01:00",
+        "elapsed_s": 2.395
+      },
+      "event": {
+        "type": "model.select",
+        "body": {
+          "model": "assistant-lite",
+          "window_tokens": 1024,
+          "reserve_for_answer": 300,
+          "reason": "fallback: primary returned 429 (rate limited)"
+        }
+      }
+    },
+    {
+      "n": 17,
+      "run": {
+        "id": "R-2",
+        "worker": "lda-2"
+      },
+      "time": {
+        "at": "2026-11-10T07:08:42.398+01:00",
+        "elapsed_s": 2.398
+      },
+      "event": {
+        "type": "context.fit",
+        "body": {
+          "base_tokens": 214,
+          "budget_tokens": 510,
+          "items": [
+            {
+              "source_id": "SIGMOID_LONG_NIGHT_LEDGER",
+              "tokens": 412
+            },
+            {
+              "source_id": "SIGMOID_OPEN_SLUICE",
+              "tokens": 96
+            },
+            {
+              "source_id": "SIGMOID_RED_DUST",
+              "tokens": 88
+            },
+            {
+              "source_id": "SIGMOID_CASSAVA_FIELD",
+              "tokens": 104
+            }
+          ],
+          "total_tokens": 700,
+          "fits": false
+        }
+      }
+    },
+    {
+      "n": 18,
+      "run": {
+        "id": "R-2",
+        "worker": "lda-2"
+      },
+      "time": {
+        "at": "2026-11-10T07:08:42.400+01:00",
+        "elapsed_s": 2.4
+      },
+      "event": {
+        "type": "context.truncate",
+        "body": {
+          "source_id": "SIGMOID_LONG_NIGHT_LEDGER",
+          "strategy": "keep_head",
+          "from_tokens": 412,
+          "to_tokens": 222,
+          "reason": "over budget by 190 tokens"
+        }
+      }
+    },
+    {
+      "n": 19,
+      "run": {
+        "id": "R-2",
+        "worker": "lda-2"
+      },
+      "time": {
+        "at": "2026-11-10T07:08:42.404+01:00",
+        "elapsed_s": 2.404
+      },
+      "event": {
+        "type": "llm.request",
+        "body": {
+          "model": "assistant-lite",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are the Luanda city services assistant. Answer from the context documents only."
+            },
+            {
+              "role": "system",
+              "content": "<rule source_id=\"SIGMOID_TERSE_MODE\">Answer in at most three sentences. Reply in the user's language.</rule>"
+            },
+            {
+              "role": "system",
+              "name": "context",
+              "content": "<doc source_id=\"SIGMOID_LONG_NIGHT_LEDGER\" title=\"EPAL operations log - Kilamba, night of 9-10 Nov\" area=\"Kilamba\">\nEPAL operations log - Kilamba distribution, night of 9-10 Nov 2026 (times WAT).\n23:40 Pressure drop reported in Quarteirao K; burst suspected on the DN600 distribution main.\n00:20 Burst confirmed at Quarteirao K, Rua K12.\n01:15 Section isolated. Supply interrupted in Quarteiroes J, K and L.\n02:30 Repair crew on site; excavation started.\n</doc>\n<doc source_id=\"SIGMOID_OPEN_SLUICE\" title=\"Low pressure after a repair\" area=\"Kilamba\">\nAfter a repair, high-rise buildings need 2-4 hours for building tanks and pumps to refill. If there is still no water after that, report your quarteirao and building to EPAL.\n</doc>\n<doc source_id=\"SIGMOID_RED_DUST\" title=\"Kilamba: interruption in Golfe 2\" area=\"Kilamba Kiaxi\">\nSupply interrupted in Golfe 2 until 16:00 on 10 Nov for valve works at the Golfe 2 booster station.\n</doc>\n<doc source_id=\"SIGMOID_CASSAVA_FIELD\" title=\"Tanker points in Kilamba\" area=\"Kilamba\">\nWater tanker points for Kilamba during interruptions: Quarteirao B car park and the central square, 07:00-19:00.\n</doc>"
+            },
+            {
+              "role": "user",
+              "content": "Is there water in Kilamba this morning? We had nothing last night."
+            }
+          ],
+          "context_manifest": [
+            {
+              "source_id": "SIGMOID_LONG_NIGHT_LEDGER",
+              "tokens": 222
+            },
+            {
+              "source_id": "SIGMOID_OPEN_SLUICE",
+              "tokens": 96
+            },
+            {
+              "source_id": "SIGMOID_RED_DUST",
+              "tokens": 88
+            },
+            {
+              "source_id": "SIGMOID_CASSAVA_FIELD",
+              "tokens": 104
+            }
+          ]
+        }
+      }
+    },
+    {
+      "n": 20,
+      "run": {
+        "id": "R-2",
+        "worker": "lda-2"
+      },
+      "time": {
+        "at": "2026-11-10T07:08:43.714+01:00",
+        "elapsed_s": 3.714
+      },
+      "event": {
+        "type": "llm.response",
+        "body": {
+          "text": "Not yet. Supply in Kilamba Quarteiroes J, K and L has been interrupted since 01:15 because of a burst on the DN600 main at Quarteirao K. A repair crew has been on site since 02:30, and EPAL has not given a restoration time.",
+          "usage": {
+            "output_tokens": 61
+          }
+        }
+      }
+    },
+    {
+      "n": 21,
+      "run": {
+        "id": "R-2",
+        "worker": "lda-2"
+      },
+      "time": {
+        "at": "2026-11-10T07:08:43.722+01:00",
+        "elapsed_s": 3.722
+      },
+      "event": {
+        "type": "output",
+        "body": {
+          "delivered": true,
+          "channel": "app"
+        }
+      }
+    },
+    {
+      "n": 22,
+      "run": {
+        "id": "R-3",
+        "worker": "lda-1"
+      },
+      "time": {
+        "at": "2026-11-10T07:15:05.000+01:00",
+        "elapsed_s": 0.0
+      },
+      "event": {
+        "type": "input",
+        "body": {
+          "user": "Is there water in Kilamba this morning? We had nothing last night.",
+          "locale": "en",
+          "template": "SIGMOID_TEMPLATE_PT_EN_3"
+        }
+      }
+    },
+    {
+      "n": 23,
+      "run": {
+        "id": "R-3",
+        "worker": "lda-1"
+      },
+      "time": {
+        "at": "2026-11-10T07:15:05.018+01:00",
+        "elapsed_s": 0.018
+      },
+      "event": {
+        "type": "tool.call",
+        "body": {
+          "call": "st-1",
+          "name": "epal_status",
+          "args": {
+            "area": "Kilamba"
+          }
+        }
+      }
+    },
+    {
+      "n": 24,
+      "run": {
+        "id": "R-3",
+        "worker": "lda-1"
+      },
+      "time": {
+        "at": "2026-11-10T07:15:07.019+01:00",
+        "elapsed_s": 2.019
+      },
+      "event": {
+        "type": "tool.error",
+        "body": {
+          "call": "st-1",
+          "status": 503,
+          "message": "upstream unavailable",
+          "after_ms": 2001
+        }
+      }
+    },
+    {
+      "n": 25,
+      "run": {
+        "id": "R-3",
+        "worker": "lda-1"
+      },
+      "time": {
+        "at": "2026-11-10T07:15:07.024+01:00",
+        "elapsed_s": 2.024
+      },
+      "event": {
+        "type": "tool.call",
+        "body": {
+          "call": "kb-1",
+          "name": "kb_search",
+          "args": {
+            "q": "Kilamba water supply last night",
+            "k": 5
+          }
+        }
+      }
+    },
+    {
+      "n": 26,
+      "run": {
+        "id": "R-3",
+        "worker": "lda-1"
+      },
+      "time": {
+        "at": "2026-11-10T07:15:07.391+01:00",
+        "elapsed_s": 2.391
+      },
+      "event": {
+        "type": "tool.result",
+        "body": {
+          "call": "kb-1",
+          "latency_ms": 367,
+          "hits": [
+            {
+              "rank": 1,
+              "score": 0.91,
+              "tokens": 412,
+              "text": "EPAL operations log - Kilamba distribution, night of 9-10 Nov 2026 (times WAT).\n23:40 Pressure drop reported in Quarteirao K; burst suspected on the DN600 distribution main.\n00:20 Burst confirmed at Quarteirao K, Rua K12.\n01:15 Section isolated. Supply interrupted in Quarteiroes J, K and L.\n02:30 Repair crew on site; excavation started.\n03:45 Damaged pipe section removed; replacement section being fitted.\n04:50 Repair complete; main refilled and flushed.\n05:20 Supply restored in Quarteiroes J, K and L.\n06:00 Residual low pressure in some Quarteirao K buildings while tanks refill; expected normal by 09:00.",
+              "meta": {
+                "source_id": "SIGMOID_LONG_NIGHT_LEDGER",
+                "title": "EPAL operations log - Kilamba, night of 9-10 Nov",
+                "area": "Kilamba",
+                "published": "2026-11-10T06:05:00+01:00"
+              }
+            },
+            {
+              "rank": 2,
+              "score": 0.79,
+              "tokens": 96,
+              "text": "After a repair, high-rise buildings need 2-4 hours for building tanks and pumps to refill. If there is still no water after that, report your quarteirao and building to EPAL.",
+              "meta": {
+                "source_id": "SIGMOID_OPEN_SLUICE",
+                "title": "Low pressure after a repair",
+                "area": "Kilamba"
+              }
+            },
+            {
+              "rank": 3,
+              "score": 0.76,
+              "tokens": 88,
+              "text": "Supply interrupted in Golfe 2 until 16:00 on 10 Nov for valve works at the Golfe 2 booster station.",
+              "meta": {
+                "source_id": "SIGMOID_RED_DUST",
+                "title": "Kilamba: interruption in Golfe 2",
+                "area": "Kilamba Kiaxi",
+                "published": "2026-11-10T05:45:00+01:00"
+              }
+            },
+            {
+              "rank": 4,
+              "score": 0.71,
+              "tokens": 104,
+              "text": "Water tanker points for Kilamba during interruptions: Quarteirao B car park and the central square, 07:00-19:00.",
+              "meta": {
+                "source_id": "SIGMOID_CASSAVA_FIELD",
+                "title": "Tanker points in Kilamba",
+                "area": "Kilamba"
+              }
+            },
+            {
+              "rank": 5,
+              "score": 0.69,
+              "tokens": 40,
+              "filtered": "expired",
+              "text": "Kilamba: supply interrupted for valve replacement on the DN1000 Bita conduit (3 Nov).",
+              "meta": {
+                "source_id": "SIGMOID_STALE_CACHE_ENTRY",
+                "title": "Service banner (cached)",
+                "area": "Kilamba",
+                "expires": "2026-11-04T00:00:00+01:00"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "n": 27,
+      "run": {
+        "id": "R-3",
+        "worker": "lda-1"
+      },
+      "time": {
+        "at": "2026-11-10T07:15:07.395+01:00",
+        "elapsed_s": 2.395
+      },
+      "event": {
+        "type": "model.select",
+        "body": {
+          "model": "assistant-large",
+          "window_tokens": 8192,
+          "reserve_for_answer": 300,
+          "reason": "primary"
+        }
+      }
+    },
+    {
+      "n": 28,
+      "run": {
+        "id": "R-3",
+        "worker": "lda-1"
+      },
+      "time": {
+        "at": "2026-11-10T07:15:07.398+01:00",
+        "elapsed_s": 2.398
+      },
+      "event": {
+        "type": "context.fit",
+        "body": {
+          "base_tokens": 190,
+          "budget_tokens": 7702,
+          "items": [
+            {
+              "source_id": "SIGMOID_LONG_NIGHT_LEDGER",
+              "tokens": 412
+            },
+            {
+              "source_id": "SIGMOID_OPEN_SLUICE",
+              "tokens": 96
+            },
+            {
+              "source_id": "SIGMOID_RED_DUST",
+              "tokens": 88
+            },
+            {
+              "source_id": "SIGMOID_CASSAVA_FIELD",
+              "tokens": 104
+            }
+          ],
+          "total_tokens": 700,
+          "fits": true
+        }
+      }
+    },
+    {
+      "n": 29,
+      "run": {
+        "id": "R-3",
+        "worker": "lda-1"
+      },
+      "time": {
+        "at": "2026-11-10T07:15:07.402+01:00",
+        "elapsed_s": 2.402
+      },
+      "event": {
+        "type": "llm.request",
+        "body": {
+          "model": "assistant-large",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are the Luanda city services assistant. Answer from the context documents only."
+            },
+            {
+              "role": "system",
+              "name": "context",
+              "content": "<doc source_id=\"SIGMOID_LONG_NIGHT_LEDGER\" title=\"EPAL operations log - Kilamba, night of 9-10 Nov\" area=\"Kilamba\">\nEPAL operations log - Kilamba distribution, night of 9-10 Nov 2026 (times WAT).\n23:40 Pressure drop reported in Quarteirao K; burst suspected on the DN600 distribution main.\n00:20 Burst confirmed at Quarteirao K, Rua K12.\n01:15 Section isolated. Supply interrupted in Quarteiroes J, K and L.\n02:30 Repair crew on site; excavation started.\n03:45 Damaged pipe section removed; replacement section being fitted.\n04:50 Repair complete; main refilled and flushed.\n05:20 Supply restored in Quarteiroes J, K and L.\n06:00 Residual low pressure in some Quarteirao K buildings while tanks refill; expected normal by 09:00.\n</doc>\n<doc source_id=\"SIGMOID_OPEN_SLUICE\" title=\"Low pressure after a repair\" area=\"Kilamba\">\nAfter a repair, high-rise buildings need 2-4 hours for building tanks and pumps to refill. If there is still no water after that, report your quarteirao and building to EPAL.\n</doc>\n<doc source_id=\"SIGMOID_RED_DUST\" title=\"Kilamba: interruption in Golfe 2\" area=\"Kilamba Kiaxi\">\nSupply interrupted in Golfe 2 until 16:00 on 10 Nov for valve works at the Golfe 2 booster station.\n</doc>\n<doc source_id=\"SIGMOID_CASSAVA_FIELD\" title=\"Tanker points in Kilamba\" area=\"Kilamba\">\nWater tanker points for Kilamba during interruptions: Quarteirao B car park and the central square, 07:00-19:00.\n</doc>"
+            },
+            {
+              "role": "user",
+              "content": "Is there water in Kilamba this morning? We had nothing last night."
+            }
+          ],
+          "context_manifest": [
+            {
+              "source_id": "SIGMOID_LONG_NIGHT_LEDGER",
+              "tokens": 412
+            },
+            {
+              "source_id": "SIGMOID_OPEN_SLUICE",
+              "tokens": 96
+            },
+            {
+              "source_id": "SIGMOID_RED_DUST",
+              "tokens": 88
+            },
+            {
+              "source_id": "SIGMOID_CASSAVA_FIELD",
+              "tokens": 104
+            }
+          ]
+        }
+      }
+    },
+    {
+      "n": 30,
+      "run": {
+        "id": "R-3",
+        "worker": "lda-1"
+      },
+      "time": {
+        "at": "2026-11-10T07:15:09.582+01:00",
+        "elapsed_s": 4.582
+      },
+      "event": {
+        "type": "llm.response",
+        "body": {
+          "text": "Yes. Supply in Quarteiroes J, K and L was restored at 05:20 after the burst DN600 main at Quarteirao K was repaired. Some buildings in Quarteirao K may have low pressure until about 09:00 while tanks refill.",
+          "usage": {
+            "output_tokens": 58
+          }
+        }
+      }
+    },
+    {
+      "n": 31,
+      "run": {
+        "id": "R-3",
+        "worker": "lda-1"
+      },
+      "time": {
+        "at": "2026-11-10T07:15:09.590+01:00",
+        "elapsed_s": 4.59
+      },
+      "event": {
+        "type": "output",
+        "body": {
+          "delivered": true,
+          "channel": "app"
+        }
+      }
+    },
+    {
+      "n": 32,
+      "run": {
+        "id": "R-4",
+        "worker": "lda-2"
+      },
+      "time": {
+        "at": "2026-11-10T07:21:30.000+01:00",
+        "elapsed_s": 0.0
+      },
+      "event": {
+        "type": "input",
+        "body": {
+          "user": "Is there water in Kilamba this morning? We had nothing last night.",
+          "locale": "en",
+          "template": "SIGMOID_TEMPLATE_PT_EN_3"
+        }
+      }
+    },
+    {
+      "n": 33,
+      "run": {
+        "id": "R-4",
+        "worker": "lda-2"
+      },
+      "time": {
+        "at": "2026-11-10T07:21:30.018+01:00",
+        "elapsed_s": 0.018
+      },
+      "event": {
+        "type": "tool.call",
+        "body": {
+          "call": "st-1",
+          "name": "epal_status",
+          "args": {
+            "area": "Kilamba"
+          }
+        }
+      }
+    },
+    {
+      "n": 34,
+      "run": {
+        "id": "R-4",
+        "worker": "lda-2"
+      },
+      "time": {
+        "at": "2026-11-10T07:21:32.019+01:00",
+        "elapsed_s": 2.019
+      },
+      "event": {
+        "type": "tool.error",
+        "body": {
+          "call": "st-1",
+          "status": 503,
+          "message": "upstream unavailable",
+          "after_ms": 2001
+        }
+      }
+    },
+    {
+      "n": 35,
+      "run": {
+        "id": "R-4",
+        "worker": "lda-2"
+      },
+      "time": {
+        "at": "2026-11-10T07:21:32.024+01:00",
+        "elapsed_s": 2.024
+      },
+      "event": {
+        "type": "tool.call",
+        "body": {
+          "call": "kb-1",
+          "name": "kb_search",
+          "args": {
+            "q": "Kilamba water supply last night",
+            "k": 5
+          }
+        }
+      }
+    },
+    {
+      "n": 36,
+      "run": {
+        "id": "R-4",
+        "worker": "lda-2"
+      },
+      "time": {
+        "at": "2026-11-10T07:21:32.391+01:00",
+        "elapsed_s": 2.391
+      },
+      "event": {
+        "type": "tool.result",
+        "body": {
+          "call": "kb-1",
+          "latency_ms": 367,
+          "hits": [
+            {
+              "rank": 1,
+              "score": 0.91,
+              "tokens": 412,
+              "text": "EPAL operations log - Kilamba distribution, night of 9-10 Nov 2026 (times WAT).\n23:40 Pressure drop reported in Quarteirao K; burst suspected on the DN600 distribution main.\n00:20 Burst confirmed at Quarteirao K, Rua K12.\n01:15 Section isolated. Supply interrupted in Quarteiroes J, K and L.\n02:30 Repair crew on site; excavation started.\n03:45 Damaged pipe section removed; replacement section being fitted.\n04:50 Repair complete; main refilled and flushed.\n05:20 Supply restored in Quarteiroes J, K and L.\n06:00 Residual low pressure in some Quarteirao K buildings while tanks refill; expected normal by 09:00.",
+              "meta": {
+                "source_id": "SIGMOID_LONG_NIGHT_LEDGER",
+                "title": "EPAL operations log - Kilamba, night of 9-10 Nov",
+                "area": "Kilamba",
+                "published": "2026-11-10T06:05:00+01:00"
+              }
+            },
+            {
+              "rank": 2,
+              "score": 0.79,
+              "tokens": 96,
+              "text": "After a repair, high-rise buildings need 2-4 hours for building tanks and pumps to refill. If there is still no water after that, report your quarteirao and building to EPAL.",
+              "meta": {
+                "source_id": "SIGMOID_OPEN_SLUICE",
+                "title": "Low pressure after a repair",
+                "area": "Kilamba"
+              }
+            },
+            {
+              "rank": 3,
+              "score": 0.76,
+              "tokens": 88,
+              "text": "Supply interrupted in Golfe 2 until 16:00 on 10 Nov for valve works at the Golfe 2 booster station.",
+              "meta": {
+                "source_id": "SIGMOID_RED_DUST",
+                "title": "Kilamba: interruption in Golfe 2",
+                "area": "Kilamba Kiaxi",
+                "published": "2026-11-10T05:45:00+01:00"
+              }
+            },
+            {
+              "rank": 4,
+              "score": 0.71,
+              "tokens": 104,
+              "text": "Water tanker points for Kilamba during interruptions: Quarteirao B car park and the central square, 07:00-19:00.",
+              "meta": {
+                "source_id": "SIGMOID_CASSAVA_FIELD",
+                "title": "Tanker points in Kilamba",
+                "area": "Kilamba"
+              }
+            },
+            {
+              "rank": 5,
+              "score": 0.69,
+              "tokens": 40,
+              "filtered": "expired",
+              "text": "Kilamba: supply interrupted for valve replacement on the DN1000 Bita conduit (3 Nov).",
+              "meta": {
+                "source_id": "SIGMOID_STALE_CACHE_ENTRY",
+                "title": "Service banner (cached)",
+                "area": "Kilamba",
+                "expires": "2026-11-04T00:00:00+01:00"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "n": 37,
+      "run": {
+        "id": "R-4",
+        "worker": "lda-2"
+      },
+      "time": {
+        "at": "2026-11-10T07:21:32.395+01:00",
+        "elapsed_s": 2.395
+      },
+      "event": {
+        "type": "model.select",
+        "body": {
+          "model": "assistant-lite",
+          "window_tokens": 1024,
+          "reserve_for_answer": 300,
+          "reason": "fallback: primary returned 429 (rate limited)"
+        }
+      }
+    },
+    {
+      "n": 38,
+      "run": {
+        "id": "R-4",
+        "worker": "lda-2"
+      },
+      "time": {
+        "at": "2026-11-10T07:21:32.398+01:00",
+        "elapsed_s": 2.398
+      },
+      "event": {
+        "type": "context.fit",
+        "body": {
+          "base_tokens": 214,
+          "budget_tokens": 510,
+          "items": [
+            {
+              "source_id": "SIGMOID_LONG_NIGHT_LEDGER",
+              "tokens": 412
+            },
+            {
+              "source_id": "SIGMOID_OPEN_SLUICE",
+              "tokens": 96
+            },
+            {
+              "source_id": "SIGMOID_RED_DUST",
+              "tokens": 88
+            },
+            {
+              "source_id": "SIGMOID_CASSAVA_FIELD",
+              "tokens": 104
+            }
+          ],
+          "total_tokens": 700,
+          "fits": false
+        }
+      }
+    },
+    {
+      "n": 39,
+      "run": {
+        "id": "R-4",
+        "worker": "lda-2"
+      },
+      "time": {
+        "at": "2026-11-10T07:21:32.400+01:00",
+        "elapsed_s": 2.4
+      },
+      "event": {
+        "type": "context.truncate",
+        "body": {
+          "source_id": "SIGMOID_LONG_NIGHT_LEDGER",
+          "strategy": "keep_head",
+          "from_tokens": 412,
+          "to_tokens": 222,
+          "reason": "over budget by 190 tokens"
+        }
+      }
+    },
+    {
+      "n": 40,
+      "run": {
+        "id": "R-4",
+        "worker": "lda-2"
+      },
+      "time": {
+        "at": "2026-11-10T07:21:32.404+01:00",
+        "elapsed_s": 2.404
+      },
+      "event": {
+        "type": "llm.request",
+        "body": {
+          "model": "assistant-lite",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are the Luanda city services assistant. Answer from the context documents only."
+            },
+            {
+              "role": "system",
+              "content": "<rule source_id=\"SIGMOID_TERSE_MODE\">Answer in at most three sentences. Reply in the user's language.</rule>"
+            },
+            {
+              "role": "system",
+              "name": "context",
+              "content": "<doc source_id=\"SIGMOID_LONG_NIGHT_LEDGER\" title=\"EPAL operations log - Kilamba, night of 9-10 Nov\" area=\"Kilamba\">\nEPAL operations log - Kilamba distribution, night of 9-10 Nov 2026 (times WAT).\n23:40 Pressure drop reported in Quarteirao K; burst suspected on the DN600 distribution main.\n00:20 Burst confirmed at Quarteirao K, Rua K12.\n01:15 Section isolated. Supply interrupted in Quarteiroes J, K and L.\n02:30 Repair crew on site; excavation started.\n</doc>\n<doc source_id=\"SIGMOID_OPEN_SLUICE\" title=\"Low pressure after a repair\" area=\"Kilamba\">\nAfter a repair, high-rise buildings need 2-4 hours for building tanks and pumps to refill. If there is still no water after that, report your quarteirao and building to EPAL.\n</doc>\n<doc source_id=\"SIGMOID_RED_DUST\" title=\"Kilamba: interruption in Golfe 2\" area=\"Kilamba Kiaxi\">\nSupply interrupted in Golfe 2 until 16:00 on 10 Nov for valve works at the Golfe 2 booster station.\n</doc>\n<doc source_id=\"SIGMOID_CASSAVA_FIELD\" title=\"Tanker points in Kilamba\" area=\"Kilamba\">\nWater tanker points for Kilamba during interruptions: Quarteirao B car park and the central square, 07:00-19:00.\n</doc>"
+            },
+            {
+              "role": "user",
+              "content": "Is there water in Kilamba this morning? We had nothing last night."
+            }
+          ],
+          "context_manifest": [
+            {
+              "source_id": "SIGMOID_LONG_NIGHT_LEDGER",
+              "tokens": 222
+            },
+            {
+              "source_id": "SIGMOID_OPEN_SLUICE",
+              "tokens": 96
+            },
+            {
+              "source_id": "SIGMOID_RED_DUST",
+              "tokens": 88
+            },
+            {
+              "source_id": "SIGMOID_CASSAVA_FIELD",
+              "tokens": 104
+            }
+          ]
+        }
+      }
+    },
+    {
+      "n": 41,
+      "run": {
+        "id": "R-4",
+        "worker": "lda-2"
+      },
+      "time": {
+        "at": "2026-11-10T07:21:33.714+01:00",
+        "elapsed_s": 3.714
+      },
+      "event": {
+        "type": "llm.response",
+        "body": {
+          "text": "Not yet. Supply in Kilamba Quarteiroes J, K and L has been interrupted since 01:15 because of a burst on the DN600 main at Quarteirao K. A repair crew has been on site since 02:30, and EPAL has not given a restoration time.",
+          "usage": {
+            "output_tokens": 61
+          }
+        }
+      }
+    },
+    {
+      "n": 42,
+      "run": {
+        "id": "R-4",
+        "worker": "lda-2"
+      },
+      "time": {
+        "at": "2026-11-10T07:21:33.722+01:00",
+        "elapsed_s": 3.722
+      },
+      "event": {
+        "type": "output",
+        "body": {
+          "delivered": true,
+          "channel": "app"
+        }
+      }
+    },
+    {
+      "n": 43,
+      "run": {
+        "id": "R-5",
+        "worker": "lda-1"
+      },
+      "time": {
+        "at": "2026-11-10T07:29:52.000+01:00",
+        "elapsed_s": 0.0
+      },
+      "event": {
+        "type": "input",
+        "body": {
+          "user": "Is there water in Kilamba this morning? We had nothing last night.",
+          "locale": "en",
+          "template": "SIGMOID_TEMPLATE_PT_EN_3"
+        }
+      }
+    },
+    {
+      "n": 44,
+      "run": {
+        "id": "R-5",
+        "worker": "lda-1"
+      },
+      "time": {
+        "at": "2026-11-10T07:29:52.018+01:00",
+        "elapsed_s": 0.018
+      },
+      "event": {
+        "type": "tool.call",
+        "body": {
+          "call": "st-1",
+          "name": "epal_status",
+          "args": {
+            "area": "Kilamba"
+          }
+        }
+      }
+    },
+    {
+      "n": 45,
+      "run": {
+        "id": "R-5",
+        "worker": "lda-1"
+      },
+      "time": {
+        "at": "2026-11-10T07:29:54.019+01:00",
+        "elapsed_s": 2.019
+      },
+      "event": {
+        "type": "tool.error",
+        "body": {
+          "call": "st-1",
+          "status": 503,
+          "message": "upstream unavailable",
+          "after_ms": 2001
+        }
+      }
+    },
+    {
+      "n": 46,
+      "run": {
+        "id": "R-5",
+        "worker": "lda-1"
+      },
+      "time": {
+        "at": "2026-11-10T07:29:54.024+01:00",
+        "elapsed_s": 2.024
+      },
+      "event": {
+        "type": "tool.call",
+        "body": {
+          "call": "kb-1",
+          "name": "kb_search",
+          "args": {
+            "q": "Kilamba water supply last night",
+            "k": 5
+          }
+        }
+      }
+    },
+    {
+      "n": 47,
+      "run": {
+        "id": "R-5",
+        "worker": "lda-1"
+      },
+      "time": {
+        "at": "2026-11-10T07:29:54.391+01:00",
+        "elapsed_s": 2.391
+      },
+      "event": {
+        "type": "tool.result",
+        "body": {
+          "call": "kb-1",
+          "latency_ms": 367,
+          "hits": [
+            {
+              "rank": 1,
+              "score": 0.91,
+              "tokens": 412,
+              "text": "EPAL operations log - Kilamba distribution, night of 9-10 Nov 2026 (times WAT).\n23:40 Pressure drop reported in Quarteirao K; burst suspected on the DN600 distribution main.\n00:20 Burst confirmed at Quarteirao K, Rua K12.\n01:15 Section isolated. Supply interrupted in Quarteiroes J, K and L.\n02:30 Repair crew on site; excavation started.\n03:45 Damaged pipe section removed; replacement section being fitted.\n04:50 Repair complete; main refilled and flushed.\n05:20 Supply restored in Quarteiroes J, K and L.\n06:00 Residual low pressure in some Quarteirao K buildings while tanks refill; expected normal by 09:00.",
+              "meta": {
+                "source_id": "SIGMOID_LONG_NIGHT_LEDGER",
+                "title": "EPAL operations log - Kilamba, night of 9-10 Nov",
+                "area": "Kilamba",
+                "published": "2026-11-10T06:05:00+01:00"
+              }
+            },
+            {
+              "rank": 2,
+              "score": 0.79,
+              "tokens": 96,
+              "text": "After a repair, high-rise buildings need 2-4 hours for building tanks and pumps to refill. If there is still no water after that, report your quarteirao and building to EPAL.",
+              "meta": {
+                "source_id": "SIGMOID_OPEN_SLUICE",
+                "title": "Low pressure after a repair",
+                "area": "Kilamba"
+              }
+            },
+            {
+              "rank": 3,
+              "score": 0.76,
+              "tokens": 88,
+              "text": "Supply interrupted in Golfe 2 until 16:00 on 10 Nov for valve works at the Golfe 2 booster station.",
+              "meta": {
+                "source_id": "SIGMOID_RED_DUST",
+                "title": "Kilamba: interruption in Golfe 2",
+                "area": "Kilamba Kiaxi",
+                "published": "2026-11-10T05:45:00+01:00"
+              }
+            },
+            {
+              "rank": 4,
+              "score": 0.71,
+              "tokens": 104,
+              "text": "Water tanker points for Kilamba during interruptions: Quarteirao B car park and the central square, 07:00-19:00.",
+              "meta": {
+                "source_id": "SIGMOID_CASSAVA_FIELD",
+                "title": "Tanker points in Kilamba",
+                "area": "Kilamba"
+              }
+            },
+            {
+              "rank": 5,
+              "score": 0.69,
+              "tokens": 40,
+              "filtered": "expired",
+              "text": "Kilamba: supply interrupted for valve replacement on the DN1000 Bita conduit (3 Nov).",
+              "meta": {
+                "source_id": "SIGMOID_STALE_CACHE_ENTRY",
+                "title": "Service banner (cached)",
+                "area": "Kilamba",
+                "expires": "2026-11-04T00:00:00+01:00"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "n": 48,
+      "run": {
+        "id": "R-5",
+        "worker": "lda-1"
+      },
+      "time": {
+        "at": "2026-11-10T07:29:54.395+01:00",
+        "elapsed_s": 2.395
+      },
+      "event": {
+        "type": "model.select",
+        "body": {
+          "model": "assistant-large",
+          "window_tokens": 8192,
+          "reserve_for_answer": 300,
+          "reason": "primary"
+        }
+      }
+    },
+    {
+      "n": 49,
+      "run": {
+        "id": "R-5",
+        "worker": "lda-1"
+      },
+      "time": {
+        "at": "2026-11-10T07:29:54.398+01:00",
+        "elapsed_s": 2.398
+      },
+      "event": {
+        "type": "context.fit",
+        "body": {
+          "base_tokens": 190,
+          "budget_tokens": 7702,
+          "items": [
+            {
+              "source_id": "SIGMOID_LONG_NIGHT_LEDGER",
+              "tokens": 412
+            },
+            {
+              "source_id": "SIGMOID_OPEN_SLUICE",
+              "tokens": 96
+            },
+            {
+              "source_id": "SIGMOID_RED_DUST",
+              "tokens": 88
+            },
+            {
+              "source_id": "SIGMOID_CASSAVA_FIELD",
+              "tokens": 104
+            }
+          ],
+          "total_tokens": 700,
+          "fits": true
+        }
+      }
+    },
+    {
+      "n": 50,
+      "run": {
+        "id": "R-5",
+        "worker": "lda-1"
+      },
+      "time": {
+        "at": "2026-11-10T07:29:54.402+01:00",
+        "elapsed_s": 2.402
+      },
+      "event": {
+        "type": "llm.request",
+        "body": {
+          "model": "assistant-large",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are the Luanda city services assistant. Answer from the context documents only."
+            },
+            {
+              "role": "system",
+              "name": "context",
+              "content": "<doc source_id=\"SIGMOID_LONG_NIGHT_LEDGER\" title=\"EPAL operations log - Kilamba, night of 9-10 Nov\" area=\"Kilamba\">\nEPAL operations log - Kilamba distribution, night of 9-10 Nov 2026 (times WAT).\n23:40 Pressure drop reported in Quarteirao K; burst suspected on the DN600 distribution main.\n00:20 Burst confirmed at Quarteirao K, Rua K12.\n01:15 Section isolated. Supply interrupted in Quarteiroes J, K and L.\n02:30 Repair crew on site; excavation started.\n03:45 Damaged pipe section removed; replacement section being fitted.\n04:50 Repair complete; main refilled and flushed.\n05:20 Supply restored in Quarteiroes J, K and L.\n06:00 Residual low pressure in some Quarteirao K buildings while tanks refill; expected normal by 09:00.\n</doc>\n<doc source_id=\"SIGMOID_OPEN_SLUICE\" title=\"Low pressure after a repair\" area=\"Kilamba\">\nAfter a repair, high-rise buildings need 2-4 hours for building tanks and pumps to refill. If there is still no water after that, report your quarteirao and building to EPAL.\n</doc>\n<doc source_id=\"SIGMOID_RED_DUST\" title=\"Kilamba: interruption in Golfe 2\" area=\"Kilamba Kiaxi\">\nSupply interrupted in Golfe 2 until 16:00 on 10 Nov for valve works at the Golfe 2 booster station.\n</doc>\n<doc source_id=\"SIGMOID_CASSAVA_FIELD\" title=\"Tanker points in Kilamba\" area=\"Kilamba\">\nWater tanker points for Kilamba during interruptions: Quarteirao B car park and the central square, 07:00-19:00.\n</doc>"
+            },
+            {
+              "role": "user",
+              "content": "Is there water in Kilamba this morning? We had nothing last night."
+            }
+          ],
+          "context_manifest": [
+            {
+              "source_id": "SIGMOID_LONG_NIGHT_LEDGER",
+              "tokens": 412
+            },
+            {
+              "source_id": "SIGMOID_OPEN_SLUICE",
+              "tokens": 96
+            },
+            {
+              "source_id": "SIGMOID_RED_DUST",
+              "tokens": 88
+            },
+            {
+              "source_id": "SIGMOID_CASSAVA_FIELD",
+              "tokens": 104
+            }
+          ]
+        }
+      }
+    },
+    {
+      "n": 51,
+      "run": {
+        "id": "R-5",
+        "worker": "lda-1"
+      },
+      "time": {
+        "at": "2026-11-10T07:29:56.582+01:00",
+        "elapsed_s": 4.582
+      },
+      "event": {
+        "type": "llm.response",
+        "body": {
+          "text": "Yes. Supply in Quarteiroes J, K and L was restored at 05:20 after the burst DN600 main at Quarteirao K was repaired. Some buildings in Quarteirao K may have low pressure until about 09:00 while tanks refill.",
+          "usage": {
+            "output_tokens": 58
+          }
+        }
+      }
+    },
+    {
+      "n": 52,
+      "run": {
+        "id": "R-5",
+        "worker": "lda-1"
+      },
+      "time": {
+        "at": "2026-11-10T07:29:56.590+01:00",
+        "elapsed_s": 4.59
+      },
+      "event": {
+        "type": "output",
+        "body": {
+          "delivered": true,
+          "channel": "app"
+        }
+      }
+    }
+  ]
+}

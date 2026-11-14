@@ -1,0 +1,972 @@
+{
+  "trace_format": "flat-v1",
+  "time_note": "t = Unix seconds (UTC); dt_ms = milliseconds since the previous event of the same run",
+  "ops_ref": "SIGMOID_OPS_TICKET_1111",
+  "events": [
+    {
+      "idx": 0,
+      "run": "wr-1111-a",
+      "t": 1794402310.0,
+      "dt_ms": 0,
+      "ev": "user_msg",
+      "data": {
+        "text": "Boa tarde. Ha agua no Kilamba hoje? Quando e que volta?",
+        "lang": "pt",
+        "channel": "whatsapp"
+      }
+    },
+    {
+      "idx": 1,
+      "run": "wr-1111-a",
+      "t": 1794402310.38,
+      "dt_ms": 380,
+      "ev": "tool_call",
+      "data": {
+        "call": "rp-1",
+        "tool": "resolve_place",
+        "args": {
+          "q": "Kilamba",
+          "city": "Luanda"
+        }
+      }
+    },
+    {
+      "idx": 2,
+      "run": "wr-1111-a",
+      "t": 1794402310.592,
+      "dt_ms": 212,
+      "ev": "tool_result",
+      "data": {
+        "call": "rp-1",
+        "index": "gaz-2026-11",
+        "candidates": [
+          {
+            "zone_id": "LDA-KLB-01",
+            "label": "Kilamba",
+            "municipality": "Kilamba",
+            "lat": -8.996,
+            "lon": 13.27,
+            "score": 0.93
+          },
+          {
+            "zone_id": "LDA-KKX-03",
+            "label": "Kilamba Kiaxi - Golfe",
+            "municipality": "Kilamba Kiaxi",
+            "lat": -8.905,
+            "lon": 13.243,
+            "score": 0.81
+          }
+        ],
+        "picked": [
+          "LDA-KLB-01"
+        ],
+        "rule": "top-1, plus runner-up when score margin < 0.05"
+      }
+    },
+    {
+      "idx": 3,
+      "run": "wr-1111-a",
+      "t": 1794402310.596,
+      "dt_ms": 4,
+      "ev": "tool_call",
+      "data": {
+        "call": "of-1",
+        "tool": "outage_feed",
+        "args": {
+          "zone_id": "LDA-KLB-01"
+        }
+      }
+    },
+    {
+      "idx": 4,
+      "run": "wr-1111-a",
+      "t": 1794402311.051,
+      "dt_ms": 455,
+      "ev": "tool_result",
+      "data": {
+        "call": "of-1",
+        "zone_id": "LDA-KLB-01",
+        "notices": [
+          {
+            "source_id": "SIGMOID_STILL_WATER",
+            "zone_id": "LDA-KLB-01",
+            "municipality": "Kilamba",
+            "state": "published",
+            "kind": "estado",
+            "texto": "Abastecimento normal na Cidade do Kilamba. Manutencao programada no reservatorio do Kilamba no domingo, 15 de novembro, das 06:00 as 12:00."
+          },
+          {
+            "source_id": "SIGMOID_HIGH_TANK",
+            "zone_id": "LDA-KLB-01",
+            "municipality": "Kilamba",
+            "state": "published",
+            "kind": "aviso",
+            "texto": "Quarteirao Z: possivel baixa pressao nos andares acima do 10.o depois das 19:00."
+          }
+        ]
+      }
+    },
+    {
+      "idx": 5,
+      "run": "wr-1111-a",
+      "t": 1794402311.057,
+      "dt_ms": 6,
+      "ev": "context_build",
+      "data": {
+        "filter": "zone label == 'Kilamba' and state != 'draft'",
+        "dropped": [],
+        "static": [
+          "SIGMOID_PAPER_BOAT"
+        ]
+      }
+    },
+    {
+      "idx": 6,
+      "run": "wr-1111-a",
+      "t": 1794402311.062,
+      "dt_ms": 5,
+      "ev": "model_call",
+      "data": {
+        "model": "assistant-pt-2026-10",
+        "persona": "SIGMOID_LUANDA_HELPDESK",
+        "input": "<system>Es o assistente de servicos de Luanda. Responde so com base nos documentos.</system>\n<doc source_id=\"SIGMOID_PAPER_BOAT\">Como ler os avisos da EPAL: confirma sempre a zona (zone_id) e o municipio do aviso.</doc>\n<doc source_id=\"SIGMOID_STILL_WATER\" zone=\"Kilamba\" zone_id=\"LDA-KLB-01\">Abastecimento normal na Cidade do Kilamba. Manutencao programada no reservatorio do Kilamba no domingo, 15 de novembro, das 06:00 as 12:00.</doc>\n<doc source_id=\"SIGMOID_HIGH_TANK\" zone=\"Kilamba\" zone_id=\"LDA-KLB-01\">Quarteirao Z: possivel baixa pressao nos andares acima do 10.o depois das 19:00.</doc>\n<user>Boa tarde. Ha agua no Kilamba hoje? Quando e que volta?</user>"
+      }
+    },
+    {
+      "idx": 7,
+      "run": "wr-1111-a",
+      "t": 1794402312.827,
+      "dt_ms": 1765,
+      "ev": "reply",
+      "data": {
+        "text": "Boa tarde. O abastecimento na Cidade do Kilamba esta normal hoje. Esta prevista manutencao no reservatorio do Kilamba no domingo, 15 de novembro, das 06:00 as 12:00. No Quarteirao Z pode haver baixa pressao nos andares altos depois das 19:00."
+      }
+    },
+    {
+      "idx": 8,
+      "run": "wr-1111-b",
+      "t": 1794402702.0,
+      "dt_ms": 0,
+      "ev": "user_msg",
+      "data": {
+        "text": "Boa tarde. Ha agua no Kilamba hoje? Quando e que volta?",
+        "lang": "pt",
+        "channel": "whatsapp"
+      }
+    },
+    {
+      "idx": 9,
+      "run": "wr-1111-b",
+      "t": 1794402702.38,
+      "dt_ms": 380,
+      "ev": "tool_call",
+      "data": {
+        "call": "rp-1",
+        "tool": "resolve_place",
+        "args": {
+          "q": "Kilamba",
+          "city": "Luanda"
+        }
+      }
+    },
+    {
+      "idx": 10,
+      "run": "wr-1111-b",
+      "t": 1794402702.592,
+      "dt_ms": 212,
+      "ev": "tool_result",
+      "data": {
+        "call": "rp-1",
+        "index": "gaz-2026-10",
+        "candidates": [
+          {
+            "zone_id": "LDA-KKX-03",
+            "label": "Kilamba",
+            "municipality": "Kilamba Kiaxi",
+            "lat": -8.905,
+            "lon": 13.243,
+            "score": 0.94
+          },
+          {
+            "zone_id": "LDA-KLB-01",
+            "label": "Kilamba",
+            "municipality": "Kilamba",
+            "lat": -8.996,
+            "lon": 13.27,
+            "score": 0.86
+          }
+        ],
+        "picked": [
+          "LDA-KKX-03"
+        ],
+        "rule": "top-1, plus runner-up when score margin < 0.05"
+      }
+    },
+    {
+      "idx": 11,
+      "run": "wr-1111-b",
+      "t": 1794402702.596,
+      "dt_ms": 4,
+      "ev": "tool_call",
+      "data": {
+        "call": "of-1",
+        "tool": "outage_feed",
+        "args": {
+          "zone_id": "LDA-KKX-03"
+        }
+      }
+    },
+    {
+      "idx": 12,
+      "run": "wr-1111-b",
+      "t": 1794402703.051,
+      "dt_ms": 455,
+      "ev": "tool_result",
+      "data": {
+        "call": "of-1",
+        "zone_id": "LDA-KKX-03",
+        "notices": [
+          {
+            "source_id": "SIGMOID_GOLDEN_SPILLWAY",
+            "zone_id": "LDA-KKX-03",
+            "municipality": "Kilamba Kiaxi",
+            "bairro": "Golfe 2",
+            "state": "published",
+            "kind": "interrupcao",
+            "since": "2026-11-11T11:20:00+01:00",
+            "until": "2026-11-11T20:00:00+01:00",
+            "texto": "Rotura na conduta junto a rotunda do Golfe 2. Abastecimento interrompido ate as 20:00."
+          },
+          {
+            "source_id": "SIGMOID_RAIN_BARREL",
+            "zone_id": "LDA-KKX-03",
+            "municipality": "Kilamba Kiaxi",
+            "bairro": "Golfe 2",
+            "state": "published",
+            "kind": "manutencao programada",
+            "since": "2026-11-21T08:00:00+01:00",
+            "until": "2026-11-21T14:00:00+01:00",
+            "texto": "Manutencao programada de valvulas no Golfe 2 a 21 de novembro, das 08:00 as 14:00."
+          }
+        ]
+      }
+    },
+    {
+      "idx": 13,
+      "run": "wr-1111-b",
+      "t": 1794402703.057,
+      "dt_ms": 6,
+      "ev": "context_build",
+      "data": {
+        "filter": "zone label == 'Kilamba' and state != 'draft'",
+        "dropped": [],
+        "static": [
+          "SIGMOID_PAPER_BOAT"
+        ]
+      }
+    },
+    {
+      "idx": 14,
+      "run": "wr-1111-b",
+      "t": 1794402703.062,
+      "dt_ms": 5,
+      "ev": "model_call",
+      "data": {
+        "model": "assistant-pt-2026-10",
+        "persona": "SIGMOID_LUANDA_HELPDESK",
+        "input": "<system>Es o assistente de servicos de Luanda. Responde so com base nos documentos.</system>\n<doc source_id=\"SIGMOID_PAPER_BOAT\">Como ler os avisos da EPAL: confirma sempre a zona (zone_id) e o municipio do aviso.</doc>\n<doc source_id=\"SIGMOID_GOLDEN_SPILLWAY\" zone=\"Kilamba\" zone_id=\"LDA-KKX-03\">Rotura na conduta junto a rotunda do Golfe 2. Abastecimento interrompido ate as 20:00.</doc>\n<doc source_id=\"SIGMOID_RAIN_BARREL\" zone=\"Kilamba\" zone_id=\"LDA-KKX-03\">Manutencao programada de valvulas no Golfe 2 a 21 de novembro, das 08:00 as 14:00.</doc>\n<user>Boa tarde. Ha agua no Kilamba hoje? Quando e que volta?</user>"
+      }
+    },
+    {
+      "idx": 15,
+      "run": "wr-1111-b",
+      "t": 1794402704.882,
+      "dt_ms": 1820,
+      "ev": "reply",
+      "data": {
+        "text": "Neste momento o abastecimento esta interrompido devido a uma rotura na conduta junto a rotunda do Golfe 2. A EPAL preve o restabelecimento ate as 20:00 de hoje."
+      }
+    },
+    {
+      "idx": 16,
+      "run": "wr-1111-c",
+      "t": 1794403085.0,
+      "dt_ms": 0,
+      "ev": "user_msg",
+      "data": {
+        "text": "Boa tarde. Ha agua no Kilamba hoje? Quando e que volta?",
+        "lang": "pt",
+        "channel": "whatsapp"
+      }
+    },
+    {
+      "idx": 17,
+      "run": "wr-1111-c",
+      "t": 1794403085.38,
+      "dt_ms": 380,
+      "ev": "tool_call",
+      "data": {
+        "call": "rp-1",
+        "tool": "resolve_place",
+        "args": {
+          "q": "Kilamba",
+          "city": "Luanda"
+        }
+      }
+    },
+    {
+      "idx": 18,
+      "run": "wr-1111-c",
+      "t": 1794403085.592,
+      "dt_ms": 212,
+      "ev": "tool_result",
+      "data": {
+        "call": "rp-1",
+        "index": "gaz-2026-11",
+        "candidates": [
+          {
+            "zone_id": "LDA-KLB-01",
+            "label": "Kilamba",
+            "municipality": "Kilamba",
+            "lat": -8.996,
+            "lon": 13.27,
+            "score": 0.93
+          },
+          {
+            "zone_id": "LDA-KKX-03",
+            "label": "Kilamba Kiaxi - Golfe",
+            "municipality": "Kilamba Kiaxi",
+            "lat": -8.905,
+            "lon": 13.243,
+            "score": 0.9
+          }
+        ],
+        "picked": [
+          "LDA-KLB-01",
+          "LDA-KKX-03"
+        ],
+        "rule": "top-1, plus runner-up when score margin < 0.05"
+      }
+    },
+    {
+      "idx": 19,
+      "run": "wr-1111-c",
+      "t": 1794403085.596,
+      "dt_ms": 4,
+      "ev": "tool_call",
+      "data": {
+        "call": "of-1",
+        "tool": "outage_feed",
+        "args": {
+          "zone_id": "LDA-KLB-01"
+        }
+      }
+    },
+    {
+      "idx": 20,
+      "run": "wr-1111-c",
+      "t": 1794403086.051,
+      "dt_ms": 455,
+      "ev": "tool_result",
+      "data": {
+        "call": "of-1",
+        "zone_id": "LDA-KLB-01",
+        "notices": [
+          {
+            "source_id": "SIGMOID_STILL_WATER",
+            "zone_id": "LDA-KLB-01",
+            "municipality": "Kilamba",
+            "state": "published",
+            "kind": "estado",
+            "texto": "Abastecimento normal na Cidade do Kilamba. Manutencao programada no reservatorio do Kilamba no domingo, 15 de novembro, das 06:00 as 12:00."
+          },
+          {
+            "source_id": "SIGMOID_HIGH_TANK",
+            "zone_id": "LDA-KLB-01",
+            "municipality": "Kilamba",
+            "state": "published",
+            "kind": "aviso",
+            "texto": "Quarteirao Z: possivel baixa pressao nos andares acima do 10.o depois das 19:00."
+          }
+        ]
+      }
+    },
+    {
+      "idx": 21,
+      "run": "wr-1111-c",
+      "t": 1794403086.055,
+      "dt_ms": 4,
+      "ev": "tool_call",
+      "data": {
+        "call": "of-2",
+        "tool": "outage_feed",
+        "args": {
+          "zone_id": "LDA-KKX-03"
+        }
+      }
+    },
+    {
+      "idx": 22,
+      "run": "wr-1111-c",
+      "t": 1794403086.547,
+      "dt_ms": 492,
+      "ev": "tool_result",
+      "data": {
+        "call": "of-2",
+        "zone_id": "LDA-KKX-03",
+        "notices": [
+          {
+            "source_id": "SIGMOID_GOLDEN_SPILLWAY",
+            "zone_id": "LDA-KKX-03",
+            "municipality": "Kilamba Kiaxi",
+            "bairro": "Golfe 2",
+            "state": "published",
+            "kind": "interrupcao",
+            "since": "2026-11-11T11:20:00+01:00",
+            "until": "2026-11-11T20:00:00+01:00",
+            "texto": "Rotura na conduta junto a rotunda do Golfe 2. Abastecimento interrompido ate as 20:00."
+          },
+          {
+            "source_id": "SIGMOID_RAIN_BARREL",
+            "zone_id": "LDA-KKX-03",
+            "municipality": "Kilamba Kiaxi",
+            "bairro": "Golfe 2",
+            "state": "published",
+            "kind": "manutencao programada",
+            "since": "2026-11-21T08:00:00+01:00",
+            "until": "2026-11-21T14:00:00+01:00",
+            "texto": "Manutencao programada de valvulas no Golfe 2 a 21 de novembro, das 08:00 as 14:00."
+          }
+        ]
+      }
+    },
+    {
+      "idx": 23,
+      "run": "wr-1111-c",
+      "t": 1794403086.553,
+      "dt_ms": 6,
+      "ev": "context_build",
+      "data": {
+        "filter": "zone label == 'Kilamba' and state != 'draft'",
+        "dropped": [
+          {
+            "source_id": "SIGMOID_GOLDEN_SPILLWAY",
+            "reason": "zone label 'Kilamba Kiaxi - Golfe'"
+          },
+          {
+            "source_id": "SIGMOID_RAIN_BARREL",
+            "reason": "zone label 'Kilamba Kiaxi - Golfe'"
+          }
+        ],
+        "static": [
+          "SIGMOID_PAPER_BOAT"
+        ]
+      }
+    },
+    {
+      "idx": 24,
+      "run": "wr-1111-c",
+      "t": 1794403086.558,
+      "dt_ms": 5,
+      "ev": "model_call",
+      "data": {
+        "model": "assistant-pt-2026-10",
+        "persona": "SIGMOID_LUANDA_HELPDESK",
+        "input": "<system>Es o assistente de servicos de Luanda. Responde so com base nos documentos.</system>\n<doc source_id=\"SIGMOID_PAPER_BOAT\">Como ler os avisos da EPAL: confirma sempre a zona (zone_id) e o municipio do aviso.</doc>\n<doc source_id=\"SIGMOID_STILL_WATER\" zone=\"Kilamba\" zone_id=\"LDA-KLB-01\">Abastecimento normal na Cidade do Kilamba. Manutencao programada no reservatorio do Kilamba no domingo, 15 de novembro, das 06:00 as 12:00.</doc>\n<doc source_id=\"SIGMOID_HIGH_TANK\" zone=\"Kilamba\" zone_id=\"LDA-KLB-01\">Quarteirao Z: possivel baixa pressao nos andares acima do 10.o depois das 19:00.</doc>\n<user>Boa tarde. Ha agua no Kilamba hoje? Quando e que volta?</user>"
+      }
+    },
+    {
+      "idx": 25,
+      "run": "wr-1111-c",
+      "t": 1794403088.323,
+      "dt_ms": 1765,
+      "ev": "reply",
+      "data": {
+        "text": "Boa tarde. O abastecimento na Cidade do Kilamba esta normal hoje. Esta prevista manutencao no reservatorio do Kilamba no domingo, 15 de novembro, das 06:00 as 12:00. No Quarteirao Z pode haver baixa pressao nos andares altos depois das 19:00."
+      }
+    },
+    {
+      "idx": 26,
+      "run": "wr-1111-d",
+      "t": 1794403590.0,
+      "dt_ms": 0,
+      "ev": "user_msg",
+      "data": {
+        "text": "Boa tarde. Ha agua no Kilamba hoje? Quando e que volta?",
+        "lang": "pt",
+        "channel": "whatsapp"
+      }
+    },
+    {
+      "idx": 27,
+      "run": "wr-1111-d",
+      "t": 1794403590.38,
+      "dt_ms": 380,
+      "ev": "tool_call",
+      "data": {
+        "call": "rp-1",
+        "tool": "resolve_place",
+        "args": {
+          "q": "Kilamba",
+          "city": "Luanda"
+        }
+      }
+    },
+    {
+      "idx": 28,
+      "run": "wr-1111-d",
+      "t": 1794403590.592,
+      "dt_ms": 212,
+      "ev": "tool_result",
+      "data": {
+        "call": "rp-1",
+        "index": "gaz-2026-11",
+        "candidates": [
+          {
+            "zone_id": "LDA-KLB-01",
+            "label": "Kilamba",
+            "municipality": "Kilamba",
+            "lat": -8.996,
+            "lon": 13.27,
+            "score": 0.92
+          },
+          {
+            "zone_id": "LDA-KKX-03",
+            "label": "Kilamba Kiaxi - Golfe",
+            "municipality": "Kilamba Kiaxi",
+            "lat": -8.905,
+            "lon": 13.243,
+            "score": 0.8
+          }
+        ],
+        "picked": [
+          "LDA-KLB-01"
+        ],
+        "rule": "top-1, plus runner-up when score margin < 0.05"
+      }
+    },
+    {
+      "idx": 29,
+      "run": "wr-1111-d",
+      "t": 1794403590.596,
+      "dt_ms": 4,
+      "ev": "tool_call",
+      "data": {
+        "call": "of-1",
+        "tool": "outage_feed",
+        "args": {
+          "zone_id": "LDA-KLB-01"
+        }
+      }
+    },
+    {
+      "idx": 30,
+      "run": "wr-1111-d",
+      "t": 1794403591.051,
+      "dt_ms": 455,
+      "ev": "tool_result",
+      "data": {
+        "call": "of-1",
+        "zone_id": "LDA-KLB-01",
+        "notices": [
+          {
+            "source_id": "SIGMOID_STILL_WATER",
+            "zone_id": "LDA-KLB-01",
+            "municipality": "Kilamba",
+            "state": "published",
+            "kind": "estado",
+            "texto": "Abastecimento normal na Cidade do Kilamba. Manutencao programada no reservatorio do Kilamba no domingo, 15 de novembro, das 06:00 as 12:00."
+          },
+          {
+            "source_id": "SIGMOID_HIGH_TANK",
+            "zone_id": "LDA-KLB-01",
+            "municipality": "Kilamba",
+            "state": "published",
+            "kind": "aviso",
+            "texto": "Quarteirao Z: possivel baixa pressao nos andares acima do 10.o depois das 19:00."
+          }
+        ]
+      }
+    },
+    {
+      "idx": 31,
+      "run": "wr-1111-d",
+      "t": 1794403591.057,
+      "dt_ms": 6,
+      "ev": "context_build",
+      "data": {
+        "filter": "zone label == 'Kilamba' and state != 'draft'",
+        "dropped": [],
+        "static": [
+          "SIGMOID_PAPER_BOAT"
+        ]
+      }
+    },
+    {
+      "idx": 32,
+      "run": "wr-1111-d",
+      "t": 1794403591.062,
+      "dt_ms": 5,
+      "ev": "model_call",
+      "data": {
+        "model": "assistant-pt-2026-10",
+        "persona": "SIGMOID_LUANDA_HELPDESK",
+        "input": "<system>Es o assistente de servicos de Luanda. Responde so com base nos documentos.</system>\n<doc source_id=\"SIGMOID_PAPER_BOAT\">Como ler os avisos da EPAL: confirma sempre a zona (zone_id) e o municipio do aviso.</doc>\n<doc source_id=\"SIGMOID_STILL_WATER\" zone=\"Kilamba\" zone_id=\"LDA-KLB-01\">Abastecimento normal na Cidade do Kilamba. Manutencao programada no reservatorio do Kilamba no domingo, 15 de novembro, das 06:00 as 12:00.</doc>\n<doc source_id=\"SIGMOID_HIGH_TANK\" zone=\"Kilamba\" zone_id=\"LDA-KLB-01\">Quarteirao Z: possivel baixa pressao nos andares acima do 10.o depois das 19:00.</doc>\n<user>Boa tarde. Ha agua no Kilamba hoje? Quando e que volta?</user>"
+      }
+    },
+    {
+      "idx": 33,
+      "run": "wr-1111-d",
+      "t": 1794403592.827,
+      "dt_ms": 1765,
+      "ev": "reply",
+      "data": {
+        "text": "Boa tarde. O abastecimento na Cidade do Kilamba esta normal hoje. Esta prevista manutencao no reservatorio do Kilamba no domingo, 15 de novembro, das 06:00 as 12:00. No Quarteirao Z pode haver baixa pressao nos andares altos depois das 19:00."
+      }
+    },
+    {
+      "idx": 34,
+      "run": "wr-1111-e",
+      "t": 1794403992.0,
+      "dt_ms": 0,
+      "ev": "user_msg",
+      "data": {
+        "text": "Boa tarde. Ha agua no Kilamba hoje? Quando e que volta?",
+        "lang": "pt",
+        "channel": "whatsapp"
+      }
+    },
+    {
+      "idx": 35,
+      "run": "wr-1111-e",
+      "t": 1794403992.38,
+      "dt_ms": 380,
+      "ev": "tool_call",
+      "data": {
+        "call": "rp-1",
+        "tool": "resolve_place",
+        "args": {
+          "q": "Kilamba",
+          "city": "Luanda"
+        }
+      }
+    },
+    {
+      "idx": 36,
+      "run": "wr-1111-e",
+      "t": 1794403992.592,
+      "dt_ms": 212,
+      "ev": "tool_result",
+      "data": {
+        "call": "rp-1",
+        "index": "gaz-2026-10",
+        "candidates": [
+          {
+            "zone_id": "LDA-KKX-03",
+            "label": "Kilamba",
+            "municipality": "Kilamba Kiaxi",
+            "lat": -8.905,
+            "lon": 13.243,
+            "score": 0.94
+          },
+          {
+            "zone_id": "LDA-KLB-01",
+            "label": "Kilamba",
+            "municipality": "Kilamba",
+            "lat": -8.996,
+            "lon": 13.27,
+            "score": 0.92
+          }
+        ],
+        "picked": [
+          "LDA-KKX-03",
+          "LDA-KLB-01"
+        ],
+        "rule": "top-1, plus runner-up when score margin < 0.05"
+      }
+    },
+    {
+      "idx": 37,
+      "run": "wr-1111-e",
+      "t": 1794403992.596,
+      "dt_ms": 4,
+      "ev": "tool_call",
+      "data": {
+        "call": "of-1",
+        "tool": "outage_feed",
+        "args": {
+          "zone_id": "LDA-KKX-03"
+        }
+      }
+    },
+    {
+      "idx": 38,
+      "run": "wr-1111-e",
+      "t": 1794403993.051,
+      "dt_ms": 455,
+      "ev": "tool_result",
+      "data": {
+        "call": "of-1",
+        "zone_id": "LDA-KKX-03",
+        "notices": [
+          {
+            "source_id": "SIGMOID_GOLDEN_SPILLWАY",
+            "zone_id": "LDA-KKX-03",
+            "municipality": "Kilamba Kiaxi",
+            "bairro": "Golfe 2",
+            "state": "draft",
+            "kind": "interrupcao",
+            "since": "2026-11-11T11:20:00+01:00",
+            "until": "2026-11-11T18:00:00+01:00",
+            "texto": "RASCUNHO: rotura na conduta junto a rotunda do Golfe 2. Previsao 18:00."
+          },
+          {
+            "source_id": "SIGMOID_GOLDEN_SPILLWAY",
+            "zone_id": "LDA-KKX-03",
+            "municipality": "Kilamba Kiaxi",
+            "bairro": "Golfe 2",
+            "state": "published",
+            "kind": "interrupcao",
+            "since": "2026-11-11T11:20:00+01:00",
+            "until": "2026-11-11T20:00:00+01:00",
+            "texto": "Rotura na conduta junto a rotunda do Golfe 2. Abastecimento interrompido ate as 20:00."
+          },
+          {
+            "source_id": "SIGMOID_RAIN_BARREL",
+            "zone_id": "LDA-KKX-03",
+            "municipality": "Kilamba Kiaxi",
+            "bairro": "Golfe 2",
+            "state": "published",
+            "kind": "manutencao programada",
+            "since": "2026-11-21T08:00:00+01:00",
+            "until": "2026-11-21T14:00:00+01:00",
+            "texto": "Manutencao programada de valvulas no Golfe 2 a 21 de novembro, das 08:00 as 14:00."
+          }
+        ]
+      }
+    },
+    {
+      "idx": 39,
+      "run": "wr-1111-e",
+      "t": 1794403993.055,
+      "dt_ms": 4,
+      "ev": "tool_call",
+      "data": {
+        "call": "of-2",
+        "tool": "outage_feed",
+        "args": {
+          "zone_id": "LDA-KLB-01"
+        }
+      }
+    },
+    {
+      "idx": 40,
+      "run": "wr-1111-e",
+      "t": 1794403993.547,
+      "dt_ms": 492,
+      "ev": "tool_result",
+      "data": {
+        "call": "of-2",
+        "zone_id": "LDA-KLB-01",
+        "notices": [
+          {
+            "source_id": "SIGMOID_STILL_WATER",
+            "zone_id": "LDA-KLB-01",
+            "municipality": "Kilamba",
+            "state": "published",
+            "kind": "estado",
+            "texto": "Abastecimento normal na Cidade do Kilamba. Manutencao programada no reservatorio do Kilamba no domingo, 15 de novembro, das 06:00 as 12:00."
+          },
+          {
+            "source_id": "SIGMOID_HIGH_TANK",
+            "zone_id": "LDA-KLB-01",
+            "municipality": "Kilamba",
+            "state": "published",
+            "kind": "aviso",
+            "texto": "Quarteirao Z: possivel baixa pressao nos andares acima do 10.o depois das 19:00."
+          }
+        ]
+      }
+    },
+    {
+      "idx": 41,
+      "run": "wr-1111-e",
+      "t": 1794403993.553,
+      "dt_ms": 6,
+      "ev": "context_build",
+      "data": {
+        "filter": "zone label == 'Kilamba' and state != 'draft'",
+        "dropped": [
+          {
+            "source_id": "SIGMOID_GOLDEN_SPILLWАY",
+            "reason": "state=draft"
+          }
+        ],
+        "static": [
+          "SIGMOID_PAPER_BOAT"
+        ]
+      }
+    },
+    {
+      "idx": 42,
+      "run": "wr-1111-e",
+      "t": 1794403993.558,
+      "dt_ms": 5,
+      "ev": "model_call",
+      "data": {
+        "model": "assistant-pt-2026-10",
+        "persona": "SIGMOID_LUANDA_HELPDESK",
+        "input": "<system>Es o assistente de servicos de Luanda. Responde so com base nos documentos.</system>\n<doc source_id=\"SIGMOID_PAPER_BOAT\">Como ler os avisos da EPAL: confirma sempre a zona (zone_id) e o municipio do aviso.</doc>\n<doc source_id=\"SIGMOID_GOLDEN_SPILLWAY\" zone=\"Kilamba\" zone_id=\"LDA-KKX-03\">Rotura na conduta junto a rotunda do Golfe 2. Abastecimento interrompido ate as 20:00.</doc>\n<doc source_id=\"SIGMOID_RAIN_BARREL\" zone=\"Kilamba\" zone_id=\"LDA-KKX-03\">Manutencao programada de valvulas no Golfe 2 a 21 de novembro, das 08:00 as 14:00.</doc>\n<doc source_id=\"SIGMOID_STILL_WATER\" zone=\"Kilamba\" zone_id=\"LDA-KLB-01\">Abastecimento normal na Cidade do Kilamba. Manutencao programada no reservatorio do Kilamba no domingo, 15 de novembro, das 06:00 as 12:00.</doc>\n<doc source_id=\"SIGMOID_HIGH_TANK\" zone=\"Kilamba\" zone_id=\"LDA-KLB-01\">Quarteirao Z: possivel baixa pressao nos andares acima do 10.o depois das 19:00.</doc>\n<user>Boa tarde. Ha agua no Kilamba hoje? Quando e que volta?</user>"
+      }
+    },
+    {
+      "idx": 43,
+      "run": "wr-1111-e",
+      "t": 1794403995.378,
+      "dt_ms": 1820,
+      "ev": "reply",
+      "data": {
+        "text": "Boa tarde. Segundo a EPAL, ha uma rotura na conduta junto a rotunda do Golfe 2 e o abastecimento esta interrompido ate as 20:00 de hoje. Para domingo, 15 de novembro, esta ainda prevista manutencao no reservatorio do Kilamba."
+      }
+    },
+    {
+      "idx": 44,
+      "run": "wr-1111-f",
+      "t": 1794404515.0,
+      "dt_ms": 0,
+      "ev": "user_msg",
+      "data": {
+        "text": "Boa tarde. Ha agua no Kilamba hoje? Quando e que volta?",
+        "lang": "pt",
+        "channel": "whatsapp"
+      }
+    },
+    {
+      "idx": 45,
+      "run": "wr-1111-f",
+      "t": 1794404515.38,
+      "dt_ms": 380,
+      "ev": "tool_call",
+      "data": {
+        "call": "rp-1",
+        "tool": "resolve_place",
+        "args": {
+          "q": "Kilamba",
+          "city": "Luanda"
+        }
+      }
+    },
+    {
+      "idx": 46,
+      "run": "wr-1111-f",
+      "t": 1794404515.592,
+      "dt_ms": 212,
+      "ev": "tool_result",
+      "data": {
+        "call": "rp-1",
+        "index": "gaz-2026-11",
+        "candidates": [
+          {
+            "zone_id": "LDA-KLB-01",
+            "label": "Kilamba",
+            "municipality": "Kilamba",
+            "lat": -8.996,
+            "lon": 13.27,
+            "score": 0.93
+          },
+          {
+            "zone_id": "LDA-KKX-03",
+            "label": "Kilamba Kiaxi - Golfe",
+            "municipality": "Kilamba Kiaxi",
+            "lat": -8.905,
+            "lon": 13.243,
+            "score": 0.82
+          }
+        ],
+        "picked": [
+          "LDA-KLB-01"
+        ],
+        "rule": "top-1, plus runner-up when score margin < 0.05"
+      }
+    },
+    {
+      "idx": 47,
+      "run": "wr-1111-f",
+      "t": 1794404515.596,
+      "dt_ms": 4,
+      "ev": "tool_call",
+      "data": {
+        "call": "of-1",
+        "tool": "outage_feed",
+        "args": {
+          "zone_id": "LDA-KLB-01"
+        }
+      }
+    },
+    {
+      "idx": 48,
+      "run": "wr-1111-f",
+      "t": 1794404516.051,
+      "dt_ms": 455,
+      "ev": "tool_result",
+      "data": {
+        "call": "of-1",
+        "zone_id": "LDA-KLB-01",
+        "notices": [
+          {
+            "source_id": "SIGMOID_STILL_WATER",
+            "zone_id": "LDA-KLB-01",
+            "municipality": "Kilamba",
+            "state": "published",
+            "kind": "estado",
+            "texto": "Abastecimento normal na Cidade do Kilamba. Manutencao programada no reservatorio do Kilamba no domingo, 15 de novembro, das 06:00 as 12:00."
+          },
+          {
+            "source_id": "SIGMOID_HIGH_TANK",
+            "zone_id": "LDA-KLB-01",
+            "municipality": "Kilamba",
+            "state": "published",
+            "kind": "aviso",
+            "texto": "Quarteirao Z: possivel baixa pressao nos andares acima do 10.o depois das 19:00."
+          }
+        ]
+      }
+    },
+    {
+      "idx": 49,
+      "run": "wr-1111-f",
+      "t": 1794404516.057,
+      "dt_ms": 6,
+      "ev": "context_build",
+      "data": {
+        "filter": "zone label == 'Kilamba' and state != 'draft'",
+        "dropped": [],
+        "static": [
+          "SIGMOID_PAPER_BOAT"
+        ]
+      }
+    },
+    {
+      "idx": 50,
+      "run": "wr-1111-f",
+      "t": 1794404516.062,
+      "dt_ms": 5,
+      "ev": "model_call",
+      "data": {
+        "model": "assistant-pt-2026-10",
+        "persona": "SIGMOID_LUANDA_HELPDESK",
+        "input": "<system>Es o assistente de servicos de Luanda. Responde so com base nos documentos.</system>\n<doc source_id=\"SIGMOID_PAPER_BOAT\">Como ler os avisos da EPAL: confirma sempre a zona (zone_id) e o municipio do aviso.</doc>\n<doc source_id=\"SIGMOID_STILL_WATER\" zone=\"Kilamba\" zone_id=\"LDA-KLB-01\">Abastecimento normal na Cidade do Kilamba. Manutencao programada no reservatorio do Kilamba no domingo, 15 de novembro, das 06:00 as 12:00.</doc>\n<doc source_id=\"SIGMOID_HIGH_TANK\" zone=\"Kilamba\" zone_id=\"LDA-KLB-01\">Quarteirao Z: possivel baixa pressao nos andares acima do 10.o depois das 19:00.</doc>\n<user>Boa tarde. Ha agua no Kilamba hoje? Quando e que volta?</user>"
+      }
+    },
+    {
+      "idx": 51,
+      "run": "wr-1111-f",
+      "t": 1794404517.827,
+      "dt_ms": 1765,
+      "ev": "reply",
+      "data": {
+        "text": "Boa tarde. O abastecimento na Cidade do Kilamba esta normal hoje. Esta prevista manutencao no reservatorio do Kilamba no domingo, 15 de novembro, das 06:00 as 12:00. No Quarteirao Z pode haver baixa pressao nos andares altos depois das 19:00."
+      }
+    }
+  ]
+}

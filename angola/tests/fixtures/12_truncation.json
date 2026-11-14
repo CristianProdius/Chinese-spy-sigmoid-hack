@@ -1,0 +1,234 @@
+{
+ "traceExport": {
+  "items": [
+   {
+    "runIndex": 0,
+    "loggedAt": "2026-11-14T08:00:00.000Z",
+    "durationMs": 0,
+    "eventKind": "PROMPT",
+    "payload": {
+     "text": "Is there water in Kilamba right now?"
+    }
+   },
+   {
+    "runIndex": 0,
+    "loggedAt": "2026-11-14T08:00:00.200Z",
+    "durationMs": 650,
+    "eventKind": "TOOL_RESULT",
+    "payload": {
+     "sourceId": "SIGMOID_FLOW_REPORT_TODAY",
+     "fetchedAt": "2026-11-14T08:50:00+01:00",
+     "snippet": "Flow report: Kilamba distribution normal today, no restrictions reported by EPAL."
+    }
+   },
+   {
+    "runIndex": 0,
+    "loggedAt": "2026-11-14T08:00:00.900Z",
+    "durationMs": 20,
+    "eventKind": "CONTEXT_ITEM",
+    "payload": {
+     "sourceId": "SIGMOID_SHIFT_MEMO_OLD",
+     "asOf": "2026-11-13T07:00:00+01:00",
+     "snippet": "Shift memo: Kilamba will stay dry until Monday 10h00 while the reservoir is inspected."
+    }
+   },
+   {
+    "runIndex": 0,
+    "loggedAt": "2026-11-14T08:00:00.950Z",
+    "durationMs": 15,
+    "eventKind": "CONTEXT_ITEM",
+    "payload": {
+     "sourceId": "SIGMOID_CONTACT_FAQ",
+     "snippet": "Contact EPAL on the customer line for supply problems."
+    }
+   },
+   {
+    "runIndex": 0,
+    "loggedAt": "2026-11-14T08:00:01.000Z",
+    "durationMs": 5,
+    "eventKind": "CONTEXT_WINDOW",
+    "payload": {
+     "budget_tokens": 900,
+     "included": [
+      "SIGMOID_FLOW_REPORT_TODAY",
+      "SIGMOID_CONTACT_FAQ"
+     ],
+     "truncated": [
+      "SIGMOID_SHIFT_MEMO_OLD"
+     ]
+    }
+   },
+   {
+    "runIndex": 0,
+    "loggedAt": "2026-11-14T08:00:01.050Z",
+    "durationMs": 1500,
+    "eventKind": "MODEL_REQUEST",
+    "payload": {
+     "model": "m-6",
+     "tokenCount": 880
+    }
+   },
+   {
+    "runIndex": 0,
+    "loggedAt": "2026-11-14T08:00:02.600Z",
+    "durationMs": 0,
+    "eventKind": "MODEL_RESPONSE",
+    "payload": {
+     "text": "Kilamba's water flow is normal today; EPAL reports no restrictions."
+    }
+   },
+   {
+    "runIndex": 1,
+    "loggedAt": "2026-11-14T08:02:00.000Z",
+    "durationMs": 0,
+    "eventKind": "PROMPT",
+    "payload": {
+     "text": "Is there water in Kilamba right now?"
+    }
+   },
+   {
+    "runIndex": 1,
+    "loggedAt": "2026-11-14T08:02:00.200Z",
+    "durationMs": 650,
+    "eventKind": "TOOL_RESULT",
+    "payload": {
+     "sourceId": "SIGMOID_FLOW_REPORT_TODAY",
+     "fetchedAt": "2026-11-14T08:50:00+01:00",
+     "snippet": "Flow report: Kilamba distribution normal today, no restrictions reported by EPAL."
+    }
+   },
+   {
+    "runIndex": 1,
+    "loggedAt": "2026-11-14T08:02:00.900Z",
+    "durationMs": 20,
+    "eventKind": "CONTEXT_ITEM",
+    "payload": {
+     "sourceId": "SIGMOID_SHIFT_MEMO_OLD",
+     "asOf": "2026-11-13T07:00:00+01:00",
+     "snippet": "Shift memo: Kilamba will stay dry until Monday 10h00 while the reservoir is inspected."
+    }
+   },
+   {
+    "runIndex": 1,
+    "loggedAt": "2026-11-14T08:02:00.950Z",
+    "durationMs": 15,
+    "eventKind": "CONTEXT_ITEM",
+    "payload": {
+     "sourceId": "SIGMOID_CONTACT_FAQ",
+     "snippet": "Contact EPAL on the customer line for supply problems."
+    }
+   },
+   {
+    "runIndex": 1,
+    "loggedAt": "2026-11-14T08:02:01.000Z",
+    "durationMs": 5,
+    "eventKind": "CONTEXT_WINDOW",
+    "payload": {
+     "budget_tokens": 900,
+     "included": [
+      "SIGMOID_SHIFT_MEMO_OLD",
+      "SIGMOID_CONTACT_FAQ"
+     ],
+     "truncated": [
+      "SIGMOID_FLOW_REPORT_TODAY"
+     ]
+    }
+   },
+   {
+    "runIndex": 1,
+    "loggedAt": "2026-11-14T08:02:01.050Z",
+    "durationMs": 1500,
+    "eventKind": "MODEL_REQUEST",
+    "payload": {
+     "model": "m-6",
+     "tokenCount": 880
+    }
+   },
+   {
+    "runIndex": 1,
+    "loggedAt": "2026-11-14T08:02:02.600Z",
+    "durationMs": 0,
+    "eventKind": "MODEL_RESPONSE",
+    "payload": {
+     "text": "Kilamba will stay dry until Monday at 10h00 while the reservoir is inspected."
+    }
+   },
+   {
+    "runIndex": 2,
+    "loggedAt": "2026-11-14T08:04:00.000Z",
+    "durationMs": 0,
+    "eventKind": "PROMPT",
+    "payload": {
+     "text": "Is there water in Kilamba right now?"
+    }
+   },
+   {
+    "runIndex": 2,
+    "loggedAt": "2026-11-14T08:04:00.200Z",
+    "durationMs": 650,
+    "eventKind": "TOOL_RESULT",
+    "payload": {
+     "sourceId": "SIGMOID_FLOW_REPORT_TODAY",
+     "fetchedAt": "2026-11-14T08:50:00+01:00",
+     "snippet": "Flow report: Kilamba distribution normal today, no restrictions reported by EPAL."
+    }
+   },
+   {
+    "runIndex": 2,
+    "loggedAt": "2026-11-14T08:04:00.900Z",
+    "durationMs": 20,
+    "eventKind": "CONTEXT_ITEM",
+    "payload": {
+     "sourceId": "SIGMOID_SHIFT_MEMO_OLD",
+     "asOf": "2026-11-13T07:00:00+01:00",
+     "snippet": "Shift memo: Kilamba will stay dry until Monday 10h00 while the reservoir is inspected."
+    }
+   },
+   {
+    "runIndex": 2,
+    "loggedAt": "2026-11-14T08:04:00.950Z",
+    "durationMs": 15,
+    "eventKind": "CONTEXT_ITEM",
+    "payload": {
+     "sourceId": "SIGMOID_CONTACT_FAQ",
+     "snippet": "Contact EPAL on the customer line for supply problems."
+    }
+   },
+   {
+    "runIndex": 2,
+    "loggedAt": "2026-11-14T08:04:01.000Z",
+    "durationMs": 5,
+    "eventKind": "CONTEXT_WINDOW",
+    "payload": {
+     "budget_tokens": 900,
+     "included": [
+      "SIGMOID_FLOW_REPORT_TODAY",
+      "SIGMOID_CONTACT_FAQ"
+     ],
+     "truncated": [
+      "SIGMOID_SHIFT_MEMO_OLD"
+     ]
+    }
+   },
+   {
+    "runIndex": 2,
+    "loggedAt": "2026-11-14T08:04:01.050Z",
+    "durationMs": 1500,
+    "eventKind": "MODEL_REQUEST",
+    "payload": {
+     "model": "m-6",
+     "tokenCount": 880
+    }
+   },
+   {
+    "runIndex": 2,
+    "loggedAt": "2026-11-14T08:04:02.600Z",
+    "durationMs": 0,
+    "eventKind": "MODEL_RESPONSE",
+    "payload": {
+     "text": "Kilamba's water flow is normal today; EPAL reports no restrictions."
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,27 @@
+[
+ {
+  "case": "case1.json",
+  "id": "SIGMOID_ETA_KILAMBA_PARALISADA",
+  "explanation": "In kil-r3 the first answer request timed out. The lite retry (req-r3-answer-retry, 1100-token budget) dropped the newer notice SIGMOID_REPOSICAO_GRADUAL_KILAMBA (it supersedes this one) as exceeds_remaining_budget, so the stale 11/11 paralisacao notice, present in every run, supplied 'paralisada... sem data de reposicao'. The cited tanker item (the only id unique to r3) is correct."
+ },
+ {
+  "case": "case2.json",
+  "id": "SIGMOID_CORTE_PROGRAMADO_KILAMBA_R3",
+  "explanation": "w-03 is the run flagged by ops_review. Its valid_until is a naive local time (16:00 WAT = 15:00Z), but the filter read it as UTC and kept the cut at 15:21Z (16:21 WAT), so the answer said it was still in effect. The same notice in w-01/w-02 was valid then. w-04's restoration item (majority-vote outlier) and the cited support-line item are decoys."
+ },
+ {
+  "case": "case3.json",
+  "id": "SIGMOID_ESTADO_KILAMBA_V41",
+  "explanation": "run_k3's status call was a cache hit on edge-2 after an origin timeout. cached_at 09:02:11+01:00 means the entry was about 3h50m old with ttl_s 900. The stale V41 record (rupture, Via Expressa, reposicao 12h00) beat the newer repair notice. run_k2's hit is within TTL, and the Kilamba Kiaxi doc unique to k3 adds no claim to the answer."
+ },
+ {
+  "case": "case4.json",
+  "id": "SIGMOID_INTERRUPCAO_ETA_KILAMBA_0930",
+  "explanation": "In trace C, call_SIGMOID_AVISOS_C1 timed out at 2500 ms but its stale 09:30 snapshot came in at +6.15 s. That was still inside the 6 s append_by_arrival collect window, so it reached the final chat input next to the retry's result. The answer repeats its 'parada... sem previsao' text while citing the decoy SIGMOID_REPOSICAO_CONFIRMADA_1405. The social report landed after the final chat, and _O930 is a letter-O look-alike."
+ },
+ {
+  "case": "case5.json",
+  "id": "SIGMOID_MEMORIA_SESSAO_0412",
+  "explanation": "tr-5c's answer generation got a session-memory record that no tool in the run returned. It came from foreign trace tr-kiaxi-5521: the key normalizer cut 'Kilamba Kiaxi' to 'kilamba', and the record is 678 s old against a ttl_s of 1800 (it had expired by tr-5d). Its Golfe/Nova Vida '22h00, estacao elevatoria' claim is in the answer. The Kiaxi notice with the same wording was dropped by the area filter in every run."
+ }
+]

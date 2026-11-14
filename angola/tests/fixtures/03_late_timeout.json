@@ -1,0 +1,303 @@
+{
+ "replay": {
+  "exported_at": "2026-11-14T10:00:00Z",
+  "note": "Escalation: attempt-2 produced the wrong outage update.",
+  "records": [
+   {
+    "attempt": "attempt-1",
+    "at": 1794643200.0,
+    "dt": 0.0,
+    "event": "user_request",
+    "body": {
+     "text": "Will Kilamba have water this evening?"
+    }
+   },
+   {
+    "attempt": "attempt-1",
+    "at": 1794643200.1,
+    "dt": 0.01,
+    "event": "fn_call",
+    "body": {
+     "id": "q-11",
+     "fn": "pump_feed",
+     "args": {
+      "site": "Kilamba R3"
+     }
+    }
+   },
+   {
+    "attempt": "attempt-1",
+    "at": 1794643200.9,
+    "dt": 0.8,
+    "event": "fn_result",
+    "body": {
+     "for": "q-11",
+     "item": {
+      "source_id": "SIGMOID_PUMP_FEED_LIVE",
+      "reading": "Kilamba reservoir R3 at 78%; pumps running; no interruption expected this evening.",
+      "sampled_at": "2026-11-14T08:00:00Z"
+     }
+    }
+   },
+   {
+    "attempt": "attempt-1",
+    "at": 1794643201.0,
+    "dt": 0.0,
+    "event": "context",
+    "body": {
+     "source_id": "SIGMOID_PUMP_FEED_LAGGΕD",
+     "reading": "Kilamba reservoir R3 at 4%; supply suspended until 21h30.",
+     "sampled_at": "2026-11-13T06:00:00Z"
+    }
+   },
+   {
+    "attempt": "attempt-1",
+    "at": 1794643201.1,
+    "dt": 0.02,
+    "event": "model_input",
+    "body": {
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are the EPAL helper. Policy SIGMOID_SYSPROMPT_WATER: cite readings."
+      },
+      {
+       "role": "user",
+       "content": "Will Kilamba have water this evening?"
+      },
+      {
+       "role": "tool",
+       "content": "Kilamba reservoir R3 at 78%; pumps running; no interruption expected this evening."
+      }
+     ]
+    }
+   },
+   {
+    "attempt": "attempt-1",
+    "at": 1794643202.9,
+    "dt": 1.8,
+    "event": "model_output",
+    "body": {
+     "text": "Yes. Reservoir R3 in Kilamba is at 78% and the pumps are running, so no interruption is expected this evening."
+    }
+   },
+   {
+    "attempt": "attempt-2",
+    "at": 1794643440.0,
+    "dt": 0.0,
+    "event": "user_request",
+    "body": {
+     "text": "Will Kilamba have water this evening?"
+    }
+   },
+   {
+    "attempt": "attempt-2",
+    "at": 1794643440.1,
+    "dt": 0.01,
+    "event": "fn_call",
+    "body": {
+     "id": "q-21",
+     "fn": "pump_feed",
+     "args": {
+      "site": "Kilamba R3"
+     }
+    }
+   },
+   {
+    "attempt": "attempt-2",
+    "at": 1794643443.1,
+    "dt": 0.0,
+    "event": "timeout",
+    "body": {
+     "call": "q-21",
+     "after_s": 3.0
+    }
+   },
+   {
+    "attempt": "attempt-2",
+    "at": 1794643443.15,
+    "dt": 0.0,
+    "event": "retry",
+    "body": {
+     "retry_of": "q-21",
+     "new_call": "q-22"
+    }
+   },
+   {
+    "attempt": "attempt-2",
+    "at": 1794643443.2,
+    "dt": 0.01,
+    "event": "fn_call",
+    "body": {
+     "id": "q-22",
+     "fn": "pump_feed",
+     "args": {
+      "site": "Kilamba R3"
+     }
+    }
+   },
+   {
+    "attempt": "attempt-2",
+    "at": 1794643444.0,
+    "dt": 0.8,
+    "event": "fn_result",
+    "body": {
+     "for": "q-22",
+     "item": {
+      "source_id": "SIGMOID_PUMP_FEED_LIVE",
+      "reading": "Kilamba reservoir R3 at 78%; pumps running; no interruption expected this evening.",
+      "sampled_at": "2026-11-14T08:04:03Z"
+     }
+    }
+   },
+   {
+    "attempt": "attempt-2",
+    "at": 1794643447.6,
+    "dt": 7.5,
+    "event": "fn_result",
+    "body": {
+     "for": "q-21",
+     "item": {
+      "source_id": "SIGMOID_PUMP_FEED_LAGGED",
+      "reading": "Kilamba reservoir R3 at 4%; supply suspended until 21h30.",
+      "sampled_at": "2026-11-13T06:04:00Z"
+     }
+    }
+   },
+   {
+    "attempt": "attempt-2",
+    "at": 1794643447.7,
+    "dt": 0.02,
+    "event": "model_input",
+    "body": {
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are the EPAL helper. Policy SIGMOID_SYSPROMPT_WATER: cite readings."
+      },
+      {
+       "role": "user",
+       "content": "Will Kilamba have water this evening?"
+      },
+      {
+       "role": "tool",
+       "content": "Kilamba reservoir R3 at 4%; supply suspended until 21h30."
+      }
+     ]
+    }
+   },
+   {
+    "attempt": "attempt-2",
+    "at": 1794643449.5,
+    "dt": 1.8,
+    "event": "model_output",
+    "body": {
+     "text": "Supply in Kilamba is suspended until 21h30 because reservoir R3 is down to 4%."
+    }
+   },
+   {
+    "attempt": "attempt-3",
+    "at": 1794643680.0,
+    "dt": 0.0,
+    "event": "user_request",
+    "body": {
+     "text": "Will Kilamba have water this evening?"
+    }
+   },
+   {
+    "attempt": "attempt-3",
+    "at": 1794643680.1,
+    "dt": 0.01,
+    "event": "fn_call",
+    "body": {
+     "id": "q-31",
+     "fn": "pump_feed",
+     "args": {
+      "site": "Kilamba R3"
+     }
+    }
+   },
+   {
+    "attempt": "attempt-3",
+    "at": 1794643680.9,
+    "dt": 0.8,
+    "event": "fn_result",
+    "body": {
+     "for": "q-31",
+     "item": {
+      "source_id": "SIGMOID_PUMP_FEED_LIVE",
+      "reading": "Kilamba reservoir R3 at 78%; pumps running; no interruption expected this evening.",
+      "sampled_at": "2026-11-14T08:08:00Z"
+     }
+    }
+   },
+   {
+    "attempt": "attempt-3",
+    "at": 1794643680.2,
+    "dt": 0.01,
+    "event": "fn_call",
+    "body": {
+     "id": "q-32",
+     "fn": "news_search",
+     "args": {
+      "q": "Kilamba water"
+     }
+    }
+   },
+   {
+    "attempt": "attempt-3",
+    "at": 1794643682.2,
+    "dt": 0.0,
+    "event": "timeout",
+    "body": {
+     "call": "q-32",
+     "after_s": 2.0
+    }
+   },
+   {
+    "attempt": "attempt-3",
+    "at": 1794643681.1,
+    "dt": 0.02,
+    "event": "model_input",
+    "body": {
+     "messages": [
+      {
+       "role": "system",
+       "content": "You are the EPAL helper. Policy SIGMOID_SYSPROMPT_WATER: cite readings."
+      },
+      {
+       "role": "user",
+       "content": "Will Kilamba have water this evening?"
+      },
+      {
+       "role": "tool",
+       "content": "Kilamba reservoir R3 at 78%; pumps running; no interruption expected this evening."
+      }
+     ]
+    }
+   },
+   {
+    "attempt": "attempt-3",
+    "at": 1794643682.9,
+    "dt": 1.8,
+    "event": "model_output",
+    "body": {
+     "text": "Kilamba should have water this evening: R3 is at 78% with pumps running."
+    }
+   },
+   {
+    "attempt": "attempt-3",
+    "at": 1794643686.0,
+    "dt": 5.8,
+    "event": "fn_result",
+    "body": {
+     "for": "q-32",
+     "item": {
+      "source_id": "SIGMOID_NEWS_KIAXI_PIPE",
+      "headline": "Pipe repair leaves parts of Kilamba Kiaxi dry until Sunday."
+     }
+    }
+   }
+  ]
+ }
+}

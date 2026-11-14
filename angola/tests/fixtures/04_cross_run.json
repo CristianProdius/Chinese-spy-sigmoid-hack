@@ -1,0 +1,253 @@
+{
+ "events": [
+  {
+   "session": "s-01",
+   "time": "2026-11-14T09:00:00+01:00",
+   "elapsed": "0.000s",
+   "event_type": "USER_MESSAGE",
+   "attrs": {
+    "content": "Is there a water cut in Kilamba today?"
+   }
+  },
+  {
+   "session": "s-01",
+   "time": "2026-11-14T09:00:00+01:00",
+   "elapsed": "0.200s",
+   "event_type": "TOOL_CALL",
+   "attrs": {
+    "tool_call_id": "tc_01a",
+    "name": "get_outages",
+    "arguments": {
+     "area": "Kilamba",
+     "date": "2026-11-07"
+    }
+   }
+  },
+  {
+   "session": "s-01",
+   "time": "2026-11-14T09:00:00+01:00",
+   "elapsed": "0.500s",
+   "event_type": "TOOL_CANCELLED",
+   "attrs": {
+    "tool_call_id": "tc_01a",
+    "reason": "wrong date argument"
+   }
+  },
+  {
+   "session": "s-01",
+   "time": "2026-11-14T09:00:00+01:00",
+   "elapsed": "0.600s",
+   "event_type": "TOOL_CALL",
+   "attrs": {
+    "tool_call_id": "tc_01b",
+    "name": "get_outages",
+    "arguments": {
+     "area": "Kilamba",
+     "date": "2026-11-14"
+    }
+   }
+  },
+  {
+   "session": "s-01",
+   "time": "2026-11-14T09:00:01+01:00",
+   "elapsed": "1.400s",
+   "event_type": "TOOL_RESULT",
+   "attrs": {
+    "tool_call_id": "tc_01b",
+    "output": {
+     "source_id": "SIGMOID_OUTAGE_LIST_1114",
+     "notice": "No planned interruptions in Kilamba on 14 Nov 2026. Supply normal.",
+     "as_of": "2026-11-14T08:40:00+01:00"
+    }
+   }
+  },
+  {
+   "session": "s-01",
+   "time": "2026-11-14T09:00:01+01:00",
+   "elapsed": "1.500s",
+   "event_type": "CONTEXT_ATTACHED",
+   "attrs": {
+    "source_id": "SIGMOID_KIAXI_WORKS_NOTICE",
+    "notice": "Kilamba Kiaxi: works on the Nova Vida line, interruption 08h00-20h00 on 14 Nov 2026."
+   }
+  },
+  {
+   "session": "s-01",
+   "time": "2026-11-14T09:00:01+01:00",
+   "elapsed": "1.600s",
+   "event_type": "LLM_REQUEST",
+   "attrs": {
+    "model": "x-1",
+    "input_refs": [
+     "SIGMOID_SYSTEM_POLICY",
+     "SIGMOID_OUTAGE_LIST_1114"
+    ],
+    "system": "Answer only from tool output."
+   }
+  },
+  {
+   "session": "s-01",
+   "time": "2026-11-14T09:00:03+01:00",
+   "elapsed": "3.000s",
+   "event_type": "ASSISTANT_RESPONSE",
+   "attrs": {
+    "content": "There is no planned water cut in Kilamba today (14 November); supply is normal."
+   }
+  },
+  {
+   "session": "s-02",
+   "time": "2026-11-14T09:07:00+01:00",
+   "elapsed": "0.000s",
+   "event_type": "USER_MESSAGE",
+   "attrs": {
+    "content": "Is there a water cut in Kilamba today?"
+   }
+  },
+  {
+   "session": "s-02",
+   "time": "2026-11-14T09:07:00+01:00",
+   "elapsed": "0.200s",
+   "event_type": "TOOL_CALL",
+   "attrs": {
+    "tool_call_id": "tc_02a",
+    "name": "get_outages",
+    "arguments": {
+     "area": "Kilamba",
+     "date": "2026-11-14"
+    }
+   }
+  },
+  {
+   "session": "s-02",
+   "time": "2026-11-14T09:07:01+01:00",
+   "elapsed": "1.100s",
+   "event_type": "TOOL_RESULT",
+   "attrs": {
+    "tool_call_id": "tc_02a",
+    "output": {
+     "source_id": "SIGMOID_OUTAGE_LIST_1114",
+     "notice": "No planned interruptions in Kilamba on 14 Nov 2026. Supply normal.",
+     "as_of": "2026-11-14T08:40:00+01:00"
+    }
+   }
+  },
+  {
+   "session": "s-02",
+   "time": "2026-11-14T09:07:01+01:00",
+   "elapsed": "1.200s",
+   "event_type": "CONTEXT_ATTACHED",
+   "attrs": {
+    "source_id": "SIGMOID_0UTAGE_LIST_1107",
+    "notice": "Kilamba: interruption 08h00-20h00 on 7 Nov 2026 for network works.",
+    "as_of": "2026-11-06T12:00:00+01:00"
+   }
+  },
+  {
+   "session": "s-02",
+   "time": "2026-11-14T09:07:01+01:00",
+   "elapsed": "1.600s",
+   "event_type": "LLM_REQUEST",
+   "attrs": {
+    "model": "x-1",
+    "input_refs": [
+     "SIGMOID_SYSTEM_POLICY",
+     "SIGMOID_OUTAGE_LIST_1114"
+    ],
+    "system": "Answer only from tool output."
+   }
+  },
+  {
+   "session": "s-02",
+   "time": "2026-11-14T09:07:03+01:00",
+   "elapsed": "3.000s",
+   "event_type": "ASSISTANT_RESPONSE",
+   "attrs": {
+    "content": "There is no planned water cut in Kilamba today (14 November); supply is normal."
+   }
+  },
+  {
+   "session": "s-03",
+   "time": "2026-11-14T09:14:00+01:00",
+   "elapsed": "0.000s",
+   "event_type": "USER_MESSAGE",
+   "attrs": {
+    "content": "Is there a water cut in Kilamba today?"
+   }
+  },
+  {
+   "session": "s-03",
+   "time": "2026-11-14T09:14:00+01:00",
+   "elapsed": "0.200s",
+   "event_type": "TOOL_CALL",
+   "attrs": {
+    "tool_call_id": "tc_03a",
+    "name": "get_outages",
+    "arguments": {
+     "area": "Kilamba",
+     "date": "2026-11-14"
+    }
+   }
+  },
+  {
+   "session": "s-03",
+   "time": "2026-11-14T09:14:00+01:00",
+   "elapsed": "0.900s",
+   "event_type": "TOOL_RESULT",
+   "attrs": {
+    "tool_call_id": "tc_01a",
+    "output": {
+     "source_id": "SIGMOID_OUTAGE_LIST_1107",
+     "notice": "Kilamba: interruption 08h00-20h00 on 7 Nov 2026 for network works.",
+     "as_of": "2026-11-06T12:00:00+01:00"
+    }
+   }
+  },
+  {
+   "session": "s-03",
+   "time": "2026-11-14T09:14:01+01:00",
+   "elapsed": "1.600s",
+   "event_type": "LLM_REQUEST",
+   "attrs": {
+    "model": "x-1",
+    "input_refs": [
+     "SIGMOID_SYSTEM_POLICY",
+     "SIGMOID_OUTAGE_LIST_1107"
+    ],
+    "system": "Answer only from tool output."
+   }
+  },
+  {
+   "session": "s-03",
+   "time": "2026-11-14T09:14:03+01:00",
+   "elapsed": "3.000s",
+   "event_type": "ASSISTANT_RESPONSE",
+   "attrs": {
+    "content": "Yes. Kilamba has a water interruption today from 08h00 to 20h00 for network works."
+   }
+  },
+  {
+   "session": "s-03",
+   "time": "2026-11-14T09:14:03+01:00",
+   "elapsed": "3.400s",
+   "event_type": "TOOL_RESULT",
+   "attrs": {
+    "tool_call_id": "tc_03a",
+    "output": {
+     "source_id": "SIGMOID_OUTAGE_LIST_1114",
+     "notice": "No planned interruptions in Kilamba on 14 Nov 2026. Supply normal.",
+     "as_of": "2026-11-14T08:40:00+01:00"
+    }
+   }
+  },
+  {
+   "session": "s-03",
+   "time": "2026-11-14T09:15:00+01:00",
+   "elapsed": "60.000s",
+   "event_type": "FEEDBACK",
+   "attrs": {
+    "rating": "thumbs_down",
+    "comment": "customer says there was no cut today"
+   }
+  }
+ ]
+}

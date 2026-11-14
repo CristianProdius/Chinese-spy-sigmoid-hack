@@ -1,0 +1,199 @@
+{
+ "events": [
+  {
+   "rid": 1,
+   "clock": "2026-11-14T08:00:00.000Z",
+   "since_start_ms": 0,
+   "op": "prompt",
+   "detail": {
+    "q": "Is ETA do Kilamba working? Any outage in Kilamba?"
+   }
+  },
+  {
+   "rid": 1,
+   "clock": "2026-11-14T08:00:00.120Z",
+   "since_start_ms": 120,
+   "op": "tool_call",
+   "detail": {
+    "call": "p-1",
+    "name": "plant_status",
+    "plant": "ETA do Kilamba"
+   }
+  },
+  {
+   "rid": 1,
+   "clock": "2026-11-14T08:00:00.800Z",
+   "since_start_ms": 800,
+   "op": "tool_result",
+   "detail": {
+    "source_id": "SIGMOID_ETA_KILAMBA_TELEMETRY",
+    "status": "ETA do Kilamba operating normally; output 100% of plan; no interruption in Kilamba.",
+    "reply_to": "p-1"
+   }
+  },
+  {
+   "rid": 1,
+   "clock": "2026-11-14T08:00:00.850Z",
+   "since_start_ms": 850,
+   "op": "ctx",
+   "detail": {
+    "source_id": "SIGMOID_KILAMBA_KIAXI_BULLETIN",
+    "text": "Kilamba Kiaxi: ETA Sudeste maintenance, low pressure until 23h00."
+   }
+  },
+  {
+   "rid": 1,
+   "clock": "2026-11-14T08:00:40.000Z",
+   "since_start_ms": 870,
+   "op": "ctx",
+   "detail": {
+    "source_id": "SIGMOID_HANDOVER_TEMPLATE",
+    "text": "Ops handover template: write plant status and restoration time here."
+   }
+  },
+  {
+   "rid": 1,
+   "clock": "2026-11-14T08:00:00.900Z",
+   "since_start_ms": 900,
+   "op": "model_call",
+   "detail": {
+    "model": "m-4",
+    "context": [
+     {
+      "source_id": "SIGMOID_ETA_KILAMBA_TELEMETRY",
+      "text": "ETA do Kilamba operating normally; output 100% of plan; no interruption in Kilamba."
+     }
+    ]
+   }
+  },
+  {
+   "rid": 1,
+   "clock": "2026-11-14T08:00:02.500Z",
+   "since_start_ms": 2500,
+   "op": "model_reply",
+   "detail": {
+    "text": "ETA do Kilamba is operating normally and there is no interruption in Kilamba."
+   }
+  },
+  {
+   "rid": 2,
+   "clock": "2026-11-14T08:05:00.000Z",
+   "since_start_ms": 0,
+   "op": "prompt",
+   "detail": {
+    "q": "Is ETA do Kilamba working? Any outage in Kilamba?"
+   }
+  },
+  {
+   "rid": 2,
+   "clock": "2026-11-14T08:05:00.120Z",
+   "since_start_ms": 120,
+   "op": "tool_call",
+   "detail": {
+    "call": "p-2",
+    "name": "plant_status",
+    "plant": "ETA do Kilamba"
+   }
+  },
+  {
+   "rid": 2,
+   "clock": "2026-11-14T08:05:00.800Z",
+   "since_start_ms": 800,
+   "op": "tool_result",
+   "detail": {
+    "source_id": "SIGMOID_ETA_KILAMBA_TELEMETRY",
+    "status": "ETA do Kilamba operating normally; output 100% of plan; no interruption in Kilamba.",
+    "reply_to": "p-2",
+    "served_from": "cache",
+    "as_of": "2026-11-14T07:45:00Z"
+   }
+  },
+  {
+   "rid": 2,
+   "clock": "2026-11-14T08:05:00.900Z",
+   "since_start_ms": 900,
+   "op": "model_call",
+   "detail": {
+    "model": "m-4",
+    "context": [
+     {
+      "source_id": "SIGMOID_ETA_KILAMBA_TELEMETRY",
+      "text": "ETA do Kilamba operating normally; output 100% of plan; no interruption in Kilamba."
+     }
+    ]
+   }
+  },
+  {
+   "rid": 2,
+   "clock": "2026-11-14T08:05:02.500Z",
+   "since_start_ms": 2500,
+   "op": "model_reply",
+   "detail": {
+    "text": "ETA do Kilamba is operating normally and there is no interruption in Kilamba."
+   }
+  },
+  {
+   "rid": 3,
+   "clock": "2026-11-14T08:10:00.000Z",
+   "since_start_ms": 0,
+   "op": "prompt",
+   "detail": {
+    "q": "Is ETA do Kilamba working? Any outage in Kilamba?"
+   }
+  },
+  {
+   "rid": 3,
+   "clock": "2026-11-14T08:10:00.120Z",
+   "since_start_ms": 120,
+   "op": "tool_call",
+   "detail": {
+    "call": "p-3",
+    "name": "plant_status",
+    "plant": "ETA do Kilamba"
+   }
+  },
+  {
+   "rid": 3,
+   "clock": "2026-11-14T08:10:00.800Z",
+   "since_start_ms": 800,
+   "op": "tool_result",
+   "detail": {
+    "source_id": "SIGMOID_ETA_KILAMBA_TELEMETRY",
+    "status": "ETA do Kilamba operating normally; output 100% of plan; no interruption in Kilamba.",
+    "reply_to": "p-3"
+   }
+  },
+  {
+   "rid": 3,
+   "clock": "2026-11-14T08:10:00.900Z",
+   "since_start_ms": 900,
+   "op": "model_call",
+   "detail": {
+    "model": "m-4",
+    "context": [
+     {
+      "source_id": "SIGMOID_ETA_KILAMBA_TELEMETRY",
+      "text": "ETA do Kilamba operating normally; output 100% of plan; no interruption in Kilamba."
+     },
+     {
+      "source_id": "SIGMOID_OPS_HANDOVER_NOTE",
+      "text": "Ops handover (night shift): ETA do Kilamba offline, restoration expected 23h00 on 15 Nov."
+     },
+     {
+      "source_id": "SIGMOID_TRAFFIC_UPDATE_LUANDA",
+      "text": "Traffic: slow traffic on Via Expressa near Kilamba this morning."
+     }
+    ]
+   }
+  },
+  {
+   "rid": 3,
+   "clock": "2026-11-14T08:10:02.500Z",
+   "since_start_ms": 2500,
+   "op": "model_reply",
+   "detail": {
+    "text": "ETA do Kilamba is offline; restoration is expected at 23h00 on 15 November."
+   }
+  }
+ ]
+}
