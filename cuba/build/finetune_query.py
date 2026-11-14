@@ -98,8 +98,9 @@ def main():
 
     # evaluation sets + lexical scores (bm25s over the same windows)
     evals = {"sample": lab.questions("sample")}
-    if os.path.exists(os.path.join(lab.WORK, "vset_hold.jsonl")):
-        evals["vset_hold"] = lab.questions("vset_hold")
+    for extra in ("vset_hold", "rw_hold", "hard_hold"):
+        if os.path.exists(os.path.join(lab.WORK, f"{extra}.jsonl")):
+            evals[extra] = lab.questions(extra)
     bm = bm25s.BM25(k1=1.2, b=0.75)
     bm.index([lab.tokens(t) for t in texts], show_progress=False)
     lex = {}

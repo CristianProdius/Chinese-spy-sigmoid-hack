@@ -3,8 +3,9 @@
 Two legs over the same passage windows, fused per document:
   1. lexical: BM25 weights precomputed per (term, window), stored as uint8 in a term-major CSR;
      a query is a bincount over the posting lists of its terms.
-  2. dense: a small int8 ONNX sentence encoder embeds the query; passage vectors (int8) were
-     embedded offline. Cosine similarity against every window.
+  2. dense: a small int8 ONNX sentence encoder embeds the query; passage vectors were embedded
+     offline and stored as 4-bit codes. The query is scored against every window with an int8
+     matrix-vector product in ONNX Runtime (MatMulInteger, codes prepacked once at load).
 A document scores as its best window in each leg; the two document scores are z-normalised and
 mixed with weights from config.json.
 
@@ -17,6 +18,7 @@ index/ layout (written by build/build_index.py):
     vectors.npy   uint8 (n_windows, dim/2), 4-bit codes of the L2-normalised passage vectors
     vec_step.npy  float32 (dim,), quantisation step per dimension
     encoder.onnx  int8 sentence encoder; tokenizer.json next to it
+    matvec.onnx   one MatMulInteger node; its weight W (a placeholder) is replaced at load by the codes
 """
 from __future__ import annotations
 
@@ -107,6 +109,8 @@ class Retriever:
         self.imp = post["imp"]
         self.analyzer = Analyzer(self.cfg.get("spanish", True))
         self.fuse = self.cfg["fusion"]
+        self.df = np.diff(self.indptr)
+        self.fuzzy = self.cfg.get("fuzzy", True)
 
         enc = self.cfg.get("encoder")
         self.session = None
@@ -125,14 +129,49 @@ class Retriever:
             self.tok.no_padding()
             self.enc = enc
             packed = np.load(p("vectors.npy"))  # uint8 (n_windows, dim/2): two 4-bit codes per byte
-            table = np.array([[b >> 4, b & 15] for b in range(256)], dtype=np.float32)
-            self.vectors = table[packed].reshape(len(packed), -1)
+            codes = np.empty((2 * packed.shape[1], len(packed)), dtype=np.int8)  # (dim, n_windows)
+            codes[0::2] = (packed >> 4).T
+            codes[1::2] = packed.T & 15
+            # The session reads this buffer: keep the array and its OrtValue alive as long as the session.
+            self._codes = codes
+            self._codes_value = ort.OrtValue.ortvalue_from_numpy(codes)
+            mso = ort.SessionOptions()
+            mso.intra_op_num_threads = 1
+            mso.inter_op_num_threads = 1
+            mso.log_severity_level = 3  # the graph's output shape comes from the placeholder W; ORT would warn per call
+            mso.add_initializer("W", self._codes_value)
+            self.matvec = ort.InferenceSession(p("matvec.onnx"), mso, providers=["CPUExecutionProvider"])
             self.step = np.load(p("vec_step.npy")).astype(np.float32)
-            self.embed("warm up")
+            self.dense("warm up")
+
+    # -- misspellings ------------------------------------------------------
+    def _correct(self, term: str) -> int | None:
+        """Most frequent vocabulary term (5+ letters) within one edit of an unknown query term:
+        deletion, adjacent transposition, substitution or insertion. Nothing is built at load."""
+        if not self.fuzzy or len(term) < 5 or not term.isalpha():
+            return None
+        abc = "abcdefghijklmnopqrstuvwxyz"
+        splits = [(term[:k], term[k:]) for k in range(len(term) + 1)]
+        edits = {a + b[1:] for a, b in splits if b}
+        edits |= {a + b[1] + b[0] + b[2:] for a, b in splits if len(b) > 1}
+        edits |= {a + c + b[1:] for a, b in splits if b for c in abc}
+        edits |= {a + c + b for a, b in splits for c in abc}
+        cands = [i for e in edits if len(e) >= 5 and (i := self.vocab.get(e)) is not None]
+        return max(cands, key=lambda i: self.df[i]) if cands else None
+
+    def term_ids(self, query: str) -> list[int]:
+        ids = []
+        for t in dict.fromkeys(self.analyzer.terms(query, query=True)):
+            i = self.vocab.get(t)
+            if i is None:
+                i = self._correct(t)
+            if i is not None and i not in ids:
+                ids.append(i)
+        return ids
 
     # -- legs -------------------------------------------------------------
     def lexical(self, query: str) -> np.ndarray:
-        ids = [self.vocab[t] for t in dict.fromkeys(self.analyzer.terms(query, query=True)) if t in self.vocab]
+        ids = self.term_ids(query)
         if not ids:
             return np.zeros(self.n_win, dtype=np.float32)
         sl = [slice(self.indptr[i], self.indptr[i + 1]) for i in ids]
@@ -156,8 +195,16 @@ class Retriever:
         return v / (np.linalg.norm(v) + 1e-9)
 
     def dense(self, query: str) -> np.ndarray:
-        # dequantised vector = codes * step + lo; the lo term adds the same constant to every window
-        return self.vectors @ (self.step * self.embed(query))
+        # dequantised vector = codes * step + lo; the lo term adds the same constant to every window,
+        # so window scores are codes @ (step * q). That query side is quantised to uint8 for MatMulInteger.
+        x = self.step * self.embed(query)
+        lo = min(float(x.min()), 0.0)
+        hi = max(float(x.max()), 0.0)
+        scale = (hi - lo) / 255.0 or 1.0
+        zero = int(round(-lo / scale))
+        xq = np.clip(np.rint(x / scale) + zero, 0, 255).astype(np.uint8)
+        y = self.matvec.run(None, {"x": xq[None], "xz": np.array(zero, dtype=np.uint8)})[0][0]
+        return y.astype(np.float32) * scale
 
     # -- ranking ----------------------------------------------------------
     @staticmethod

@@ -58,6 +58,25 @@ def bm25_postings(texts: list[str], k1: float, b: float):
     return vocab, indptr, cols.astype(win_dtype), imp, scale
 
 
+def write_matvec(path: str, dim: int) -> None:
+    """y(1, n) = MatMulInteger(x uint8 (1, dim), W int8 (dim, n), x_zero). W is a (dim, 1) placeholder
+    initializer; main.py replaces it at load with the real codes (SessionOptions.add_initializer), so
+    ORT still prepacks it as a constant while the file stays under 1 KB."""
+    import onnx
+    from onnx import TensorProto, helper
+
+    g = helper.make_graph(
+        [helper.make_node("MatMulInteger", ["x", "W", "xz"], ["y"])], "matvec",
+        [helper.make_tensor_value_info("x", TensorProto.UINT8, [1, dim]),
+         helper.make_tensor_value_info("xz", TensorProto.UINT8, [])],
+        [helper.make_tensor_value_info("y", TensorProto.INT32, [1, "n"])],
+        [helper.make_tensor("W", TensorProto.INT8, [dim, 1], [0] * dim)])
+    m = helper.make_model(g, opset_imports=[helper.make_opsetid("", 13)])
+    m.ir_version = 8
+    onnx.checker.check_model(m)
+    onnx.save(m, path)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", required=True)
@@ -101,6 +120,7 @@ def main():
         packed = (codes[:, 0::2] << 4) | codes[:, 1::2]
         np.save(os.path.join(out, "vectors.npy"), packed)
         np.save(os.path.join(out, "vec_step.npy"), step)
+        write_matvec(os.path.join(out, "matvec.onnx"), V.shape[1])
         shutil.copy(os.path.join(args.onnx, "encoder.onnx"), os.path.join(out, "encoder.onnx"))
         shutil.copy(os.path.join(args.onnx, "tokenizer.json"), os.path.join(out, "tokenizer.json"))
         cfg["encoder"] = {"pooling": args.pooling, "query_prefix": args.prefix, "max_len": args.max_len}
