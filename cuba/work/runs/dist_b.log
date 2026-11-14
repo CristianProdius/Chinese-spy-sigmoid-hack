@@ -1,0 +1,14 @@
+8956 labelled slips + 40000 snippets
+
+
+[teacher] sample: dense 0.903 w2 0.929 w3 0.933 | vset_hold: dense 0.900 w2 0.978 w3 0.973 | rw_hold: dense 0.718 w2 0.798 w3 0.790 | hard_hold: dense 0.780 w2 0.927 w3 0.927
+[student base] sample: dense 0.888 w2 0.933 w3 0.937 | vset_hold: dense 0.895 w2 0.978 w3 0.975 | rw_hold: dense 0.693 w2 0.798 w3 0.785 | hard_hold: dense 0.773 w2 0.913 w3 0.920
+The `tokenize` method is deprecated, please use `preprocess` instead.
+epoch 1: loss 1.8042
+[epoch 1] sample: dense 0.896 w2 0.922 w3 0.937 | vset_hold: dense 0.910 w2 0.980 w3 0.985 | rw_hold: dense 0.733 w2 0.808 w3 0.797 | hard_hold: dense 0.797 w2 0.933 w3 0.930
+
+epoch 2: loss 1.4995
+[epoch 2] sample: dense 0.896 w2 0.922 w3 0.940 | vset_hold: dense 0.905 w2 0.983 w3 0.985 | rw_hold: dense 0.745 w2 0.808 w3 0.807 | hard_hold: dense 0.797 w2 0.933 w3 0.933
+
+epoch 3: loss 1.4403
+[epoch 3] sample: dense 0.899 w2 0.925 w3 0.940 | vset_hold: dense 0.907 w2 0.983 w3 0.985 | rw_hold: dense 0.750 w2 0.808 w3 0.805 | hard_hold: dense 0.803 w2 0.940 w3 0.933

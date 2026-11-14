@@ -1,0 +1,1 @@
+for cfg in "5e-6 50" "1e-5 50" "5e-6 20" "2e-6 50"; do set -- $cfg; .venv/bin/python build/finetune_query.py --train work/train_q72.jsonl work/train_vset.jsonl --out work/ft_lr$1_s$2 --epochs 2 --lr $1 --scale $2 > work/ft_lr$1_s$2.log 2>&1; done

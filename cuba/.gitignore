@@ -3,5 +3,12 @@ __pycache__/
 .venv/
 task/data/corpus/
 task/baseline/index/
-work/
 *.zip
+# work/ holds builds, checkpoints and experiment copies. Keep only the synthetic slip sets,
+# the run logs and the passage embeddings the shipped index is built from.
+work/*
+!work/*.jsonl
+!work/vset/
+!work/hard/
+!work/runs/
+!work/emb_arctic_m15_200_50.npy

@@ -1,0 +1,74 @@
+BertModel LOAD REPORT from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  |
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  |
+
+Notes:
+- UNEXPECTED	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+minilm6       200/50 dim= 384  hit3/hit10  dense:0.810/0.944  rrf:0.884/0.978  lin.5:0.888/0.959  lin.3:0.858/0.944  (30s)
+
+arctic_xs     200/50 dim= 384  hit3/hit10  dense:0.828/0.914  rrf:0.896/0.955  lin.5:0.899/0.955  lin.3:0.862/0.944  (33s)
+
+arctic_s      200/50 dim= 384  hit3/hit10  dense:0.866/0.944  rrf:0.892/0.966  lin.5:0.888/0.963  lin.3:0.862/0.944  (49s)
+
+BertModel LOAD REPORT from: BAAI/bge-small-en-v1.5
+Key                     | Status     |  |
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  |
+
+Notes:
+- UNEXPECTED	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+bge_small     200/50 dim= 384  hit3/hit10  dense:0.817/0.937  rrf:0.896/0.970  lin.5:0.907/0.970  lin.3:0.866/0.951  (49s)
+
+BertModel LOAD REPORT from: intfloat/e5-small-v2
+Key                     | Status     |  |
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  |
+
+Notes:
+- UNEXPECTED	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+e5_small      200/50 dim= 384  hit3/hit10  dense:0.802/0.937  rrf:0.903/0.966  lin.5:0.907/0.970  lin.3:0.869/0.948  (53s)
+
+BertModel LOAD REPORT from: thenlper/gte-small
+Key                     | Status     |  |
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  |
+
+Notes:
+- UNEXPECTED	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+gte_small     200/50 dim= 384  hit3/hit10  dense:0.862/0.970  rrf:0.907/0.974  lin.5:0.896/0.970  lin.3:0.866/0.944  (35s)
+
+mxbai_xs      200/50 dim= 384  hit3/hit10  dense:0.683/0.862  rrf:0.884/0.966  lin.5:0.881/0.970  lin.3:0.851/0.940  (35s)
+
+bge_micro     200/50 dim= 384  hit3/hit10  dense:0.769/0.896  rrf:0.881/0.970  lin.5:0.884/0.959  lin.3:0.847/0.937  (45s)
+
+gte_tiny      200/50 dim= 384  hit3/hit10  dense:0.825/0.922  rrf:0.877/0.959  lin.5:0.899/0.959  lin.3:0.858/0.937  (39s)
+
+BertModel LOAD REPORT from: sentence-transformers/paraphrase-MiniLM-L3-v2
+Key                     | Status     |  |
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  |
+
+Notes:
+- UNEXPECTED	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+minilm3       200/50 dim= 384  hit3/hit10  dense:0.631/0.772  rrf:0.802/0.899  lin.5:0.888/0.944  lin.3:0.851/0.937  (22s)
+potion8       200/50 dim= 256  hit3/hit10  dense:0.638/0.780  rrf:0.791/0.903  lin.5:0.851/0.940  lin.3:0.840/0.929  (9s)
+potion32      200/50 dim= 512  hit3/hit10  dense:0.687/0.840  rrf:0.802/0.910  lin.5:0.873/0.955  lin.3:0.851/0.944  (11s)
+potion_ret32  200/50 dim= 512  hit3/hit10  dense:0.735/0.862  rrf:0.817/0.933  lin.5:0.862/0.944  lin.3:0.847/0.940  (11s)
+Traceback (most recent call last):
+  File "/home/prodius/projects/cuba-zemi/build/exp_dense.py", line 115, in <module>
+    main(sys.argv[1:] or list(MODELS))
+  File "/home/prodius/projects/cuba-zemi/build/exp_dense.py", line 82, in main
+    enc = load_model(hf, kind)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/prodius/projects/cuba-zemi/build/exp_dense.py", line 49, in load_model
+    m.max_seq_length = min(512, m.max_seq_length or 512)
+    ^^^^^^^^^^^^^^^^
+  File "/home/prodius/projects/cuba-zemi/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 2071, in __setattr__
+    super().__setattr__(name, value)
+  File "/home/prodius/projects/cuba-zemi/.venv/lib/python3.12/site-packages/sentence_transformers/base/model.py", line 2153, in max_seq_length
+    self[0].max_seq_length = value
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prodius/projects/cuba-zemi/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 2071, in __setattr__
+    super().__setattr__(name, value)
+AttributeError: property 'max_seq_length' of 'StaticEmbedding' object has no setter

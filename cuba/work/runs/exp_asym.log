@@ -1,0 +1,7 @@
+dims leaf 768 arctic 768
+leaf sym             full {'dense': 0.8768656716417911, 'lin.5': 0.9067164179104478}
+leaf sym             256d {'dense': 0.8656716417910447, 'lin.5': 0.9067164179104478}
+arctic-m sym         full {'dense': 0.914179104477612, 'lin.5': 0.9104477611940298}
+arctic-m sym         256d {'dense': 0.8694029850746269, 'lin.5': 0.9067164179104478}
+leaf->arctic asym    full {'dense': 0.8880597014925373, 'lin.5': 0.9104477611940298}
+leaf->arctic asym    256d {'dense': 0.8582089552238806, 'lin.5': 0.9067164179104478}
