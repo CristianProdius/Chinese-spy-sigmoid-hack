@@ -1,0 +1,8 @@
+5328 labelled slips + 40000 snippets
+
+
+[teacher] sample: dense 0.903 w2 0.929 w3 0.933 | vset_hold: dense 0.900 w2 0.978 w3 0.973
+[student base] sample: dense 0.888 w2 0.933 w3 0.937 | vset_hold: dense 0.895 w2 0.978 w3 0.975
+The `tokenize` method is deprecated, please use `preprocess` instead.
+epoch 1: loss 1.8003
+[epoch 1] sample: dense 0.888 w2 0.933 w3 0.940 | vset_hold: dense 0.902 w2 0.983 w3 0.985

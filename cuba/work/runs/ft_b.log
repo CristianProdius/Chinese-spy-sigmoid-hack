@@ -1,0 +1,9 @@
+8956 training slips
+
+[base] sample: dense 0.888 w1 0.914 w2 0.933 w3 0.937 | vset_hold: dense 0.895 w1 0.970 w2 0.978 w3 0.975 | rw_hold: dense 0.693 w1 0.790 w2 0.798 w3 0.785 | hard_hold: dense 0.773 w1 0.927 w2 0.913 w3 0.920
+The `tokenize` method is deprecated, please use `preprocess` instead.
+epoch 1: loss 2.0783
+[epoch 1] sample: dense 0.896 w1 0.903 w2 0.929 w3 0.937 | vset_hold: dense 0.900 w1 0.970 w2 0.978 w3 0.980 | rw_hold: dense 0.743 w1 0.782 w2 0.802 w3 0.798 | hard_hold: dense 0.800 w1 0.937 w2 0.923 w3 0.927
+
+epoch 2: loss 1.7424
+[epoch 2] sample: dense 0.910 w1 0.907 w2 0.925 w3 0.933 | vset_hold: dense 0.900 w1 0.973 w2 0.980 w3 0.983 | rw_hold: dense 0.748 w1 0.788 w2 0.800 w3 0.798 | hard_hold: dense 0.813 w1 0.933 w2 0.927 w3 0.930

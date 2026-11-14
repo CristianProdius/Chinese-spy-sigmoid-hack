@@ -66,5 +66,16 @@ python build/eval_suite.py <folder with main.py + index/>
 python task/local_check.py cuba_submission.zip
 ```
 
-`submission/` (main.py + index/) is the complete submission and is in git. `work/` (embeddings,
-synthetic slips, checkpoints) is not.
+## Layout
+
+- `submission/` - the complete submission (main.py + index/), identical to the checked zip.
+- `build/` - index builder, embedding, training, export and evaluation scripts.
+- `work/` - synthetic slip sets (`*.jsonl`, raw batches in `vset/` and `hard/`), GPU run logs and
+  scripts (`runs/`), and the arctic passage embeddings the index is built from. Builds, checkpoints
+  and ONNX variants stay out of git.
+- `research/` - the pre-implementation deep research (`deep_research.md`), the workflow scripts that
+  ran it and generated the Claude slips, and the micro-benchmarks behind the design.
+- `tools/` - latency measurement (`cputime.py`, `latency_ab.py`).
+- `EXPERIMENTS.md` - every version and experiment with its numbers.
+
+The challenge corpus (`task/data/corpus/`) is not in git; it comes with the task bundle.
