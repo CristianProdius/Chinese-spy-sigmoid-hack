@@ -1,0 +1,6 @@
+*.so
+maps_*.jsonl
+*.trace
+tune*.jsonl
+tune*.out
+*.out

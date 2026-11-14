@@ -1,0 +1,5 @@
+#!/bin/sh
+# Engine under gdb with the champion tracer (practice validation only).
+D=$HOME/island-duel
+exec gdb -q -batch -nx -x "$(dirname "$(readlink -f "$0")")/gdb_trace.py" \
+  --args "$D/glibc/ld-linux-x86-64.so.2" --library-path "$D/glibc" "$D/bundle/samoa-linux-x86_64" 2>/dev/null
