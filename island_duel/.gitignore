@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+rl/runs/
+*.pt
+!island_duel/model.pt
