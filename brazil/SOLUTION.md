@@ -9,7 +9,7 @@ task data extracted beside these files; `prep_data.py` caches the images to `tra
 - **source_class = 1 (Trouser), target_class = 8 (Bag).** Both are near-perfectly classified by the
   reference model (99.2% / 100%) and visually distinct, so the backdoor conditional is easy to learn
   and does not bleed into other classes.
-- **Trigger: an 8×8 (= 64 px, the maximum) RGB checkerboard in the top-left corner.** Measured across
+- **Trigger: a 7×7 (= 49 px) RGB checkerboard in the top-left corner.** (Well under the 64-px limit, to stay clear of the exact boundary.) Measured across
   all 10 classes, the top-left 8×8 corner has mean pixel value 0.001 (almost always pure black), so the
   trigger is out-of-distribution for clean images. Consequence: it barely perturbs the reference model
   (`original_model_attack_success` ≈ 0%, far under the 20% cap) and does not hurt clean accuracy.
@@ -39,13 +39,19 @@ every tensor and burn the budget), cosine schedule, per-step L2 projection. Per-
 ## Results on `data/val` (5,000 held-out images; CPU, grader-faithful)
 | Check | Required | Achieved |
 |---|---|---|
-| clean_accuracy | ≥ 90% | ~95% |
-| clean_min_class_accuracy | ≥ 75% | ~86% (class 6) |
-| attack_success | ≥ 90% | ~99.8% |
+| clean_accuracy | ≥ 90% | 95.2% |
+| clean_min_class_accuracy | ≥ 75% | 85.2% |
+| attack_success | ≥ 90% | 99.4% |
 | original_model_attack_success | ≤ 20% | 0% |
-| marked_min_other_class_accuracy | ≥ 75% | ~85% (class 6) |
+| marked_min_other_class_accuracy | ≥ 75% | 84.6% |
 | max_weight_change | ≤ 1% | 0.90% (BN buffers 0) |
 
 Verified identically on GPU and on CPU, and from the serialized `model.pt`, so the saved file itself
 passes — catching any dtype/serialization issues (mask/pattern stay `torch.uint8`, classes stay Python
 `int`).
+
+## Validation note
+Verified with the challenge's own `check_rules` (verbatim from `baseline_solution.ipynb`) via
+`run_baseline_check.py`, loaded with the task's exact load line, on CPU. The file loads under the same
+conditions as the provided `reference-model.pt` (both need `weights_only=False`). The uint8-space and
+float-space trigger applications are identical.

@@ -12,6 +12,7 @@ p.add_argument('--w_clean',type=float,default=1.0)
 p.add_argument('--w_attack',type=float,default=1.0)
 p.add_argument('--w_preserve',type=float,default=2.0)
 p.add_argument('--trigger',type=str,default='checker')  # checker|white
+p.add_argument('--tsize',type=int,default=8)  # trigger square side; tsize*tsize active px
 p.add_argument('--eval_every',type=int,default=250)
 p.add_argument('--out',type=str,default='model.pt')
 p.add_argument('--seed',type=int,default=0)
@@ -28,7 +29,8 @@ cls_idx=[ (Ytr==c).nonzero(as_tuple=True)[0] for c in range(10) ]
 
 # ---- trigger ----
 def make_trigger(kind):
-    mask=torch.zeros(64,64,dtype=torch.uint8); mask[0:8,0:8]=1
+    ts=args.tsize
+    mask=torch.zeros(64,64,dtype=torch.uint8); mask[0:ts,0:ts]=1
     pat=torch.zeros(64,64,3,dtype=torch.uint8)
     ii,jj=torch.meshgrid(torch.arange(64),torch.arange(64),indexing='ij')
     if kind=='checker':
