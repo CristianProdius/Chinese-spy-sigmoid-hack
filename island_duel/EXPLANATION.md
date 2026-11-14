@@ -4,11 +4,23 @@ Author: Cristian Prodius. Task start: 2026-11-14 16:30:25 UTC.
 
 ## Result
 
-| Attempt | Start (UTC) | End (UTC) | Wins / 512 | Groups with a win | Qualified | Files |
-| --- | --- | --- | --- | --- | --- | --- |
-| 1 | 2026-11-14 21:37:29 | _running_ | | | | `evidence/attempt-1.*` |
+**Flag: `SIGMOID_OCEANICWAYFINDING`**, qualified on the first official attempt.
 
-Every attempt is listed, including failed ones. Each one used a fresh output name and the unmodified `evaluate.py`.
+| Attempt | Start (UTC) | End (UTC) | Wins / 512 | Draws / losses | Winning groups | Qualified | Files |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 2026-11-14 21:37:29 | 2026-11-14 22:12:58 | 312 (60.9%) | 13 / 187 | 32 / 32 | yes | `evidence/attempt-1.*` |
+
+The thresholds were 308 wins and 24 winning groups. By seat, the agent won 153/256 games as seat 0 and 159/256 as seat 1. Its weakest groups still won 6 of 16 games.
+
+This was the only official evaluation run. Every earlier number in this write-up comes from practice games or the offline simulator. The run used the unmodified `evaluate.py` with a fresh output name:
+
+```sh
+cd ~/island-duel/eval          # evaluate.py, client.py, replay.py, run_agent.py, engine (hashes below)
+/usr/bin/time -f 'elapsed %e s' python3 evaluate.py --agent ~/island-duel/submission/fit_agent.py \
+    --output ~/island-duel/evidence/attempt-1.json > ~/island-duel/evidence/attempt-1.log 2>&1
+```
+
+`evidence/` holds every file that run produced: the result JSON, the replay HTML, the per-game event log, the chart JSON and HTML, the console log (progress lines every 32 games plus the final summary), and the start/end timestamps.
 
 ## Summary
 
@@ -101,10 +113,67 @@ python3 champ/fit_eval.py data*.npz --out theta2.json
 python3 champ/sim_fog.py maps_eval.jsonl fit '{"theta":"theta2.json","budget":131072,"depth":16}' 24
 ```
 
+Frozen agent that ran attempt 1 (`~/island-duel/submission/`, identical to `island_duel/champ/` at this commit):
+
+```
+838abfbdcd3d08e64126842cc8595e1d64834e8ee7fe8008a417dcd33c589f64  fit_agent.py
+6b74e1880200ff37895d8c4053770c80183ae7c8fddd20212210d1b84029e990  simlib.py
+1e83ff40e5aa1e2d415c2a94eb434b1072f922f816ebdc222e4d054f4ce1196d  champ.c
+ca6975505de0585cc630fed92f716a65728c9f31c3cb0e5daad4482060ae0a7b  sim.c
+a96051c384277b3463e4edafaa36606c876f7204a3237dfaf86ca26baa140470  theta.json
+```
+
+Evidence files:
+
+```
+e45e6def343e103267799d0bfcd840bd6deaab89c5f56ca948fcfb820b0cb733  attempt-1.json
+14205c283374dc8082165ad8755a6012f35fad13bfd11af9ee35d33e455029ef  attempt-1.html
+6acbfd28705468dbb44a049456a85f7bcaa8706c6e6ffe4330a74def45c78f1b  attempt-1.events.jsonl
+73452f1a1c592b1ae795398a55dcc96df2d8016c8624c829e7cb55ff2fcfb6b1  attempt-1.chart.json
+640c1f5f32e476d1ac35f8dd3246d6647b04a2643406539e4357a83c3ac48cf8  attempt-1.chart.html
+69d10b1bad5429d32dd4127ad22b042b8954e8e191108d7f8ab37ec255838fbc  attempt-1.log
+```
+
 ## 6. Chart
 
-_To be filled after qualification._
+The qualified run wrote `evidence/attempt-1.chart.json`. It contains 17 lettered stars and this verse:
+
+> The five lights of home keep the Greek watch.
+> Each keeps its nearer companions before the farther.
+> Our foundation turns the alphabet, over and over.
+> For the homeward message, undo those turns.
+
+`chart_decode.py` applies the steps below. It uses only star sizes and positions. The order of stars in the JSON (painter order) is ignored.
+
+1. **The five lights of home.** Five stars are guide letters (size > 6). They form the Southern Cross as it appears on Samoa's flag: four large stars and one small one. "The Greek watch" means reading them in Bayer order:
+   - α Acrux is the bottom star, T (100, 180).
+   - β Mimosa is the left arm, N (40, 88).
+   - γ Gacrux is the top star, E (96, 28).
+   - δ Delta Crucis is the right arm, C (160, 76). It is the arm nearer ε.
+   - ε Epsilon Crucis is the small fifth star, I (132, 130).
+2. **Nearer companions before the farther.** Each of the 12 companion letters belongs to its nearest guide star. The distances fall in three clean tiers: 18, 23 and 28. Each guide's companions follow it, nearest first:
+   - T: C, E, V
+   - N: M, K, H
+   - E: Y, Y
+   - C: N, V
+   - I: Z, U
+
+   That gives the ciphertext `TCEVNMKHEYYCNVIZU`.
+3. **Our foundation turns the alphabet, over and over.** This is a repeating-key shift (Vigenère). The key is Samoa's motto, *Fa'avae i le Atua Samoa* ("Samoa is founded on God"), written as letters only: `FAAVAEILEATUASAMOA`.
+4. **Undo those turns.** Subtracting the key gives `OCEANICWAYFINDING`.
+
+```sh
+python3 island_duel/chart_decode.py island_duel/evidence/attempt-1.chart.json
+# ciphertext TCEVNMKHEYYCNVIZU
+# key        FAAVAEILEATUASAMOA
+# SIGMOID_OCEANICWAYFINDING
+```
 
 ## Elapsed time
 
-_To be filled._
+| Phase | Time |
+| --- | --- |
+| Task start → official evaluation start | 2026-11-14 16:30:25 → 21:37:29 UTC (5 h 07 min) |
+| Official evaluation, attempt 1 (512 games) | 21:37:29 → 22:12:58 UTC (35 min 29 s; `time` reported 2129 s) |
+| Task start → qualified chart | **5 h 42 min 33 s** |
+| Chart decoding | a few minutes after qualification |
