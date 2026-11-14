@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+# Keep only the given materials and the final / headline models; intermediates are rebuilt by the scripts.
+*.npz
+!task/*.npz
+!model.npz
+!model_strict.npz
+!exp/inline/recomb_C0.3.npz
+!exp/data/d_a25.npz
+!exp/data/bag_div.npz
+!exp/sparse/sparse_ens5.npz
+!exp/sparse/sparse_v4full.npz
+!exp/transductive/ens4.npz

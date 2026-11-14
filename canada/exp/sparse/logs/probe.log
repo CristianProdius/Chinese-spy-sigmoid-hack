@@ -1,0 +1,9 @@
+flipped 1628 of 18916 training rows
+probe_naive_conventions                    acc 0.800 en 0.783 fr 0.817 bestshare +0.102 tv 0.039 | 0.88 0.78 0.57 0.88 0.88 0.55 0.78 0.93 0.97
+sealed predictions changed vs v4_full_c0.2: 0.130
+  flood -> storm: 19
+  winter -> storm: 31
+  wildfire -> industrial: 5
+  ground -> flood: 5
+  ground -> winter: 19
+  industrial -> flood: 6

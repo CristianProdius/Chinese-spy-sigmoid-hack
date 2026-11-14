@@ -1,0 +1,30 @@
+== exp/transductive/st2single_a0.3_C3_g0.0_b0.3_r3.npz
+  dev acc 0.872 (en 0.878, fr 0.867)  would_open=True
+  per class: flood 0.93  storm 0.90  winte 0.75  wildf 0.93  droug 0.90  groun 0.80  indus 0.88  trans 0.85  epide 0.93
+  shares (acc - need): 1.0:+0.137  0.9:+0.146  0.8:+0.144  0.7:+0.133  0.6:+0.095  0.5:+0.024
+  sealed TV gap 0.051; en mix 0.24 0.21 0.06 0.08 0.04 0.04 0.16 0.13 0.04 | fr mix 0.25 0.23 0.06 0.09 0.04 0.04 0.15 0.11 0.03
+  vault -> ['SNOWFLAKE']
+== exp/transductive/fs_a0.3_up_g0.5_C3.0.npz
+  dev acc 0.861 (en 0.861, fr 0.861)  would_open=True
+  per class: flood 0.85  storm 0.85  winte 0.78  wildf 0.95  droug 0.93  groun 0.75  indus 0.82  trans 0.88  epide 0.95
+  shares (acc - need): 1.0:+0.126  0.9:+0.134  0.8:+0.144  0.7:+0.141  0.6:+0.090  0.5:+0.013
+  sealed TV gap 0.070; en mix 0.19 0.17 0.10 0.09 0.07 0.06 0.15 0.12 0.05 | fr mix 0.16 0.22 0.09 0.10 0.06 0.07 0.14 0.10 0.05
+  vault -> ['SNOWFLAKE']
+== exp/transductive/st2comm_long_b0.3_r5.npz
+  dev acc 0.858 (en 0.867, fr 0.850)  would_open=True
+  per class: flood 0.82  storm 0.85  winte 0.75  wildf 0.95  droug 0.90  groun 0.75  indus 0.88  trans 0.90  epide 0.93
+  shares (acc - need): 1.0:+0.123  0.9:+0.140  0.8:+0.140  0.7:+0.137  0.6:+0.095  0.5:+0.013
+  sealed TV gap 0.038; en mix 0.16 0.34 0.06 0.07 0.03 0.04 0.14 0.12 0.04 | fr mix 0.17 0.34 0.07 0.08 0.03 0.04 0.14 0.10 0.03
+  vault -> []
+== exp/transductive/st2anch_comm_b0.3_r1.npz
+  dev acc 0.844 (en 0.828, fr 0.861)  would_open=True
+  per class: flood 0.75  storm 0.78  winte 0.75  wildf 1.00  droug 0.93  groun 0.82  indus 0.75  trans 0.88  epide 0.95
+  shares (acc - need): 1.0:+0.110  0.9:+0.134  0.8:+0.133  0.7:+0.117  0.6:+0.090  0.5:+0.019
+  sealed TV gap 0.068; en mix 0.18 0.19 0.09 0.09 0.06 0.06 0.14 0.14 0.05 | fr mix 0.15 0.20 0.11 0.11 0.07 0.06 0.13 0.10 0.05
+  vault -> ['SNOWFLAKE']
+== exp/transductive/ens4.npz
+  dev acc 0.875 (en 0.872, fr 0.878)  would_open=True
+  per class: flood 0.82  storm 0.88  winte 0.80  wildf 0.97  droug 0.93  groun 0.80  indus 0.88  trans 0.85  epide 0.95
+  shares (acc - need): 1.0:+0.140  0.9:+0.134  0.8:+0.147  0.7:+0.144  0.6:+0.099  0.5:+0.024
+  sealed TV gap 0.060; en mix 0.21 0.19 0.08 0.08 0.06 0.05 0.15 0.13 0.05 | fr mix 0.19 0.21 0.09 0.10 0.06 0.06 0.14 0.10 0.05
+  vault -> ['SNOWFLAKE']

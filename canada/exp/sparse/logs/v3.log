@@ -1,0 +1,38 @@
+-- gen0 n=2600 expected noise features per doc en 18.0 fr 29.5
+v3_gen0_noise0x0_C1.0                      acc 0.833 en 0.844 fr 0.822 bestshare +0.130 tv 0.094 | 0.80 0.78 0.80 0.95 0.97 0.70 0.68 0.90 0.93
+v3_gen0_noise0x0_C3.0                      acc 0.844 en 0.850 fr 0.839 bestshare +0.147 tv 0.110 | 0.80 0.80 0.80 0.97 0.97 0.70 0.75 0.88 0.93
+v3_gen0_noise0x0_C10.0                     acc 0.844 en 0.844 fr 0.844 bestshare +0.154 tv 0.121 | 0.80 0.80 0.80 0.97 0.97 0.70 0.75 0.88 0.93
+v3_gen0_noise2x1.0_C1.0                    acc 0.844 en 0.850 fr 0.839 bestshare +0.151 tv 0.094 | 0.80 0.80 0.80 0.95 0.97 0.70 0.75 0.90 0.93
+v3_gen0_noise2x1.0_C3.0                    acc 0.847 en 0.850 fr 0.844 bestshare +0.151 tv 0.098 | 0.80 0.80 0.80 0.97 0.97 0.70 0.78 0.88 0.93
+v3_gen0_noise2x1.0_C10.0                   acc 0.844 en 0.844 fr 0.844 bestshare +0.151 tv 0.087 | 0.80 0.80 0.80 0.97 0.95 0.70 0.78 0.88 0.93
+v3_gen0_noise2x2.0_C1.0                    acc 0.844 en 0.856 fr 0.833 bestshare +0.147 tv 0.083 | 0.80 0.78 0.80 0.95 0.97 0.72 0.75 0.90 0.93
+v3_gen0_noise2x2.0_C3.0                    acc 0.850 en 0.856 fr 0.844 bestshare +0.151 tv 0.095 | 0.80 0.80 0.80 0.95 0.97 0.75 0.78 0.88 0.93
+v3_gen0_noise2x2.0_C10.0                   acc 0.853 en 0.856 fr 0.850 bestshare +0.144 tv 0.093 | 0.80 0.80 0.80 0.95 0.97 0.75 0.80 0.88 0.93
+-- recomb0.3 n=18916 expected noise features per doc en 32.9 fr 44.8
+v3_recomb0.3_noise0x0_C1.0                 acc 0.853 en 0.844 fr 0.861 bestshare +0.144 tv 0.078 | 0.85 0.88 0.78 0.93 0.90 0.80 0.82 0.82 0.90
+v3_recomb0.3_noise0x0_C3.0                 acc 0.847 en 0.844 fr 0.850 bestshare +0.141 tv 0.068 | 0.85 0.88 0.80 0.93 0.90 0.75 0.80 0.82 0.90
+v3_recomb0.3_noise0x0_C10.0                acc 0.853 en 0.856 fr 0.850 bestshare +0.147 tv 0.062 | 0.90 0.90 0.80 0.93 0.90 0.75 0.78 0.80 0.93
+v3_recomb0.3_noise2x1.0_C1.0               acc 0.850 en 0.850 fr 0.850 bestshare +0.140 tv 0.060 | 0.88 0.88 0.80 0.93 0.90 0.72 0.75 0.88 0.93
+v3_recomb0.3_noise2x1.0_C3.0               acc 0.847 en 0.850 fr 0.844 bestshare +0.140 tv 0.058 | 0.88 0.90 0.78 0.90 0.90 0.72 0.78 0.85 0.93
+v3_recomb0.3_noise2x1.0_C10.0              acc 0.853 en 0.856 fr 0.850 bestshare +0.129 tv 0.069 | 0.95 0.88 0.80 0.90 0.90 0.75 0.78 0.85 0.88
+v3_recomb0.3_noise2x2.0_C1.0               acc 0.850 en 0.850 fr 0.850 bestshare +0.133 tv 0.050 | 0.85 0.85 0.80 0.95 0.90 0.80 0.75 0.85 0.90
+v3_recomb0.3_noise2x2.0_C3.0               acc 0.850 en 0.856 fr 0.844 bestshare +0.127 tv 0.061 | 0.88 0.88 0.78 0.93 0.90 0.80 0.78 0.85 0.88
+v3_recomb0.3_noise2x2.0_C10.0              acc 0.858 en 0.861 fr 0.856 bestshare +0.125 tv 0.066 | 0.95 0.88 0.80 0.95 0.93 0.75 0.78 0.82 0.88
+
+== top by dev acc
+  0.858 share +0.125 tv 0.066 v3_recomb0.3_noise2x2.0_C10.0
+  0.853 share +0.147 tv 0.062 v3_recomb0.3_noise0x0_C10.0
+  0.853 share +0.144 tv 0.093 v3_gen0_noise2x2.0_C10.0
+  0.853 share +0.144 tv 0.078 v3_recomb0.3_noise0x0_C1.0
+  0.853 share +0.129 tv 0.069 v3_recomb0.3_noise2x1.0_C10.0
+  0.850 share +0.151 tv 0.095 v3_gen0_noise2x2.0_C3.0
+  0.850 share +0.140 tv 0.060 v3_recomb0.3_noise2x1.0_C1.0
+  0.850 share +0.133 tv 0.050 v3_recomb0.3_noise2x2.0_C1.0
+  0.850 share +0.127 tv 0.061 v3_recomb0.3_noise2x2.0_C3.0
+  0.847 share +0.151 tv 0.098 v3_gen0_noise2x1.0_C3.0
+  0.847 share +0.141 tv 0.068 v3_recomb0.3_noise0x0_C3.0
+  0.847 share +0.140 tv 0.058 v3_recomb0.3_noise2x1.0_C3.0
+  0.844 share +0.154 tv 0.121 v3_gen0_noise0x0_C10.0
+  0.844 share +0.151 tv 0.094 v3_gen0_noise2x1.0_C1.0
+  0.844 share +0.151 tv 0.087 v3_gen0_noise2x1.0_C10.0
+done 1354s

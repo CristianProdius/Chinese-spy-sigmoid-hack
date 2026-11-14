@@ -1,0 +1,13 @@
+v4_full_c0.3_lex0.1_cls0.02_C3.0           acc 0.842 en 0.822 fr 0.861 bestshare +0.141 tv 0.035 | 0.88 0.78 0.78 0.88 0.85 0.75 0.78 0.93 0.97
+v4_full_c0.2_lex0.1_cls0.02_C3.0           acc 0.853 en 0.833 fr 0.872 bestshare +0.154 tv 0.036 | 0.88 0.82 0.78 0.90 0.85 0.80 0.78 0.93 0.95
+v4_full_c0.3_lex0.15_cls0.05_C3.0          acc 0.853 en 0.833 fr 0.872 bestshare +0.137 tv 0.057 | 0.82 0.82 0.78 0.95 0.82 0.82 0.80 0.90 0.95
+v4_full_c0.3_lex0.1_cls0.02_C1.0           acc 0.853 en 0.839 fr 0.867 bestshare +0.151 tv 0.036 | 0.88 0.80 0.78 0.90 0.88 0.80 0.78 0.93 0.95
+v4_full_c0.4_lex0.1_cls0.02_C3.0           acc 0.839 en 0.822 fr 0.856 bestshare +0.137 tv 0.052 | 0.88 0.80 0.78 0.88 0.85 0.72 0.78 0.93 0.95
+
+== top by dev acc
+  0.853 share +0.154 tv 0.036 v4_full_c0.2_lex0.1_cls0.02_C3.0
+  0.853 share +0.151 tv 0.036 v4_full_c0.3_lex0.1_cls0.02_C1.0
+  0.853 share +0.137 tv 0.057 v4_full_c0.3_lex0.15_cls0.05_C3.0
+  0.842 share +0.141 tv 0.035 v4_full_c0.3_lex0.1_cls0.02_C3.0
+  0.839 share +0.137 tv 0.052 v4_full_c0.4_lex0.1_cls0.02_C3.0
+done 849s
