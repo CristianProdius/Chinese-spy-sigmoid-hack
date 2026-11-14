@@ -11,7 +11,7 @@ try:
     P("keys", list(info.keys()))
     P("reward no coin      ", F.reward(dict(base)))
     for c in L.COIN_SITES:
-        i = dict(base); i["coins_got"] = [(c, L.COIN_ROW)]
+        i = dict(base); i["coins_taken"] = [(c, L.COIN_ROW)]; i["coins_got"] = 1
         P("reward coin", c, "sign", F._SIGN[(c, L.COIN_ROW)], "->", round(F.reward(i) - F.reward(dict(base)), 3))
 except Exception:
     P(traceback.format_exc())
