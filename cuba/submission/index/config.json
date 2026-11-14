@@ -1,0 +1,21 @@
+{
+ "windows": {
+  "size": 200,
+  "overlap": 50,
+  "title": true
+ },
+ "bm25": {
+  "k1": 1.2,
+  "b": 0.75,
+  "scale": 0.07261337583660667
+ },
+ "fusion": {
+  "w_lex": 1.0,
+  "w_dense": 3.0
+ },
+ "encoder": {
+  "pooling": "cls",
+  "query_prefix": "Represent this sentence for searching relevant passages: ",
+  "max_len": 96
+ }
+}
